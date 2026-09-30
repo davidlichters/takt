@@ -82,7 +82,7 @@
     document.getElementById("mehr").textContent = `${(fresser / 36e5).toFixed(1)} hrs more than David`;   // David: 0 Stunden
     const leg = document.getElementById("legende"); leg.innerHTML = "";
     for (const k of [...ARTEN, ANDERE]) {
-      const v = summe.get(k); if (!v) continue;
+      const v = summe.get(k); if (!v || v < 30000) continue;
       const e = document.createElement("div"); e.className = "eintrag";
       e.innerHTML = `<b style="background:${k.farbe}"></b><span>${k.name} ${dauer(v)}</span>`;
       leg.appendChild(e);
