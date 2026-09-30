@@ -4,52 +4,63 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#FFFFFF">
 <title>Unser Takt</title>
 <style>
-  :root { --bg:#ffffff; --text:#1d1d1f; --leise:#86868b; --linie:#e5e5ea; --farbe:#0a84ff; }
-  @media (prefers-color-scheme: dark) { :root { --bg:#000000; --text:#f5f5f7; --leise:#98989d; --linie:#2c2c2e; --farbe:#409cff; } }
-  * { box-sizing: border-box; }
-  body { margin:0; background:var(--bg); color:var(--text); font:18px/1.45 -apple-system, BlinkMacSystemFont, "SF Pro Text", Helvetica, Arial, sans-serif; }
-  main { max-width:640px; margin:0 auto; padding:24px 16px 48px; }
-  h1 { font-size:30px; margin:0 0 4px; }
-  h1 span { color:var(--farbe); }
-  #stand { color:var(--leise); font-size:15px; margin-bottom:20px; }
-  .tag { color:var(--leise); font-size:14px; font-weight:600; text-transform:uppercase; letter-spacing:.04em; margin:24px 0 6px; }
-  .runde { display:flex; gap:14px; padding:12px 0; border-top:1px solid var(--linie); }
-  .zeit { font-weight:700; font-variant-numeric:tabular-nums; min-width:52px; color:var(--farbe); }
-  .satz { flex:1; }
+  /* Davids Design (~/Downloads/david-design/DESIGN.md): weiß, Apples Schrift, große Überschrift, viel Luft,
+     genau eine bunte Stelle: das Wort "Takt". Alles andere schwarz und grau. */
+  :root{
+    --white:#FFFFFF; --ink:#1D1D1F; --grey:#6E6E73; --line:#D2D2D7;
+    --g-sea:linear-gradient(96deg,#32ADE6 0%,#0A84FF 50%,#5E5CE6 100%);
+    --sf:-apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", "Helvetica Neue", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  html,body{background:var(--white);}
+  body{color:var(--ink);font-family:var(--sf);letter-spacing:-.01em;-webkit-font-smoothing:antialiased;}
+  main{max-width:720px;margin:0 auto;padding:56px 16px 72px;}
+  .kicker{font-size:13px;font-weight:600;letter-spacing:.02em;color:var(--grey);margin-bottom:10px;}
+  .kicker b{color:var(--ink);font-weight:600;}
+  h1{font-size:52px;line-height:1.04;font-weight:700;letter-spacing:-.035em;}
+  .grad{background-image:var(--g-sea);-webkit-background-clip:text;background-clip:text;color:transparent;-webkit-text-fill-color:transparent;padding-bottom:.06em;}
+  #stand{font-size:19px;line-height:1.45;color:var(--grey);margin-top:14px;}
+  .tag{font-size:13.5px;font-weight:600;letter-spacing:.005em;color:var(--grey);margin:44px 0 4px;}
+  .runde{display:grid;grid-template-columns:58px 1fr;gap:16px;padding:18px 0;border-bottom:1px solid var(--line);}
+  .zeit{font-size:15px;line-height:1.75;font-weight:600;color:var(--grey);font-variant-numeric:tabular-nums;}
+  .satz{font-size:19px;line-height:1.45;font-weight:400;}
+  @media (min-width:700px){ main{padding-top:88px;} h1{font-size:72px;} }
 </style>
 </head>
 <body>
 <main>
-  <h1>Unser <span>Takt</span></h1>
-  <div id="stand">Lädt …</div>
+  <div class="kicker"><b>PorchNap</b> · jede Runde in einem Satz</div>
+  <h1>Unser <span class="grad">Takt</span></h1>
+  <p id="stand">Lädt …</p>
   <div id="liste"></div>
 </main>
 <script>
 const QUELLE = "https://raw.githubusercontent.com/davidlichters/takt/daten/zeilen.json";
-function tagName(iso) {
-  const heute = new Date().toISOString().slice(0,10);
-  const gestern = new Date(Date.now()-864e5).toISOString().slice(0,10);
-  if (iso === heute) return "Heute";
-  if (iso === gestern) return "Gestern";
+function tagName(iso){
+  const f = d => new Date(d.getTime() - d.getTimezoneOffset()*6e4).toISOString().slice(0,10);
+  const jetzt = new Date(), gestern = new Date(Date.now() - 864e5);
+  if (iso === f(jetzt)) return "Heute";
+  if (iso === f(gestern)) return "Gestern";
   const [j,m,t] = iso.split("-"); return `${t}.${m}.${j}`;
 }
-async function laden() {
-  try {
-    const r = await fetch(QUELLE + "?t=" + Date.now(), { cache: "no-store" });
+async function laden(){
+  try{
+    const r = await fetch(QUELLE + "?t=" + Date.now(), {cache:"no-store"});
     const daten = (await r.json()).slice().reverse();
     const liste = document.getElementById("liste"); liste.innerHTML = "";
     let letzterTag = "";
-    for (const e of daten) {
-      if (e.tag !== letzterTag) { const d = document.createElement("div"); d.className = "tag"; d.textContent = tagName(e.tag); liste.appendChild(d); letzterTag = e.tag; }
+    for (const e of daten){
+      if (e.tag !== letzterTag){ const d = document.createElement("div"); d.className = "tag"; d.textContent = tagName(e.tag); liste.appendChild(d); letzterTag = e.tag; }
       const z = document.createElement("div"); z.className = "runde";
       const a = document.createElement("div"); a.className = "zeit"; a.textContent = e.zeit;
       const b = document.createElement("div"); b.className = "satz"; b.textContent = e.satz;
       z.append(a, b); liste.appendChild(z);
     }
-    document.getElementById("stand").textContent = daten.length ? `Letzte Runde: ${daten[0].zeit} Uhr. Die Seite lädt jede Minute neu.` : "Noch keine Runde.";
-  } catch (f) { document.getElementById("stand").textContent = "Gerade nicht erreichbar, neuer Versuch in einer Minute."; }
+    document.getElementById("stand").textContent = daten.length ? `Zuletzt um ${daten[0].zeit} Uhr. Die Seite lädt jede Minute neu.` : "Noch keine Runde.";
+  }catch(f){ document.getElementById("stand").textContent = "Gerade nicht erreichbar, neuer Versuch in einer Minute."; }
 }
 laden(); setInterval(laden, 60000);
 </script>
