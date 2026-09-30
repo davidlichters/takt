@@ -33,7 +33,7 @@
 </head>
 <body>
 <main>
-  <header><h1>Pulse</h1><div id="stand">PorchNap · Loading</div></header>
+  <header><h1>Pulse</h1><div id="stand">Porchnap · Loading</div></header>
   <div id="liste"></div>
 </main>
 <script>
@@ -68,8 +68,8 @@ async function laden(){
       z.append(el("div", "betreff", e.titel || e.satz), el("div", "satz", e.titel ? e.satz : ""));
       liste.appendChild(z);
     }
-    document.getElementById("stand").textContent = daten.length ? `PorchNap · Last ${daten[0].zeit}` : "PorchNap · No rounds yet";
-  }catch(f){ document.getElementById("stand").textContent = "PorchNap · Offline, retrying"; }
+    document.getElementById("stand").textContent = daten.length ? `Porchnap · Last ${daten[0].zeit}` : "Porchnap · No rounds yet";
+  }catch(f){ document.getElementById("stand").textContent = "Porchnap · Offline, retrying"; }
 }
 laden(); if (!window.DATEN_TEST) setInterval(laden, 60000);
 </script>
