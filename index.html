@@ -10,8 +10,8 @@
 <title>Pulse</title>
 <style>
   /* Nachbau des iOS-Mail-Posteingangs (Davids Screenshot 30.09.2026, iPhone 393 pt breit), Maße in pt = CSS-px.
-     Grundlinien aus dem Screenshot gemessen; bei SF Pro und line-height 1 liegt die Grundlinie 0,8555 × Schriftgröße
-     unter der Oberkante des Textkastens. */
+     Grundlinien aus dem Screenshot gemessen; bei SF Pro und line-height 1 liegt die Grundlinie bei Zeilenhöhe L
+     (L − 1,193 × Größe) / 2 + 0,952 × Größe unter der Oberkante des Textkastens. */
   :root{ --label:#000000; --grau:#8A8A8E; --linie:#C6C6C8; --pfeil:#C4C4C7; --blau:#007AFF; }
   *{box-sizing:border-box;margin:0;padding:0;}
   html,body{background:#FFFFFF;}
@@ -23,10 +23,10 @@
   .runde{position:relative;height:100.8px;}
   .runde::after{content:"";position:absolute;left:34.7px;right:16px;bottom:0;border-bottom:.33px solid var(--linie);}
   .punkt{position:absolute;left:16.35px;top:18px;width:8.7px;height:8.7px;border-radius:50%;background:var(--blau);}
-  .wer{position:absolute;left:34.7px;right:120px;top:13.8px;font:600 17px/17px -apple-system,BlinkMacSystemFont,"SF Pro Text",system-ui,sans-serif;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+  .wer{position:absolute;left:34.7px;right:120px;top:11.26px;font:600 17px/22px -apple-system,BlinkMacSystemFont,"SF Pro Text",system-ui,sans-serif;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
   .zeit{position:absolute;right:32.3px;top:15.5px;font:400 15px/15px -apple-system,BlinkMacSystemFont,"SF Pro Text",system-ui,sans-serif;color:var(--grau);}
   .pfeil{position:absolute;right:16.2px;top:15.9px;width:8px;height:13px;}
-  .betreff{position:absolute;left:34.7px;right:16px;top:33.8px;font:400 15px/15px -apple-system,BlinkMacSystemFont,"SF Pro Text",system-ui,sans-serif;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+  .betreff{position:absolute;left:34.7px;right:16px;top:31.4px;font:400 15px/20px -apple-system,BlinkMacSystemFont,"SF Pro Text",system-ui,sans-serif;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
   .satz{position:absolute;left:34.7px;right:16px;top:50.3px;font:400 15px/19.33px -apple-system,BlinkMacSystemFont,"SF Pro Text",system-ui,sans-serif;color:var(--grau);
         display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;}
 </style>
