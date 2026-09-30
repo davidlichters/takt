@@ -2,486 +2,680 @@
 {
 "tag": "2026-09-29",
 "zeit": "23:55",
-"satz": "Ich habe acht Ideen für Hundebetten im Dezember gesammelt."
+"typ": "kreativ",
+"titel": "Acht Ideen für Dezember",
+"satz": "Ich habe acht neue Ideen gesammelt."
 },
 {
 "tag": "2026-09-30",
 "zeit": "00:00",
-"satz": "Ich habe die Hundebett-Liste verbessert, damit Timo sie richtig macht."
+"typ": "normal",
+"titel": "Hundebett richtig beschrieben",
+"satz": "Ich habe falsche Aussagen gestrichen."
 },
 {
 "tag": "2026-09-30",
 "zeit": "00:05",
-"satz": "Ich habe Fragen beantwortet, wie viel ein Hundevideo kostet."
+"typ": "recherche",
+"titel": "Zwei Antworten bekommen",
+"satz": "Ich habe zehn neue Fragen gestellt."
 },
 {
 "tag": "2026-09-30",
 "zeit": "00:10",
-"satz": "Ich habe gefunden, wo sich die Versandseite versteckt."
+"typ": "verbesserer",
+"titel": "Fehler in Seiten gefunden",
+"satz": "Ich habe Seiten geschützt und geprüft."
 },
 {
 "tag": "2026-09-30",
 "zeit": "00:15",
-"satz": "Ich habe eine Seite über den Laden geschrieben und geprüft."
+"typ": "normal",
+"titel": "Über uns fertig",
+"satz": "Ich habe jede Aussage überprüft und zwei gestrichen."
 },
 {
 "tag": "2026-09-30",
 "zeit": "00:20",
-"satz": "Ich habe nachgerechnet, welche Hunderasse ins Hundebett passt."
+"typ": "recherche",
+"titel": "Hundeart-Test gemacht",
+"satz": "Ich habe zehn neue Fragen gestellt."
 },
 {
 "tag": "2026-09-30",
 "zeit": "00:25",
-"satz": "Ich habe neue Ideen für Hundebetten im Dezember gesammelt."
+"typ": "kreativ",
+"titel": "Fünf Ideen ohne neue Ware",
+"satz": "Ich habe Ideen gefunden, die Geld bringen."
 },
 {
 "tag": "2026-09-30",
 "zeit": "00:30",
-"satz": "Ich habe geprüft, was der Laden dem Kunden zeigen muss."
+"typ": "normal",
+"titel": "Regeln für den Laden",
+"satz": "Ich habe geprüft, was der Laden braucht."
 },
 {
 "tag": "2026-09-30",
 "zeit": "00:35",
-"satz": "Ich habe gelernt, wann die Weihnachtswerbung zu teuer wird."
+"typ": "recherche",
+"titel": "Stopp-Regel für Werbung",
+"satz": "Ich habe gelernt, wann wir Werbung stoppen."
 },
 {
 "tag": "2026-09-30",
 "zeit": "00:40",
-"satz": "Ich habe aufgehört zu erzählen und fängt an, wirklich zu machen."
+"typ": "verbesserer",
+"titel": "Handgriffe statt Ideen",
+"satz": "Ich habe richtige Handgriffe gebaut."
 },
 {
 "tag": "2026-09-30",
 "zeit": "00:45",
-"satz": "Ich habe überprüft, ob alle Links richtig zum Ziel zeigen."
+"typ": "normal",
+"titel": "Verweise überprüft und gefixt",
+"satz": "Ich habe Fehler in den Verweisen behoben."
 },
 {
 "tag": "2026-09-30",
 "zeit": "00:50",
-"satz": "Ich habe geklärt, bis wann Bonnies Pakete ankommen müssen."
+"typ": "recherche",
+"titel": "Weihnachts-Versand geprüft",
+"satz": "Ich habe drei Fragen an Bonnie gestellt."
 },
 {
 "tag": "2026-09-30",
 "zeit": "00:50",
-"satz": "Ich habe eine Erinnerungsmail geschrieben, um Käufer zurück zu holen."
+"typ": "kreativ",
+"titel": "Abbruch-Mail mit fünf Texten",
+"satz": "Ich habe Mails geschrieben, um Käufer zurück zu holen."
 },
 {
 "tag": "2026-09-30",
 "zeit": "01:00",
-"satz": "Ich habe gefunden, dass die Läden-Links noch nicht funktionieren."
+"typ": "normal",
+"titel": "Kaufseite kaputt gefunden",
+"satz": "Ich habe den Fehler im Laden behoben."
 },
 {
 "tag": "2026-09-30",
 "zeit": "01:05",
-"satz": "Ich habe neue Fragen gestellt über den Laden und die Werbung."
+"typ": "recherche",
+"titel": "Drei Fragen gestellt",
+"satz": "Ich warte auf Antworten morgen."
 },
 {
 "tag": "2026-09-30",
 "zeit": "01:10",
-"satz": "Ich habe Fragen sortiert, damit Bonnies Antwort viel schneller kommt."
+"typ": "verbesserer",
+"titel": "Perplexity neu geordnet",
+"satz": "Ich habe wichtige Fragen nach vorn gestellt."
 },
 {
 "tag": "2026-09-30",
 "zeit": "01:15",
-"satz": "Ich habe David eine Mail geschrieben, die Bonnie lesen soll."
+"typ": "normal",
+"titel": "Brief an Bonnie geschrieben",
+"satz": "Ich habe drei Fragen gestellt und gesendet."
 },
 {
 "tag": "2026-09-30",
 "zeit": "01:20",
-"satz": "Ich habe gelernt, was der Laden zum Schutz von Kunden sagen muss."
+"typ": "recherche",
+"titel": "Datenschutz-Antwort bekommen",
+"satz": "Ich habe gelernt, was zum Schutz nötig ist."
 },
 {
 "tag": "2026-09-30",
 "zeit": "01:25",
-"satz": "Ich habe ausgerechnet, wie viel Geld der Laden jeden Tag braucht."
+"typ": "kreativ",
+"titel": "Bremsen-Regel für Geld",
+"satz": "Ich habe gerechnet, wann die Bremsen greifen."
 },
 {
 "tag": "2026-09-30",
 "zeit": "01:30",
-"satz": "Ich habe überall geschrieben, bis wann Kunden bestellen dürfen."
+"typ": "normal",
+"titel": "Bestellschluss überall gleich",
+"satz": "Ich habe geprüft, dass Timo einen Befehl braucht."
 },
 {
 "tag": "2026-09-30",
 "zeit": "01:35",
-"satz": "Ich habe die Rückgabe-Seite überprüft und verbessert."
+"typ": "recherche",
+"titel": "Rückgabe mit Kurs geprüft",
+"satz": "Ich habe acht Entscheidungen überprüft."
 },
 {
 "tag": "2026-09-30",
 "zeit": "01:40",
-"satz": "Ich habe ein zweites Hundebett geplant für die Weihnachtszeit."
+"typ": "verbesserer",
+"titel": "Regel für zweites Produkt",
+"satz": "Ich habe gerechnet, wann das zweite hilft."
 },
 {
 "tag": "2026-09-30",
 "zeit": "01:40",
-"satz": "Ich habe gerechnet, ob ein anderes Produkt mehr Geld bringt."
+"typ": "normal",
+"titel": "Zweites Produkt gerechnet",
+"satz": "Ich habe ausgerechnet, was das zweite verdient."
 },
 {
 "tag": "2026-09-30",
 "zeit": "01:50",
-"satz": "Ich habe gelernt, dass Bonnies Liefertage wichtiger sind."
+"typ": "recherche",
+"titel": "Lieferdatum-Antwort bekommen",
+"satz": "Ich habe gelernt, dass wir Bonnie fragen müssen."
 },
 {
 "tag": "2026-09-30",
 "zeit": "01:55",
-"satz": "Ich habe Werbung für fast-Käufer geplant und geschrieben."
+"typ": "kreativ",
+"titel": "Werbung für alte Käufer",
+"satz": "Ich habe gelernt, alte Käufer zurück zu werben."
 },
 {
 "tag": "2026-09-30",
 "zeit": "02:00",
-"satz": "Ich habe geprüft, was am Laden noch nicht funktioniert."
+"typ": "normal",
+"titel": "Laden noch nicht fertig",
+"satz": "Ich habe geprüft, dass noch alles alt heißt."
 },
 {
 "tag": "2026-09-30",
 "zeit": "02:05",
-"satz": "Ich habe gelernt, wann die Werbung erst richtig läuft."
+"typ": "recherche",
+"titel": "Geld-Grenze bei Meta",
+"satz": "Ich habe gelernt, wie Meta Geld im ersten Tag bremst."
 },
 {
 "tag": "2026-09-30",
 "zeit": "02:10",
-"satz": "Ich habe einen Plan gemacht, wie Timo die Lücken füllt."
+"typ": "verbesserer",
+"titel": "Platzhalter mit Skript füllen",
+"satz": "Ich habe ein Skript gebaut, das Timos Antworten einfügt."
 },
 {
 "tag": "2026-09-30",
 "zeit": "02:15",
-"satz": "Ich habe gerechnet, ob zwei Hundebetten zusammen besser sind."
+"typ": "normal",
+"titel": "Skript macht Platzhalter",
+"satz": "Ich habe ein Skript geprüft, das alles richtig macht."
 },
 {
 "tag": "2026-09-30",
 "zeit": "02:20",
-"satz": "Ich habe gelernt, dass der Laden schon bezahlt hat."
+"typ": "recherche",
+"titel": "Laden hat schon gekostet",
+"satz": "Ich habe gelernt, dass der Laden schon gekauft ist."
 },
 {
 "tag": "2026-09-30",
 "zeit": "02:25",
-"satz": "Ich habe eine Werbung für ein zweites Hundebett geplant."
+"typ": "kreativ",
+"titel": "Bestenliste zweiter Handgriff",
+"satz": "Ich habe gelernt, wie wir ein zweites Hundebett verkaufen."
 },
 {
 "tag": "2026-09-30",
 "zeit": "02:30",
-"satz": "Ich habe ausgesucht, welche Hunderasse am besten passt."
+"typ": "normal",
+"titel": "Rassen-Test entschieden",
+"satz": "Ich habe gerechnet, welche Rasse am besten passt."
 },
 {
 "tag": "2026-09-30",
 "zeit": "02:35",
-"satz": "Ich habe gelernt, dass Metas Werbung Kundendaten schützt."
+"typ": "recherche",
+"titel": "Meta-Datenübertragung geerntet",
+"satz": "Ich habe gelernt, was der Datenschutz braucht."
 },
 {
 "tag": "2026-09-30",
 "zeit": "02:40",
-"satz": "Ich habe eine neue Regel geschrieben für das zweite Produkt."
+"typ": "verbesserer",
+"titel": "Regel geordnet und gefixt",
+"satz": "Ich habe Regeln sortiert und Fragen gestellt."
 },
 {
 "tag": "2026-09-30",
 "zeit": "02:45",
-"satz": "Ich habe nachgedacht, was statt eines teuren Produkts passt."
+"typ": "normal",
+"titel": "Kein neues Produkt",
+"satz": "Ich habe geprüft, dass wir warten müssen."
 },
 {
 "tag": "2026-09-30",
 "zeit": "02:50",
-"satz": "Ich habe gelernt, wie der Laden nach dem Kauf noch verkauft."
+"typ": "recherche",
+"titel": "Nachkauf-Angebot geerntet",
+"satz": "Ich habe gelernt, wie wir ein zweites Hundebett anbieten."
 },
 {
 "tag": "2026-09-30",
 "zeit": "02:55",
-"satz": "Ich habe aufgeschrieben, wann die Werbung nächsten Tag startet."
+"typ": "kreativ",
+"titel": "Anzeigenstart um Mitternacht",
+"satz": "Ich habe geplant, wann Timo starten soll."
 },
 {
 "tag": "2026-09-30",
 "zeit": "03:00",
-"satz": "Ich habe David und Timo aufgeschrieben, was Bonnie fragen muss."
+"typ": "normal",
+"titel": "Bonnie-Nachricht geschrieben",
+"satz": "Ich habe eine Frage an Bonnie geschrieben."
 },
 {
 "tag": "2026-09-30",
 "zeit": "03:05",
-"satz": "Ich habe gelernt, wie die Werbung richtig funktioniert."
+"typ": "recherche",
+"titel": "Meta-Import geerntet",
+"satz": "Ich habe gelernt, wie wir Werbung in Meta starten."
 },
 {
 "tag": "2026-09-30",
 "zeit": "03:10",
-"satz": "Ich habe aufgeschrieben, was auf den Seiten noch fehlt."
+"typ": "verbesserer",
+"titel": "Skript für Seiten gemacht",
+"satz": "Ich habe das Skript gemacht, dass alles schneller geht."
 },
 {
 "tag": "2026-09-30",
 "zeit": "03:15",
-"satz": "Ich habe ein Werkzeug gebaut, das alle Lücken füllt."
+"typ": "normal",
+"titel": "Skript für Platzhalter",
+"satz": "Ich habe ein Skript geprüft, das Davids Antworten einfügt."
 },
 {
 "tag": "2026-09-30",
 "zeit": "03:20",
-"satz": "Ich habe geprüft, dass Bonnies Pakete richtig beschrieben sind."
+"typ": "recherche",
+"titel": "Laden live geprüft",
+"satz": "Ich habe keine Änderung am Laden gefunden."
 },
 {
 "tag": "2026-09-30",
 "zeit": "03:25",
-"satz": "Ich habe eine Faltkarte gebaut, die das Bett versteckt."
+"typ": "kreativ",
+"titel": "Reveal-Karte für Kunden",
+"satz": "Ich habe eine Karte gebaut, um das Hundebett zu verstecken."
 },
 {
 "tag": "2026-09-30",
 "zeit": "03:30",
-"satz": "Ich habe gefunden, dass der Laden zu weit versendet."
+"typ": "normal",
+"titel": "Welt-Versand geprüft",
+"satz": "Ich habe geprüft, dass wir nur in die USA liefern."
 },
 {
 "tag": "2026-09-30",
 "zeit": "03:35",
-"satz": "Ich habe gelernt, dass der Laden keine Steuer nehmen darf."
+"typ": "recherche",
+"titel": "Steuer-Antwort geerntet",
+"satz": "Ich habe gelernt, dass wir keine Steuer früh kassieren."
 },
 {
 "tag": "2026-09-30",
 "zeit": "03:40",
-"satz": "Ich habe sich selbst repariert und wird jetzt schneller."
+"typ": "verbesserer",
+"titel": "Perplexity-Fehler gefixt",
+"satz": "Ich habe das Problem mit Fragen gelöst."
 },
 {
 "tag": "2026-09-30",
 "zeit": "03:45",
-"satz": "Ich habe die Lieferdauer überall gleich geschrieben."
+"typ": "normal",
+"titel": "Import-CSV geprüft",
+"satz": "Ich habe die Beschreibung überprüft und gleich gemacht."
 },
 {
 "tag": "2026-09-30",
 "zeit": "03:50",
-"satz": "Ich habe gelernt, dass gute Werbung seltener ist."
+"typ": "recherche",
+"titel": "Creative-Treffer geerntet",
+"satz": "Ich habe gelernt, dass wir mehr Anzeigen brauchen."
 },
 {
 "tag": "2026-09-30",
 "zeit": "03:55",
-"satz": "Ich habe geplant, neue Werbung drei Tage zu testen."
+"typ": "kreativ",
+"titel": "Testspur für neue Anzeigen",
+"satz": "Ich habe geplant, wie wir neue Anzeigen testen."
 },
 {
 "tag": "2026-09-30",
 "zeit": "04:00",
-"satz": "Ich habe überall aufgeschrieben, wie lange Pakete brauchen."
+"typ": "normal",
+"titel": "Lieferzusage überprüft",
+"satz": "Ich habe geprüft, dass wir richtige Zeit sagen."
 },
 {
 "tag": "2026-09-30",
 "zeit": "04:05",
-"satz": "Ich habe gelernt, dass viele Pakete nach Weihnachten kommen."
+"typ": "recherche",
+"titel": "Zwei Antworten geerntet",
+"satz": "Ich habe gelernt, dass Pakete nach Weihnacht kommen."
 },
 {
 "tag": "2026-09-30",
 "zeit": "04:10",
-"satz": "Ich habe Fragen sortiert, damit Antworten schneller kommen."
+"typ": "verbesserer",
+"titel": "Lieferzeit-Kreis gebrochen",
+"satz": "Ich habe das Problem mit Warten gelöst."
 },
 {
 "tag": "2026-09-30",
 "zeit": "04:05",
-"satz": "Ich habe gewartet, bis Bonnies Antwort kommt."
+"typ": "normal",
+"titel": "Normal kurz beendet",
+"satz": "Ich warte noch auf Bonnies Antwort."
 },
 {
 "tag": "2026-09-30",
 "zeit": "04:10",
-"satz": "Ich habe gerechnet, dass gute Werbung seltener kommt."
+"typ": "recherche",
+"titel": "Creative-Treffer geerntet",
+"satz": "Ich habe gelernt, dass wir mehr Anzeigen brauchen."
 },
 {
 "tag": "2026-09-30",
 "zeit": "04:15",
-"satz": "Ich habe David aufgeschrieben, dass Bonnie schnell antworten muss."
+"typ": "kreativ",
+"titel": "Bonnies zweite Nachricht",
+"satz": "Ich habe einen Brief an Bonnie geschrieben."
 },
 {
 "tag": "2026-09-30",
 "zeit": "04:20",
-"satz": "Ich habe geprüft, wie der Laden Geld von Kunden bekommt."
+"typ": "normal",
+"titel": "Zahlungsarten geprüft",
+"satz": "Ich habe geprüft, wie Kunden zahlen können."
 },
 {
 "tag": "2026-09-30",
 "zeit": "04:25",
-"satz": "Ich habe ausgerechnet, wann die Werbung nicht mehr funktioniert."
+"typ": "recherche",
+"titel": "Budget-Regel geerntet",
+"satz": "Ich habe gelernt, wie viel Geld wir brauchen."
 },
 {
 "tag": "2026-09-30",
 "zeit": "04:30",
-"satz": "Ich habe alten Text weggeräumt, damit Listen schneller zu lesen sind."
+"typ": "verbesserer",
+"titel": "Aufträge geschlossen",
+"satz": "Ich habe aufgeräumt und alles kürzer gemacht."
 },
 {
 "tag": "2026-09-30",
 "zeit": "04:35",
-"satz": "Ich habe geprüft, dass der Laden die richtigen Regeln zeigt."
+"typ": "normal",
+"titel": "Richtlinien geprüft",
+"satz": "Ich habe geprüft, dass Richtlinien noch alt sind."
 },
 {
 "tag": "2026-09-30",
 "zeit": "04:40",
-"satz": "Ich habe gelernt, wie man den Laden richtig testet."
+"typ": "recherche",
+"titel": "Testkauf-Frage geerntet",
+"satz": "Ich habe gelernt, dass Testkauf ohne Geld geht."
 },
 {
 "tag": "2026-09-30",
 "zeit": "04:45",
-"satz": "Ich habe aufgeschrieben, was Timo über Metas Rechnungen wissen muss."
+"typ": "kreativ",
+"titel": "Meta-Steuer-Seite gemacht",
+"satz": "Ich habe Timo gezeigt, wo die Steuer in Meta ist."
 },
 {
 "tag": "2026-09-30",
 "zeit": "04:50",
-"satz": "Ich habe Werbungstexte gesammelt, weil Kunden den Laden lieben."
+"typ": "normal",
+"titel": "Zehn Konzepte geordnet",
+"satz": "Ich habe Konzepte geordnet und gekürzt."
 },
 {
 "tag": "2026-09-30",
 "zeit": "04:55",
-"satz": "Ich habe gelernt, dass Werbung sofort ohne Umschweife verkauft."
+"typ": "recherche",
+"titel": "Kaltstart-Antwort geerntet",
+"satz": "Ich habe gelernt, dass Werbung sofort läuft."
 },
 {
 "tag": "2026-09-30",
 "zeit": "05:00",
-"satz": "Ich habe Timos lange Liste gekürzt, damit er schneller startet."
+"typ": "verbesserer",
+"titel": "Blatt gekürzt für Timo",
+"satz": "Ich habe Timos Blatt kürzer gemacht."
 },
 {
 "tag": "2026-09-30",
 "zeit": "05:05",
-"satz": "Ich habe gefunden, dass Timo einen wichtigen Rabatt vergessen hat."
+"typ": "normal",
+"titel": "Rabatt im Laden",
+"satz": "Ich habe Rabatt in den Laden eingefügt."
 },
 {
 "tag": "2026-09-30",
 "zeit": "05:05",
-"satz": "Ich habe ein drittes Hundebett geplant, aber ohne neue Kosten."
+"typ": "recherche",
+"titel": "Hund-Produkt geerntet",
+"satz": "Ich habe gelernt, was kein anderes trägt."
 },
 {
 "tag": "2026-09-30",
 "zeit": "05:10",
-"satz": "Ich habe aufgeschrieben, wie viel Geld Timo bekommen kann."
+"typ": "kreativ",
+"titel": "Auszahlungs-Seite gemacht",
+"satz": "Ich habe Timo gezeigt, wo das Geld kommt."
 },
 {
 "tag": "2026-09-30",
 "zeit": "05:15",
-"satz": "Ich habe herausgefunden, dass kein anderes Produkt passt."
+"typ": "normal",
+"titel": "Produkt zwei ist nicht ready",
+"satz": "Ich habe gelernt, dass Produkt zwei nichts trägt."
 },
 {
 "tag": "2026-09-30",
 "zeit": "05:20",
-"satz": "Ich habe alte Fragen sortiert, damit neue schneller beantwortet werden."
+"typ": "recherche",
+"titel": "Alte Fragen gelöscht",
+"satz": "Ich habe alte Fragen gelöscht und neue gestellt."
 },
 {
 "tag": "2026-09-30",
 "zeit": "05:25",
-"satz": "Ich habe Timos Liste auf die wichtigsten Aufgaben gekürzt."
+"typ": "verbesserer",
+"titel": "Blatt gekürzt und geordnet",
+"satz": "Ich habe Timos Blatt gekürzt und Wichtiges vorn."
 },
 {
 "tag": "2026-09-30",
 "zeit": "05:30",
-"satz": "Ich habe überflüssige Wörter gestrichen, damit Timo schneller startet."
+"typ": "normal",
+"titel": "Blatt halb so lang",
+"satz": "Ich habe Timos Blatt halb so lang gemacht."
 },
 {
 "tag": "2026-09-30",
 "zeit": "05:35",
-"satz": "Ich habe gelernt, dass Bonnies Fotos besser sind."
+"typ": "recherche",
+"titel": "Bilder-Antwort geerntet",
+"satz": "Ich habe gelernt, dass wir Bonnies Fotos brauchen."
 },
 {
 "tag": "2026-09-30",
 "zeit": "05:40",
-"satz": "Ich habe nachgedacht, wie mehr Kunden vom Laden erfahren."
+"typ": "kreativ",
+"titel": "Acht Ideen gegen Unbekanntes",
+"satz": "Ich habe acht Ideen zum Bekannt-Werden gesammelt."
 },
 {
 "tag": "2026-09-30",
 "zeit": "05:45",
-"satz": "Ich habe die wichtigsten Wörter für den Laden aufgeschrieben."
+"typ": "normal",
+"titel": "Versand und Text gleich",
+"satz": "Ich habe überprüft, dass alles zusammen passt."
 },
 {
 "tag": "2026-09-30",
 "zeit": "05:50",
-"satz": "Ich habe gelernt, dass Meta die Hunderasse nicht messen kann."
+"typ": "recherche",
+"titel": "Rassen-Texte geerntet",
+"satz": "Ich habe gelernt, dass wir von Rassen sprechen dürfen."
 },
 {
 "tag": "2026-09-30",
 "zeit": "05:55",
-"satz": "Ich habe die längste Liste wieder kurz gemacht."
+"typ": "verbesserer",
+"titel": "Aufträge geschlossen",
+"satz": "Ich habe alles kürzer und schneller gemacht."
 },
 {
 "tag": "2026-09-30",
 "zeit": "06:00",
-"satz": "Ich habe überflüssiges Zeug weggeräumt und es sicher abgelegt."
+"typ": "normal",
+"titel": "Blatt gekürzt und live",
+"satz": "Ich habe Timos Blatt kürzer gemacht."
 },
 {
 "tag": "2026-09-30",
 "zeit": "06:05",
-"satz": "Ich habe gelernt, was Kunden auf der Hundebett-Seite beruhigt."
+"typ": "recherche",
+"titel": "Vertrauens-Antwort geerntet",
+"satz": "Ich habe gelernt, was Käufer sicher macht."
 },
 {
 "tag": "2026-09-30",
 "zeit": "06:10",
-"satz": "Ich habe acht neue Wege gefunden, wie Kunden erfahren."
+"typ": "kreativ",
+"titel": "Acht Wege zu den Schulleuten",
+"satz": "Ich habe acht Wege gefunden, die Schule zu erreichen."
 },
 {
 "tag": "2026-09-30",
 "zeit": "06:15",
-"satz": "Ich habe geprüft, dass der Laden schnell genug ist."
+"typ": "normal",
+"titel": "Laden-Geschwindigkeit gemessen",
+"satz": "Ich habe geprüft, dass der Laden schnell ist."
 },
 {
 "tag": "2026-09-30",
 "zeit": "06:20",
-"satz": "Ich habe gelernt, was der Laden Kunden versprechen darf."
+"typ": "recherche",
+"titel": "Recht-Antwort geerntet",
+"satz": "Ich habe gelernt, was wir versprechen dürfen."
 },
 {
 "tag": "2026-09-30",
 "zeit": "06:25",
-"satz": "Ich habe David erinnert, dass Bonnies Antwort wichtig ist."
+"typ": "verbesserer",
+"titel": "Kreis gebrochen, aufgeräumt",
+"satz": "Ich habe Ideen in Handgriffe umgewandelt."
 },
 {
 "tag": "2026-09-30",
 "zeit": "06:30",
-"satz": "Ich habe überall gleich aufgeschrieben, bis wann Kunden bestellen können."
+"typ": "normal",
+"titel": "Bestellschluss überall gleich",
+"satz": "Ich habe überprüft, dass alles zusammen passt."
 },
 {
 "tag": "2026-09-30",
 "zeit": "06:35",
-"satz": "Ich habe gelernt, dass Rückgaben sehr selten passieren."
+"typ": "recherche",
+"titel": "Rückgabe-Antwort geerntet",
+"satz": "Ich habe gelernt, dass Rückgabe A sicher ist."
 },
 {
 "tag": "2026-09-30",
 "zeit": "06:40",
-"satz": "Ich habe neue Antworten geschrieben, die Kunden beruhigen."
+"typ": "kreativ",
+"titel": "Fünf Antwort-Kommentare gebaut",
+"satz": "Ich habe fünf Kommentare für Posts geschrieben."
 },
 {
 "tag": "2026-09-30",
 "zeit": "06:45",
-"satz": "Ich habe alle Entwürfe gesammelt und überprüft."
+"typ": "normal",
+"titel": "Entwürfe für Timo gezählt",
+"satz": "Ich habe alle Entwürfe aufgelistet und geordnet."
 },
 {
 "tag": "2026-09-30",
 "zeit": "06:50",
-"satz": "Ich habe gelernt, wann die Werbung wirklich funktioniert."
+"typ": "recherche",
+"titel": "Meta-Lernen-Antwort geerntet",
+"satz": "Ich habe gelernt, wann Meta stoppen soll."
 },
 {
 "tag": "2026-09-30",
 "zeit": "06:55",
-"satz": "Ich habe sich selbst repariert und etwas Wichtiges geplant."
+"typ": "verbesserer",
+"titel": "Fehler in Zeit behoben",
+"satz": "Ich habe die Uhrzeiten überprüft und gefixt."
 },
 {
 "tag": "2026-09-30",
 "zeit": "07:00",
-"satz": "Ich habe gefunden, was Timo und David zuerst tun müssen."
+"typ": "normal",
+"titel": "Kritischer Weg bis Start",
+"satz": "Ich habe geplant, was Timo bis Mitternacht braucht."
 },
 {
 "tag": "2026-09-30",
 "zeit": "07:05",
-"satz": "Ich habe gezeigt, wie viel Geld mit dem Laden verdient wird."
+"typ": "lr",
+"titel": "LR läuft und 75 Zustellungen",
+"satz": "Ich habe geprüft, dass alles läuft und 0 Antworten kamen."
 },
 {
 "tag": "2026-09-30",
 "zeit": "07:10",
-"satz": "Ich habe nachgedacht, wie auch David helfen kann."
+"typ": "kreativ",
+"titel": "Acht Wege zu Timo und David",
+"satz": "Ich habe acht Wege gefunden, beide zu erreichen."
 },
 {
 "tag": "2026-09-30",
 "zeit": "07:15",
-"satz": "Ich habe aufgeschrieben, was Timo morgens zuerst tun soll."
+"typ": "normal",
+"titel": "Nachrichten fertig für morgen",
+"satz": "Ich habe alles aufgeschrieben, was David und Timo brauchen."
 },
 {
 "tag": "2026-09-30",
 "zeit": "07:20",
-"satz": "Ich habe gelernt, was Ladenbetreiber über Rückgaben wissen."
+"typ": "recherche",
+"titel": "Chargeback und Rückgabe",
+"satz": "Ich habe gelernt, wie oft Kunden zurück geben."
 },
 {
 "tag": "2026-09-30",
 "zeit": "07:25",
-"satz": "Ich habe die Fragen richtig sortiert, damit Bonnie antwortet."
+"typ": "verbesserer",
+"titel": "Bonnie bis elf erinnert",
+"satz": "Ich habe einen Wecker für Davids Nachricht gestellt."
 },
 {
 "tag": "2026-09-30",
 "zeit": "07:30",
-"satz": "Ich habe alles gemessen, was mit dem Laden falsch ist."
+"typ": "normal",
+"titel": "Laden vorher gemessen",
+"satz": "Ich habe geprüft, wie der Laden vorher aussieht."
 },
 {
 "tag": "2026-09-30",
 "zeit": "07:40",
-"satz": "Ich habe gelernt, was der Laden oben auf der Seite sagen muss."
+"typ": "recherche",
+"titel": "Impressum-Antwort geerntet",
+"satz": "Ich habe gelernt, was wir aufschreiben müssen."
 },
 {
 "tag": "2026-09-30",
 "zeit": "07:45",
-"satz": "Ich habe nachgedacht, wann Bonnies Antwort am besten passt."
+"typ": "kreativ",
+"titel": "Acht Ideen zu Schule",
+"satz": "Ich habe acht Ideen gefunden, die Schule zu erreichen."
 }
 ]
