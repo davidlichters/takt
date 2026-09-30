@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Unser Takt</title>
+<style>
+  :root { --bg:#ffffff; --text:#1d1d1f; --leise:#86868b; --linie:#e5e5ea; --farbe:#0a84ff; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#000000; --text:#f5f5f7; --leise:#98989d; --linie:#2c2c2e; --farbe:#409cff; } }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--text); font:18px/1.45 -apple-system, BlinkMacSystemFont, "SF Pro Text", Helvetica, Arial, sans-serif; }
+  main { max-width:640px; margin:0 auto; padding:24px 16px 48px; }
+  h1 { font-size:30px; margin:0 0 4px; }
+  h1 span { color:var(--farbe); }
+  #stand { color:var(--leise); font-size:15px; margin-bottom:20px; }
+  .tag { color:var(--leise); font-size:14px; font-weight:600; text-transform:uppercase; letter-spacing:.04em; margin:24px 0 6px; }
+  .runde { display:flex; gap:14px; padding:12px 0; border-top:1px solid var(--linie); }
+  .zeit { font-weight:700; font-variant-numeric:tabular-nums; min-width:52px; color:var(--farbe); }
+  .satz { flex:1; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Unser <span>Takt</span></h1>
+  <div id="stand">Lädt …</div>
+  <div id="liste"></div>
+</main>
+<script>
+const QUELLE = "https://raw.githubusercontent.com/davidlichters/takt/daten/zeilen.json";
+function tagName(iso) {
+  const heute = new Date().toISOString().slice(0,10);
+  const gestern = new Date(Date.now()-864e5).toISOString().slice(0,10);
+  if (iso === heute) return "Heute";
+  if (iso === gestern) return "Gestern";
+  const [j,m,t] = iso.split("-"); return `${t}.${m}.${j}`;
+}
+async function laden() {
+  try {
+    const r = await fetch(QUELLE + "?t=" + Date.now(), { cache: "no-store" });
+    const daten = (await r.json()).slice().reverse();
+    const liste = document.getElementById("liste"); liste.innerHTML = "";
+    let letzterTag = "";
+    for (const e of daten) {
+      if (e.tag !== letzterTag) { const d = document.createElement("div"); d.className = "tag"; d.textContent = tagName(e.tag); liste.appendChild(d); letzterTag = e.tag; }
+      const z = document.createElement("div"); z.className = "runde";
+      const a = document.createElement("div"); a.className = "zeit"; a.textContent = e.zeit;
+      const b = document.createElement("div"); b.className = "satz"; b.textContent = e.satz;
+      z.append(a, b); liste.appendChild(z);
+    }
+    document.getElementById("stand").textContent = daten.length ? `Letzte Runde: ${daten[0].zeit} Uhr. Die Seite lädt jede Minute neu.` : "Noch keine Runde.";
+  } catch (f) { document.getElementById("stand").textContent = "Gerade nicht erreichbar, neuer Versuch in einer Minute."; }
+}
+laden(); setInterval(laden, 60000);
+</script>
+</body>
+</html>
