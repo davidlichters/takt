@@ -6,8 +6,12 @@
 <meta name="robots" content="noindex, nofollow">
 <meta name="theme-color" content="#FFFFFF">
 <meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-title" content="Pulse">
-<title>Pulse</title>
+<meta name="apple-mobile-web-app-title" content="24/7">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<link rel="apple-touch-icon" href="icon-180.png">
+<link rel="icon" type="image/png" href="icon-192.png">
+<link rel="manifest" href="manifest.json">
+<title>24/7</title>
 <style>
   /* Nachbau des iOS-Mail-Posteingangs (Davids Screenshot 30.09.2026, iPhone 393 pt breit), Maße in pt = CSS-px.
      Grundlinien aus dem Screenshot gemessen; bei SF Pro und line-height 1 liegt die Grundlinie bei Zeilenhöhe L
@@ -16,7 +20,7 @@
   *{box-sizing:border-box;margin:0;padding:0;}
   html,body{background:#FFFFFF;}
   body{font-family:-apple-system,BlinkMacSystemFont,"SF Pro Text",system-ui,sans-serif;color:var(--label);-webkit-font-smoothing:antialiased;}
-  main{max-width:600px;margin:0 auto;}
+  main{max-width:600px;margin:0 auto;padding-top:env(safe-area-inset-top);}
   header{position:relative;height:76px;margin:0 16px;border-bottom:.33px solid var(--linie);}
   h1{position:absolute;left:0;top:10.9px;font:700 34px/34px -apple-system,BlinkMacSystemFont,"SF Pro Display",system-ui,sans-serif;letter-spacing:.37px;}
   #stand{position:absolute;left:0;top:48.9px;font:400 15px/15px -apple-system,BlinkMacSystemFont,"SF Pro Text",system-ui,sans-serif;color:var(--grau);white-space:nowrap;}
@@ -33,7 +37,7 @@
 </head>
 <body>
 <main>
-  <header><h1>Pulse</h1><div id="stand">Porchnap · Loading</div></header>
+  <header><h1>24/7</h1><div id="stand">Porchnap · Loading</div></header>
   <div id="liste"></div>
 </main>
 <script>
