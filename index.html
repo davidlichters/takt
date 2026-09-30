@@ -38,7 +38,14 @@
   <div id="liste"></div>
 </main>
 <script>
-const QUELLE = "https://raw.githubusercontent.com/davidlichters/takt/daten/zeilen.json";
+// Frisch über die GitHub-API: der Browser fragt mit ETag nach, eine unveränderte Antwort (304) zählt nicht gegen das
+// Limit. Der Roh-Link hängt bis zu 5 Minuten hinterher und bleibt nur Rückfall.
+const API = "https://api.github.com/repos/davidlichters/takt/contents/zeilen.json?ref=daten";
+const ROH = "https://raw.githubusercontent.com/davidlichters/takt/daten/zeilen.json";
+async function holen(){
+  try { const r = await fetch(API, {cache:"no-cache", headers:{Accept:"application/vnd.github.raw+json"}}); if (r.ok) return await r.json(); } catch(e) {}
+  const r = await fetch(ROH + "?t=" + Date.now(), {cache:"no-store"}); return await r.json();
+}
 function tagName(iso){
   const f = d => new Date(d.getTime() - d.getTimezoneOffset()*6e4).toISOString().slice(0,10);
   const jetzt = new Date(), gestern = new Date(Date.now() - 864e5);
@@ -48,8 +55,7 @@ function tagName(iso){
 }
 async function laden(){
   try{
-    const r = await fetch(QUELLE + "?t=" + Date.now(), {cache:"no-store"});
-    const daten = (await r.json()).slice().reverse();
+    const daten = (await holen()).slice().reverse();
     const liste = document.getElementById("liste"); liste.innerHTML = "";
     let letzterTag = "";
     for (const e of daten){
