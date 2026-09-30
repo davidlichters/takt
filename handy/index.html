@@ -45,10 +45,11 @@
     { name: "TikTok",    farbe: "var(--rot)",    muster: /tiktok/i,    bild: "tiktok.png",    zeitfresser: true },
     { name: "Instagram", farbe: "var(--rot)",    muster: /instagram/i, bild: "instagram.png", zeitfresser: true },
     { name: "YouTube",   farbe: "var(--gelb)",   muster: /youtube/i,   bild: "youtube.png",   zeitfresser: true },
-    { name: "Claude",    farbe: "var(--orange)", muster: /claude/i,    bild: "claude.png",    zeitfresser: false },
+    { name: "Claude",    farbe: "var(--gruen)",  muster: /claude/i,    bild: "claude.png",    zeitfresser: false },
   ];
-  const ANDERE = { name: "Other", farbe: "var(--gruen)", bild: null, zeitfresser: false };
-  const art = app => ARTEN.find(a => a.muster.test(app || "")) || ANDERE;
+  // Andere Apps zählen nicht: sie bleiben grau wie die leere Spur (David 30.09. 14:00: "nur grau, rot und grün")
+  const ANDERE = null;
+  const art = app => ARTEN.find(a => a.muster.test(app || "")) || null;
   const WER = "Timo";
   let etag = null, daten = window.DATEN_TEST || null;
 
@@ -71,7 +72,7 @@
     for (const s of sitz) {
       const a = Math.max(t0, Date.parse(s.start)), b = Math.min(t1, Math.min(jetzt, Date.parse(s.ende)));
       if (!(b > a)) continue;
-      const k = art(s.app); summe.set(k, (summe.get(k) || 0) + (b - a));
+      const k = art(s.app); if (!k) continue; summe.set(k, (summe.get(k) || 0) + (b - a));
       const i = document.createElement("i");
       i.style.left = ((a - t0) / 864e5 * 100) + "%";
       i.style.width = `max(1px, calc(${(b - a) / 864e5 * 100}% - 0.67px))`;
@@ -81,13 +82,15 @@
     const fresser = [...summe].filter(([k]) => k.zeitfresser).reduce((x, [, v]) => x + v, 0);
     document.getElementById("mehr").textContent = `${(fresser / 36e5).toFixed(1)} hrs more than David`;   // David: 0 Stunden
     const leg = document.getElementById("legende"); leg.innerHTML = "";
-    for (const k of [...ARTEN, ANDERE]) {
+    for (const k of ARTEN) {
       const v = summe.get(k); if (!v || v < 30000) continue;
       const e = document.createElement("div"); e.className = "eintrag";
       e.innerHTML = `<b style="background:${k.farbe}"></b><span>${k.name} ${dauer(v)}</span>`;
       leg.appendChild(e);
     }
-    const jetztArt = p.offen ? art(p.offen.app) : null;
+    // Symbol: die App, die gerade offen ist; sonst die zuletzt benutzte der vier (vorher blieb die Kachel leer, David 14:00)
+    const zuletzt = [...sitz].filter(s => art(s.app)).sort((x, y) => Date.parse(y.ende) - Date.parse(x.ende))[0];
+    const jetztArt = (p.offen && art(p.offen.app)) || (zuletzt && art(zuletzt.app)) || null;
     document.getElementById("symbol").innerHTML = jetztArt && jetztArt.bild ? `<img src="${jetztArt.bild}" alt="${jetztArt.name}">` : "";
   }
 
