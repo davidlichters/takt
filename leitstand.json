@@ -1,7 +1,7 @@
 {
  "version": 1,
- "stand": "2026-10-03T13:02:05Z",
- "stand_berlin": "03.10.2026 15:02",
+ "stand": "2026-10-03T13:17:05Z",
+ "stand_berlin": "03.10.2026 15:17",
  "takt_min": 15,
  "quelle": "takt/leitstand_bauen.py auf Davids Mac, ohne Modell",
  "ziele": {
@@ -28,8 +28,8 @@
   {
    "prio": 4,
    "block": "aufgaben",
-   "titel": "26 Aufgaben überfällig",
-   "text": "Älteste: 25.09., Claude nach Ja (Timo 1 min Ja im PC-Chat). Davon nennen Timo 21, David 7, Claude 9."
+   "titel": "25 Aufgaben überfällig",
+   "text": "Älteste: 26.09., Timo, 3 min. Davon nennen Timo 20, David 7, Claude 8."
   }
  ],
  "bloecke": [
@@ -54,7 +54,7 @@
      "detail": "kein Meta-Zugang",
      "quelle": null,
      "stand": null,
-     "ziel": null
+     "ziel": "Budget 200,00 USD am Tag bis zum ersten Gewinn (Plan 5)"
     },
     {
      "name": "Kosten je Kauf",
@@ -112,7 +112,7 @@
      "ampel": "grau",
      "detail": "30 Bilder, 21 Videos, neu seit Montag, 28.09., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
      "quelle": "Erstellzeit der Dateien in creatives/fertig, 05_creatives/ads, 05_creatives/ki/fertig",
-     "stand": "15:02",
+     "stand": "15:17",
      "ziel": null
     },
     {
@@ -134,11 +134,11 @@
    "zeilen": [
     {
      "name": "David, produktiv am Mac",
-     "wert": "11 min",
+     "wert": "26 min",
      "ampel": "gruen",
-     "detail": "Mac-Zeit mit aktiver App, nicht Arbeitszeit. Soll bis jetzt 8 min (10 h, Tag 09:00 bis 22:00, Messung erst seit 14:51). Unproduktive Apps 0 min, Leerlauf 0 min, letzte Probe 15:01.",
-     "quelle": "mac_aktivitaet.jsonl, 11 Proben, mac_tag.py",
-     "stand": "15:02",
+     "detail": "Mac-Zeit mit aktiver App, nicht Arbeitszeit. Soll bis jetzt 18 min (10 h, Tag 08:00 bis 22:00, Messung erst seit 14:51). Unproduktive Apps 0 min, Leerlauf 0 min, letzte Probe 15:16.",
+     "quelle": "mac_aktivitaet.jsonl, 26 Proben, mac_tag.py",
+     "stand": "15:17",
      "ziel": "10 h"
     },
     {
@@ -147,7 +147,7 @@
      "ampel": "grau",
      "detail": "Handyzeit, nicht Arbeitszeit. Zählt nur Apps, die das Handy meldet; Arbeit am PC sieht hier niemand.",
      "quelle": "handy.json vom 14:23",
-     "stand": "15:02",
+     "stand": "15:17",
      "ziel": "10 h"
     },
     {
@@ -156,7 +156,7 @@
      "ampel": "gruen",
      "detail": "Regel im Leitstand: ab 30 min gelb, ab 60 min rot.",
      "quelle": "handy.json vom 14:23",
-     "stand": "15:02",
+     "stand": "15:17",
      "ziel": null
     },
     {
@@ -165,15 +165,15 @@
      "ampel": "rot",
      "detail": "Ohne Meldung ist Timos Handyzeit nicht gemessen. Kurzbefehl-Automation am Handy oder launchd de.david.handy prüfen.",
      "quelle": "ereignisse.jsonl, handy.json",
-     "stand": "15:02",
+     "stand": "15:17",
      "ziel": null
     },
     {
      "name": "Nächster Check-in",
      "wert": "18:00 heute",
      "ampel": "grau",
-     "detail": "Vorschlag aus Plan 2.4 (09:00, 13:00, 18:00, 22:00), Festlegung in Plan 5 offen.",
-     "quelle": "LEITSTAND_PLAN.md 2.4",
+     "detail": "Tagesstart 08:00 ist festgelegt (Plan 5). Die Check-in-Zeiten (09:00, 13:00, 18:00, 22:00) sind der Vorschlag aus Plan 2.4, noch nicht festgelegt.",
+     "quelle": "LEITSTAND_PLAN.md 2.4 und 5",
      "stand": null,
      "ziel": null
     }
@@ -186,18 +186,18 @@
    "zeilen": [
     {
      "name": "Offen",
-     "wert": "33",
+     "wert": "32",
      "ampel": "grau",
-     "detail": null,
+     "detail": "1 Zeile im Codeblock (Formatbeispiel) nicht gezählt. Steht dort eine echte Aufgabe, gehört sie aus dem Block heraus.",
      "quelle": "timo/OFFEN.md",
-     "stand": "15:02",
+     "stand": "15:17",
      "ziel": null
     },
     {
      "name": "Überfällig",
-     "wert": "26",
+     "wert": "25",
      "ampel": "rot",
-     "detail": "davon nennen Timo 21, David 7, Claude 9",
+     "detail": "davon nennen Timo 20, David 7, Claude 8",
      "quelle": null,
      "stand": null,
      "ziel": null
@@ -213,14 +213,6 @@
     }
    ],
    "liste": [
-    {
-     "datum": "2026-09-25",
-     "datum_kurz": "25.09.",
-     "wer": "Claude nach Ja (Timo 1 min Ja im PC-Chat)",
-     "text": "Anzeige \"Winter 04\" im Werbemanager pausieren",
-     "tage_ueberfaellig": 8,
-     "ampel": "rot"
-    },
     {
      "datum": "2026-09-26",
      "datum_kurz": "26.09.",
@@ -272,16 +264,16 @@
     {
      "datum": "2026-09-30",
      "datum_kurz": "30.09.",
-     "wer": "Timo oder David, vor Launch",
-     "text": "Impressum füllen: Anbieter (voller Name des echten Verkäufers), Niederlassungsanschrift, USt-IdNr. oder \"keine\", in …",
+     "wer": "Timo, 3 min, vor Launch",
+     "text": "Meta vor dem Import: (1) Pixel 7.12 in launch/meta_verbinden.md: Events Manager > Pixel 2238698946672438 > Overview …",
      "tage_ueberfaellig": 3,
      "ampel": "rot"
     },
     {
      "datum": "2026-09-30",
      "datum_kurz": "30.09.",
-     "wer": "Timo, 3 min, vor Launch",
-     "text": "Meta vor dem Import: (1) Pixel 7.12 in launch/meta_verbinden.md: Events Manager > Pixel 2238698946672438 > Overview …",
+     "wer": "Timo oder David, vor Launch",
+     "text": "Impressum füllen: Anbieter (voller Name des echten Verkäufers), Niederlassungsanschrift, USt-IdNr. oder \"keine\", in …",
      "tage_ueberfaellig": 3,
      "ampel": "rot"
     },
@@ -308,26 +300,95 @@
      "text": "Klickliste für den Launch 01.10. lesen: launch/MORGEN.md (alle Schritte mit Datei:Zeile, Timo 48 Min seit Claude nach …",
      "tage_ueberfaellig": 3,
      "ampel": "rot"
+    },
+    {
+     "datum": "2026-09-30",
+     "datum_kurz": "30.09.",
+     "wer": "Timo, 1 min",
+     "text": "Anzeigentexte: ja 10a zur Empfehlung oben in launch/anzeigentexte.md (5 laufen, A5 bleibt PAUSED, Takt 17:47; 6 …",
+     "tage_ueberfaellig": 3,
+     "ampel": "rot"
     }
    ],
-   "weitere": 21
+   "weitere": 20
   },
   {
    "id": "werkzeuge",
    "titel": "Werkzeuge",
-   "ampel": "grau",
+   "ampel": "gelb",
    "zeilen": [
     {
-     "name": "Wächter",
-     "wert": "unbekannt",
-     "ampel": "grau",
-     "detail": "waechter_zustand.json fehlt (Bauteil 2.2 noch nicht aktiv)",
-     "quelle": null,
+     "name": "Wächter, letzter Lauf",
+     "wert": "15:12",
+     "ampel": "gruen",
+     "detail": null,
+     "quelle": "waechter_zustand.json",
      "stand": null,
      "ziel": null
     }
    ],
-   "liste": []
+   "liste": [
+    {
+     "name": "Takt-Schleife",
+     "schluessel": "takt",
+     "ampel": "gruen",
+     "text": "letzte Runde 15:05 (verbesserer), rc=0, Runde laeuft seit 2 Min"
+    },
+    {
+     "name": "Perplexity",
+     "schluessel": "perplexity",
+     "ampel": "gruen",
+     "text": "Gins laeuft; letzter Lauf 15:08 ohne Antwortdatei: Eingabefeld war nicht leer, Deep research nicht eingestellt "
+    },
+    {
+     "name": "Davids Chrome",
+     "schluessel": "chrome",
+     "ampel": "gruen",
+     "text": "laeuft seit 03.10. 14:33, vor dem Crosspost-Chrome (14:36)"
+    },
+    {
+     "name": "Crosspost",
+     "schluessel": "crosspost",
+     "ampel": "gruen",
+     "text": "laeuft (pid 11956), Herzschlag vor 0 s, postet"
+    },
+    {
+     "name": "Speicher",
+     "schluessel": "speicher",
+     "ampel": "gruen",
+     "text": "156 GB frei"
+    },
+    {
+     "name": "GitHub-Push",
+     "schluessel": "github",
+     "ampel": "gruen",
+     "text": "origin/main e0c0c0e vor 0 Min"
+    },
+    {
+     "name": "Chrome auf Timos PC",
+     "ampel": "grau",
+     "nicht_geprueft": true,
+     "text": "nicht geprüft: der Wächter meldet es nicht, Plan 2.1 verlangt eine Ampel"
+    },
+    {
+     "name": "WhatsApp Web",
+     "ampel": "grau",
+     "nicht_geprueft": true,
+     "text": "nicht geprüft: der Wächter meldet es nicht, Plan 2.1 verlangt eine Ampel"
+    },
+    {
+     "name": "Shopify",
+     "ampel": "grau",
+     "nicht_geprueft": true,
+     "text": "nicht geprüft: der Wächter meldet es nicht, Plan 2.1 verlangt eine Ampel"
+    },
+    {
+     "name": "Meta",
+     "ampel": "grau",
+     "nicht_geprueft": true,
+     "text": "nicht geprüft: der Wächter meldet es nicht, Plan 2.1 verlangt eine Ampel"
+    }
+   ]
   }
  ],
  "hinweise": []
