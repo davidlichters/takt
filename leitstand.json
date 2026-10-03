@@ -1,7 +1,7 @@
 {
  "version": 2,
- "stand": "2026-10-03T14:17:05Z",
- "stand_berlin": "03.10.2026 16:17",
+ "stand": "2026-10-03T14:22:23Z",
+ "stand_berlin": "03.10.2026 16:22",
  "takt_min": 15,
  "quelle": "takt/leitstand_bauen.py auf Davids Mac, ohne Modell",
  "ziele": {
@@ -38,23 +38,23 @@
     },
     {
      "name": "Creatives",
-     "text": "Heute 2 neue Bilder oder Videos gebaut, diese Woche 53. Das neueste: PN_CHECK_4x5.png um 15:26. Wie viele davon live sind, wissen wir nicht.",
+     "text": "Heute 3 neue Bilder oder Videos gebaut, diese Woche 54. Das neueste: PN_COUCH_4x5.png um 16:21. Wie viele davon live sind, wissen wir nicht.",
      "ampel": "gruen"
     },
     {
      "name": "Recherche",
-     "text": "Perplexity hat heute 11 Fragen beantwortet, die letzte um 16:16.",
+     "text": "Perplexity hat heute 12 Fragen beantwortet, die letzte um 16:19.",
      "ampel": "gruen"
     },
     {
      "name": "Technik",
-     "text": "Der Wächter prüft alle 5 Minuten 10 Werkzeuge: 6 gehen, kaputt: Davids Chrome. 1 weiteres prüft er noch nicht.",
+     "text": "Der Wächter prüft alle 5 Minuten 10 Werkzeuge: 6 gehen, 1 kaputt (Davids Chrome), 3 warten auf Zugang oder sind aus (Shopify, Meta, Ereignis-Sensor). 1 weiteres prüft er noch nicht.",
      "ampel": "rot"
     },
     {
      "name": "Chef-Runde",
-     "text": "Um 16:15: entsperrt Stufe 6, weil Stufe 1 bis 5 eskaliert oder als Ja offen und die Ja-Liste voll ist; Frage nach einem …",
-     "ampel": "gelb"
+     "text": "Um 16:20: drittes neues Static heute fertig, C27 PN_COUCH 4x5 mit Hook 32 \"Get the dog off your couch\" (W06) …",
+     "ampel": "gruen"
     }
    ]
   },
@@ -156,12 +156,12 @@
    "id": "wer",
    "frage": "Wer arbeitet woran?",
    "ampel": "gelb",
-   "kurz": "David: 37 min am Mac. Timo: nicht gemessen. Claude: 24 Runden heute.",
+   "kurz": "David: 37 min am Mac. Timo: nicht gemessen. Claude: 25 Runden heute.",
    "saetze": [],
    "zeilen": [
     {
      "name": "David",
-     "text": "Heute 37 min am Mac gearbeitet, Soll bis jetzt 1 h 01 min. Die Mac-Messung schweigt seit 15:40, ihr launchd-Job ist ausgeschaltet. Auf David warten heute 2 Sachen (Karte 2).",
+     "text": "Heute 37 min am Mac aktiv, gemessen ab Messbeginn 14:51 bis 15:40; Soll in der Zeit 35 min. Danach schweigt die Mac-Messung, ihr launchd-Job ist ausgeschaltet. Auf David warten heute 2 Sachen (Karte 2).",
      "ampel": "gelb"
     },
     {
@@ -171,8 +171,8 @@
     },
     {
      "name": "Claude",
-     "text": "24 Runden heute, alle 5 Minuten eine. Zuletzt: entsperrt Stufe 6, weil Stufe 1 bis 5 eskaliert oder als Ja offen und die Ja-Liste voll ist …",
-     "ampel": "gelb"
+     "text": "25 Runden heute, alle 5 Minuten eine. Zuletzt: drittes neues Static heute fertig, C27 PN_COUCH 4x5 mit Hook 32 \"Get the dog off your couch\" …",
+     "ampel": "gruen"
     },
     {
      "name": "Abteilungs-Chats",
@@ -186,9 +186,10 @@
    "id": "tempo",
    "frage": "Wie schnell geht es gerade?",
    "ampel": "gelb",
-   "kurz": "Letzte Stunde: 14 Runden, 9 davon mit Ergebnis in der Welt.",
+   "kurz": "Letzte Stunde: 14 Runden, 9 davon mit fertigem Ergebnis.",
    "saetze": [
-    "Den Gewinn heute wissen wir noch nicht, weil uns der Shopify-Zugang fehlt."
+    "Den Gewinn heute wissen wir noch nicht, weil uns der Shopify-Zugang fehlt.",
+    "Fertig heißt noch nicht live: 8 Ja-Schritte warten auf euer Ja (Karte 2)."
    ],
    "zeilen": [
     {
@@ -203,17 +204,17 @@
     },
     {
      "name": "Runden, letzte Stunde",
-     "text": "14 Runden: 9 mit Ergebnis in der Welt, 2 haben einen Menschen erinnert, 3 nur innen gearbeitet.",
+     "text": "14 Runden: 9 mit fertigem Ergebnis (Creative, Text oder Klickweg), 2 haben einen Menschen erinnert, 3 nur innen gearbeitet.",
      "ampel": "gelb"
     },
     {
      "name": "Erledigt heute",
-     "text": "22 in OFFEN.md als erledigt eingetragen, 0 Ja-Schritte erledigt.",
+     "text": "9 in OFFEN.md als erledigt eingetragen (13 weitere nur als überholt gestrichen), 0 Ja-Schritte erledigt.",
      "ampel": "gruen"
     },
     {
      "name": "Neu gebaut heute",
-     "text": "2 Bilder und Videos für Anzeigen.",
+     "text": "3 Bilder und Videos für Anzeigen.",
      "ampel": "gruen"
     }
    ]
@@ -222,10 +223,10 @@
    "nr": 5,
    "id": "soll",
    "frage": "Wie schnell sollte es gehen?",
-   "ampel": "rot",
-   "kurz": "Wir schaffen 0 von 5 Zielen.",
+   "ampel": "gelb",
+   "kurz": "Wir schaffen 1 von 5 Zielen.",
    "saetze": [
-    "2 verfehlen wir gerade. 3 messen wir noch nicht."
+    "4 messen wir noch nicht."
    ],
    "zeilen": [
     {
@@ -235,8 +236,8 @@
     },
     {
      "name": "David",
-     "text": "Soll 10 Stunden am Tag, also bis jetzt 1 h 01 min. Ist 37 min am Mac.",
-     "ampel": "rot"
+     "text": "Soll 10 Stunden am Tag. Gemessen nur 14:51 bis 15:40: Soll in der Zeit 35 min, Ist 37 min am Mac. Danach misst niemand.",
+     "ampel": "grau"
     },
     {
      "name": "Timo",
@@ -250,8 +251,8 @@
     },
     {
      "name": "Runden",
-     "text": "Soll 12 Runden je Stunde, jede mit Ergebnis in der Welt. Ist 14, davon 9 mit Welt.",
-     "ampel": "rot"
+     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 14, davon 3 nur innen.",
+     "ampel": "gruen"
     }
    ]
   },
@@ -263,7 +264,7 @@
    "kurz": "Das meiste Geld geht an Meta: 200 USD am Tag, sobald die Anzeigen laufen.",
    "saetze": [
     "Für jedes verkaufte Bett bekommt Bonnie 18,90 USD.",
-    "Abos kosten rund 303,74 USD im Monat; bei 6 von 6 Abos fehlt uns noch Betrag oder Abbuchungstag."
+    "Abos für Porchnap kosten rund 303,74 USD im Monat; bei 6 von 6 Abos fehlt uns noch Betrag oder Abbuchungstag. Dazu Liquidationsradar: rund 30,00 USD im Monat, soweit bekannt."
    ],
    "zeilen": [
     {
@@ -391,11 +392,11 @@
    "zeilen": [
     {
      "name": "Gebaut diese Woche",
-     "wert": "53 Dateien",
+     "wert": "54 Dateien",
      "ampel": "grau",
-     "detail": "32 Bilder, 21 Videos, neu seit Montag, 28.09., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
+     "detail": "33 Bilder, 21 Videos, neu seit Montag, 28.09., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
      "quelle": "Erstellzeit der Dateien in creatives/fertig, 05_creatives/ads, 05_creatives/ki/fertig",
-     "stand": "16:17",
+     "stand": "16:22",
      "ziel": null
     },
     {
@@ -408,7 +409,7 @@
      "ziel": "3 bis 5 je Woche"
     }
    ],
-   "zahl_gebaut": 53
+   "zahl_gebaut": 54
   },
   {
    "id": "menschen",
@@ -418,10 +419,10 @@
     {
      "name": "David, produktiv am Mac",
      "wert": "37 min",
-     "ampel": "gelb",
-     "detail": "Mac-Zeit mit aktiver App, nicht Arbeitszeit. Soll bis jetzt 1 h 01 min (10 h, Tag 08:00 bis 22:00, Messung erst seit 14:51). Unproduktive Apps 0 min, Leerlauf 13 min, letzte Probe 15:40.",
+     "ampel": "gruen",
+     "detail": "Mac-Zeit mit aktiver App, nicht Arbeitszeit. Soll bis 15:40 35 min (10 h, Tag 08:00 bis 22:00, Messung erst seit 14:51, seit 15:40 keine Probe, danach zählt kein Soll). Unproduktive Apps 0 min, Leerlauf 13 min, letzte Probe 15:40.",
      "quelle": "mac_aktivitaet.jsonl, 50 Proben, mac_tag.py",
-     "stand": "16:17",
+     "stand": "16:22",
      "ziel": "10 h"
     },
     {
@@ -430,7 +431,7 @@
      "ampel": "grau",
      "detail": "Handyzeit, nicht Arbeitszeit. Zählt nur Apps, die das Handy meldet; Arbeit am PC sieht hier niemand.",
      "quelle": "handy.json vom 14:23",
-     "stand": "16:17",
+     "stand": "16:22",
      "ziel": "10 h"
     },
     {
@@ -439,7 +440,7 @@
      "ampel": "gruen",
      "detail": "Regel im Leitstand: ab 30 min gelb, ab 60 min rot.",
      "quelle": "handy.json vom 14:23",
-     "stand": "16:17",
+     "stand": "16:22",
      "ziel": null
     },
     {
@@ -448,7 +449,7 @@
      "ampel": "rot",
      "detail": "Ohne Meldung ist Timos Handyzeit nicht gemessen. Kurzbefehl-Automation am Handy oder launchd de.david.handy prüfen.",
      "quelle": "ereignisse.jsonl, handy.json",
-     "stand": "16:17",
+     "stand": "16:22",
      "ziel": null
     },
     {
@@ -473,7 +474,7 @@
      "ampel": "grau",
      "detail": "1 Zeile im Codeblock (Formatbeispiel) nicht gezählt. Steht dort eine echte Aufgabe, gehört sie aus dem Block heraus.",
      "quelle": "timo/OFFEN.md",
-     "stand": "16:17",
+     "stand": "16:22",
      "ziel": null
     },
     {
@@ -602,7 +603,7 @@
    "zeilen": [
     {
      "name": "Wächter, letzter Lauf",
-     "wert": "16:13",
+     "wert": "16:18",
      "ampel": "gruen",
      "detail": null,
      "quelle": "waechter_zustand.json",
@@ -615,13 +616,13 @@
      "name": "Takt-Schleife",
      "schluessel": "takt",
      "ampel": "gruen",
-     "text": "letzte Runde 16:12 (chef), rc=0"
+     "text": "letzte Runde 16:16 (chef), rc=0"
     },
     {
      "name": "Perplexity",
      "schluessel": "perplexity",
      "ampel": "gruen",
-     "text": "letzter Lauf 15:57 erfolgreich, Gins laeuft"
+     "text": "letzter Lauf 16:02 erfolgreich, Gins laeuft"
     },
     {
      "name": "Davids Chrome",
@@ -633,7 +634,7 @@
      "name": "Crosspost",
      "schluessel": "crosspost",
      "ampel": "gruen",
-     "text": "laeuft (pid 61877), Herzschlag vor 6 s, postet"
+     "text": "laeuft (pid 61877), Herzschlag vor 1 s, postet"
     },
     {
      "name": "Speicher",
@@ -645,7 +646,7 @@
      "name": "GitHub-Push",
      "schluessel": "github",
      "ampel": "gruen",
-     "text": "origin/main 7189519 vor 2 Min"
+     "text": "origin/main 72e9fd1 vor 2 Min"
     },
     {
      "name": "WhatsApp Web",
