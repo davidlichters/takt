@@ -992,5 +992,12 @@
 "typ": "chef",
 "titel": "Neues Bild mit Betten für Anzeige",
 "satz": "Ich habe ein Bild mit allen Betten gemacht und die Preise dafür geprüft."
+},
+{
+"tag": "2026-10-03",
+"zeit": "19:20",
+"typ": "chef",
+"titel": "Erinnerung für Bettkauf gelöscht",
+"satz": "Ich habe Davids alte Erinnerung aus der Liste genommen."
 }
 ]
