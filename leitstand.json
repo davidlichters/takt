@@ -1,7 +1,7 @@
 {
  "version": 2,
- "stand": "2026-10-03T14:36:53Z",
- "stand_berlin": "03.10.2026 16:36",
+ "stand": "2026-10-03T14:40:38Z",
+ "stand_berlin": "03.10.2026 16:40",
  "takt_min": 15,
  "quelle": "takt/leitstand_bauen.py auf Davids Mac, ohne Modell",
  "ziele": {
@@ -43,7 +43,7 @@
     },
     {
      "name": "Recherche",
-     "text": "Perplexity hat heute 15 Fragen beantwortet, die letzte um 16:32.",
+     "text": "Perplexity hat heute 16 Fragen beantwortet, die letzte um 16:38.",
      "ampel": "gruen"
     },
     {
@@ -53,7 +53,7 @@
     },
     {
      "name": "Chef-Runde",
-     "text": "Um 16:30: neues Video C30 V8_CAT 4x5 fertig, 15,5 s, neuer Winkel Katzen (\"Not just for dogs. Cats fit in it too.\") …",
+     "text": "Um 16:38: Meta-Verbindung sieht nur privates Konto Porch Nap 1984849605541642 in EUR ohne Business und Karte, nicht …",
      "ampel": "gruen"
     }
    ]
@@ -63,7 +63,7 @@
    "id": "auf",
    "frage": "Was hält uns auf?",
    "ampel": "rot",
-   "kurz": "6 Dinge halten uns auf.",
+   "kurz": "7 Dinge halten uns auf.",
    "saetze": [
     "Bei jedem steht, wer es tun muss. Oben steht das, was am meisten Geld kostet."
    ],
@@ -93,6 +93,18 @@
      "tun": null,
      "bis": "16:15",
      "vorbei": true,
+     "stufe": 1,
+     "ja": []
+    },
+    {
+     "prio": 0,
+     "block": "eskalation",
+     "quelle": "gedaechtnis/OFFEN.md",
+     "titel": "privat ohne Business, Währung EUR, keine Zahlungsart, also nicht das BM3 (USD). Du oder Timo in 5 …",
+     "wer": "David",
+     "tun": "Keine Karte in das Konto \"Porch Nap\" (1984849605541642) eintragen. Claudes Meta-Verbindung sieht 16:40 nur dieses eine Konto",
+     "bis": "18:00",
+     "vorbei": false,
      "stufe": 1,
      "ja": []
     },
@@ -148,12 +160,12 @@
    "id": "wer",
    "frage": "Wer arbeitet woran?",
    "ampel": "gruen",
-   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 29 Runden heute.",
+   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 31 Runden heute.",
    "saetze": [],
    "zeilen": [
     {
      "name": "David",
-     "text": "Nicht gemessen, weil David die Mac-Messung am 03.10. abgeschaltet hat. Auf David warten heute 2 Sachen (Karte 2).",
+     "text": "Nicht gemessen, weil David die Mac-Messung am 03.10. abgeschaltet hat. Auf David warten heute 3 Sachen (Karte 2).",
      "ampel": "grau"
     },
     {
@@ -163,7 +175,7 @@
     },
     {
      "name": "Claude",
-     "text": "29 Runden heute, alle 5 Minuten eine. Zuletzt: neues Video C30 V8_CAT 4x5 fertig, 15,5 s, neuer Winkel Katzen (\"Not just for dogs. Cats fit …",
+     "text": "31 Runden heute, alle 5 Minuten eine. Zuletzt: Meta-Verbindung sieht nur privates Konto Porch Nap 1984849605541642 in EUR ohne Business und …",
      "ampel": "gruen"
     },
     {
@@ -177,8 +189,8 @@
    "nr": 4,
    "id": "tempo",
    "frage": "Wie schnell geht es gerade?",
-   "ampel": "gelb",
-   "kurz": "Letzte Stunde: 15 Runden, 11 davon mit fertigem Ergebnis.",
+   "ampel": "gruen",
+   "kurz": "Letzte Stunde: 16 Runden, 12 davon mit fertigem Ergebnis.",
    "saetze": [
     "Den Gewinn heute wissen wir noch nicht, weil uns der Shopify-Zugang fehlt.",
     "Fertig heißt noch nicht live: 8 Ja-Schritte warten auf euer Ja (Karte 2)."
@@ -196,8 +208,8 @@
     },
     {
      "name": "Runden, letzte Stunde",
-     "text": "15 Runden: 11 mit fertigem Ergebnis (Creative, Text oder Klickweg), 1 hat einen Menschen erinnert, 3 nur innen gearbeitet.",
-     "ampel": "gelb"
+     "text": "16 Runden: 12 mit fertigem Ergebnis (Creative, Text oder Klickweg), 2 haben einen Menschen erinnert, 2 nur innen gearbeitet.",
+     "ampel": "gruen"
     },
     {
      "name": "Erledigt heute",
@@ -243,7 +255,7 @@
     },
     {
      "name": "Runden",
-     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 15, davon 3 nur innen.",
+     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 16, davon 2 nur innen.",
      "ampel": "gruen"
     }
    ]
@@ -382,7 +394,7 @@
      "ampel": "grau",
      "detail": "33 Bilder, 25 Videos, neu seit Montag, 28.09., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
      "quelle": "Erstellzeit der Dateien in creatives/fertig, 05_creatives/ads, 05_creatives/ki/fertig",
-     "stand": "16:36",
+     "stand": "16:40",
      "ziel": null
     },
     {
@@ -442,7 +454,7 @@
      "ampel": "grau",
      "detail": "1 Zeile im Codeblock (Formatbeispiel) nicht gezählt. Steht dort eine echte Aufgabe, gehört sie aus dem Block heraus.",
      "quelle": "timo/OFFEN.md",
-     "stand": "16:36",
+     "stand": "16:40",
      "ziel": null
     },
     {
@@ -571,7 +583,7 @@
    "zeilen": [
     {
      "name": "Wächter, letzter Lauf",
-     "wert": "16:33",
+     "wert": "16:39",
      "ampel": "gruen",
      "detail": null,
      "quelle": "waechter_zustand.json",
@@ -584,13 +596,13 @@
      "name": "Takt-Schleife",
      "schluessel": "takt",
      "ampel": "gruen",
-     "text": "letzte Runde 16:31 (chef), rc=0"
+     "text": "letzte Runde 16:36 (chef), rc=0, Runde laeuft seit 1 Min"
     },
     {
      "name": "Perplexity",
      "schluessel": "perplexity",
      "ampel": "gruen",
-     "text": "letzter Lauf 16:31 erfolgreich, Gins laeuft"
+     "text": "letzter Lauf 16:34 erfolgreich, Gins laeuft"
     },
     {
      "name": "Davids Chrome",
@@ -602,7 +614,7 @@
      "name": "Crosspost",
      "schluessel": "crosspost",
      "ampel": "gruen",
-     "text": "laeuft (pid 61877), Herzschlag vor 7 s, postet"
+     "text": "laeuft (pid 61877), Herzschlag vor 11 s, postet"
     },
     {
      "name": "Speicher",
@@ -614,7 +626,7 @@
      "name": "GitHub-Push",
      "schluessel": "github",
      "ampel": "gruen",
-     "text": "origin/main e26e3d6 vor 2 Min"
+     "text": "origin/main 91ce37c vor 0 Min"
     },
     {
      "name": "WhatsApp Web",
@@ -638,7 +650,7 @@
      "name": "Ereignis-Sensor",
      "schluessel": "ereignisse",
      "ampel": "gruen",
-     "text": "letzter Lauf 16:33, 0 offene Ereignisse"
+     "text": "letzter Lauf 16:39, 1 offene Ereignisse, aeltestes 16:36"
     },
     {
      "name": "Chrome auf Timos PC",
