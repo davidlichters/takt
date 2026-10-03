@@ -754,5 +754,12 @@
 "typ": "chef",
 "titel": "Hundebett-Preise nach dem Plan gestellt",
 "satz": "Ich habe die Hundebett-Preise richtig gestellt und der Laden zeigt sie jetzt den Kunden."
+},
+{
+"tag": "2026-10-03",
+"zeit": "17:23",
+"typ": "chef",
+"titel": "Sendungsverfolgung zeigt noch AmaVerde",
+"satz": "Ich habe geprüft, dass Kunden in der Sendungsverfolgung noch AmaVerde statt Porchnap sehen."
 }
 ]
