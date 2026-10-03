@@ -1,7 +1,7 @@
 {
  "version": 2,
- "stand": "2026-10-03T23:32:05Z",
- "stand_berlin": "04.10.2026 01:32",
+ "stand": "2026-10-03T23:47:05Z",
+ "stand_berlin": "04.10.2026 01:47",
  "takt_min": 15,
  "quelle": "takt/leitstand_bauen.py auf Davids Mac, ohne Modell",
  "ziele": {
@@ -43,8 +43,8 @@
     },
     {
      "name": "Recherche",
-     "text": "Perplexity hat heute 7 Fragen beantwortet, die letzte um 01:29. Die letzten 2 Versuche kamen ohne Antwort zurück.",
-     "ampel": "gruen"
+     "text": "Perplexity hat heute 7 Fragen beantwortet, die letzte um 01:29. Die letzten 3 Versuche kamen ohne Antwort zurück.",
+     "ampel": "gelb"
     },
     {
      "name": "Technik",
@@ -53,7 +53,7 @@
     },
     {
      "name": "Chef-Runde",
-     "text": "Um 01:30: keine neue Welt oder Eskalation. Produktseite 13x crocheted und 3x embroidered (Alt-Texte bei Timo …",
+     "text": "Um 01:45: Ereignis Perplexity-Antwort Preis gelesen: Einzelbett 69,99 USD ohne Streichpreis ist live richtig …",
      "ampel": "gelb"
     }
    ]
@@ -63,7 +63,7 @@
    "id": "auf",
    "frage": "Was hält uns auf?",
    "ampel": "rot",
-   "kurz": "13 Dinge halten uns auf.",
+   "kurz": "12 Dinge halten uns auf.",
    "saetze": [
     "Bei jedem steht, wer es tun muss. Oben steht das, was am meisten Geld kostet."
    ],
@@ -191,18 +191,6 @@
      "prio": 0,
      "block": "eskalation",
      "quelle": "gedaechtnis/OFFEN.md",
-     "titel": "Alt-Text von Bild Tree Cave auf 'Porchnap Christmas Tree Cave, tree-shaped cave bed for cats and …",
-     "wer": "Timo",
-     "tun": "Shopify Admin > Produkte > Porchnap Sleigh Bed > Medien",
-     "bis": "12:00",
-     "vorbei": false,
-     "stufe": 5,
-     "ja": []
-    },
-    {
-     "prio": 0,
-     "block": "eskalation",
-     "quelle": "gedaechtnis/OFFEN.md",
      "titel": "die Aufwaerm-Kampagne (Engagement, Messenger, USA, Gesamtbudget 20 USD) veroeffentlichen, die 29 …",
      "wer": "Timo",
      "tun": "Werbung starten im BM3, Ablauf in ~/timo/launch/coach_2026-10-03/09_PLAN_SONNTAG.md Block 12:30",
@@ -234,7 +222,7 @@
    "id": "wer",
    "frage": "Wer arbeitet woran?",
    "ampel": "gelb",
-   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 25 Runden heute.",
+   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 29 Runden heute.",
    "saetze": [],
    "zeilen": [
     {
@@ -249,7 +237,7 @@
     },
     {
      "name": "Claude",
-     "text": "25 Runden heute, alle 5 Minuten eine. Zuletzt: keine neue Welt oder Eskalation. Produktseite 13x crocheted und 3x embroidered (Alt-Texte bei …",
+     "text": "29 Runden heute, alle 5 Minuten eine. Zuletzt: Ereignis Perplexity-Antwort Preis gelesen: Einzelbett 69,99 USD ohne Streichpreis ist live …",
      "ampel": "gelb"
     },
     {
@@ -264,7 +252,7 @@
    "id": "tempo",
    "frage": "Wie schnell geht es gerade?",
    "ampel": "gelb",
-   "kurz": "Letzte Stunde: 15 Runden, 3 davon mit fertigem Ergebnis.",
+   "kurz": "Letzte Stunde: 16 Runden, 4 davon mit fertigem Ergebnis.",
    "saetze": [
     "Den Gewinn heute wissen wir noch nicht, weil uns der Shopify-Zugang fehlt."
    ],
@@ -281,7 +269,7 @@
     },
     {
      "name": "Runden, letzte Stunde",
-     "text": "15 Runden: 3 mit fertigem Ergebnis (Creative, Text oder Klickweg), 5 haben einen Menschen erinnert, 7 nur innen gearbeitet.",
+     "text": "16 Runden: 4 mit fertigem Ergebnis (Creative, Text oder Klickweg), 4 haben einen Menschen erinnert, 8 nur innen gearbeitet.",
      "ampel": "gelb"
     },
     {
@@ -328,7 +316,7 @@
     },
     {
      "name": "Runden",
-     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 15, davon 7 nur innen.",
+     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 16, davon 8 nur innen.",
      "ampel": "rot"
     }
    ]
@@ -469,7 +457,7 @@
      "ampel": "grau",
      "detail": "45 Bilder, 28 Videos, neu seit Montag, 28.09., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
      "quelle": "Erstellzeit der Dateien in creatives/fertig, 05_creatives/ads, 05_creatives/ki/fertig",
-     "stand": "01:32",
+     "stand": "01:47",
      "ziel": null
     },
     {
@@ -529,7 +517,7 @@
      "ampel": "grau",
      "detail": "1 Zeile im Codeblock (Formatbeispiel) nicht gezählt. Steht dort eine echte Aufgabe, gehört sie aus dem Block heraus.",
      "quelle": "timo/OFFEN.md",
-     "stand": "01:32",
+     "stand": "01:47",
      "ziel": null
     },
     {
@@ -658,7 +646,7 @@
    "zeilen": [
     {
      "name": "Wächter, letzter Lauf",
-     "wert": "01:27",
+     "wert": "01:43",
      "ampel": "gruen",
      "detail": null,
      "quelle": "waechter_zustand.json",
@@ -671,13 +659,13 @@
      "name": "Takt-Schleife",
      "schluessel": "takt",
      "ampel": "gruen",
-     "text": "letzte Runde 01:25 (chef), rc=0"
+     "text": "letzte Runde 01:42 (chef), rc=0"
     },
     {
      "name": "Perplexity",
      "schluessel": "perplexity",
      "ampel": "gruen",
-     "text": "letzter Lauf 01:21 erfolgreich, Gins laeuft"
+     "text": "Gins laeuft; letzter Lauf 01:30 ohne Antwortdatei: Absenden: Perplexity meldet 1x \"Unable to start session\" (Ko"
     },
     {
      "name": "Davids Chrome",
@@ -689,7 +677,7 @@
      "name": "Crosspost",
      "schluessel": "crosspost",
      "ampel": "gruen",
-     "text": "laeuft (pid 61877), Herzschlag vor 2 s, Trockenlauf ohne AKTIV, letzter Fehler: 2026-10-03T21:37:30.732Z keine Videos in der Antwort: {\"extr"
+     "text": "laeuft (pid 61877), Herzschlag vor 1 s, Trockenlauf ohne AKTIV, letzter Fehler: 2026-10-03T21:37:30.732Z keine Videos in der Antwort: {\"extr"
     },
     {
      "name": "Speicher",
@@ -701,7 +689,7 @@
      "name": "GitHub-Push",
      "schluessel": "github",
      "ampel": "gruen",
-     "text": "origin/main 03f8214 vor 5 Min"
+     "text": "origin/main 03f8214 vor 21 Min"
     },
     {
      "name": "WhatsApp Web",
@@ -725,7 +713,7 @@
      "name": "Ereignis-Sensor",
      "schluessel": "ereignisse",
      "ampel": "gruen",
-     "text": "letzter Lauf 01:27, 0 offene Ereignisse"
+     "text": "letzter Lauf 01:43, 0 offene Ereignisse"
     },
     {
      "name": "Chrome auf Timos PC",
