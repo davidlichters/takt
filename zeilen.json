@@ -684,5 +684,12 @@
 "typ": "chef",
 "titel": "Hundebett im Laden fertig",
 "satz": "Ich habe das Hundebett im Laden fertig gemacht, damit Kunden es kaufen können."
+},
+{
+"tag": "2026-10-03",
+"zeit": "16:11",
+"typ": "chef",
+"titel": "Fehler im Laden",
+"satz": "Ich habe kaputte Sachen im Laden gefunden und David muss schnell ja oder nein sagen."
 }
 ]
