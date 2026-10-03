@@ -691,5 +691,12 @@
 "typ": "chef",
 "titel": "Fehler im Laden",
 "satz": "Ich habe kaputte Sachen im Laden gefunden und David muss schnell ja oder nein sagen."
+},
+{
+"tag": "2026-10-03",
+"zeit": "16:22",
+"typ": "chef",
+"titel": "Nachricht für Hundebetten fertig",
+"satz": "Ich habe eine Frage in die Nachricht eingebaut, damit Timo sie jetzt senden kann."
 }
 ]
