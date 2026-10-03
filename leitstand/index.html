@@ -91,6 +91,9 @@
   .d-rot{background:var(--rot);color:#000;} .d-gelb{background:var(--gelb);color:#000;}
   .aufgabe b{font-weight:600;font-size:13px;color:var(--hell);display:block;}
   .aufgabe span{font-size:14px;}
+  /* 03.10. 16:22 gemessen: ein Pfad ohne Umbruchstelle in einer Aufgabe (launch/kurs_umsetzung/10_lieferant/...) machte
+     die Seite bei 390 px 426 px breit. Grid- und Flex-Kinder schrumpfen erst mit min-width:0 unter ihren Inhalt. */
+  .aufgabe > div, .werkzeug > div{min-width:0;overflow-wrap:anywhere;}
   .werkzeug{display:flex;gap:10px;align-items:baseline;padding:9px 0;border-top:.5px solid var(--linie);}
   .werkzeug .punkt{position:relative;top:1px;}
   footer{color:var(--grau);font-size:12px;margin-top:22px;}
