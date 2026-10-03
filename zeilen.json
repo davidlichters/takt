@@ -1587,5 +1587,12 @@
 "typ": "chef",
 "titel": "Falsche Werbungs-Nummer im Laden",
 "satz": "Ich habe die falsche Nummer gefunden, deshalb können wir sie jetzt reparieren."
+},
+{
+"tag": "2026-10-04",
+"zeit": "00:40",
+"typ": "chef",
+"titel": "Takt läuft jetzt allein",
+"satz": "Ich habe den Plan fertig gemacht, damit er ganz allein die Arbeit macht."
 }
 ]
