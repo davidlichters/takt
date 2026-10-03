@@ -1,7 +1,7 @@
 {
  "version": 2,
- "stand": "2026-10-03T13:59:32Z",
- "stand_berlin": "03.10.2026 15:59",
+ "stand": "2026-10-03T14:02:05Z",
+ "stand_berlin": "03.10.2026 16:02",
  "takt_min": 15,
  "quelle": "takt/leitstand_bauen.py auf Davids Mac, ohne Modell",
  "ziele": {
@@ -53,8 +53,8 @@
     },
     {
      "name": "Chef-Runde",
-     "text": "Um 15:55: Ja 5 abtest angelegt, Kaching meldet weiter einen laufenden A/B-Test, den niemand angelegt hat; Klickweg zum …",
-     "ampel": "gruen"
+     "text": "Um 16:00: zwei Größen- und Aufbau-Antworten ausgewertet, ohne Wirkung, Produktseite nennt keine Aufbau-Stunden und …",
+     "ampel": "gelb"
     }
    ]
   },
@@ -143,12 +143,12 @@
    "id": "wer",
    "frage": "Wer arbeitet woran?",
    "ampel": "gelb",
-   "kurz": "David: 37 min am Mac. Timo: nicht gemessen. Claude: 18 Runden heute.",
+   "kurz": "David: 37 min am Mac. Timo: nicht gemessen. Claude: 19 Runden heute.",
    "saetze": [],
    "zeilen": [
     {
      "name": "David",
-     "text": "Heute 37 min am Mac gearbeitet, Soll bis jetzt 49 min. Die Mac-Messung schweigt seit 15:40, ihr launchd-Job ist ausgeschaltet. Auf David warten heute 1 Sache (Karte 2).",
+     "text": "Heute 37 min am Mac gearbeitet, Soll bis jetzt 50 min. Die Mac-Messung schweigt seit 15:40, ihr launchd-Job ist ausgeschaltet. Auf David warten heute 1 Sache (Karte 2).",
      "ampel": "gelb"
     },
     {
@@ -158,8 +158,8 @@
     },
     {
      "name": "Claude",
-     "text": "18 Runden heute, alle 5 Minuten eine. Zuletzt: Ja 5 abtest angelegt, Kaching meldet weiter einen laufenden A/B-Test, den niemand angelegt …",
-     "ampel": "gruen"
+     "text": "19 Runden heute, alle 5 Minuten eine. Zuletzt: zwei Größen- und Aufbau-Antworten ausgewertet, ohne Wirkung, Produktseite nennt keine …",
+     "ampel": "gelb"
     },
     {
      "name": "Abteilungs-Chats",
@@ -222,7 +222,7 @@
     },
     {
      "name": "David",
-     "text": "Soll 10 Stunden am Tag, also bis jetzt 49 min. Ist 37 min am Mac.",
+     "text": "Soll 10 Stunden am Tag, also bis jetzt 50 min. Ist 37 min am Mac.",
      "ampel": "rot"
     },
     {
@@ -390,7 +390,7 @@
      "ampel": "grau",
      "detail": "32 Bilder, 21 Videos, neu seit Montag, 28.09., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
      "quelle": "Erstellzeit der Dateien in creatives/fertig, 05_creatives/ads, 05_creatives/ki/fertig",
-     "stand": "15:59",
+     "stand": "16:02",
      "ziel": null
     },
     {
@@ -414,9 +414,9 @@
      "name": "David, produktiv am Mac",
      "wert": "37 min",
      "ampel": "gelb",
-     "detail": "Mac-Zeit mit aktiver App, nicht Arbeitszeit. Soll bis jetzt 49 min (10 h, Tag 08:00 bis 22:00, Messung erst seit 14:51). Unproduktive Apps 0 min, Leerlauf 13 min, letzte Probe 15:40.",
+     "detail": "Mac-Zeit mit aktiver App, nicht Arbeitszeit. Soll bis jetzt 50 min (10 h, Tag 08:00 bis 22:00, Messung erst seit 14:51). Unproduktive Apps 0 min, Leerlauf 13 min, letzte Probe 15:40.",
      "quelle": "mac_aktivitaet.jsonl, 50 Proben, mac_tag.py",
-     "stand": "15:59",
+     "stand": "16:02",
      "ziel": "10 h"
     },
     {
@@ -425,7 +425,7 @@
      "ampel": "grau",
      "detail": "Handyzeit, nicht Arbeitszeit. Zählt nur Apps, die das Handy meldet; Arbeit am PC sieht hier niemand.",
      "quelle": "handy.json vom 14:23",
-     "stand": "15:59",
+     "stand": "16:02",
      "ziel": "10 h"
     },
     {
@@ -434,7 +434,7 @@
      "ampel": "gruen",
      "detail": "Regel im Leitstand: ab 30 min gelb, ab 60 min rot.",
      "quelle": "handy.json vom 14:23",
-     "stand": "15:59",
+     "stand": "16:02",
      "ziel": null
     },
     {
@@ -443,7 +443,7 @@
      "ampel": "rot",
      "detail": "Ohne Meldung ist Timos Handyzeit nicht gemessen. Kurzbefehl-Automation am Handy oder launchd de.david.handy prüfen.",
      "quelle": "ereignisse.jsonl, handy.json",
-     "stand": "15:59",
+     "stand": "16:02",
      "ziel": null
     },
     {
@@ -468,7 +468,7 @@
      "ampel": "grau",
      "detail": "1 Zeile im Codeblock (Formatbeispiel) nicht gezählt. Steht dort eine echte Aufgabe, gehört sie aus dem Block heraus.",
      "quelle": "timo/OFFEN.md",
-     "stand": "15:59",
+     "stand": "16:02",
      "ziel": null
     },
     {
