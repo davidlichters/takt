@@ -1,7 +1,7 @@
 {
  "version": 2,
- "stand": "2026-10-03T14:32:05Z",
- "stand_berlin": "03.10.2026 16:32",
+ "stand": "2026-10-03T14:36:53Z",
+ "stand_berlin": "03.10.2026 16:36",
  "takt_min": 15,
  "quelle": "takt/leitstand_bauen.py auf Davids Mac, ohne Modell",
  "ziele": {
@@ -17,8 +17,8 @@
    "nr": 1,
    "id": "wo",
    "frage": "Was passiert gerade wo?",
-   "ampel": "gelb",
-   "kurz": "Der Shop ist offen. Die Anzeigen sollen um 20:00 starten.",
+   "ampel": "rot",
+   "kurz": "Der Shop ist offen. Die Anzeigen sind aus.",
    "saetze": [],
    "zeilen": [
     {
@@ -28,8 +28,8 @@
     },
     {
      "name": "Anzeigen",
-     "text": "Start geplant 20:00. Ob schon eine läuft, wissen wir noch nicht, weil uns der Meta-Zugang fehlt.",
-     "ampel": "gelb"
+     "text": "Aus (gemessen 16:36, Meta-Verbindung 16:3x: Konto Porch Nap 1984849605541642 ohne Zahlungsart). Ohne Anzeigen kommt kein Geld.",
+     "ampel": "rot"
     },
     {
      "name": "Lieferantin Bonnie",
@@ -38,7 +38,7 @@
     },
     {
      "name": "Creatives",
-     "text": "Heute 6 neue Bilder oder Videos gebaut, diese Woche 57. Das neueste: PN_V8_CAT_H1_4x5.mp4 um 16:30. Wie viele davon live sind, wissen wir nicht.",
+     "text": "Heute 7 neue Bilder oder Videos gebaut, diese Woche 58. Das neueste: PN_V9_SIDES_H1_4x5.mp4 um 16:36. Wie viele davon live sind, wissen wir nicht.",
      "ampel": "gruen"
     },
     {
@@ -118,6 +118,14 @@
      ]
     },
     {
+     "prio": 1,
+     "block": "anzeigen",
+     "titel": "Anzeigen sind aus",
+     "text": "Gemessen 16:36, Quelle: Meta-Verbindung 16:3x: Konto Porch Nap 1984849605541642 ohne Zahlungsart. Ohne Anzeigen kommt kein Geld.",
+     "wer": "Timo",
+     "tun": "Kampagne bauen und veröffentlichen (K5, K6)"
+    },
+    {
      "prio": 1.5,
      "block": "ja",
      "titel": "1 Ja-Frage wartet: ja bonnie3 (bis 04.10. 12:00)",
@@ -128,18 +136,10 @@
     {
      "prio": 2,
      "block": "geld",
-     "titel": "Keine frische Zahl zu Anzeigen und Geld",
+     "titel": "4 von 5 Geldzahlen fehlen",
      "text": "Kein Meta-Zugang und kein Shopify-Token. Niemand sieht hier, ob Anzeigen laufen und Geld kommt. Abhilfe: Plan Abschnitt 3, Shopify-Token (Timo, 5 min) und Meta-Zugang (Timo, 10 min). Bis dahin trägt ein Chat gemessene Werte ein: takt/leitstand_bauen.py --eintragen.",
      "wer": "Timo",
      "tun": "Einmal den Shopify-Schlüssel (5 min) und den Meta-Zugang (10 min) anlegen, Plan Abschnitt 3"
-    },
-    {
-     "prio": 3,
-     "block": "menschen",
-     "titel": "Timos Handy meldet seit 3 Tagen nichts",
-     "text": "Letzte Meldung 30.09. 13:48. Damit ist Timos Zeit nicht gemessen. Automation am Handy prüfen.",
-     "wer": "Timo",
-     "tun": "Die Kurzbefehl-Automation am Handy wieder einschalten"
     }
    ]
   },
@@ -147,19 +147,19 @@
    "nr": 3,
    "id": "wer",
    "frage": "Wer arbeitet woran?",
-   "ampel": "gelb",
-   "kurz": "David: 37 min am Mac. Timo: nicht gemessen. Claude: 29 Runden heute.",
+   "ampel": "gruen",
+   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 29 Runden heute.",
    "saetze": [],
    "zeilen": [
     {
      "name": "David",
-     "text": "Heute 37 min am Mac aktiv, gemessen ab Messbeginn 14:51 bis 15:40; Soll in der Zeit 35 min. Danach schweigt die Mac-Messung, ihr launchd-Job ist ausgeschaltet. Auf David warten heute 2 Sachen (Karte 2).",
-     "ampel": "gelb"
+     "text": "Nicht gemessen, weil David die Mac-Messung am 03.10. abgeschaltet hat. Auf David warten heute 2 Sachen (Karte 2).",
+     "ampel": "grau"
     },
     {
      "name": "Timo",
-     "text": "Wissen wir noch nicht, weil sein Handy seit 30.09. 13:48 nichts meldet und den PC niemand misst.",
-     "ampel": "gelb"
+     "text": "Nicht gemessen, das hat Timo am 03.10. so entschieden.",
+     "ampel": "grau"
     },
     {
      "name": "Claude",
@@ -177,8 +177,8 @@
    "nr": 4,
    "id": "tempo",
    "frage": "Wie schnell geht es gerade?",
-   "ampel": "gruen",
-   "kurz": "Letzte Stunde: 16 Runden, 12 davon mit fertigem Ergebnis.",
+   "ampel": "gelb",
+   "kurz": "Letzte Stunde: 15 Runden, 11 davon mit fertigem Ergebnis.",
    "saetze": [
     "Den Gewinn heute wissen wir noch nicht, weil uns der Shopify-Zugang fehlt.",
     "Fertig heißt noch nicht live: 8 Ja-Schritte warten auf euer Ja (Karte 2)."
@@ -196,8 +196,8 @@
     },
     {
      "name": "Runden, letzte Stunde",
-     "text": "16 Runden: 12 mit fertigem Ergebnis (Creative, Text oder Klickweg), 1 hat einen Menschen erinnert, 3 nur innen gearbeitet.",
-     "ampel": "gruen"
+     "text": "15 Runden: 11 mit fertigem Ergebnis (Creative, Text oder Klickweg), 1 hat einen Menschen erinnert, 3 nur innen gearbeitet.",
+     "ampel": "gelb"
     },
     {
      "name": "Erledigt heute",
@@ -206,7 +206,7 @@
     },
     {
      "name": "Neu gebaut heute",
-     "text": "6 Bilder und Videos für Anzeigen.",
+     "text": "7 Bilder und Videos für Anzeigen.",
      "ampel": "gruen"
     }
    ]
@@ -218,7 +218,7 @@
    "ampel": "gelb",
    "kurz": "Wir schaffen 1 von 5 Zielen.",
    "saetze": [
-    "4 messen wir noch nicht."
+    "1 verfehlen wir gerade. 3 messen wir noch nicht."
    ],
    "zeilen": [
     {
@@ -228,7 +228,7 @@
     },
     {
      "name": "David",
-     "text": "Soll 10 Stunden am Tag. Gemessen nur 14:51 bis 15:40: Soll in der Zeit 35 min, Ist 37 min am Mac. Danach misst niemand.",
+     "text": "Soll 10 Stunden am Tag. Ist: nicht gemessen.",
      "ampel": "grau"
     },
     {
@@ -238,12 +238,12 @@
     },
     {
      "name": "Anzeigen",
-     "text": "Soll: laufen ab heute mit 200 USD am Tag. Ist: wissen wir noch nicht, weil uns der Meta-Zugang fehlt.",
-     "ampel": "grau"
+     "text": "Soll: laufen ab heute mit 200 USD am Tag. Ist: aus.",
+     "ampel": "rot"
     },
     {
      "name": "Runden",
-     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 16, davon 3 nur innen.",
+     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 15, davon 3 nur innen.",
      "ampel": "gruen"
     }
    ]
@@ -290,31 +290,31 @@
  "karten_fehler": null,
  "rot": [
   {
-   "prio": 2,
-   "block": "geld",
-   "titel": "Keine frische Zahl zu Anzeigen und Geld",
-   "text": "Kein Meta-Zugang und kein Shopify-Token. Niemand sieht hier, ob Anzeigen laufen und Geld kommt. Abhilfe: Plan Abschnitt 3, Shopify-Token (Timo, 5 min) und Meta-Zugang (Timo, 10 min). Bis dahin trägt ein Chat gemessene Werte ein: takt/leitstand_bauen.py --eintragen."
+   "prio": 1,
+   "block": "anzeigen",
+   "titel": "Anzeigen sind aus",
+   "text": "Gemessen 16:36, Quelle: Meta-Verbindung 16:3x: Konto Porch Nap 1984849605541642 ohne Zahlungsart. Ohne Anzeigen kommt kein Geld."
   },
   {
-   "prio": 3,
-   "block": "menschen",
-   "titel": "Timos Handy meldet seit 3 Tagen nichts",
-   "text": "Letzte Meldung 30.09. 13:48. Damit ist Timos Zeit nicht gemessen. Automation am Handy prüfen."
+   "prio": 2,
+   "block": "geld",
+   "titel": "4 von 5 Geldzahlen fehlen",
+   "text": "Kein Meta-Zugang und kein Shopify-Token. Niemand sieht hier, ob Anzeigen laufen und Geld kommt. Abhilfe: Plan Abschnitt 3, Shopify-Token (Timo, 5 min) und Meta-Zugang (Timo, 10 min). Bis dahin trägt ein Chat gemessene Werte ein: takt/leitstand_bauen.py --eintragen."
   }
  ],
  "bloecke": [
   {
    "id": "anzeigen",
    "titel": "Anzeigen",
-   "ampel": "grau",
+   "ampel": "rot",
    "zeilen": [
     {
      "name": "Anzeigen aktiv",
-     "wert": "unbekannt",
-     "ampel": "grau",
-     "detail": "kein Meta-Zugang",
-     "quelle": null,
-     "stand": null,
+     "wert": "nein",
+     "ampel": "rot",
+     "detail": null,
+     "quelle": "Meta-Verbindung 16:3x: Konto Porch Nap 1984849605541642 ohne Zahlungsart",
+     "stand": "16:36",
      "ziel": null
     },
     {
@@ -378,11 +378,11 @@
    "zeilen": [
     {
      "name": "Gebaut diese Woche",
-     "wert": "57 Dateien",
+     "wert": "58 Dateien",
      "ampel": "grau",
-     "detail": "33 Bilder, 24 Videos, neu seit Montag, 28.09., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
+     "detail": "33 Bilder, 25 Videos, neu seit Montag, 28.09., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
      "quelle": "Erstellzeit der Dateien in creatives/fertig, 05_creatives/ads, 05_creatives/ki/fertig",
-     "stand": "16:32",
+     "stand": "16:36",
      "ziel": null
     },
     {
@@ -395,47 +395,29 @@
      "ziel": "3 bis 5 je Woche"
     }
    ],
-   "zahl_gebaut": 57
+   "zahl_gebaut": 58
   },
   {
    "id": "menschen",
    "titel": "Menschen",
-   "ampel": "rot",
+   "ampel": "grau",
    "zeilen": [
     {
      "name": "David, produktiv am Mac",
-     "wert": "37 min",
-     "ampel": "gruen",
-     "detail": "Mac-Zeit mit aktiver App, nicht Arbeitszeit. Soll bis 15:40 35 min (10 h, Tag 08:00 bis 22:00, Messung erst seit 14:51, seit 15:40 keine Probe, danach zählt kein Soll). Unproduktive Apps 0 min, Leerlauf 13 min, letzte Probe 15:40.",
-     "quelle": "mac_aktivitaet.jsonl, 50 Proben, mac_tag.py",
-     "stand": "16:32",
-     "ziel": "10 h"
-    },
-    {
-     "name": "Timo, Handy ohne Zeitfresser",
-     "wert": "0 min",
+     "wert": "unbekannt",
      "ampel": "grau",
-     "detail": "Handyzeit, nicht Arbeitszeit. Zählt nur Apps, die das Handy meldet; Arbeit am PC sieht hier niemand.",
-     "quelle": "handy.json vom 14:23",
-     "stand": "16:32",
+     "detail": "David die Mac-Messung am 03.10. abgeschaltet hat",
+     "quelle": null,
+     "stand": null,
      "ziel": "10 h"
     },
     {
-     "name": "Timo, TikTok, Instagram, YouTube",
-     "wert": "0 min",
-     "ampel": "gruen",
-     "detail": "Regel im Leitstand: ab 30 min gelb, ab 60 min rot.",
-     "quelle": "handy.json vom 14:23",
-     "stand": "16:32",
-     "ziel": null
-    },
-    {
-     "name": "Timos Handy, letzte Meldung",
-     "wert": "30.09. 13:48",
-     "ampel": "rot",
-     "detail": "Ohne Meldung ist Timos Handyzeit nicht gemessen. Kurzbefehl-Automation am Handy oder launchd de.david.handy prüfen.",
-     "quelle": "ereignisse.jsonl, handy.json",
-     "stand": "16:32",
+     "name": "Timo",
+     "wert": "nicht gemessen",
+     "ampel": "grau",
+     "detail": "Nicht gemessen, weil Timo die Handy-Messung am 03.10. gestrichen hat.",
+     "quelle": null,
+     "stand": null,
      "ziel": null
     },
     {
@@ -460,7 +442,7 @@
      "ampel": "grau",
      "detail": "1 Zeile im Codeblock (Formatbeispiel) nicht gezählt. Steht dort eine echte Aufgabe, gehört sie aus dem Block heraus.",
      "quelle": "timo/OFFEN.md",
-     "stand": "16:32",
+     "stand": "16:36",
      "ziel": null
     },
     {
@@ -589,7 +571,7 @@
    "zeilen": [
     {
      "name": "Wächter, letzter Lauf",
-     "wert": "16:28",
+     "wert": "16:33",
      "ampel": "gruen",
      "detail": null,
      "quelle": "waechter_zustand.json",
@@ -602,13 +584,13 @@
      "name": "Takt-Schleife",
      "schluessel": "takt",
      "ampel": "gruen",
-     "text": "letzte Runde 16:27 (chef), rc=0"
+     "text": "letzte Runde 16:31 (chef), rc=0"
     },
     {
      "name": "Perplexity",
      "schluessel": "perplexity",
      "ampel": "gruen",
-     "text": "Gins laeuft; letzter Lauf 16:27 ohne Antwortdatei: Eingabefeld war nicht leer, Deep research nicht eingestellt "
+     "text": "letzter Lauf 16:31 erfolgreich, Gins laeuft"
     },
     {
      "name": "Davids Chrome",
@@ -620,7 +602,7 @@
      "name": "Crosspost",
      "schluessel": "crosspost",
      "ampel": "gruen",
-     "text": "laeuft (pid 61877), Herzschlag vor 5 s, postet"
+     "text": "laeuft (pid 61877), Herzschlag vor 7 s, postet"
     },
     {
      "name": "Speicher",
@@ -632,7 +614,7 @@
      "name": "GitHub-Push",
      "schluessel": "github",
      "ampel": "gruen",
-     "text": "origin/main 3cacc0d vor 0 Min"
+     "text": "origin/main e26e3d6 vor 2 Min"
     },
     {
      "name": "WhatsApp Web",
@@ -650,13 +632,13 @@
      "name": "Meta",
      "schluessel": "meta",
      "ampel": "grau",
-     "text": "wartet auf Zugang: ~/takt/zugaenge.json nennt keinen Meta-Zugang (meta.ad_account_id und meta.token)"
+     "text": "wartet auf Zugang: ~/takt/zugaenge.json nennt keinen Meta-Zugang (meta.ad_account_id und meta.token eines Systemnutzers mit ads_read). Eintragen im eigenen Terminal: python3 ~/takt/zugang_eintragen.py meta"
     },
     {
      "name": "Ereignis-Sensor",
      "schluessel": "ereignisse",
      "ampel": "gruen",
-     "text": "letzter Lauf 16:28, 0 offene Ereignisse"
+     "text": "letzter Lauf 16:33, 0 offene Ereignisse"
     },
     {
      "name": "Chrome auf Timos PC",
