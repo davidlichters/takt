@@ -712,5 +712,12 @@
 "typ": "chef",
 "titel": "Meta hat falsches Konto",
 "satz": "Ich habe geprüft, warum Geld nicht kommt, und das falsche Konto in Meta gefunden."
+},
+{
+"tag": "2026-10-03",
+"zeit": "17:00",
+"typ": "recherche",
+"titel": "Postfach hat zu viele Fragen",
+"satz": "Ich habe geprüft und David sieht jetzt: die Sammlung ist zu voll."
 }
 ]
