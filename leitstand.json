@@ -1,7 +1,7 @@
 {
  "version": 2,
- "stand": "2026-10-03T22:32:05Z",
- "stand_berlin": "04.10.2026 00:32",
+ "stand": "2026-10-03T22:47:06Z",
+ "stand_berlin": "04.10.2026 00:47",
  "takt_min": 15,
  "quelle": "takt/leitstand_bauen.py auf Davids Mac, ohne Modell",
  "ziele": {
@@ -18,13 +18,13 @@
    "id": "wo",
    "frage": "Was passiert gerade wo?",
    "ampel": "rot",
-   "kurz": "Der Shop antwortet nicht. Ob die Anzeigen laufen, sehen wir nicht.",
+   "kurz": "Der Shop ist offen. Ob die Anzeigen laufen, sehen wir nicht.",
    "saetze": [],
    "zeilen": [
     {
      "name": "Shop",
-     "text": "Antwortet nicht richtig: HTTP 429.",
-     "ampel": "rot"
+     "text": "Offen. 1 Produkt in 4 Motiven für 69,99 USD, alle bestellbar.",
+     "ampel": "gruen"
     },
     {
      "name": "Anzeigen",
@@ -43,7 +43,7 @@
     },
     {
      "name": "Recherche",
-     "text": "Perplexity hat heute 2 Fragen beantwortet, die letzte um 00:17.",
+     "text": "Perplexity hat heute 3 Fragen beantwortet, die letzte um 00:33.",
      "ampel": "gruen"
     },
     {
@@ -53,7 +53,7 @@
     },
     {
      "name": "Chef-Runde",
-     "text": "Um 00:30: Takt ohne Ergebniszeile beendet (rc=0), Protokoll in ~/takt/laeufe.",
+     "text": "Um 00:45: Takt ohne Ergebniszeile beendet (rc=0), Protokoll in ~/takt/laeufe.",
      "ampel": "gelb"
     }
    ]
@@ -144,10 +144,10 @@
     {
      "prio": 4,
      "block": "aufgaben",
-     "wer": "Timo 1, David 1, Claude 0",
+     "wer": "Timo 1, David 0, Claude 0",
      "tun": "Die älteste zuerst erledigen oder neu datieren; Liste unten unter Offene Aufgaben",
-     "titel": "2 Aufgaben überfällig",
-     "text": "Älteste: 03.10., David. Davon nennen Timo 1, David 1, Claude 0."
+     "titel": "1 Aufgabe überfällig",
+     "text": "Älteste: 03.10., Timo, 2 min. Davon nennen Timo 1, David 0, Claude 0."
     }
    ]
   },
@@ -156,7 +156,7 @@
    "id": "wer",
    "frage": "Wer arbeitet woran?",
    "ampel": "gelb",
-   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 10 Runden heute.",
+   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 13 Runden heute.",
    "saetze": [],
    "zeilen": [
     {
@@ -171,7 +171,7 @@
     },
     {
      "name": "Claude",
-     "text": "10 Runden heute, alle 5 Minuten eine. Zuletzt: Takt ohne Ergebniszeile beendet (rc=0), Protokoll in ~/takt/laeufe.",
+     "text": "13 Runden heute, alle 5 Minuten eine. Zuletzt: Takt ohne Ergebniszeile beendet (rc=0), Protokoll in ~/takt/laeufe.",
      "ampel": "gelb"
     },
     {
@@ -186,7 +186,7 @@
    "id": "tempo",
    "frage": "Wie schnell geht es gerade?",
    "ampel": "gelb",
-   "kurz": "Letzte Stunde: 20 Runden, 8 davon mit fertigem Ergebnis.",
+   "kurz": "Letzte Stunde: 17 Runden, 5 davon mit fertigem Ergebnis.",
    "saetze": [
     "Den Gewinn heute wissen wir noch nicht, weil uns der Shopify-Zugang fehlt."
    ],
@@ -203,7 +203,7 @@
     },
     {
      "name": "Runden, letzte Stunde",
-     "text": "20 Runden: 8 mit fertigem Ergebnis (Creative, Text oder Klickweg), 4 haben einen Menschen erinnert, 8 nur innen gearbeitet.",
+     "text": "17 Runden: 5 mit fertigem Ergebnis (Creative, Text oder Klickweg), 4 haben einen Menschen erinnert, 8 nur innen gearbeitet.",
      "ampel": "gelb"
     },
     {
@@ -250,7 +250,7 @@
     },
     {
      "name": "Runden",
-     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 20, davon 8 nur innen.",
+     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 17, davon 8 nur innen.",
      "ampel": "rot"
     }
    ]
@@ -305,10 +305,10 @@
   {
    "prio": 4,
    "block": "aufgaben",
-   "wer": "Timo 1, David 1, Claude 0",
+   "wer": "Timo 1, David 0, Claude 0",
    "tun": "die älteste zuerst erledigen oder neu datieren; Liste unten unter Offene Aufgaben",
-   "titel": "2 Aufgaben überfällig",
-   "text": "Älteste: 03.10., David. Davon nennen Timo 1, David 1, Claude 0."
+   "titel": "1 Aufgabe überfällig",
+   "text": "Älteste: 03.10., Timo, 2 min. Davon nennen Timo 1, David 0, Claude 0."
   }
  ],
  "bloecke": [
@@ -391,7 +391,7 @@
      "ampel": "grau",
      "detail": "45 Bilder, 28 Videos, neu seit Montag, 28.09., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
      "quelle": "Erstellzeit der Dateien in creatives/fertig, 05_creatives/ads, 05_creatives/ki/fertig",
-     "stand": "00:32",
+     "stand": "00:47",
      "ziel": null
     },
     {
@@ -447,18 +447,18 @@
    "zeilen": [
     {
      "name": "Offen",
-     "wert": "14",
+     "wert": "13",
      "ampel": "grau",
      "detail": "1 Zeile im Codeblock (Formatbeispiel) nicht gezählt. Steht dort eine echte Aufgabe, gehört sie aus dem Block heraus.",
      "quelle": "timo/OFFEN.md",
-     "stand": "00:32",
+     "stand": "00:47",
      "ziel": null
     },
     {
      "name": "Überfällig",
-     "wert": "2",
+     "wert": "1",
      "ampel": "rot",
-     "detail": "davon nennen Timo 1, David 1, Claude 0",
+     "detail": "davon nennen Timo 1, David 0, Claude 0",
      "quelle": null,
      "stand": null,
      "ziel": null
@@ -474,14 +474,6 @@
     }
    ],
    "liste": [
-    {
-     "datum": "2026-10-03",
-     "datum_kurz": "03.10.",
-     "wer": "David",
-     "text": "BM3 von Anh: Übergabe prüfen, bevor Karte, Pixel oder Domain dran kommen: BM-ID, Bild der Personenliste ohne Anh …",
-     "tage_ueberfaellig": 1,
-     "ampel": "rot"
-    },
     {
      "datum": "2026-10-03",
      "datum_kurz": "03.10.",
@@ -569,9 +561,17 @@
      "text": "Gewohnheits-Tracker aus dem Startpaket noch gewollt? Bei ja GitHub-Token mit gist-Recht erzeugen …",
      "tage_ueberfaellig": 0,
      "ampel": "grau"
+    },
+    {
+     "datum": "2026-10-10",
+     "datum_kurz": "10.10.",
+     "wer": "Timo, 5 min, 3 Tage nach Anzeigenstart",
+     "text": "Bei 0 Käufen nicht schneiden, bevor die Prüffolge durch ist: launch/null_kaeufe_pruefung.md (8 Stufen, Urteil erst ab …",
+     "tage_ueberfaellig": 0,
+     "ampel": "grau"
     }
    ],
-   "weitere": 2
+   "weitere": 1
   },
   {
    "id": "werkzeuge",
@@ -580,7 +580,7 @@
    "zeilen": [
     {
      "name": "Wächter, letzter Lauf",
-     "wert": "00:29",
+     "wert": "00:45",
      "ampel": "gruen",
      "detail": null,
      "quelle": "waechter_zustand.json",
@@ -593,13 +593,13 @@
      "name": "Takt-Schleife",
      "schluessel": "takt",
      "ampel": "gruen",
-     "text": "letzte Runde 00:26 (chef), rc=0"
+     "text": "letzte Runde 00:40 (chef), rc=0, Runde laeuft seit 0 Min"
     },
     {
      "name": "Perplexity",
      "schluessel": "perplexity",
      "ampel": "gruen",
-     "text": "Gins laeuft; letzter Lauf 00:17 ohne Antwortdatei: nach 12 Minuten nicht fertig"
+     "text": "letzter Lauf 00:29 erfolgreich, Gins laeuft"
     },
     {
      "name": "Davids Chrome",
@@ -611,7 +611,7 @@
      "name": "Crosspost",
      "schluessel": "crosspost",
      "ampel": "gruen",
-     "text": "laeuft (pid 61877), Herzschlag vor 6 s, postet, letzter Fehler: 2026-10-03T21:37:30.732Z keine Videos in der Antwort: {\"extr"
+     "text": "laeuft (pid 61877), Herzschlag vor 8 s, Trockenlauf ohne AKTIV, letzter Fehler: 2026-10-03T21:37:30.732Z keine Videos in der Antwort: {\"extr"
     },
     {
      "name": "Speicher",
@@ -623,7 +623,7 @@
      "name": "GitHub-Push",
      "schluessel": "github",
      "ampel": "gruen",
-     "text": "origin/main 43af6b9 vor 4 Min"
+     "text": "origin/main e2c9790 vor 5 Min"
     },
     {
      "name": "WhatsApp Web",
@@ -647,7 +647,7 @@
      "name": "Ereignis-Sensor",
      "schluessel": "ereignisse",
      "ampel": "gruen",
-     "text": "letzter Lauf 00:29, 0 offene Ereignisse"
+     "text": "letzter Lauf 00:45, 0 offene Ereignisse"
     },
     {
      "name": "Chrome auf Timos PC",
