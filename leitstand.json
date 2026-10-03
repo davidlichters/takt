@@ -1,7 +1,7 @@
 {
  "version": 2,
- "stand": "2026-10-03T22:17:05Z",
- "stand_berlin": "04.10.2026 00:17",
+ "stand": "2026-10-03T22:32:05Z",
+ "stand_berlin": "04.10.2026 00:32",
  "takt_min": 15,
  "quelle": "takt/leitstand_bauen.py auf Davids Mac, ohne Modell",
  "ziele": {
@@ -18,13 +18,13 @@
    "id": "wo",
    "frage": "Was passiert gerade wo?",
    "ampel": "rot",
-   "kurz": "Der Shop ist offen. Ob die Anzeigen laufen, sehen wir nicht.",
+   "kurz": "Der Shop antwortet nicht. Ob die Anzeigen laufen, sehen wir nicht.",
    "saetze": [],
    "zeilen": [
     {
      "name": "Shop",
-     "text": "Offen. 1 Produkt in 4 Motiven für 69,99 USD, alle bestellbar.",
-     "ampel": "gruen"
+     "text": "Antwortet nicht richtig: HTTP 429.",
+     "ampel": "rot"
     },
     {
      "name": "Anzeigen",
@@ -43,7 +43,7 @@
     },
     {
      "name": "Recherche",
-     "text": "Perplexity hat heute 1 Frage beantwortet, die letzte um 00:09.",
+     "text": "Perplexity hat heute 2 Fragen beantwortet, die letzte um 00:17.",
      "ampel": "gruen"
     },
     {
@@ -53,8 +53,8 @@
     },
     {
      "name": "Chef-Runde",
-     "text": "Um 00:15: Werbekonto Porch Nap ist aktiv, aber ohne Zahlungsart (EUR), der erste Werbedollar hängt daran, David 04.10 …",
-     "ampel": "gruen"
+     "text": "Um 00:30: Takt ohne Ergebniszeile beendet (rc=0), Protokoll in ~/takt/laeufe.",
+     "ampel": "gelb"
     }
    ]
   },
@@ -85,10 +85,10 @@
      "prio": 0,
      "block": "eskalation",
      "quelle": "gedaechtnis/OFFEN.md",
-     "titel": "Shopify Admin > Settings > Payments > Shopify Payments > Manage > Account/Business details, Name …",
-     "wer": "David",
-     "tun": "Erinnerung zu Zeile 72 (21:20, 2 Stunden 40 Minuten alt, überfällig laut Leitstand)",
-     "bis": "07:30",
+     "titel": "vor Timos Import, spaetestens 10:00. (1) B2_FRIST_01 und B2_FRIST_02 sagen im Bild und im …",
+     "wer": "Claude",
+     "tun": null,
+     "bis": "08:00",
      "vorbei": false,
      "stufe": 1,
      "ja": []
@@ -97,25 +97,14 @@
      "prio": 0,
      "block": "eskalation",
      "quelle": "gedaechtnis/OFFEN.md",
-     "titel": "Timo oder David legt in Meta eine Zahlungsart am Werbekonto an (Porch Nap 1984849605541642, Status …",
-     "wer": "Timo",
+     "titel": "Claude setzt per Shopify-Verbindung Startseiten-Titel und Meta-Beschreibung aus Ja 15 (Endwerte in …",
+     "wer": "Claude",
      "tun": null,
-     "bis": "07:30",
-     "vorbei": false,
-     "stufe": 1,
-     "ja": []
-    },
-    {
-     "prio": 0,
-     "block": "eskalation",
-     "quelle": "gedaechtnis/OFFEN.md",
-     "titel": "Timo setzt in Shopify Online Store > Preferences > Title and meta description die Startseiten-Titel …",
-     "wer": "Timo",
-     "tun": null,
-     "bis": "07:30",
+     "bis": "08:00",
      "vorbei": false,
      "stufe": 5,
      "ja": [
+      15,
       15,
       15
      ]
@@ -124,12 +113,24 @@
      "prio": 0,
      "block": "eskalation",
      "quelle": "gedaechtnis/OFFEN.md",
-     "titel": "CPM US 27,47 USD im Nov 2025, UK 26,48 im Dez 2025, AU 21,73 im Nov 2025, CA 17,00 im Dez 2025. Bei …",
-     "wer": "David",
-     "tun": "Vor dem ersten Werbedollar entscheiden, ob das Start-Budget so bleibt. Meta-Mediane (superads, alle Branchen, keine …",
-     "bis": "07:30",
+     "titel": "Ticket mit dem Text aus ~/timo/entwuerfe/2026-10-04_ecomwarts_shop_ticket.md senden, direkt nach …",
+     "wer": "Timo",
+     "tun": "Shop-Pruefung bei den Ecomwarts-Coaches anfragen",
+     "bis": "12:00",
      "vorbei": false,
-     "stufe": 6,
+     "stufe": 5,
+     "ja": []
+    },
+    {
+     "prio": 0,
+     "block": "eskalation",
+     "quelle": "gedaechtnis/OFFEN.md",
+     "titel": "die Aufwaerm-Kampagne (Engagement, Messenger, USA, Gesamtbudget 20 USD) veroeffentlichen, die 29 …",
+     "wer": "Timo",
+     "tun": "Werbung starten im BM3, Ablauf in ~/timo/launch/coach_2026-10-03/09_PLAN_SONNTAG.md Block 12:30",
+     "bis": "12:30",
+     "vorbei": false,
+     "stufe": 5,
      "ja": []
     },
     {
@@ -154,13 +155,13 @@
    "nr": 3,
    "id": "wer",
    "frage": "Wer arbeitet woran?",
-   "ampel": "gruen",
-   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 6 Runden heute.",
+   "ampel": "gelb",
+   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 10 Runden heute.",
    "saetze": [],
    "zeilen": [
     {
      "name": "David",
-     "text": "Nicht gemessen, weil David die Mac-Messung am 03.10. abgeschaltet hat. Auf David warten heute 2 Sachen (Karte 2).",
+     "text": "Nicht gemessen, weil David die Mac-Messung am 03.10. abgeschaltet hat.",
      "ampel": "grau"
     },
     {
@@ -170,8 +171,8 @@
     },
     {
      "name": "Claude",
-     "text": "6 Runden heute, alle 5 Minuten eine. Zuletzt: Werbekonto Porch Nap ist aktiv, aber ohne Zahlungsart (EUR), der erste Werbedollar hängt …",
-     "ampel": "gruen"
+     "text": "10 Runden heute, alle 5 Minuten eine. Zuletzt: Takt ohne Ergebniszeile beendet (rc=0), Protokoll in ~/takt/laeufe.",
+     "ampel": "gelb"
     },
     {
      "name": "Abteilungs-Chats",
@@ -185,7 +186,7 @@
    "id": "tempo",
    "frage": "Wie schnell geht es gerade?",
    "ampel": "gelb",
-   "kurz": "Letzte Stunde: 19 Runden, 9 davon mit fertigem Ergebnis.",
+   "kurz": "Letzte Stunde: 20 Runden, 8 davon mit fertigem Ergebnis.",
    "saetze": [
     "Den Gewinn heute wissen wir noch nicht, weil uns der Shopify-Zugang fehlt."
    ],
@@ -202,7 +203,7 @@
     },
     {
      "name": "Runden, letzte Stunde",
-     "text": "19 Runden: 9 mit fertigem Ergebnis (Creative, Text oder Klickweg), 5 haben einen Menschen erinnert, 5 nur innen gearbeitet.",
+     "text": "20 Runden: 8 mit fertigem Ergebnis (Creative, Text oder Klickweg), 4 haben einen Menschen erinnert, 8 nur innen gearbeitet.",
      "ampel": "gelb"
     },
     {
@@ -249,7 +250,7 @@
     },
     {
      "name": "Runden",
-     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 19, davon 5 nur innen.",
+     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 20, davon 8 nur innen.",
      "ampel": "rot"
     }
    ]
@@ -390,7 +391,7 @@
      "ampel": "grau",
      "detail": "45 Bilder, 28 Videos, neu seit Montag, 28.09., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
      "quelle": "Erstellzeit der Dateien in creatives/fertig, 05_creatives/ads, 05_creatives/ki/fertig",
-     "stand": "00:17",
+     "stand": "00:32",
      "ziel": null
     },
     {
@@ -450,7 +451,7 @@
      "ampel": "grau",
      "detail": "1 Zeile im Codeblock (Formatbeispiel) nicht gezählt. Steht dort eine echte Aufgabe, gehört sie aus dem Block heraus.",
      "quelle": "timo/OFFEN.md",
-     "stand": "00:17",
+     "stand": "00:32",
      "ziel": null
     },
     {
@@ -579,7 +580,7 @@
    "zeilen": [
     {
      "name": "Wächter, letzter Lauf",
-     "wert": "00:14",
+     "wert": "00:29",
      "ampel": "gruen",
      "detail": null,
      "quelle": "waechter_zustand.json",
@@ -592,13 +593,13 @@
      "name": "Takt-Schleife",
      "schluessel": "takt",
      "ampel": "gruen",
-     "text": "letzte Runde 00:13 (chef), rc=0"
+     "text": "letzte Runde 00:26 (chef), rc=0"
     },
     {
      "name": "Perplexity",
      "schluessel": "perplexity",
      "ampel": "gruen",
-     "text": "letzter Lauf 00:01 erfolgreich, Gins laeuft"
+     "text": "Gins laeuft; letzter Lauf 00:17 ohne Antwortdatei: nach 12 Minuten nicht fertig"
     },
     {
      "name": "Davids Chrome",
@@ -610,7 +611,7 @@
      "name": "Crosspost",
      "schluessel": "crosspost",
      "ampel": "gruen",
-     "text": "laeuft (pid 61877), Herzschlag vor 0 s, postet, letzter Fehler: 2026-10-03T21:37:30.732Z keine Videos in der Antwort: {\"extr"
+     "text": "laeuft (pid 61877), Herzschlag vor 6 s, postet, letzter Fehler: 2026-10-03T21:37:30.732Z keine Videos in der Antwort: {\"extr"
     },
     {
      "name": "Speicher",
@@ -622,7 +623,7 @@
      "name": "GitHub-Push",
      "schluessel": "github",
      "ampel": "gruen",
-     "text": "origin/main 00a0b2e vor 0 Min"
+     "text": "origin/main 43af6b9 vor 4 Min"
     },
     {
      "name": "WhatsApp Web",
@@ -646,7 +647,7 @@
      "name": "Ereignis-Sensor",
      "schluessel": "ereignisse",
      "ampel": "gruen",
-     "text": "letzter Lauf 00:14, 0 offene Ereignisse"
+     "text": "letzter Lauf 00:29, 0 offene Ereignisse"
     },
     {
      "name": "Chrome auf Timos PC",
