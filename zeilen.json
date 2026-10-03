@@ -1608,5 +1608,12 @@
 "typ": "chef",
 "titel": "Versand-Zeit fehlt auf unserer Seite",
 "satz": "Ich habe gemerkt, dass Kunden nicht wissen, wie lange der Versand dauert."
+},
+{
+"tag": "2026-10-04",
+"zeit": "00:50",
+"typ": "chef",
+"titel": "Hundebett-Paket wird bis Mittag geprüft",
+"satz": "Ich habe gemerkt, dass Timo das Paket prüft, damit Kunden zwei Betten kaufen."
 }
 ]
