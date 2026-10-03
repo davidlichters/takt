@@ -1,7 +1,7 @@
 {
  "version": 2,
- "stand": "2026-10-03T21:47:04Z",
- "stand_berlin": "03.10.2026 23:47",
+ "stand": "2026-10-03T22:02:05Z",
+ "stand_berlin": "04.10.2026 00:02",
  "takt_min": 15,
  "quelle": "takt/leitstand_bauen.py auf Davids Mac, ohne Modell",
  "ziele": {
@@ -9,7 +9,7 @@
   "gewinn_tag_usd": 2174,
   "break_even_cpa_usd": 47.01,
   "stunden_je_person": 10,
-  "tag": 3,
+  "tag": 4,
   "tage_gesamt": 92
  },
  "karten": [
@@ -28,7 +28,7 @@
     },
     {
      "name": "Anzeigen",
-     "text": "Aus (gemessen 18:06, Meta ads_get_ad_accounts 18:06: Porch Nap 1984849605541642 ohne Zahlungsart, EUR). Ohne Anzeigen kommt kein Geld.",
+     "text": "Aus (gemessen 03.10. 18:06, Meta ads_get_ad_accounts 18:06: Porch Nap 1984849605541642 ohne Zahlungsart, EUR). Ohne Anzeigen kommt kein Geld.",
      "ampel": "rot"
     },
     {
@@ -38,12 +38,12 @@
     },
     {
      "name": "Creatives",
-     "text": "Heute 20 neue Bilder oder Videos gebaut, diese Woche 71. Das neueste: PN_REVIEWCAT_4x5.png um 21:30. Wie viele davon live sind, wissen wir nicht.",
+     "text": "Heute 1 neue Bilder oder Videos gebaut, diese Woche 72. Das neueste: PN_DEARSANTA_4x5.png um 00:00. Wie viele davon live sind, wissen wir nicht.",
      "ampel": "gruen"
     },
     {
      "name": "Recherche",
-     "text": "Perplexity hat heute 81 Fragen beantwortet, die letzte um 23:40.",
+     "text": "Perplexity hat heute 0 Fragen beantwortet, die letzte um 03.10. 23:54.",
      "ampel": "gruen"
     },
     {
@@ -53,8 +53,8 @@
     },
     {
      "name": "Chef-Runde",
-     "text": "Um 23:45: Takt ohne Ergebniszeile beendet (rc=0), Protokoll in ~/takt/laeufe.",
-     "ampel": "gelb"
+     "text": "Um 00:00: fertiges Creative C45 PN_DEARSANTA 4:5 gebaut (Hook Dear Santa, Originalfoto Reindeer, Size S, Order by Dec …",
+     "ampel": "gruen"
     }
    ]
   },
@@ -63,7 +63,7 @@
    "id": "auf",
    "frage": "Was hält uns auf?",
    "ampel": "rot",
-   "kurz": "3 Dinge halten uns auf.",
+   "kurz": "6 Dinge halten uns auf.",
    "saetze": [
     "Bei jedem steht, wer es tun muss. Oben steht das, was am meisten Geld kostet."
    ],
@@ -73,29 +73,64 @@
      "prio": 0,
      "block": "eskalation",
      "quelle": "gedaechtnis/OFFEN.md",
-     "titel": "Shopify Admin > Settings > Payments > Shopify Payments > Manage > Account/Business details, Name …",
+     "titel": "Timo klickt den BM3-Klickweg aus ~/timo/launch/coach_2026-10-03/11_BM3_HEUTE_TIMO.md (Frist war …",
      "wer": "Timo",
-     "tun": "Oder David schaut 3 Minuten nach, wer bei Shopify Payments als Kontoverantwortlicher steht",
-     "bis": "21:20",
-     "vorbei": true,
+     "tun": null,
+     "bis": "07:30",
+     "vorbei": false,
      "stufe": 1,
+     "ja": []
+    },
+    {
+     "prio": 0,
+     "block": "eskalation",
+     "quelle": "gedaechtnis/OFFEN.md",
+     "titel": "Timo setzt in Shopify Online Store > Preferences > Title and meta description die Startseiten-Titel …",
+     "wer": "Timo",
+     "tun": null,
+     "bis": "07:30",
+     "vorbei": false,
+     "stufe": 5,
+     "ja": [
+      15,
+      15
+     ]
+    },
+    {
+     "prio": 0,
+     "block": "eskalation",
+     "quelle": "gedaechtnis/OFFEN.md",
+     "titel": "CPM US 27,47 USD im Nov 2025, UK 26,48 im Dez 2025, AU 21,73 im Nov 2025, CA 17,00 im Dez 2025. Bei …",
+     "wer": "David",
+     "tun": "Vor dem ersten Werbedollar entscheiden, ob das Start-Budget so bleibt. Meta-Mediane (superads, alle Branchen, keine …",
+     "bis": "07:30",
+     "vorbei": false,
+     "stufe": 6,
      "ja": []
     },
     {
      "prio": 1,
      "block": "anzeigen",
      "titel": "Anzeigen sind aus",
-     "text": "Gemessen 18:06, Quelle: Meta ads_get_ad_accounts 18:06: Porch Nap 1984849605541642 ohne Zahlungsart, EUR. Ohne Anzeigen kommt kein Geld.",
+     "text": "Gemessen 03.10. 18:06, Quelle: Meta ads_get_ad_accounts 18:06: Porch Nap 1984849605541642 ohne Zahlungsart, EUR. Ohne Anzeigen kommt kein Geld.",
      "wer": "Timo",
      "tun": "Kampagne bauen und veröffentlichen (K5, K6)"
     },
     {
      "prio": 2,
      "block": "geld",
-     "titel": "3 von 5 Geldzahlen fehlen",
-     "text": "Kein Meta-Zugang und kein Shopify-Token. Niemand sieht hier, ob Anzeigen laufen und Geld kommt. Abhilfe: Plan Abschnitt 3, Shopify-Token (Timo, 5 min) und Meta-Zugang (Timo, 10 min). Bis dahin trägt ein Chat gemessene Werte ein: takt/leitstand_bauen.py --eintragen.",
+     "titel": "4 von 5 Geldzahlen fehlen",
+     "text": "Kein Meta-Zugang und kein Shopify-Token. veraltet oder verworfen: Bestellungen heute. Niemand sieht hier, ob Anzeigen laufen und Geld kommt. Abhilfe: Plan Abschnitt 3, Shopify-Token (Timo, 5 min) und Meta-Zugang (Timo, 10 min). Bis dahin trägt ein Chat gemessene Werte ein: takt/leitstand_bauen.py --eintragen.",
      "wer": "Timo",
      "tun": "Einmal den Shopify-Schlüssel (5 min) und den Meta-Zugang (10 min) anlegen, Plan Abschnitt 3"
+    },
+    {
+     "prio": 4,
+     "block": "aufgaben",
+     "wer": "Timo 1, David 1, Claude 0",
+     "tun": "Die älteste zuerst erledigen oder neu datieren; Liste unten unter Offene Aufgaben",
+     "titel": "2 Aufgaben überfällig",
+     "text": "Älteste: 03.10., David. Davon nennen Timo 1, David 1, Claude 0."
     }
    ]
   },
@@ -103,24 +138,24 @@
    "nr": 3,
    "id": "wer",
    "frage": "Wer arbeitet woran?",
-   "ampel": "gelb",
-   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 145 Runden heute.",
+   "ampel": "gruen",
+   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 1 Runde heute.",
    "saetze": [],
    "zeilen": [
     {
      "name": "David",
-     "text": "Nicht gemessen, weil David die Mac-Messung am 03.10. abgeschaltet hat.",
+     "text": "Nicht gemessen, weil David die Mac-Messung am 03.10. abgeschaltet hat. Auf David warten heute 1 Sache (Karte 2).",
      "ampel": "grau"
     },
     {
      "name": "Timo",
-     "text": "Nicht gemessen, das hat Timo am 03.10. so entschieden.",
+     "text": "Nicht gemessen, das hat Timo am 03.10. so entschieden. 1 überfällige Aufgabe nennt Timo.",
      "ampel": "grau"
     },
     {
      "name": "Claude",
-     "text": "145 Runden heute, alle 5 Minuten eine. Zuletzt: Takt ohne Ergebniszeile beendet (rc=0), Protokoll in ~/takt/laeufe.",
-     "ampel": "gelb"
+     "text": "1 Runde heute, alle 5 Minuten eine. Zuletzt: fertiges Creative C45 PN_DEARSANTA 4:5 gebaut (Hook Dear Santa, Originalfoto Reindeer, Size S …",
+     "ampel": "gruen"
     },
     {
      "name": "Abteilungs-Chats",
@@ -134,7 +169,7 @@
    "id": "tempo",
    "frage": "Wie schnell geht es gerade?",
    "ampel": "gelb",
-   "kurz": "Letzte Stunde: 15 Runden, 7 davon mit fertigem Ergebnis.",
+   "kurz": "Letzte Stunde: 17 Runden, 8 davon mit fertigem Ergebnis.",
    "saetze": [
     "Den Gewinn heute wissen wir noch nicht, weil uns der Shopify-Zugang fehlt."
    ],
@@ -146,22 +181,22 @@
     },
     {
      "name": "Bestellungen heute",
-     "text": "0 (gemessen 18:06).",
+     "text": "Wissen wir noch nicht, weil uns der Shopify-Zugang fehlt.",
      "ampel": "grau"
     },
     {
      "name": "Runden, letzte Stunde",
-     "text": "15 Runden: 7 mit fertigem Ergebnis (Creative, Text oder Klickweg), 4 haben einen Menschen erinnert, 4 nur innen gearbeitet.",
+     "text": "17 Runden: 8 mit fertigem Ergebnis (Creative, Text oder Klickweg), 4 haben einen Menschen erinnert, 5 nur innen gearbeitet.",
      "ampel": "gelb"
     },
     {
      "name": "Erledigt heute",
-     "text": "9 in OFFEN.md als erledigt eingetragen (13 weitere nur als überholt gestrichen), 7 Ja-Schritte erledigt.",
-     "ampel": "gruen"
+     "text": "0 in OFFEN.md als erledigt eingetragen, 0 Ja-Schritte erledigt.",
+     "ampel": "gelb"
     },
     {
      "name": "Neu gebaut heute",
-     "text": "20 Bilder und Videos für Anzeigen.",
+     "text": "1 Bilder und Videos für Anzeigen.",
      "ampel": "gruen"
     }
    ]
@@ -198,7 +233,7 @@
     },
     {
      "name": "Runden",
-     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 15, davon 4 nur innen.",
+     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 17, davon 5 nur innen.",
      "ampel": "rot"
     }
    ]
@@ -248,13 +283,21 @@
    "prio": 1,
    "block": "anzeigen",
    "titel": "Anzeigen sind aus",
-   "text": "Gemessen 18:06, Quelle: Meta ads_get_ad_accounts 18:06: Porch Nap 1984849605541642 ohne Zahlungsart, EUR. Ohne Anzeigen kommt kein Geld."
+   "text": "Gemessen 03.10. 18:06, Quelle: Meta ads_get_ad_accounts 18:06: Porch Nap 1984849605541642 ohne Zahlungsart, EUR. Ohne Anzeigen kommt kein Geld."
   },
   {
    "prio": 2,
    "block": "geld",
-   "titel": "3 von 5 Geldzahlen fehlen",
-   "text": "Kein Meta-Zugang und kein Shopify-Token. Niemand sieht hier, ob Anzeigen laufen und Geld kommt. Abhilfe: Plan Abschnitt 3, Shopify-Token (Timo, 5 min) und Meta-Zugang (Timo, 10 min). Bis dahin trägt ein Chat gemessene Werte ein: takt/leitstand_bauen.py --eintragen."
+   "titel": "4 von 5 Geldzahlen fehlen",
+   "text": "Kein Meta-Zugang und kein Shopify-Token. veraltet oder verworfen: Bestellungen heute. Niemand sieht hier, ob Anzeigen laufen und Geld kommt. Abhilfe: Plan Abschnitt 3, Shopify-Token (Timo, 5 min) und Meta-Zugang (Timo, 10 min). Bis dahin trägt ein Chat gemessene Werte ein: takt/leitstand_bauen.py --eintragen."
+  },
+  {
+   "prio": 4,
+   "block": "aufgaben",
+   "wer": "Timo 1, David 1, Claude 0",
+   "tun": "die älteste zuerst erledigen oder neu datieren; Liste unten unter Offene Aufgaben",
+   "titel": "2 Aufgaben überfällig",
+   "text": "Älteste: 03.10., David. Davon nennen Timo 1, David 1, Claude 0."
   }
  ],
  "bloecke": [
@@ -269,7 +312,7 @@
      "ampel": "rot",
      "detail": null,
      "quelle": "Meta ads_get_ad_accounts 18:06: Porch Nap 1984849605541642 ohne Zahlungsart, EUR",
-     "stand": "18:06",
+     "stand": "03.10. 18:06",
      "ziel": null
     },
     {
@@ -299,11 +342,11 @@
    "zeilen": [
     {
      "name": "Bestellungen heute",
-     "wert": "0",
+     "wert": "veraltet",
      "ampel": "grau",
-     "detail": null,
+     "detail": "Messung vom 03.10., nicht von heute: damals 0",
      "quelle": "Shopify list-orders 18:06, 0 seit 01.10.",
-     "stand": "18:06",
+     "stand": "03.10. 18:06",
      "ziel": null
     },
     {
@@ -322,7 +365,7 @@
      "detail": "kein Shopify-Token",
      "quelle": null,
      "stand": null,
-     "ziel": "200.000 USD bis 31.12., Soll bis gestern 4.348 USD (2 Tage)"
+     "ziel": "200.000 USD bis 31.12., Soll bis gestern 6.522 USD (3 Tage)"
     }
    ]
   },
@@ -333,11 +376,11 @@
    "zeilen": [
     {
      "name": "Gebaut diese Woche",
-     "wert": "71 Dateien",
+     "wert": "72 Dateien",
      "ampel": "grau",
-     "detail": "43 Bilder, 28 Videos, neu seit Montag, 28.09., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
+     "detail": "44 Bilder, 28 Videos, neu seit Montag, 28.09., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
      "quelle": "Erstellzeit der Dateien in creatives/fertig, 05_creatives/ads, 05_creatives/ki/fertig",
-     "stand": "23:47",
+     "stand": "00:02",
      "ziel": null
     },
     {
@@ -350,7 +393,7 @@
      "ziel": "3 bis 5 je Woche"
     }
    ],
-   "zahl_gebaut": 71
+   "zahl_gebaut": 72
   },
   {
    "id": "menschen",
@@ -377,7 +420,7 @@
     },
     {
      "name": "Nächster Check-in",
-     "wert": "09:00 morgen",
+     "wert": "09:00 heute",
      "ampel": "grau",
      "detail": "Tagesstart 08:00 ist festgelegt (Plan 5). Die Check-in-Zeiten (09:00, 13:00, 18:00, 22:00) sind der Vorschlag aus Plan 2.4, noch nicht festgelegt.",
      "quelle": "LEITSTAND_PLAN.md 2.4 und 5",
@@ -389,7 +432,7 @@
   {
    "id": "aufgaben",
    "titel": "Offene Aufgaben",
-   "ampel": "gelb",
+   "ampel": "rot",
    "zeilen": [
     {
      "name": "Offen",
@@ -397,14 +440,14 @@
      "ampel": "grau",
      "detail": "1 Zeile im Codeblock (Formatbeispiel) nicht gezählt. Steht dort eine echte Aufgabe, gehört sie aus dem Block heraus.",
      "quelle": "timo/OFFEN.md",
-     "stand": "23:47",
+     "stand": "00:02",
      "ziel": null
     },
     {
      "name": "Überfällig",
-     "wert": "0",
-     "ampel": "gruen",
-     "detail": null,
+     "wert": "2",
+     "ampel": "rot",
+     "detail": "davon nennen Timo 1, David 1, Claude 0",
      "quelle": null,
      "stand": null,
      "ziel": null
@@ -425,16 +468,16 @@
      "datum_kurz": "03.10.",
      "wer": "David",
      "text": "BM3 von Anh: Übergabe prüfen, bevor Karte, Pixel oder Domain dran kommen: BM-ID, Bild der Personenliste ohne Anh …",
-     "tage_ueberfaellig": 0,
-     "ampel": "gelb"
+     "tage_ueberfaellig": 1,
+     "ampel": "rot"
     },
     {
      "datum": "2026-10-03",
      "datum_kurz": "03.10.",
      "wer": "Timo, 2 min",
      "text": "Warenkorb-Abbruch-Mail einschalten: Shopify > Marketing > Automations > Vorlage \"Abandoned checkout\", ohne Rabattcode …",
-     "tage_ueberfaellig": 0,
-     "ampel": "gelb"
+     "tage_ueberfaellig": 1,
+     "ampel": "rot"
     },
     {
      "datum": "2026-10-04",
@@ -442,7 +485,7 @@
      "wer": "Timo, 10 min, im BM3 vor dem Anzeigenstart",
      "text": "ENTSCHIEDEN 03.10. 23:33 Kursrichter AENDERN (~/takt/kursrichter/urteile/2026-10-03_232719.md): erst Pixel/Datensatz …",
      "tage_ueberfaellig": 0,
-     "ampel": "grau"
+     "ampel": "gelb"
     },
     {
      "datum": "2026-10-04",
@@ -450,7 +493,7 @@
      "wer": "Timo, 5 min, vor dem Anzeigenstart",
      "text": "ENTSCHIEDEN 03.10. 23:33 Kursrichter AENDERN (~/takt/kursrichter/urteile/2026-10-03_232734.md): Shopify Inbox > Agent …",
      "tage_ueberfaellig": 0,
-     "ampel": "grau"
+     "ampel": "gelb"
     },
     {
      "datum": "2026-10-05",
@@ -526,7 +569,7 @@
    "zeilen": [
     {
      "name": "Wächter, letzter Lauf",
-     "wert": "23:43",
+     "wert": "03.10. 23:58",
      "ampel": "gruen",
      "detail": null,
      "quelle": "waechter_zustand.json",
@@ -539,13 +582,13 @@
      "name": "Takt-Schleife",
      "schluessel": "takt",
      "ampel": "gruen",
-     "text": "letzte Runde 23:42 (chef), rc=0"
+     "text": "letzte Runde 23:57 (chef), rc=0"
     },
     {
      "name": "Perplexity",
      "schluessel": "perplexity",
      "ampel": "gruen",
-     "text": "letzter Lauf 23:38 erfolgreich, Gins laeuft"
+     "text": "letzter Lauf 23:51 erfolgreich, Gins laeuft"
     },
     {
      "name": "Davids Chrome",
@@ -557,19 +600,19 @@
      "name": "Crosspost",
      "schluessel": "crosspost",
      "ampel": "gruen",
-     "text": "laeuft (pid 61877), Herzschlag vor 0 s, postet, letzter Fehler: 2026-10-03T21:37:30.732Z keine Videos in der Antwort: {\"extr"
+     "text": "laeuft (pid 61877), Herzschlag vor 6 s, postet, letzter Fehler: 2026-10-03T21:37:30.732Z keine Videos in der Antwort: {\"extr"
     },
     {
      "name": "Speicher",
      "schluessel": "speicher",
      "ampel": "gruen",
-     "text": "140 GB frei"
+     "text": "142 GB frei"
     },
     {
      "name": "GitHub-Push",
      "schluessel": "github",
      "ampel": "gruen",
-     "text": "origin/main 5283385 vor 0 Min"
+     "text": "origin/main f1574ef vor 1 Min"
     },
     {
      "name": "WhatsApp Web",
@@ -593,7 +636,7 @@
      "name": "Ereignis-Sensor",
      "schluessel": "ereignisse",
      "ampel": "gruen",
-     "text": "letzter Lauf 23:43, 0 offene Ereignisse"
+     "text": "letzter Lauf 23:58, 0 offene Ereignisse"
     },
     {
      "name": "Chrome auf Timos PC",
