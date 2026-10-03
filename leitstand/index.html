@@ -12,49 +12,78 @@
 <link rel="icon" type="image/png" href="../icon-192.png">
 <title>Leitstand</title>
 <style>
-  /* Leitstand, Bauteil 2.1 aus timo/betrieb/LEITSTAND_PLAN.md (03.10.2026). Schwarz wie handy/, SF, zuerst 390 px.
-     Daten: leitstand.json im Zweig "daten", alle 15 min von ~/takt/leitstand_bauen.py. Die Seite fragt alle 5 min nach
-     neuen Daten und zeichnet jede Minute neu (Alter, roter Punkt "Leitstand steht"). */
-  :root{ --grund:#000; --karte:#1C1C1E; --linie:#2C2C2E; --text:#FFFFFF; --grau:#8E8E93; --hell:#C7C7CC;
-         --rot:#FF453A; --gelb:#FFD60A; --gruen:#30D158; }
+  /* Leitstand Version 2 (03.10.2026): oben sechs Karten fuer Davids sechs Fragen, so einfach, dass ein Kind sie
+     versteht; darunter die Bloecke aus Bauteil 2.1 (timo/betrieb/LEITSTAND_PLAN.md) als Details. Schwarz wie handy/,
+     SF, zuerst 390 px. Daten: leitstand.json im Zweig "daten", alle 15 min von ~/takt/leitstand_bauen.py. Die Seite
+     fragt alle 5 min nach neuen Daten und zeichnet jede Minute neu (Alter, Hinweis "Leitstand steht"). */
+  :root{ --grund:#000; --karte:#1C1C1E; --karte2:#2C2C2E; --linie:#38383A; --text:#FFFFFF; --grau:#8E8E93; --hell:#D1D1D6;
+         --rot:#FF453A; --gelb:#FFD60A; --gruen:#30D158; --dunkelgrau:#636366; }
   *{box-sizing:border-box;margin:0;padding:0;}
   html,body{background:var(--grund);color:var(--text);}
   body{font-family:-apple-system,BlinkMacSystemFont,"SF Pro Text",system-ui,sans-serif;-webkit-font-smoothing:antialiased;
        font-size:15px;line-height:1.35;}
-  main{max-width:1240px;margin:0 auto;padding:calc(env(safe-area-inset-top) + 12px) 16px calc(env(safe-area-inset-bottom) + 32px);}
-  header{display:flex;align-items:flex-end;justify-content:space-between;gap:12px;padding:8px 0 14px;}
+  main{max-width:1320px;margin:0 auto;padding:calc(env(safe-area-inset-top) + 12px) 16px calc(env(safe-area-inset-bottom) + 32px);}
+  header{display:flex;align-items:flex-end;justify-content:space-between;gap:12px;padding:8px 0 10px;}
   h1{font:700 34px/1.05 -apple-system,BlinkMacSystemFont,"SF Pro Display",system-ui,sans-serif;letter-spacing:.37px;}
   #unter{color:var(--grau);font-size:15px;margin-top:4px;}
   #stand{color:var(--grau);font-size:13px;text-align:right;white-space:nowrap;}
   #stand.alt{color:var(--rot);font-weight:600;}
+  .legende{display:flex;flex-wrap:wrap;gap:6px 14px;color:var(--hell);font-size:13px;margin:2px 0 14px;}
+  .legende span{display:inline-flex;align-items:center;gap:6px;}
+  #warnung:empty{display:none;}
+  #warnung{background:var(--rot);color:#000;border-radius:14px;padding:12px 16px;font-weight:600;font-size:16px;margin-bottom:12px;}
+
+  /* Die sechs Karten */
+  #karten{display:grid;gap:12px;align-items:start;}
+  @media (min-width:820px){ #karten{grid-template-columns:1fr 1fr;} }
+  @media (min-width:1240px){ #karten{grid-template-columns:repeat(3,1fr);} }
+  .karte{background:var(--karte);border-radius:18px;padding:16px 16px 10px;min-width:0;border-top:6px solid var(--dunkelgrau);}
+  .karte.a-rot{border-top-color:var(--rot);} .karte.a-gelb{border-top-color:var(--gelb);}
+  .karte.a-gruen{border-top-color:var(--gruen);}
+  .kkopf{display:flex;align-items:center;gap:10px;}
+  .knr{flex:none;width:30px;height:30px;border-radius:50%;background:var(--karte2);color:var(--text);
+       font:700 16px/30px -apple-system,system-ui;text-align:center;}
+  .kkopf h2{flex:1;min-width:0;font:700 19px/1.2 -apple-system,"SF Pro Display",system-ui;}
+  .pille{flex:none;font:700 12px/1 -apple-system,system-ui;letter-spacing:.04em;text-transform:uppercase;border-radius:20px;
+         padding:6px 9px;background:var(--dunkelgrau);color:#000;}
+  .pille.a-rot{background:var(--rot);} .pille.a-gelb{background:var(--gelb);} .pille.a-gruen{background:var(--gruen);}
+  .pille.a-grau{background:var(--dunkelgrau);color:var(--text);}
+  .kurz{font:600 21px/1.25 -apple-system,"SF Pro Display",system-ui;margin:12px 0 0;}
+  .satz{color:var(--hell);font-size:15px;margin-top:6px;}
+  .kzeilen{list-style:none;margin-top:10px;}
+  .kzeilen li{display:grid;grid-template-columns:12px 1fr;gap:10px;padding:9px 0;border-top:.5px solid var(--linie);}
+  .kzeilen li .punkt{margin-top:5px;}
+  .kzeilen b{font-weight:600;color:var(--text);}
+  .kzeilen .txt{color:var(--hell);font-size:15px;min-width:0;overflow-wrap:anywhere;}
+  .punkte{list-style:none;margin-top:10px;}
+  .punkte li{display:grid;grid-template-columns:26px 1fr;gap:10px;padding:10px 0;border-top:.5px solid var(--linie);}
+  .punkte .nr{width:26px;height:26px;border-radius:50%;background:var(--gelb);color:#000;font:700 14px/26px -apple-system,system-ui;
+              text-align:center;}
+  .punkte .nr.n-rot{background:var(--rot);}
+  .punkte .titel{font-weight:600;font-size:15px;overflow-wrap:anywhere;}
+  .punkte .wer{color:var(--hell);font-size:14px;margin-top:4px;overflow-wrap:anywhere;}
+  .punkte .wer em{font-style:normal;color:var(--gelb);font-weight:600;}
+  .punkte .wer .vorbei{color:var(--rot);font-weight:600;}
+  details.mehr{margin-top:2px;color:var(--grau);}
+  details.mehr summary{cursor:pointer;font-size:14px;padding:8px 0;}
+
+  /* Details: die Bloecke aus Version 1 */
   .marke{font:600 13px/1 -apple-system,system-ui,sans-serif;letter-spacing:.06em;text-transform:uppercase;color:var(--grau);
-         margin:10px 0 8px;}
-  #zuerst{display:grid;gap:10px;}
-  .rot{display:grid;grid-template-columns:30px 1fr;gap:12px;background:var(--karte);border-radius:14px;padding:14px 16px 14px 18px;
-       box-shadow:inset 4px 0 0 var(--rot);}
-  .rot .nr{width:30px;height:30px;border-radius:50%;background:var(--rot);color:#000;font:700 17px/30px -apple-system,system-ui;
-           text-align:center;}
-  .rot h3{font:600 17px/1.25 -apple-system,"SF Pro Text",system-ui;}
-  .rot p{color:var(--hell);margin-top:4px;font-size:14px;}
-  .rot .wo{color:var(--grau);font-size:12px;margin-top:6px;text-transform:uppercase;letter-spacing:.05em;}
-  .ruhig{box-shadow:inset 4px 0 0 var(--gruen);} .ruhig .nr{background:var(--gruen);}
-  details.mehr{margin-top:10px;color:var(--grau);}
-  details.mehr summary{cursor:pointer;font-size:14px;padding:4px 0;}
-  details.mehr .rot{margin-top:8px;}
+         margin:26px 0 8px;}
   #bloecke{display:grid;gap:12px;margin-top:6px;align-items:start;}
-  @media (min-width:820px){ #bloecke{grid-template-columns:1fr 1fr;} #zuerst{grid-template-columns:repeat(3,1fr);} }
-  @media (min-width:1200px){ #bloecke{grid-template-columns:repeat(3,1fr);} }
+  @media (min-width:820px){ #bloecke{grid-template-columns:1fr 1fr;} }
+  @media (min-width:1240px){ #bloecke{grid-template-columns:repeat(3,1fr);} }
   .block{background:var(--karte);border-radius:14px;padding:4px 16px 8px;min-width:0;}
   .kopf{display:flex;align-items:center;gap:8px;padding:12px 0 8px;}
   .kopf h2{font:700 20px/1.2 -apple-system,"SF Pro Display",system-ui;flex:1;}
-  .punkt{width:10px;height:10px;border-radius:50%;flex:none;background:var(--grau);}
-  .p-rot{background:var(--rot);} .p-gelb{background:var(--gelb);} .p-gruen{background:var(--gruen);} .p-grau{background:#48484A;}
+  .punkt{width:10px;height:10px;border-radius:50%;flex:none;background:var(--dunkelgrau);display:inline-block;}
+  .p-rot{background:var(--rot);} .p-gelb{background:var(--gelb);} .p-gruen{background:var(--gruen);} .p-grau{background:var(--dunkelgrau);}
   .zeile{padding:10px 0;border-top:.5px solid var(--linie);}
   .oben{display:flex;align-items:baseline;justify-content:space-between;gap:12px;}
   .name{color:var(--text);font-size:15px;min-width:0;}
   .wert{font:600 17px/1.2 -apple-system,"SF Pro Text",system-ui;text-align:right;white-space:nowrap;}
   .w-rot{color:var(--rot);} .w-gelb{color:var(--gelb);} .w-gruen{color:var(--gruen);} .w-leer{color:var(--grau);}
-  .detail{color:var(--hell);font-size:13px;margin-top:3px;}
+  .detail{color:var(--hell);font-size:13px;margin-top:3px;overflow-wrap:anywhere;}
   .meta{color:var(--grau);font-size:12px;margin-top:3px;overflow-wrap:anywhere;}
   .aufgabe{display:grid;grid-template-columns:52px 1fr;gap:10px;padding:9px 0;border-top:.5px solid var(--linie);}
   .datum{font:600 12px/1 -apple-system,system-ui;text-align:center;border-radius:6px;padding:5px 0;background:#3A3A3C;
@@ -73,37 +102,82 @@
     <div><h1>Leitstand</h1><div id="unter">Porchnap</div></div>
     <div id="stand">lädt</div>
   </header>
-  <div class="marke">Zuerst</div>
-  <section id="zuerst"></section>
-  <div id="weitere"></div>
-  <div class="marke" style="margin-top:20px">Stand der Dinge</div>
+  <div class="legende">
+    <span><i class="punkt p-gruen"></i>Grün: läuft</span>
+    <span><i class="punkt p-gelb"></i>Gelb: aufpassen</span>
+    <span><i class="punkt p-rot"></i>Rot: klemmt</span>
+    <span><i class="punkt p-grau"></i>Grau: wissen wir nicht</span>
+  </div>
+  <div id="warnung"></div>
+  <section id="karten"></section>
+  <div class="marke">Details</div>
   <section id="bloecke"></section>
-  <footer id="fuss">Daten: leitstand.json im Zweig daten, alle 15 Minuten von takt/leitstand_bauen.py auf Davids Mac, ohne Modell. Diese Seite fragt alle 5 Minuten nach neuen Daten und zeichnet jede Minute neu.</footer>
+  <footer id="fuss">Daten: leitstand.json im Zweig daten, alle 15 Minuten von takt/leitstand_bauen.py auf Davids Mac, ohne Modell. Geld: takt/geld.json. Diese Seite fragt alle 5 Minuten nach neuen Daten und zeichnet jede Minute neu.</footer>
 </main>
 <script>
   const QUELLE_API = "https://api.github.com/repos/davidlichters/takt/contents/leitstand.json?ref=daten";
   const QUELLE_RAW = "https://raw.githubusercontent.com/davidlichters/takt/daten/leitstand.json";
   const ALT_MIN = 35;   // zwei Läufe verpasst: dann ist der Leitstand selbst das erste rote Ding
-  // Gemessen 03.10. 15:05 (curl, ohne Anmeldung): auch 304-Antworten auf If-None-Match senken x-ratelimit-remaining
-  // (49, 48, 47). 60 Abrufe je Stunde und IP teilen sich alle offenen Seiten (handy/ fragt alle 30 s). Deshalb fragt
-  // diese Seite nur alle 5 Minuten; die Daten kommen ohnehin nur alle 15 Minuten.
+  // Gemessen 03.10. 15:05 (curl, ohne Anmeldung): auch 304-Antworten auf If-None-Match senken x-ratelimit-remaining.
+  // 60 Abrufe je Stunde und IP teilen sich alle offenen Seiten (handy/ fragt alle 30 s). Deshalb nur alle 5 Minuten.
   const ABRUF_MS = 5 * 60000;
+  const ZEIGE_PUNKTE = 4;  // Karte 2 zeigt die ersten vier, der Rest klappt auf
+  const AMPEL_WORT = { rot: "klemmt", gelb: "aufpassen", gruen: "läuft", grau: "unbekannt" };
   let etag = null, daten = window.DATEN_TEST || null, ladefehler = null, letzterAbruf = 0;
 
   const el = (tag, klasse, text) => { const e = document.createElement(tag); if (klasse) e.className = klasse; if (text != null) e.textContent = text; return e; };
   const jetzt = () => window.JETZT_TEST || Date.now();
   const hhmm = ms => new Date(ms).toLocaleTimeString("de-DE", { hour: "2-digit", minute: "2-digit", timeZone: "Europe/Berlin" });
   const dauer = min => min < 60 ? `${Math.round(min)} min` : `${Math.floor(min / 60)} h ${String(Math.round(min % 60)).padStart(2, "0")} min`;
+  const farbe = a => (["rot", "gelb", "gruen"].includes(a) ? a : "grau");
 
-  function rotKarte(r, nr, ruhig) {
-    const k = el("div", "rot" + (ruhig ? " ruhig" : ""));
-    k.appendChild(el("div", "nr", ruhig ? "✓" : String(nr)));
+  function punktZeile(p, nr) {
+    const li = el("li");
+    li.appendChild(el("div", "nr" + ((p.prio ?? 9) <= 2 ? " n-rot" : ""), String(nr)));
     const t = el("div");
-    t.appendChild(el("h3", null, r.titel));
-    if (r.text) t.appendChild(el("p", null, r.text));
-    if (r.block) t.appendChild(el("div", "wo", ({ geld: "Geld", anzeigen: "Anzeigen", creatives: "Creatives", menschen: "Menschen", aufgaben: "Aufgaben", werkzeuge: "Werkzeuge", leitstand: "Leitstand" })[r.block] || r.block));
-    k.appendChild(t);
-    return k;
+    t.appendChild(el("div", "titel", p.titel));
+    const w = el("div", "wer");
+    w.appendChild(el("em", null, (p.wer || "unklar") + ": "));
+    w.appendChild(document.createTextNode(p.tun || (p.text || "")));
+    if (p.bis) { w.appendChild(document.createTextNode(/[.:!?)]$/.test(p.tun || p.text || "") || !(p.tun || p.text) ? " " : ". ")); w.appendChild(el("span", p.vorbei ? "vorbei" : null, `Bis ${p.bis}${p.vorbei ? ", vorbei" : ""}.`)); }
+    t.appendChild(w);
+    li.appendChild(t);
+    return li;
+  }
+
+  function karteBauen(k) {
+    const a = farbe(k.ampel);
+    const c = el("article", "karte a-" + a);
+    const kopf = el("div", "kkopf");
+    kopf.appendChild(el("span", "knr", String(k.nr)));
+    kopf.appendChild(el("h2", null, k.frage));
+    kopf.appendChild(el("span", "pille a-" + a, AMPEL_WORT[a]));
+    c.appendChild(kopf);
+    c.appendChild(el("p", "kurz", k.kurz));
+    for (const s of k.saetze || []) if (s) c.appendChild(el("p", "satz", s));
+    if (k.zeilen && k.zeilen.length) {
+      const ul = el("ul", "kzeilen");
+      for (const z of k.zeilen) {
+        const li = el("li");
+        li.appendChild(el("span", "punkt p-" + farbe(z.ampel)));
+        const t = el("div", "txt"); t.appendChild(el("b", null, z.name + (/[.:!?]$/.test(z.name) ? " " : ". "))); t.appendChild(document.createTextNode(z.text));
+        li.appendChild(t); ul.appendChild(li);
+      }
+      c.appendChild(ul);
+    }
+    if (k.punkte && k.punkte.length) {
+      const ul = el("ul", "punkte");
+      k.punkte.slice(0, ZEIGE_PUNKTE).forEach((p, i) => ul.appendChild(punktZeile(p, i + 1)));
+      c.appendChild(ul);
+      if (k.punkte.length > ZEIGE_PUNKTE) {
+        const d = el("details", "mehr");
+        d.appendChild(el("summary", null, `${k.punkte.length - ZEIGE_PUNKTE} weitere`));
+        const ul2 = el("ul", "punkte");
+        k.punkte.slice(ZEIGE_PUNKTE).forEach((p, i) => ul2.appendChild(punktZeile(p, i + 1 + ZEIGE_PUNKTE)));
+        d.appendChild(ul2); c.appendChild(d);
+      }
+    }
+    return c;
   }
 
   function zeileBauen(z) {
@@ -126,7 +200,7 @@
     const k = el("article", "block");
     const kopf = el("div", "kopf");
     kopf.appendChild(el("h2", null, b.titel));
-    kopf.appendChild(el("span", "punkt p-" + (b.ampel || "grau")));
+    kopf.appendChild(el("span", "punkt p-" + farbe(b.ampel)));
     k.appendChild(kopf);
     for (const z of b.zeilen || []) k.appendChild(zeileBauen(z));
     if (b.id === "aufgaben") {
@@ -141,7 +215,7 @@
     if (b.id === "werkzeuge") {
       for (const w of b.liste || []) {
         const r = el("div", "werkzeug");
-        r.appendChild(el("span", "punkt p-" + (w.ampel || "grau")));
+        r.appendChild(el("span", "punkt p-" + farbe(w.ampel)));
         const t = el("div"); t.appendChild(el("div", "name", w.name));
         if (w.text) t.appendChild(el("div", "detail", w.text));
         r.appendChild(t); k.appendChild(r);
@@ -150,32 +224,34 @@
     return k;
   }
 
+  // Version 1 der Daten (ohne Karten): die roten Punkte als Karte 2, damit die Seite nie leer ist
+  function ersatzKarten(rot) {
+    return [{ nr: 2, frage: "Was hält uns auf?", ampel: rot.length ? "rot" : "gruen",
+              kurz: rot.length ? `${rot.length} Dinge halten uns auf.` : "Gerade hält uns nichts auf.",
+              saetze: ["Die anderen fünf Karten kommen mit dem nächsten Lauf des Leitstands."], zeilen: [], punkte: rot }];
+  }
+
   function zeichnen() {
-    const zuerst = document.getElementById("zuerst"), weitere = document.getElementById("weitere"), bloecke = document.getElementById("bloecke");
-    const stand = document.getElementById("stand");
-    zuerst.replaceChildren(); weitere.replaceChildren(); bloecke.replaceChildren();
+    const karten = document.getElementById("karten"), bloecke = document.getElementById("bloecke");
+    const stand = document.getElementById("stand"), warnung = document.getElementById("warnung");
+    karten.replaceChildren(); bloecke.replaceChildren(); warnung.textContent = "";
     if (!daten) {
       stand.textContent = "keine Daten"; stand.className = "alt";
-      zuerst.appendChild(rotKarte({ titel: "Keine Daten geladen", text: "leitstand.json war nicht abrufbar" + (ladefehler ? ` (${ladefehler})` : "") + ". Nächster Versuch in einer Minute.", block: "leitstand" }, 1));
+      warnung.textContent = "Keine Daten geladen: leitstand.json war nicht abrufbar" + (ladefehler ? ` (${ladefehler})` : "") + ". Nächster Versuch in einer Minute.";
       return;
     }
     const t = Date.parse(daten.stand), alter = (jetzt() - t) / 60000;
     const ziele = daten.ziele || {};
-    document.getElementById("unter").textContent = `Porchnap, Tag ${ziele.tag ?? "?"} von ${ziele.tage_gesamt ?? 92}`;
+    document.getElementById("unter").textContent = `Porchnap, Tag ${ziele.tag ?? "?"} von ${ziele.tage_gesamt ?? 92}. Ziel: 200.000 USD Gewinn bis Weihnachten.`;
     stand.textContent = `Stand ${hhmm(t)}` + (alter >= 2 ? `, vor ${dauer(alter)}` : "");
     stand.className = alter > ALT_MIN ? "alt" : "";
-    const rot = [...(daten.rot || [])];
-    if (alter > ALT_MIN) rot.unshift({ titel: `Leitstand steht seit ${dauer(alter)}`, text: `Alle Zahlen hier sind von ${hhmm(t)}. Auf Davids Mac launchd de.david.leitstand und takt/leitstand.log prüfen.`, block: "leitstand" });
-    if (!rot.length) zuerst.appendChild(rotKarte({ titel: "Nichts ist rot", text: "Kein Wert über der Grenze, nichts überfällig, kein Werkzeug kaputt." }, 0, true));
-    rot.slice(0, 3).forEach((r, i) => zuerst.appendChild(rotKarte(r, i + 1)));
-    if (rot.length > 3) {
-      const d = el("details", "mehr");
-      d.appendChild(el("summary", null, `${rot.length - 3} weitere rote Punkte`));
-      rot.slice(3).forEach((r, i) => d.appendChild(rotKarte(r, i + 4)));
-      weitere.appendChild(d);
-    }
+    if (alter > ALT_MIN) warnung.textContent = `Achtung: Der Leitstand steht seit ${dauer(alter)}. Alle Zahlen hier sind von ${hhmm(t)}. Auf Davids Mac launchd de.david.leitstand und takt/leitstand.log prüfen.`;
+    let liste = daten.karten && daten.karten.length ? daten.karten : ersatzKarten(daten.rot || []);
+    if (daten.karten_fehler) warnung.textContent = (warnung.textContent ? warnung.textContent + " " : "") + `Die sechs Karten konnten nicht gebaut werden (${daten.karten_fehler}). Die Details unten stimmen trotzdem.`;
+    for (const k of liste) karten.appendChild(karteBauen(k));
     for (const b of daten.bloecke || []) bloecke.appendChild(blockBauen(b));
-    document.title = rot.length ? `(${rot.length}) Leitstand` : "Leitstand";
+    const n = liste.find(k => k.nr === 2)?.punkte?.length || 0;
+    document.title = n ? `(${n}) Leitstand` : "Leitstand";
   }
 
   async function laden() {
