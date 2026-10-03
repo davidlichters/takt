@@ -1125,5 +1125,12 @@
 "typ": "chef",
 "titel": "Laden ist schnell genug",
 "satz": "Ich habe geprüft, wie schnell der Laden ist, deshalb geben wir Stufe fünf frei."
+},
+{
+"tag": "2026-10-03",
+"zeit": "20:11",
+"typ": "chef",
+"titel": "Hundebett-Angebot überprüft, Preis weg",
+"satz": "Ich habe das Hundebett-Angebot gemessen, so dass wir sehen, dass der Preis weg ist."
 }
 ]
