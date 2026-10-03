@@ -1636,5 +1636,12 @@
 "typ": "chef",
 "titel": "Fragen und Rückgabe für Kunden",
 "satz": "Ich habe acht Fragen beantwortet und die Rückgabe-Seite im Laden fertig gemacht."
+},
+{
+"tag": "2026-10-04",
+"zeit": "01:10",
+"typ": "chef",
+"titel": "Fragen und Rückgabe im Laden fertig",
+"satz": "Ich habe Seiten für Fragen und Rückgabe gebaut und geprüft, damit Kunden Antworten finden."
 }
 ]
