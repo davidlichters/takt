@@ -1363,5 +1363,12 @@
 "typ": "chef",
 "titel": "Timo muss entscheiden für den Laden",
 "satz": "Ich habe zwei Papiere gefunden, die unterschiedlich sind, und Timo wählt, welches wir nehmen."
+},
+{
+"tag": "2026-10-03",
+"zeit": "22:40",
+"typ": "chef",
+"titel": "Porchnaps Post-Stempel fehlt live",
+"satz": "Ich habe geprüft und sehe, dass Porchnap keinen Stempel hat, damit Antworten ankommen."
 }
 ]
