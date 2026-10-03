@@ -999,5 +999,12 @@
 "typ": "chef",
 "titel": "Erinnerung für Bettkauf gelöscht",
 "satz": "Ich habe Davids alte Erinnerung aus der Liste genommen."
+},
+{
+"tag": "2026-10-03",
+"zeit": "19:23",
+"typ": "chef",
+"titel": "Lieferanten-Nachricht mit Preisen fertig",
+"satz": "Ich habe acht Fragen geschrieben und die Preise für Versand und Betten gemessen."
 }
 ]
