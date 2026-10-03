@@ -1,7 +1,7 @@
 {
  "version": 2,
- "stand": "2026-10-03T22:02:05Z",
- "stand_berlin": "04.10.2026 00:02",
+ "stand": "2026-10-03T22:17:05Z",
+ "stand_berlin": "04.10.2026 00:17",
  "takt_min": 15,
  "quelle": "takt/leitstand_bauen.py auf Davids Mac, ohne Modell",
  "ziele": {
@@ -18,7 +18,7 @@
    "id": "wo",
    "frage": "Was passiert gerade wo?",
    "ampel": "rot",
-   "kurz": "Der Shop ist offen. Die Anzeigen sind aus.",
+   "kurz": "Der Shop ist offen. Ob die Anzeigen laufen, sehen wir nicht.",
    "saetze": [],
    "zeilen": [
     {
@@ -28,7 +28,7 @@
     },
     {
      "name": "Anzeigen",
-     "text": "Aus (gemessen 03.10. 18:06, Meta ads_get_ad_accounts 18:06: Porch Nap 1984849605541642 ohne Zahlungsart, EUR). Ohne Anzeigen kommt kein Geld.",
+     "text": "Start war für 03.10. 20:00 geplant. Ob sie laufen, wissen wir noch nicht, weil uns der Meta-Zugang fehlt.",
      "ampel": "rot"
     },
     {
@@ -38,12 +38,12 @@
     },
     {
      "name": "Creatives",
-     "text": "Heute 1 neue Bilder oder Videos gebaut, diese Woche 72. Das neueste: PN_DEARSANTA_4x5.png um 00:00. Wie viele davon live sind, wissen wir nicht.",
+     "text": "Heute 2 neue Bilder oder Videos gebaut, diese Woche 73. Das neueste: PN_SEAT_4x5.png um 00:05. Wie viele davon live sind, wissen wir nicht.",
      "ampel": "gruen"
     },
     {
      "name": "Recherche",
-     "text": "Perplexity hat heute 0 Fragen beantwortet, die letzte um 03.10. 23:54.",
+     "text": "Perplexity hat heute 1 Frage beantwortet, die letzte um 00:09.",
      "ampel": "gruen"
     },
     {
@@ -53,7 +53,7 @@
     },
     {
      "name": "Chef-Runde",
-     "text": "Um 00:00: fertiges Creative C45 PN_DEARSANTA 4:5 gebaut (Hook Dear Santa, Originalfoto Reindeer, Size S, Order by Dec …",
+     "text": "Um 00:15: Werbekonto Porch Nap ist aktiv, aber ohne Zahlungsart (EUR), der erste Werbedollar hängt daran, David 04.10 …",
      "ampel": "gruen"
     }
    ]
@@ -63,7 +63,7 @@
    "id": "auf",
    "frage": "Was hält uns auf?",
    "ampel": "rot",
-   "kurz": "6 Dinge halten uns auf.",
+   "kurz": "7 Dinge halten uns auf.",
    "saetze": [
     "Bei jedem steht, wer es tun muss. Oben steht das, was am meisten Geld kostet."
    ],
@@ -74,6 +74,30 @@
      "block": "eskalation",
      "quelle": "gedaechtnis/OFFEN.md",
      "titel": "Timo klickt den BM3-Klickweg aus ~/timo/launch/coach_2026-10-03/11_BM3_HEUTE_TIMO.md (Frist war …",
+     "wer": "Timo",
+     "tun": null,
+     "bis": "07:30",
+     "vorbei": false,
+     "stufe": 1,
+     "ja": []
+    },
+    {
+     "prio": 0,
+     "block": "eskalation",
+     "quelle": "gedaechtnis/OFFEN.md",
+     "titel": "Shopify Admin > Settings > Payments > Shopify Payments > Manage > Account/Business details, Name …",
+     "wer": "David",
+     "tun": "Erinnerung zu Zeile 72 (21:20, 2 Stunden 40 Minuten alt, überfällig laut Leitstand)",
+     "bis": "07:30",
+     "vorbei": false,
+     "stufe": 1,
+     "ja": []
+    },
+    {
+     "prio": 0,
+     "block": "eskalation",
+     "quelle": "gedaechtnis/OFFEN.md",
+     "titel": "Timo oder David legt in Meta eine Zahlungsart am Werbekonto an (Porch Nap 1984849605541642, Status …",
      "wer": "Timo",
      "tun": null,
      "bis": "07:30",
@@ -109,18 +133,10 @@
      "ja": []
     },
     {
-     "prio": 1,
-     "block": "anzeigen",
-     "titel": "Anzeigen sind aus",
-     "text": "Gemessen 03.10. 18:06, Quelle: Meta ads_get_ad_accounts 18:06: Porch Nap 1984849605541642 ohne Zahlungsart, EUR. Ohne Anzeigen kommt kein Geld.",
-     "wer": "Timo",
-     "tun": "Kampagne bauen und veröffentlichen (K5, K6)"
-    },
-    {
      "prio": 2,
      "block": "geld",
-     "titel": "4 von 5 Geldzahlen fehlen",
-     "text": "Kein Meta-Zugang und kein Shopify-Token. veraltet oder verworfen: Bestellungen heute. Niemand sieht hier, ob Anzeigen laufen und Geld kommt. Abhilfe: Plan Abschnitt 3, Shopify-Token (Timo, 5 min) und Meta-Zugang (Timo, 10 min). Bis dahin trägt ein Chat gemessene Werte ein: takt/leitstand_bauen.py --eintragen.",
+     "titel": "Keine frische Zahl zu Anzeigen und Geld",
+     "text": "Kein Meta-Zugang und kein Shopify-Token. veraltet oder verworfen: Anzeigen aktiv, Bestellungen heute. Niemand sieht hier, ob Anzeigen laufen und Geld kommt. Abhilfe: Plan Abschnitt 3, Shopify-Token (Timo, 5 min) und Meta-Zugang (Timo, 10 min). Bis dahin trägt ein Chat gemessene Werte ein: takt/leitstand_bauen.py --eintragen.",
      "wer": "Timo",
      "tun": "Einmal den Shopify-Schlüssel (5 min) und den Meta-Zugang (10 min) anlegen, Plan Abschnitt 3"
     },
@@ -139,12 +155,12 @@
    "id": "wer",
    "frage": "Wer arbeitet woran?",
    "ampel": "gruen",
-   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 1 Runde heute.",
+   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 6 Runden heute.",
    "saetze": [],
    "zeilen": [
     {
      "name": "David",
-     "text": "Nicht gemessen, weil David die Mac-Messung am 03.10. abgeschaltet hat. Auf David warten heute 1 Sache (Karte 2).",
+     "text": "Nicht gemessen, weil David die Mac-Messung am 03.10. abgeschaltet hat. Auf David warten heute 2 Sachen (Karte 2).",
      "ampel": "grau"
     },
     {
@@ -154,7 +170,7 @@
     },
     {
      "name": "Claude",
-     "text": "1 Runde heute, alle 5 Minuten eine. Zuletzt: fertiges Creative C45 PN_DEARSANTA 4:5 gebaut (Hook Dear Santa, Originalfoto Reindeer, Size S …",
+     "text": "6 Runden heute, alle 5 Minuten eine. Zuletzt: Werbekonto Porch Nap ist aktiv, aber ohne Zahlungsart (EUR), der erste Werbedollar hängt …",
      "ampel": "gruen"
     },
     {
@@ -169,7 +185,7 @@
    "id": "tempo",
    "frage": "Wie schnell geht es gerade?",
    "ampel": "gelb",
-   "kurz": "Letzte Stunde: 17 Runden, 8 davon mit fertigem Ergebnis.",
+   "kurz": "Letzte Stunde: 19 Runden, 9 davon mit fertigem Ergebnis.",
    "saetze": [
     "Den Gewinn heute wissen wir noch nicht, weil uns der Shopify-Zugang fehlt."
    ],
@@ -186,7 +202,7 @@
     },
     {
      "name": "Runden, letzte Stunde",
-     "text": "17 Runden: 8 mit fertigem Ergebnis (Creative, Text oder Klickweg), 4 haben einen Menschen erinnert, 5 nur innen gearbeitet.",
+     "text": "19 Runden: 9 mit fertigem Ergebnis (Creative, Text oder Klickweg), 5 haben einen Menschen erinnert, 5 nur innen gearbeitet.",
      "ampel": "gelb"
     },
     {
@@ -196,7 +212,7 @@
     },
     {
      "name": "Neu gebaut heute",
-     "text": "1 Bilder und Videos für Anzeigen.",
+     "text": "2 Bilder und Videos für Anzeigen.",
      "ampel": "gruen"
     }
    ]
@@ -205,10 +221,10 @@
    "nr": 5,
    "id": "soll",
    "frage": "Wie schnell sollte es gehen?",
-   "ampel": "rot",
+   "ampel": "gelb",
    "kurz": "Wir schaffen 0 von 5 Zielen.",
    "saetze": [
-    "2 verfehlen wir gerade. 3 messen wir noch nicht."
+    "1 verfehlen wir gerade. 4 messen wir noch nicht."
    ],
    "zeilen": [
     {
@@ -228,12 +244,12 @@
     },
     {
      "name": "Anzeigen",
-     "text": "Soll: laufen ab heute mit 200 USD am Tag. Ist: aus.",
-     "ampel": "rot"
+     "text": "Soll: laufen ab heute mit 200 USD am Tag. Ist: wissen wir noch nicht, weil uns der Meta-Zugang fehlt.",
+     "ampel": "grau"
     },
     {
      "name": "Runden",
-     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 17, davon 5 nur innen.",
+     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 19, davon 5 nur innen.",
      "ampel": "rot"
     }
    ]
@@ -280,16 +296,10 @@
  "karten_fehler": null,
  "rot": [
   {
-   "prio": 1,
-   "block": "anzeigen",
-   "titel": "Anzeigen sind aus",
-   "text": "Gemessen 03.10. 18:06, Quelle: Meta ads_get_ad_accounts 18:06: Porch Nap 1984849605541642 ohne Zahlungsart, EUR. Ohne Anzeigen kommt kein Geld."
-  },
-  {
    "prio": 2,
    "block": "geld",
-   "titel": "4 von 5 Geldzahlen fehlen",
-   "text": "Kein Meta-Zugang und kein Shopify-Token. veraltet oder verworfen: Bestellungen heute. Niemand sieht hier, ob Anzeigen laufen und Geld kommt. Abhilfe: Plan Abschnitt 3, Shopify-Token (Timo, 5 min) und Meta-Zugang (Timo, 10 min). Bis dahin trägt ein Chat gemessene Werte ein: takt/leitstand_bauen.py --eintragen."
+   "titel": "Keine frische Zahl zu Anzeigen und Geld",
+   "text": "Kein Meta-Zugang und kein Shopify-Token. veraltet oder verworfen: Anzeigen aktiv, Bestellungen heute. Niemand sieht hier, ob Anzeigen laufen und Geld kommt. Abhilfe: Plan Abschnitt 3, Shopify-Token (Timo, 5 min) und Meta-Zugang (Timo, 10 min). Bis dahin trägt ein Chat gemessene Werte ein: takt/leitstand_bauen.py --eintragen."
   },
   {
    "prio": 4,
@@ -304,13 +314,13 @@
   {
    "id": "anzeigen",
    "titel": "Anzeigen",
-   "ampel": "rot",
+   "ampel": "grau",
    "zeilen": [
     {
      "name": "Anzeigen aktiv",
-     "wert": "nein",
-     "ampel": "rot",
-     "detail": null,
+     "wert": "veraltet",
+     "ampel": "grau",
+     "detail": "letzte Messung 03.10. 18:06, älter als 6 h: damals nein",
      "quelle": "Meta ads_get_ad_accounts 18:06: Porch Nap 1984849605541642 ohne Zahlungsart, EUR",
      "stand": "03.10. 18:06",
      "ziel": null
@@ -344,7 +354,7 @@
      "name": "Bestellungen heute",
      "wert": "veraltet",
      "ampel": "grau",
-     "detail": "Messung vom 03.10., nicht von heute: damals 0",
+     "detail": "letzte Messung 03.10. 18:06, älter als 6 h: damals 0",
      "quelle": "Shopify list-orders 18:06, 0 seit 01.10.",
      "stand": "03.10. 18:06",
      "ziel": null
@@ -376,11 +386,11 @@
    "zeilen": [
     {
      "name": "Gebaut diese Woche",
-     "wert": "72 Dateien",
+     "wert": "73 Dateien",
      "ampel": "grau",
-     "detail": "44 Bilder, 28 Videos, neu seit Montag, 28.09., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
+     "detail": "45 Bilder, 28 Videos, neu seit Montag, 28.09., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
      "quelle": "Erstellzeit der Dateien in creatives/fertig, 05_creatives/ads, 05_creatives/ki/fertig",
-     "stand": "00:02",
+     "stand": "00:17",
      "ziel": null
     },
     {
@@ -393,7 +403,7 @@
      "ziel": "3 bis 5 je Woche"
     }
    ],
-   "zahl_gebaut": 72
+   "zahl_gebaut": 73
   },
   {
    "id": "menschen",
@@ -440,7 +450,7 @@
      "ampel": "grau",
      "detail": "1 Zeile im Codeblock (Formatbeispiel) nicht gezählt. Steht dort eine echte Aufgabe, gehört sie aus dem Block heraus.",
      "quelle": "timo/OFFEN.md",
-     "stand": "00:02",
+     "stand": "00:17",
      "ziel": null
     },
     {
@@ -569,7 +579,7 @@
    "zeilen": [
     {
      "name": "Wächter, letzter Lauf",
-     "wert": "03.10. 23:58",
+     "wert": "00:14",
      "ampel": "gruen",
      "detail": null,
      "quelle": "waechter_zustand.json",
@@ -582,13 +592,13 @@
      "name": "Takt-Schleife",
      "schluessel": "takt",
      "ampel": "gruen",
-     "text": "letzte Runde 23:57 (chef), rc=0"
+     "text": "letzte Runde 00:13 (chef), rc=0"
     },
     {
      "name": "Perplexity",
      "schluessel": "perplexity",
      "ampel": "gruen",
-     "text": "letzter Lauf 23:51 erfolgreich, Gins laeuft"
+     "text": "letzter Lauf 00:01 erfolgreich, Gins laeuft"
     },
     {
      "name": "Davids Chrome",
@@ -600,7 +610,7 @@
      "name": "Crosspost",
      "schluessel": "crosspost",
      "ampel": "gruen",
-     "text": "laeuft (pid 61877), Herzschlag vor 6 s, postet, letzter Fehler: 2026-10-03T21:37:30.732Z keine Videos in der Antwort: {\"extr"
+     "text": "laeuft (pid 61877), Herzschlag vor 0 s, postet, letzter Fehler: 2026-10-03T21:37:30.732Z keine Videos in der Antwort: {\"extr"
     },
     {
      "name": "Speicher",
@@ -612,7 +622,7 @@
      "name": "GitHub-Push",
      "schluessel": "github",
      "ampel": "gruen",
-     "text": "origin/main f1574ef vor 1 Min"
+     "text": "origin/main 00a0b2e vor 0 Min"
     },
     {
      "name": "WhatsApp Web",
@@ -636,7 +646,7 @@
      "name": "Ereignis-Sensor",
      "schluessel": "ereignisse",
      "ampel": "gruen",
-     "text": "letzter Lauf 23:58, 0 offene Ereignisse"
+     "text": "letzter Lauf 00:14, 0 offene Ereignisse"
     },
     {
      "name": "Chrome auf Timos PC",
