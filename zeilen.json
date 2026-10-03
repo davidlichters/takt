@@ -1356,5 +1356,12 @@
 "typ": "chef",
 "titel": "Laden ist zu und wartet jetzt",
 "satz": "Ich habe gesehen, dass die Änderungen blockiert sind, David entscheidet morgen früh."
+},
+{
+"tag": "2026-10-03",
+"zeit": "22:36",
+"typ": "chef",
+"titel": "Timo muss entscheiden für den Laden",
+"satz": "Ich habe zwei Papiere gefunden, die unterschiedlich sind, und Timo wählt, welches wir nehmen."
 }
 ]
