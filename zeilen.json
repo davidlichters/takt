@@ -1419,5 +1419,12 @@
 "typ": "chef",
 "titel": "Kontaktseite zeigt neuen Text nicht",
 "satz": "Ich habe den neuen Text gemacht, aber Kunden sehen ihn noch nicht."
+},
+{
+"tag": "2026-10-03",
+"zeit": "23:20",
+"typ": "chef",
+"titel": "Kontaktseite zeigt jetzt den richtigen Text",
+"satz": "Ich habe die kaputten Pfeile entfernt, damit Kunden ihre Fragen richtig stellen können."
 }
 ]
