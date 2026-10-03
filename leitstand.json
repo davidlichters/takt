@@ -1,7 +1,7 @@
 {
  "version": 2,
- "stand": "2026-10-03T16:46:32Z",
- "stand_berlin": "03.10.2026 18:46",
+ "stand": "2026-10-03T16:47:00Z",
+ "stand_berlin": "03.10.2026 18:47",
  "takt_min": 15,
  "quelle": "takt/leitstand_bauen.py auf Davids Mac, ohne Modell",
  "ziele": {
@@ -376,7 +376,7 @@
      "ampel": "grau",
      "detail": "35 Bilder, 28 Videos, neu seit Montag, 28.09., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
      "quelle": "Erstellzeit der Dateien in creatives/fertig, 05_creatives/ads, 05_creatives/ki/fertig",
-     "stand": "18:46",
+     "stand": "18:47",
      "ziel": null
     },
     {
@@ -436,7 +436,7 @@
      "ampel": "grau",
      "detail": "1 Zeile im Codeblock (Formatbeispiel) nicht gezählt. Steht dort eine echte Aufgabe, gehört sie aus dem Block heraus.",
      "quelle": "timo/OFFEN.md",
-     "stand": "18:46",
+     "stand": "18:47",
      "ziel": null
     },
     {
