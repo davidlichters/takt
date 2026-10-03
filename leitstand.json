@@ -1,7 +1,7 @@
 {
  "version": 2,
- "stand": "2026-10-03T16:32:04Z",
- "stand_berlin": "03.10.2026 18:32",
+ "stand": "2026-10-03T16:46:32Z",
+ "stand_berlin": "03.10.2026 18:46",
  "takt_min": 15,
  "quelle": "takt/leitstand_bauen.py auf Davids Mac, ohne Modell",
  "ziele": {
@@ -38,13 +38,13 @@
     },
     {
      "name": "Creatives",
-     "text": "Heute 10 neue Bilder oder Videos gebaut, diese Woche 61. Das neueste: PN_TREE_4x5.png um 17:26. Wie viele davon live sind, wissen wir nicht.",
+     "text": "Heute 12 neue Bilder oder Videos gebaut, diese Woche 63. Das neueste: PN_SEATING_4x5.png um 18:41. Wie viele davon live sind, wissen wir nicht.",
      "ampel": "gruen"
     },
     {
      "name": "Recherche",
-     "text": "Perplexity hat heute 23 Fragen beantwortet, die letzte um 18:30.",
-     "ampel": "gruen"
+     "text": "Perplexity hat heute 28 Fragen beantwortet, die letzte um 18:41. Die letzten 10 Versuche kamen ohne Antwort zurück.",
+     "ampel": "gelb"
     },
     {
      "name": "Technik",
@@ -53,8 +53,8 @@
     },
     {
      "name": "Chef-Runde",
-     "text": "Um 18:25: Einfügeschritt fertig, die drei Knöpfe Continue shopping führen heute auf eine Sammelseite mit einem Produkt …",
-     "ampel": "gruen"
+     "text": "Um 18:42: entsperrt Stufe 1, weil die BM3-Vorprüfung vor dem Start 20:00 Metas eigenes Tageslimit nicht ablas; Schritt …",
+     "ampel": "gelb"
     }
    ]
   },
@@ -85,18 +85,6 @@
      "prio": 0,
      "block": "eskalation",
      "quelle": "gedaechtnis/OFFEN.md",
-     "titel": "privat ohne Business, Währung EUR, keine Zahlungsart, also nicht das BM3 (USD). Du oder Timo in 5 …",
-     "wer": "David",
-     "tun": "Keine Karte in das Konto \"Porch Nap\" (1984849605541642) eintragen. Claudes Meta-Verbindung sieht 16:40 nur dieses eine Konto",
-     "bis": "18:00",
-     "vorbei": true,
-     "stufe": 1,
-     "ja": []
-    },
-    {
-     "prio": 0,
-     "block": "eskalation",
-     "quelle": "gedaechtnis/OFFEN.md",
      "titel": "David schreibt im Claude-Chat vincent weg (Vorschlag) oder vincent senden, 1 Minute. Der Entwurf an …",
      "wer": "David",
      "tun": null,
@@ -104,6 +92,24 @@
      "vorbei": false,
      "stufe": 4,
      "ja": []
+    },
+    {
+     "prio": 0,
+     "block": "eskalation",
+     "quelle": "gedaechtnis/OFFEN.md",
+     "titel": "Timo öffnet auf seinem PC im Chrome-Fenster auf Monitor 2 den Shopify-Admin bei Online Store > …",
+     "wer": "Timo",
+     "tun": null,
+     "bis": "19:15",
+     "vorbei": false,
+     "stufe": 5,
+     "ja": [
+      2,
+      4,
+      6,
+      7,
+      5
+     ]
     },
     {
      "prio": 1,
@@ -116,7 +122,7 @@
     {
      "prio": 1.5,
      "block": "ja",
-     "titel": "8 Ja-Fragen warten: ja knopfpreis (bis 04.10. 10:00), ja bonnie3 (bis 04.10. 12:00), ja fusszahlung (bis 04.10. 12:00) und 5 weitere",
+     "titel": "4 Ja-Fragen warten: ja bonnie3 (bis 04.10. 12:00), ja garantietext (bis 04.10. 12:00), ja material (bis 04.10. 12:00) und 1 weitere",
      "wer": "David oder Timo",
      "tun": "Im Claude-Chat „ja <Nr>“ schreiben, Liste in timo/JA_LISTE.md",
      "quelle": "timo/JA_LISTE.md"
@@ -135,13 +141,13 @@
    "nr": 3,
    "id": "wer",
    "frage": "Wer arbeitet woran?",
-   "ampel": "gruen",
-   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 57 Runden heute.",
+   "ampel": "gelb",
+   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 62 Runden heute.",
    "saetze": [],
    "zeilen": [
     {
      "name": "David",
-     "text": "Nicht gemessen, weil David die Mac-Messung am 03.10. abgeschaltet hat. Auf David warten heute 2 Sachen (Karte 2).",
+     "text": "Nicht gemessen, weil David die Mac-Messung am 03.10. abgeschaltet hat. Auf David warten heute 1 Sache (Karte 2).",
      "ampel": "grau"
     },
     {
@@ -151,8 +157,8 @@
     },
     {
      "name": "Claude",
-     "text": "57 Runden heute, alle 5 Minuten eine. Zuletzt: Einfügeschritt fertig, die drei Knöpfe Continue shopping führen heute auf eine Sammelseite mit …",
-     "ampel": "gruen"
+     "text": "62 Runden heute, alle 5 Minuten eine. Zuletzt: entsperrt Stufe 1, weil die BM3-Vorprüfung vor dem Start 20:00 Metas eigenes Tageslimit nicht …",
+     "ampel": "gelb"
     },
     {
      "name": "Abteilungs-Chats",
@@ -166,7 +172,7 @@
    "id": "tempo",
    "frage": "Wie schnell geht es gerade?",
    "ampel": "gelb",
-   "kurz": "Letzte Stunde: 12 Runden, 8 davon mit fertigem Ergebnis.",
+   "kurz": "Letzte Stunde: 14 Runden, 8 davon mit fertigem Ergebnis.",
    "saetze": [
     "Den Gewinn heute wissen wir noch nicht, weil uns der Shopify-Zugang fehlt.",
     "Fertig heißt noch nicht live: 8 Ja-Schritte warten auf euer Ja (Karte 2)."
@@ -184,7 +190,7 @@
     },
     {
      "name": "Runden, letzte Stunde",
-     "text": "12 Runden: 8 mit fertigem Ergebnis (Creative, Text oder Klickweg), 1 hat einen Menschen erinnert, 3 nur innen gearbeitet.",
+     "text": "14 Runden: 8 mit fertigem Ergebnis (Creative, Text oder Klickweg), 3 haben einen Menschen erinnert, 3 nur innen gearbeitet.",
      "ampel": "gelb"
     },
     {
@@ -194,7 +200,7 @@
     },
     {
      "name": "Neu gebaut heute",
-     "text": "10 Bilder und Videos für Anzeigen.",
+     "text": "12 Bilder und Videos für Anzeigen.",
      "ampel": "gruen"
     }
    ]
@@ -231,7 +237,7 @@
     },
     {
      "name": "Runden",
-     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 12, davon 3 nur innen.",
+     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 14, davon 3 nur innen.",
      "ampel": "gruen"
     }
    ]
@@ -241,15 +247,15 @@
    "id": "geld",
    "frage": "Wohin geht wann das Geld?",
    "ampel": "gelb",
-   "kurz": "Das meiste Geld geht an Meta: 200 USD am Tag, sobald die Anzeigen laufen.",
+   "kurz": "Das meiste Geld geht an Meta: 20 USD am Tag, sobald die Anzeigen laufen.",
    "saetze": [
     "Für jedes verkaufte Bett bekommt Bonnie 18,90 USD.",
     "Abos für Porchnap kosten rund 303,74 USD im Monat; bei 6 von 6 Abos fehlt uns noch Betrag oder Abbuchungstag. Dazu Liquidationsradar: rund 30,00 USD im Monat, soweit bekannt."
    ],
    "zeilen": [
     {
-     "name": "ab Anzeigenstart, geplant 03.10. 20:00",
-     "text": "an Meta: 200 USD am Tag",
+     "name": "Start: 20 USD Aufwärmen, dann 50 USD am Tag; mehr nur wenn profitabel, höchstens +25 % alle 12 Stunden (Timo 03.10. 18:45), Obergrenze 200 USD am Tag bis zum ersten Gewinn (David)",
+     "text": "an Meta: 20 USD am Tag",
      "ampel": "gelb"
     },
     {
@@ -366,11 +372,11 @@
    "zeilen": [
     {
      "name": "Gebaut diese Woche",
-     "wert": "61 Dateien",
+     "wert": "63 Dateien",
      "ampel": "grau",
-     "detail": "34 Bilder, 27 Videos, neu seit Montag, 28.09., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
+     "detail": "35 Bilder, 28 Videos, neu seit Montag, 28.09., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
      "quelle": "Erstellzeit der Dateien in creatives/fertig, 05_creatives/ads, 05_creatives/ki/fertig",
-     "stand": "18:32",
+     "stand": "18:46",
      "ziel": null
     },
     {
@@ -383,7 +389,7 @@
      "ziel": "3 bis 5 je Woche"
     }
    ],
-   "zahl_gebaut": 61
+   "zahl_gebaut": 63
   },
   {
    "id": "menschen",
@@ -430,7 +436,7 @@
      "ampel": "grau",
      "detail": "1 Zeile im Codeblock (Formatbeispiel) nicht gezählt. Steht dort eine echte Aufgabe, gehört sie aus dem Block heraus.",
      "quelle": "timo/OFFEN.md",
-     "stand": "18:32",
+     "stand": "18:46",
      "ziel": null
     },
     {
@@ -559,7 +565,7 @@
    "zeilen": [
     {
      "name": "Wächter, letzter Lauf",
-     "wert": "18:28",
+     "wert": "18:44",
      "ampel": "gruen",
      "detail": null,
      "quelle": "waechter_zustand.json",
@@ -572,13 +578,13 @@
      "name": "Takt-Schleife",
      "schluessel": "takt",
      "ampel": "gruen",
-     "text": "letzte Runde 18:26 (chef), rc=0"
+     "text": "letzte Runde 18:44 (chef), rc=0"
     },
     {
      "name": "Perplexity",
      "schluessel": "perplexity",
      "ampel": "gruen",
-     "text": "letzter Lauf 18:21 erfolgreich, Gins laeuft"
+     "text": "Gins laeuft; letzter Lauf 18:35 ohne Antwortdatei: Absenden: Frage steht noch im Feld, kein Thread entstanden ("
     },
     {
      "name": "Davids Chrome",
@@ -590,19 +596,19 @@
      "name": "Crosspost",
      "schluessel": "crosspost",
      "ampel": "gruen",
-     "text": "laeuft (pid 61877), Herzschlag vor 10 s, postet"
+     "text": "laeuft (pid 61877), Herzschlag vor 3 s, postet, letzter Fehler: 2026-10-03T16:33:03.077Z The operation was aborted due to ti"
     },
     {
      "name": "Speicher",
      "schluessel": "speicher",
      "ampel": "gruen",
-     "text": "152 GB frei"
+     "text": "151 GB frei"
     },
     {
      "name": "GitHub-Push",
      "schluessel": "github",
      "ampel": "gruen",
-     "text": "origin/main a501517 vor 1 Min"
+     "text": "origin/main 1bf290b vor 0 Min"
     },
     {
      "name": "WhatsApp Web",
@@ -626,7 +632,7 @@
      "name": "Ereignis-Sensor",
      "schluessel": "ereignisse",
      "ampel": "gruen",
-     "text": "letzter Lauf 18:28, 0 offene Ereignisse"
+     "text": "letzter Lauf 18:44, 0 offene Ereignisse"
     },
     {
      "name": "Chrome auf Timos PC",
@@ -643,10 +649,10 @@
    "zeilen": [
     {
      "name": "Werbung bei Meta",
-     "wert": "200 USD am Tag",
+     "wert": "20 USD am Tag",
      "ampel": "gelb",
-     "detail": "ab Anzeigenstart, geplant 03.10. 20:00. Wann Meta die Karte belastet, wissen wir noch nicht, weil die Zahlungsschwelle im BM3 noch nicht gelesen ist (K4). Zahlt: Karte im Werbekonto BM3.",
-     "quelle": "timo/betrieb/LEITSTAND_PLAN.md Abschnitt 5 (David 03.10.: 200 USD am Tag bis zum ersten Gewinn); Start K6 in Abschnitt 4",
+     "detail": "Start: 20 USD Aufwärmen, dann 50 USD am Tag; mehr nur wenn profitabel, höchstens +25 % alle 12 Stunden (Timo 03.10. 18:45), Obergrenze 200 USD am Tag bis zum ersten Gewinn (David). Wann Meta die Karte belastet, wissen wir noch nicht, weil die Zahlungsschwelle im BM3 noch nicht gelesen ist (K4). Zahlt: Karte im Werbekonto BM3.",
+     "quelle": "Timo per WhatsApp 03.10. 18:45: \"so schnell scalen komplett dumm, höchstens 25% alle 12 stunden\"; PLAYBOOK A10 (Warm-up 20, Bilder-CBO 50) und D11; David 03.10.: höchstens 200 USD am Tag bis zum ersten Gewinn",
      "stand": null,
      "ziel": null
     },
