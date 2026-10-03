@@ -1,7 +1,7 @@
 {
  "version": 1,
- "stand": "2026-10-03T13:00:38Z",
- "stand_berlin": "03.10.2026 15:00",
+ "stand": "2026-10-03T13:01:05Z",
+ "stand_berlin": "03.10.2026 15:01",
  "takt_min": 15,
  "quelle": "takt/leitstand_bauen.py auf Davids Mac, ohne Modell",
  "ziele": {
@@ -112,7 +112,7 @@
      "ampel": "grau",
      "detail": "30 Bilder, 21 Videos, neu seit Montag, 28.09., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
      "quelle": "Erstellzeit der Dateien in creatives/fertig, 05_creatives/ads, 05_creatives/ki/fertig",
-     "stand": "15:00",
+     "stand": "15:01",
      "ziel": null
     },
     {
@@ -134,11 +134,11 @@
    "zeilen": [
     {
      "name": "David, produktiv am Mac",
-     "wert": "9 min",
+     "wert": "10 min",
      "ampel": "gruen",
-     "detail": "Mac-Zeit mit aktiver App, nicht Arbeitszeit. Soll bis jetzt 7 min (10 h, Tag 09:00 bis 22:00, Messung erst seit 14:51). Unproduktive Apps 0 min, Leerlauf 0 min, letzte Probe 14:59.",
-     "quelle": "mac_aktivitaet.jsonl, 9 Proben, mac_tag.py",
-     "stand": "15:00",
+     "detail": "Mac-Zeit mit aktiver App, nicht Arbeitszeit. Soll bis jetzt 7 min (10 h, Tag 09:00 bis 22:00, Messung erst seit 14:51). Unproduktive Apps 0 min, Leerlauf 0 min, letzte Probe 15:00.",
+     "quelle": "mac_aktivitaet.jsonl, 10 Proben, mac_tag.py",
+     "stand": "15:01",
      "ziel": "10 h"
     },
     {
@@ -147,7 +147,7 @@
      "ampel": "grau",
      "detail": "Handyzeit, nicht Arbeitszeit. Zählt nur Apps, die das Handy meldet; Arbeit am PC sieht hier niemand.",
      "quelle": "handy.json vom 14:23",
-     "stand": "15:00",
+     "stand": "15:01",
      "ziel": "10 h"
     },
     {
@@ -156,7 +156,7 @@
      "ampel": "gruen",
      "detail": "Regel im Leitstand: ab 30 min gelb, ab 60 min rot.",
      "quelle": "handy.json vom 14:23",
-     "stand": "15:00",
+     "stand": "15:01",
      "ziel": null
     },
     {
@@ -165,7 +165,7 @@
      "ampel": "rot",
      "detail": "Ohne Meldung ist Timos Handyzeit nicht gemessen. Kurzbefehl-Automation am Handy oder launchd de.david.handy prüfen.",
      "quelle": "ereignisse.jsonl, handy.json",
-     "stand": "15:00",
+     "stand": "15:01",
      "ziel": null
     },
     {
@@ -190,7 +190,7 @@
      "ampel": "grau",
      "detail": null,
      "quelle": "timo/OFFEN.md",
-     "stand": "15:00",
+     "stand": "15:01",
      "ziel": null
     },
     {
