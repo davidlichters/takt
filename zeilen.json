@@ -1468,5 +1468,12 @@
 "typ": "chef",
 "titel": "Timo muss Startseite im Shop ändern",
 "satz": "Ich habe geprüft, dass nur Timo das ändern kann, damit Kunden das Bett finden."
+},
+{
+"tag": "2026-10-03",
+"zeit": "23:41",
+"typ": "chef",
+"titel": "Geklärt wann Bonnie die Pakete schickt",
+"satz": "Ich habe geklärt, wann Bonnie die Pakete schicken kann, damit Kunden sie schnell kriegen."
 }
 ]
