@@ -1342,5 +1342,12 @@
 "typ": "chef",
 "titel": "Werbung braucht Karte zum Laufen",
 "satz": "Ich habe geprüft, warum Werbung nicht läuft: die Karte fehlt, dann kommt wieder Geld."
+},
+{
+"tag": "2026-10-03",
+"zeit": "22:31",
+"typ": "chef",
+"titel": "Fragen in der Liste geprüft",
+"satz": "Ich habe geprüft, welche Fragen zweimal vorkommen, und vier sind noch offen."
 }
 ]
