@@ -1132,5 +1132,12 @@
 "typ": "chef",
 "titel": "Hundebett-Angebot überprüft, Preis weg",
 "satz": "Ich habe das Hundebett-Angebot gemessen, so dass wir sehen, dass der Preis weg ist."
+},
+{
+"tag": "2026-10-03",
+"zeit": "20:13",
+"typ": "chef",
+"titel": "Test läuft mit zwei Betten",
+"satz": "Ich habe den Test geschaut und die falsche Kasse machen wir nicht."
 }
 ]
