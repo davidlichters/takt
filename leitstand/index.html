@@ -13,7 +13,8 @@
 <title>Leitstand</title>
 <style>
   /* Leitstand, Bauteil 2.1 aus timo/betrieb/LEITSTAND_PLAN.md (03.10.2026). Schwarz wie handy/, SF, zuerst 390 px.
-     Daten: leitstand.json im Zweig "daten", alle 15 min von ~/takt/leitstand_bauen.py. Die Seite lädt alle 60 s neu. */
+     Daten: leitstand.json im Zweig "daten", alle 15 min von ~/takt/leitstand_bauen.py. Die Seite fragt alle 5 min nach
+     neuen Daten und zeichnet jede Minute neu (Alter, roter Punkt "Leitstand steht"). */
   :root{ --grund:#000; --karte:#1C1C1E; --linie:#2C2C2E; --text:#FFFFFF; --grau:#8E8E93; --hell:#C7C7CC;
          --rot:#FF453A; --gelb:#FFD60A; --gruen:#30D158; }
   *{box-sizing:border-box;margin:0;padding:0;}
@@ -77,13 +78,17 @@
   <div id="weitere"></div>
   <div class="marke" style="margin-top:20px">Stand der Dinge</div>
   <section id="bloecke"></section>
-  <footer id="fuss">Daten: leitstand.json im Zweig daten, alle 15 Minuten von takt/leitstand_bauen.py auf Davids Mac, ohne Modell. Diese Seite lädt jede Minute neu.</footer>
+  <footer id="fuss">Daten: leitstand.json im Zweig daten, alle 15 Minuten von takt/leitstand_bauen.py auf Davids Mac, ohne Modell. Diese Seite fragt alle 5 Minuten nach neuen Daten und zeichnet jede Minute neu.</footer>
 </main>
 <script>
   const QUELLE_API = "https://api.github.com/repos/davidlichters/takt/contents/leitstand.json?ref=daten";
   const QUELLE_RAW = "https://raw.githubusercontent.com/davidlichters/takt/daten/leitstand.json";
   const ALT_MIN = 35;   // zwei Läufe verpasst: dann ist der Leitstand selbst das erste rote Ding
-  let etag = null, daten = window.DATEN_TEST || null, ladefehler = null;
+  // Gemessen 03.10. 15:05 (curl, ohne Anmeldung): auch 304-Antworten auf If-None-Match senken x-ratelimit-remaining
+  // (49, 48, 47). 60 Abrufe je Stunde und IP teilen sich alle offenen Seiten (handy/ fragt alle 30 s). Deshalb fragt
+  // diese Seite nur alle 5 Minuten; die Daten kommen ohnehin nur alle 15 Minuten.
+  const ABRUF_MS = 5 * 60000;
+  let etag = null, daten = window.DATEN_TEST || null, ladefehler = null, letzterAbruf = 0;
 
   const el = (tag, klasse, text) => { const e = document.createElement(tag); if (klasse) e.className = klasse; if (text != null) e.textContent = text; return e; };
   const jetzt = () => window.JETZT_TEST || Date.now();
@@ -174,6 +179,7 @@
   }
 
   async function laden() {
+    letzterAbruf = Date.now();
     if (window.DATEN_TEST) return zeichnen();
     try {
       const r = await fetch(QUELLE_API, { headers: Object.assign({ Accept: "application/vnd.github.raw+json" }, etag ? { "If-None-Match": etag } : {}), cache: "no-store" });
@@ -186,7 +192,9 @@
     }
     zeichnen();
   }
-  laden(); setInterval(laden, 60000);
+  laden();
+  setInterval(() => { if (Date.now() - letzterAbruf >= ABRUF_MS) laden(); else zeichnen(); }, 60000);
+  document.addEventListener("visibilitychange", () => { if (!document.hidden && Date.now() - letzterAbruf >= 60000) laden(); });
 </script>
 </body>
 </html>
