@@ -831,5 +831,12 @@
 "typ": "chef",
 "titel": "Mail geht wieder, fast fertig jetzt",
 "satz": "Ich habe den Fehler repariert, damit die Kunden uns jetzt schreiben können."
+},
+{
+"tag": "2026-10-03",
+"zeit": "18:10",
+"typ": "chef",
+"titel": "Zwei Texte im Laden größer gemacht",
+"satz": "Ich habe zwei Texte im Laden größer gemacht, damit Kunden sie besser lesen."
 }
 ]
