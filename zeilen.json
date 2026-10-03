@@ -1482,5 +1482,12 @@
 "typ": "chef",
 "titel": "Ich brauche mehr Information über die Runde, die gerade beendet wurde. Das Protokoll zeigt nur alte Fehler von gestern. Was hat die aktuelle Runde gemacht?",
 "satz": ""
+},
+{
+"tag": "2026-10-03",
+"zeit": "23:50",
+"typ": "chef",
+"titel": "Takt fertig, aber keine Zeile",
+"satz": "Ich habe Takt fertig machen lassen, aber keine Zeile ist angekommen."
 }
 ]
