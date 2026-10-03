@@ -1,6 +1,6 @@
 {
  "version": 2,
- "stand": "2026-10-03T16:47:00Z",
+ "stand": "2026-10-03T16:47:46Z",
  "stand_berlin": "03.10.2026 18:47",
  "takt_min": 15,
  "quelle": "takt/leitstand_bauen.py auf Davids Mac, ohne Modell",
@@ -43,7 +43,7 @@
     },
     {
      "name": "Recherche",
-     "text": "Perplexity hat heute 28 Fragen beantwortet, die letzte um 18:41. Die letzten 10 Versuche kamen ohne Antwort zurück.",
+     "text": "Perplexity hat heute 28 Fragen beantwortet, die letzte um 18:41. Die letzten 11 Versuche kamen ohne Antwort zurück.",
      "ampel": "gelb"
     },
     {
@@ -53,8 +53,8 @@
     },
     {
      "name": "Chef-Runde",
-     "text": "Um 18:42: entsperrt Stufe 1, weil die BM3-Vorprüfung vor dem Start 20:00 Metas eigenes Tageslimit nicht ablas; Schritt …",
-     "ampel": "gelb"
+     "text": "Um 18:45: Einfügeschritt fertig, Garantietexte live noch nur für Hunde und ohne One refund per household auf FAQ, About …",
+     "ampel": "gruen"
     }
    ]
   },
@@ -141,8 +141,8 @@
    "nr": 3,
    "id": "wer",
    "frage": "Wer arbeitet woran?",
-   "ampel": "gelb",
-   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 62 Runden heute.",
+   "ampel": "gruen",
+   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 63 Runden heute.",
    "saetze": [],
    "zeilen": [
     {
@@ -157,8 +157,8 @@
     },
     {
      "name": "Claude",
-     "text": "62 Runden heute, alle 5 Minuten eine. Zuletzt: entsperrt Stufe 1, weil die BM3-Vorprüfung vor dem Start 20:00 Metas eigenes Tageslimit nicht …",
-     "ampel": "gelb"
+     "text": "63 Runden heute, alle 5 Minuten eine. Zuletzt: Einfügeschritt fertig, Garantietexte live noch nur für Hunde und ohne One refund per household …",
+     "ampel": "gruen"
     },
     {
      "name": "Abteilungs-Chats",
@@ -172,7 +172,7 @@
    "id": "tempo",
    "frage": "Wie schnell geht es gerade?",
    "ampel": "gelb",
-   "kurz": "Letzte Stunde: 14 Runden, 8 davon mit fertigem Ergebnis.",
+   "kurz": "Letzte Stunde: 15 Runden, 9 davon mit fertigem Ergebnis.",
    "saetze": [
     "Den Gewinn heute wissen wir noch nicht, weil uns der Shopify-Zugang fehlt.",
     "Fertig heißt noch nicht live: 8 Ja-Schritte warten auf euer Ja (Karte 2)."
@@ -190,7 +190,7 @@
     },
     {
      "name": "Runden, letzte Stunde",
-     "text": "14 Runden: 8 mit fertigem Ergebnis (Creative, Text oder Klickweg), 3 haben einen Menschen erinnert, 3 nur innen gearbeitet.",
+     "text": "15 Runden: 9 mit fertigem Ergebnis (Creative, Text oder Klickweg), 3 haben einen Menschen erinnert, 3 nur innen gearbeitet.",
      "ampel": "gelb"
     },
     {
@@ -237,7 +237,7 @@
     },
     {
      "name": "Runden",
-     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 14, davon 3 nur innen.",
+     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 15, davon 3 nur innen.",
      "ampel": "gruen"
     }
    ]
@@ -247,15 +247,15 @@
    "id": "geld",
    "frage": "Wohin geht wann das Geld?",
    "ampel": "gelb",
-   "kurz": "Das meiste Geld geht an Meta: 20 USD am Tag, sobald die Anzeigen laufen.",
+   "kurz": "Das meiste Geld geht an Meta: 200 USD am Tag, sobald die Anzeigen laufen.",
    "saetze": [
     "Für jedes verkaufte Bett bekommt Bonnie 18,90 USD.",
     "Abos für Porchnap kosten rund 303,74 USD im Monat; bei 6 von 6 Abos fehlt uns noch Betrag oder Abbuchungstag. Dazu Liquidationsradar: rund 30,00 USD im Monat, soweit bekannt."
    ],
    "zeilen": [
     {
-     "name": "Start: 20 USD Aufwärmen, dann 50 USD am Tag; mehr nur wenn profitabel, höchstens +25 % alle 12 Stunden (Timo 03.10. 18:45), Obergrenze 200 USD am Tag bis zum ersten Gewinn (David)",
-     "text": "an Meta: 20 USD am Tag",
+     "name": "ab Anzeigenstart, geplant 03.10. 20:00",
+     "text": "an Meta: 200 USD am Tag",
      "ampel": "gelb"
     },
     {
@@ -649,10 +649,10 @@
    "zeilen": [
     {
      "name": "Werbung bei Meta",
-     "wert": "20 USD am Tag",
+     "wert": "200 USD am Tag",
      "ampel": "gelb",
-     "detail": "Start: 20 USD Aufwärmen, dann 50 USD am Tag; mehr nur wenn profitabel, höchstens +25 % alle 12 Stunden (Timo 03.10. 18:45), Obergrenze 200 USD am Tag bis zum ersten Gewinn (David). Wann Meta die Karte belastet, wissen wir noch nicht, weil die Zahlungsschwelle im BM3 noch nicht gelesen ist (K4). Zahlt: Karte im Werbekonto BM3.",
-     "quelle": "Timo per WhatsApp 03.10. 18:45: \"so schnell scalen komplett dumm, höchstens 25% alle 12 stunden\"; PLAYBOOK A10 (Warm-up 20, Bilder-CBO 50) und D11; David 03.10.: höchstens 200 USD am Tag bis zum ersten Gewinn",
+     "detail": "ab Anzeigenstart, geplant 03.10. 20:00. Wann Meta die Karte belastet, wissen wir noch nicht, weil die Zahlungsschwelle im BM3 noch nicht gelesen ist (K4). Zahlt: Karte im Werbekonto BM3.",
+     "quelle": "timo/betrieb/LEITSTAND_PLAN.md Abschnitt 5 (David 03.10.: 200 USD am Tag bis zum ersten Gewinn); Start K6 in Abschnitt 4",
      "stand": null,
      "ziel": null
     },
