@@ -1601,5 +1601,12 @@
 "typ": "chef",
 "titel": "Alles überprüft, alles bekannt",
 "satz": "Ich habe geschaut, ob es neue Aufgaben gibt, aber alles ist schon bekannt."
+},
+{
+"tag": "2026-10-04",
+"zeit": "00:48",
+"typ": "chef",
+"titel": "Versand-Zeit fehlt auf unserer Seite",
+"satz": "Ich habe gemerkt, dass Kunden nicht wissen, wie lange der Versand dauert."
 }
 ]
