@@ -1552,5 +1552,12 @@
 "typ": "chef",
 "titel": "Werbung auf Fehler geprüft",
 "satz": "Ich habe die Werbung geprüft und einen Fehler mit Geld gefunden, damit das läuft."
+},
+{
+"tag": "2026-10-04",
+"zeit": "00:17",
+"typ": "chef",
+"titel": "Menü live und Anzeigen sichtbar",
+"satz": "Ich habe das Menü fertig gestellt und geprüft, dass Kunden den Laden sehen."
 }
 ]
