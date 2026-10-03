@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#000000">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Leitstand">
+<link rel="apple-touch-icon" href="../icon-180.png">
+<link rel="icon" type="image/png" href="../icon-192.png">
+<title>Leitstand</title>
+<style>
+  /* Leitstand, Bauteil 2.1 aus timo/betrieb/LEITSTAND_PLAN.md (03.10.2026). Schwarz wie handy/, SF, zuerst 390 px.
+     Daten: leitstand.json im Zweig "daten", alle 15 min von ~/takt/leitstand_bauen.py. Die Seite lädt alle 60 s neu. */
+  :root{ --grund:#000; --karte:#1C1C1E; --linie:#2C2C2E; --text:#FFFFFF; --grau:#8E8E93; --hell:#C7C7CC;
+         --rot:#FF453A; --gelb:#FFD60A; --gruen:#30D158; }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  html,body{background:var(--grund);color:var(--text);}
+  body{font-family:-apple-system,BlinkMacSystemFont,"SF Pro Text",system-ui,sans-serif;-webkit-font-smoothing:antialiased;
+       font-size:15px;line-height:1.35;}
+  main{max-width:1240px;margin:0 auto;padding:calc(env(safe-area-inset-top) + 12px) 16px calc(env(safe-area-inset-bottom) + 32px);}
+  header{display:flex;align-items:flex-end;justify-content:space-between;gap:12px;padding:8px 0 14px;}
+  h1{font:700 34px/1.05 -apple-system,BlinkMacSystemFont,"SF Pro Display",system-ui,sans-serif;letter-spacing:.37px;}
+  #unter{color:var(--grau);font-size:15px;margin-top:4px;}
+  #stand{color:var(--grau);font-size:13px;text-align:right;white-space:nowrap;}
+  #stand.alt{color:var(--rot);font-weight:600;}
+  .marke{font:600 13px/1 -apple-system,system-ui,sans-serif;letter-spacing:.06em;text-transform:uppercase;color:var(--grau);
+         margin:10px 0 8px;}
+  #zuerst{display:grid;gap:10px;}
+  .rot{display:grid;grid-template-columns:30px 1fr;gap:12px;background:var(--karte);border-radius:14px;padding:14px 16px 14px 18px;
+       box-shadow:inset 4px 0 0 var(--rot);}
+  .rot .nr{width:30px;height:30px;border-radius:50%;background:var(--rot);color:#000;font:700 17px/30px -apple-system,system-ui;
+           text-align:center;}
+  .rot h3{font:600 17px/1.25 -apple-system,"SF Pro Text",system-ui;}
+  .rot p{color:var(--hell);margin-top:4px;font-size:14px;}
+  .rot .wo{color:var(--grau);font-size:12px;margin-top:6px;text-transform:uppercase;letter-spacing:.05em;}
+  .ruhig{box-shadow:inset 4px 0 0 var(--gruen);} .ruhig .nr{background:var(--gruen);}
+  details.mehr{margin-top:10px;color:var(--grau);}
+  details.mehr summary{cursor:pointer;font-size:14px;padding:4px 0;}
+  details.mehr .rot{margin-top:8px;}
+  #bloecke{display:grid;gap:12px;margin-top:6px;align-items:start;}
+  @media (min-width:820px){ #bloecke{grid-template-columns:1fr 1fr;} #zuerst{grid-template-columns:repeat(3,1fr);} }
+  @media (min-width:1200px){ #bloecke{grid-template-columns:repeat(3,1fr);} }
+  .block{background:var(--karte);border-radius:14px;padding:4px 16px 8px;min-width:0;}
+  .kopf{display:flex;align-items:center;gap:8px;padding:12px 0 8px;}
+  .kopf h2{font:700 20px/1.2 -apple-system,"SF Pro Display",system-ui;flex:1;}
+  .punkt{width:10px;height:10px;border-radius:50%;flex:none;background:var(--grau);}
+  .p-rot{background:var(--rot);} .p-gelb{background:var(--gelb);} .p-gruen{background:var(--gruen);} .p-grau{background:#48484A;}
+  .zeile{padding:10px 0;border-top:.5px solid var(--linie);}
+  .oben{display:flex;align-items:baseline;justify-content:space-between;gap:12px;}
+  .name{color:var(--text);font-size:15px;min-width:0;}
+  .wert{font:600 17px/1.2 -apple-system,"SF Pro Text",system-ui;text-align:right;white-space:nowrap;}
+  .w-rot{color:var(--rot);} .w-gelb{color:var(--gelb);} .w-gruen{color:var(--gruen);} .w-leer{color:var(--grau);}
+  .detail{color:var(--hell);font-size:13px;margin-top:3px;}
+  .meta{color:var(--grau);font-size:12px;margin-top:3px;overflow-wrap:anywhere;}
+  .aufgabe{display:grid;grid-template-columns:52px 1fr;gap:10px;padding:9px 0;border-top:.5px solid var(--linie);}
+  .datum{font:600 12px/1 -apple-system,system-ui;text-align:center;border-radius:6px;padding:5px 0;background:#3A3A3C;
+         color:var(--text);align-self:start;}
+  .d-rot{background:var(--rot);color:#000;} .d-gelb{background:var(--gelb);color:#000;}
+  .aufgabe b{font-weight:600;font-size:13px;color:var(--hell);display:block;}
+  .aufgabe span{font-size:14px;}
+  .werkzeug{display:flex;gap:10px;align-items:baseline;padding:9px 0;border-top:.5px solid var(--linie);}
+  .werkzeug .punkt{position:relative;top:1px;}
+  footer{color:var(--grau);font-size:12px;margin-top:22px;}
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <div><h1>Leitstand</h1><div id="unter">Porchnap</div></div>
+    <div id="stand">lädt</div>
+  </header>
+  <div class="marke">Zuerst</div>
+  <section id="zuerst"></section>
+  <div id="weitere"></div>
+  <div class="marke" style="margin-top:20px">Stand der Dinge</div>
+  <section id="bloecke"></section>
+  <footer id="fuss">Daten: leitstand.json im Zweig daten, alle 15 Minuten von takt/leitstand_bauen.py auf Davids Mac, ohne Modell. Diese Seite lädt jede Minute neu.</footer>
+</main>
+<script>
+  const QUELLE_API = "https://api.github.com/repos/davidlichters/takt/contents/leitstand.json?ref=daten";
+  const QUELLE_RAW = "https://raw.githubusercontent.com/davidlichters/takt/daten/leitstand.json";
+  const ALT_MIN = 35;   // zwei Läufe verpasst: dann ist der Leitstand selbst das erste rote Ding
+  let etag = null, daten = window.DATEN_TEST || null, ladefehler = null;
+
+  const el = (tag, klasse, text) => { const e = document.createElement(tag); if (klasse) e.className = klasse; if (text != null) e.textContent = text; return e; };
+  const jetzt = () => window.JETZT_TEST || Date.now();
+  const hhmm = ms => new Date(ms).toLocaleTimeString("de-DE", { hour: "2-digit", minute: "2-digit", timeZone: "Europe/Berlin" });
+  const dauer = min => min < 60 ? `${Math.round(min)} min` : `${Math.floor(min / 60)} h ${String(Math.round(min % 60)).padStart(2, "0")} min`;
+
+  function rotKarte(r, nr, ruhig) {
+    const k = el("div", "rot" + (ruhig ? " ruhig" : ""));
+    k.appendChild(el("div", "nr", ruhig ? "✓" : String(nr)));
+    const t = el("div");
+    t.appendChild(el("h3", null, r.titel));
+    if (r.text) t.appendChild(el("p", null, r.text));
+    if (r.block) t.appendChild(el("div", "wo", ({ geld: "Geld", anzeigen: "Anzeigen", creatives: "Creatives", menschen: "Menschen", aufgaben: "Aufgaben", werkzeuge: "Werkzeuge", leitstand: "Leitstand" })[r.block] || r.block));
+    k.appendChild(t);
+    return k;
+  }
+
+  function zeileBauen(z) {
+    const d = el("div", "zeile");
+    const o = el("div", "oben");
+    o.appendChild(el("div", "name", z.name));
+    const leer = z.wert === "unbekannt" || z.wert === "veraltet";
+    o.appendChild(el("div", "wert " + (leer ? "w-leer" : ({ rot: "w-rot", gelb: "w-gelb", gruen: "w-gruen" })[z.ampel] || ""), z.wert));
+    d.appendChild(o);
+    if (z.detail) d.appendChild(el("div", "detail", z.detail));
+    const meta = [];
+    if (z.ziel) meta.push("Ziel " + z.ziel);
+    if (z.quelle) meta.push("Quelle: " + z.quelle);
+    if (z.stand) meta.push("Stand " + z.stand);
+    if (meta.length) d.appendChild(el("div", "meta", meta.join(". ")));
+    return d;
+  }
+
+  function blockBauen(b) {
+    const k = el("article", "block");
+    const kopf = el("div", "kopf");
+    kopf.appendChild(el("h2", null, b.titel));
+    kopf.appendChild(el("span", "punkt p-" + (b.ampel || "grau")));
+    k.appendChild(kopf);
+    for (const z of b.zeilen || []) k.appendChild(zeileBauen(z));
+    if (b.id === "aufgaben") {
+      for (const a of b.liste || []) {
+        const r = el("div", "aufgabe");
+        r.appendChild(el("div", "datum" + (a.ampel === "rot" ? " d-rot" : a.ampel === "gelb" ? " d-gelb" : ""), a.datum_kurz));
+        const t = el("div"); t.appendChild(el("b", null, a.wer + (a.tage_ueberfaellig ? `, ${a.tage_ueberfaellig} Tage drüber` : "")));
+        t.appendChild(el("span", null, a.text)); r.appendChild(t); k.appendChild(r);
+      }
+      if (b.weitere) k.appendChild(el("div", "meta", `und ${b.weitere} weitere in timo/OFFEN.md`));
+    }
+    if (b.id === "werkzeuge") {
+      for (const w of b.liste || []) {
+        const r = el("div", "werkzeug");
+        r.appendChild(el("span", "punkt p-" + (w.ampel || "grau")));
+        const t = el("div"); t.appendChild(el("div", "name", w.name));
+        if (w.text) t.appendChild(el("div", "detail", w.text));
+        r.appendChild(t); k.appendChild(r);
+      }
+    }
+    return k;
+  }
+
+  function zeichnen() {
+    const zuerst = document.getElementById("zuerst"), weitere = document.getElementById("weitere"), bloecke = document.getElementById("bloecke");
+    const stand = document.getElementById("stand");
+    zuerst.replaceChildren(); weitere.replaceChildren(); bloecke.replaceChildren();
+    if (!daten) {
+      stand.textContent = "keine Daten"; stand.className = "alt";
+      zuerst.appendChild(rotKarte({ titel: "Keine Daten geladen", text: "leitstand.json war nicht abrufbar" + (ladefehler ? ` (${ladefehler})` : "") + ". Nächster Versuch in einer Minute.", block: "leitstand" }, 1));
+      return;
+    }
+    const t = Date.parse(daten.stand), alter = (jetzt() - t) / 60000;
+    const ziele = daten.ziele || {};
+    document.getElementById("unter").textContent = `Porchnap, Tag ${ziele.tag ?? "?"} von ${ziele.tage_gesamt ?? 92}`;
+    stand.textContent = `Stand ${hhmm(t)}` + (alter >= 2 ? `, vor ${dauer(alter)}` : "");
+    stand.className = alter > ALT_MIN ? "alt" : "";
+    const rot = [...(daten.rot || [])];
+    if (alter > ALT_MIN) rot.unshift({ titel: `Leitstand steht seit ${dauer(alter)}`, text: `Alle Zahlen hier sind von ${hhmm(t)}. Auf Davids Mac launchd de.david.leitstand und takt/leitstand.log prüfen.`, block: "leitstand" });
+    if (!rot.length) zuerst.appendChild(rotKarte({ titel: "Nichts ist rot", text: "Kein Wert über der Grenze, nichts überfällig, kein Werkzeug kaputt." }, 0, true));
+    rot.slice(0, 3).forEach((r, i) => zuerst.appendChild(rotKarte(r, i + 1)));
+    if (rot.length > 3) {
+      const d = el("details", "mehr");
+      d.appendChild(el("summary", null, `${rot.length - 3} weitere rote Punkte`));
+      rot.slice(3).forEach((r, i) => d.appendChild(rotKarte(r, i + 4)));
+      weitere.appendChild(d);
+    }
+    for (const b of daten.bloecke || []) bloecke.appendChild(blockBauen(b));
+    document.title = rot.length ? `(${rot.length}) Leitstand` : "Leitstand";
+  }
+
+  async function laden() {
+    if (window.DATEN_TEST) return zeichnen();
+    try {
+      const r = await fetch(QUELLE_API, { headers: Object.assign({ Accept: "application/vnd.github.raw+json" }, etag ? { "If-None-Match": etag } : {}), cache: "no-store" });
+      if (r.status === 304) { ladefehler = null; return zeichnen(); }
+      if (!r.ok) throw new Error("GitHub " + r.status);
+      etag = r.headers.get("ETag"); daten = await r.json(); ladefehler = null;
+    } catch (f) {
+      try { const r = await fetch(QUELLE_RAW + "?t=" + Date.now(), { cache: "no-store" }); if (!r.ok) throw new Error("raw " + r.status); daten = await r.json(); ladefehler = null; }
+      catch (g) { ladefehler = String(g.message || g); }
+    }
+    zeichnen();
+  }
+  laden(); setInterval(laden, 60000);
+</script>
+</body>
+</html>
