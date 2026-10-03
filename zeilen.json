@@ -1328,5 +1328,12 @@
 "typ": "chef",
 "titel": "Vier Arbeiten nicht gespeichert",
 "satz": "Ich habe vier Arbeiten gefunden, die noch nicht gespeichert sind, deshalb geht nichts weiter."
+},
+{
+"tag": "2026-10-03",
+"zeit": "22:25",
+"typ": "chef",
+"titel": "Vier Sachen stoppen die Arbeit",
+"satz": "Ich habe vier Sachen gefunden, die wir fertig machen müssen, damit es weitergeht."
 }
 ]
