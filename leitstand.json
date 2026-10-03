@@ -1,7 +1,7 @@
 {
  "version": 2,
- "stand": "2026-10-03T17:47:05Z",
- "stand_berlin": "03.10.2026 19:47",
+ "stand": "2026-10-03T18:02:05Z",
+ "stand_berlin": "03.10.2026 20:02",
  "takt_min": 15,
  "quelle": "takt/leitstand_bauen.py auf Davids Mac, ohne Modell",
  "ziele": {
@@ -43,7 +43,7 @@
     },
     {
      "name": "Recherche",
-     "text": "Perplexity hat heute 48 Fragen beantwortet, die letzte um 19:46.",
+     "text": "Perplexity hat heute 53 Fragen beantwortet, die letzte um 20:01.",
      "ampel": "gruen"
     },
     {
@@ -53,7 +53,7 @@
     },
     {
      "name": "Chef-Runde",
-     "text": "Um 19:45: Klickweg für den Produkttitel Porchnap Sleigh Bed statt des alten Titels mit Strich und Dog Bed (Kasse …",
+     "text": "Um 19:57: Handyschrift der zwei Fließtexte auf der Produktseite live auf 16 px nachgemessen (P10b erledigt), Rest eine …",
      "ampel": "gruen"
     }
    ]
@@ -116,7 +116,7 @@
     {
      "prio": 1.5,
      "block": "ja",
-     "titel": "11 Ja-Fragen warten: ja knopfpreis (bis 04.10. 10:00), ja bonnie3 (bis 04.10. 12:00), ja fusszahlung (bis 04.10. 12:00) und 8 weitere",
+     "titel": "11 Ja-Fragen warten: ja bonnie3 (bis 04.10. 12:00), ja zoomfeld (bis 04.10. 12:00), ja einzelauswahl (bis 04.10. 12:00) und 8 weitere",
      "wer": "David oder Timo",
      "tun": "Im Claude-Chat „ja <Nr>“ schreiben, Liste in timo/JA_LISTE.md",
      "quelle": "timo/JA_LISTE.md"
@@ -136,7 +136,7 @@
    "id": "wer",
    "frage": "Wer arbeitet woran?",
    "ampel": "gruen",
-   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 84 Runden heute.",
+   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 89 Runden heute.",
    "saetze": [],
    "zeilen": [
     {
@@ -151,7 +151,7 @@
     },
     {
      "name": "Claude",
-     "text": "84 Runden heute, alle 5 Minuten eine. Zuletzt: Klickweg für den Produkttitel Porchnap Sleigh Bed statt des alten Titels mit Strich und Dog …",
+     "text": "89 Runden heute, alle 5 Minuten eine. Zuletzt: Handyschrift der zwei Fließtexte auf der Produktseite live auf 16 px nachgemessen (P10b …",
      "ampel": "gruen"
     },
     {
@@ -165,8 +165,8 @@
    "nr": 4,
    "id": "tempo",
    "frage": "Wie schnell geht es gerade?",
-   "ampel": "gelb",
-   "kurz": "Letzte Stunde: 21 Runden, 15 davon mit fertigem Ergebnis.",
+   "ampel": "gruen",
+   "kurz": "Letzte Stunde: 20 Runden, 15 davon mit fertigem Ergebnis.",
    "saetze": [
     "Den Gewinn heute wissen wir noch nicht, weil uns der Shopify-Zugang fehlt.",
     "Fertig heißt noch nicht live: 11 Ja-Schritte warten auf euer Ja (Karte 2)."
@@ -184,12 +184,12 @@
     },
     {
      "name": "Runden, letzte Stunde",
-     "text": "21 Runden: 15 mit fertigem Ergebnis (Creative, Text oder Klickweg), 2 haben einen Menschen erinnert, 4 nur innen gearbeitet.",
-     "ampel": "gelb"
+     "text": "20 Runden: 15 mit fertigem Ergebnis (Creative, Text oder Klickweg), 1 hat einen Menschen erinnert, 4 nur innen gearbeitet.",
+     "ampel": "gruen"
     },
     {
      "name": "Erledigt heute",
-     "text": "9 in OFFEN.md als erledigt eingetragen (13 weitere nur als überholt gestrichen), 1 Ja-Schritt erledigt.",
+     "text": "9 in OFFEN.md als erledigt eingetragen (13 weitere nur als überholt gestrichen), 3 Ja-Schritte erledigt.",
      "ampel": "gruen"
     },
     {
@@ -231,7 +231,7 @@
     },
     {
      "name": "Runden",
-     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 21, davon 4 nur innen.",
+     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 20, davon 4 nur innen.",
      "ampel": "gruen"
     }
    ]
@@ -370,7 +370,7 @@
      "ampel": "grau",
      "detail": "39 Bilder, 28 Videos, neu seit Montag, 28.09., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
      "quelle": "Erstellzeit der Dateien in creatives/fertig, 05_creatives/ads, 05_creatives/ki/fertig",
-     "stand": "19:47",
+     "stand": "20:02",
      "ziel": null
     },
     {
@@ -430,7 +430,7 @@
      "ampel": "grau",
      "detail": "1 Zeile im Codeblock (Formatbeispiel) nicht gezählt. Steht dort eine echte Aufgabe, gehört sie aus dem Block heraus.",
      "quelle": "timo/OFFEN.md",
-     "stand": "19:47",
+     "stand": "20:02",
      "ziel": null
     },
     {
@@ -559,7 +559,7 @@
    "zeilen": [
     {
      "name": "Wächter, letzter Lauf",
-     "wert": "19:43",
+     "wert": "19:59",
      "ampel": "gruen",
      "detail": null,
      "quelle": "waechter_zustand.json",
@@ -572,13 +572,13 @@
      "name": "Takt-Schleife",
      "schluessel": "takt",
      "ampel": "gruen",
-     "text": "letzte Runde 19:41 (chef), rc=0"
+     "text": "letzte Runde 19:57 (chef), rc=0, Runde laeuft seit 1 Min"
     },
     {
      "name": "Perplexity",
      "schluessel": "perplexity",
      "ampel": "gruen",
-     "text": "Gins laeuft; letzter Lauf 19:38 ohne Antwortdatei: Absenden: Perplexity meldet 1x \"Unable to start session\" (Ko"
+     "text": "letzter Lauf 19:54 erfolgreich, Gins laeuft"
     },
     {
      "name": "Davids Chrome",
@@ -590,19 +590,19 @@
      "name": "Crosspost",
      "schluessel": "crosspost",
      "ampel": "gruen",
-     "text": "laeuft (pid 61877), Herzschlag vor 10 s, postet, letzter Fehler: 2026-10-03T16:33:03.077Z The operation was aborted due to ti"
+     "text": "laeuft (pid 61877), Herzschlag vor 5 s, postet, letzter Fehler: 2026-10-03T16:33:03.077Z The operation was aborted due to ti"
     },
     {
      "name": "Speicher",
      "schluessel": "speicher",
      "ampel": "gruen",
-     "text": "149 GB frei"
+     "text": "150 GB frei"
     },
     {
      "name": "GitHub-Push",
      "schluessel": "github",
      "ampel": "gruen",
-     "text": "origin/main 06ba8d3 vor 1 Min"
+     "text": "origin/main 5736588 vor 1 Min"
     },
     {
      "name": "WhatsApp Web",
@@ -626,7 +626,7 @@
      "name": "Ereignis-Sensor",
      "schluessel": "ereignisse",
      "ampel": "gruen",
-     "text": "letzter Lauf 19:43, 0 offene Ereignisse"
+     "text": "letzter Lauf 19:59, 1 offene Ereignisse, aeltestes 19:59"
     },
     {
      "name": "Chrome auf Timos PC",
