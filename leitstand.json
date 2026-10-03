@@ -1,7 +1,7 @@
 {
  "version": 2,
- "stand": "2026-10-03T15:17:05Z",
- "stand_berlin": "03.10.2026 17:17",
+ "stand": "2026-10-03T15:32:01Z",
+ "stand_berlin": "03.10.2026 17:32",
  "takt_min": 15,
  "quelle": "takt/leitstand_bauen.py auf Davids Mac, ohne Modell",
  "ziele": {
@@ -33,12 +33,12 @@
     },
     {
      "name": "Lieferantin Bonnie",
-     "text": "Bett S kostet 18,90 USD. Ob sie geantwortet hat, sehen wir nicht (WhatsApp liest keiner mit). 3 Aufgaben zu ihr offen, 0 überfällig.",
+     "text": "Bett S kostet 18,90 USD. Ob sie geantwortet hat, sehen wir nicht (WhatsApp liest keiner mit). 4 Aufgaben zu ihr offen, 0 überfällig.",
      "ampel": "grau"
     },
     {
      "name": "Creatives",
-     "text": "Heute 9 neue Bilder oder Videos gebaut, diese Woche 60. Das neueste: PN_V11_MISTAKE_H1_4x5.mp4 um 16:45. Wie viele davon live sind, wissen wir nicht.",
+     "text": "Heute 10 neue Bilder oder Videos gebaut, diese Woche 61. Das neueste: PN_TREE_4x5.png um 17:26. Wie viele davon live sind, wissen wir nicht.",
      "ampel": "gruen"
     },
     {
@@ -53,7 +53,7 @@
     },
     {
      "name": "Chef-Runde",
-     "text": "Um 17:10: David soll bis 17:50 zusatz ja oder nein sagen, ob die Bonnie-Nachricht (Ja 3) auch nach dem Preis für …",
+     "text": "Um 17:30: drei Einfügetexte mit Vorher-Messung fertig, Tab-Titel mit Strich (Claude ohne Ja), About us mit falscher …",
      "ampel": "gruen"
     }
    ]
@@ -63,7 +63,7 @@
    "id": "auf",
    "frage": "Was hält uns auf?",
    "ampel": "rot",
-   "kurz": "8 Dinge halten uns auf.",
+   "kurz": "5 Dinge halten uns auf.",
    "saetze": [
     "Bei jedem steht, wer es tun muss. Oben steht das, was am meisten Geld kostet."
    ],
@@ -94,54 +94,6 @@
      "ja": []
     },
     {
-     "prio": 0,
-     "block": "eskalation",
-     "quelle": "gedaechtnis/OFFEN.md",
-     "titel": "der Entwurf an Mr Anh (BM5 kaufen, 5 Fragen zu Preis, Garantie, Übergabe) liegt seit 02.10. 09:55 …",
-     "wer": "David",
-     "tun": "Entscheidet in 1 Minute im Claude-Chat bm5 senden oder bm5 weg",
-     "bis": "17:45",
-     "vorbei": false,
-     "stufe": 4,
-     "ja": []
-    },
-    {
-     "prio": 0,
-     "block": "eskalation",
-     "quelle": "gedaechtnis/OFFEN.md",
-     "titel": "David oder Timo im Claude-Chat ja 2, ja 4, ja 5, ja 6, ja 7, ja 8 schreiben in 1 Minute (Theme und …",
-     "wer": "David oder Timo",
-     "tun": null,
-     "bis": "16:50",
-     "vorbei": true,
-     "stufe": 5,
-     "ja": [
-      2,
-      4,
-      5,
-      6,
-      7,
-      8,
-      8,
-      2
-     ]
-    },
-    {
-     "prio": 0,
-     "block": "eskalation",
-     "quelle": "gedaechtnis/OFFEN.md",
-     "titel": "Soll die Bonnie-Nachricht (Ja 3, Frist 04.10. 12:00) eine fünfte Frage bekommen, nämlich den Preis …",
-     "wer": "David",
-     "tun": "Entscheidet in 1 Minute im Claude-Chat zusatz ja oder zusatz nein",
-     "bis": "17:50",
-     "vorbei": false,
-     "stufe": 6,
-     "ja": [
-      3,
-      3
-     ]
-    },
-    {
      "prio": 1,
      "block": "anzeigen",
      "titel": "Anzeigen sind aus",
@@ -152,7 +104,7 @@
     {
      "prio": 1.5,
      "block": "ja",
-     "titel": "1 Ja-Frage wartet: ja material (bis 04.10. 12:00)",
+     "titel": "8 Ja-Fragen warten: ja knopfpreis (bis 04.10. 10:00), ja bonnie3 (bis 04.10. 12:00), ja fusszahlung (bis 04.10. 12:00) und 5 weitere",
      "wer": "David oder Timo",
      "tun": "Im Claude-Chat „ja <Nr>“ schreiben, Liste in timo/JA_LISTE.md",
      "quelle": "timo/JA_LISTE.md"
@@ -172,12 +124,12 @@
    "id": "wer",
    "frage": "Wer arbeitet woran?",
    "ampel": "gruen",
-   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 39 Runden heute.",
+   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 44 Runden heute.",
    "saetze": [],
    "zeilen": [
     {
      "name": "David",
-     "text": "Nicht gemessen, weil David die Mac-Messung am 03.10. abgeschaltet hat. Auf David warten heute 4 Sachen (Karte 2).",
+     "text": "Nicht gemessen, weil David die Mac-Messung am 03.10. abgeschaltet hat. Auf David warten heute 1 Sache (Karte 2).",
      "ampel": "grau"
     },
     {
@@ -187,7 +139,7 @@
     },
     {
      "name": "Claude",
-     "text": "39 Runden heute, alle 5 Minuten eine. Zuletzt: David soll bis 17:50 zusatz ja oder nein sagen, ob die Bonnie-Nachricht (Ja 3) auch nach dem …",
+     "text": "44 Runden heute, alle 5 Minuten eine. Zuletzt: drei Einfügetexte mit Vorher-Messung fertig, Tab-Titel mit Strich (Claude ohne Ja), About us …",
      "ampel": "gruen"
     },
     {
@@ -202,7 +154,7 @@
    "id": "tempo",
    "frage": "Wie schnell geht es gerade?",
    "ampel": "gelb",
-   "kurz": "Letzte Stunde: 15 Runden, 11 davon mit fertigem Ergebnis.",
+   "kurz": "Letzte Stunde: 15 Runden, 8 davon mit fertigem Ergebnis.",
    "saetze": [
     "Den Gewinn heute wissen wir noch nicht, weil uns der Shopify-Zugang fehlt.",
     "Fertig heißt noch nicht live: 8 Ja-Schritte warten auf euer Ja (Karte 2)."
@@ -220,7 +172,7 @@
     },
     {
      "name": "Runden, letzte Stunde",
-     "text": "15 Runden: 11 mit fertigem Ergebnis (Creative, Text oder Klickweg), 3 haben einen Menschen erinnert, 1 nur innen gearbeitet.",
+     "text": "15 Runden: 8 mit fertigem Ergebnis (Creative, Text oder Klickweg), 5 haben einen Menschen erinnert, 2 nur innen gearbeitet.",
      "ampel": "gelb"
     },
     {
@@ -230,7 +182,7 @@
     },
     {
      "name": "Neu gebaut heute",
-     "text": "9 Bilder und Videos für Anzeigen.",
+     "text": "10 Bilder und Videos für Anzeigen.",
      "ampel": "gruen"
     }
    ]
@@ -267,7 +219,7 @@
     },
     {
      "name": "Runden",
-     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 15, davon 1 nur innen.",
+     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 15, davon 2 nur innen.",
      "ampel": "gruen"
     }
    ]
@@ -402,11 +354,11 @@
    "zeilen": [
     {
      "name": "Gebaut diese Woche",
-     "wert": "60 Dateien",
+     "wert": "61 Dateien",
      "ampel": "grau",
-     "detail": "33 Bilder, 27 Videos, neu seit Montag, 28.09., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
+     "detail": "34 Bilder, 27 Videos, neu seit Montag, 28.09., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
      "quelle": "Erstellzeit der Dateien in creatives/fertig, 05_creatives/ads, 05_creatives/ki/fertig",
-     "stand": "17:17",
+     "stand": "17:32",
      "ziel": null
     },
     {
@@ -419,7 +371,7 @@
      "ziel": "3 bis 5 je Woche"
     }
    ],
-   "zahl_gebaut": 60
+   "zahl_gebaut": 61
   },
   {
    "id": "menschen",
@@ -462,11 +414,11 @@
    "zeilen": [
     {
      "name": "Offen",
-     "wert": "22",
+     "wert": "23",
      "ampel": "grau",
      "detail": "1 Zeile im Codeblock (Formatbeispiel) nicht gezählt. Steht dort eine echte Aufgabe, gehört sie aus dem Block heraus.",
      "quelle": "timo/OFFEN.md",
-     "stand": "17:17",
+     "stand": "17:32",
      "ziel": null
     },
     {
@@ -532,6 +484,14 @@
     {
      "datum": "2026-10-04",
      "datum_kurz": "04.10.",
+     "wer": "Timo, 3 min",
+     "text": "Santa-Sleigh-Foto im Shop ist das SleighPawsCo-Bild, das launch/kurs_umsetzung/05_creatives/bilder_rechte.csv:7 mit …",
+     "tage_ueberfaellig": 0,
+     "ampel": "grau"
+    },
+    {
+     "datum": "2026-10-04",
+     "datum_kurz": "04.10.",
      "wer": "David und Timo, 3 min",
      "text": "Bestellweg an Bonnie festlegen, Vorschlag: per WhatsApp von Hand nach launch/kurs_umsetzung/10_lieferant/11_bestell_sop …",
      "tage_ueberfaellig": 0,
@@ -576,17 +536,9 @@
      "text": "Dateien vom Zweitlaptop, die David am 25.09. per WhatsApp geschickt hat: welche waren das, werden sie noch gebraucht? …",
      "tage_ueberfaellig": 0,
      "ampel": "grau"
-    },
-    {
-     "datum": "2026-10-10",
-     "datum_kurz": "10.10.",
-     "wer": "Timo, 2 min",
-     "text": "Wer ist Inhaber des Shopify-Kontos dyhu8q-n6, auf wen läuft das Auszahlungskonto (Shopify Payments braucht einen …",
-     "tage_ueberfaellig": 0,
-     "ampel": "grau"
     }
    ],
-   "weitere": 10
+   "weitere": 11
   },
   {
    "id": "werkzeuge",
@@ -595,7 +547,7 @@
    "zeilen": [
     {
      "name": "Wächter, letzter Lauf",
-     "wert": "17:15",
+     "wert": "17:30",
      "ampel": "gruen",
      "detail": null,
      "quelle": "waechter_zustand.json",
@@ -608,7 +560,7 @@
      "name": "Takt-Schleife",
      "schluessel": "takt",
      "ampel": "gruen",
-     "text": "letzte Runde 17:11 (chef), rc=0, Runde laeuft seit 0 Min"
+     "text": "letzte Runde 17:27 (chef), rc=0, Runde laeuft seit 0 Min"
     },
     {
      "name": "Perplexity",
@@ -626,19 +578,19 @@
      "name": "Crosspost",
      "schluessel": "crosspost",
      "ampel": "gruen",
-     "text": "laeuft (pid 61877), Herzschlag vor 10 s, postet"
+     "text": "laeuft (pid 61877), Herzschlag vor 4 s, postet"
     },
     {
      "name": "Speicher",
      "schluessel": "speicher",
      "ampel": "gruen",
-     "text": "154 GB frei"
+     "text": "153 GB frei"
     },
     {
      "name": "GitHub-Push",
      "schluessel": "github",
      "ampel": "gruen",
-     "text": "origin/main c85cce6 vor 0 Min"
+     "text": "origin/main 72c540b vor 0 Min"
     },
     {
      "name": "WhatsApp Web",
@@ -662,7 +614,7 @@
      "name": "Ereignis-Sensor",
      "schluessel": "ereignisse",
      "ampel": "gruen",
-     "text": "letzter Lauf 17:15, 0 offene Ereignisse"
+     "text": "letzter Lauf 17:30, 0 offene Ereignisse"
     },
     {
      "name": "Chrome auf Timos PC",
