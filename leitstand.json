@@ -1,7 +1,7 @@
 {
- "version": 1,
- "stand": "2026-10-03T13:47:05Z",
- "stand_berlin": "03.10.2026 15:47",
+ "version": 2,
+ "stand": "2026-10-03T13:59:32Z",
+ "stand_berlin": "03.10.2026 15:59",
  "takt_min": 15,
  "quelle": "takt/leitstand_bauen.py auf Davids Mac, ohne Modell",
  "ziele": {
@@ -12,6 +12,276 @@
   "tag": 3,
   "tage_gesamt": 92
  },
+ "karten": [
+  {
+   "nr": 1,
+   "id": "wo",
+   "frage": "Was passiert gerade wo?",
+   "ampel": "rot",
+   "kurz": "Der Shop ist offen. Die Anzeigen sollen um 20:00 starten.",
+   "saetze": [],
+   "zeilen": [
+    {
+     "name": "Shop",
+     "text": "Offen. 1 Produkt in 4 Motiven für 69,99 USD, alle bestellbar.",
+     "ampel": "gruen"
+    },
+    {
+     "name": "Anzeigen",
+     "text": "Start geplant 20:00. Ob schon eine läuft, wissen wir noch nicht, weil uns der Meta-Zugang fehlt.",
+     "ampel": "gelb"
+    },
+    {
+     "name": "Lieferantin Bonnie",
+     "text": "Bett S kostet 18,90 USD. Ob sie geantwortet hat, sehen wir nicht (WhatsApp liest keiner mit). 5 Aufgaben zu ihr offen, 5 überfällig.",
+     "ampel": "gelb"
+    },
+    {
+     "name": "Creatives",
+     "text": "Heute 2 neue Bilder oder Videos gebaut, diese Woche 53. Das neueste: PN_CHECK_4x5.png um 15:26. Wie viele davon live sind, wissen wir nicht.",
+     "ampel": "gruen"
+    },
+    {
+     "name": "Recherche",
+     "text": "Perplexity hat heute 9 Fragen beantwortet, die letzte um 15:57.",
+     "ampel": "gruen"
+    },
+    {
+     "name": "Technik",
+     "text": "Der Wächter prüft alle 5 Minuten 6 Werkzeuge: 5 gehen, kaputt: Davids Chrome. 4 weitere prüft er noch nicht.",
+     "ampel": "rot"
+    },
+    {
+     "name": "Chef-Runde",
+     "text": "Um 15:55: Ja 5 abtest angelegt, Kaching meldet weiter einen laufenden A/B-Test, den niemand angelegt hat; Klickweg zum …",
+     "ampel": "gruen"
+    }
+   ]
+  },
+  {
+   "nr": 2,
+   "id": "auf",
+   "frage": "Was hält uns auf?",
+   "ampel": "rot",
+   "kurz": "7 Dinge halten uns auf.",
+   "saetze": [
+    "Bei jedem steht, wer es tun muss. Oben steht das, was am meisten Geld kostet."
+   ],
+   "zeilen": [],
+   "punkte": [
+    {
+     "prio": 0,
+     "block": "eskalation",
+     "quelle": "gedaechtnis/OFFEN.md",
+     "titel": "1 Bett kostet an der Kasse 4,99 USD Versand, obwohl Produktseite 14-mal und alle vier Startanzeigen …",
+     "wer": "David oder Timo",
+     "tun": "Im Claude-Chat ja 1 schreiben (oder selbst im Shopify-Admin klicken) in 3 Minuten",
+     "bis": "15:55",
+     "vorbei": true,
+     "stufe": 1,
+     "ja": [
+      1,
+      1
+     ]
+    },
+    {
+     "prio": 0,
+     "block": "eskalation",
+     "quelle": "gedaechtnis/OFFEN.md",
+     "titel": "Timo auf seinem PC Meta-Vorprüfung im BM3 in 5 Minuten, nur lesen, drei Bilder in den Chat …",
+     "wer": "Timo",
+     "tun": null,
+     "bis": "16:15",
+     "vorbei": false,
+     "stufe": 1,
+     "ja": []
+    },
+    {
+     "prio": 1,
+     "block": "werkzeuge",
+     "titel": "Davids Chrome ist kaputt",
+     "text": "WhatsApp-Alarmweg gekapert: AppleScript erreicht das zuletzt gestartete Crosspost-Chrome (03.10. 15:17), nicht Davids Chrome (03.10. 14:33); alarm.mjs findet dort kein WhatsApp, Alarme kommen nur per ntfy",
+     "wer": "Claude (Technik)",
+     "tun": "Reparieren. Grund: WhatsApp-Alarmweg gekapert: AppleScript erreicht das zuletzt gestartete …"
+    },
+    {
+     "prio": 1.5,
+     "block": "ja",
+     "titel": "4 Ja-Fragen warten: ja knopfpreis (bis 04.10. 10:00), ja bonnie3 (bis 04.10. 12:00), ja fusszahlung (bis 04.10. 12:00) und 1 weitere",
+     "wer": "David oder Timo",
+     "tun": "Im Claude-Chat „ja <Nr>“ schreiben, Liste in timo/JA_LISTE.md",
+     "quelle": "timo/JA_LISTE.md"
+    },
+    {
+     "prio": 2,
+     "block": "geld",
+     "titel": "Keine frische Zahl zu Anzeigen und Geld",
+     "text": "Kein Meta-Zugang und kein Shopify-Token. Niemand sieht hier, ob Anzeigen laufen und Geld kommt. Abhilfe: Plan Abschnitt 3, Shopify-Token (Timo, 5 min) und Meta-Zugang (Timo, 10 min). Bis dahin trägt ein Chat gemessene Werte ein: takt/leitstand_bauen.py --eintragen.",
+     "wer": "Timo",
+     "tun": "Einmal den Shopify-Schlüssel (5 min) und den Meta-Zugang (10 min) anlegen, Plan Abschnitt 3"
+    },
+    {
+     "prio": 3,
+     "block": "menschen",
+     "titel": "Timos Handy meldet seit 3 Tagen nichts",
+     "text": "Letzte Meldung 30.09. 13:48. Damit ist Timos Zeit nicht gemessen. Automation am Handy prüfen.",
+     "wer": "Timo",
+     "tun": "Die Kurzbefehl-Automation am Handy wieder einschalten"
+    },
+    {
+     "prio": 4,
+     "block": "aufgaben",
+     "wer": "Timo 20, David 7, Claude 8",
+     "tun": "Die älteste zuerst erledigen oder neu datieren; Liste unten unter Offene Aufgaben",
+     "titel": "25 Aufgaben überfällig",
+     "text": "Älteste: 26.09., Timo, 3 min. Davon nennen Timo 20, David 7, Claude 8."
+    }
+   ]
+  },
+  {
+   "nr": 3,
+   "id": "wer",
+   "frage": "Wer arbeitet woran?",
+   "ampel": "gelb",
+   "kurz": "David: 37 min am Mac. Timo: nicht gemessen. Claude: 18 Runden heute.",
+   "saetze": [],
+   "zeilen": [
+    {
+     "name": "David",
+     "text": "Heute 37 min am Mac gearbeitet, Soll bis jetzt 49 min. Die Mac-Messung schweigt seit 15:40, ihr launchd-Job ist ausgeschaltet. Auf David warten heute 1 Sache (Karte 2).",
+     "ampel": "gelb"
+    },
+    {
+     "name": "Timo",
+     "text": "Wissen wir noch nicht, weil sein Handy seit 30.09. 13:48 nichts meldet und den PC niemand misst. 20 überfällige Aufgaben nennen Timo.",
+     "ampel": "gelb"
+    },
+    {
+     "name": "Claude",
+     "text": "18 Runden heute, alle 5 Minuten eine. Zuletzt: Ja 5 abtest angelegt, Kaching meldet weiter einen laufenden A/B-Test, den niemand angelegt …",
+     "ampel": "gruen"
+    },
+    {
+     "name": "Abteilungs-Chats",
+     "text": "Noch nicht gestartet: es gibt noch kein Meldebuch (timo/betrieb/abteilungen/meldungen.jsonl).",
+     "ampel": "grau"
+    }
+   ]
+  },
+  {
+   "nr": 4,
+   "id": "tempo",
+   "frage": "Wie schnell geht es gerade?",
+   "ampel": "gelb",
+   "kurz": "Letzte Stunde: 11 Runden, 6 davon mit Ergebnis in der Welt.",
+   "saetze": [
+    "Den Gewinn heute wissen wir noch nicht, weil uns der Shopify-Zugang fehlt."
+   ],
+   "zeilen": [
+    {
+     "name": "Gewinn heute",
+     "text": "Wissen wir noch nicht, weil uns der Shopify-Zugang fehlt.",
+     "ampel": "grau"
+    },
+    {
+     "name": "Bestellungen heute",
+     "text": "Wissen wir noch nicht, weil uns der Shopify-Zugang fehlt.",
+     "ampel": "grau"
+    },
+    {
+     "name": "Runden, letzte Stunde",
+     "text": "11 Runden: 6 mit Ergebnis in der Welt, 3 haben einen Menschen erinnert, 2 nur innen gearbeitet.",
+     "ampel": "gelb"
+    },
+    {
+     "name": "Erledigt heute",
+     "text": "0 in OFFEN.md als erledigt eingetragen, 0 Ja-Schritte erledigt.",
+     "ampel": "gelb"
+    },
+    {
+     "name": "Neu gebaut heute",
+     "text": "2 Bilder und Videos für Anzeigen.",
+     "ampel": "gruen"
+    }
+   ]
+  },
+  {
+   "nr": 5,
+   "id": "soll",
+   "frage": "Wie schnell sollte es gehen?",
+   "ampel": "rot",
+   "kurz": "Wir schaffen 0 von 5 Zielen.",
+   "saetze": [
+    "2 verfehlen wir gerade. 3 messen wir noch nicht."
+   ],
+   "zeilen": [
+    {
+     "name": "Gewinn",
+     "text": "Soll 2.174 USD am Tag, damit wir bis Weihnachten 200.000 USD haben. Heute: wissen wir noch nicht.",
+     "ampel": "grau"
+    },
+    {
+     "name": "David",
+     "text": "Soll 10 Stunden am Tag, also bis jetzt 49 min. Ist 37 min am Mac.",
+     "ampel": "rot"
+    },
+    {
+     "name": "Timo",
+     "text": "Soll 10 Stunden am Tag. Ist: wissen wir noch nicht, weil seine Arbeit am PC niemand misst.",
+     "ampel": "grau"
+    },
+    {
+     "name": "Anzeigen",
+     "text": "Soll: laufen ab heute mit 200 USD am Tag. Ist: wissen wir noch nicht, weil uns der Meta-Zugang fehlt.",
+     "ampel": "grau"
+    },
+    {
+     "name": "Runden",
+     "text": "Soll 12 Runden je Stunde, jede mit Ergebnis in der Welt. Ist 11, davon 6 mit Welt.",
+     "ampel": "rot"
+    }
+   ]
+  },
+  {
+   "nr": 6,
+   "id": "geld",
+   "frage": "Wohin geht wann das Geld?",
+   "ampel": "gelb",
+   "kurz": "Das meiste Geld geht an Meta: 200 USD am Tag, sobald die Anzeigen laufen.",
+   "saetze": [
+    "Für jedes verkaufte Bett bekommt Bonnie 18,90 USD.",
+    "Abos kosten rund 303,74 USD im Monat; bei 6 von 6 Abos fehlt uns noch Betrag oder Abbuchungstag."
+   ],
+   "zeilen": [
+    {
+     "name": "ab Anzeigenstart, geplant 03.10. 20:00",
+     "text": "an Meta: 200 USD am Tag",
+     "ampel": "gelb"
+    },
+    {
+     "name": "je verkauftes Bett",
+     "text": "an Bonnie: 18,90 USD, je Bestellung, binnen 12 Stunden nach dem Kauf (K8)",
+     "ampel": "grau"
+    },
+    {
+     "name": "je Bestellung",
+     "text": "an Shopify: 5,83 % vom Preis",
+     "ampel": "grau"
+    },
+    {
+     "name": "bis 17.11.",
+     "text": "an Contabo: Betrag unbekannt, gekündigt, läuft bis 17.11.",
+     "ampel": "grau"
+    },
+    {
+     "name": "ohne Datum",
+     "text": "Shopify-Tarif, Shopify-App (2×), Toolsuite, Claude Pro, Claude Max, Werbekonto BM3 von Anh, Mailforge. Wann abgebucht wird, wissen wir noch nicht, weil keine Rechnung mit Datum in einer Datei steht (Liste unten unter Geld).",
+     "ampel": "gelb"
+    }
+   ]
+  }
+ ],
+ "karten_fehler": null,
  "rot": [
   {
    "prio": 1,
@@ -34,6 +304,8 @@
   {
    "prio": 4,
    "block": "aufgaben",
+   "wer": "Timo 20, David 7, Claude 8",
+   "tun": "die älteste zuerst erledigen oder neu datieren; Liste unten unter Offene Aufgaben",
    "titel": "25 Aufgaben überfällig",
    "text": "Älteste: 26.09., Timo, 3 min. Davon nennen Timo 20, David 7, Claude 8."
   }
@@ -118,7 +390,7 @@
      "ampel": "grau",
      "detail": "32 Bilder, 21 Videos, neu seit Montag, 28.09., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
      "quelle": "Erstellzeit der Dateien in creatives/fertig, 05_creatives/ads, 05_creatives/ki/fertig",
-     "stand": "15:47",
+     "stand": "15:59",
      "ziel": null
     },
     {
@@ -142,9 +414,9 @@
      "name": "David, produktiv am Mac",
      "wert": "37 min",
      "ampel": "gelb",
-     "detail": "Mac-Zeit mit aktiver App, nicht Arbeitszeit. Soll bis jetzt 40 min (10 h, Tag 08:00 bis 22:00, Messung erst seit 14:51). Unproduktive Apps 0 min, Leerlauf 13 min, letzte Probe 15:40.",
+     "detail": "Mac-Zeit mit aktiver App, nicht Arbeitszeit. Soll bis jetzt 49 min (10 h, Tag 08:00 bis 22:00, Messung erst seit 14:51). Unproduktive Apps 0 min, Leerlauf 13 min, letzte Probe 15:40.",
      "quelle": "mac_aktivitaet.jsonl, 50 Proben, mac_tag.py",
-     "stand": "15:47",
+     "stand": "15:59",
      "ziel": "10 h"
     },
     {
@@ -153,7 +425,7 @@
      "ampel": "grau",
      "detail": "Handyzeit, nicht Arbeitszeit. Zählt nur Apps, die das Handy meldet; Arbeit am PC sieht hier niemand.",
      "quelle": "handy.json vom 14:23",
-     "stand": "15:47",
+     "stand": "15:59",
      "ziel": "10 h"
     },
     {
@@ -162,7 +434,7 @@
      "ampel": "gruen",
      "detail": "Regel im Leitstand: ab 30 min gelb, ab 60 min rot.",
      "quelle": "handy.json vom 14:23",
-     "stand": "15:47",
+     "stand": "15:59",
      "ziel": null
     },
     {
@@ -171,7 +443,7 @@
      "ampel": "rot",
      "detail": "Ohne Meldung ist Timos Handyzeit nicht gemessen. Kurzbefehl-Automation am Handy oder launchd de.david.handy prüfen.",
      "quelle": "ereignisse.jsonl, handy.json",
-     "stand": "15:47",
+     "stand": "15:59",
      "ziel": null
     },
     {
@@ -196,7 +468,7 @@
      "ampel": "grau",
      "detail": "1 Zeile im Codeblock (Formatbeispiel) nicht gezählt. Steht dort eine echte Aufgabe, gehört sie aus dem Block heraus.",
      "quelle": "timo/OFFEN.md",
-     "stand": "15:47",
+     "stand": "15:59",
      "ziel": null
     },
     {
@@ -325,7 +597,7 @@
    "zeilen": [
     {
      "name": "Wächter, letzter Lauf",
-     "wert": "15:42",
+     "wert": "15:58",
      "ampel": "gruen",
      "detail": null,
      "quelle": "waechter_zustand.json",
@@ -338,13 +610,13 @@
      "name": "Takt-Schleife",
      "schluessel": "takt",
      "ampel": "gruen",
-     "text": "letzte Runde 15:41 (recherche), rc=0"
+     "text": "letzte Runde 15:56 (chef), rc=0"
     },
     {
      "name": "Perplexity",
      "schluessel": "perplexity",
      "ampel": "gruen",
-     "text": "Gins laeuft; letzter Lauf 15:38 ohne Antwortdatei: Eingabefeld war nicht leer, Deep research nicht eingestellt "
+     "text": "letzter Lauf 15:56 erfolgreich, Gins laeuft"
     },
     {
      "name": "Davids Chrome",
@@ -356,7 +628,7 @@
      "name": "Crosspost",
      "schluessel": "crosspost",
      "ampel": "gruen",
-     "text": "laeuft (pid 61877), Herzschlag vor 10 s, postet"
+     "text": "laeuft (pid 61877), Herzschlag vor 2 s, postet"
     },
     {
      "name": "Speicher",
@@ -368,7 +640,7 @@
      "name": "GitHub-Push",
      "schluessel": "github",
      "ampel": "gruen",
-     "text": "origin/main 6030d38 vor 2 Min"
+     "text": "origin/main 0fd5d85 vor 1 Min"
     },
     {
      "name": "Chrome auf Timos PC",
@@ -393,6 +665,130 @@
      "ampel": "grau",
      "nicht_geprueft": true,
      "text": "nicht geprüft: der Wächter meldet es nicht, Plan 2.1 verlangt eine Ampel"
+    }
+   ]
+  },
+  {
+   "id": "geld_posten",
+   "titel": "Geld: alle Posten",
+   "ampel": "gelb",
+   "zeilen": [
+    {
+     "name": "Werbung bei Meta",
+     "wert": "200 USD am Tag",
+     "ampel": "gelb",
+     "detail": "ab Anzeigenstart, geplant 03.10. 20:00. Wann Meta die Karte belastet, wissen wir noch nicht, weil die Zahlungsschwelle im BM3 noch nicht gelesen ist (K4). Zahlt: Karte im Werbekonto BM3.",
+     "quelle": "timo/betrieb/LEITSTAND_PLAN.md Abschnitt 5 (David 03.10.: 200 USD am Tag bis zum ersten Gewinn); Start K6 in Abschnitt 4",
+     "stand": null,
+     "ziel": null
+    },
+    {
+     "name": "Bett S bei Bonnie",
+     "wert": "18,90 USD je Bett",
+     "ampel": "gelb",
+     "detail": "je Bestellung, binnen 12 Stunden nach dem Kauf (K8). Wie wir Bonnie bezahlen, wissen wir noch nicht, weil sie den Zahlweg noch nicht genannt hat (K1, Antwort bis 04.10. 12:00). Zahlt: David.",
+     "quelle": "timo/launch/LAUNCH.md Zeile 15 (S 18,90 / M 28,30 USD DDP); K8 in launch/coach_2026-10-03/03_KRITISCHER_PFAD_HEUTE.md",
+     "stand": null,
+     "ziel": null
+    },
+    {
+     "name": "Zahlungsgebühr je Bestellung",
+     "wert": "5,83 % je Bestellung",
+     "ampel": "grau",
+     "detail": "wird bei jeder Auszahlung abgezogen. Zahlt: wird abgezogen.",
+     "quelle": "timo/launch/playbook/04_angebot_preis_versand.md Zeile 13 (5,83 %, gemessen am alten Shop AmaVerde)",
+     "stand": null,
+     "ziel": null
+    },
+    {
+     "name": "Shopify-Tarif",
+     "wert": "384 EUR im Jahr",
+     "ampel": "gelb",
+     "detail": "Wann das Jahresabo wieder abbucht, wissen wir noch nicht, weil Settings > Plan noch niemand abgelesen hat. Zahlt: Timo.",
+     "quelle": "timo/betrieb/ERSTGESPRAECH_ANTWORTEN.md 1.8 (Timo 22.09.: Jahresabo 384 EUR)",
+     "stand": null,
+     "ziel": null
+    },
+    {
+     "name": "Shopify-App (Name unbekannt)",
+     "wert": "9 USD im Monat",
+     "ampel": "gelb",
+     "detail": "Welche App und an welchem Tag, wissen wir noch nicht, weil die App-Rechnungen in Shopify noch niemand gelesen hat. Zahlt: Timo.",
+     "quelle": "timo/betrieb/ERSTGESPRAECH_ANTWORTEN.md 1.8 (Timo 22.09.: eine App 9 USD im Monat)",
+     "stand": null,
+     "ziel": null
+    },
+    {
+     "name": "Shopify-App (Name unbekannt)",
+     "wert": "211,10 USD im Jahr",
+     "ampel": "gelb",
+     "detail": "Welche App und an welchem Tag, wissen wir noch nicht, weil die App-Rechnungen in Shopify noch niemand gelesen hat. Kaching, Judge.me, Track123, Rubik und AutoDS: Preise je App ungelesen (Judge.me läuft als Free, 03_produktseite/15_bewertungen.md). Zahlt: Timo.",
+     "quelle": "timo/betrieb/ERSTGESPRAECH_ANTWORTEN.md 1.8 (Timo 22.09.: andere App 211,10 USD im Jahr)",
+     "stand": null,
+     "ziel": null
+    },
+    {
+     "name": "Toolsuite (Werkzeugpaket, auch Perplexity)",
+     "wert": "161,95 USD im Jahr",
+     "ampel": "gelb",
+     "detail": "Abbuchungstag unbekannt, weil keine Rechnung in einer Datei steht. Zahlt: Timo.",
+     "quelle": "timo/betrieb/ERSTGESPRAECH_ANTWORTEN.md 1.8 (Timo 22.09.: 161,95 USD im Jahr)",
+     "stand": null,
+     "ziel": null
+    },
+    {
+     "name": "Claude Pro (Timo)",
+     "wert": "18 EUR im Monat",
+     "ampel": "gelb",
+     "detail": "Steuersatz und Abbuchungstag unbekannt, weil Timo sie nicht genannt hat. Zahlt: Timo.",
+     "quelle": "timo/betrieb/ERSTGESPRAECH_ANTWORTEN.md 1.8 (Timo 22.09.: 1 Monat 18 EUR plus Steuer)",
+     "stand": null,
+     "ziel": null
+    },
+    {
+     "name": "Claude Max (David)",
+     "wert": "180 EUR im Monat",
+     "ampel": "gelb",
+     "detail": "am 02. oder 27. des Monats, nicht sicher. Den Abbuchungstag wissen wir noch nicht, weil am 27.09. 194,29 EUR abgebucht wurden und niemand den Beleg geöffnet hat; ob das dieses Abo war, ist offen. Zahlt: David. Projekt: beide.",
+     "quelle": "Gedächtnis anthropic-zwei-karten-max-abo.md (alle Belege bis 23.08. gelesen: 180 EUR im Monat, Laufzeit 02.08. bis 02.09.); rima/betrieb/ABOS_KUENDIGEN.md (Anthropic Ireland 194,29 EUR am 27.09.)",
+     "stand": null,
+     "ziel": null
+    },
+    {
+     "name": "Werbekonto BM3 von Anh",
+     "wert": "unbekannt",
+     "ampel": "gelb",
+     "detail": "am 02.10. erhalten. Den Preis wissen wir noch nicht, weil er in keiner Datei steht. Zahlt: David.",
+     "quelle": "timo/betrieb/LEITSTAND_PLAN.md Abschnitt 5 (BM3 von Anh, am 02.10. erhalten)",
+     "stand": null,
+     "ziel": null
+    },
+    {
+     "name": "Contabo, 4 Server (Liquidationsradar)",
+     "wert": "unbekannt",
+     "ampel": "gelb",
+     "detail": "gekündigt, läuft bis 17.11. Den Preis wissen wir noch nicht, weil die Contabo-Rechnungen im iCloud-Postfach liegen und dort niemand gelesen hat. Der Kündigungsbeleg steht in keiner Datei. Zahlt: David. Projekt: Liquidationsradar.",
+     "quelle": "Auftrag 03.10.2026 (gekündigt bis 17.11.); rima/betrieb/ABOS_KUENDIGEN.md (4 Server, Preis nicht gelesen)",
+     "stand": null,
+     "ziel": null
+    },
+    {
+     "name": "Mailforge, 10 Postfächer (Liquidationsradar)",
+     "wert": "30 USD im Monat",
+     "ampel": "gelb",
+     "detail": "Ob es schon gekündigt ist, wissen wir noch nicht, weil seit 30.09. kein Beleg in einer Datei steht. Zahlt: David. Projekt: Liquidationsradar.",
+     "quelle": "rima/betrieb/ABOS_KUENDIGEN.md (30 USD im Monat, Schritt: kündigen)",
+     "stand": null,
+     "ziel": null
+    },
+    {
+     "name": "Abos zusammen",
+     "wert": "rund 303,74 USD im Monat",
+     "ampel": "grau",
+     "detail": "Porchnap und gemeinsame Abos mit bekanntem Betrag, EUR zu 1,1463 (timo/ZAHLEN.md Zeile 68, Kurs vom 22.09.2026). Andere Projekte: rund 30,00 USD im Monat, soweit bekannt.",
+     "quelle": "takt/geld.json",
+     "stand": null,
+     "ziel": null
     }
    ]
   }
