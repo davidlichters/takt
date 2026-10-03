@@ -1629,5 +1629,12 @@
 "typ": "recherche",
 "titel": "Fragen beantwortet, zehn neue kommen",
 "satz": "Ich habe fünf Fragen beantwortet und zehn neue sind gerade angekommen zum Beantworten."
+},
+{
+"tag": "2026-10-04",
+"zeit": "01:05",
+"typ": "chef",
+"titel": "Fragen und Rückgabe für Kunden",
+"satz": "Ich habe acht Fragen beantwortet und die Rückgabe-Seite im Laden fertig gemacht."
 }
 ]
