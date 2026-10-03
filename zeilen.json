@@ -1489,5 +1489,12 @@
 "typ": "chef",
 "titel": "Takt fertig, aber keine Zeile",
 "satz": "Ich habe Takt fertig machen lassen, aber keine Zeile ist angekommen."
+},
+{
+"tag": "2026-10-03",
+"zeit": "23:55",
+"typ": "chef",
+"titel": "Schrift im Laden überprüft",
+"satz": "Ich habe geprüft, welche Schrift noch größer oder kleiner sein muss."
 }
 ]
