@@ -1,7 +1,7 @@
 {
  "version": 2,
- "stand": "2026-10-03T21:32:04Z",
- "stand_berlin": "03.10.2026 23:32",
+ "stand": "2026-10-03T21:47:04Z",
+ "stand_berlin": "03.10.2026 23:47",
  "takt_min": 15,
  "quelle": "takt/leitstand_bauen.py auf Davids Mac, ohne Modell",
  "ziele": {
@@ -18,13 +18,13 @@
    "id": "wo",
    "frage": "Was passiert gerade wo?",
    "ampel": "rot",
-   "kurz": "Der Shop antwortet nicht. Die Anzeigen sind aus.",
+   "kurz": "Der Shop ist offen. Die Anzeigen sind aus.",
    "saetze": [],
    "zeilen": [
     {
      "name": "Shop",
-     "text": "Antwortet nicht richtig: HTTP 429.",
-     "ampel": "rot"
+     "text": "Offen. 1 Produkt in 4 Motiven für 69,99 USD, alle bestellbar.",
+     "ampel": "gruen"
     },
     {
      "name": "Anzeigen",
@@ -33,7 +33,7 @@
     },
     {
      "name": "Lieferantin Bonnie",
-     "text": "Bett S kostet 18,90 USD. Ob sie geantwortet hat, sehen wir nicht (WhatsApp liest keiner mit). 3 Aufgaben zu ihr offen, 0 überfällig.",
+     "text": "Bett S kostet 18,90 USD. Ob sie geantwortet hat, sehen wir nicht (WhatsApp liest keiner mit).",
      "ampel": "grau"
     },
     {
@@ -43,7 +43,7 @@
     },
     {
      "name": "Recherche",
-     "text": "Perplexity hat heute 78 Fragen beantwortet, die letzte um 23:21.",
+     "text": "Perplexity hat heute 81 Fragen beantwortet, die letzte um 23:40.",
      "ampel": "gruen"
     },
     {
@@ -53,8 +53,8 @@
     },
     {
      "name": "Chef-Runde",
-     "text": "Um 23:30: Produkttitel live auf 'Porchnap Sleigh Bed' gesetzt (vorher 'Porchnap Sleigh Bed",
-     "ampel": "gruen"
+     "text": "Um 23:45: Takt ohne Ergebniszeile beendet (rc=0), Protokoll in ~/takt/laeufe.",
+     "ampel": "gelb"
     }
    ]
   },
@@ -63,36 +63,12 @@
    "id": "auf",
    "frage": "Was hält uns auf?",
    "ampel": "rot",
-   "kurz": "9 Dinge halten uns auf.",
+   "kurz": "3 Dinge halten uns auf.",
    "saetze": [
     "Bei jedem steht, wer es tun muss. Oben steht das, was am meisten Geld kostet."
    ],
    "zeilen": [],
    "punkte": [
-    {
-     "prio": 0,
-     "block": "eskalation",
-     "quelle": "gedaechtnis/OFFEN.md",
-     "titel": "Timo auf seinem PC Meta-Vorprüfung im BM3 in 5 Minuten, nur lesen, drei Bilder in den Chat …",
-     "wer": "Timo",
-     "tun": null,
-     "bis": "16:15",
-     "vorbei": true,
-     "stufe": 1,
-     "ja": []
-    },
-    {
-     "prio": 0,
-     "block": "eskalation",
-     "quelle": "gedaechtnis/OFFEN.md",
-     "titel": "Timo startet jetzt an seinem PC den BM3-Klickweg ~/timo/launch/coach_2026-10-03/11_BM3_HEUTE_TIMO.md …",
-     "wer": "Timo",
-     "tun": null,
-     "bis": "21:00",
-     "vorbei": true,
-     "stufe": 1,
-     "ja": []
-    },
     {
      "prio": 0,
      "block": "eskalation",
@@ -106,61 +82,12 @@
      "ja": []
     },
     {
-     "prio": 0,
-     "block": "eskalation",
-     "quelle": "gedaechtnis/OFFEN.md",
-     "titel": "kein Verkauf nach GB ohne UK-Umsatzsteuernummer. Ja 16 in ~/timo/JA_LISTE.md.",
-     "wer": "Timo",
-     "tun": "Schaltet in Shopify Admin > Settings > Markets die Märkte Großbritannien, Australien und Kanada aus, nur United States bleibt, 3 …",
-     "bis": "22:10",
-     "vorbei": true,
-     "stufe": 1,
-     "ja": [
-      16
-     ]
-    },
-    {
-     "prio": 0,
-     "block": "eskalation",
-     "quelle": "gedaechtnis/OFFEN.md",
-     "titel": "David schreibt im Claude-Chat vincent weg (Vorschlag) oder vincent senden, 1 Minute. Der Entwurf an …",
-     "wer": "David",
-     "tun": null,
-     "bis": "19:10",
-     "vorbei": true,
-     "stufe": 4,
-     "ja": []
-    },
-    {
-     "prio": 0,
-     "block": "eskalation",
-     "quelle": "gedaechtnis/OFFEN.md",
-     "titel": "die Textänderung Startseite und Produktseite (Ja 9, 0 USD), damit Claude sie als Kopie hochlädt und …",
-     "wer": "Timo",
-     "tun": "Löscht in Shopify Online Store > Themes eine alte Theme-Kopie, die nicht live ist (Limit 20 Themes ist voll), in 30 Minuten …",
-     "bis": "22:15",
-     "vorbei": true,
-     "stufe": 5,
-     "ja": [
-      9,
-      9
-     ]
-    },
-    {
      "prio": 1,
      "block": "anzeigen",
      "titel": "Anzeigen sind aus",
      "text": "Gemessen 18:06, Quelle: Meta ads_get_ad_accounts 18:06: Porch Nap 1984849605541642 ohne Zahlungsart, EUR. Ohne Anzeigen kommt kein Geld.",
      "wer": "Timo",
      "tun": "Kampagne bauen und veröffentlichen (K5, K6)"
-    },
-    {
-     "prio": 1.5,
-     "block": "ja",
-     "titel": "8 Ja-Fragen warten: ja bonnie3 (bis 04.10. 12:00), ja zoomfeld (bis 04.10. 12:00), ja einzelauswahl (bis 04.10. 12:00) und 5 weitere",
-     "wer": "David oder Timo",
-     "tun": "Im Claude-Chat „ja <Nr>“ schreiben, Liste in timo/JA_LISTE.md",
-     "quelle": "timo/JA_LISTE.md"
     },
     {
      "prio": 2,
@@ -176,13 +103,13 @@
    "nr": 3,
    "id": "wer",
    "frage": "Wer arbeitet woran?",
-   "ampel": "gruen",
-   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 139 Runden heute.",
+   "ampel": "gelb",
+   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 145 Runden heute.",
    "saetze": [],
    "zeilen": [
     {
      "name": "David",
-     "text": "Nicht gemessen, weil David die Mac-Messung am 03.10. abgeschaltet hat. Auf David warten heute 1 Sache (Karte 2).",
+     "text": "Nicht gemessen, weil David die Mac-Messung am 03.10. abgeschaltet hat.",
      "ampel": "grau"
     },
     {
@@ -192,8 +119,8 @@
     },
     {
      "name": "Claude",
-     "text": "139 Runden heute, alle 5 Minuten eine. Zuletzt: Produkttitel live auf 'Porchnap Sleigh Bed' gesetzt (vorher 'Porchnap Sleigh Bed",
-     "ampel": "gruen"
+     "text": "145 Runden heute, alle 5 Minuten eine. Zuletzt: Takt ohne Ergebniszeile beendet (rc=0), Protokoll in ~/takt/laeufe.",
+     "ampel": "gelb"
     },
     {
      "name": "Abteilungs-Chats",
@@ -207,10 +134,9 @@
    "id": "tempo",
    "frage": "Wie schnell geht es gerade?",
    "ampel": "gelb",
-   "kurz": "Letzte Stunde: 13 Runden, 4 davon mit fertigem Ergebnis.",
+   "kurz": "Letzte Stunde: 15 Runden, 7 davon mit fertigem Ergebnis.",
    "saetze": [
-    "Den Gewinn heute wissen wir noch nicht, weil uns der Shopify-Zugang fehlt.",
-    "Fertig heißt noch nicht live: 10 Ja-Schritte warten auf euer Ja (Karte 2)."
+    "Den Gewinn heute wissen wir noch nicht, weil uns der Shopify-Zugang fehlt."
    ],
    "zeilen": [
     {
@@ -225,12 +151,12 @@
     },
     {
      "name": "Runden, letzte Stunde",
-     "text": "13 Runden: 4 mit fertigem Ergebnis (Creative, Text oder Klickweg), 7 haben einen Menschen erinnert, 2 nur innen gearbeitet.",
+     "text": "15 Runden: 7 mit fertigem Ergebnis (Creative, Text oder Klickweg), 4 haben einen Menschen erinnert, 4 nur innen gearbeitet.",
      "ampel": "gelb"
     },
     {
      "name": "Erledigt heute",
-     "text": "9 in OFFEN.md als erledigt eingetragen (13 weitere nur als überholt gestrichen), 6 Ja-Schritte erledigt.",
+     "text": "9 in OFFEN.md als erledigt eingetragen (13 weitere nur als überholt gestrichen), 7 Ja-Schritte erledigt.",
      "ampel": "gruen"
     },
     {
@@ -244,10 +170,10 @@
    "nr": 5,
    "id": "soll",
    "frage": "Wie schnell sollte es gehen?",
-   "ampel": "gelb",
-   "kurz": "Wir schaffen 1 von 5 Zielen.",
+   "ampel": "rot",
+   "kurz": "Wir schaffen 0 von 5 Zielen.",
    "saetze": [
-    "1 verfehlen wir gerade. 3 messen wir noch nicht."
+    "2 verfehlen wir gerade. 3 messen wir noch nicht."
    ],
    "zeilen": [
     {
@@ -272,8 +198,8 @@
     },
     {
      "name": "Runden",
-     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 13, davon 2 nur innen.",
-     "ampel": "gruen"
+     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 15, davon 4 nur innen.",
+     "ampel": "rot"
     }
    ]
   },
@@ -411,7 +337,7 @@
      "ampel": "grau",
      "detail": "43 Bilder, 28 Videos, neu seit Montag, 28.09., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
      "quelle": "Erstellzeit der Dateien in creatives/fertig, 05_creatives/ads, 05_creatives/ki/fertig",
-     "stand": "23:32",
+     "stand": "23:47",
      "ziel": null
     },
     {
@@ -467,11 +393,11 @@
    "zeilen": [
     {
      "name": "Offen",
-     "wert": "22",
+     "wert": "14",
      "ampel": "grau",
      "detail": "1 Zeile im Codeblock (Formatbeispiel) nicht gezählt. Steht dort eine echte Aufgabe, gehört sie aus dem Block heraus.",
      "quelle": "timo/OFFEN.md",
-     "stand": "23:32",
+     "stand": "23:47",
      "ziel": null
     },
     {
@@ -485,7 +411,7 @@
     },
     {
      "name": "Heute fällig",
-     "wert": "5",
+     "wert": "2",
      "ampel": "gelb",
      "detail": null,
      "quelle": null,
@@ -494,14 +420,6 @@
     }
    ],
    "liste": [
-    {
-     "datum": "2026-10-03",
-     "datum_kurz": "03.10.",
-     "wer": "Timo, 4 min",
-     "text": "BM3-Vorprüfung K4 nach launch/coach_2026-10-03/K4_BM3_VORPRUEFUNG.md: vier Bilder (neu 18:58: Personen und Partner, Anh …",
-     "tage_ueberfaellig": 0,
-     "ampel": "gelb"
-    },
     {
      "datum": "2026-10-03",
      "datum_kurz": "03.10.",
@@ -519,42 +437,18 @@
      "ampel": "gelb"
     },
     {
-     "datum": "2026-10-03",
-     "datum_kurz": "03.10.",
-     "wer": "Timo und David, je 2 min",
-     "text": "Zugänge freigeben, damit Claude ohne Browser arbeitet, Reihenfolge und Begründung in betrieb/API_PLAN.md …",
-     "tage_ueberfaellig": 0,
-     "ampel": "gelb"
-    },
-    {
-     "datum": "2026-10-03",
-     "datum_kurz": "03.10.",
-     "wer": "Claude nach Ja",
-     "text": "Shopify Inbox Agent einschalten (0 USD), Persona und FAQ aus entwuerfe/2026-09-29_inbox_agent.md, erst wenn die 4 …",
-     "tage_ueberfaellig": 0,
-     "ampel": "gelb"
-    },
-    {
      "datum": "2026-10-04",
      "datum_kurz": "04.10.",
-     "wer": "David und Timo, 3 min",
-     "text": "Bestellweg an Bonnie festlegen, Vorschlag: per WhatsApp von Hand nach launch/kurs_umsetzung/10_lieferant/11_bestell_sop …",
+     "wer": "Timo, 10 min, im BM3 vor dem Anzeigenstart",
+     "text": "ENTSCHIEDEN 03.10. 23:33 Kursrichter AENDERN (~/takt/kursrichter/urteile/2026-10-03_232719.md): erst Pixel/Datensatz …",
      "tage_ueberfaellig": 0,
      "ampel": "grau"
     },
     {
      "datum": "2026-10-04",
      "datum_kurz": "04.10.",
-     "wer": "David",
-     "text": "Folgefragen an Bonnie senden, sobald sie auf die Länderfrage vom 03.10. 15:17 antwortet: Packgewicht, Pflege, DDP für 2 …",
-     "tage_ueberfaellig": 0,
-     "ampel": "grau"
-    },
-    {
-     "datum": "2026-10-04",
-     "datum_kurz": "04.10.",
-     "wer": "Claude",
-     "text": "Folgefragen an Bonnie als Entwurf in launch/nachrichten.md (Bonnie hat am 02.10. 19:25 geantwortet): US-Trackingnummer …",
+     "wer": "Timo, 5 min, vor dem Anzeigenstart",
+     "text": "ENTSCHIEDEN 03.10. 23:33 Kursrichter AENDERN (~/takt/kursrichter/urteile/2026-10-03_232734.md): Shopify Inbox > Agent …",
      "tage_ueberfaellig": 0,
      "ampel": "grau"
     },
@@ -563,14 +457,6 @@
      "datum_kurz": "05.10.",
      "wer": "Claude (Mac)",
      "text": "Daily Mentor Academy (David Fogarty): Neubezug am 02.10.2026 auf Timos PC erledigt, 299 Lektionen von Timos Handy in …",
-     "tage_ueberfaellig": 0,
-     "ampel": "grau"
-    },
-    {
-     "datum": "2026-10-06",
-     "datum_kurz": "06.10.",
-     "wer": "Timo",
-     "text": "Meta-Werbekonten: Timo kümmert sich selbst (03.10.: \"geht nicht sehr einfach, man kann nicht wirklich Einsprüche …",
      "tage_ueberfaellig": 0,
      "ampel": "grau"
     },
@@ -589,9 +475,49 @@
      "text": "Wer ist Inhaber des Shopify-Kontos dyhu8q-n6, auf wen läuft das Auszahlungskonto (Shopify Payments braucht einen …",
      "tage_ueberfaellig": 0,
      "ampel": "grau"
+    },
+    {
+     "datum": "2026-10-10",
+     "datum_kurz": "10.10.",
+     "wer": "Claude, am ersten Anzeigentag",
+     "text": "ENTSCHIEDEN 03.10. 23:33 Kursrichter AENDERN (~/takt/kursrichter/urteile/2026-10-03_232713.md): jetzt nicht bauen; ab …",
+     "tage_ueberfaellig": 0,
+     "ampel": "grau"
+    },
+    {
+     "datum": "2026-10-10",
+     "datum_kurz": "10.10.",
+     "wer": "Claude, nach der ersten Bestellung",
+     "text": "YouTube-Wissen weiter: 92 Texte liegen in wissen\\youtube\\text, 10 ausgewertet (23.09.), nächstes ist Nr. 11, dann 10 je …",
+     "tage_ueberfaellig": 0,
+     "ampel": "grau"
+    },
+    {
+     "datum": "2026-10-10",
+     "datum_kurz": "10.10.",
+     "wer": "Timo, 2 min, nach der ersten Bestellung",
+     "text": "claude.exe auf dem PC anmelden (03.10.: claude auth status zeigt loggedIn false). PowerShell auf, claude, /login, im …",
+     "tage_ueberfaellig": 0,
+     "ampel": "grau"
+    },
+    {
+     "datum": "2026-10-10",
+     "datum_kurz": "10.10.",
+     "wer": "Claude, 10 min, nach Timos Login",
+     "text": "Testrunde betrieb\\runde.ps1 -Name Testrunde fahren",
+     "tage_ueberfaellig": 0,
+     "ampel": "grau"
+    },
+    {
+     "datum": "2026-10-10",
+     "datum_kurz": "10.10.",
+     "wer": "Timo, 1 min",
+     "text": "Gewohnheits-Tracker aus dem Startpaket noch gewollt? Bei ja GitHub-Token mit gist-Recht erzeugen …",
+     "tage_ueberfaellig": 0,
+     "ampel": "grau"
     }
    ],
-   "weitere": 10
+   "weitere": 2
   },
   {
    "id": "werkzeuge",
@@ -600,7 +526,7 @@
    "zeilen": [
     {
      "name": "Wächter, letzter Lauf",
-     "wert": "23:27",
+     "wert": "23:43",
      "ampel": "gruen",
      "detail": null,
      "quelle": "waechter_zustand.json",
@@ -613,13 +539,13 @@
      "name": "Takt-Schleife",
      "schluessel": "takt",
      "ampel": "gruen",
-     "text": "letzte Runde 23:25 (chef), rc=0"
+     "text": "letzte Runde 23:42 (chef), rc=0"
     },
     {
      "name": "Perplexity",
      "schluessel": "perplexity",
      "ampel": "gruen",
-     "text": "letzter Lauf 23:12 erfolgreich, Gins laeuft"
+     "text": "letzter Lauf 23:38 erfolgreich, Gins laeuft"
     },
     {
      "name": "Davids Chrome",
@@ -631,19 +557,19 @@
      "name": "Crosspost",
      "schluessel": "crosspost",
      "ampel": "gruen",
-     "text": "laeuft (pid 61877), Herzschlag vor 8 s, postet, letzter Fehler: 2026-10-03T19:33:07.697Z keine Videos in der Antwort: {\"log_"
+     "text": "laeuft (pid 61877), Herzschlag vor 0 s, postet, letzter Fehler: 2026-10-03T21:37:30.732Z keine Videos in der Antwort: {\"extr"
     },
     {
      "name": "Speicher",
      "schluessel": "speicher",
      "ampel": "gruen",
-     "text": "141 GB frei"
+     "text": "140 GB frei"
     },
     {
      "name": "GitHub-Push",
      "schluessel": "github",
      "ampel": "gruen",
-     "text": "origin/main 774a486 vor 2 Min"
+     "text": "origin/main 5283385 vor 0 Min"
     },
     {
      "name": "WhatsApp Web",
@@ -667,7 +593,7 @@
      "name": "Ereignis-Sensor",
      "schluessel": "ereignisse",
      "ampel": "gruen",
-     "text": "letzter Lauf 23:27, 0 offene Ereignisse"
+     "text": "letzter Lauf 23:43, 0 offene Ereignisse"
     },
     {
      "name": "Chrome auf Timos PC",
