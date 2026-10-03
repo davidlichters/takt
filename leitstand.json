@@ -1,7 +1,7 @@
 {
  "version": 1,
- "stand": "2026-10-03T13:32:05Z",
- "stand_berlin": "03.10.2026 15:32",
+ "stand": "2026-10-03T13:47:05Z",
+ "stand_berlin": "03.10.2026 15:47",
  "takt_min": 15,
  "quelle": "takt/leitstand_bauen.py auf Davids Mac, ohne Modell",
  "ziele": {
@@ -118,7 +118,7 @@
      "ampel": "grau",
      "detail": "32 Bilder, 21 Videos, neu seit Montag, 28.09., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
      "quelle": "Erstellzeit der Dateien in creatives/fertig, 05_creatives/ads, 05_creatives/ki/fertig",
-     "stand": "15:32",
+     "stand": "15:47",
      "ziel": null
     },
     {
@@ -140,11 +140,11 @@
    "zeilen": [
     {
      "name": "David, produktiv am Mac",
-     "wert": "32 min",
-     "ampel": "gruen",
-     "detail": "Mac-Zeit mit aktiver App, nicht Arbeitszeit. Soll bis jetzt 29 min (10 h, Tag 08:00 bis 22:00, Messung erst seit 14:51). Unproduktive Apps 0 min, Leerlauf 9 min, letzte Probe 15:31.",
-     "quelle": "mac_aktivitaet.jsonl, 41 Proben, mac_tag.py",
-     "stand": "15:32",
+     "wert": "37 min",
+     "ampel": "gelb",
+     "detail": "Mac-Zeit mit aktiver App, nicht Arbeitszeit. Soll bis jetzt 40 min (10 h, Tag 08:00 bis 22:00, Messung erst seit 14:51). Unproduktive Apps 0 min, Leerlauf 13 min, letzte Probe 15:40.",
+     "quelle": "mac_aktivitaet.jsonl, 50 Proben, mac_tag.py",
+     "stand": "15:47",
      "ziel": "10 h"
     },
     {
@@ -153,7 +153,7 @@
      "ampel": "grau",
      "detail": "Handyzeit, nicht Arbeitszeit. Zählt nur Apps, die das Handy meldet; Arbeit am PC sieht hier niemand.",
      "quelle": "handy.json vom 14:23",
-     "stand": "15:32",
+     "stand": "15:47",
      "ziel": "10 h"
     },
     {
@@ -162,7 +162,7 @@
      "ampel": "gruen",
      "detail": "Regel im Leitstand: ab 30 min gelb, ab 60 min rot.",
      "quelle": "handy.json vom 14:23",
-     "stand": "15:32",
+     "stand": "15:47",
      "ziel": null
     },
     {
@@ -171,7 +171,7 @@
      "ampel": "rot",
      "detail": "Ohne Meldung ist Timos Handyzeit nicht gemessen. Kurzbefehl-Automation am Handy oder launchd de.david.handy prüfen.",
      "quelle": "ereignisse.jsonl, handy.json",
-     "stand": "15:32",
+     "stand": "15:47",
      "ziel": null
     },
     {
@@ -196,7 +196,7 @@
      "ampel": "grau",
      "detail": "1 Zeile im Codeblock (Formatbeispiel) nicht gezählt. Steht dort eine echte Aufgabe, gehört sie aus dem Block heraus.",
      "quelle": "timo/OFFEN.md",
-     "stand": "15:32",
+     "stand": "15:47",
      "ziel": null
     },
     {
@@ -325,7 +325,7 @@
    "zeilen": [
     {
      "name": "Wächter, letzter Lauf",
-     "wert": "15:27",
+     "wert": "15:42",
      "ampel": "gruen",
      "detail": null,
      "quelle": "waechter_zustand.json",
@@ -338,13 +338,13 @@
      "name": "Takt-Schleife",
      "schluessel": "takt",
      "ampel": "gruen",
-     "text": "letzte Runde 15:26 (chef), rc=0"
+     "text": "letzte Runde 15:41 (recherche), rc=0"
     },
     {
      "name": "Perplexity",
      "schluessel": "perplexity",
      "ampel": "gruen",
-     "text": "Gins laeuft; letzter Lauf 15:08 ohne Antwortdatei: Eingabefeld war nicht leer, Deep research nicht eingestellt "
+     "text": "Gins laeuft; letzter Lauf 15:38 ohne Antwortdatei: Eingabefeld war nicht leer, Deep research nicht eingestellt "
     },
     {
      "name": "Davids Chrome",
@@ -356,7 +356,7 @@
      "name": "Crosspost",
      "schluessel": "crosspost",
      "ampel": "gruen",
-     "text": "laeuft (pid 61877), Herzschlag vor 11 s, postet"
+     "text": "laeuft (pid 61877), Herzschlag vor 10 s, postet"
     },
     {
      "name": "Speicher",
@@ -368,7 +368,7 @@
      "name": "GitHub-Push",
      "schluessel": "github",
      "ampel": "gruen",
-     "text": "origin/main 9126d4a vor 1 Min"
+     "text": "origin/main 6030d38 vor 2 Min"
     },
     {
      "name": "Chrome auf Timos PC",
