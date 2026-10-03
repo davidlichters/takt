@@ -1,7 +1,7 @@
 {
  "version": 2,
- "stand": "2026-10-03T19:02:05Z",
- "stand_berlin": "03.10.2026 21:02",
+ "stand": "2026-10-03T19:17:05Z",
+ "stand_berlin": "03.10.2026 21:17",
  "takt_min": 15,
  "quelle": "takt/leitstand_bauen.py auf Davids Mac, ohne Modell",
  "ziele": {
@@ -43,7 +43,7 @@
     },
     {
      "name": "Recherche",
-     "text": "Perplexity hat heute 69 Fragen beantwortet, die letzte um 20:37.",
+     "text": "Perplexity hat heute 70 Fragen beantwortet, die letzte um 21:08.",
      "ampel": "gruen"
     },
     {
@@ -53,8 +53,8 @@
     },
     {
      "name": "Chef-Runde",
-     "text": "Um 21:00: 4 Lieferanten- und Bewertungsantworten gelesen, keine ändert eine Zeile (Ja 3 fragt App, ERP und Zahlweg …",
-     "ampel": "gelb"
+     "text": "Um 21:03: Takt ohne Ergebniszeile beendet (rc=1), Protokoll in ~/takt/laeufe.",
+     "ampel": "rot"
     }
    ]
   },
@@ -159,8 +159,8 @@
    "nr": 3,
    "id": "wer",
    "frage": "Wer arbeitet woran?",
-   "ampel": "gelb",
-   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 108 Runden heute.",
+   "ampel": "rot",
+   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 109 Runden heute.",
    "saetze": [],
    "zeilen": [
     {
@@ -175,8 +175,8 @@
     },
     {
      "name": "Claude",
-     "text": "108 Runden heute, alle 5 Minuten eine. Zuletzt: 4 Lieferanten- und Bewertungsantworten gelesen, keine ändert eine Zeile (Ja 3 fragt App, ERP …",
-     "ampel": "gelb"
+     "text": "109 Runden heute, alle 5 Minuten eine. Zuletzt: Takt ohne Ergebniszeile beendet (rc=1), Protokoll in ~/takt/laeufe.",
+     "ampel": "rot"
     },
     {
      "name": "Abteilungs-Chats",
@@ -190,7 +190,7 @@
    "id": "tempo",
    "frage": "Wie schnell geht es gerade?",
    "ampel": "gelb",
-   "kurz": "Letzte Stunde: 18 Runden, 12 davon mit fertigem Ergebnis.",
+   "kurz": "Letzte Stunde: 12 Runden, 7 davon mit fertigem Ergebnis.",
    "saetze": [
     "Den Gewinn heute wissen wir noch nicht, weil uns der Shopify-Zugang fehlt.",
     "Fertig heißt noch nicht live: 11 Ja-Schritte warten auf euer Ja (Karte 2)."
@@ -208,7 +208,7 @@
     },
     {
      "name": "Runden, letzte Stunde",
-     "text": "18 Runden: 12 mit fertigem Ergebnis (Creative, Text oder Klickweg), 2 haben einen Menschen erinnert, 4 nur innen gearbeitet.",
+     "text": "12 Runden: 7 mit fertigem Ergebnis (Creative, Text oder Klickweg), 1 hat einen Menschen erinnert, 3 nur innen gearbeitet, 1 ist abgestürzt.",
      "ampel": "gelb"
     },
     {
@@ -227,10 +227,10 @@
    "nr": 5,
    "id": "soll",
    "frage": "Wie schnell sollte es gehen?",
-   "ampel": "gelb",
-   "kurz": "Wir schaffen 1 von 5 Zielen.",
+   "ampel": "rot",
+   "kurz": "Wir schaffen 0 von 5 Zielen.",
    "saetze": [
-    "1 verfehlen wir gerade. 3 messen wir noch nicht."
+    "2 verfehlen wir gerade. 3 messen wir noch nicht."
    ],
    "zeilen": [
     {
@@ -255,8 +255,8 @@
     },
     {
      "name": "Runden",
-     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 18, davon 4 nur innen.",
-     "ampel": "gruen"
+     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 12, davon 4 nur innen oder abgestürzt.",
+     "ampel": "rot"
     }
    ]
   },
@@ -394,7 +394,7 @@
      "ampel": "grau",
      "detail": "42 Bilder, 28 Videos, neu seit Montag, 28.09., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
      "quelle": "Erstellzeit der Dateien in creatives/fertig, 05_creatives/ads, 05_creatives/ki/fertig",
-     "stand": "21:02",
+     "stand": "21:17",
      "ziel": null
     },
     {
@@ -454,7 +454,7 @@
      "ampel": "grau",
      "detail": "1 Zeile im Codeblock (Formatbeispiel) nicht gezählt. Steht dort eine echte Aufgabe, gehört sie aus dem Block heraus.",
      "quelle": "timo/OFFEN.md",
-     "stand": "21:02",
+     "stand": "21:17",
      "ziel": null
     },
     {
@@ -583,7 +583,7 @@
    "zeilen": [
     {
      "name": "Wächter, letzter Lauf",
-     "wert": "20:57",
+     "wert": "21:12",
      "ampel": "gruen",
      "detail": null,
      "quelle": "waechter_zustand.json",
@@ -596,13 +596,13 @@
      "name": "Takt-Schleife",
      "schluessel": "takt",
      "ampel": "gruen",
-     "text": "letzte Runde 20:51 (chef), rc=0, Runde laeuft seit 2 Min"
+     "text": "letzte Runde 21:04 (chef), rc=1, 1 Fehlrunde in Folge"
     },
     {
      "name": "Perplexity",
      "schluessel": "perplexity",
      "ampel": "gruen",
-     "text": "Gins laeuft; letzter Lauf 20:37 ohne Antwortdatei: nach 12 Minuten nicht fertig"
+     "text": "letzter Lauf 21:02 erfolgreich, Gins laeuft"
     },
     {
      "name": "Davids Chrome",
@@ -614,19 +614,19 @@
      "name": "Crosspost",
      "schluessel": "crosspost",
      "ampel": "gruen",
-     "text": "laeuft (pid 61877), Herzschlag vor 0 s, postet, letzter Fehler: 2026-10-03T16:33:03.077Z The operation was aborted due to ti"
+     "text": "laeuft (pid 61877), Herzschlag vor 7 s, postet, letzter Fehler: 2026-10-03T19:08:01.000Z keine Videos in der Antwort: {\"log_"
     },
     {
      "name": "Speicher",
      "schluessel": "speicher",
      "ampel": "gruen",
-     "text": "144 GB frei"
+     "text": "143 GB frei"
     },
     {
      "name": "GitHub-Push",
      "schluessel": "github",
      "ampel": "gruen",
-     "text": "origin/main 59b0d5b vor 1 Min"
+     "text": "origin/main 71da641 vor 9 Min"
     },
     {
      "name": "WhatsApp Web",
@@ -650,7 +650,7 @@
      "name": "Ereignis-Sensor",
      "schluessel": "ereignisse",
      "ampel": "gruen",
-     "text": "letzter Lauf 20:57, 0 offene Ereignisse"
+     "text": "letzter Lauf 21:12, 1 offene Ereignisse, aeltestes 21:03"
     },
     {
      "name": "Chrome auf Timos PC",
