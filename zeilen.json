@@ -817,5 +817,12 @@
 "typ": "chef",
 "titel": "Bild für den Laden fertig",
 "satz": "Ich habe das Bild klein gemacht, damit Kunden es schnell auf ihren Handys sehen."
+},
+{
+"tag": "2026-10-03",
+"zeit": "18:00",
+"typ": "recherche",
+"titel": "Hundebett-Seite zeigt nicht wie groß",
+"satz": "Ich habe geprüft, die Seite zeigt nicht wie groß, Kunden brauchen das."
 }
 ]
