@@ -1,0 +1,334 @@
+{
+ "version": 1,
+ "stand": "2026-10-03T13:00:38Z",
+ "stand_berlin": "03.10.2026 15:00",
+ "takt_min": 15,
+ "quelle": "takt/leitstand_bauen.py auf Davids Mac, ohne Modell",
+ "ziele": {
+  "gewinn_gesamt_usd": 200000,
+  "gewinn_tag_usd": 2174,
+  "break_even_cpa_usd": 47.01,
+  "stunden_je_person": 10,
+  "tag": 3,
+  "tage_gesamt": 92
+ },
+ "rot": [
+  {
+   "prio": 2,
+   "block": "geld",
+   "titel": "Keine frische Zahl zu Anzeigen und Geld",
+   "text": "Kein Meta-Zugang und kein Shopify-Token. Niemand sieht hier, ob Anzeigen laufen und Geld kommt. Abhilfe: Plan Abschnitt 3, Shopify-Token (Timo, 5 min) und Meta-Zugang (Timo, 10 min). Bis dahin trägt ein Chat gemessene Werte ein: takt/leitstand_bauen.py --eintragen."
+  },
+  {
+   "prio": 3,
+   "block": "menschen",
+   "titel": "Timos Handy meldet seit 3 Tagen nichts",
+   "text": "Letzte Meldung 30.09. 13:48. Damit ist Timos Zeit nicht gemessen. Automation am Handy prüfen."
+  },
+  {
+   "prio": 4,
+   "block": "aufgaben",
+   "titel": "26 Aufgaben überfällig",
+   "text": "Älteste: 25.09., Claude nach Ja (Timo 1 min Ja im PC-Chat). Davon nennen Timo 21, David 7, Claude 9."
+  }
+ ],
+ "bloecke": [
+  {
+   "id": "anzeigen",
+   "titel": "Anzeigen",
+   "ampel": "grau",
+   "zeilen": [
+    {
+     "name": "Anzeigen aktiv",
+     "wert": "unbekannt",
+     "ampel": "grau",
+     "detail": "kein Meta-Zugang",
+     "quelle": null,
+     "stand": null,
+     "ziel": null
+    },
+    {
+     "name": "Ausgaben heute",
+     "wert": "unbekannt",
+     "ampel": "grau",
+     "detail": "kein Meta-Zugang",
+     "quelle": null,
+     "stand": null,
+     "ziel": null
+    },
+    {
+     "name": "Kosten je Kauf",
+     "wert": "unbekannt",
+     "ampel": "grau",
+     "detail": "kein Meta-Zugang",
+     "quelle": null,
+     "stand": null,
+     "ziel": "unter 47,01 USD (Break-even)"
+    }
+   ]
+  },
+  {
+   "id": "geld",
+   "titel": "Geld",
+   "ampel": "grau",
+   "zeilen": [
+    {
+     "name": "Bestellungen heute",
+     "wert": "unbekannt",
+     "ampel": "grau",
+     "detail": "kein Shopify-Token",
+     "quelle": null,
+     "stand": null,
+     "ziel": null
+    },
+    {
+     "name": "Gewinn heute",
+     "wert": "unbekannt",
+     "ampel": "grau",
+     "detail": "kein Shopify-Token",
+     "quelle": null,
+     "stand": null,
+     "ziel": "2.174 USD"
+    },
+    {
+     "name": "Gewinn seit 01.10.",
+     "wert": "unbekannt",
+     "ampel": "grau",
+     "detail": "kein Shopify-Token",
+     "quelle": null,
+     "stand": null,
+     "ziel": "200.000 USD bis 31.12., Soll bis gestern 4.348 USD (2 Tage)"
+    }
+   ]
+  },
+  {
+   "id": "creatives",
+   "titel": "Creatives",
+   "ampel": "grau",
+   "zeilen": [
+    {
+     "name": "Gebaut diese Woche",
+     "wert": "51 Dateien",
+     "ampel": "grau",
+     "detail": "30 Bilder, 21 Videos, neu seit Montag, 28.09., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
+     "quelle": "Erstellzeit der Dateien in creatives/fertig, 05_creatives/ads, 05_creatives/ki/fertig",
+     "stand": "15:00",
+     "ziel": null
+    },
+    {
+     "name": "Neue Anzeigen live diese Woche",
+     "wert": "unbekannt",
+     "ampel": "grau",
+     "detail": "kein Meta-Zugang",
+     "quelle": null,
+     "stand": null,
+     "ziel": "3 bis 5 je Woche"
+    }
+   ],
+   "zahl_gebaut": 51
+  },
+  {
+   "id": "menschen",
+   "titel": "Menschen",
+   "ampel": "rot",
+   "zeilen": [
+    {
+     "name": "David, produktiv am Mac",
+     "wert": "9 min",
+     "ampel": "gruen",
+     "detail": "Mac-Zeit mit aktiver App, nicht Arbeitszeit. Soll bis jetzt 7 min (10 h, Tag 09:00 bis 22:00, Messung erst seit 14:51). Unproduktive Apps 0 min, Leerlauf 0 min, letzte Probe 14:59.",
+     "quelle": "mac_aktivitaet.jsonl, 9 Proben, mac_tag.py",
+     "stand": "15:00",
+     "ziel": "10 h"
+    },
+    {
+     "name": "Timo, Handy ohne Zeitfresser",
+     "wert": "0 min",
+     "ampel": "grau",
+     "detail": "Handyzeit, nicht Arbeitszeit. Zählt nur Apps, die das Handy meldet; Arbeit am PC sieht hier niemand.",
+     "quelle": "handy.json vom 14:23",
+     "stand": "15:00",
+     "ziel": "10 h"
+    },
+    {
+     "name": "Timo, TikTok, Instagram, YouTube",
+     "wert": "0 min",
+     "ampel": "gruen",
+     "detail": "Regel im Leitstand: ab 30 min gelb, ab 60 min rot.",
+     "quelle": "handy.json vom 14:23",
+     "stand": "15:00",
+     "ziel": null
+    },
+    {
+     "name": "Timos Handy, letzte Meldung",
+     "wert": "30.09. 13:48",
+     "ampel": "rot",
+     "detail": "Ohne Meldung ist Timos Handyzeit nicht gemessen. Kurzbefehl-Automation am Handy oder launchd de.david.handy prüfen.",
+     "quelle": "ereignisse.jsonl, handy.json",
+     "stand": "15:00",
+     "ziel": null
+    },
+    {
+     "name": "Nächster Check-in",
+     "wert": "18:00 heute",
+     "ampel": "grau",
+     "detail": "Vorschlag aus Plan 2.4 (09:00, 13:00, 18:00, 22:00), Festlegung in Plan 5 offen.",
+     "quelle": "LEITSTAND_PLAN.md 2.4",
+     "stand": null,
+     "ziel": null
+    }
+   ]
+  },
+  {
+   "id": "aufgaben",
+   "titel": "Offene Aufgaben",
+   "ampel": "rot",
+   "zeilen": [
+    {
+     "name": "Offen",
+     "wert": "33",
+     "ampel": "grau",
+     "detail": null,
+     "quelle": "timo/OFFEN.md",
+     "stand": "15:00",
+     "ziel": null
+    },
+    {
+     "name": "Überfällig",
+     "wert": "26",
+     "ampel": "rot",
+     "detail": "davon nennen Timo 21, David 7, Claude 9",
+     "quelle": null,
+     "stand": null,
+     "ziel": null
+    },
+    {
+     "name": "Heute fällig",
+     "wert": "4",
+     "ampel": "gelb",
+     "detail": null,
+     "quelle": null,
+     "stand": null,
+     "ziel": null
+    }
+   ],
+   "liste": [
+    {
+     "datum": "2026-09-25",
+     "datum_kurz": "25.09.",
+     "wer": "Claude nach Ja (Timo 1 min Ja im PC-Chat)",
+     "text": "Anzeige \"Winter 04\" im Werbemanager pausieren",
+     "tage_ueberfaellig": 8,
+     "ampel": "rot"
+    },
+    {
+     "datum": "2026-09-26",
+     "datum_kurz": "26.09.",
+     "wer": "Timo, 3 min",
+     "text": "Dateien vom Zweitlaptop, die David per WhatsApp geschickt hat, in WhatsApp selbst speichern nach …",
+     "tage_ueberfaellig": 7,
+     "ampel": "rot"
+    },
+    {
+     "datum": "2026-09-26",
+     "datum_kurz": "26.09.",
+     "wer": "Claude, 20 min",
+     "text": "Erste 5 Beispiel-Werbevideos (TikTok und Meta-Bibliothek) mit ffmpeg in Einzelbilder zerlegen, jeden Schnitt und alle …",
+     "tage_ueberfaellig": 7,
+     "ampel": "rot"
+    },
+    {
+     "datum": "2026-09-27",
+     "datum_kurz": "27.09.",
+     "wer": "Timo und Claude",
+     "text": "Wochenziel, Timo wörtlich \"1-2k umsatz\": mindestens 1.000 USD Umsatz von Mi 23.09. bis So 27.09.2026, Wunsch 2.000 USD …",
+     "tage_ueberfaellig": 6,
+     "ampel": "rot"
+    },
+    {
+     "datum": "2026-09-29",
+     "datum_kurz": "29.09.",
+     "wer": "Timo, 3 min",
+     "text": "Meta Schritt 7 Rest: in Shopify > App \"Facebook & Instagram\" > Einstellungen prüfen, dass das Werbekonto …",
+     "tage_ueberfaellig": 4,
+     "ampel": "rot"
+    },
+    {
+     "datum": "2026-09-29",
+     "datum_kurz": "29.09.",
+     "wer": "Timo, 5 min",
+     "text": "GitHub-Token mit gist-Recht erzeugen, github.com/settings/tokens, classic, No expiration, Haken nur bei gist. Wird erst …",
+     "tage_ueberfaellig": 4,
+     "ampel": "rot"
+    },
+    {
+     "datum": "2026-09-29",
+     "datum_kurz": "29.09.",
+     "wer": "Claude nach Ja (Timo 1 min Ja im PC-Chat)",
+     "text": "Datenschutzerklärung einfügen: Shopify > Einstellungen > Richtlinien > Datenschutzerklärung, HTML aus …",
+     "tage_ueberfaellig": 4,
+     "ampel": "rot"
+    },
+    {
+     "datum": "2026-09-30",
+     "datum_kurz": "30.09.",
+     "wer": "Timo oder David, vor Launch",
+     "text": "Impressum füllen: Anbieter (voller Name des echten Verkäufers), Niederlassungsanschrift, USt-IdNr. oder \"keine\", in …",
+     "tage_ueberfaellig": 3,
+     "ampel": "rot"
+    },
+    {
+     "datum": "2026-09-30",
+     "datum_kurz": "30.09.",
+     "wer": "Timo, 3 min, vor Launch",
+     "text": "Meta vor dem Import: (1) Pixel 7.12 in launch/meta_verbinden.md: Events Manager > Pixel 2238698946672438 > Overview …",
+     "tage_ueberfaellig": 3,
+     "ampel": "rot"
+    },
+    {
+     "datum": "2026-09-30",
+     "datum_kurz": "30.09.",
+     "wer": "Timo, 1 min",
+     "text": "Zwei Abkürzungen für den Shop-Umbau, die eine Regel brechen, nur mit deinem Ja: W6 David bekommt ein Mitarbeiterkonto …",
+     "tage_ueberfaellig": 3,
+     "ampel": "rot"
+    },
+    {
+     "datum": "2026-09-30",
+     "datum_kurz": "30.09.",
+     "wer": "Timo, 1 min",
+     "text": "Rückgabe: ja 0a zur Empfehlung A (Erstattung ohne Rücksendung, Claude hat entschieden, Takt 18:47: A trägt bis 20 % …",
+     "tage_ueberfaellig": 3,
+     "ampel": "rot"
+    },
+    {
+     "datum": "2026-09-30",
+     "datum_kurz": "30.09.",
+     "wer": "Timo, 10 min",
+     "text": "Klickliste für den Launch 01.10. lesen: launch/MORGEN.md (alle Schritte mit Datei:Zeile, Timo 48 Min seit Claude nach …",
+     "tage_ueberfaellig": 3,
+     "ampel": "rot"
+    }
+   ],
+   "weitere": 21
+  },
+  {
+   "id": "werkzeuge",
+   "titel": "Werkzeuge",
+   "ampel": "grau",
+   "zeilen": [
+    {
+     "name": "Wächter",
+     "wert": "unbekannt",
+     "ampel": "grau",
+     "detail": "waechter_zustand.json fehlt (Bauteil 2.2 noch nicht aktiv)",
+     "quelle": null,
+     "stand": null,
+     "ziel": null
+    }
+   ],
+   "liste": []
+  }
+ ],
+ "hinweise": []
+}
