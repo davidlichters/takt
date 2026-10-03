@@ -803,5 +803,12 @@
 "typ": "chef",
 "titel": "Fehler beim Kaufkasten repariert",
 "satz": "Ich habe den Kaufkasten repariert, damit Kunden die richtigen Preise bekommen."
+},
+{
+"tag": "2026-10-03",
+"zeit": "17:50",
+"typ": "chef",
+"titel": "Namen eingefügt, aber Fehler gefunden",
+"satz": "Ich habe die Namen eingefügt, aber beim Katzenbett zeigt sich noch ein falscher Strich."
 }
 ]
