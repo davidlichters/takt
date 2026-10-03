@@ -1,7 +1,7 @@
 {
  "version": 2,
- "stand": "2026-10-03T17:32:06Z",
- "stand_berlin": "03.10.2026 19:32",
+ "stand": "2026-10-03T17:34:10Z",
+ "stand_berlin": "03.10.2026 19:34",
  "takt_min": 15,
  "quelle": "takt/leitstand_bauen.py auf Davids Mac, ohne Modell",
  "ziele": {
@@ -43,7 +43,7 @@
     },
     {
      "name": "Recherche",
-     "text": "Perplexity hat heute 42 Fragen beantwortet, die letzte um 19:29.",
+     "text": "Perplexity hat heute 43 Fragen beantwortet, die letzte um 19:32.",
      "ampel": "gruen"
     },
     {
@@ -53,7 +53,7 @@
     },
     {
      "name": "Chef-Runde",
-     "text": "Um 19:23: Bonnie-Nachricht (Ja 3) sendefertig mit 8 statt 6 Fragen, neu Paketpreis für 2 oder 3 Betten und DDP-Preis …",
+     "text": "Um 19:30: 24 Startbilder (12 mal 4:5, 12 mal 9:16) liegen jetzt auf GitHub, Timos PC holt sie per git pull für die …",
      "ampel": "gruen"
     }
    ]
@@ -136,7 +136,7 @@
    "id": "wer",
    "frage": "Wer arbeitet woran?",
    "ampel": "gruen",
-   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 77 Runden heute.",
+   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 78 Runden heute.",
    "saetze": [],
    "zeilen": [
     {
@@ -151,7 +151,7 @@
     },
     {
      "name": "Claude",
-     "text": "77 Runden heute, alle 5 Minuten eine. Zuletzt: Bonnie-Nachricht (Ja 3) sendefertig mit 8 statt 6 Fragen, neu Paketpreis für 2 oder 3 Betten …",
+     "text": "78 Runden heute, alle 5 Minuten eine. Zuletzt: 24 Startbilder (12 mal 4:5, 12 mal 9:16) liegen jetzt auf GitHub, Timos PC holt sie per git …",
      "ampel": "gruen"
     },
     {
@@ -166,7 +166,7 @@
    "id": "tempo",
    "frage": "Wie schnell geht es gerade?",
    "ampel": "gelb",
-   "kurz": "Letzte Stunde: 19 Runden, 12 davon mit fertigem Ergebnis.",
+   "kurz": "Letzte Stunde: 20 Runden, 13 davon mit fertigem Ergebnis.",
    "saetze": [
     "Den Gewinn heute wissen wir noch nicht, weil uns der Shopify-Zugang fehlt.",
     "Fertig heißt noch nicht live: 8 Ja-Schritte warten auf euer Ja (Karte 2)."
@@ -184,7 +184,7 @@
     },
     {
      "name": "Runden, letzte Stunde",
-     "text": "19 Runden: 12 mit fertigem Ergebnis (Creative, Text oder Klickweg), 3 haben einen Menschen erinnert, 4 nur innen gearbeitet.",
+     "text": "20 Runden: 13 mit fertigem Ergebnis (Creative, Text oder Klickweg), 3 haben einen Menschen erinnert, 4 nur innen gearbeitet.",
      "ampel": "gelb"
     },
     {
@@ -231,7 +231,7 @@
     },
     {
      "name": "Runden",
-     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 19, davon 4 nur innen.",
+     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 20, davon 4 nur innen.",
      "ampel": "gruen"
     }
    ]
@@ -241,15 +241,15 @@
    "id": "geld",
    "frage": "Wohin geht wann das Geld?",
    "ampel": "gelb",
-   "kurz": "Das meiste Geld geht an Meta: 200 USD am Tag, sobald die Anzeigen laufen.",
+   "kurz": "Das meiste Geld geht an Meta: 20 USD am Tag, sobald die Anzeigen laufen.",
    "saetze": [
     "Für jedes verkaufte Bett bekommt Bonnie 18,90 USD.",
     "Abos für Porchnap kosten rund 303,74 USD im Monat; bei 6 von 6 Abos fehlt uns noch Betrag oder Abbuchungstag. Dazu Liquidationsradar: rund 30,00 USD im Monat, soweit bekannt."
    ],
    "zeilen": [
     {
-     "name": "ab Anzeigenstart, geplant 03.10. 20:00",
-     "text": "an Meta: 200 USD am Tag",
+     "name": "Tag 1 bis 20 USD, Tag 2 bis 30 USD, ab Tag 3 bis zu 3 Kampagnen mit je 50 USD (150 USD am Tag)",
+     "text": "an Meta: 20 USD am Tag",
      "ampel": "gelb"
     },
     {
@@ -370,7 +370,7 @@
      "ampel": "grau",
      "detail": "38 Bilder, 28 Videos, neu seit Montag, 28.09., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
      "quelle": "Erstellzeit der Dateien in creatives/fertig, 05_creatives/ads, 05_creatives/ki/fertig",
-     "stand": "19:32",
+     "stand": "19:34",
      "ziel": null
     },
     {
@@ -430,7 +430,7 @@
      "ampel": "grau",
      "detail": "1 Zeile im Codeblock (Formatbeispiel) nicht gezählt. Steht dort eine echte Aufgabe, gehört sie aus dem Block heraus.",
      "quelle": "timo/OFFEN.md",
-     "stand": "19:32",
+     "stand": "19:34",
      "ziel": null
     },
     {
@@ -559,7 +559,7 @@
    "zeilen": [
     {
      "name": "Wächter, letzter Lauf",
-     "wert": "19:27",
+     "wert": "19:32",
      "ampel": "gruen",
      "detail": null,
      "quelle": "waechter_zustand.json",
@@ -572,13 +572,13 @@
      "name": "Takt-Schleife",
      "schluessel": "takt",
      "ampel": "gruen",
-     "text": "letzte Runde 19:25 (chef), rc=0"
+     "text": "letzte Runde 19:25 (chef), rc=0, Runde laeuft seit 2 Min"
     },
     {
      "name": "Perplexity",
      "schluessel": "perplexity",
      "ampel": "gruen",
-     "text": "Gins laeuft; letzter Lauf 19:21 ohne Antwortdatei: Absenden: Frage steht noch im Feld, kein Thread entstanden ("
+     "text": "letzter Lauf 19:27 erfolgreich, Gins laeuft"
     },
     {
      "name": "Davids Chrome",
@@ -590,25 +590,25 @@
      "name": "Crosspost",
      "schluessel": "crosspost",
      "ampel": "gruen",
-     "text": "laeuft (pid 61877), Herzschlag vor 6 s, postet, letzter Fehler: 2026-10-03T16:33:03.077Z The operation was aborted due to ti"
+     "text": "laeuft (pid 61877), Herzschlag vor 2 s, postet, letzter Fehler: 2026-10-03T16:33:03.077Z The operation was aborted due to ti"
     },
     {
      "name": "Speicher",
      "schluessel": "speicher",
      "ampel": "gruen",
-     "text": "151 GB frei"
+     "text": "149 GB frei"
     },
     {
      "name": "GitHub-Push",
      "schluessel": "github",
      "ampel": "gruen",
-     "text": "origin/main 8c26049 vor 1 Min"
+     "text": "origin/main e0c6623 vor 2 Min"
     },
     {
      "name": "WhatsApp Web",
      "schluessel": "whatsapp",
      "ampel": "gruen",
-     "text": "Chatliste gelesen (apple, 10 Zeilen), 6 von 6 Lieferanten sichtbar"
+     "text": "Chatliste gelesen (apple, 11 Zeilen), 6 von 6 Lieferanten sichtbar"
     },
     {
      "name": "Shopify",
@@ -626,7 +626,7 @@
      "name": "Ereignis-Sensor",
      "schluessel": "ereignisse",
      "ampel": "gruen",
-     "text": "letzter Lauf 19:27, 0 offene Ereignisse"
+     "text": "letzter Lauf 19:32, 1 offene Ereignisse, aeltestes 19:30"
     },
     {
      "name": "Chrome auf Timos PC",
@@ -643,10 +643,10 @@
    "zeilen": [
     {
      "name": "Werbung bei Meta",
-     "wert": "200 USD am Tag",
+     "wert": "20 USD am Tag",
      "ampel": "gelb",
-     "detail": "ab Anzeigenstart, geplant 03.10. 20:00. Wann Meta die Karte belastet, wissen wir noch nicht, weil die Zahlungsschwelle im BM3 noch nicht gelesen ist (K4). Zahlt: Karte im Werbekonto BM3.",
-     "quelle": "timo/betrieb/LEITSTAND_PLAN.md Abschnitt 5 (David 03.10.: 200 USD am Tag bis zum ersten Gewinn); Start K6 in Abschnitt 4",
+     "detail": "Tag 1 bis 20 USD, Tag 2 bis 30 USD, ab Tag 3 bis zu 3 Kampagnen mit je 50 USD (150 USD am Tag). Wann Meta die Karte belastet, wissen wir noch nicht, weil die Zahlungsschwelle im BM3 noch nicht gelesen ist (K4). Zahlt: Karte im Werbekonto BM3.",
+     "quelle": "David 03.10.2026 19:35 \"ja\" zum Kursweg (12_SKALIEREN_LAUT_KURS.md; Ecomwarts 2026 Regeln-Lektion und L080)",
      "stand": null,
      "ziel": null
     },
