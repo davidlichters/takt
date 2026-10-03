@@ -845,5 +845,12 @@
 "typ": "chef",
 "titel": "Seite beim Wischen schneller gemacht",
 "satz": "Ich habe Bilder kleiner gemacht und Text erst beim Wischen gezeigt."
+},
+{
+"tag": "2026-10-03",
+"zeit": "18:20",
+"typ": "verbesserer",
+"titel": "Zeitlimits für Fragen bearbeitet",
+"satz": "Ich habe überprüft, wie lange Fragen dauern, damit wir besser planen können."
 }
 ]
