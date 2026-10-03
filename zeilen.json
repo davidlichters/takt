@@ -1461,5 +1461,12 @@
 "typ": "chef",
 "titel": "Startseite-Titel und Werbung lassen sich nicht ändern",
 "satz": "Ich habe geguckt, ob man Titel und Werbung ändern kann, aber es geht nicht."
+},
+{
+"tag": "2026-10-03",
+"zeit": "23:40",
+"typ": "chef",
+"titel": "Timo muss Startseite im Shop ändern",
+"satz": "Ich habe geprüft, dass nur Timo das ändern kann, damit Kunden das Bett finden."
 }
 ]
