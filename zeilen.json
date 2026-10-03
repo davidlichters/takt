@@ -1097,5 +1097,12 @@
 "typ": "chef",
 "titel": "Bilder im Laden geprüft",
 "satz": "Ich habe geguckt, dass Bilder schnell laden und kein Fehler am Anfang kommt."
+},
+{
+"tag": "2026-10-03",
+"zeit": "20:03",
+"typ": "chef",
+"titel": "Preise für zwei oder drei Betten gezeigt",
+"satz": "Ich habe den Text hinzugefügt, damit der Kunde den Preis sieht."
 }
 ]
