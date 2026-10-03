@@ -1,7 +1,7 @@
 {
  "version": 2,
- "stand": "2026-10-03T20:47:05Z",
- "stand_berlin": "03.10.2026 22:47",
+ "stand": "2026-10-03T21:02:05Z",
+ "stand_berlin": "03.10.2026 23:02",
  "takt_min": 15,
  "quelle": "takt/leitstand_bauen.py auf Davids Mac, ohne Modell",
  "ziele": {
@@ -53,7 +53,7 @@
     },
     {
      "name": "Chef-Runde",
-     "text": "Um 22:45: Bonnie-Zusage (Ja 3) wartet auf David, Bürozeit endet 04.10. 12:00, David 04.10. 07:30 in …",
+     "text": "Um 22:59: Shop-Text ist live auf pet umgestellt, sichtbarer Text auf Startseite und Produktseite ohne das Wort dog (0 …",
      "ampel": "gruen"
     }
    ]
@@ -177,7 +177,7 @@
    "id": "wer",
    "frage": "Wer arbeitet woran?",
    "ampel": "gruen",
-   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 130 Runden heute.",
+   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 133 Runden heute.",
    "saetze": [],
    "zeilen": [
     {
@@ -192,7 +192,7 @@
     },
     {
      "name": "Claude",
-     "text": "130 Runden heute, alle 5 Minuten eine. Zuletzt: Bonnie-Zusage (Ja 3) wartet auf David, Bürozeit endet 04.10. 12:00, David 04.10. 07:30 in …",
+     "text": "133 Runden heute, alle 5 Minuten eine. Zuletzt: Shop-Text ist live auf pet umgestellt, sichtbarer Text auf Startseite und Produktseite ohne …",
      "ampel": "gruen"
     },
     {
@@ -207,7 +207,7 @@
    "id": "tempo",
    "frage": "Wie schnell geht es gerade?",
    "ampel": "gelb",
-   "kurz": "Letzte Stunde: 16 Runden, 0 davon mit fertigem Ergebnis.",
+   "kurz": "Letzte Stunde: 15 Runden, 1 davon mit fertigem Ergebnis.",
    "saetze": [
     "Den Gewinn heute wissen wir noch nicht, weil uns der Shopify-Zugang fehlt.",
     "Fertig heißt noch nicht live: 13 Ja-Schritte warten auf euer Ja (Karte 2)."
@@ -225,7 +225,7 @@
     },
     {
      "name": "Runden, letzte Stunde",
-     "text": "16 Runden: 0 mit fertigem Ergebnis (Creative, Text oder Klickweg), 9 haben einen Menschen erinnert, 7 nur innen gearbeitet.",
+     "text": "15 Runden: 1 mit fertigem Ergebnis (Creative, Text oder Klickweg), 7 haben einen Menschen erinnert, 7 nur innen gearbeitet.",
      "ampel": "gelb"
     },
     {
@@ -272,7 +272,7 @@
     },
     {
      "name": "Runden",
-     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 16, davon 7 nur innen.",
+     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 15, davon 7 nur innen.",
      "ampel": "rot"
     }
    ]
@@ -411,7 +411,7 @@
      "ampel": "grau",
      "detail": "43 Bilder, 28 Videos, neu seit Montag, 28.09., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
      "quelle": "Erstellzeit der Dateien in creatives/fertig, 05_creatives/ads, 05_creatives/ki/fertig",
-     "stand": "22:47",
+     "stand": "23:02",
      "ziel": null
     },
     {
@@ -471,7 +471,7 @@
      "ampel": "grau",
      "detail": "1 Zeile im Codeblock (Formatbeispiel) nicht gezählt. Steht dort eine echte Aufgabe, gehört sie aus dem Block heraus.",
      "quelle": "timo/OFFEN.md",
-     "stand": "22:47",
+     "stand": "23:02",
      "ziel": null
     },
     {
@@ -600,7 +600,7 @@
    "zeilen": [
     {
      "name": "Wächter, letzter Lauf",
-     "wert": "22:46",
+     "wert": "23:01",
      "ampel": "gruen",
      "detail": null,
      "quelle": "waechter_zustand.json",
@@ -613,13 +613,13 @@
      "name": "Takt-Schleife",
      "schluessel": "takt",
      "ampel": "gruen",
-     "text": "letzte Runde 22:45 (chef), rc=0"
+     "text": "letzte Runde 23:00 (chef), rc=0"
     },
     {
      "name": "Perplexity",
      "schluessel": "perplexity",
      "ampel": "gruen",
-     "text": "letzter Lauf 22:32 erfolgreich, Gins laeuft"
+     "text": "Gins laeuft; letzter Lauf 22:44 ohne Antwortdatei: nach 12 Minuten nicht fertig"
     },
     {
      "name": "Davids Chrome",
@@ -631,19 +631,19 @@
      "name": "Crosspost",
      "schluessel": "crosspost",
      "ampel": "gruen",
-     "text": "laeuft (pid 61877), Herzschlag vor 7 s, postet, letzter Fehler: 2026-10-03T19:33:07.697Z keine Videos in der Antwort: {\"log_"
+     "text": "laeuft (pid 61877), Herzschlag vor 10 s, postet, letzter Fehler: 2026-10-03T19:33:07.697Z keine Videos in der Antwort: {\"log_"
     },
     {
      "name": "Speicher",
      "schluessel": "speicher",
      "ampel": "gruen",
-     "text": "141 GB frei"
+     "text": "143 GB frei"
     },
     {
      "name": "GitHub-Push",
      "schluessel": "github",
      "ampel": "gruen",
-     "text": "origin/main 0f483cc vor 0 Min"
+     "text": "origin/main 2b866bb vor 2 Min"
     },
     {
      "name": "WhatsApp Web",
@@ -667,7 +667,7 @@
      "name": "Ereignis-Sensor",
      "schluessel": "ereignisse",
      "ampel": "gruen",
-     "text": "letzter Lauf 22:46, 0 offene Ereignisse"
+     "text": "letzter Lauf 23:01, 0 offene Ereignisse"
     },
     {
      "name": "Chrome auf Timos PC",
