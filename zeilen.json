@@ -859,5 +859,12 @@
 "typ": "chef",
 "titel": "Agentur-Plan ist zu teuer",
 "satz": "Ich habe der Agentur nein gesagt, weil wir erst mehr Kunden brauchen."
+},
+{
+"tag": "2026-10-03",
+"zeit": "18:25",
+"typ": "chef",
+"titel": "Knöpfe zeigen neue Seite",
+"satz": "Ich habe die Knöpfe gebaut, damit Kunden die richtige Seite sehen."
 }
 ]
