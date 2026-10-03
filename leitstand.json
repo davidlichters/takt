@@ -1,7 +1,7 @@
 {
  "version": 2,
- "stand": "2026-10-03T14:02:05Z",
- "stand_berlin": "03.10.2026 16:02",
+ "stand": "2026-10-03T14:17:05Z",
+ "stand_berlin": "03.10.2026 16:17",
  "takt_min": 15,
  "quelle": "takt/leitstand_bauen.py auf Davids Mac, ohne Modell",
  "ziele": {
@@ -33,8 +33,8 @@
     },
     {
      "name": "Lieferantin Bonnie",
-     "text": "Bett S kostet 18,90 USD. Ob sie geantwortet hat, sehen wir nicht (WhatsApp liest keiner mit). 5 Aufgaben zu ihr offen, 5 überfällig.",
-     "ampel": "gelb"
+     "text": "Bett S kostet 18,90 USD. Ob sie geantwortet hat, sehen wir nicht (WhatsApp liest keiner mit). 3 Aufgaben zu ihr offen, 0 überfällig.",
+     "ampel": "grau"
     },
     {
      "name": "Creatives",
@@ -43,17 +43,17 @@
     },
     {
      "name": "Recherche",
-     "text": "Perplexity hat heute 9 Fragen beantwortet, die letzte um 15:57.",
+     "text": "Perplexity hat heute 11 Fragen beantwortet, die letzte um 16:16.",
      "ampel": "gruen"
     },
     {
      "name": "Technik",
-     "text": "Der Wächter prüft alle 5 Minuten 6 Werkzeuge: 5 gehen, kaputt: Davids Chrome. 4 weitere prüft er noch nicht.",
+     "text": "Der Wächter prüft alle 5 Minuten 10 Werkzeuge: 6 gehen, kaputt: Davids Chrome. 1 weiteres prüft er noch nicht.",
      "ampel": "rot"
     },
     {
      "name": "Chef-Runde",
-     "text": "Um 16:00: zwei Größen- und Aufbau-Antworten ausgewertet, ohne Wirkung, Produktseite nennt keine Aufbau-Stunden und …",
+     "text": "Um 16:15: entsperrt Stufe 6, weil Stufe 1 bis 5 eskaliert oder als Ja offen und die Ja-Liste voll ist; Frage nach einem …",
      "ampel": "gelb"
     }
    ]
@@ -92,9 +92,30 @@
      "wer": "Timo",
      "tun": null,
      "bis": "16:15",
-     "vorbei": false,
+     "vorbei": true,
      "stufe": 1,
      "ja": []
+    },
+    {
+     "prio": 0,
+     "block": "eskalation",
+     "quelle": "gedaechtnis/OFFEN.md",
+     "titel": "David oder Timo im Claude-Chat ja 2, ja 4, ja 5, ja 6, ja 7, ja 8 schreiben in 1 Minute (Theme und …",
+     "wer": "David oder Timo",
+     "tun": null,
+     "bis": "16:50",
+     "vorbei": false,
+     "stufe": 5,
+     "ja": [
+      2,
+      4,
+      5,
+      6,
+      7,
+      8,
+      8,
+      2
+     ]
     },
     {
      "prio": 1,
@@ -107,7 +128,7 @@
     {
      "prio": 1.5,
      "block": "ja",
-     "titel": "4 Ja-Fragen warten: ja knopfpreis (bis 04.10. 10:00), ja bonnie3 (bis 04.10. 12:00), ja fusszahlung (bis 04.10. 12:00) und 1 weitere",
+     "titel": "1 Ja-Frage wartet: ja bonnie3 (bis 04.10. 12:00)",
      "wer": "David oder Timo",
      "tun": "Im Claude-Chat „ja <Nr>“ schreiben, Liste in timo/JA_LISTE.md",
      "quelle": "timo/JA_LISTE.md"
@@ -127,14 +148,6 @@
      "text": "Letzte Meldung 30.09. 13:48. Damit ist Timos Zeit nicht gemessen. Automation am Handy prüfen.",
      "wer": "Timo",
      "tun": "Die Kurzbefehl-Automation am Handy wieder einschalten"
-    },
-    {
-     "prio": 4,
-     "block": "aufgaben",
-     "wer": "Timo 20, David 7, Claude 8",
-     "tun": "Die älteste zuerst erledigen oder neu datieren; Liste unten unter Offene Aufgaben",
-     "titel": "25 Aufgaben überfällig",
-     "text": "Älteste: 26.09., Timo, 3 min. Davon nennen Timo 20, David 7, Claude 8."
     }
    ]
   },
@@ -143,22 +156,22 @@
    "id": "wer",
    "frage": "Wer arbeitet woran?",
    "ampel": "gelb",
-   "kurz": "David: 37 min am Mac. Timo: nicht gemessen. Claude: 19 Runden heute.",
+   "kurz": "David: 37 min am Mac. Timo: nicht gemessen. Claude: 24 Runden heute.",
    "saetze": [],
    "zeilen": [
     {
      "name": "David",
-     "text": "Heute 37 min am Mac gearbeitet, Soll bis jetzt 50 min. Die Mac-Messung schweigt seit 15:40, ihr launchd-Job ist ausgeschaltet. Auf David warten heute 1 Sache (Karte 2).",
+     "text": "Heute 37 min am Mac gearbeitet, Soll bis jetzt 1 h 01 min. Die Mac-Messung schweigt seit 15:40, ihr launchd-Job ist ausgeschaltet. Auf David warten heute 2 Sachen (Karte 2).",
      "ampel": "gelb"
     },
     {
      "name": "Timo",
-     "text": "Wissen wir noch nicht, weil sein Handy seit 30.09. 13:48 nichts meldet und den PC niemand misst. 20 überfällige Aufgaben nennen Timo.",
+     "text": "Wissen wir noch nicht, weil sein Handy seit 30.09. 13:48 nichts meldet und den PC niemand misst.",
      "ampel": "gelb"
     },
     {
      "name": "Claude",
-     "text": "19 Runden heute, alle 5 Minuten eine. Zuletzt: zwei Größen- und Aufbau-Antworten ausgewertet, ohne Wirkung, Produktseite nennt keine …",
+     "text": "24 Runden heute, alle 5 Minuten eine. Zuletzt: entsperrt Stufe 6, weil Stufe 1 bis 5 eskaliert oder als Ja offen und die Ja-Liste voll ist …",
      "ampel": "gelb"
     },
     {
@@ -173,7 +186,7 @@
    "id": "tempo",
    "frage": "Wie schnell geht es gerade?",
    "ampel": "gelb",
-   "kurz": "Letzte Stunde: 11 Runden, 6 davon mit Ergebnis in der Welt.",
+   "kurz": "Letzte Stunde: 14 Runden, 9 davon mit Ergebnis in der Welt.",
    "saetze": [
     "Den Gewinn heute wissen wir noch nicht, weil uns der Shopify-Zugang fehlt."
    ],
@@ -190,13 +203,13 @@
     },
     {
      "name": "Runden, letzte Stunde",
-     "text": "11 Runden: 6 mit Ergebnis in der Welt, 3 haben einen Menschen erinnert, 2 nur innen gearbeitet.",
+     "text": "14 Runden: 9 mit Ergebnis in der Welt, 2 haben einen Menschen erinnert, 3 nur innen gearbeitet.",
      "ampel": "gelb"
     },
     {
      "name": "Erledigt heute",
-     "text": "0 in OFFEN.md als erledigt eingetragen, 0 Ja-Schritte erledigt.",
-     "ampel": "gelb"
+     "text": "22 in OFFEN.md als erledigt eingetragen, 0 Ja-Schritte erledigt.",
+     "ampel": "gruen"
     },
     {
      "name": "Neu gebaut heute",
@@ -222,7 +235,7 @@
     },
     {
      "name": "David",
-     "text": "Soll 10 Stunden am Tag, also bis jetzt 50 min. Ist 37 min am Mac.",
+     "text": "Soll 10 Stunden am Tag, also bis jetzt 1 h 01 min. Ist 37 min am Mac.",
      "ampel": "rot"
     },
     {
@@ -237,7 +250,7 @@
     },
     {
      "name": "Runden",
-     "text": "Soll 12 Runden je Stunde, jede mit Ergebnis in der Welt. Ist 11, davon 6 mit Welt.",
+     "text": "Soll 12 Runden je Stunde, jede mit Ergebnis in der Welt. Ist 14, davon 9 mit Welt.",
      "ampel": "rot"
     }
    ]
@@ -300,14 +313,6 @@
    "block": "menschen",
    "titel": "Timos Handy meldet seit 3 Tagen nichts",
    "text": "Letzte Meldung 30.09. 13:48. Damit ist Timos Zeit nicht gemessen. Automation am Handy prüfen."
-  },
-  {
-   "prio": 4,
-   "block": "aufgaben",
-   "wer": "Timo 20, David 7, Claude 8",
-   "tun": "die älteste zuerst erledigen oder neu datieren; Liste unten unter Offene Aufgaben",
-   "titel": "25 Aufgaben überfällig",
-   "text": "Älteste: 26.09., Timo, 3 min. Davon nennen Timo 20, David 7, Claude 8."
   }
  ],
  "bloecke": [
@@ -390,7 +395,7 @@
      "ampel": "grau",
      "detail": "32 Bilder, 21 Videos, neu seit Montag, 28.09., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
      "quelle": "Erstellzeit der Dateien in creatives/fertig, 05_creatives/ads, 05_creatives/ki/fertig",
-     "stand": "16:02",
+     "stand": "16:17",
      "ziel": null
     },
     {
@@ -414,9 +419,9 @@
      "name": "David, produktiv am Mac",
      "wert": "37 min",
      "ampel": "gelb",
-     "detail": "Mac-Zeit mit aktiver App, nicht Arbeitszeit. Soll bis jetzt 50 min (10 h, Tag 08:00 bis 22:00, Messung erst seit 14:51). Unproduktive Apps 0 min, Leerlauf 13 min, letzte Probe 15:40.",
+     "detail": "Mac-Zeit mit aktiver App, nicht Arbeitszeit. Soll bis jetzt 1 h 01 min (10 h, Tag 08:00 bis 22:00, Messung erst seit 14:51). Unproduktive Apps 0 min, Leerlauf 13 min, letzte Probe 15:40.",
      "quelle": "mac_aktivitaet.jsonl, 50 Proben, mac_tag.py",
-     "stand": "16:02",
+     "stand": "16:17",
      "ziel": "10 h"
     },
     {
@@ -425,7 +430,7 @@
      "ampel": "grau",
      "detail": "Handyzeit, nicht Arbeitszeit. Zählt nur Apps, die das Handy meldet; Arbeit am PC sieht hier niemand.",
      "quelle": "handy.json vom 14:23",
-     "stand": "16:02",
+     "stand": "16:17",
      "ziel": "10 h"
     },
     {
@@ -434,7 +439,7 @@
      "ampel": "gruen",
      "detail": "Regel im Leitstand: ab 30 min gelb, ab 60 min rot.",
      "quelle": "handy.json vom 14:23",
-     "stand": "16:02",
+     "stand": "16:17",
      "ziel": null
     },
     {
@@ -443,7 +448,7 @@
      "ampel": "rot",
      "detail": "Ohne Meldung ist Timos Handyzeit nicht gemessen. Kurzbefehl-Automation am Handy oder launchd de.david.handy prüfen.",
      "quelle": "ereignisse.jsonl, handy.json",
-     "stand": "16:02",
+     "stand": "16:17",
      "ziel": null
     },
     {
@@ -460,29 +465,29 @@
   {
    "id": "aufgaben",
    "titel": "Offene Aufgaben",
-   "ampel": "rot",
+   "ampel": "gelb",
    "zeilen": [
     {
      "name": "Offen",
-     "wert": "33",
+     "wert": "22",
      "ampel": "grau",
      "detail": "1 Zeile im Codeblock (Formatbeispiel) nicht gezählt. Steht dort eine echte Aufgabe, gehört sie aus dem Block heraus.",
      "quelle": "timo/OFFEN.md",
-     "stand": "16:02",
+     "stand": "16:17",
      "ziel": null
     },
     {
      "name": "Überfällig",
-     "wert": "25",
-     "ampel": "rot",
-     "detail": "davon nennen Timo 20, David 7, Claude 8",
+     "wert": "0",
+     "ampel": "gruen",
+     "detail": null,
      "quelle": null,
      "stand": null,
      "ziel": null
     },
     {
      "name": "Heute fällig",
-     "wert": "4",
+     "wert": "5",
      "ampel": "gelb",
      "detail": null,
      "quelle": null,
@@ -492,103 +497,103 @@
    ],
    "liste": [
     {
-     "datum": "2026-09-26",
-     "datum_kurz": "26.09.",
+     "datum": "2026-10-03",
+     "datum_kurz": "03.10.",
      "wer": "Timo, 3 min",
-     "text": "Dateien vom Zweitlaptop, die David per WhatsApp geschickt hat, in WhatsApp selbst speichern nach …",
-     "tage_ueberfaellig": 7,
-     "ampel": "rot"
+     "text": "BM3-Vorprüfung K4 nach launch/coach_2026-10-03/K4_BM3_VORPRUEFUNG.md: drei Bilder (Werbekonto, Datensatz …",
+     "tage_ueberfaellig": 0,
+     "ampel": "gelb"
     },
     {
-     "datum": "2026-09-26",
-     "datum_kurz": "26.09.",
-     "wer": "Claude, 20 min",
-     "text": "Erste 5 Beispiel-Werbevideos (TikTok und Meta-Bibliothek) mit ffmpeg in Einzelbilder zerlegen, jeden Schnitt und alle …",
-     "tage_ueberfaellig": 7,
-     "ampel": "rot"
+     "datum": "2026-10-03",
+     "datum_kurz": "03.10.",
+     "wer": "David",
+     "text": "BM3 von Anh: Übergabe prüfen, bevor Karte, Pixel oder Domain dran kommen: BM-ID, Bild der Personenliste ohne Anh …",
+     "tage_ueberfaellig": 0,
+     "ampel": "gelb"
     },
     {
-     "datum": "2026-09-27",
-     "datum_kurz": "27.09.",
-     "wer": "Timo und Claude",
-     "text": "Wochenziel, Timo wörtlich \"1-2k umsatz\": mindestens 1.000 USD Umsatz von Mi 23.09. bis So 27.09.2026, Wunsch 2.000 USD …",
-     "tage_ueberfaellig": 6,
-     "ampel": "rot"
+     "datum": "2026-10-03",
+     "datum_kurz": "03.10.",
+     "wer": "Timo, 2 min",
+     "text": "Warenkorb-Abbruch-Mail einschalten: Shopify > Marketing > Automations > Vorlage \"Abandoned checkout\", ohne Rabattcode …",
+     "tage_ueberfaellig": 0,
+     "ampel": "gelb"
     },
     {
-     "datum": "2026-09-29",
-     "datum_kurz": "29.09.",
-     "wer": "Timo, 3 min",
-     "text": "Meta Schritt 7 Rest: in Shopify > App \"Facebook & Instagram\" > Einstellungen prüfen, dass das Werbekonto …",
-     "tage_ueberfaellig": 4,
-     "ampel": "rot"
+     "datum": "2026-10-03",
+     "datum_kurz": "03.10.",
+     "wer": "Timo und David, je 2 min",
+     "text": "Zugänge freigeben, damit Claude ohne Browser arbeitet, Reihenfolge und Begründung in betrieb/API_PLAN.md …",
+     "tage_ueberfaellig": 0,
+     "ampel": "gelb"
     },
     {
-     "datum": "2026-09-29",
-     "datum_kurz": "29.09.",
-     "wer": "Timo, 5 min",
-     "text": "GitHub-Token mit gist-Recht erzeugen, github.com/settings/tokens, classic, No expiration, Haken nur bei gist. Wird erst …",
-     "tage_ueberfaellig": 4,
-     "ampel": "rot"
+     "datum": "2026-10-03",
+     "datum_kurz": "03.10.",
+     "wer": "Claude nach Ja",
+     "text": "Shopify Inbox Agent einschalten (0 USD), Persona und FAQ aus entwuerfe/2026-09-29_inbox_agent.md, erst wenn die 4 …",
+     "tage_ueberfaellig": 0,
+     "ampel": "gelb"
     },
     {
-     "datum": "2026-09-29",
-     "datum_kurz": "29.09.",
-     "wer": "Claude nach Ja (Timo 1 min Ja im PC-Chat)",
-     "text": "Datenschutzerklärung einfügen: Shopify > Einstellungen > Richtlinien > Datenschutzerklärung, HTML aus …",
-     "tage_ueberfaellig": 4,
-     "ampel": "rot"
+     "datum": "2026-10-04",
+     "datum_kurz": "04.10.",
+     "wer": "David und Timo, 3 min",
+     "text": "Bestellweg an Bonnie festlegen, Vorschlag: per WhatsApp von Hand nach launch/kurs_umsetzung/10_lieferant/11_bestell_sop …",
+     "tage_ueberfaellig": 0,
+     "ampel": "grau"
     },
     {
-     "datum": "2026-09-30",
-     "datum_kurz": "30.09.",
-     "wer": "Timo, 3 min, vor Launch",
-     "text": "Meta vor dem Import: (1) Pixel 7.12 in launch/meta_verbinden.md: Events Manager > Pixel 2238698946672438 > Overview …",
-     "tage_ueberfaellig": 3,
-     "ampel": "rot"
+     "datum": "2026-10-04",
+     "datum_kurz": "04.10.",
+     "wer": "David",
+     "text": "Folgefragen an Bonnie senden, sobald sie auf die Länderfrage vom 03.10. 15:17 antwortet: Packgewicht, Pflege, DDP für 2 …",
+     "tage_ueberfaellig": 0,
+     "ampel": "grau"
     },
     {
-     "datum": "2026-09-30",
-     "datum_kurz": "30.09.",
-     "wer": "Timo oder David, vor Launch",
-     "text": "Impressum füllen: Anbieter (voller Name des echten Verkäufers), Niederlassungsanschrift, USt-IdNr. oder \"keine\", in …",
-     "tage_ueberfaellig": 3,
-     "ampel": "rot"
+     "datum": "2026-10-04",
+     "datum_kurz": "04.10.",
+     "wer": "Claude",
+     "text": "Folgefragen an Bonnie als Entwurf in launch/nachrichten.md (Bonnie hat am 02.10. 19:25 geantwortet): US-Trackingnummer …",
+     "tage_ueberfaellig": 0,
+     "ampel": "grau"
     },
     {
-     "datum": "2026-09-30",
-     "datum_kurz": "30.09.",
-     "wer": "Timo, 1 min",
-     "text": "Zwei Abkürzungen für den Shop-Umbau, die eine Regel brechen, nur mit deinem Ja: W6 David bekommt ein Mitarbeiterkonto …",
-     "tage_ueberfaellig": 3,
-     "ampel": "rot"
+     "datum": "2026-10-05",
+     "datum_kurz": "05.10.",
+     "wer": "Claude (Mac)",
+     "text": "Daily Mentor Academy (David Fogarty): Neubezug am 02.10.2026 auf Timos PC erledigt, 299 Lektionen von Timos Handy in …",
+     "tage_ueberfaellig": 0,
+     "ampel": "grau"
     },
     {
-     "datum": "2026-09-30",
-     "datum_kurz": "30.09.",
-     "wer": "Timo, 1 min",
-     "text": "Rückgabe: ja 0a zur Empfehlung A (Erstattung ohne Rücksendung, Claude hat entschieden, Takt 18:47: A trägt bis 20 % …",
-     "tage_ueberfaellig": 3,
-     "ampel": "rot"
+     "datum": "2026-10-06",
+     "datum_kurz": "06.10.",
+     "wer": "Timo",
+     "text": "Meta-Werbekonten: Timo kümmert sich selbst (03.10.: \"geht nicht sehr einfach, man kann nicht wirklich Einsprüche …",
+     "tage_ueberfaellig": 0,
+     "ampel": "grau"
     },
     {
-     "datum": "2026-09-30",
-     "datum_kurz": "30.09.",
-     "wer": "Timo, 10 min",
-     "text": "Klickliste für den Launch 01.10. lesen: launch/MORGEN.md (alle Schritte mit Datei:Zeile, Timo 48 Min seit Claude nach …",
-     "tage_ueberfaellig": 3,
-     "ampel": "rot"
+     "datum": "2026-10-07",
+     "datum_kurz": "07.10.",
+     "wer": "David, 1 min",
+     "text": "Dateien vom Zweitlaptop, die David am 25.09. per WhatsApp geschickt hat: welche waren das, werden sie noch gebraucht? …",
+     "tage_ueberfaellig": 0,
+     "ampel": "grau"
     },
     {
-     "datum": "2026-09-30",
-     "datum_kurz": "30.09.",
-     "wer": "Timo, 1 min",
-     "text": "Anzeigentexte: ja 10a zur Empfehlung oben in launch/anzeigentexte.md (5 laufen, A5 bleibt PAUSED, Takt 17:47; 6 …",
-     "tage_ueberfaellig": 3,
-     "ampel": "rot"
+     "datum": "2026-10-10",
+     "datum_kurz": "10.10.",
+     "wer": "Timo, 2 min",
+     "text": "Wer ist Inhaber des Shopify-Kontos dyhu8q-n6, auf wen läuft das Auszahlungskonto (Shopify Payments braucht einen …",
+     "tage_ueberfaellig": 0,
+     "ampel": "grau"
     }
    ],
-   "weitere": 21
+   "weitere": 10
   },
   {
    "id": "werkzeuge",
@@ -597,7 +602,7 @@
    "zeilen": [
     {
      "name": "Wächter, letzter Lauf",
-     "wert": "15:58",
+     "wert": "16:13",
      "ampel": "gruen",
      "detail": null,
      "quelle": "waechter_zustand.json",
@@ -610,13 +615,13 @@
      "name": "Takt-Schleife",
      "schluessel": "takt",
      "ampel": "gruen",
-     "text": "letzte Runde 15:56 (chef), rc=0"
+     "text": "letzte Runde 16:12 (chef), rc=0"
     },
     {
      "name": "Perplexity",
      "schluessel": "perplexity",
      "ampel": "gruen",
-     "text": "letzter Lauf 15:56 erfolgreich, Gins laeuft"
+     "text": "letzter Lauf 15:57 erfolgreich, Gins laeuft"
     },
     {
      "name": "Davids Chrome",
@@ -628,7 +633,7 @@
      "name": "Crosspost",
      "schluessel": "crosspost",
      "ampel": "gruen",
-     "text": "laeuft (pid 61877), Herzschlag vor 2 s, postet"
+     "text": "laeuft (pid 61877), Herzschlag vor 6 s, postet"
     },
     {
      "name": "Speicher",
@@ -640,28 +645,34 @@
      "name": "GitHub-Push",
      "schluessel": "github",
      "ampel": "gruen",
-     "text": "origin/main 0fd5d85 vor 1 Min"
-    },
-    {
-     "name": "Chrome auf Timos PC",
-     "ampel": "grau",
-     "nicht_geprueft": true,
-     "text": "nicht geprüft: der Wächter meldet es nicht, Plan 2.1 verlangt eine Ampel"
+     "text": "origin/main 7189519 vor 2 Min"
     },
     {
      "name": "WhatsApp Web",
-     "ampel": "grau",
-     "nicht_geprueft": true,
-     "text": "nicht geprüft: der Wächter meldet es nicht, Plan 2.1 verlangt eine Ampel"
+     "schluessel": "whatsapp",
+     "ampel": "gruen",
+     "text": "Chatliste gelesen (apple, 10 Zeilen), 6 von 6 Lieferanten sichtbar"
     },
     {
      "name": "Shopify",
+     "schluessel": "shopify",
      "ampel": "grau",
-     "nicht_geprueft": true,
-     "text": "nicht geprüft: der Wächter meldet es nicht, Plan 2.1 verlangt eine Ampel"
+     "text": "wartet auf Zugang: ~/takt/zugaenge.json nennt keinen Shopify-Token (shopify.shop und shopify.token)"
     },
     {
      "name": "Meta",
+     "schluessel": "meta",
+     "ampel": "grau",
+     "text": "wartet auf Zugang: ~/takt/zugaenge.json nennt keinen Meta-Zugang (meta.ad_account_id und meta.token)"
+    },
+    {
+     "name": "Ereignis-Sensor",
+     "schluessel": "ereignisse",
+     "ampel": "grau",
+     "text": "abgeschaltet: ~/takt/ereignisse/AUS liegt (seit 03.10. 16:11)"
+    },
+    {
+     "name": "Chrome auf Timos PC",
      "ampel": "grau",
      "nicht_geprueft": true,
      "text": "nicht geprüft: der Wächter meldet es nicht, Plan 2.1 verlangt eine Ampel"
