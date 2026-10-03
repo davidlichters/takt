@@ -1,7 +1,7 @@
 {
  "version": 2,
- "stand": "2026-10-03T17:02:05Z",
- "stand_berlin": "03.10.2026 19:02",
+ "stand": "2026-10-03T17:17:05Z",
+ "stand_berlin": "03.10.2026 19:17",
  "takt_min": 15,
  "quelle": "takt/leitstand_bauen.py auf Davids Mac, ohne Modell",
  "ziele": {
@@ -38,12 +38,12 @@
     },
     {
      "name": "Creatives",
-     "text": "Heute 12 neue Bilder oder Videos gebaut, diese Woche 63. Das neueste: PN_SEATING_4x5.png um 18:41. Wie viele davon live sind, wissen wir nicht.",
+     "text": "Heute 14 neue Bilder oder Videos gebaut, diese Woche 65. Das neueste: PN_PUPGRADE_4x5.png um 19:13. Wie viele davon live sind, wissen wir nicht.",
      "ampel": "gruen"
     },
     {
      "name": "Recherche",
-     "text": "Perplexity hat heute 33 Fragen beantwortet, die letzte um 19:01.",
+     "text": "Perplexity hat heute 39 Fragen beantwortet, die letzte um 19:16.",
      "ampel": "gruen"
     },
     {
@@ -53,7 +53,7 @@
     },
     {
      "name": "Chef-Runde",
-     "text": "Um 18:58: Variante Santa Sleigh zeigt live noch das gesperrte SleighPawsCo-Foto (1 von 9 Bildern); Timo blendet sie bis …",
+     "text": "Um 19:14: Entwurf Creator-Pilot soona (3 Videos, 507 USD laut Perplexity) liegt seit 30.09. 00:06 ohne Entscheidung …",
      "ampel": "gruen"
     }
    ]
@@ -63,7 +63,7 @@
    "id": "auf",
    "frage": "Was hält uns auf?",
    "ampel": "rot",
-   "kurz": "7 Dinge halten uns auf.",
+   "kurz": "6 Dinge halten uns auf.",
    "saetze": [
     "Bei jedem steht, wer es tun muss. Oben steht das, was am meisten Geld kostet."
    ],
@@ -89,7 +89,7 @@
      "wer": "David",
      "tun": null,
      "bis": "19:10",
-     "vorbei": false,
+     "vorbei": true,
      "stufe": 4,
      "ja": []
     },
@@ -101,18 +101,6 @@
      "wer": "Timo",
      "tun": "Blendet die Variante Santa Sleigh aus, 2 Minuten, nicht löschen",
      "bis": "19:40",
-     "vorbei": false,
-     "stufe": 5,
-     "ja": []
-    },
-    {
-     "prio": 0,
-     "block": "eskalation",
-     "quelle": "gedaechtnis/OFFEN.md",
-     "titel": "Shopify > Onlineshop > Themes > \"Porchnap Fixes 03.10.2026 18:20\" > ... > Veröffentlichen. Darin 11 …",
-     "wer": "David oder Timo",
-     "tun": "Schaltet das fertige Design live, 2 Minuten",
-     "bis": "19:45",
      "vorbei": false,
      "stufe": 5,
      "ja": []
@@ -148,12 +136,12 @@
    "id": "wer",
    "frage": "Wer arbeitet woran?",
    "ampel": "gruen",
-   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 68 Runden heute.",
+   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 74 Runden heute.",
    "saetze": [],
    "zeilen": [
     {
      "name": "David",
-     "text": "Nicht gemessen, weil David die Mac-Messung am 03.10. abgeschaltet hat. Auf David warten heute 2 Sachen (Karte 2).",
+     "text": "Nicht gemessen, weil David die Mac-Messung am 03.10. abgeschaltet hat. Auf David warten heute 1 Sache (Karte 2).",
      "ampel": "grau"
     },
     {
@@ -163,7 +151,7 @@
     },
     {
      "name": "Claude",
-     "text": "68 Runden heute, alle 5 Minuten eine. Zuletzt: Variante Santa Sleigh zeigt live noch das gesperrte SleighPawsCo-Foto (1 von 9 Bildern); Timo …",
+     "text": "74 Runden heute, alle 5 Minuten eine. Zuletzt: Entwurf Creator-Pilot soona (3 Videos, 507 USD laut Perplexity) liegt seit 30.09. 00:06 ohne …",
      "ampel": "gruen"
     },
     {
@@ -178,7 +166,7 @@
    "id": "tempo",
    "frage": "Wie schnell geht es gerade?",
    "ampel": "gelb",
-   "kurz": "Letzte Stunde: 17 Runden, 10 davon mit fertigem Ergebnis.",
+   "kurz": "Letzte Stunde: 20 Runden, 11 davon mit fertigem Ergebnis.",
    "saetze": [
     "Den Gewinn heute wissen wir noch nicht, weil uns der Shopify-Zugang fehlt.",
     "Fertig heißt noch nicht live: 8 Ja-Schritte warten auf euer Ja (Karte 2)."
@@ -196,7 +184,7 @@
     },
     {
      "name": "Runden, letzte Stunde",
-     "text": "17 Runden: 10 mit fertigem Ergebnis (Creative, Text oder Klickweg), 4 haben einen Menschen erinnert, 3 nur innen gearbeitet.",
+     "text": "20 Runden: 11 mit fertigem Ergebnis (Creative, Text oder Klickweg), 5 haben einen Menschen erinnert, 4 nur innen gearbeitet.",
      "ampel": "gelb"
     },
     {
@@ -206,7 +194,7 @@
     },
     {
      "name": "Neu gebaut heute",
-     "text": "12 Bilder und Videos für Anzeigen.",
+     "text": "14 Bilder und Videos für Anzeigen.",
      "ampel": "gruen"
     }
    ]
@@ -243,7 +231,7 @@
     },
     {
      "name": "Runden",
-     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 17, davon 3 nur innen.",
+     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 20, davon 4 nur innen.",
      "ampel": "gruen"
     }
    ]
@@ -378,11 +366,11 @@
    "zeilen": [
     {
      "name": "Gebaut diese Woche",
-     "wert": "63 Dateien",
+     "wert": "65 Dateien",
      "ampel": "grau",
-     "detail": "35 Bilder, 28 Videos, neu seit Montag, 28.09., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
+     "detail": "37 Bilder, 28 Videos, neu seit Montag, 28.09., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
      "quelle": "Erstellzeit der Dateien in creatives/fertig, 05_creatives/ads, 05_creatives/ki/fertig",
-     "stand": "19:02",
+     "stand": "19:17",
      "ziel": null
     },
     {
@@ -395,7 +383,7 @@
      "ziel": "3 bis 5 je Woche"
     }
    ],
-   "zahl_gebaut": 63
+   "zahl_gebaut": 65
   },
   {
    "id": "menschen",
@@ -438,11 +426,11 @@
    "zeilen": [
     {
      "name": "Offen",
-     "wert": "23",
+     "wert": "24",
      "ampel": "grau",
      "detail": "1 Zeile im Codeblock (Formatbeispiel) nicht gezählt. Steht dort eine echte Aufgabe, gehört sie aus dem Block heraus.",
      "quelle": "timo/OFFEN.md",
-     "stand": "19:02",
+     "stand": "19:17",
      "ziel": null
     },
     {
@@ -456,7 +444,7 @@
     },
     {
      "name": "Heute fällig",
-     "wert": "5",
+     "wert": "6",
      "ampel": "gelb",
      "detail": null,
      "quelle": null,
@@ -465,6 +453,14 @@
     }
    ],
    "liste": [
+    {
+     "datum": "2026-10-03",
+     "datum_kurz": "03.10.",
+     "wer": "Timo, 2 min",
+     "text": "Santa-Variante ausblenden (nicht löschen): Shopify > Products > Porchnap Sleigh Bed > Variants > Santa Sleigh > …",
+     "tage_ueberfaellig": 0,
+     "ampel": "gelb"
+    },
     {
      "datum": "2026-10-03",
      "datum_kurz": "03.10.",
@@ -552,17 +548,9 @@
      "text": "Meta-Werbekonten: Timo kümmert sich selbst (03.10.: \"geht nicht sehr einfach, man kann nicht wirklich Einsprüche …",
      "tage_ueberfaellig": 0,
      "ampel": "grau"
-    },
-    {
-     "datum": "2026-10-07",
-     "datum_kurz": "07.10.",
-     "wer": "David, 1 min",
-     "text": "Dateien vom Zweitlaptop, die David am 25.09. per WhatsApp geschickt hat: welche waren das, werden sie noch gebraucht? …",
-     "tage_ueberfaellig": 0,
-     "ampel": "grau"
     }
    ],
-   "weitere": 11
+   "weitere": 12
   },
   {
    "id": "werkzeuge",
@@ -571,7 +559,7 @@
    "zeilen": [
     {
      "name": "Wächter, letzter Lauf",
-     "wert": "19:00",
+     "wert": "19:16",
      "ampel": "gruen",
      "detail": null,
      "quelle": "waechter_zustand.json",
@@ -584,13 +572,13 @@
      "name": "Takt-Schleife",
      "schluessel": "takt",
      "ampel": "gruen",
-     "text": "letzte Runde 19:00 (chef), rc=0, Runde laeuft seit 0 Min"
+     "text": "letzte Runde 19:15 (chef), rc=0"
     },
     {
      "name": "Perplexity",
      "schluessel": "perplexity",
      "ampel": "gruen",
-     "text": "Gins laeuft; letzter Lauf 18:58 ohne Antwortdatei: Absenden: Frage steht noch im Feld, kein Thread entstanden ("
+     "text": "letzter Lauf 19:13 erfolgreich, Gins laeuft"
     },
     {
      "name": "Davids Chrome",
@@ -602,19 +590,19 @@
      "name": "Crosspost",
      "schluessel": "crosspost",
      "ampel": "gruen",
-     "text": "laeuft (pid 61877), Herzschlag vor 9 s, postet, letzter Fehler: 2026-10-03T16:33:03.077Z The operation was aborted due to ti"
+     "text": "laeuft (pid 61877), Herzschlag vor 6 s, postet, letzter Fehler: 2026-10-03T16:33:03.077Z The operation was aborted due to ti"
     },
     {
      "name": "Speicher",
      "schluessel": "speicher",
      "ampel": "gruen",
-     "text": "153 GB frei"
+     "text": "151 GB frei"
     },
     {
      "name": "GitHub-Push",
      "schluessel": "github",
      "ampel": "gruen",
-     "text": "origin/main 3087c35 vor 0 Min"
+     "text": "origin/main 54fe671 vor 0 Min"
     },
     {
      "name": "WhatsApp Web",
@@ -638,7 +626,7 @@
      "name": "Ereignis-Sensor",
      "schluessel": "ereignisse",
      "ampel": "gruen",
-     "text": "letzter Lauf 19:00, 0 offene Ereignisse"
+     "text": "letzter Lauf 19:16, 0 offene Ereignisse"
     },
     {
      "name": "Chrome auf Timos PC",
