@@ -1349,5 +1349,12 @@
 "typ": "chef",
 "titel": "Fragen in der Liste geprüft",
 "satz": "Ich habe geprüft, welche Fragen zweimal vorkommen, und vier sind noch offen."
+},
+{
+"tag": "2026-10-03",
+"zeit": "22:35",
+"typ": "chef",
+"titel": "Laden ist zu und wartet jetzt",
+"satz": "Ich habe gesehen, dass die Änderungen blockiert sind, David entscheidet morgen früh."
 }
 ]
