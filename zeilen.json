@@ -1265,5 +1265,12 @@
 "typ": "chef",
 "titel": "Brief an Lieferanten wartet auf Davids Antwort",
 "satz": "Ich habe den Brief an Lieferanten fertig, aber David muss noch etwas sagen."
+},
+{
+"tag": "2026-10-03",
+"zeit": "21:50",
+"typ": "chef",
+"titel": "Werbung gesperrt, drei Fragen vorbereitet",
+"satz": "Ich habe die Fragen vorbereitet, bitte antworte bis morgen früh."
 }
 ]
