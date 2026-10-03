@@ -1405,5 +1405,12 @@
 "typ": "chef",
 "titel": "Brief nicht geschickt",
 "satz": "Ich habe gemerkt, dass ein Brief nicht geschickt wurde, damit David ihn schickt."
+},
+{
+"tag": "2026-10-03",
+"zeit": "23:09",
+"typ": "chef",
+"titel": "Zahlungsarten zur Frage hinzugefügt",
+"satz": "Ich habe die Fragen-Seite so geändert, dass Kunden jetzt mehr Bezahlarten sehen können."
 }
 ]
