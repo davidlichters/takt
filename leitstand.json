@@ -1,7 +1,7 @@
 {
  "version": 2,
- "stand": "2026-10-03T21:02:05Z",
- "stand_berlin": "03.10.2026 23:02",
+ "stand": "2026-10-03T21:17:05Z",
+ "stand_berlin": "03.10.2026 23:17",
  "takt_min": 15,
  "quelle": "takt/leitstand_bauen.py auf Davids Mac, ohne Modell",
  "ziele": {
@@ -43,7 +43,7 @@
     },
     {
      "name": "Recherche",
-     "text": "Perplexity hat heute 76 Fragen beantwortet, die letzte um 22:44.",
+     "text": "Perplexity hat heute 77 Fragen beantwortet, die letzte um 23:12.",
      "ampel": "gruen"
     },
     {
@@ -53,8 +53,8 @@
     },
     {
      "name": "Chef-Runde",
-     "text": "Um 22:59: Shop-Text ist live auf pet umgestellt, sichtbarer Text auf Startseite und Produktseite ohne das Wort dog (0 …",
-     "ampel": "gruen"
+     "text": "Um 23:15: Kontaktseite in Shopify auf den Endtext aus Punkt 21 gesetzt, aber die Live-Seite zeigt den Seitentext nicht …",
+     "ampel": "gelb"
     }
    ]
   },
@@ -157,7 +157,7 @@
     {
      "prio": 1.5,
      "block": "ja",
-     "titel": "11 Ja-Fragen warten: ja bonnie3 (bis 04.10. 12:00), ja zoomfeld (bis 04.10. 12:00), ja einzelauswahl (bis 04.10. 12:00) und 8 weitere",
+     "titel": "9 Ja-Fragen warten: ja bonnie3 (bis 04.10. 12:00), ja zoomfeld (bis 04.10. 12:00), ja einzelauswahl (bis 04.10. 12:00) und 6 weitere",
      "wer": "David oder Timo",
      "tun": "Im Claude-Chat „ja <Nr>“ schreiben, Liste in timo/JA_LISTE.md",
      "quelle": "timo/JA_LISTE.md"
@@ -176,8 +176,8 @@
    "nr": 3,
    "id": "wer",
    "frage": "Wer arbeitet woran?",
-   "ampel": "gruen",
-   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 133 Runden heute.",
+   "ampel": "gelb",
+   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 136 Runden heute.",
    "saetze": [],
    "zeilen": [
     {
@@ -192,8 +192,8 @@
     },
     {
      "name": "Claude",
-     "text": "133 Runden heute, alle 5 Minuten eine. Zuletzt: Shop-Text ist live auf pet umgestellt, sichtbarer Text auf Startseite und Produktseite ohne …",
-     "ampel": "gruen"
+     "text": "136 Runden heute, alle 5 Minuten eine. Zuletzt: Kontaktseite in Shopify auf den Endtext aus Punkt 21 gesetzt, aber die Live-Seite zeigt den …",
+     "ampel": "gelb"
     },
     {
      "name": "Abteilungs-Chats",
@@ -207,10 +207,10 @@
    "id": "tempo",
    "frage": "Wie schnell geht es gerade?",
    "ampel": "gelb",
-   "kurz": "Letzte Stunde: 15 Runden, 1 davon mit fertigem Ergebnis.",
+   "kurz": "Letzte Stunde: 14 Runden, 2 davon mit fertigem Ergebnis.",
    "saetze": [
     "Den Gewinn heute wissen wir noch nicht, weil uns der Shopify-Zugang fehlt.",
-    "Fertig heißt noch nicht live: 13 Ja-Schritte warten auf euer Ja (Karte 2)."
+    "Fertig heißt noch nicht live: 11 Ja-Schritte warten auf euer Ja (Karte 2)."
    ],
    "zeilen": [
     {
@@ -225,12 +225,12 @@
     },
     {
      "name": "Runden, letzte Stunde",
-     "text": "15 Runden: 1 mit fertigem Ergebnis (Creative, Text oder Klickweg), 7 haben einen Menschen erinnert, 7 nur innen gearbeitet.",
+     "text": "14 Runden: 2 mit fertigem Ergebnis (Creative, Text oder Klickweg), 7 haben einen Menschen erinnert, 5 nur innen gearbeitet.",
      "ampel": "gelb"
     },
     {
      "name": "Erledigt heute",
-     "text": "9 in OFFEN.md als erledigt eingetragen (13 weitere nur als überholt gestrichen), 3 Ja-Schritte erledigt.",
+     "text": "9 in OFFEN.md als erledigt eingetragen (13 weitere nur als überholt gestrichen), 5 Ja-Schritte erledigt.",
      "ampel": "gruen"
     },
     {
@@ -272,7 +272,7 @@
     },
     {
      "name": "Runden",
-     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 15, davon 7 nur innen.",
+     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 14, davon 5 nur innen.",
      "ampel": "rot"
     }
    ]
@@ -411,7 +411,7 @@
      "ampel": "grau",
      "detail": "43 Bilder, 28 Videos, neu seit Montag, 28.09., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
      "quelle": "Erstellzeit der Dateien in creatives/fertig, 05_creatives/ads, 05_creatives/ki/fertig",
-     "stand": "23:02",
+     "stand": "23:17",
      "ziel": null
     },
     {
@@ -471,7 +471,7 @@
      "ampel": "grau",
      "detail": "1 Zeile im Codeblock (Formatbeispiel) nicht gezählt. Steht dort eine echte Aufgabe, gehört sie aus dem Block heraus.",
      "quelle": "timo/OFFEN.md",
-     "stand": "23:02",
+     "stand": "23:17",
      "ziel": null
     },
     {
@@ -600,7 +600,7 @@
    "zeilen": [
     {
      "name": "Wächter, letzter Lauf",
-     "wert": "23:01",
+     "wert": "23:11",
      "ampel": "gruen",
      "detail": null,
      "quelle": "waechter_zustand.json",
@@ -613,13 +613,13 @@
      "name": "Takt-Schleife",
      "schluessel": "takt",
      "ampel": "gruen",
-     "text": "letzte Runde 23:00 (chef), rc=0"
+     "text": "letzte Runde 23:05 (chef), rc=0, Runde laeuft seit 2 Min"
     },
     {
      "name": "Perplexity",
      "schluessel": "perplexity",
      "ampel": "gruen",
-     "text": "Gins laeuft; letzter Lauf 22:44 ohne Antwortdatei: nach 12 Minuten nicht fertig"
+     "text": "Gins laeuft; letzter Lauf 22:56 ohne Antwortdatei: nach 12 Minuten nicht fertig"
     },
     {
      "name": "Davids Chrome",
@@ -631,7 +631,7 @@
      "name": "Crosspost",
      "schluessel": "crosspost",
      "ampel": "gruen",
-     "text": "laeuft (pid 61877), Herzschlag vor 10 s, postet, letzter Fehler: 2026-10-03T19:33:07.697Z keine Videos in der Antwort: {\"log_"
+     "text": "laeuft (pid 61877), Herzschlag vor 11 s, postet, letzter Fehler: 2026-10-03T19:33:07.697Z keine Videos in der Antwort: {\"log_"
     },
     {
      "name": "Speicher",
@@ -643,7 +643,7 @@
      "name": "GitHub-Push",
      "schluessel": "github",
      "ampel": "gruen",
-     "text": "origin/main 2b866bb vor 2 Min"
+     "text": "origin/main 2b866bb vor 12 Min"
     },
     {
      "name": "WhatsApp Web",
@@ -667,7 +667,7 @@
      "name": "Ereignis-Sensor",
      "schluessel": "ereignisse",
      "ampel": "gruen",
-     "text": "letzter Lauf 23:01, 0 offene Ereignisse"
+     "text": "letzter Lauf 23:11, 0 offene Ereignisse"
     },
     {
      "name": "Chrome auf Timos PC",
