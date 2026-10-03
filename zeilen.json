@@ -1398,5 +1398,12 @@
 "typ": "chef",
 "titel": "Laden-Text ist auf Hundebett umgestellt",
 "satz": "Ich habe geprüft und der Laden sieht richtig aus damit Kunden alles verstehen."
+},
+{
+"tag": "2026-10-03",
+"zeit": "23:04",
+"typ": "chef",
+"titel": "Brief nicht geschickt",
+"satz": "Ich habe gemerkt, dass ein Brief nicht geschickt wurde, damit David ihn schickt."
 }
 ]
