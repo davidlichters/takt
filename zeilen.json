@@ -1412,5 +1412,12 @@
 "typ": "chef",
 "titel": "Zahlungsarten zur Frage hinzugefügt",
 "satz": "Ich habe die Fragen-Seite so geändert, dass Kunden jetzt mehr Bezahlarten sehen können."
+},
+{
+"tag": "2026-10-03",
+"zeit": "23:15",
+"typ": "chef",
+"titel": "Kontaktseite zeigt neuen Text nicht",
+"satz": "Ich habe den neuen Text gemacht, aber Kunden sehen ihn noch nicht."
 }
 ]
