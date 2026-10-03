@@ -1104,5 +1104,12 @@
 "typ": "chef",
 "titel": "Preise für zwei oder drei Betten gezeigt",
 "satz": "Ich habe den Text hinzugefügt, damit der Kunde den Preis sieht."
+},
+{
+"tag": "2026-10-03",
+"zeit": "20:05",
+"typ": "chef",
+"titel": "Laden sendet Käufe zur falschen Stelle",
+"satz": "Ich habe die falsche Stelle gefunden, damit wir die Werbung reparieren."
 }
 ]
