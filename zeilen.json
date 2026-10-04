@@ -3001,5 +3001,12 @@
 "typ": "chef",
 "titel": "Lieferzeiten in der Werbung neu",
 "satz": "Ich habe die Zeiten geändert, weil jetzt sicher ist, was mit dem Zoll passiert."
+},
+{
+"tag": "2026-10-04",
+"zeit": "23:05",
+"typ": "chef",
+"titel": "Im Laden: Hundebett-Lieferdatum repariert",
+"satz": "Ich habe im Laden geändert, wann das Hundebett kommt, damit Kunden das Datum sehen."
 }
 ]
