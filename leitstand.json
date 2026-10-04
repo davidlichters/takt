@@ -1,7 +1,7 @@
 {
  "version": 2,
- "stand": "2026-10-04T04:02:05Z",
- "stand_berlin": "04.10.2026 06:02",
+ "stand": "2026-10-04T04:17:05Z",
+ "stand_berlin": "04.10.2026 06:17",
  "takt_min": 15,
  "quelle": "takt/leitstand_bauen.py auf Davids Mac, ohne Modell",
  "ziele": {
@@ -53,8 +53,8 @@
     },
     {
      "name": "Chef-Runde",
-     "text": "Um 06:00: Antwort PayPal-Knopf (02:10) gelesen, keine Ja-Zeile, weil kein belegter Kaufquoten-Effekt und Blocker nicht …",
-     "ampel": "gelb"
+     "text": "Um 06:15: FAQ-Seite sagt live 6 bis 10 Werktage ohne Bearbeitung und ohne Versandstart 12.10., Größe S ohne Gewicht …",
+     "ampel": "gruen"
     }
    ]
   },
@@ -63,7 +63,7 @@
    "id": "auf",
    "frage": "Was hält uns auf?",
    "ampel": "rot",
-   "kurz": "22 Dinge halten uns auf.",
+   "kurz": "25 Dinge halten uns auf.",
    "saetze": [
     "Bei jedem steht, wer es tun muss. Oben steht das, was am meisten Geld kostet."
    ],
@@ -296,6 +296,42 @@
      "prio": 0,
      "block": "eskalation",
      "quelle": "gedaechtnis/OFFEN.md",
+     "titel": "About us verspricht 6 bis 10 Werktage ab Bestellung und verschweigt den Versandstart 12.10. (curl …",
+     "wer": "Claude",
+     "tun": null,
+     "bis": "08:00",
+     "vorbei": false,
+     "stufe": 5,
+     "ja": []
+    },
+    {
+     "prio": 0,
+     "block": "eskalation",
+     "quelle": "gedaechtnis/OFFEN.md",
+     "titel": "0-mal lb, kg, inch, cm); Satz 'Every design comes in size S, made for small pets.' durch '... made …",
+     "wer": "Claude",
+     "tun": "Produktseite nennt für Größe S kein Gewicht (curl 06:12",
+     "bis": "08:00",
+     "vorbei": false,
+     "stufe": 5,
+     "ja": []
+    },
+    {
+     "prio": 0,
+     "block": "eskalation",
+     "quelle": "gedaechtnis/OFFEN.md",
+     "titel": "FAQ-Seite nennt 6 bis 10 Werktage ohne Bearbeitung, ohne Versandstart 12.10. und Größe S ohne …",
+     "wer": "Claude",
+     "tun": null,
+     "bis": "08:00",
+     "vorbei": false,
+     "stufe": 5,
+     "ja": []
+    },
+    {
+     "prio": 0,
+     "block": "eskalation",
+     "quelle": "gedaechtnis/OFFEN.md",
      "titel": "Ticket mit dem Text aus ~/timo/entwuerfe/2026-10-04_ecomwarts_shop_ticket.md senden, direkt nach …",
      "wer": "Timo",
      "tun": "Shop-Pruefung bei den Ecomwarts-Coaches anfragen",
@@ -346,8 +382,8 @@
    "nr": 3,
    "id": "wer",
    "frage": "Wer arbeitet woran?",
-   "ampel": "gelb",
-   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 81 Runden heute.",
+   "ampel": "gruen",
+   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 84 Runden heute.",
    "saetze": [],
    "zeilen": [
     {
@@ -362,8 +398,8 @@
     },
     {
      "name": "Claude",
-     "text": "81 Runden heute, alle 5 Minuten eine. Zuletzt: Antwort PayPal-Knopf (02:10) gelesen, keine Ja-Zeile, weil kein belegter Kaufquoten-Effekt und …",
-     "ampel": "gelb"
+     "text": "84 Runden heute, alle 5 Minuten eine. Zuletzt: FAQ-Seite sagt live 6 bis 10 Werktage ohne Bearbeitung und ohne Versandstart 12.10., Größe S …",
+     "ampel": "gruen"
     },
     {
      "name": "Abteilungs-Chats",
@@ -377,7 +413,7 @@
    "id": "tempo",
    "frage": "Wie schnell geht es gerade?",
    "ampel": "gruen",
-   "kurz": "Letzte Stunde: 12 Runden, 9 davon mit fertigem Ergebnis.",
+   "kurz": "Letzte Stunde: 12 Runden, 10 davon mit fertigem Ergebnis.",
    "saetze": [
     "Den Gewinn heute wissen wir noch nicht, weil uns der Shopify-Zugang fehlt.",
     "Fertig heißt noch nicht live: 10 Ja-Schritte warten auf euer Ja (Karte 2)."
@@ -395,7 +431,7 @@
     },
     {
      "name": "Runden, letzte Stunde",
-     "text": "12 Runden: 9 mit fertigem Ergebnis (Creative, Text oder Klickweg), 1 hat einen Menschen erinnert, 2 nur innen gearbeitet.",
+     "text": "12 Runden: 10 mit fertigem Ergebnis (Creative, Text oder Klickweg), 0 haben einen Menschen erinnert, 2 nur innen gearbeitet.",
      "ampel": "gruen"
     },
     {
@@ -583,7 +619,7 @@
      "ampel": "grau",
      "detail": "49 Bilder, 28 Videos, neu seit Montag, 28.09., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
      "quelle": "Erstellzeit der Dateien in creatives/fertig, 05_creatives/ads, 05_creatives/ki/fertig",
-     "stand": "06:02",
+     "stand": "06:17",
      "ziel": null
     },
     {
@@ -643,7 +679,7 @@
      "ampel": "grau",
      "detail": "1 Zeile im Codeblock (Formatbeispiel) nicht gezählt. Steht dort eine echte Aufgabe, gehört sie aus dem Block heraus.",
      "quelle": "timo/OFFEN.md",
-     "stand": "06:02",
+     "stand": "06:17",
      "ziel": null
     },
     {
@@ -772,7 +808,7 @@
    "zeilen": [
     {
      "name": "Wächter, letzter Lauf",
-     "wert": "05:57",
+     "wert": "06:12",
      "ampel": "gruen",
      "detail": null,
      "quelle": "waechter_zustand.json",
@@ -785,7 +821,7 @@
      "name": "Takt-Schleife",
      "schluessel": "takt",
      "ampel": "gruen",
-     "text": "letzte Runde 05:51 (chef), rc=0, Runde laeuft seit 2 Min"
+     "text": "letzte Runde 06:11 (chef), rc=0"
     },
     {
      "name": "Perplexity",
@@ -803,7 +839,7 @@
      "name": "Crosspost",
      "schluessel": "crosspost",
      "ampel": "gruen",
-     "text": "laeuft (pid 61877), Herzschlag vor 9 s, Trockenlauf ohne AKTIV, letzter Fehler: 2026-10-03T21:37:30.732Z keine Videos in der Antwort: {\"extr"
+     "text": "laeuft (pid 61877), Herzschlag vor 6 s, Trockenlauf ohne AKTIV, letzter Fehler: 2026-10-03T21:37:30.732Z keine Videos in der Antwort: {\"extr"
     },
     {
      "name": "Speicher",
@@ -815,7 +851,7 @@
      "name": "GitHub-Push",
      "schluessel": "github",
      "ampel": "gruen",
-     "text": "origin/main 428a53e vor 0 Min"
+     "text": "origin/main 5b652ac vor 1 Min"
     },
     {
      "name": "WhatsApp Web",
@@ -839,7 +875,7 @@
      "name": "Ereignis-Sensor",
      "schluessel": "ereignisse",
      "ampel": "gruen",
-     "text": "letzter Lauf 05:57, 0 offene Ereignisse"
+     "text": "letzter Lauf 06:12, 0 offene Ereignisse"
     },
     {
      "name": "Chrome auf Timos PC",
