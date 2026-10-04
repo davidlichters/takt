@@ -1965,5 +1965,12 @@
 "typ": "chef",
 "titel": "Der Laden lädt wieder richtig",
 "satz": "Ich habe überprüft, dass alles funktioniert und Davids alte Aufgabe ist nicht mehr nötig."
+},
+{
+"tag": "2026-10-04",
+"zeit": "04:50",
+"typ": "chef",
+"titel": "Laden sendet zur falschen Nummer",
+"satz": "Ich habe geprüft, der Laden sendet falsch, Timo macht das neu, damit alles passt."
 }
 ]
