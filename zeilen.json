@@ -1776,5 +1776,12 @@
 "typ": "chef",
 "titel": "Preis gleich, eine Aufgabe offen",
 "satz": "Ich habe nachgeschaut, der Preis bleibt gleich und wir haben noch eine Aufgabe."
+},
+{
+"tag": "2026-10-04",
+"zeit": "02:40",
+"typ": "chef",
+"titel": "Zahlungsart wird nicht freigegeben, zu früh",
+"satz": "Ich habe geprüft, ob wir die Zahlungsart freimachen dürfen, und es ist noch zu früh."
 }
 ]
