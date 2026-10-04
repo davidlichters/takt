@@ -2196,5 +2196,12 @@
 "typ": "chef",
 "titel": "Dezember-Bett-Bild für Werbung gemacht",
 "satz": "Ich habe ein neues Bild für die Werbung gemacht, damit mehr Kunden kaufen."
+},
+{
+"tag": "2026-10-04",
+"zeit": "07:35",
+"typ": "chef",
+"titel": "Versand-Fehler im Laden behoben",
+"satz": "Ich habe den Fehler behoben, jetzt sagt der Laden überall den Versand richtig."
 }
 ]
