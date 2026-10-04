@@ -2945,5 +2945,12 @@
 "typ": "chef",
 "titel": "Timo hat Bewertungen aus dem Laden entfernt",
 "satz": "Ich habe gesehen, dass David vier Aufgaben bis heute Abend erledigen muss."
+},
+{
+"tag": "2026-10-04",
+"zeit": "19:59",
+"typ": "chef",
+"titel": "Werbebild ohne Zoll fertig",
+"satz": "Ich habe ein Bild gemacht, das zeigt, dass Kunden keinen Zoll zahlen müssen."
 }
 ]
