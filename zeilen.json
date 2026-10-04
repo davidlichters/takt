@@ -2833,5 +2833,12 @@
 "typ": "chef",
 "titel": "Neues Bild fertig, Film nicht bereit",
 "satz": "Ich habe ein Bild für die Werbung gebaut und einen Film geprüft, der nicht passt."
+},
+{
+"tag": "2026-10-04",
+"zeit": "17:05",
+"typ": "chef",
+"titel": "Kaufen auf dem Handy besser gemacht",
+"satz": "Ich habe etwas am Kaufen geändert, damit der Text auf dem Handy groß und lesbar bleibt."
 }
 ]
