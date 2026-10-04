@@ -1937,5 +1937,12 @@
 "typ": "verbesserer",
 "titel": "Programm macht neun Mal einen Fehler",
 "satz": "Ich sehe, dass das Programm neun Mal das Falsche tat und nicht das Richtige."
+},
+{
+"tag": "2026-10-04",
+"zeit": "04:25",
+"typ": "chef",
+"titel": "Bezahl-Zeichen in der Kasse gefixt",
+"satz": "Ich habe einen Fehler gefixt: das Zeichen zum Bezahlen passte nicht zur Kasse."
 }
 ]
