@@ -2511,5 +2511,12 @@
 "typ": "chef",
 "titel": "Anzeigen und Bestellungen jetzt sichtbar",
 "satz": "Ich habe den Leitstand aktualisiert, damit wir sehen, was jetzt los ist."
+},
+{
+"tag": "2026-10-04",
+"zeit": "11:04",
+"typ": "chef",
+"titel": "Laden auf Fehler geprüft",
+"satz": "Ich habe Fehler im Laden gefunden, damit alles bald wieder richtig läuft."
 }
 ]
