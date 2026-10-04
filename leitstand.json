@@ -1,7 +1,7 @@
 {
  "version": 2,
- "stand": "2026-10-04T13:02:05Z",
- "stand_berlin": "04.10.2026 15:02",
+ "stand": "2026-10-04T13:17:05Z",
+ "stand_berlin": "04.10.2026 15:17",
  "takt_min": 15,
  "quelle": "takt/leitstand_bauen.py auf Davids Mac, ohne Modell",
  "ziele": {
@@ -43,7 +43,7 @@
     },
     {
      "name": "Recherche",
-     "text": "Perplexity hat heute 56 Fragen beantwortet, die letzte um 14:59. Die letzten 5 Versuche kamen ohne Antwort zurück.",
+     "text": "Perplexity hat heute 56 Fragen beantwortet, die letzte um 14:59. Die letzten 11 Versuche kamen ohne Antwort zurück.",
      "ampel": "rot"
     },
     {
@@ -53,7 +53,7 @@
     },
     {
      "name": "Chef-Runde",
-     "text": "Um 14:56: Shop-Spur-Aufgabe kaufseite6 korrigiert, Kaufknopf zeigt live Add to cart - $69.99 auch bei 2 oder 3 Betten …",
+     "text": "Um 15:06: sendefertige Absage an John liegt bereit, Ja 30 in JA_LISTE.md, damit er morgen nicht umsonst den Kinderwagen …",
      "ampel": "gruen"
     }
    ]
@@ -63,7 +63,7 @@
    "id": "auf",
    "frage": "Was hält uns auf?",
    "ampel": "rot",
-   "kurz": "21 Dinge halten uns auf.",
+   "kurz": "22 Dinge halten uns auf.",
    "saetze": [
     "Bei jedem steht, wer es tun muss. Oben steht das, was am meisten Geld kostet."
    ],
@@ -73,10 +73,10 @@
      "prio": 0,
      "block": "eskalation",
      "quelle": "gedaechtnis/OFFEN.md",
-     "titel": "Timo oder David schaut 3 Minuten nach, wer bei Shopify Payments als Kontoverantwortlicher steht …",
-     "wer": "Timo",
-     "tun": null,
-     "bis": "07:30",
+     "titel": "B2_FRIST_01 und _02 ohne Versandtage neu gebaut (Bild: \"Tracked delivery, duties included\" bzw …",
+     "wer": "Claude",
+     "tun": "TEIL (1) ERLEDIGT 04.10. 00:55 (Gegenpruefung)",
+     "bis": "08:00",
      "vorbei": true,
      "stufe": 1,
      "ja": []
@@ -85,11 +85,11 @@
      "prio": 0,
      "block": "eskalation",
      "quelle": "gedaechtnis/OFFEN.md",
-     "titel": "B2_FRIST_01 und _02 ohne Versandtage neu gebaut (Bild: \"Tracked delivery, duties included\" bzw …",
-     "wer": "Claude",
-     "tun": "TEIL (1) ERLEDIGT 04.10. 00:55 (Gegenpruefung)",
-     "bis": "08:00",
-     "vorbei": true,
+     "titel": "Timo oder David schaut 3 Minuten nach, wer bei Shopify Payments als Kontoverantwortlicher steht …",
+     "wer": "Timo",
+     "tun": null,
+     "bis": "16:15",
+     "vorbei": false,
      "stufe": 1,
      "ja": []
     },
@@ -278,6 +278,18 @@
      "ja": []
     },
     {
+     "prio": 0,
+     "block": "eskalation",
+     "quelle": "gedaechtnis/OFFEN.md",
+     "titel": "Perplexity ist abgemeldet (Lauf 14:56 \"LOGIN FEHLT\" nach drei Versuchen ueber die …",
+     "wer": "David",
+     "tun": null,
+     "bis": "15:45",
+     "vorbei": false,
+     "stufe": 6,
+     "ja": []
+    },
+    {
      "prio": 1,
      "block": "anzeigen",
      "titel": "Anzeigen sind aus",
@@ -289,9 +301,9 @@
      "prio": 1,
      "block": "werkzeuge",
      "titel": "Perplexity ist kaputt",
-     "text": "letzter Lauf 14:56: LOGIN FEHLT: nach drei Versuchen ueber die ToolSuite-Kachel nicht angemeldet",
+     "text": "letzter Lauf 15:11: LOGIN FEHLT: nach drei Versuchen ueber die ToolSuite-Kachel nicht angemeldet; KALTSTART_NOETIG gesetzt, Recherche-Schlange pausiert; LIZENZ_NOETIG seit 04.10. 15:04 gesetzt, Recherche-Schlange pausiert",
      "wer": "Claude (Technik)",
-     "tun": "Reparieren. Grund: letzter Lauf 14:56: LOGIN FEHLT: nach drei Versuchen ueber die ToolSuite-Kachel …"
+     "tun": "Reparieren. Grund: letzter Lauf 15:11: LOGIN FEHLT: nach drei Versuchen ueber die ToolSuite-Kachel …"
     },
     {
      "prio": 1,
@@ -304,7 +316,7 @@
     {
      "prio": 1.5,
      "block": "ja",
-     "titel": "6 Ja-Fragen warten: ja knopf (bis 04.10. 12:00), ja vincent (bis 04.10. 12:00), ja ticket (bis 04.10. 12:00) und 3 weitere",
+     "titel": "7 Ja-Fragen warten: ja knopf (bis 04.10. 12:00), ja vincent (bis 04.10. 12:00), ja ticket (bis 04.10. 12:00) und 4 weitere",
      "wer": "David oder Timo",
      "tun": "Im Claude-Chat „ja <Nr>“ schreiben, Liste in timo/JA_LISTE.md",
      "quelle": "timo/JA_LISTE.md"
@@ -324,12 +336,12 @@
    "id": "wer",
    "frage": "Wer arbeitet woran?",
    "ampel": "gruen",
-   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 179 Runden heute.",
+   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 183 Runden heute.",
    "saetze": [],
    "zeilen": [
     {
      "name": "David",
-     "text": "Nicht gemessen, weil David die Mac-Messung am 03.10. abgeschaltet hat. Auf David warten heute 3 Sachen (Karte 2).",
+     "text": "Nicht gemessen, weil David die Mac-Messung am 03.10. abgeschaltet hat. Auf David warten heute 4 Sachen (Karte 2).",
      "ampel": "grau"
     },
     {
@@ -339,7 +351,7 @@
     },
     {
      "name": "Claude",
-     "text": "179 Runden heute, alle 5 Minuten eine. Zuletzt: Shop-Spur-Aufgabe kaufseite6 korrigiert, Kaufknopf zeigt live Add to cart - $69.99 auch bei 2 …",
+     "text": "183 Runden heute, alle 5 Minuten eine. Zuletzt: sendefertige Absage an John liegt bereit, Ja 30 in JA_LISTE.md, damit er morgen nicht umsonst …",
      "ampel": "gruen"
     },
     {
@@ -354,10 +366,10 @@
    "id": "tempo",
    "frage": "Wie schnell geht es gerade?",
    "ampel": "gelb",
-   "kurz": "Letzte Stunde: 6 Runden, 2 davon mit fertigem Ergebnis.",
+   "kurz": "Letzte Stunde: 8 Runden, 3 davon mit fertigem Ergebnis.",
    "saetze": [
     "Den Gewinn heute wissen wir noch nicht, weil uns der Shopify-Zugang fehlt.",
-    "Fertig heißt noch nicht live: 7 Ja-Schritte warten auf euer Ja (Karte 2)."
+    "Fertig heißt noch nicht live: 8 Ja-Schritte warten auf euer Ja (Karte 2)."
    ],
    "zeilen": [
     {
@@ -372,7 +384,7 @@
     },
     {
      "name": "Runden, letzte Stunde",
-     "text": "6 Runden: 2 mit fertigem Ergebnis (Creative, Text oder Klickweg), 3 haben einen Menschen erinnert, 1 nur innen gearbeitet.",
+     "text": "8 Runden: 3 mit fertigem Ergebnis (Creative, Text oder Klickweg), 3 haben einen Menschen erinnert, 2 nur innen gearbeitet.",
      "ampel": "gelb"
     },
     {
@@ -419,7 +431,7 @@
     },
     {
      "name": "Runden",
-     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 6, davon 1 nur innen.",
+     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 8, davon 2 nur innen.",
      "ampel": "rot"
     }
    ]
@@ -429,7 +441,7 @@
    "id": "geld",
    "frage": "Wohin geht wann das Geld?",
    "ampel": "gelb",
-   "kurz": "Das meiste Geld geht an Meta: 20 USD am Tag, sobald die Anzeigen laufen.",
+   "kurz": "Das meiste Geld geht an Meta: 50 USD am Tag, sobald die Anzeigen laufen.",
    "saetze": [
     "Für jedes verkaufte Bett bekommt Bonnie 18,90 USD.",
     "Abos für Porchnap kosten rund 303,74 USD im Monat; bei 6 von 6 Abos fehlt uns noch Betrag oder Abbuchungstag. Dazu Liquidationsradar: rund 30,00 USD im Monat, soweit bekannt."
@@ -437,7 +449,7 @@
    "zeilen": [
     {
      "name": "Tag 1 bis 20 USD, Tag 2 bis 30 USD, ab Tag 3 bis zu 3 Kampagnen mit je 50 USD (150 USD am Tag)",
-     "text": "an Meta: 20 USD am Tag",
+     "text": "an Meta: 50 USD am Tag",
      "ampel": "gelb"
     },
     {
@@ -475,7 +487,7 @@
    "prio": 1,
    "block": "werkzeuge",
    "titel": "Perplexity ist rot",
-   "text": "letzter Lauf 14:56: LOGIN FEHLT: nach drei Versuchen ueber die ToolSuite-Kachel nicht angemeldet"
+   "text": "letzter Lauf 15:11: LOGIN FEHLT: nach drei Versuchen ueber die ToolSuite-Kachel nicht angemeldet; KALTSTART_NOETIG gesetzt, Recherche-Schlange pausiert; LIZENZ_NOETIG seit 04.10. 15:04 gesetzt, Recherche-Schlange pausiert"
   },
   {
    "prio": 1,
@@ -570,7 +582,7 @@
      "ampel": "grau",
      "detail": "76 Bilder, 32 Videos, neu seit Montag, 28.09., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
      "quelle": "Erstellzeit der Dateien in creatives/fertig, 05_creatives/ads, 05_creatives/ki/fertig",
-     "stand": "15:02",
+     "stand": "15:17",
      "ziel": null
     },
     {
@@ -630,7 +642,7 @@
      "ampel": "grau",
      "detail": "1 Zeile im Codeblock (Formatbeispiel) nicht gezählt. Steht dort eine echte Aufgabe, gehört sie aus dem Block heraus.",
      "quelle": "timo/OFFEN.md",
-     "stand": "15:02",
+     "stand": "15:17",
      "ziel": null
     },
     {
@@ -759,7 +771,7 @@
    "zeilen": [
     {
      "name": "Wächter, letzter Lauf",
-     "wert": "14:57",
+     "wert": "15:13",
      "ampel": "gruen",
      "detail": null,
      "quelle": "waechter_zustand.json",
@@ -772,13 +784,13 @@
      "name": "Takt-Schleife",
      "schluessel": "takt",
      "ampel": "gruen",
-     "text": "letzte Runde 14:49 (chef), rc=0, Runde laeuft seit 1 Min"
+     "text": "letzte Runde 15:08 (chef), rc=0"
     },
     {
      "name": "Perplexity",
      "schluessel": "perplexity",
      "ampel": "rot",
-     "text": "letzter Lauf 14:56: LOGIN FEHLT: nach drei Versuchen ueber die ToolSuite-Kachel nicht angemeldet"
+     "text": "letzter Lauf 15:11: LOGIN FEHLT: nach drei Versuchen ueber die ToolSuite-Kachel nicht angemeldet; KALTSTART_NOETIG gesetzt, Recherche-Schlange pausiert; LIZENZ_NOETIG seit 04.10. 15:04 gesetzt, Recherche-Schlange pausiert"
     },
     {
      "name": "Davids Chrome",
@@ -790,7 +802,7 @@
      "name": "Crosspost",
      "schluessel": "crosspost",
      "ampel": "gruen",
-     "text": "laeuft (pid 68376), Herzschlag vor 3 s, postet"
+     "text": "laeuft (pid 68376), Herzschlag vor 0 s, postet"
     },
     {
      "name": "Speicher",
@@ -802,13 +814,13 @@
      "name": "GitHub-Push",
      "schluessel": "github",
      "ampel": "gruen",
-     "text": "origin/main 5ed9edb vor 19 Min"
+     "text": "origin/main 4a926e4 vor 5 Min"
     },
     {
      "name": "WhatsApp Web",
      "schluessel": "whatsapp",
      "ampel": "gruen",
-     "text": "Chatliste gelesen (apple, 1 Zeilen), 1 von 6 Lieferanten sichtbar, nicht sichtbar: Bonnie DS, John (Supplier), Mr Anh, Vito DS, Joel DS"
+     "text": "Chatliste gelesen (apple, 1 Zeilen), 0 von 6 Lieferanten sichtbar, nicht sichtbar: Bonnie DS, John (Supplier), Adam DS, Mr Anh, Vito DS, Joel DS"
     },
     {
      "name": "Shopify",
@@ -826,7 +838,7 @@
      "name": "Ereignis-Sensor",
      "schluessel": "ereignisse",
      "ampel": "gruen",
-     "text": "letzter Lauf 14:57, 0 offene Ereignisse"
+     "text": "letzter Lauf 15:13, 0 offene Ereignisse"
     },
     {
      "name": "Chrome auf Timos PC",
@@ -843,7 +855,7 @@
    "zeilen": [
     {
      "name": "Werbung bei Meta",
-     "wert": "20 USD am Tag",
+     "wert": "50 USD am Tag",
      "ampel": "gelb",
      "detail": "Tag 1 bis 20 USD, Tag 2 bis 30 USD, ab Tag 3 bis zu 3 Kampagnen mit je 50 USD (150 USD am Tag). Wann Meta die Karte belastet, wissen wir noch nicht, weil die Zahlungsschwelle im BM3 noch nicht gelesen ist (K4). Zahlt: Karte im Werbekonto BM3.",
      "quelle": "David 03.10.2026 19:35 \"ja\" zum Kursweg (12_SKALIEREN_LAUT_KURS.md; Ecomwarts 2026 Regeln-Lektion und L080)",
