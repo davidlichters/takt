@@ -1762,5 +1762,12 @@
 "typ": "chef",
 "titel": "Werbekonto zeigt falsches Konto",
 "satz": "Ich habe gesehen, dass Timos Werbung das falsche Konto benutzt und nicht läuft."
+},
+{
+"tag": "2026-10-04",
+"zeit": "02:30",
+"typ": "chef",
+"titel": "Laden noch nicht offen",
+"satz": "Ich habe geprüft und es sind noch viele Fragen bis Mittag offen."
 }
 ]
