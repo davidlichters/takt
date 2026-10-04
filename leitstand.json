@@ -1,7 +1,7 @@
 {
  "version": 2,
- "stand": "2026-10-04T08:02:05Z",
- "stand_berlin": "04.10.2026 10:02",
+ "stand": "2026-10-04T08:17:05Z",
+ "stand_berlin": "04.10.2026 10:17",
  "takt_min": 15,
  "quelle": "takt/leitstand_bauen.py auf Davids Mac, ohne Modell",
  "ziele": {
@@ -38,12 +38,12 @@
     },
     {
      "name": "Creatives",
-     "text": "Heute 21 neue Bilder oder Videos gebaut, diese Woche 91. Das neueste: PN_GRAY_4x5.png um 10:02. Wie viele davon live sind, wissen wir nicht.",
+     "text": "Heute 24 neue Bilder oder Videos gebaut, diese Woche 94. Das neueste: PN_SECRET_4x5.png um 10:16. Wie viele davon live sind, wissen wir nicht.",
      "ampel": "gruen"
     },
     {
      "name": "Recherche",
-     "text": "Perplexity hat heute 27 Fragen beantwortet, die letzte um 09:31. Die letzten 2 Versuche kamen ohne Antwort zurück.",
+     "text": "Perplexity hat heute 28 Fragen beantwortet, die letzte um 10:02.",
      "ampel": "gruen"
     },
     {
@@ -53,7 +53,7 @@
     },
     {
      "name": "Chef-Runde",
-     "text": "Um 09:50: neues fertiges Static C64 PN_SEEN_4x5 mit bisher ungenutztem Hook 29 (made to be hidden, made to be seen) …",
+     "text": "Um 10:15: neues fertiges Static C68 PN_SECRET_4x5 mit bisher ungenutztem Hook 31 (Christmas card, dog stays in the …",
      "ampel": "gruen"
     }
    ]
@@ -163,7 +163,7 @@
      "wer": "Timo",
      "tun": null,
      "bis": "10:10",
-     "vorbei": false,
+     "vorbei": true,
      "stufe": 1,
      "ja": []
     },
@@ -175,7 +175,7 @@
      "wer": "Timo",
      "tun": "Legt in 2 Minuten den Testcode an",
      "bis": "10:10",
-     "vorbei": false,
+     "vorbei": true,
      "stufe": 1,
      "ja": []
     },
@@ -243,7 +243,7 @@
      "wer": "Timo",
      "tun": null,
      "bis": "10:15",
-     "vorbei": false,
+     "vorbei": true,
      "stufe": 4,
      "ja": []
     },
@@ -466,7 +466,7 @@
    "id": "wer",
    "frage": "Wer arbeitet woran?",
    "ampel": "gruen",
-   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 127 Runden heute.",
+   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 132 Runden heute.",
    "saetze": [],
    "zeilen": [
     {
@@ -481,7 +481,7 @@
     },
     {
      "name": "Claude",
-     "text": "127 Runden heute, alle 5 Minuten eine. Zuletzt: neues fertiges Static C64 PN_SEEN_4x5 mit bisher ungenutztem Hook 29 (made to be hidden, made …",
+     "text": "132 Runden heute, alle 5 Minuten eine. Zuletzt: neues fertiges Static C68 PN_SECRET_4x5 mit bisher ungenutztem Hook 31 (Christmas card, dog …",
      "ampel": "gruen"
     },
     {
@@ -496,7 +496,7 @@
    "id": "tempo",
    "frage": "Wie schnell geht es gerade?",
    "ampel": "gelb",
-   "kurz": "Letzte Stunde: 12 Runden, 3 davon mit fertigem Ergebnis.",
+   "kurz": "Letzte Stunde: 12 Runden, 7 davon mit fertigem Ergebnis.",
    "saetze": [
     "Den Gewinn heute wissen wir noch nicht, weil uns der Shopify-Zugang fehlt.",
     "Fertig heißt noch nicht live: 10 Ja-Schritte warten auf euer Ja (Karte 2)."
@@ -514,7 +514,7 @@
     },
     {
      "name": "Runden, letzte Stunde",
-     "text": "12 Runden: 3 mit fertigem Ergebnis (Creative, Text oder Klickweg), 5 haben einen Menschen erinnert, 4 nur innen gearbeitet.",
+     "text": "12 Runden: 7 mit fertigem Ergebnis (Creative, Text oder Klickweg), 2 haben einen Menschen erinnert, 3 nur innen gearbeitet.",
      "ampel": "gelb"
     },
     {
@@ -524,7 +524,7 @@
     },
     {
      "name": "Neu gebaut heute",
-     "text": "21 Bilder und Videos für Anzeigen.",
+     "text": "24 Bilder und Videos für Anzeigen.",
      "ampel": "gruen"
     }
    ]
@@ -534,9 +534,9 @@
    "id": "soll",
    "frage": "Wie schnell sollte es gehen?",
    "ampel": "gelb",
-   "kurz": "Wir schaffen 0 von 5 Zielen.",
+   "kurz": "Wir schaffen 1 von 5 Zielen.",
    "saetze": [
-    "1 verfehlen wir gerade. 4 messen wir noch nicht."
+    "4 messen wir noch nicht."
    ],
    "zeilen": [
     {
@@ -561,8 +561,8 @@
     },
     {
      "name": "Runden",
-     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 12, davon 4 nur innen.",
-     "ampel": "rot"
+     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 12, davon 3 nur innen.",
+     "ampel": "gruen"
     }
    ]
   },
@@ -690,11 +690,11 @@
    "zeilen": [
     {
      "name": "Gebaut diese Woche",
-     "wert": "91 Dateien",
+     "wert": "94 Dateien",
      "ampel": "grau",
-     "detail": "59 Bilder, 32 Videos, neu seit Montag, 28.09., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
+     "detail": "62 Bilder, 32 Videos, neu seit Montag, 28.09., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
      "quelle": "Erstellzeit der Dateien in creatives/fertig, 05_creatives/ads, 05_creatives/ki/fertig",
-     "stand": "10:02",
+     "stand": "10:17",
      "ziel": null
     },
     {
@@ -707,7 +707,7 @@
      "ziel": "3 bis 5 je Woche"
     }
    ],
-   "zahl_gebaut": 91
+   "zahl_gebaut": 94
   },
   {
    "id": "menschen",
@@ -754,7 +754,7 @@
      "ampel": "grau",
      "detail": "1 Zeile im Codeblock (Formatbeispiel) nicht gezählt. Steht dort eine echte Aufgabe, gehört sie aus dem Block heraus.",
      "quelle": "timo/OFFEN.md",
-     "stand": "10:02",
+     "stand": "10:17",
      "ziel": null
     },
     {
@@ -883,7 +883,7 @@
    "zeilen": [
     {
      "name": "Wächter, letzter Lauf",
-     "wert": "10:01",
+     "wert": "10:16",
      "ampel": "gruen",
      "detail": null,
      "quelle": "waechter_zustand.json",
@@ -896,13 +896,13 @@
      "name": "Takt-Schleife",
      "schluessel": "takt",
      "ampel": "gruen",
-     "text": "letzte Runde 09:55 (chef), rc=0, Runde laeuft seit 1 Min"
+     "text": "letzte Runde 10:16 (chef), rc=0"
     },
     {
      "name": "Perplexity",
      "schluessel": "perplexity",
      "ampel": "gruen",
-     "text": "Gins laeuft; letzter Lauf 09:44 ohne Antwortdatei: nach 12 Minuten nicht fertig"
+     "text": "Gins laeuft; letzter Lauf 10:02 ohne Antwortdatei: nach 12 Minuten nicht fertig"
     },
     {
      "name": "Davids Chrome",
@@ -914,7 +914,7 @@
      "name": "Crosspost",
      "schluessel": "crosspost",
      "ampel": "gruen",
-     "text": "laeuft (pid 61877), Herzschlag vor 1 s, Trockenlauf ohne AKTIV, letzter Fehler: 2026-10-03T21:37:30.732Z keine Videos in der Antwort: {\"extr"
+     "text": "laeuft (pid 61877), Herzschlag vor 10 s, Trockenlauf ohne AKTIV, letzter Fehler: 2026-10-03T21:37:30.732Z keine Videos in der Antwort: {\"extr"
     },
     {
      "name": "Speicher",
@@ -926,7 +926,7 @@
      "name": "GitHub-Push",
      "schluessel": "github",
      "ampel": "gruen",
-     "text": "origin/main 080ca8e vor 0 Min"
+     "text": "origin/main f667ba3 vor 0 Min"
     },
     {
      "name": "WhatsApp Web",
@@ -950,7 +950,7 @@
      "name": "Ereignis-Sensor",
      "schluessel": "ereignisse",
      "ampel": "gruen",
-     "text": "letzter Lauf 10:01, 0 offene Ereignisse"
+     "text": "letzter Lauf 10:16, 0 offene Ereignisse"
     },
     {
      "name": "Chrome auf Timos PC",
