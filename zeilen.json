@@ -2798,5 +2798,12 @@
 "typ": "chef",
 "titel": "Zweites Produkt für Dezember geprüft",
 "satz": "Ich habe die Zahlen für das zweite Produkt berechnet und du musst jetzt entscheiden."
+},
+{
+"tag": "2026-10-04",
+"zeit": "16:03",
+"typ": "chef",
+"titel": "Preis und Sterne für Laden neu",
+"satz": "Ich habe zwei neue Sachen für den Laden gemacht, damit mehr Kunden kaufen."
 }
 ]
