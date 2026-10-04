@@ -2070,5 +2070,12 @@
 "typ": "chef",
 "titel": "Startseite zeigt Geld zurück",
 "satz": "Ich habe auf der Startseite geschrieben: Kunden bekommen Geld zurück, kein Wenn und Aber."
+},
+{
+"tag": "2026-10-04",
+"zeit": "06:00",
+"typ": "recherche",
+"titel": "Zwei Antworten gelesen, keine passen",
+"satz": "Ich habe zwei Antworten zu Zahlung und Versand gelesen, aber keine bringen extra Geld."
 }
 ]
