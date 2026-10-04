@@ -1,7 +1,7 @@
 {
  "version": 2,
- "stand": "2026-10-04T17:02:05Z",
- "stand_berlin": "04.10.2026 19:02",
+ "stand": "2026-10-04T17:17:05Z",
+ "stand_berlin": "04.10.2026 19:17",
  "takt_min": 15,
  "quelle": "takt/leitstand_bauen.py auf Davids Mac, ohne Modell",
  "ziele": {
@@ -38,12 +38,12 @@
     },
     {
      "name": "Creatives",
-     "text": "Heute 42 neue Bilder oder Videos gebaut, diese Woche 112. Das neueste: PN_CLIMB_4x5.png um 18:48. Wie viele davon live sind, wissen wir nicht.",
+     "text": "Heute 43 neue Bilder oder Videos gebaut, diese Woche 113. Das neueste: PN_SAIDNO_4x5.png um 19:15. Wie viele davon live sind, wissen wir nicht.",
      "ampel": "gruen"
     },
     {
      "name": "Recherche",
-     "text": "Perplexity hat heute 72 Fragen beantwortet, die letzte um 18:55.",
+     "text": "Perplexity hat heute 75 Fragen beantwortet, die letzte um 19:13.",
      "ampel": "gruen"
     },
     {
@@ -53,7 +53,7 @@
     },
     {
      "name": "Chef-Runde",
-     "text": "Um 18:47: neues Werbebild C86 PN_CLIMB fertig (Tree Cave, Does your cat climb the Christmas tree). Ereignis: LUECKE-7 …",
+     "text": "Um 19:14: neues Werbebild C87 PN_SAIDNO fertig, KUNDE-4 als Aussage statt Weiterleit-Bitte, Reindeer-Foto, Angaben wie …",
      "ampel": "gruen"
     }
    ]
@@ -329,8 +329,8 @@
     {
      "prio": 2,
      "block": "geld",
-     "titel": "4 von 5 Geldzahlen fehlen",
-     "text": "Kein Meta-Zugang und kein Shopify-Token. veraltet oder verworfen: Anzeigen aktiv. Niemand sieht hier, ob Anzeigen laufen und Geld kommt. Abhilfe: keine Aufgabe fuer David oder Timo (David 04.10. 14:20: Meta, BM3, Karte nie erinnern); Claude liest Zahlen, sobald sie da sind. Bis dahin trägt ein Chat gemessene Werte ein: takt/leitstand_bauen.py --eintragen.",
+     "titel": "Keine frische Zahl zu Anzeigen und Geld",
+     "text": "Kein Meta-Zugang und kein Shopify-Token. veraltet oder verworfen: Anzeigen aktiv, Bestellungen heute. Niemand sieht hier, ob Anzeigen laufen und Geld kommt. Abhilfe: keine Aufgabe fuer David oder Timo (David 04.10. 14:20: Meta, BM3, Karte nie erinnern); Claude liest Zahlen, sobald sie da sind. Bis dahin trägt ein Chat gemessene Werte ein: takt/leitstand_bauen.py --eintragen.",
      "wer": "Timo",
      "tun": "Einmal den Shopify-Schlüssel (5 min) und den Meta-Zugang (10 min) anlegen, Plan Abschnitt 3"
     }
@@ -341,7 +341,7 @@
    "id": "wer",
    "frage": "Wer arbeitet woran?",
    "ampel": "gruen",
-   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 197 Runden heute.",
+   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 199 Runden heute.",
    "saetze": [],
    "zeilen": [
     {
@@ -356,7 +356,7 @@
     },
     {
      "name": "Claude",
-     "text": "197 Runden heute, alle 5 Minuten eine. Zuletzt: neues Werbebild C86 PN_CLIMB fertig (Tree Cave, Does your cat climb the Christmas tree) …",
+     "text": "199 Runden heute, alle 5 Minuten eine. Zuletzt: neues Werbebild C87 PN_SAIDNO fertig, KUNDE-4 als Aussage statt Weiterleit-Bitte …",
      "ampel": "gruen"
     },
     {
@@ -371,7 +371,7 @@
    "id": "tempo",
    "frage": "Wie schnell geht es gerade?",
    "ampel": "gruen",
-   "kurz": "Letzte Stunde: 4 Runden, 3 davon mit fertigem Ergebnis.",
+   "kurz": "Letzte Stunde: 5 Runden, 4 davon mit fertigem Ergebnis.",
    "saetze": [
     "Den Gewinn heute wissen wir noch nicht, weil uns der Shopify-Zugang fehlt.",
     "Fertig heißt noch nicht live: 9 Ja-Schritte warten auf euer Ja (Karte 2)."
@@ -384,12 +384,12 @@
     },
     {
      "name": "Bestellungen heute",
-     "text": "0 (gemessen 13:06).",
+     "text": "Wissen wir noch nicht, weil uns der Shopify-Zugang fehlt.",
      "ampel": "grau"
     },
     {
      "name": "Runden, letzte Stunde",
-     "text": "4 Runden: 3 mit fertigem Ergebnis (Creative, Text oder Klickweg), 0 haben einen Menschen erinnert, 1 nur innen gearbeitet.",
+     "text": "5 Runden: 4 mit fertigem Ergebnis (Creative, Text oder Klickweg), 0 haben einen Menschen erinnert, 1 nur innen gearbeitet.",
      "ampel": "gruen"
     },
     {
@@ -399,7 +399,7 @@
     },
     {
      "name": "Neu gebaut heute",
-     "text": "42 Bilder und Videos für Anzeigen.",
+     "text": "43 Bilder und Videos für Anzeigen.",
      "ampel": "gruen"
     }
    ]
@@ -436,7 +436,7 @@
     },
     {
      "name": "Runden",
-     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 4, davon 1 nur innen.",
+     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 5, davon 1 nur innen.",
      "ampel": "rot"
     }
    ]
@@ -485,8 +485,8 @@
   {
    "prio": 2,
    "block": "geld",
-   "titel": "4 von 5 Geldzahlen fehlen",
-   "text": "Kein Meta-Zugang und kein Shopify-Token. veraltet oder verworfen: Anzeigen aktiv. Niemand sieht hier, ob Anzeigen laufen und Geld kommt. Abhilfe: keine Aufgabe fuer David oder Timo (David 04.10. 14:20: Meta, BM3, Karte nie erinnern); Claude liest Zahlen, sobald sie da sind. Bis dahin trägt ein Chat gemessene Werte ein: takt/leitstand_bauen.py --eintragen."
+   "titel": "Keine frische Zahl zu Anzeigen und Geld",
+   "text": "Kein Meta-Zugang und kein Shopify-Token. veraltet oder verworfen: Anzeigen aktiv, Bestellungen heute. Niemand sieht hier, ob Anzeigen laufen und Geld kommt. Abhilfe: keine Aufgabe fuer David oder Timo (David 04.10. 14:20: Meta, BM3, Karte nie erinnern); Claude liest Zahlen, sobald sie da sind. Bis dahin trägt ein Chat gemessene Werte ein: takt/leitstand_bauen.py --eintragen."
   }
  ],
  "bloecke": [
@@ -531,9 +531,9 @@
    "zeilen": [
     {
      "name": "Bestellungen heute",
-     "wert": "0",
+     "wert": "veraltet",
      "ampel": "grau",
-     "detail": null,
+     "detail": "letzte Messung 13:06, älter als 6 h: damals 0",
      "quelle": "Shopify graphql ordersCount created_at>=2026-10-01, 04.10. 13:07 Chef",
      "stand": "13:06",
      "ziel": null
@@ -565,11 +565,11 @@
    "zeilen": [
     {
      "name": "Gebaut diese Woche",
-     "wert": "112 Dateien",
+     "wert": "113 Dateien",
      "ampel": "grau",
-     "detail": "80 Bilder, 32 Videos, neu seit Montag, 28.09., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
+     "detail": "81 Bilder, 32 Videos, neu seit Montag, 28.09., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
      "quelle": "Erstellzeit der Dateien in creatives/fertig, 05_creatives/ads, 05_creatives/ki/fertig",
-     "stand": "19:02",
+     "stand": "19:17",
      "ziel": null
     },
     {
@@ -582,7 +582,7 @@
      "ziel": "3 bis 5 je Woche"
     }
    ],
-   "zahl_gebaut": 112
+   "zahl_gebaut": 113
   },
   {
    "id": "menschen",
@@ -629,7 +629,7 @@
      "ampel": "grau",
      "detail": "1 Zeile im Codeblock (Formatbeispiel) nicht gezählt. Steht dort eine echte Aufgabe, gehört sie aus dem Block heraus.",
      "quelle": "timo/OFFEN.md",
-     "stand": "19:02",
+     "stand": "19:17",
      "ziel": null
     },
     {
@@ -758,7 +758,7 @@
    "zeilen": [
     {
      "name": "Wächter, letzter Lauf",
-     "wert": "19:01",
+     "wert": "19:11",
      "ampel": "gruen",
      "detail": null,
      "quelle": "waechter_zustand.json",
@@ -771,13 +771,13 @@
      "name": "Takt-Schleife",
      "schluessel": "takt",
      "ampel": "gruen",
-     "text": "letzte Runde 18:48 (chef), rc=0"
+     "text": "letzte Runde 19:08 (chef), rc=0"
     },
     {
      "name": "Perplexity",
      "schluessel": "perplexity",
      "ampel": "gruen",
-     "text": "Gins laeuft; letzter Lauf 18:55 ohne Antwortdatei: Absenden: Perplexity meldet 1x \"Unable to start session\" (Ko"
+     "text": "letzter Lauf 19:05 erfolgreich, Gins laeuft"
     },
     {
      "name": "Davids Chrome",
@@ -789,7 +789,7 @@
      "name": "Crosspost",
      "schluessel": "crosspost",
      "ampel": "gruen",
-     "text": "laeuft (pid 34390), Herzschlag vor 11 s, postet, letzter Fehler: 2026-10-04T15:48:25.617Z keine Videos in der Antwort: {\"log_"
+     "text": "laeuft (pid 34390), Herzschlag vor 3 s, postet, letzter Fehler: 2026-10-04T15:48:25.617Z keine Videos in der Antwort: {\"log_"
     },
     {
      "name": "Speicher",
@@ -801,7 +801,7 @@
      "name": "GitHub-Push",
      "schluessel": "github",
      "ampel": "gruen",
-     "text": "origin/main 6349306 vor 13 Min"
+     "text": "origin/main 1a180ca vor 3 Min"
     },
     {
      "name": "WhatsApp Web",
@@ -825,7 +825,7 @@
      "name": "Ereignis-Sensor",
      "schluessel": "ereignisse",
      "ampel": "gruen",
-     "text": "letzter Lauf 19:01, 0 offene Ereignisse"
+     "text": "letzter Lauf 19:11, 0 offene Ereignisse"
     },
     {
      "name": "Chrome auf Timos PC",
