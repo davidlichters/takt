@@ -1,7 +1,7 @@
 {
  "version": 2,
- "stand": "2026-10-04T12:32:05Z",
- "stand_berlin": "04.10.2026 14:32",
+ "stand": "2026-10-04T12:47:03Z",
+ "stand_berlin": "04.10.2026 14:47",
  "takt_min": 15,
  "quelle": "takt/leitstand_bauen.py auf Davids Mac, ohne Modell",
  "ziele": {
@@ -48,12 +48,12 @@
     },
     {
      "name": "Technik",
-     "text": "Der Wächter prüft alle 5 Minuten 10 Werkzeuge: 7 gehen, 1 kaputt (Takt-Schleife), 2 warten auf Zugang oder sind aus (Shopify, Meta). 1 weiteres prüft er noch nicht.",
+     "text": "Der Wächter prüft alle 5 Minuten 10 Werkzeuge: 6 gehen, 1 kaputt (Davids Chrome), 3 warten auf Zugang oder sind aus (WhatsApp Web, Shopify, Meta). 1 weiteres prüft er noch nicht.",
      "ampel": "rot"
     },
     {
      "name": "Chef-Runde",
-     "text": "Um 14:11: Shop meldet Käufe weiter an den alten Datensatz 2238698946672438, Timo verbindet den neuen BM3-Datensatz vor …",
+     "text": "Um 14:35: Ja 21 Produkt-Schema, Ja 22 Klarna-Zeichen weg und Ja 27 About-Garantie live nachgemessen und als erledigt …",
      "ampel": "gruen"
     }
    ]
@@ -256,7 +256,7 @@
      "wer": "David",
      "tun": "Lässt seinen Shop-Chat (Shopify frei, kein Ja nötig) Ja 15 umsetzen",
      "bis": "14:45",
-     "vorbei": false,
+     "vorbei": true,
      "stufe": 5,
      "ja": [
       15,
@@ -300,15 +300,15 @@
     {
      "prio": 1,
      "block": "werkzeuge",
-     "titel": "Takt-Schleife ist kaputt",
-     "text": "letzte Runde endete 14:13, vor 18 Min, seitdem keine",
+     "titel": "Davids Chrome ist kaputt",
+     "text": "Davids eigenes Chrome laeuft nicht",
      "wer": "Claude (Technik)",
-     "tun": "Reparieren. Grund: letzte Runde endete 14:13, vor 18 Min, seitdem keine"
+     "tun": "Reparieren. Grund: Davids eigenes Chrome laeuft nicht"
     },
     {
      "prio": 1.5,
      "block": "ja",
-     "titel": "9 Ja-Fragen warten: ja knopf (bis 04.10. 12:00), ja vincent (bis 04.10. 12:00), ja schema (bis 04.10. 12:00) und 6 weitere",
+     "titel": "6 Ja-Fragen warten: ja knopf (bis 04.10. 12:00), ja vincent (bis 04.10. 12:00), ja ticket (bis 04.10. 12:00) und 3 weitere",
      "wer": "David oder Timo",
      "tun": "Im Claude-Chat „ja <Nr>“ schreiben, Liste in timo/JA_LISTE.md",
      "quelle": "timo/JA_LISTE.md"
@@ -328,7 +328,7 @@
    "id": "wer",
    "frage": "Wer arbeitet woran?",
    "ampel": "gruen",
-   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 175 Runden heute.",
+   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 177 Runden heute.",
    "saetze": [],
    "zeilen": [
     {
@@ -343,7 +343,7 @@
     },
     {
      "name": "Claude",
-     "text": "175 Runden heute, alle 5 Minuten eine. Zuletzt: Shop meldet Käufe weiter an den alten Datensatz 2238698946672438, Timo verbindet den neuen …",
+     "text": "177 Runden heute, alle 5 Minuten eine. Zuletzt: Ja 21 Produkt-Schema, Ja 22 Klarna-Zeichen weg und Ja 27 About-Garantie live nachgemessen und …",
      "ampel": "gruen"
     },
     {
@@ -358,10 +358,10 @@
    "id": "tempo",
    "frage": "Wie schnell geht es gerade?",
    "ampel": "gelb",
-   "kurz": "Letzte Stunde: 5 Runden, 0 davon mit fertigem Ergebnis.",
+   "kurz": "Letzte Stunde: 5 Runden, 1 davon mit fertigem Ergebnis.",
    "saetze": [
     "Den Gewinn heute wissen wir noch nicht, weil uns der Shopify-Zugang fehlt.",
-    "Fertig heißt noch nicht live: 10 Ja-Schritte warten auf euer Ja (Karte 2)."
+    "Fertig heißt noch nicht live: 7 Ja-Schritte warten auf euer Ja (Karte 2)."
    ],
    "zeilen": [
     {
@@ -376,12 +376,12 @@
     },
     {
      "name": "Runden, letzte Stunde",
-     "text": "5 Runden: 0 mit fertigem Ergebnis (Creative, Text oder Klickweg), 4 haben einen Menschen erinnert, 1 nur innen gearbeitet.",
+     "text": "5 Runden: 1 mit fertigem Ergebnis (Creative, Text oder Klickweg), 3 haben einen Menschen erinnert, 1 nur innen gearbeitet.",
      "ampel": "gelb"
     },
     {
      "name": "Erledigt heute",
-     "text": "0 in OFFEN.md als erledigt eingetragen, 1 Ja-Schritt erledigt.",
+     "text": "0 in OFFEN.md als erledigt eingetragen, 2 Ja-Schritte erledigt.",
      "ampel": "gruen"
     },
     {
@@ -478,8 +478,8 @@
   {
    "prio": 1,
    "block": "werkzeuge",
-   "titel": "Takt-Schleife ist rot",
-   "text": "letzte Runde endete 14:13, vor 18 Min, seitdem keine"
+   "titel": "Davids Chrome ist rot",
+   "text": "Davids eigenes Chrome laeuft nicht"
   },
   {
    "prio": 2,
@@ -568,7 +568,7 @@
      "ampel": "grau",
      "detail": "76 Bilder, 32 Videos, neu seit Montag, 28.09., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
      "quelle": "Erstellzeit der Dateien in creatives/fertig, 05_creatives/ads, 05_creatives/ki/fertig",
-     "stand": "14:32",
+     "stand": "14:47",
      "ziel": null
     },
     {
@@ -628,7 +628,7 @@
      "ampel": "grau",
      "detail": "1 Zeile im Codeblock (Formatbeispiel) nicht gezählt. Steht dort eine echte Aufgabe, gehört sie aus dem Block heraus.",
      "quelle": "timo/OFFEN.md",
-     "stand": "14:32",
+     "stand": "14:47",
      "ziel": null
     },
     {
@@ -757,7 +757,7 @@
    "zeilen": [
     {
      "name": "Wächter, letzter Lauf",
-     "wert": "14:31",
+     "wert": "14:41",
      "ampel": "gruen",
      "detail": null,
      "quelle": "waechter_zustand.json",
@@ -769,8 +769,8 @@
     {
      "name": "Takt-Schleife",
      "schluessel": "takt",
-     "ampel": "rot",
-     "text": "letzte Runde endete 14:13, vor 18 Min, seitdem keine"
+     "ampel": "gruen",
+     "text": "letzte Runde 14:37 (chef), rc=0"
     },
     {
      "name": "Perplexity",
@@ -781,14 +781,14 @@
     {
      "name": "Davids Chrome",
      "schluessel": "chrome",
-     "ampel": "gruen",
-     "text": "laeuft seit 03.10. 14:33, Crosspost-Chrome seit 15:17; WhatsApp-Alarme gehen per PID an Davids Chrome"
+     "ampel": "rot",
+     "text": "Davids eigenes Chrome laeuft nicht"
     },
     {
      "name": "Crosspost",
      "schluessel": "crosspost",
      "ampel": "gruen",
-     "text": "laeuft (pid 61877), Herzschlag vor 7 s, postet, letzter Fehler: 2026-10-04T12:00:24.548Z keine Videos in der Antwort: {\"log_"
+     "text": "laeuft (pid 68376), Herzschlag vor 0 s, postet, letzter Fehler: 2026-10-04T12:00:24.548Z keine Videos in der Antwort: {\"log_"
     },
     {
      "name": "Speicher",
@@ -800,13 +800,13 @@
      "name": "GitHub-Push",
      "schluessel": "github",
      "ampel": "gruen",
-     "text": "origin/main df6b123 vor 18 Min"
+     "text": "origin/main 5ed9edb vor 4 Min"
     },
     {
      "name": "WhatsApp Web",
      "schluessel": "whatsapp",
-     "ampel": "gruen",
-     "text": "Chatliste gelesen (apple, 12 Zeilen), 6 von 6 Lieferanten sichtbar"
+     "ampel": "grau",
+     "text": "WhatsApp-Kanal nicht bereit (kein_apple): Davids Chrome antwortet nicht auf Apple Events: Google Chrome is not running (Davids eigenes Chrome laeuft nicht) (Stoerung 1 von 10, noch kein Werkzeug-Problem)"
     },
     {
      "name": "Shopify",
@@ -824,7 +824,7 @@
      "name": "Ereignis-Sensor",
      "schluessel": "ereignisse",
      "ampel": "gruen",
-     "text": "letzter Lauf 14:31, 0 offene Ereignisse"
+     "text": "letzter Lauf 14:41, 0 offene Ereignisse"
     },
     {
      "name": "Chrome auf Timos PC",
