@@ -1986,5 +1986,12 @@
 "typ": "chef",
 "titel": "Seite für Geld zurück fertig",
 "satz": "Ich habe die Seite geschrieben, damit Kunden wissen, wie sie ihr Geld zurückbekommen."
+},
+{
+"tag": "2026-10-04",
+"zeit": "05:00",
+"typ": "recherche",
+"titel": "Knopf wird nicht gebaut",
+"satz": "Ich habe aufgeschrieben, warum das nicht genug Geld bringt, und drei Fragen gestellt."
 }
 ]
