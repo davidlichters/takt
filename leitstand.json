@@ -1,7 +1,7 @@
 {
  "version": 2,
- "stand": "2026-10-04T12:17:05Z",
- "stand_berlin": "04.10.2026 14:17",
+ "stand": "2026-10-04T12:32:05Z",
+ "stand_berlin": "04.10.2026 14:32",
  "takt_min": 15,
  "quelle": "takt/leitstand_bauen.py auf Davids Mac, ohne Modell",
  "ziele": {
@@ -48,8 +48,8 @@
     },
     {
      "name": "Technik",
-     "text": "Der Wächter prüft alle 5 Minuten 10 Werkzeuge: 8 gehen, 2 warten auf Zugang oder sind aus (Shopify, Meta). 1 weiteres prüft er noch nicht.",
-     "ampel": "gruen"
+     "text": "Der Wächter prüft alle 5 Minuten 10 Werkzeuge: 7 gehen, 1 kaputt (Takt-Schleife), 2 warten auf Zugang oder sind aus (Shopify, Meta). 1 weiteres prüft er noch nicht.",
+     "ampel": "rot"
     },
     {
      "name": "Chef-Runde",
@@ -63,7 +63,7 @@
    "id": "auf",
    "frage": "Was hält uns auf?",
    "ampel": "rot",
-   "kurz": "40 Dinge halten uns auf.",
+   "kurz": "21 Dinge halten uns auf.",
    "saetze": [
     "Bei jedem steht, wer es tun muss. Oben steht das, was am meisten Geld kostet."
    ],
@@ -73,31 +73,7 @@
      "prio": 0,
      "block": "eskalation",
      "quelle": "gedaechtnis/OFFEN.md",
-     "titel": "Timo klickt den BM3-Klickweg aus ~/timo/launch/coach_2026-10-03/11_BM3_HEUTE_TIMO.md (Frist war …",
-     "wer": "Timo",
-     "tun": null,
-     "bis": "07:30",
-     "vorbei": true,
-     "stufe": 1,
-     "ja": []
-    },
-    {
-     "prio": 0,
-     "block": "eskalation",
-     "quelle": "gedaechtnis/OFFEN.md",
      "titel": "Timo oder David schaut 3 Minuten nach, wer bei Shopify Payments als Kontoverantwortlicher steht …",
-     "wer": "Timo",
-     "tun": null,
-     "bis": "07:30",
-     "vorbei": true,
-     "stufe": 1,
-     "ja": []
-    },
-    {
-     "prio": 0,
-     "block": "eskalation",
-     "quelle": "gedaechtnis/OFFEN.md",
-     "titel": "im BM3-Klickweg Schritt 4 (~/timo/launch/coach_2026-10-03/11_BM3_HEUTE_TIMO.md:138) den NEUEN …",
      "wer": "Timo",
      "tun": null,
      "bis": "07:30",
@@ -121,104 +97,6 @@
      "prio": 0,
      "block": "eskalation",
      "quelle": "gedaechtnis/OFFEN.md",
-     "titel": "Timo oder David liest in 3 Minuten ab, wer bei Shopify Payments als Kontoverantwortlicher steht …",
-     "wer": "Timo",
-     "tun": null,
-     "bis": "09:30",
-     "vorbei": true,
-     "stufe": 1,
-     "ja": []
-    },
-    {
-     "prio": 0,
-     "block": "eskalation",
-     "quelle": "gedaechtnis/OFFEN.md",
-     "titel": "Timo verbindet in 20 Minuten im BM3-Klickweg Schritt 4 (~/timo/launch/coach_2026-10-03/11_BM3_HEUTE_ …",
-     "wer": "Timo",
-     "tun": null,
-     "bis": "09:35",
-     "vorbei": true,
-     "stufe": 1,
-     "ja": []
-    },
-    {
-     "prio": 0,
-     "block": "eskalation",
-     "quelle": "gedaechtnis/OFFEN.md",
-     "titel": "Timo hinterlegt in 5 Minuten im BM3-Werbekonto die Karte und setzt das Kontolimit auf 600 USD …",
-     "wer": "Timo",
-     "tun": null,
-     "bis": "10:10",
-     "vorbei": true,
-     "stufe": 1,
-     "ja": []
-    },
-    {
-     "prio": 0,
-     "block": "eskalation",
-     "quelle": "gedaechtnis/OFFEN.md",
-     "titel": "Timo macht den Testkauf (1 Bett, Karte, danach im Admin voll erstatten) jetzt in 10 Minuten …",
-     "wer": "Timo",
-     "tun": null,
-     "bis": "13:10",
-     "vorbei": true,
-     "stufe": 1,
-     "ja": []
-    },
-    {
-     "prio": 0,
-     "block": "eskalation",
-     "quelle": "gedaechtnis/OFFEN.md",
-     "titel": "Testcode PNTEST95 (Testkauf 3,50 statt 69,99 USD), Warenkorb \"Free US shipping on every order\" …",
-     "wer": "David",
-     "tun": "Schreibt in seinem Mac-Chat \"ja spur3 alle\", 1 Minute, dann schaltet der Chat das fertige Bündel aus …",
-     "bis": "13:55",
-     "vorbei": true,
-     "stufe": 1,
-     "ja": []
-    },
-    {
-     "prio": 0,
-     "block": "eskalation",
-     "quelle": "gedaechtnis/OFFEN.md",
-     "titel": "Timo hinterlegt im BM3-Werbekonto die Karte und setzt das Kontolimit auf 600 USD, 5 Minuten …",
-     "wer": "Timo",
-     "tun": null,
-     "bis": "14:15",
-     "vorbei": true,
-     "stufe": 1,
-     "ja": []
-    },
-    {
-     "prio": 0,
-     "block": "eskalation",
-     "quelle": "gedaechtnis/OFFEN.md",
-     "titel": "Timo verbindet im Shopify-Kanal \"Facebook & Instagram\" den NEUEN Datensatz aus dem BM3 …",
-     "wer": "Timo",
-     "tun": null,
-     "bis": "15:00",
-     "vorbei": false,
-     "stufe": 1,
-     "ja": []
-    },
-    {
-     "prio": 0,
-     "block": "eskalation",
-     "quelle": "gedaechtnis/OFFEN.md",
-     "titel": "Das einzige Meta-Konto, das unser Zugang sieht (1984849605541642, Porch Nap), ist in EUR, aktiv …",
-     "wer": "David",
-     "tun": null,
-     "bis": "07:30",
-     "vorbei": true,
-     "stufe": 2,
-     "ja": [
-      19
-     ]
-    },
-    {
-     "prio": 0,
-     "block": "eskalation",
-     "quelle": "gedaechtnis/OFFEN.md",
      "titel": "(1) Settings > General > Store details > Contact email von support@ama-verde.com auf …",
      "wer": "Timo",
      "tun": "Shopify Admin, 3 Minuten, beides geht nicht per Claude-Verbindung",
@@ -226,74 +104,6 @@
      "vorbei": true,
      "stufe": 3,
      "ja": []
-    },
-    {
-     "prio": 0,
-     "block": "eskalation",
-     "quelle": "gedaechtnis/OFFEN.md",
-     "titel": "Agentur-Werbekonto mit 250 USD Aufladung. Ja 20 in ~/timo/JA_LISTE.md.",
-     "wer": "Timo",
-     "tun": "Vincent-Agentur-Nachricht senden oder liegen lassen (Entwurf seit 30.09. 07:37, Package B, erste Aufladung 250 USD) in 3 Minuten …",
-     "bis": "07:30",
-     "vorbei": true,
-     "stufe": 4,
-     "ja": [
-      20
-     ]
-    },
-    {
-     "prio": 0,
-     "block": "eskalation",
-     "quelle": "gedaechtnis/OFFEN.md",
-     "titel": "Typ TXT, Host _dmarc, Wert v=DMARC1; p=none; rua=mailto:support@porchnap.com; fo=1, TTL 600, 5 …",
-     "wer": "David",
-     "tun": "Bei Porkbun einloggen (Captcha selbst), porchnap.com > DNS Records > Add",
-     "bis": "09:50",
-     "vorbei": true,
-     "stufe": 4,
-     "ja": [
-      10
-     ]
-    },
-    {
-     "prio": 0,
-     "block": "eskalation",
-     "quelle": "gedaechtnis/OFFEN.md",
-     "titel": "Testkauf 1 Bett, danach erstatten (Klickweg ~/timo/launch/coach_2026-10-03/11_BM3_HEUTE_TIMO.md …",
-     "wer": "Timo",
-     "tun": null,
-     "bis": "10:15",
-     "vorbei": true,
-     "stufe": 4,
-     "ja": []
-    },
-    {
-     "prio": 0,
-     "block": "eskalation",
-     "quelle": "gedaechtnis/OFFEN.md",
-     "titel": "Timo sendet Vincent (ROAS Agency) die Anfrage fürs Agentur-Werbekonto, Text aus …",
-     "wer": "Timo",
-     "tun": null,
-     "bis": "12:30",
-     "vorbei": true,
-     "stufe": 4,
-     "ja": [
-      20
-     ]
-    },
-    {
-     "prio": 0,
-     "block": "eskalation",
-     "quelle": "gedaechtnis/OFFEN.md",
-     "titel": "Timo sendet im Ecomwarts-Discord (Kanal ticket) die Shop-Prüfung, Text wortgleich aus …",
-     "wer": "Timo",
-     "tun": null,
-     "bis": "12:45",
-     "vorbei": true,
-     "stufe": 4,
-     "ja": [
-      24
-     ]
     },
     {
      "prio": 0,
@@ -428,71 +238,6 @@
      "prio": 0,
      "block": "eskalation",
      "quelle": "gedaechtnis/OFFEN.md",
-     "titel": "neuen Claude-Chat in ~/timo öffnen und den Block aus ~/timo/launch/kurs_umsetzung/02_seiten_und_serv …",
-     "wer": "David",
-     "tun": null,
-     "bis": "09:00",
-     "vorbei": true,
-     "stufe": 5,
-     "ja": [
-      19
-     ]
-    },
-    {
-     "prio": 0,
-     "block": "eskalation",
-     "quelle": "gedaechtnis/OFFEN.md",
-     "titel": "neuen Claude-Chat in ~/timo öffnen und den Block aus ~/timo/launch/kurs_umsetzung/02_seiten_und_serv …",
-     "wer": "David",
-     "tun": null,
-     "bis": "10:00",
-     "vorbei": true,
-     "stufe": 5,
-     "ja": [
-      6,
-      6
-     ]
-    },
-    {
-     "prio": 0,
-     "block": "eskalation",
-     "quelle": "gedaechtnis/OFFEN.md",
-     "titel": "David lässt den Shop-Chat (Shopify frei, kein Ja nötig) Settings > General > Store details > …",
-     "wer": "David",
-     "tun": null,
-     "bis": "11:40",
-     "vorbei": true,
-     "stufe": 5,
-     "ja": []
-    },
-    {
-     "prio": 0,
-     "block": "eskalation",
-     "quelle": "gedaechtnis/OFFEN.md",
-     "titel": "Ticket mit dem Text aus ~/timo/entwuerfe/2026-10-04_ecomwarts_shop_ticket.md senden, direkt nach …",
-     "wer": "Timo",
-     "tun": "Shop-Pruefung bei den Ecomwarts-Coaches anfragen",
-     "bis": "12:00",
-     "vorbei": true,
-     "stufe": 5,
-     "ja": []
-    },
-    {
-     "prio": 0,
-     "block": "eskalation",
-     "quelle": "gedaechtnis/OFFEN.md",
-     "titel": "die Aufwaerm-Kampagne (Engagement, Messenger, USA, Gesamtbudget 20 USD) veroeffentlichen, die 29 …",
-     "wer": "Timo",
-     "tun": "Werbung starten im BM3, Ablauf in ~/timo/launch/coach_2026-10-03/09_PLAN_SONNTAG.md Block 12:30",
-     "bis": "12:30",
-     "vorbei": true,
-     "stufe": 5,
-     "ja": []
-    },
-    {
-     "prio": 0,
-     "block": "eskalation",
-     "quelle": "gedaechtnis/OFFEN.md",
      "titel": "Timo stoppt im Shopify Admin > Apps > Kaching Bundles > A/B tests den laufenden Test (Stop, nicht …",
      "wer": "Timo",
      "tun": null,
@@ -537,7 +282,7 @@
      "block": "eskalation",
      "quelle": "gedaechtnis/OFFEN.md",
      "titel": "die Kinderwagen-Preisanfrage an Lieferant Adam im WhatsApp-Chat mit Adam (Supplier) senden und …",
-     "wer": "David",
+     "wer": "Claude",
      "tun": null,
      "bis": "13:00",
      "vorbei": true,
@@ -553,9 +298,17 @@
      "tun": "Kampagne bauen und veröffentlichen (K5, K6)"
     },
     {
+     "prio": 1,
+     "block": "werkzeuge",
+     "titel": "Takt-Schleife ist kaputt",
+     "text": "letzte Runde endete 14:13, vor 18 Min, seitdem keine",
+     "wer": "Claude (Technik)",
+     "tun": "Reparieren. Grund: letzte Runde endete 14:13, vor 18 Min, seitdem keine"
+    },
+    {
      "prio": 1.5,
      "block": "ja",
-     "titel": "6 Ja-Fragen warten: ja schema (bis 04.10. 12:00), ja klarna (bis 04.10. 12:00), ja judgeme (bis 04.10. 12:00) und 3 weitere",
+     "titel": "9 Ja-Fragen warten: ja knopf (bis 04.10. 12:00), ja vincent (bis 04.10. 12:00), ja schema (bis 04.10. 12:00) und 6 weitere",
      "wer": "David oder Timo",
      "tun": "Im Claude-Chat „ja <Nr>“ schreiben, Liste in timo/JA_LISTE.md",
      "quelle": "timo/JA_LISTE.md"
@@ -564,7 +317,7 @@
      "prio": 2,
      "block": "geld",
      "titel": "3 von 5 Geldzahlen fehlen",
-     "text": "Kein Meta-Zugang und kein Shopify-Token. Niemand sieht hier, ob Anzeigen laufen und Geld kommt. Abhilfe: Plan Abschnitt 3, Shopify-Token (Timo, 5 min) und Meta-Zugang (Timo, 10 min). Bis dahin trägt ein Chat gemessene Werte ein: takt/leitstand_bauen.py --eintragen.",
+     "text": "Kein Meta-Zugang und kein Shopify-Token. Niemand sieht hier, ob Anzeigen laufen und Geld kommt. Abhilfe: keine Aufgabe fuer David oder Timo (David 04.10. 14:20: Meta, BM3, Karte nie erinnern); Claude liest Zahlen, sobald sie da sind. Bis dahin trägt ein Chat gemessene Werte ein: takt/leitstand_bauen.py --eintragen.",
      "wer": "Timo",
      "tun": "Einmal den Shopify-Schlüssel (5 min) und den Meta-Zugang (10 min) anlegen, Plan Abschnitt 3"
     }
@@ -580,7 +333,7 @@
    "zeilen": [
     {
      "name": "David",
-     "text": "Nicht gemessen, weil David die Mac-Messung am 03.10. abgeschaltet hat. Auf David warten heute 9 Sachen (Karte 2).",
+     "text": "Nicht gemessen, weil David die Mac-Messung am 03.10. abgeschaltet hat. Auf David warten heute 2 Sachen (Karte 2).",
      "ampel": "grau"
     },
     {
@@ -723,10 +476,16 @@
    "text": "Gemessen 11:03, Quelle: Meta ads_get_ad_accounts 04.10. 11:0x: einziges sichtbares Konto Porch Nap 1984849605541642 ohne Zahlungsart, EUR; BM3 ohne Karte laut Eskalation 09:30. Ohne Anzeigen kommt kein Geld."
   },
   {
+   "prio": 1,
+   "block": "werkzeuge",
+   "titel": "Takt-Schleife ist rot",
+   "text": "letzte Runde endete 14:13, vor 18 Min, seitdem keine"
+  },
+  {
    "prio": 2,
    "block": "geld",
    "titel": "3 von 5 Geldzahlen fehlen",
-   "text": "Kein Meta-Zugang und kein Shopify-Token. Niemand sieht hier, ob Anzeigen laufen und Geld kommt. Abhilfe: Plan Abschnitt 3, Shopify-Token (Timo, 5 min) und Meta-Zugang (Timo, 10 min). Bis dahin trägt ein Chat gemessene Werte ein: takt/leitstand_bauen.py --eintragen."
+   "text": "Kein Meta-Zugang und kein Shopify-Token. Niemand sieht hier, ob Anzeigen laufen und Geld kommt. Abhilfe: keine Aufgabe fuer David oder Timo (David 04.10. 14:20: Meta, BM3, Karte nie erinnern); Claude liest Zahlen, sobald sie da sind. Bis dahin trägt ein Chat gemessene Werte ein: takt/leitstand_bauen.py --eintragen."
   }
  ],
  "bloecke": [
@@ -809,7 +568,7 @@
      "ampel": "grau",
      "detail": "76 Bilder, 32 Videos, neu seit Montag, 28.09., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
      "quelle": "Erstellzeit der Dateien in creatives/fertig, 05_creatives/ads, 05_creatives/ki/fertig",
-     "stand": "14:17",
+     "stand": "14:32",
      "ziel": null
     },
     {
@@ -869,7 +628,7 @@
      "ampel": "grau",
      "detail": "1 Zeile im Codeblock (Formatbeispiel) nicht gezählt. Steht dort eine echte Aufgabe, gehört sie aus dem Block heraus.",
      "quelle": "timo/OFFEN.md",
-     "stand": "14:17",
+     "stand": "14:32",
      "ziel": null
     },
     {
@@ -994,11 +753,11 @@
   {
    "id": "werkzeuge",
    "titel": "Werkzeuge",
-   "ampel": "gelb",
+   "ampel": "rot",
    "zeilen": [
     {
      "name": "Wächter, letzter Lauf",
-     "wert": "14:15",
+     "wert": "14:31",
      "ampel": "gruen",
      "detail": null,
      "quelle": "waechter_zustand.json",
@@ -1010,8 +769,8 @@
     {
      "name": "Takt-Schleife",
      "schluessel": "takt",
-     "ampel": "gruen",
-     "text": "letzte Runde 14:13 (chef), rc=0"
+     "ampel": "rot",
+     "text": "letzte Runde endete 14:13, vor 18 Min, seitdem keine"
     },
     {
      "name": "Perplexity",
@@ -1029,7 +788,7 @@
      "name": "Crosspost",
      "schluessel": "crosspost",
      "ampel": "gruen",
-     "text": "laeuft (pid 61877), Herzschlag vor 9 s, postet, letzter Fehler: 2026-10-04T12:00:24.548Z keine Videos in der Antwort: {\"log_"
+     "text": "laeuft (pid 61877), Herzschlag vor 7 s, postet, letzter Fehler: 2026-10-04T12:00:24.548Z keine Videos in der Antwort: {\"log_"
     },
     {
      "name": "Speicher",
@@ -1041,7 +800,7 @@
      "name": "GitHub-Push",
      "schluessel": "github",
      "ampel": "gruen",
-     "text": "origin/main df6b123 vor 2 Min"
+     "text": "origin/main df6b123 vor 18 Min"
     },
     {
      "name": "WhatsApp Web",
@@ -1065,7 +824,7 @@
      "name": "Ereignis-Sensor",
      "schluessel": "ereignisse",
      "ampel": "gruen",
-     "text": "letzter Lauf 14:15, 0 offene Ereignisse"
+     "text": "letzter Lauf 14:31, 0 offene Ereignisse"
     },
     {
      "name": "Chrome auf Timos PC",
