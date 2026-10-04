@@ -2903,5 +2903,12 @@
 "typ": "chef",
 "titel": "Bonnie sagt wann und wie bezahlen",
 "satz": "Ich habe Bonnies Antwort bekommen, aber ein Tag ist zu kurz für den Laden."
+},
+{
+"tag": "2026-10-04",
+"zeit": "19:22",
+"typ": "chef",
+"titel": "Antwort für zwei Pakete geschrieben",
+"satz": "Ich habe geschrieben, warum zwei Pakete kommen, damit Kunden keine Fragen mehr haben."
 }
 ]
