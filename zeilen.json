@@ -2490,5 +2490,12 @@
 "typ": "chef",
 "titel": "Laden geprüft, zwei Fehler gefunden",
 "satz": "Ich habe zwei Fehler im Laden gefunden, die David und Timo schnell reparieren müssen."
+},
+{
+"tag": "2026-10-04",
+"zeit": "10:57",
+"typ": "chef",
+"titel": "E-Mail wechseln und Abos fixen",
+"satz": "Ich habe aufgeschrieben dass David bis elf Uhr vierzig die E-Mail im Laden wechselt."
 }
 ]
