@@ -2042,5 +2042,12 @@
 "typ": "chef",
 "titel": "Hundebett-Seiten und Kasse funktionieren jetzt",
 "satz": "Ich habe die Sperre gelöscht, damit Werbung die richtigen Hundebetten zeigen kann."
+},
+{
+"tag": "2026-10-04",
+"zeit": "05:40",
+"typ": "chef",
+"titel": "Kaufleiste wird größer",
+"satz": "Ich habe das kleine Feld in der Kaufleiste vergrößert, damit dein Handy nicht zoomt."
 }
 ]
