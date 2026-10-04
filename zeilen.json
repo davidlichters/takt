@@ -2504,5 +2504,12 @@
 "typ": "chef",
 "titel": "Drei Betten ohne Nummern gefunden",
 "satz": "Ich habe geprüft, drei Betten brauchen Nummern, damit Bestellungen klar sind."
+},
+{
+"tag": "2026-10-04",
+"zeit": "11:02",
+"typ": "chef",
+"titel": "Anzeigen und Bestellungen jetzt sichtbar",
+"satz": "Ich habe den Leitstand aktualisiert, damit wir sehen, was jetzt los ist."
 }
 ]
