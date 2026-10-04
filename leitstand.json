@@ -1,7 +1,7 @@
 {
  "version": 2,
- "stand": "2026-10-04T19:02:05Z",
- "stand_berlin": "04.10.2026 21:02",
+ "stand": "2026-10-04T19:17:05Z",
+ "stand_berlin": "04.10.2026 21:17",
  "takt_min": 15,
  "quelle": "takt/leitstand_bauen.py auf Davids Mac, ohne Modell",
  "ziele": {
@@ -53,7 +53,7 @@
     },
     {
      "name": "Chef-Runde",
-     "text": "Um 20:35: Shop-Aufgabe mit Einfügetext, Bearbeitung 1 to 2 auf Bonnies 1 to 3 und Summe 7 to 12 auf 7 to 13 Werktage …",
+     "text": "Um 21:05: Tagesabschluss, Top 3 je Person für 05.10. in JETZT.md, David 05.10.2026 08:00 Shop-Chat arbeitet 14 fertige …",
      "ampel": "gruen"
     }
    ]
@@ -383,7 +383,7 @@
    "id": "wer",
    "frage": "Wer arbeitet woran?",
    "ampel": "gruen",
-   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 209 Runden heute.",
+   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 210 Runden heute.",
    "saetze": [],
    "zeilen": [
     {
@@ -398,7 +398,7 @@
     },
     {
      "name": "Claude",
-     "text": "209 Runden heute, alle 5 Minuten eine. Zuletzt: Shop-Aufgabe mit Einfügetext, Bearbeitung 1 to 2 auf Bonnies 1 to 3 und Summe 7 to 12 auf 7 to …",
+     "text": "210 Runden heute, alle 5 Minuten eine. Zuletzt: Tagesabschluss, Top 3 je Person für 05.10. in JETZT.md, David 05.10.2026 08:00 Shop-Chat …",
      "ampel": "gruen"
     },
     {
@@ -431,7 +431,7 @@
     },
     {
      "name": "Runden, letzte Stunde",
-     "text": "2 Runden: 1 mit fertigem Ergebnis (Creative, Text oder Klickweg), 0 haben einen Menschen erinnert, 1 nur innen gearbeitet.",
+     "text": "2 Runden: 1 mit fertigem Ergebnis (Creative, Text oder Klickweg), 1 hat einen Menschen erinnert, 0 nur innen gearbeitet.",
      "ampel": "gelb"
     },
     {
@@ -478,7 +478,7 @@
     },
     {
      "name": "Runden",
-     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 2, davon 1 nur innen.",
+     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 2, davon 0 nur innen.",
      "ampel": "rot"
     }
    ]
@@ -617,7 +617,7 @@
      "ampel": "grau",
      "detail": "82 Bilder, 32 Videos, neu seit Montag, 28.09., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
      "quelle": "Erstellzeit der Dateien in creatives/fertig, 05_creatives/ads, 05_creatives/ki/fertig",
-     "stand": "21:02",
+     "stand": "21:17",
      "ziel": null
     },
     {
@@ -677,7 +677,7 @@
      "ampel": "grau",
      "detail": "1 Zeile im Codeblock (Formatbeispiel) nicht gezählt. Steht dort eine echte Aufgabe, gehört sie aus dem Block heraus.",
      "quelle": "timo/OFFEN.md",
-     "stand": "21:02",
+     "stand": "21:17",
      "ziel": null
     },
     {
@@ -806,7 +806,7 @@
    "zeilen": [
     {
      "name": "Wächter, letzter Lauf",
-     "wert": "21:00",
+     "wert": "21:16",
      "ampel": "gruen",
      "detail": null,
      "quelle": "waechter_zustand.json",
@@ -819,13 +819,13 @@
      "name": "Takt-Schleife",
      "schluessel": "takt",
      "ampel": "gruen",
-     "text": "letzte Runde 20:37 (chef), rc=0"
+     "text": "letzte Runde 21:06 (chef), rc=0"
     },
     {
      "name": "Perplexity",
      "schluessel": "perplexity",
      "ampel": "gruen",
-     "text": "letzter Lauf 20:56 erfolgreich, Gins laeuft"
+     "text": "Gins laeuft; letzter Lauf 20:59 ohne Antwortdatei: nach 12 Minuten nicht fertig"
     },
     {
      "name": "Davids Chrome",
@@ -837,7 +837,7 @@
      "name": "Crosspost",
      "schluessel": "crosspost",
      "ampel": "gruen",
-     "text": "laeuft (pid 34390), Herzschlag vor 11 s, postet, letzter Fehler: 2026-10-04T18:42:10.031Z keine Videos in der Antwort: {\"log_"
+     "text": "laeuft (pid 34390), Herzschlag vor 1 s, postet, letzter Fehler: 2026-10-04T18:42:10.031Z keine Videos in der Antwort: {\"log_"
     },
     {
      "name": "Speicher",
@@ -849,7 +849,7 @@
      "name": "GitHub-Push",
      "schluessel": "github",
      "ampel": "gruen",
-     "text": "origin/main d105604 vor 23 Min"
+     "text": "origin/main b1545d0 vor 9 Min"
     },
     {
      "name": "WhatsApp Web",
@@ -873,7 +873,7 @@
      "name": "Ereignis-Sensor",
      "schluessel": "ereignisse",
      "ampel": "gruen",
-     "text": "letzter Lauf 21:00, 0 offene Ereignisse"
+     "text": "letzter Lauf 21:16, 0 offene Ereignisse"
     },
     {
      "name": "Chrome auf Timos PC",
