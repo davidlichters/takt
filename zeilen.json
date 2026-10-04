@@ -1797,5 +1797,12 @@
 "typ": "chef",
 "titel": "Timo sucht erst einen Fehler",
 "satz": "Ich habe gesagt, wir warten auf Timo, dann wird der Knopf neu gemacht."
+},
+{
+"tag": "2026-10-04",
+"zeit": "02:50",
+"typ": "chef",
+"titel": "Werbekonto noch nicht fertig",
+"satz": "Ich habe geprüft und sehe: Das Werbekonto braucht noch eine Zahlungsart und ein Unternehmen."
 }
 ]
