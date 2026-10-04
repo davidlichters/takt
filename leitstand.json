@@ -1,7 +1,7 @@
 {
  "version": 2,
- "stand": "2026-10-04T07:02:05Z",
- "stand_berlin": "04.10.2026 09:02",
+ "stand": "2026-10-04T07:17:04Z",
+ "stand_berlin": "04.10.2026 09:17",
  "takt_min": 15,
  "quelle": "takt/leitstand_bauen.py auf Davids Mac, ohne Modell",
  "ziele": {
@@ -43,7 +43,7 @@
     },
     {
      "name": "Recherche",
-     "text": "Perplexity hat heute 22 Fragen beantwortet, die letzte um 09:00.",
+     "text": "Perplexity hat heute 25 Fragen beantwortet, die letzte um 09:10.",
      "ampel": "gruen"
     },
     {
@@ -53,8 +53,8 @@
     },
     {
      "name": "Chef-Runde",
-     "text": "Um 08:57: entsperrt Stufe 2, weil vier Dateien vier Skaliertakte nannten; jetzt gilt überall PLAYBOOK D12 (Stufen, 3 …",
-     "ampel": "gelb"
+     "text": "Um 09:15: 7 Fragen an Bonnie weiter ungesendet (Zeile 07:30 überfällig, letzte Erinnerung vor 05:15), David 04.10 …",
+     "ampel": "gruen"
     }
    ]
   },
@@ -63,7 +63,7 @@
    "id": "auf",
    "frage": "Was hält uns auf?",
    "ampel": "rot",
-   "kurz": "27 Dinge halten uns auf.",
+   "kurz": "29 Dinge halten uns auf.",
    "saetze": [
     "Bei jedem steht, wer es tun muss. Oben steht das, was am meisten Geld kostet."
    ],
@@ -201,11 +201,11 @@
      "prio": 0,
      "block": "eskalation",
      "quelle": "gedaechtnis/OFFEN.md",
-     "titel": "David loggt sich bei Porkbun ein (Captcha selbst) und setzt porchnap.com > DNS Records > Add TXT …",
+     "titel": "Typ TXT, Host _dmarc, Wert v=DMARC1; p=none; rua=mailto:support@porchnap.com; fo=1, TTL 600, 5 …",
      "wer": "David",
-     "tun": null,
-     "bis": "07:30",
-     "vorbei": true,
+     "tun": "Bei Porkbun einloggen (Captcha selbst), porchnap.com > DNS Records > Add",
+     "bis": "09:50",
+     "vorbei": false,
      "stufe": 4,
      "ja": [
       10
@@ -222,6 +222,20 @@
      "vorbei": false,
      "stufe": 4,
      "ja": []
+    },
+    {
+     "prio": 0,
+     "block": "eskalation",
+     "quelle": "gedaechtnis/OFFEN.md",
+     "titel": "die 7 Fragen an Bonnie (Lieferantin) im WhatsApp-Chat \"Bonnie DS\" senden, Text wortgleich aus …",
+     "wer": "David",
+     "tun": null,
+     "bis": "11:00",
+     "vorbei": false,
+     "stufe": 4,
+     "ja": [
+      3
+     ]
     },
     {
      "prio": 0,
@@ -370,6 +384,20 @@
      "prio": 0,
      "block": "eskalation",
      "quelle": "gedaechtnis/OFFEN.md",
+     "titel": "neuen Claude-Chat in ~/timo öffnen und den Block aus ~/timo/launch/kurs_umsetzung/02_seiten_und_serv …",
+     "wer": "David",
+     "tun": null,
+     "bis": "10:00",
+     "vorbei": false,
+     "stufe": 5,
+     "ja": [
+      19
+     ]
+    },
+    {
+     "prio": 0,
+     "block": "eskalation",
+     "quelle": "gedaechtnis/OFFEN.md",
      "titel": "Ticket mit dem Text aus ~/timo/entwuerfe/2026-10-04_ecomwarts_shop_ticket.md senden, direkt nach …",
      "wer": "Timo",
      "tun": "Shop-Pruefung bei den Ecomwarts-Coaches anfragen",
@@ -412,13 +440,13 @@
    "nr": 3,
    "id": "wer",
    "frage": "Wer arbeitet woran?",
-   "ampel": "gelb",
-   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 115 Runden heute.",
+   "ampel": "gruen",
+   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 120 Runden heute.",
    "saetze": [],
    "zeilen": [
     {
      "name": "David",
-     "text": "Nicht gemessen, weil David die Mac-Messung am 03.10. abgeschaltet hat. Auf David warten heute 4 Sachen (Karte 2).",
+     "text": "Nicht gemessen, weil David die Mac-Messung am 03.10. abgeschaltet hat. Auf David warten heute 6 Sachen (Karte 2).",
      "ampel": "grau"
     },
     {
@@ -428,8 +456,8 @@
     },
     {
      "name": "Claude",
-     "text": "115 Runden heute, alle 5 Minuten eine. Zuletzt: entsperrt Stufe 2, weil vier Dateien vier Skaliertakte nannten; jetzt gilt überall PLAYBOOK …",
-     "ampel": "gelb"
+     "text": "120 Runden heute, alle 5 Minuten eine. Zuletzt: 7 Fragen an Bonnie weiter ungesendet (Zeile 07:30 überfällig, letzte Erinnerung vor 05:15) …",
+     "ampel": "gruen"
     },
     {
      "name": "Abteilungs-Chats",
@@ -443,7 +471,7 @@
    "id": "tempo",
    "frage": "Wie schnell geht es gerade?",
    "ampel": "gelb",
-   "kurz": "Letzte Stunde: 12 Runden, 5 davon mit fertigem Ergebnis.",
+   "kurz": "Letzte Stunde: 14 Runden, 3 davon mit fertigem Ergebnis.",
    "saetze": [
     "Den Gewinn heute wissen wir noch nicht, weil uns der Shopify-Zugang fehlt.",
     "Fertig heißt noch nicht live: 9 Ja-Schritte warten auf euer Ja (Karte 2)."
@@ -461,7 +489,7 @@
     },
     {
      "name": "Runden, letzte Stunde",
-     "text": "12 Runden: 5 mit fertigem Ergebnis (Creative, Text oder Klickweg), 3 haben einen Menschen erinnert, 4 nur innen gearbeitet.",
+     "text": "14 Runden: 3 mit fertigem Ergebnis (Creative, Text oder Klickweg), 6 haben einen Menschen erinnert, 5 nur innen gearbeitet.",
      "ampel": "gelb"
     },
     {
@@ -508,7 +536,7 @@
     },
     {
      "name": "Runden",
-     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 12, davon 4 nur innen.",
+     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 14, davon 5 nur innen.",
      "ampel": "rot"
     }
    ]
@@ -641,7 +669,7 @@
      "ampel": "grau",
      "detail": "57 Bilder, 32 Videos, neu seit Montag, 28.09., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
      "quelle": "Erstellzeit der Dateien in creatives/fertig, 05_creatives/ads, 05_creatives/ki/fertig",
-     "stand": "09:02",
+     "stand": "09:17",
      "ziel": null
     },
     {
@@ -701,7 +729,7 @@
      "ampel": "grau",
      "detail": "1 Zeile im Codeblock (Formatbeispiel) nicht gezählt. Steht dort eine echte Aufgabe, gehört sie aus dem Block heraus.",
      "quelle": "timo/OFFEN.md",
-     "stand": "09:02",
+     "stand": "09:17",
      "ziel": null
     },
     {
@@ -830,7 +858,7 @@
    "zeilen": [
     {
      "name": "Wächter, letzter Lauf",
-     "wert": "08:58",
+     "wert": "09:14",
      "ampel": "gruen",
      "detail": null,
      "quelle": "waechter_zustand.json",
@@ -843,13 +871,13 @@
      "name": "Takt-Schleife",
      "schluessel": "takt",
      "ampel": "gruen",
-     "text": "letzte Runde 08:56 (chef), rc=0, Runde laeuft seit 1 Min"
+     "text": "letzte Runde 09:12 (chef), rc=0, Runde laeuft seit 2 Min"
     },
     {
      "name": "Perplexity",
      "schluessel": "perplexity",
      "ampel": "gruen",
-     "text": "letzter Lauf 08:52 erfolgreich, Gins laeuft"
+     "text": "letzter Lauf 09:06 erfolgreich, Gins laeuft"
     },
     {
      "name": "Davids Chrome",
@@ -861,7 +889,7 @@
      "name": "Crosspost",
      "schluessel": "crosspost",
      "ampel": "gruen",
-     "text": "laeuft (pid 61877), Herzschlag vor 6 s, Trockenlauf ohne AKTIV, letzter Fehler: 2026-10-03T21:37:30.732Z keine Videos in der Antwort: {\"extr"
+     "text": "laeuft (pid 61877), Herzschlag vor 0 s, Trockenlauf ohne AKTIV, letzter Fehler: 2026-10-03T21:37:30.732Z keine Videos in der Antwort: {\"extr"
     },
     {
      "name": "Speicher",
@@ -873,7 +901,7 @@
      "name": "GitHub-Push",
      "schluessel": "github",
      "ampel": "gruen",
-     "text": "origin/main bef37fc vor 1 Min"
+     "text": "origin/main 378b9b7 vor 0 Min"
     },
     {
      "name": "WhatsApp Web",
@@ -897,7 +925,7 @@
      "name": "Ereignis-Sensor",
      "schluessel": "ereignisse",
      "ampel": "gruen",
-     "text": "letzter Lauf 08:58, 0 offene Ereignisse"
+     "text": "letzter Lauf 09:14, 0 offene Ereignisse"
     },
     {
      "name": "Chrome auf Timos PC",
