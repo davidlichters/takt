@@ -1783,5 +1783,12 @@
 "typ": "chef",
 "titel": "Zahlungsart wird nicht freigegeben, zu früh",
 "satz": "Ich habe geprüft, ob wir die Zahlungsart freimachen dürfen, und es ist noch zu früh."
+},
+{
+"tag": "2026-10-04",
+"zeit": "02:42",
+"typ": "chef",
+"titel": "Hundebett mit gratis Paket läuft",
+"satz": "Ich habe das Angebot im Laden getan, damit Kunden beim Hundebett gratis Paket bekommen."
 }
 ]
