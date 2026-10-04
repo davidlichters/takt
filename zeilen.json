@@ -1804,5 +1804,12 @@
 "typ": "chef",
 "titel": "Werbekonto noch nicht fertig",
 "satz": "Ich habe geprüft und sehe: Das Werbekonto braucht noch eine Zahlungsart und ein Unternehmen."
+},
+{
+"tag": "2026-10-04",
+"zeit": "02:51",
+"typ": "chef",
+"titel": "Paket-Geld für weit weg geklärt",
+"satz": "Ich habe gelernt, dass Pakete weit weg umsonst sind, damit der Laden Geld kriegt."
 }
 ]
