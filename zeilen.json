@@ -2140,5 +2140,12 @@
 "typ": "chef",
 "titel": "Mail für Feiertage angepasst",
 "satz": "Ich habe die Mail so geändert, dass Kunden wissen, wann das Paket kommt."
+},
+{
+"tag": "2026-10-04",
+"zeit": "06:50",
+"typ": "chef",
+"titel": "Weihnachtsbestellungen mit Versand und Rückgabe",
+"satz": "Ich habe neue schnelle Antworten geschrieben, damit Kunden alles besser verstehen."
 }
 ]
