@@ -1825,5 +1825,12 @@
 "typ": "chef",
 "titel": "Zwei von vier Betten zeigen keinen Preis",
 "satz": "Ich habe den Laden geprüft, zwei Betten zeigen keinen Preis, das müssen wir reparieren."
+},
+{
+"tag": "2026-10-04",
+"zeit": "03:05",
+"typ": "chef",
+"titel": "Kaufknopf funktioniert auf dem Handy",
+"satz": "Ich habe den Kaufknopf auf dem Handy geprüft und alles funktioniert richtig."
 }
 ]
