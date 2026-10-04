@@ -2784,5 +2784,12 @@
 "typ": "chef",
 "titel": "Absage an den Prüfer fertig",
 "satz": "Ich habe geschrieben, damit der Prüfer morgen den Kinderwagen prüfen kann."
+},
+{
+"tag": "2026-10-04",
+"zeit": "15:35",
+"typ": "chef",
+"titel": "Der Chat mit Bonnie ist weg",
+"satz": "Ich habe geprüft und der Chat mit Bonnie ist weg, bis David ihn neu macht."
 }
 ]
