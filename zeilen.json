@@ -2287,5 +2287,12 @@
 "typ": "chef",
 "titel": "Laden sendet an falsche Nummer",
 "satz": "Ich habe gemerkt, der Laden benutzt falsche Nummer, das muss für Werbung richtig werden."
+},
+{
+"tag": "2026-10-04",
+"zeit": "08:44",
+"typ": "chef",
+"titel": "Entscheidung zu den Ländern gemacht",
+"satz": "Ich habe rausgefunden welche Länder funktionieren damit der Laden richtig Geld verdient."
 }
 ]
