@@ -2371,5 +2371,12 @@
 "typ": "chef",
 "titel": "Auf Karte und Limit für Werbung geprüft",
 "satz": "Ich habe geprüft, dass beide nicht da sind und Timo sie bis morgen braucht."
+},
+{
+"tag": "2026-10-04",
+"zeit": "09:40",
+"typ": "chef",
+"titel": "Das Testen läuft jetzt ganz allein",
+"satz": "Ich habe den Laden so gebaut, dass das Testen jetzt selbst läuft ohne Timo."
 }
 ]
