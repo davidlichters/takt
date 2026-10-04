@@ -1720,5 +1720,12 @@
 "typ": "chef",
 "titel": "Vier Sachen und zwei Fragen gespeichert",
 "satz": "Ich habe vier neue Sachen und zwei Fragen zum Preis gespeichert, damit wir weiterarbeiten."
+},
+{
+"tag": "2026-10-04",
+"zeit": "01:55",
+"typ": "chef",
+"titel": "Kaufknopf überall getestet und notiert",
+"satz": "Ich habe getestet, dass der Kaufknopf überall den gleichen Preis zeigt."
 }
 ]
