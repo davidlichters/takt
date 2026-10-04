@@ -2098,5 +2098,12 @@
 "typ": "chef",
 "titel": "Seite sagt jetzt, wie lange Versand dauert",
 "satz": "Ich habe die Seite repariert, damit Kunden wissen, wann das Hundebett kommt."
+},
+{
+"tag": "2026-10-04",
+"zeit": "06:20",
+"typ": "verbesserer",
+"titel": "Datei ist zu groß geworden",
+"satz": "Ich habe gesehen, dass die Datei viel zu groß ist und lädt nicht mehr."
 }
 ]
