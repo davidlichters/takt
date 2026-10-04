@@ -1,7 +1,7 @@
 {
  "version": 2,
- "stand": "2026-10-04T03:17:05Z",
- "stand_berlin": "04.10.2026 05:17",
+ "stand": "2026-10-04T03:32:04Z",
+ "stand_berlin": "04.10.2026 05:32",
  "takt_min": 15,
  "quelle": "takt/leitstand_bauen.py auf Davids Mac, ohne Modell",
  "ziele": {
@@ -38,7 +38,7 @@
     },
     {
      "name": "Creatives",
-     "text": "Heute 6 neue Bilder oder Videos gebaut, diese Woche 77. Das neueste: PN_NOGIFT_4x5.png um 03:47. Wie viele davon live sind, wissen wir nicht.",
+     "text": "Heute 7 neue Bilder oder Videos gebaut, diese Woche 77. Das neueste: PN_V12_REVEAL_H1_4x5.mp4 um 05:26. Wie viele davon live sind, wissen wir nicht.",
      "ampel": "gruen"
     },
     {
@@ -53,8 +53,8 @@
     },
     {
      "name": "Chef-Runde",
-     "text": "Um 05:10: DMARC fehlt weiter (dig 05:11 leer, auch keine Shopify-Mailschlüssel), letzte Erinnerung 00:55; David 04.10 …",
-     "ampel": "gruen"
+     "text": "Um 05:30: entsperrt Stufe 3, weil 7 geprüfte Videos V6 bis V12 ohne Anzeigenname und Primärtext in der Upload-Matrix …",
+     "ampel": "gelb"
     }
    ]
   },
@@ -283,7 +283,7 @@
     {
      "prio": 1.5,
      "block": "ja",
-     "titel": "6 Ja-Fragen warten: ja schema (bis 04.10. 12:00), ja klarna (bis 04.10. 12:00), ja folien (bis 04.10. 12:00) und 3 weitere",
+     "titel": "8 Ja-Fragen warten: ja schema (bis 04.10. 12:00), ja klarna (bis 04.10. 12:00), ja folien (bis 04.10. 12:00) und 5 weitere",
      "wer": "David oder Timo",
      "tun": "Im Claude-Chat „ja <Nr>“ schreiben, Liste in timo/JA_LISTE.md",
      "quelle": "timo/JA_LISTE.md"
@@ -310,8 +310,8 @@
    "nr": 3,
    "id": "wer",
    "frage": "Wer arbeitet woran?",
-   "ampel": "gruen",
-   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 71 Runden heute.",
+   "ampel": "gelb",
+   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 75 Runden heute.",
    "saetze": [],
    "zeilen": [
     {
@@ -326,8 +326,8 @@
     },
     {
      "name": "Claude",
-     "text": "71 Runden heute, alle 5 Minuten eine. Zuletzt: DMARC fehlt weiter (dig 05:11 leer, auch keine Shopify-Mailschlüssel), letzte Erinnerung …",
-     "ampel": "gruen"
+     "text": "75 Runden heute, alle 5 Minuten eine. Zuletzt: entsperrt Stufe 3, weil 7 geprüfte Videos V6 bis V12 ohne Anzeigenname und Primärtext in der …",
+     "ampel": "gelb"
     },
     {
      "name": "Abteilungs-Chats",
@@ -341,10 +341,10 @@
    "id": "tempo",
    "frage": "Wie schnell geht es gerade?",
    "ampel": "gelb",
-   "kurz": "Letzte Stunde: 11 Runden, 5 davon mit fertigem Ergebnis.",
+   "kurz": "Letzte Stunde: 12 Runden, 6 davon mit fertigem Ergebnis.",
    "saetze": [
     "Den Gewinn heute wissen wir noch nicht, weil uns der Shopify-Zugang fehlt.",
-    "Fertig heißt noch nicht live: 8 Ja-Schritte warten auf euer Ja (Karte 2)."
+    "Fertig heißt noch nicht live: 10 Ja-Schritte warten auf euer Ja (Karte 2)."
    ],
    "zeilen": [
     {
@@ -359,7 +359,7 @@
     },
     {
      "name": "Runden, letzte Stunde",
-     "text": "11 Runden: 5 mit fertigem Ergebnis (Creative, Text oder Klickweg), 3 haben einen Menschen erinnert, 3 nur innen gearbeitet.",
+     "text": "12 Runden: 6 mit fertigem Ergebnis (Creative, Text oder Klickweg), 3 haben einen Menschen erinnert, 3 nur innen gearbeitet.",
      "ampel": "gelb"
     },
     {
@@ -369,7 +369,7 @@
     },
     {
      "name": "Neu gebaut heute",
-     "text": "6 Bilder und Videos für Anzeigen.",
+     "text": "7 Bilder und Videos für Anzeigen.",
      "ampel": "gruen"
     }
    ]
@@ -379,9 +379,9 @@
    "id": "soll",
    "frage": "Wie schnell sollte es gehen?",
    "ampel": "gelb",
-   "kurz": "Wir schaffen 0 von 5 Zielen.",
+   "kurz": "Wir schaffen 1 von 5 Zielen.",
    "saetze": [
-    "1 verfehlen wir gerade. 4 messen wir noch nicht."
+    "4 messen wir noch nicht."
    ],
    "zeilen": [
     {
@@ -406,8 +406,8 @@
     },
     {
      "name": "Runden",
-     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 11, davon 3 nur innen.",
-     "ampel": "rot"
+     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 12, davon 3 nur innen.",
+     "ampel": "gruen"
     }
    ]
   },
@@ -547,7 +547,7 @@
      "ampel": "grau",
      "detail": "49 Bilder, 28 Videos, neu seit Montag, 28.09., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
      "quelle": "Erstellzeit der Dateien in creatives/fertig, 05_creatives/ads, 05_creatives/ki/fertig",
-     "stand": "05:17",
+     "stand": "05:32",
      "ziel": null
     },
     {
@@ -607,7 +607,7 @@
      "ampel": "grau",
      "detail": "1 Zeile im Codeblock (Formatbeispiel) nicht gezählt. Steht dort eine echte Aufgabe, gehört sie aus dem Block heraus.",
      "quelle": "timo/OFFEN.md",
-     "stand": "05:17",
+     "stand": "05:32",
      "ziel": null
     },
     {
@@ -736,7 +736,7 @@
    "zeilen": [
     {
      "name": "Wächter, letzter Lauf",
-     "wert": "05:15",
+     "wert": "05:31",
      "ampel": "gruen",
      "detail": null,
      "quelle": "waechter_zustand.json",
@@ -749,7 +749,7 @@
      "name": "Takt-Schleife",
      "schluessel": "takt",
      "ampel": "gruen",
-     "text": "letzte Runde 05:11 (chef), rc=0, Runde laeuft seit 0 Min"
+     "text": "letzte Runde 05:26 (chef), rc=0, Runde laeuft seit 1 Min"
     },
     {
      "name": "Perplexity",
@@ -767,7 +767,7 @@
      "name": "Crosspost",
      "schluessel": "crosspost",
      "ampel": "gruen",
-     "text": "laeuft (pid 61877), Herzschlag vor 7 s, Trockenlauf ohne AKTIV, letzter Fehler: 2026-10-03T21:37:30.732Z keine Videos in der Antwort: {\"extr"
+     "text": "laeuft (pid 61877), Herzschlag vor 4 s, Trockenlauf ohne AKTIV, letzter Fehler: 2026-10-03T21:37:30.732Z keine Videos in der Antwort: {\"extr"
     },
     {
      "name": "Speicher",
@@ -779,7 +779,7 @@
      "name": "GitHub-Push",
      "schluessel": "github",
      "ampel": "gruen",
-     "text": "origin/main 4d0c288 vor 0 Min"
+     "text": "origin/main efe485d vor 1 Min"
     },
     {
      "name": "WhatsApp Web",
@@ -803,7 +803,7 @@
      "name": "Ereignis-Sensor",
      "schluessel": "ereignisse",
      "ampel": "gruen",
-     "text": "letzter Lauf 05:15, 0 offene Ereignisse"
+     "text": "letzter Lauf 05:31, 0 offene Ereignisse"
     },
     {
      "name": "Chrome auf Timos PC",
