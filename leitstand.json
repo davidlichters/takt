@@ -1,7 +1,7 @@
 {
  "version": 2,
- "stand": "2026-10-04T02:02:05Z",
- "stand_berlin": "04.10.2026 04:02",
+ "stand": "2026-10-04T02:17:05Z",
+ "stand_berlin": "04.10.2026 04:17",
  "takt_min": 15,
  "quelle": "takt/leitstand_bauen.py auf Davids Mac, ohne Modell",
  "ziele": {
@@ -43,8 +43,8 @@
     },
     {
      "name": "Recherche",
-     "text": "Perplexity hat heute 11 Fragen beantwortet, die letzte um 02:50. Die letzten 5 Versuche kamen ohne Antwort zurück.",
-     "ampel": "gelb"
+     "text": "Perplexity hat heute 12 Fragen beantwortet, die letzte um 04:10.",
+     "ampel": "gruen"
     },
     {
      "name": "Technik",
@@ -53,8 +53,8 @@
     },
     {
      "name": "Chef-Runde",
-     "text": "Um 04:00: Postfach 3 Fragen nachgefuellt (Agentur-Konditionen, Kill-Schwelle, Retourenquote), 3 Antworten ohne …",
-     "ampel": "gelb"
+     "text": "Um 04:15: Produktseite hat keine Produkt-Strukturdaten (nur Organization, Product 0), fertiger Einfuegeblock mit …",
+     "ampel": "gruen"
     }
    ]
   },
@@ -63,7 +63,7 @@
    "id": "auf",
    "frage": "Was hält uns auf?",
    "ampel": "rot",
-   "kurz": "16 Dinge halten uns auf.",
+   "kurz": "18 Dinge halten uns auf.",
    "saetze": [
     "Bei jedem steht, wer es tun muss. Oben steht das, was am meisten Geld kostet."
    ],
@@ -94,6 +94,18 @@
      "ja": [
       19
      ]
+    },
+    {
+     "prio": 0,
+     "block": "eskalation",
+     "quelle": "gedaechtnis/OFFEN.md",
+     "titel": "Timo oder David schaut 3 Minuten nach, wer bei Shopify Payments als Kontoverantwortlicher steht …",
+     "wer": "Timo",
+     "tun": null,
+     "bis": "07:30",
+     "vorbei": false,
+     "stufe": 1,
+     "ja": []
     },
     {
      "prio": 0,
@@ -257,6 +269,14 @@
      "ja": []
     },
     {
+     "prio": 1.5,
+     "block": "ja",
+     "titel": "1 Ja-Frage wartet: ja schema (bis 04.10. 12:00)",
+     "wer": "David oder Timo",
+     "tun": "Im Claude-Chat „ja <Nr>“ schreiben, Liste in timo/JA_LISTE.md",
+     "quelle": "timo/JA_LISTE.md"
+    },
+    {
      "prio": 2,
      "block": "geld",
      "titel": "Keine frische Zahl zu Anzeigen und Geld",
@@ -278,8 +298,8 @@
    "nr": 3,
    "id": "wer",
    "frage": "Wer arbeitet woran?",
-   "ampel": "gelb",
-   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 57 Runden heute.",
+   "ampel": "gruen",
+   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 60 Runden heute.",
    "saetze": [],
    "zeilen": [
     {
@@ -294,8 +314,8 @@
     },
     {
      "name": "Claude",
-     "text": "57 Runden heute, alle 5 Minuten eine. Zuletzt: Postfach 3 Fragen nachgefuellt (Agentur-Konditionen, Kill-Schwelle, Retourenquote), 3 …",
-     "ampel": "gelb"
+     "text": "60 Runden heute, alle 5 Minuten eine. Zuletzt: Produktseite hat keine Produkt-Strukturdaten (nur Organization, Product 0), fertiger …",
+     "ampel": "gruen"
     },
     {
      "name": "Abteilungs-Chats",
@@ -309,10 +329,10 @@
    "id": "tempo",
    "frage": "Wie schnell geht es gerade?",
    "ampel": "gelb",
-   "kurz": "Letzte Stunde: 12 Runden, 6 davon mit fertigem Ergebnis.",
+   "kurz": "Letzte Stunde: 12 Runden, 7 davon mit fertigem Ergebnis.",
    "saetze": [
     "Den Gewinn heute wissen wir noch nicht, weil uns der Shopify-Zugang fehlt.",
-    "Fertig heißt noch nicht live: 2 Ja-Schritte warten auf euer Ja (Karte 2)."
+    "Fertig heißt noch nicht live: 3 Ja-Schritte warten auf euer Ja (Karte 2)."
    ],
    "zeilen": [
     {
@@ -327,7 +347,7 @@
     },
     {
      "name": "Runden, letzte Stunde",
-     "text": "12 Runden: 6 mit fertigem Ergebnis (Creative, Text oder Klickweg), 2 haben einen Menschen erinnert, 4 nur innen gearbeitet.",
+     "text": "12 Runden: 7 mit fertigem Ergebnis (Creative, Text oder Klickweg), 3 haben einen Menschen erinnert, 2 nur innen gearbeitet.",
      "ampel": "gelb"
     },
     {
@@ -347,9 +367,9 @@
    "id": "soll",
    "frage": "Wie schnell sollte es gehen?",
    "ampel": "gelb",
-   "kurz": "Wir schaffen 0 von 5 Zielen.",
+   "kurz": "Wir schaffen 1 von 5 Zielen.",
    "saetze": [
-    "1 verfehlen wir gerade. 4 messen wir noch nicht."
+    "4 messen wir noch nicht."
    ],
    "zeilen": [
     {
@@ -374,8 +394,8 @@
     },
     {
      "name": "Runden",
-     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 12, davon 4 nur innen.",
-     "ampel": "rot"
+     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 12, davon 2 nur innen.",
+     "ampel": "gruen"
     }
    ]
   },
@@ -515,7 +535,7 @@
      "ampel": "grau",
      "detail": "49 Bilder, 28 Videos, neu seit Montag, 28.09., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
      "quelle": "Erstellzeit der Dateien in creatives/fertig, 05_creatives/ads, 05_creatives/ki/fertig",
-     "stand": "04:02",
+     "stand": "04:17",
      "ziel": null
     },
     {
@@ -575,7 +595,7 @@
      "ampel": "grau",
      "detail": "1 Zeile im Codeblock (Formatbeispiel) nicht gezählt. Steht dort eine echte Aufgabe, gehört sie aus dem Block heraus.",
      "quelle": "timo/OFFEN.md",
-     "stand": "04:02",
+     "stand": "04:17",
      "ziel": null
     },
     {
@@ -704,7 +724,7 @@
    "zeilen": [
     {
      "name": "Wächter, letzter Lauf",
-     "wert": "03:58",
+     "wert": "04:13",
      "ampel": "gruen",
      "detail": null,
      "quelle": "waechter_zustand.json",
@@ -717,13 +737,13 @@
      "name": "Takt-Schleife",
      "schluessel": "takt",
      "ampel": "gruen",
-     "text": "letzte Runde 03:56 (chef), rc=0"
+     "text": "letzte Runde 04:12 (chef), rc=0"
     },
     {
      "name": "Perplexity",
      "schluessel": "perplexity",
      "ampel": "gruen",
-     "text": "Gins laeuft; letzter Lauf 03:40 ohne Antwortdatei: nach 12 Minuten nicht fertig"
+     "text": "letzter Lauf 04:05 erfolgreich, Gins laeuft"
     },
     {
      "name": "Davids Chrome",
@@ -735,7 +755,7 @@
      "name": "Crosspost",
      "schluessel": "crosspost",
      "ampel": "gruen",
-     "text": "laeuft (pid 61877), Herzschlag vor 0 s, Trockenlauf ohne AKTIV, letzter Fehler: 2026-10-03T21:37:30.732Z keine Videos in der Antwort: {\"extr"
+     "text": "laeuft (pid 61877), Herzschlag vor 3 s, Trockenlauf ohne AKTIV, letzter Fehler: 2026-10-03T21:37:30.732Z keine Videos in der Antwort: {\"extr"
     },
     {
      "name": "Speicher",
@@ -747,7 +767,7 @@
      "name": "GitHub-Push",
      "schluessel": "github",
      "ampel": "gruen",
-     "text": "origin/main 79c9da8 vor 1 Min"
+     "text": "origin/main 3b65f91 vor 0 Min"
     },
     {
      "name": "WhatsApp Web",
@@ -771,7 +791,7 @@
      "name": "Ereignis-Sensor",
      "schluessel": "ereignisse",
      "ampel": "gruen",
-     "text": "letzter Lauf 03:58, 0 offene Ereignisse"
+     "text": "letzter Lauf 04:13, 0 offene Ereignisse"
     },
     {
      "name": "Chrome auf Timos PC",
