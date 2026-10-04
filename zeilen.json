@@ -2742,5 +2742,12 @@
 "typ": "chef",
 "titel": "Vier Sachen am Laden gemacht",
 "satz": "Ich habe vier Teile am Laden geändert und alle geprüft."
+},
+{
+"tag": "2026-10-04",
+"zeit": "14:48",
+"typ": "chef",
+"titel": "Versand-Termin fehlt auf drei Seiten",
+"satz": "Ich habe überprüft, dass drei Shop-Seiten noch keine Versand-Info haben."
 }
 ]
