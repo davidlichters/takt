@@ -1734,5 +1734,12 @@
 "typ": "chef",
 "titel": "Hundebetten zeigen falschen Preis",
 "satz": "Ich habe einen Fehler beim Preis gefunden und das gleich zu Timo geschickt."
+},
+{
+"tag": "2026-10-04",
+"zeit": "02:10",
+"typ": "chef",
+"titel": "Fehler am Laden entdeckt",
+"satz": "Ich habe überprüft, dass am Laden ein Fehler ist, den wir ändern müssen."
 }
 ]
