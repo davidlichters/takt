@@ -2077,5 +2077,12 @@
 "typ": "recherche",
 "titel": "Zwei Antworten gelesen, keine passen",
 "satz": "Ich habe zwei Antworten zu Zahlung und Versand gelesen, aber keine bringen extra Geld."
+},
+{
+"tag": "2026-10-04",
+"zeit": "06:05",
+"typ": "chef",
+"titel": "Lieferzeitsätze für Seite vorbereitet",
+"satz": "Ich habe nachgeschaut, wie lange Pakete brauchen und neue Sätze geschrieben."
 }
 ]
