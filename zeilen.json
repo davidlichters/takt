@@ -2336,5 +2336,12 @@
 "typ": "chef",
 "titel": "Seite geprüft, nur USA bleibt",
 "satz": "Ich habe Versand und Konkurrenz überall geprüft und weiß jetzt: nur USA passt für uns."
+},
+{
+"tag": "2026-10-04",
+"zeit": "09:12",
+"typ": "chef",
+"titel": "Bestellmail-Block wird eingebaut",
+"satz": "Ich habe gemerkt, dass die Bestellmail im Laden fehlte, David baut sie jetzt ein."
 }
 ]
