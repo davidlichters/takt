@@ -1,7 +1,7 @@
 {
  "version": 2,
- "stand": "2026-10-04T13:17:05Z",
- "stand_berlin": "04.10.2026 15:17",
+ "stand": "2026-10-04T13:32:05Z",
+ "stand_berlin": "04.10.2026 15:32",
  "takt_min": 15,
  "quelle": "takt/leitstand_bauen.py auf Davids Mac, ohne Modell",
  "ziele": {
@@ -273,7 +273,7 @@
      "wer": "David",
      "tun": null,
      "bis": "15:30",
-     "vorbei": false,
+     "vorbei": true,
      "stufe": 5,
      "ja": []
     },
@@ -301,9 +301,9 @@
      "prio": 1,
      "block": "werkzeuge",
      "titel": "Perplexity ist kaputt",
-     "text": "letzter Lauf 15:11: LOGIN FEHLT: nach drei Versuchen ueber die ToolSuite-Kachel nicht angemeldet; KALTSTART_NOETIG gesetzt, Recherche-Schlange pausiert; LIZENZ_NOETIG seit 04.10. 15:04 gesetzt, Recherche-Schlange pausiert",
+     "text": "Gins Browser laeuft nicht; letzter Lauf 15:11: LOGIN FEHLT: nach drei Versuchen ueber die ToolSuite-Kachel nicht angemeldet; KALTSTART_NOETIG gesetzt, Recherche-Schlange pausiert; LIZENZ_NOETIG seit 04.10. 15:04 gesetzt, Recherche-Schlange pausiert",
      "wer": "Claude (Technik)",
-     "tun": "Reparieren. Grund: letzter Lauf 15:11: LOGIN FEHLT: nach drei Versuchen ueber die ToolSuite-Kachel …"
+     "tun": "Reparieren. Grund: Gins Browser laeuft nicht; letzter Lauf 15:11: LOGIN FEHLT: nach drei Versuchen …"
     },
     {
      "prio": 1,
@@ -487,7 +487,7 @@
    "prio": 1,
    "block": "werkzeuge",
    "titel": "Perplexity ist rot",
-   "text": "letzter Lauf 15:11: LOGIN FEHLT: nach drei Versuchen ueber die ToolSuite-Kachel nicht angemeldet; KALTSTART_NOETIG gesetzt, Recherche-Schlange pausiert; LIZENZ_NOETIG seit 04.10. 15:04 gesetzt, Recherche-Schlange pausiert"
+   "text": "Gins Browser laeuft nicht; letzter Lauf 15:11: LOGIN FEHLT: nach drei Versuchen ueber die ToolSuite-Kachel nicht angemeldet; KALTSTART_NOETIG gesetzt, Recherche-Schlange pausiert; LIZENZ_NOETIG seit 04.10. 15:04 gesetzt, Recherche-Schlange pausiert"
   },
   {
    "prio": 1,
@@ -582,7 +582,7 @@
      "ampel": "grau",
      "detail": "76 Bilder, 32 Videos, neu seit Montag, 28.09., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
      "quelle": "Erstellzeit der Dateien in creatives/fertig, 05_creatives/ads, 05_creatives/ki/fertig",
-     "stand": "15:17",
+     "stand": "15:32",
      "ziel": null
     },
     {
@@ -642,7 +642,7 @@
      "ampel": "grau",
      "detail": "1 Zeile im Codeblock (Formatbeispiel) nicht gezählt. Steht dort eine echte Aufgabe, gehört sie aus dem Block heraus.",
      "quelle": "timo/OFFEN.md",
-     "stand": "15:17",
+     "stand": "15:32",
      "ziel": null
     },
     {
@@ -771,7 +771,7 @@
    "zeilen": [
     {
      "name": "Wächter, letzter Lauf",
-     "wert": "15:13",
+     "wert": "15:28",
      "ampel": "gruen",
      "detail": null,
      "quelle": "waechter_zustand.json",
@@ -790,7 +790,7 @@
      "name": "Perplexity",
      "schluessel": "perplexity",
      "ampel": "rot",
-     "text": "letzter Lauf 15:11: LOGIN FEHLT: nach drei Versuchen ueber die ToolSuite-Kachel nicht angemeldet; KALTSTART_NOETIG gesetzt, Recherche-Schlange pausiert; LIZENZ_NOETIG seit 04.10. 15:04 gesetzt, Recherche-Schlange pausiert"
+     "text": "Gins Browser laeuft nicht; letzter Lauf 15:11: LOGIN FEHLT: nach drei Versuchen ueber die ToolSuite-Kachel nicht angemeldet; KALTSTART_NOETIG gesetzt, Recherche-Schlange pausiert; LIZENZ_NOETIG seit 04.10. 15:04 gesetzt, Recherche-Schlange pausiert"
     },
     {
      "name": "Davids Chrome",
@@ -802,7 +802,7 @@
      "name": "Crosspost",
      "schluessel": "crosspost",
      "ampel": "gruen",
-     "text": "laeuft (pid 68376), Herzschlag vor 0 s, postet"
+     "text": "laeuft (pid 68376), Herzschlag vor 2 s, postet"
     },
     {
      "name": "Speicher",
@@ -814,7 +814,7 @@
      "name": "GitHub-Push",
      "schluessel": "github",
      "ampel": "gruen",
-     "text": "origin/main 4a926e4 vor 5 Min"
+     "text": "origin/main 4a926e4 vor 20 Min"
     },
     {
      "name": "WhatsApp Web",
@@ -838,7 +838,7 @@
      "name": "Ereignis-Sensor",
      "schluessel": "ereignisse",
      "ampel": "gruen",
-     "text": "letzter Lauf 15:13, 0 offene Ereignisse"
+     "text": "letzter Lauf 15:28, 0 offene Ereignisse"
     },
     {
      "name": "Chrome auf Timos PC",
