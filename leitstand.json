@@ -1,7 +1,7 @@
 {
  "version": 2,
- "stand": "2026-10-04T01:17:05Z",
- "stand_berlin": "04.10.2026 03:17",
+ "stand": "2026-10-04T01:32:05Z",
+ "stand_berlin": "04.10.2026 03:32",
  "takt_min": 15,
  "quelle": "takt/leitstand_bauen.py auf Davids Mac, ohne Modell",
  "ziele": {
@@ -38,13 +38,13 @@
     },
     {
      "name": "Creatives",
-     "text": "Heute 3 neue Bilder oder Videos gebaut, diese Woche 74. Das neueste: PN_THREEPICK_4x5.png um 03:16. Wie viele davon live sind, wissen wir nicht.",
+     "text": "Heute 5 neue Bilder oder Videos gebaut, diese Woche 76. Das neueste: PN_DEC4_4x5.png um 03:26. Wie viele davon live sind, wissen wir nicht.",
      "ampel": "gruen"
     },
     {
      "name": "Recherche",
-     "text": "Perplexity hat heute 11 Fragen beantwortet, die letzte um 02:50. Die letzten 2 Versuche kamen ohne Antwort zurück.",
-     "ampel": "gruen"
+     "text": "Perplexity hat heute 11 Fragen beantwortet, die letzte um 02:50. Die letzten 3 Versuche kamen ohne Antwort zurück.",
+     "ampel": "gelb"
     },
     {
      "name": "Technik",
@@ -53,7 +53,7 @@
     },
     {
      "name": "Chef-Runde",
-     "text": "Um 03:15: neues fertiges Static PN_THREEPICK_4x5 (drei Designs, Hook ohne Kundenzitat), bereit für Meta …",
+     "text": "Um 03:30: Vincent-Agentur-Entwurf liegt seit 30.09. 07:37 unversendet (über 24 Stunden), Timo 04.10. 07:30 in …",
      "ampel": "gruen"
     }
    ]
@@ -63,7 +63,7 @@
    "id": "auf",
    "frage": "Was hält uns auf?",
    "ampel": "rot",
-   "kurz": "14 Dinge halten uns auf.",
+   "kurz": "15 Dinge halten uns auf.",
    "saetze": [
     "Bei jedem steht, wer es tun muss. Oben steht das, was am meisten Geld kostet."
    ],
@@ -133,6 +133,20 @@
      "stufe": 4,
      "ja": [
       10
+     ]
+    },
+    {
+     "prio": 0,
+     "block": "eskalation",
+     "quelle": "gedaechtnis/OFFEN.md",
+     "titel": "Agentur-Werbekonto mit 250 USD Aufladung. Ja 20 in ~/timo/JA_LISTE.md.",
+     "wer": "Timo",
+     "tun": "Vincent-Agentur-Nachricht senden oder liegen lassen (Entwurf seit 30.09. 07:37, Package B, erste Aufladung 250 USD) in 3 Minuten …",
+     "bis": "07:30",
+     "vorbei": false,
+     "stufe": 4,
+     "ja": [
+      20
      ]
     },
     {
@@ -250,7 +264,7 @@
    "id": "wer",
    "frage": "Wer arbeitet woran?",
    "ampel": "gruen",
-   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 48 Runden heute.",
+   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 51 Runden heute.",
    "saetze": [],
    "zeilen": [
     {
@@ -265,7 +279,7 @@
     },
     {
      "name": "Claude",
-     "text": "48 Runden heute, alle 5 Minuten eine. Zuletzt: neues fertiges Static PN_THREEPICK_4x5 (drei Designs, Hook ohne Kundenzitat), bereit für Meta …",
+     "text": "51 Runden heute, alle 5 Minuten eine. Zuletzt: Vincent-Agentur-Entwurf liegt seit 30.09. 07:37 unversendet (über 24 Stunden), Timo 04.10 …",
      "ampel": "gruen"
     },
     {
@@ -280,10 +294,10 @@
    "id": "tempo",
    "frage": "Wie schnell geht es gerade?",
    "ampel": "rot",
-   "kurz": "Letzte Stunde: 14 Runden, 1 davon mit fertigem Ergebnis.",
+   "kurz": "Letzte Stunde: 14 Runden, 3 davon mit fertigem Ergebnis.",
    "saetze": [
     "Den Gewinn heute wissen wir noch nicht, weil uns der Shopify-Zugang fehlt.",
-    "Fertig heißt noch nicht live: 1 Ja-Schritt wartet auf euer Ja (Karte 2)."
+    "Fertig heißt noch nicht live: 2 Ja-Schritte warten auf euer Ja (Karte 2)."
    ],
    "zeilen": [
     {
@@ -298,7 +312,7 @@
     },
     {
      "name": "Runden, letzte Stunde",
-     "text": "14 Runden: 1 mit fertigem Ergebnis (Creative, Text oder Klickweg), 1 hat einen Menschen erinnert, 12 nur innen gearbeitet.",
+     "text": "14 Runden: 3 mit fertigem Ergebnis (Creative, Text oder Klickweg), 1 hat einen Menschen erinnert, 10 nur innen gearbeitet.",
      "ampel": "rot"
     },
     {
@@ -308,7 +322,7 @@
     },
     {
      "name": "Neu gebaut heute",
-     "text": "3 Bilder und Videos für Anzeigen.",
+     "text": "5 Bilder und Videos für Anzeigen.",
      "ampel": "gruen"
     }
    ]
@@ -345,7 +359,7 @@
     },
     {
      "name": "Runden",
-     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 14, davon 12 nur innen.",
+     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 14, davon 10 nur innen.",
      "ampel": "rot"
     }
    ]
@@ -482,11 +496,11 @@
    "zeilen": [
     {
      "name": "Gebaut diese Woche",
-     "wert": "74 Dateien",
+     "wert": "76 Dateien",
      "ampel": "grau",
-     "detail": "46 Bilder, 28 Videos, neu seit Montag, 28.09., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
+     "detail": "48 Bilder, 28 Videos, neu seit Montag, 28.09., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
      "quelle": "Erstellzeit der Dateien in creatives/fertig, 05_creatives/ads, 05_creatives/ki/fertig",
-     "stand": "03:17",
+     "stand": "03:32",
      "ziel": null
     },
     {
@@ -499,7 +513,7 @@
      "ziel": "3 bis 5 je Woche"
     }
    ],
-   "zahl_gebaut": 74
+   "zahl_gebaut": 76
   },
   {
    "id": "menschen",
@@ -546,7 +560,7 @@
      "ampel": "grau",
      "detail": "1 Zeile im Codeblock (Formatbeispiel) nicht gezählt. Steht dort eine echte Aufgabe, gehört sie aus dem Block heraus.",
      "quelle": "timo/OFFEN.md",
-     "stand": "03:17",
+     "stand": "03:32",
      "ziel": null
     },
     {
@@ -675,7 +689,7 @@
    "zeilen": [
     {
      "name": "Wächter, letzter Lauf",
-     "wert": "03:16",
+     "wert": "03:26",
      "ampel": "gruen",
      "detail": null,
      "quelle": "waechter_zustand.json",
@@ -688,7 +702,7 @@
      "name": "Takt-Schleife",
      "schluessel": "takt",
      "ampel": "gruen",
-     "text": "letzte Runde 03:11 (chef), rc=0, Runde laeuft seit 1 Min"
+     "text": "letzte Runde 03:26 (chef), rc=0"
     },
     {
      "name": "Perplexity",
@@ -706,7 +720,7 @@
      "name": "Crosspost",
      "schluessel": "crosspost",
      "ampel": "gruen",
-     "text": "laeuft (pid 61877), Herzschlag vor 2 s, Trockenlauf ohne AKTIV, letzter Fehler: 2026-10-03T21:37:30.732Z keine Videos in der Antwort: {\"extr"
+     "text": "laeuft (pid 61877), Herzschlag vor 3 s, Trockenlauf ohne AKTIV, letzter Fehler: 2026-10-03T21:37:30.732Z keine Videos in der Antwort: {\"extr"
     },
     {
      "name": "Speicher",
@@ -718,7 +732,7 @@
      "name": "GitHub-Push",
      "schluessel": "github",
      "ampel": "gruen",
-     "text": "origin/main 0fa24cb vor 85 Min"
+     "text": "origin/main bb6bccf vor 0 Min"
     },
     {
      "name": "WhatsApp Web",
@@ -742,7 +756,7 @@
      "name": "Ereignis-Sensor",
      "schluessel": "ereignisse",
      "ampel": "gruen",
-     "text": "letzter Lauf 03:16, 0 offene Ereignisse"
+     "text": "letzter Lauf 03:26, 0 offene Ereignisse"
     },
     {
      "name": "Chrome auf Timos PC",
