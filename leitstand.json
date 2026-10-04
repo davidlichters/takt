@@ -1,7 +1,7 @@
 {
  "version": 2,
- "stand": "2026-10-04T05:17:05Z",
- "stand_berlin": "04.10.2026 07:17",
+ "stand": "2026-10-04T05:32:04Z",
+ "stand_berlin": "04.10.2026 07:32",
  "takt_min": 15,
  "quelle": "takt/leitstand_bauen.py auf Davids Mac, ohne Modell",
  "ziele": {
@@ -38,7 +38,7 @@
     },
     {
      "name": "Creatives",
-     "text": "Heute 10 neue Bilder oder Videos gebaut, diese Woche 80. Das neueste: PN_V13_GRANDMA_H1_4x5.mp4 um 07:11. Wie viele davon live sind, wissen wir nicht.",
+     "text": "Heute 12 neue Bilder oder Videos gebaut, diese Woche 82. Das neueste: PN_OCTOBER_4x5.png um 07:31. Wie viele davon live sind, wissen wir nicht.",
      "ampel": "gruen"
     },
     {
@@ -53,7 +53,7 @@
     },
     {
      "name": "Chef-Runde",
-     "text": "Um 07:10: neues Video V13_GRANDMA 4x5 mit Hook V2 One for the living room, one for grandma's house, Rentier …",
+     "text": "Um 07:30: neues Static C55 PN_OCTOBER_4x5 mit Hook V9 Yes, it's October, No, your dog will not wait until December for …",
      "ampel": "gruen"
     }
    ]
@@ -63,7 +63,7 @@
    "id": "auf",
    "frage": "Was hält uns auf?",
    "ampel": "rot",
-   "kurz": "25 Dinge halten uns auf.",
+   "kurz": "24 Dinge halten uns auf.",
    "saetze": [
     "Bei jedem steht, wer es tun muss. Oben steht das, was am meisten Geld kostet."
    ],
@@ -77,7 +77,7 @@
      "wer": "Timo",
      "tun": null,
      "bis": "07:30",
-     "vorbei": false,
+     "vorbei": true,
      "stufe": 1,
      "ja": []
     },
@@ -89,7 +89,7 @@
      "wer": "Timo",
      "tun": null,
      "bis": "07:30",
-     "vorbei": false,
+     "vorbei": true,
      "stufe": 1,
      "ja": [
       19
@@ -103,7 +103,7 @@
      "wer": "Timo",
      "tun": null,
      "bis": "07:30",
-     "vorbei": false,
+     "vorbei": true,
      "stufe": 1,
      "ja": []
     },
@@ -115,7 +115,7 @@
      "wer": "Timo",
      "tun": null,
      "bis": "07:30",
-     "vorbei": false,
+     "vorbei": true,
      "stufe": 1,
      "ja": []
     },
@@ -139,7 +139,7 @@
      "wer": "David",
      "tun": null,
      "bis": "07:30",
-     "vorbei": false,
+     "vorbei": true,
      "stufe": 2,
      "ja": [
       19
@@ -153,7 +153,7 @@
      "wer": "Timo",
      "tun": "Vincent-Agentur-Nachricht senden oder liegen lassen (Entwurf seit 30.09. 07:37, Package B, erste Aufladung 250 USD) in 3 Minuten …",
      "bis": "07:30",
-     "vorbei": false,
+     "vorbei": true,
      "stufe": 4,
      "ja": [
       20
@@ -167,7 +167,7 @@
      "wer": "David",
      "tun": null,
      "bis": "07:30",
-     "vorbei": false,
+     "vorbei": true,
      "stufe": 4,
      "ja": [
       3
@@ -181,7 +181,7 @@
      "wer": "David",
      "tun": null,
      "bis": "07:30",
-     "vorbei": false,
+     "vorbei": true,
      "stufe": 4,
      "ja": [
       10
@@ -207,7 +207,7 @@
      "wer": "Timo",
      "tun": "Seitentexte About us und Kontakt pruefen, Ja 11 in ~/timo/JA_LISTE.md. KORRIGIERT 04.10. 03:58 (curl porchnap.com/pages/about-us …",
      "bis": "07:30",
-     "vorbei": false,
+     "vorbei": true,
      "stufe": 5,
      "ja": [
       11,
@@ -222,7 +222,7 @@
      "wer": "Timo",
      "tun": "Kaching-Bundles-Einstellungen im Shopify Admin, Ja 5 bis 7 in ~/timo/JA_LISTE.md",
      "bis": "07:30",
-     "vorbei": false,
+     "vorbei": true,
      "stufe": 5,
      "ja": [
       5
@@ -355,7 +355,7 @@
     {
      "prio": 1.5,
      "block": "ja",
-     "titel": "8 Ja-Fragen warten: ja schema (bis 04.10. 12:00), ja klarna (bis 04.10. 12:00), ja folien (bis 04.10. 12:00) und 5 weitere",
+     "titel": "7 Ja-Fragen warten: ja schema (bis 04.10. 12:00), ja klarna (bis 04.10. 12:00), ja ticket (bis 04.10. 12:00) und 4 weitere",
      "wer": "David oder Timo",
      "tun": "Im Claude-Chat „ja <Nr>“ schreiben, Liste in timo/JA_LISTE.md",
      "quelle": "timo/JA_LISTE.md"
@@ -367,14 +367,6 @@
      "text": "Kein Meta-Zugang und kein Shopify-Token. veraltet oder verworfen: Anzeigen aktiv, Bestellungen heute. Niemand sieht hier, ob Anzeigen laufen und Geld kommt. Abhilfe: Plan Abschnitt 3, Shopify-Token (Timo, 5 min) und Meta-Zugang (Timo, 10 min). Bis dahin trägt ein Chat gemessene Werte ein: takt/leitstand_bauen.py --eintragen.",
      "wer": "Timo",
      "tun": "Einmal den Shopify-Schlüssel (5 min) und den Meta-Zugang (10 min) anlegen, Plan Abschnitt 3"
-    },
-    {
-     "prio": 4,
-     "block": "aufgaben",
-     "wer": "Timo 1, David 0, Claude 0",
-     "tun": "Die älteste zuerst erledigen oder neu datieren; Liste unten unter Offene Aufgaben",
-     "titel": "1 Aufgabe überfällig",
-     "text": "Älteste: 03.10., Timo, 2 min. Davon nennen Timo 1, David 0, Claude 0."
     }
    ]
   },
@@ -383,7 +375,7 @@
    "id": "wer",
    "frage": "Wer arbeitet woran?",
    "ampel": "gruen",
-   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 94 Runden heute.",
+   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 98 Runden heute.",
    "saetze": [],
    "zeilen": [
     {
@@ -393,12 +385,12 @@
     },
     {
      "name": "Timo",
-     "text": "Nicht gemessen, das hat Timo am 03.10. so entschieden. 1 überfällige Aufgabe nennt Timo.",
+     "text": "Nicht gemessen, das hat Timo am 03.10. so entschieden.",
      "ampel": "grau"
     },
     {
      "name": "Claude",
-     "text": "94 Runden heute, alle 5 Minuten eine. Zuletzt: neues Video V13_GRANDMA 4x5 mit Hook V2 One for the living room, one for grandma's house …",
+     "text": "98 Runden heute, alle 5 Minuten eine. Zuletzt: neues Static C55 PN_OCTOBER_4x5 mit Hook V9 Yes, it's October, No, your dog will not wait …",
      "ampel": "gruen"
     },
     {
@@ -413,10 +405,10 @@
    "id": "tempo",
    "frage": "Wie schnell geht es gerade?",
    "ampel": "gruen",
-   "kurz": "Letzte Stunde: 10 Runden, 8 davon mit fertigem Ergebnis.",
+   "kurz": "Letzte Stunde: 11 Runden, 10 davon mit fertigem Ergebnis.",
    "saetze": [
     "Den Gewinn heute wissen wir noch nicht, weil uns der Shopify-Zugang fehlt.",
-    "Fertig heißt noch nicht live: 10 Ja-Schritte warten auf euer Ja (Karte 2)."
+    "Fertig heißt noch nicht live: 9 Ja-Schritte warten auf euer Ja (Karte 2)."
    ],
    "zeilen": [
     {
@@ -431,17 +423,17 @@
     },
     {
      "name": "Runden, letzte Stunde",
-     "text": "10 Runden: 8 mit fertigem Ergebnis (Creative, Text oder Klickweg), 0 haben einen Menschen erinnert, 2 nur innen gearbeitet.",
+     "text": "11 Runden: 10 mit fertigem Ergebnis (Creative, Text oder Klickweg), 0 haben einen Menschen erinnert, 1 nur innen gearbeitet.",
      "ampel": "gruen"
     },
     {
      "name": "Erledigt heute",
-     "text": "0 in OFFEN.md als erledigt eingetragen, 0 Ja-Schritte erledigt.",
-     "ampel": "gelb"
+     "text": "0 in OFFEN.md als erledigt eingetragen, 1 Ja-Schritt erledigt.",
+     "ampel": "gruen"
     },
     {
      "name": "Neu gebaut heute",
-     "text": "10 Bilder und Videos für Anzeigen.",
+     "text": "12 Bilder und Videos für Anzeigen.",
      "ampel": "gruen"
     }
    ]
@@ -478,7 +470,7 @@
     },
     {
      "name": "Runden",
-     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 10, davon 2 nur innen.",
+     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 11, davon 1 nur innen.",
      "ampel": "rot"
     }
    ]
@@ -529,14 +521,6 @@
    "block": "geld",
    "titel": "Keine frische Zahl zu Anzeigen und Geld",
    "text": "Kein Meta-Zugang und kein Shopify-Token. veraltet oder verworfen: Anzeigen aktiv, Bestellungen heute. Niemand sieht hier, ob Anzeigen laufen und Geld kommt. Abhilfe: Plan Abschnitt 3, Shopify-Token (Timo, 5 min) und Meta-Zugang (Timo, 10 min). Bis dahin trägt ein Chat gemessene Werte ein: takt/leitstand_bauen.py --eintragen."
-  },
-  {
-   "prio": 4,
-   "block": "aufgaben",
-   "wer": "Timo 1, David 0, Claude 0",
-   "tun": "die älteste zuerst erledigen oder neu datieren; Liste unten unter Offene Aufgaben",
-   "titel": "1 Aufgabe überfällig",
-   "text": "Älteste: 03.10., Timo, 2 min. Davon nennen Timo 1, David 0, Claude 0."
   }
  ],
  "bloecke": [
@@ -615,11 +599,11 @@
    "zeilen": [
     {
      "name": "Gebaut diese Woche",
-     "wert": "80 Dateien",
+     "wert": "82 Dateien",
      "ampel": "grau",
-     "detail": "51 Bilder, 29 Videos, neu seit Montag, 28.09., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
+     "detail": "53 Bilder, 29 Videos, neu seit Montag, 28.09., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
      "quelle": "Erstellzeit der Dateien in creatives/fertig, 05_creatives/ads, 05_creatives/ki/fertig",
-     "stand": "07:17",
+     "stand": "07:32",
      "ziel": null
     },
     {
@@ -632,7 +616,7 @@
      "ziel": "3 bis 5 je Woche"
     }
    ],
-   "zahl_gebaut": 80
+   "zahl_gebaut": 82
   },
   {
    "id": "menschen",
@@ -671,22 +655,22 @@
   {
    "id": "aufgaben",
    "titel": "Offene Aufgaben",
-   "ampel": "rot",
+   "ampel": "gelb",
    "zeilen": [
     {
      "name": "Offen",
-     "wert": "13",
+     "wert": "12",
      "ampel": "grau",
      "detail": "1 Zeile im Codeblock (Formatbeispiel) nicht gezählt. Steht dort eine echte Aufgabe, gehört sie aus dem Block heraus.",
      "quelle": "timo/OFFEN.md",
-     "stand": "07:17",
+     "stand": "07:32",
      "ziel": null
     },
     {
      "name": "Überfällig",
-     "wert": "1",
-     "ampel": "rot",
-     "detail": "davon nennen Timo 1, David 0, Claude 0",
+     "wert": "0",
+     "ampel": "gruen",
+     "detail": null,
      "quelle": null,
      "stand": null,
      "ziel": null
@@ -702,14 +686,6 @@
     }
    ],
    "liste": [
-    {
-     "datum": "2026-10-03",
-     "datum_kurz": "03.10.",
-     "wer": "Timo, 2 min",
-     "text": "Warenkorb-Abbruch-Mail einschalten: Shopify > Marketing > Automations > Vorlage \"Abandoned checkout\", ohne Rabattcode …",
-     "tage_ueberfaellig": 1,
-     "ampel": "rot"
-    },
     {
      "datum": "2026-10-04",
      "datum_kurz": "04.10.",
@@ -797,9 +773,17 @@
      "text": "Bei 0 Käufen nicht schneiden, bevor die Prüffolge durch ist: launch/null_kaeufe_pruefung.md (8 Stufen, Urteil erst ab …",
      "tage_ueberfaellig": 0,
      "ampel": "grau"
+    },
+    {
+     "datum": "2026-11-01",
+     "datum_kurz": "01.11.",
+     "wer": "Claude, wöchentlich, nur lesen, 5 min",
+     "text": "Sales-Tax-Nexus zählen: Bestellungen je Lieferstaat seit 01.10. (Tax Liability Insights oder Orders-Export). Rund 12 …",
+     "tage_ueberfaellig": 0,
+     "ampel": "grau"
     }
    ],
-   "weitere": 1
+   "weitere": 0
   },
   {
    "id": "werkzeuge",
@@ -808,7 +792,7 @@
    "zeilen": [
     {
      "name": "Wächter, letzter Lauf",
-     "wert": "07:15",
+     "wert": "07:30",
      "ampel": "gruen",
      "detail": null,
      "quelle": "waechter_zustand.json",
@@ -821,7 +805,7 @@
      "name": "Takt-Schleife",
      "schluessel": "takt",
      "ampel": "gruen",
-     "text": "letzte Runde 07:11 (chef), rc=0"
+     "text": "letzte Runde 07:27 (chef), rc=0, Runde laeuft seit 0 Min"
     },
     {
      "name": "Perplexity",
@@ -839,7 +823,7 @@
      "name": "Crosspost",
      "schluessel": "crosspost",
      "ampel": "gruen",
-     "text": "laeuft (pid 61877), Herzschlag vor 0 s, Trockenlauf ohne AKTIV, letzter Fehler: 2026-10-03T21:37:30.732Z keine Videos in der Antwort: {\"extr"
+     "text": "laeuft (pid 61877), Herzschlag vor 8 s, Trockenlauf ohne AKTIV, letzter Fehler: 2026-10-03T21:37:30.732Z keine Videos in der Antwort: {\"extr"
     },
     {
      "name": "Speicher",
@@ -851,7 +835,7 @@
      "name": "GitHub-Push",
      "schluessel": "github",
      "ampel": "gruen",
-     "text": "origin/main 342beab vor 3 Min"
+     "text": "origin/main 4c8ea3c vor 0 Min"
     },
     {
      "name": "WhatsApp Web",
@@ -875,7 +859,7 @@
      "name": "Ereignis-Sensor",
      "schluessel": "ereignisse",
      "ampel": "gruen",
-     "text": "letzter Lauf 07:15, 0 offene Ereignisse"
+     "text": "letzter Lauf 07:30, 0 offene Ereignisse"
     },
     {
      "name": "Chrome auf Timos PC",
