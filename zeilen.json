@@ -1867,5 +1867,12 @@
 "typ": "chef",
 "titel": "Brief wird gerade versendet",
 "satz": "Ich habe gesehen, dass der Brief nicht weg ist und schicke ihn jetzt ab."
+},
+{
+"tag": "2026-10-04",
+"zeit": "03:35",
+"typ": "chef",
+"titel": "Fragen an Bonnie geschrieben, noch offen",
+"satz": "Ich habe Fragen geschrieben, damit Bonnie uns hilft und wir die Betten bekommen."
 }
 ]
