@@ -1727,5 +1727,12 @@
 "typ": "chef",
 "titel": "Kaufknopf überall getestet und notiert",
 "satz": "Ich habe getestet, dass der Kaufknopf überall den gleichen Preis zeigt."
+},
+{
+"tag": "2026-10-04",
+"zeit": "02:05",
+"typ": "chef",
+"titel": "Hundebetten zeigen falschen Preis",
+"satz": "Ich habe einen Fehler beim Preis gefunden und das gleich zu Timo geschickt."
 }
 ]
