@@ -1,7 +1,7 @@
 {
  "version": 2,
- "stand": "2026-10-04T15:02:05Z",
- "stand_berlin": "04.10.2026 17:02",
+ "stand": "2026-10-04T15:17:05Z",
+ "stand_berlin": "04.10.2026 17:17",
  "takt_min": 15,
  "quelle": "takt/leitstand_bauen.py auf Davids Mac, ohne Modell",
  "ziele": {
@@ -18,7 +18,7 @@
    "id": "wo",
    "frage": "Was passiert gerade wo?",
    "ampel": "rot",
-   "kurz": "Der Shop ist offen. Die Anzeigen sind aus.",
+   "kurz": "Der Shop ist offen. Ob die Anzeigen laufen, sehen wir nicht.",
    "saetze": [],
    "zeilen": [
     {
@@ -28,7 +28,7 @@
     },
     {
      "name": "Anzeigen",
-     "text": "Aus (gemessen 11:03, Meta ads_get_ad_accounts 04.10. 11:0x: einziges sichtbares Konto Porch Nap 1984849605541642 ohne Zahlungsart, EUR; BM3 ohne Karte laut Eskalation 09:30). Ohne Anzeigen kommt kein Geld.",
+     "text": "Start war für 03.10. 20:00 geplant. Ob sie laufen, wissen wir noch nicht, weil uns der Meta-Zugang fehlt.",
      "ampel": "rot"
     },
     {
@@ -53,7 +53,7 @@
     },
     {
      "name": "Chef-Runde",
-     "text": "Um 16:44: neues Werbebild C83 PN_GUESTS fertig, Winkel Weihnachtstrubel ohne Ton, Angaben wie live. Ereignis …",
+     "text": "Um 17:05: Kaufleisten-Zoom am iPhone (P30) neu gelöst über maximum-scale im Viewport statt 16 px, Designname bleibt …",
      "ampel": "gruen"
     }
    ]
@@ -63,7 +63,7 @@
    "id": "auf",
    "frage": "Was hält uns auf?",
    "ampel": "rot",
-   "kurz": "22 Dinge halten uns auf.",
+   "kurz": "21 Dinge halten uns auf.",
    "saetze": [
     "Bei jedem steht, wer es tun muss. Oben steht das, was am meisten Geld kostet."
    ],
@@ -319,14 +319,6 @@
      "ja": []
     },
     {
-     "prio": 1,
-     "block": "anzeigen",
-     "titel": "Anzeigen sind aus",
-     "text": "Gemessen 11:03, Quelle: Meta ads_get_ad_accounts 04.10. 11:0x: einziges sichtbares Konto Porch Nap 1984849605541642 ohne Zahlungsart, EUR; BM3 ohne Karte laut Eskalation 09:30. Ohne Anzeigen kommt kein Geld.",
-     "wer": "Timo",
-     "tun": "Kampagne bauen und veröffentlichen (K5, K6)"
-    },
-    {
      "prio": 1.5,
      "block": "ja",
      "titel": "5 Ja-Fragen warten: ja vincent (bis 04.10. 12:00), ja ticket (bis 04.10. 12:00), ja moneyback (bis 04.10. 12:00) und 2 weitere",
@@ -337,8 +329,8 @@
     {
      "prio": 2,
      "block": "geld",
-     "titel": "3 von 5 Geldzahlen fehlen",
-     "text": "Kein Meta-Zugang und kein Shopify-Token. Niemand sieht hier, ob Anzeigen laufen und Geld kommt. Abhilfe: keine Aufgabe fuer David oder Timo (David 04.10. 14:20: Meta, BM3, Karte nie erinnern); Claude liest Zahlen, sobald sie da sind. Bis dahin trägt ein Chat gemessene Werte ein: takt/leitstand_bauen.py --eintragen.",
+     "titel": "4 von 5 Geldzahlen fehlen",
+     "text": "Kein Meta-Zugang und kein Shopify-Token. veraltet oder verworfen: Anzeigen aktiv. Niemand sieht hier, ob Anzeigen laufen und Geld kommt. Abhilfe: keine Aufgabe fuer David oder Timo (David 04.10. 14:20: Meta, BM3, Karte nie erinnern); Claude liest Zahlen, sobald sie da sind. Bis dahin trägt ein Chat gemessene Werte ein: takt/leitstand_bauen.py --eintragen.",
      "wer": "Timo",
      "tun": "Einmal den Shopify-Schlüssel (5 min) und den Meta-Zugang (10 min) anlegen, Plan Abschnitt 3"
     }
@@ -349,7 +341,7 @@
    "id": "wer",
    "frage": "Wer arbeitet woran?",
    "ampel": "gruen",
-   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 190 Runden heute.",
+   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 191 Runden heute.",
    "saetze": [],
    "zeilen": [
     {
@@ -364,7 +356,7 @@
     },
     {
      "name": "Claude",
-     "text": "190 Runden heute, alle 5 Minuten eine. Zuletzt: neues Werbebild C83 PN_GUESTS fertig, Winkel Weihnachtstrubel ohne Ton, Angaben wie live …",
+     "text": "191 Runden heute, alle 5 Minuten eine. Zuletzt: Kaufleisten-Zoom am iPhone (P30) neu gelöst über maximum-scale im Viewport statt 16 px …",
      "ampel": "gruen"
     },
     {
@@ -378,8 +370,8 @@
    "nr": 4,
    "id": "tempo",
    "frage": "Wie schnell geht es gerade?",
-   "ampel": "gelb",
-   "kurz": "Letzte Stunde: 5 Runden, 3 davon mit fertigem Ergebnis.",
+   "ampel": "gruen",
+   "kurz": "Letzte Stunde: 4 Runden, 3 davon mit fertigem Ergebnis.",
    "saetze": [
     "Den Gewinn heute wissen wir noch nicht, weil uns der Shopify-Zugang fehlt.",
     "Fertig heißt noch nicht live: 9 Ja-Schritte warten auf euer Ja (Karte 2)."
@@ -397,8 +389,8 @@
     },
     {
      "name": "Runden, letzte Stunde",
-     "text": "5 Runden: 3 mit fertigem Ergebnis (Creative, Text oder Klickweg), 1 hat einen Menschen erinnert, 1 nur innen gearbeitet.",
-     "ampel": "gelb"
+     "text": "4 Runden: 3 mit fertigem Ergebnis (Creative, Text oder Klickweg), 0 haben einen Menschen erinnert, 1 nur innen gearbeitet.",
+     "ampel": "gruen"
     },
     {
      "name": "Erledigt heute",
@@ -416,10 +408,10 @@
    "nr": 5,
    "id": "soll",
    "frage": "Wie schnell sollte es gehen?",
-   "ampel": "rot",
+   "ampel": "gelb",
    "kurz": "Wir schaffen 0 von 5 Zielen.",
    "saetze": [
-    "2 verfehlen wir gerade. 3 messen wir noch nicht."
+    "1 verfehlen wir gerade. 4 messen wir noch nicht."
    ],
    "zeilen": [
     {
@@ -439,12 +431,12 @@
     },
     {
      "name": "Anzeigen",
-     "text": "Soll: laufen ab heute mit 200 USD am Tag. Ist: aus.",
-     "ampel": "rot"
+     "text": "Soll: laufen ab heute mit 200 USD am Tag. Ist: wissen wir noch nicht, weil uns der Meta-Zugang fehlt.",
+     "ampel": "grau"
     },
     {
      "name": "Runden",
-     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 5, davon 1 nur innen.",
+     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 4, davon 1 nur innen.",
      "ampel": "rot"
     }
    ]
@@ -491,29 +483,23 @@
  "karten_fehler": null,
  "rot": [
   {
-   "prio": 1,
-   "block": "anzeigen",
-   "titel": "Anzeigen sind aus",
-   "text": "Gemessen 11:03, Quelle: Meta ads_get_ad_accounts 04.10. 11:0x: einziges sichtbares Konto Porch Nap 1984849605541642 ohne Zahlungsart, EUR; BM3 ohne Karte laut Eskalation 09:30. Ohne Anzeigen kommt kein Geld."
-  },
-  {
    "prio": 2,
    "block": "geld",
-   "titel": "3 von 5 Geldzahlen fehlen",
-   "text": "Kein Meta-Zugang und kein Shopify-Token. Niemand sieht hier, ob Anzeigen laufen und Geld kommt. Abhilfe: keine Aufgabe fuer David oder Timo (David 04.10. 14:20: Meta, BM3, Karte nie erinnern); Claude liest Zahlen, sobald sie da sind. Bis dahin trägt ein Chat gemessene Werte ein: takt/leitstand_bauen.py --eintragen."
+   "titel": "4 von 5 Geldzahlen fehlen",
+   "text": "Kein Meta-Zugang und kein Shopify-Token. veraltet oder verworfen: Anzeigen aktiv. Niemand sieht hier, ob Anzeigen laufen und Geld kommt. Abhilfe: keine Aufgabe fuer David oder Timo (David 04.10. 14:20: Meta, BM3, Karte nie erinnern); Claude liest Zahlen, sobald sie da sind. Bis dahin trägt ein Chat gemessene Werte ein: takt/leitstand_bauen.py --eintragen."
   }
  ],
  "bloecke": [
   {
    "id": "anzeigen",
    "titel": "Anzeigen",
-   "ampel": "rot",
+   "ampel": "grau",
    "zeilen": [
     {
      "name": "Anzeigen aktiv",
-     "wert": "nein",
-     "ampel": "rot",
-     "detail": null,
+     "wert": "veraltet",
+     "ampel": "grau",
+     "detail": "letzte Messung 11:03, älter als 6 h: damals nein",
      "quelle": "Meta ads_get_ad_accounts 04.10. 11:0x: einziges sichtbares Konto Porch Nap 1984849605541642 ohne Zahlungsart, EUR; BM3 ohne Karte laut Eskalation 09:30",
      "stand": "11:03",
      "ziel": null
@@ -583,7 +569,7 @@
      "ampel": "grau",
      "detail": "77 Bilder, 32 Videos, neu seit Montag, 28.09., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
      "quelle": "Erstellzeit der Dateien in creatives/fertig, 05_creatives/ads, 05_creatives/ki/fertig",
-     "stand": "17:02",
+     "stand": "17:17",
      "ziel": null
     },
     {
@@ -643,7 +629,7 @@
      "ampel": "grau",
      "detail": "1 Zeile im Codeblock (Formatbeispiel) nicht gezählt. Steht dort eine echte Aufgabe, gehört sie aus dem Block heraus.",
      "quelle": "timo/OFFEN.md",
-     "stand": "17:02",
+     "stand": "17:17",
      "ziel": null
     },
     {
@@ -772,7 +758,7 @@
    "zeilen": [
     {
      "name": "Wächter, letzter Lauf",
-     "wert": "16:57",
+     "wert": "17:12",
      "ampel": "gruen",
      "detail": null,
      "quelle": "waechter_zustand.json",
@@ -785,13 +771,13 @@
      "name": "Takt-Schleife",
      "schluessel": "takt",
      "ampel": "gruen",
-     "text": "letzte Runde 16:46 (chef), rc=0"
+     "text": "letzte Runde 17:08 (chef), rc=0"
     },
     {
      "name": "Perplexity",
      "schluessel": "perplexity",
      "ampel": "gruen",
-     "text": "letzter Lauf 16:46 erfolgreich, Gins laeuft"
+     "text": "letzter Lauf 16:50 erfolgreich, Gins laeuft"
     },
     {
      "name": "Davids Chrome",
@@ -803,19 +789,19 @@
      "name": "Crosspost",
      "schluessel": "crosspost",
      "ampel": "gruen",
-     "text": "laeuft (pid 34390), Herzschlag vor 9 s, postet"
+     "text": "laeuft (pid 34390), Herzschlag vor 4 s, postet"
     },
     {
      "name": "Speicher",
      "schluessel": "speicher",
      "ampel": "gruen",
-     "text": "123 GB frei"
+     "text": "124 GB frei"
     },
     {
      "name": "GitHub-Push",
      "schluessel": "github",
      "ampel": "gruen",
-     "text": "origin/main 0202671 vor 10 Min"
+     "text": "origin/main 61d9b33 vor 4 Min"
     },
     {
      "name": "WhatsApp Web",
@@ -839,7 +825,7 @@
      "name": "Ereignis-Sensor",
      "schluessel": "ereignisse",
      "ampel": "gruen",
-     "text": "letzter Lauf 16:57, 0 offene Ereignisse"
+     "text": "letzter Lauf 17:12, 0 offene Ereignisse"
     },
     {
      "name": "Chrome auf Timos PC",
