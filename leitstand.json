@@ -1,7 +1,7 @@
 {
  "version": 2,
- "stand": "2026-10-04T14:47:05Z",
- "stand_berlin": "04.10.2026 16:47",
+ "stand": "2026-10-04T15:02:05Z",
+ "stand_berlin": "04.10.2026 17:02",
  "takt_min": 15,
  "quelle": "takt/leitstand_bauen.py auf Davids Mac, ohne Modell",
  "ziele": {
@@ -43,13 +43,13 @@
     },
     {
      "name": "Recherche",
-     "text": "Perplexity hat heute 62 Fragen beantwortet, die letzte um 16:46.",
+     "text": "Perplexity hat heute 64 Fragen beantwortet, die letzte um 17:01.",
      "ampel": "gruen"
     },
     {
      "name": "Technik",
-     "text": "Der Wächter prüft alle 5 Minuten 10 Werkzeuge: 7 gehen, 1 kaputt (WhatsApp Web), 2 warten auf Zugang oder sind aus (Shopify, Meta). 1 weiteres prüft er noch nicht.",
-     "ampel": "rot"
+     "text": "Der Wächter prüft alle 5 Minuten 10 Werkzeuge: 8 gehen, 2 warten auf Zugang oder sind aus (Shopify, Meta). 1 weiteres prüft er noch nicht.",
+     "ampel": "gruen"
     },
     {
      "name": "Chef-Runde",
@@ -63,7 +63,7 @@
    "id": "auf",
    "frage": "Was hält uns auf?",
    "ampel": "rot",
-   "kurz": "23 Dinge halten uns auf.",
+   "kurz": "22 Dinge halten uns auf.",
    "saetze": [
     "Bei jedem steht, wer es tun muss. Oben steht das, was am meisten Geld kostet."
    ],
@@ -327,14 +327,6 @@
      "tun": "Kampagne bauen und veröffentlichen (K5, K6)"
     },
     {
-     "prio": 1,
-     "block": "werkzeuge",
-     "titel": "WhatsApp Web ist kaputt",
-     "text": "WhatsApp-Kanal nicht bereit (kein_apple): Davids Chrome antwortet nicht auf Apple Events: AppleEvent timed out (-1712)",
-     "wer": "Claude (Technik)",
-     "tun": "Reparieren. Grund: WhatsApp-Kanal nicht bereit (kein_apple): Davids Chrome antwortet nicht auf …"
-    },
-    {
      "prio": 1.5,
      "block": "ja",
      "titel": "5 Ja-Fragen warten: ja vincent (bis 04.10. 12:00), ja ticket (bis 04.10. 12:00), ja moneyback (bis 04.10. 12:00) und 2 weitere",
@@ -505,12 +497,6 @@
    "text": "Gemessen 11:03, Quelle: Meta ads_get_ad_accounts 04.10. 11:0x: einziges sichtbares Konto Porch Nap 1984849605541642 ohne Zahlungsart, EUR; BM3 ohne Karte laut Eskalation 09:30. Ohne Anzeigen kommt kein Geld."
   },
   {
-   "prio": 1,
-   "block": "werkzeuge",
-   "titel": "WhatsApp Web ist rot",
-   "text": "WhatsApp-Kanal nicht bereit (kein_apple): Davids Chrome antwortet nicht auf Apple Events: AppleEvent timed out (-1712)"
-  },
-  {
    "prio": 2,
    "block": "geld",
    "titel": "3 von 5 Geldzahlen fehlen",
@@ -597,7 +583,7 @@
      "ampel": "grau",
      "detail": "77 Bilder, 32 Videos, neu seit Montag, 28.09., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
      "quelle": "Erstellzeit der Dateien in creatives/fertig, 05_creatives/ads, 05_creatives/ki/fertig",
-     "stand": "16:47",
+     "stand": "17:02",
      "ziel": null
     },
     {
@@ -657,7 +643,7 @@
      "ampel": "grau",
      "detail": "1 Zeile im Codeblock (Formatbeispiel) nicht gezählt. Steht dort eine echte Aufgabe, gehört sie aus dem Block heraus.",
      "quelle": "timo/OFFEN.md",
-     "stand": "16:47",
+     "stand": "17:02",
      "ziel": null
     },
     {
@@ -782,11 +768,11 @@
   {
    "id": "werkzeuge",
    "titel": "Werkzeuge",
-   "ampel": "rot",
+   "ampel": "gelb",
    "zeilen": [
     {
      "name": "Wächter, letzter Lauf",
-     "wert": "16:46",
+     "wert": "16:57",
      "ampel": "gruen",
      "detail": null,
      "quelle": "waechter_zustand.json",
@@ -799,13 +785,13 @@
      "name": "Takt-Schleife",
      "schluessel": "takt",
      "ampel": "gruen",
-     "text": "letzte Runde 16:43 (chef), rc=0, Runde laeuft seit 1 Min"
+     "text": "letzte Runde 16:46 (chef), rc=0"
     },
     {
      "name": "Perplexity",
      "schluessel": "perplexity",
      "ampel": "gruen",
-     "text": "letzter Lauf 16:38 erfolgreich, Gins laeuft"
+     "text": "letzter Lauf 16:46 erfolgreich, Gins laeuft"
     },
     {
      "name": "Davids Chrome",
@@ -817,25 +803,25 @@
      "name": "Crosspost",
      "schluessel": "crosspost",
      "ampel": "gruen",
-     "text": "laeuft (pid 34390), Herzschlag vor 3 s, postet"
+     "text": "laeuft (pid 34390), Herzschlag vor 9 s, postet"
     },
     {
      "name": "Speicher",
      "schluessel": "speicher",
      "ampel": "gruen",
-     "text": "125 GB frei"
+     "text": "123 GB frei"
     },
     {
      "name": "GitHub-Push",
      "schluessel": "github",
      "ampel": "gruen",
-     "text": "origin/main ef75601 vor 2 Min"
+     "text": "origin/main 0202671 vor 10 Min"
     },
     {
      "name": "WhatsApp Web",
      "schluessel": "whatsapp",
-     "ampel": "rot",
-     "text": "WhatsApp-Kanal nicht bereit (kein_apple): Davids Chrome antwortet nicht auf Apple Events: AppleEvent timed out (-1712)"
+     "ampel": "gruen",
+     "text": "Chatliste gelesen (apple, 1 Zeilen), 0 von 6 Lieferanten sichtbar, nicht sichtbar: Bonnie DS, John (Supplier), Adam DS, Mr Anh, Vito DS, Joel DS"
     },
     {
      "name": "Shopify",
@@ -853,7 +839,7 @@
      "name": "Ereignis-Sensor",
      "schluessel": "ereignisse",
      "ampel": "gruen",
-     "text": "letzter Lauf 16:45, 0 offene Ereignisse"
+     "text": "letzter Lauf 16:57, 0 offene Ereignisse"
     },
     {
      "name": "Chrome auf Timos PC",
