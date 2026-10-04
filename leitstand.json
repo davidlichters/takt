@@ -1,7 +1,7 @@
 {
  "version": 2,
- "stand": "2026-10-04T06:17:05Z",
- "stand_berlin": "04.10.2026 08:17",
+ "stand": "2026-10-04T06:32:05Z",
+ "stand_berlin": "04.10.2026 08:32",
  "takt_min": 15,
  "quelle": "takt/leitstand_bauen.py auf Davids Mac, ohne Modell",
  "ziele": {
@@ -38,12 +38,12 @@
     },
     {
      "name": "Creatives",
-     "text": "Heute 16 neue Bilder oder Videos gebaut, diese Woche 86. Das neueste: PN_V16_CATBOX_H1_4x5.mp4 um 08:16. Wie viele davon live sind, wissen wir nicht.",
+     "text": "Heute 17 neue Bilder oder Videos gebaut, diese Woche 87. Das neueste: PN_GRANDMA_4x5.png um 08:31. Wie viele davon live sind, wissen wir nicht.",
      "ampel": "gruen"
     },
     {
      "name": "Recherche",
-     "text": "Perplexity hat heute 13 Fragen beantwortet, die letzte um 07:05.",
+     "text": "Perplexity hat heute 14 Fragen beantwortet, die letzte um 08:29.",
      "ampel": "gruen"
     },
     {
@@ -53,8 +53,8 @@
     },
     {
      "name": "Chef-Runde",
-     "text": "Um 08:15: neues Video C60 PN_V16_CATBOX_4x5 mit Hook V10 You bought the cute bed. Your cat chose the box., erstes Video …",
-     "ampel": "gruen"
+     "text": "Um 08:25: entsperrt Stufe 5, weil dem Shop-Chat-Startblock P31 fehlte (Warenkorb sagt calculated at checkout statt …",
+     "ampel": "gelb"
     }
    ]
   },
@@ -63,7 +63,7 @@
    "id": "auf",
    "frage": "Was hält uns auf?",
    "ampel": "rot",
-   "kurz": "24 Dinge halten uns auf.",
+   "kurz": "25 Dinge halten uns auf.",
    "saetze": [
     "Bei jedem steht, wer es tun muss. Oben steht das, was am meisten Geld kostet."
    ],
@@ -332,6 +332,20 @@
      "prio": 0,
      "block": "eskalation",
      "quelle": "gedaechtnis/OFFEN.md",
+     "titel": "neuen Claude-Chat in ~/timo öffnen und den Block aus ~/timo/launch/kurs_umsetzung/02_seiten_und_serv …",
+     "wer": "David",
+     "tun": null,
+     "bis": "09:00",
+     "vorbei": false,
+     "stufe": 5,
+     "ja": [
+      19
+     ]
+    },
+    {
+     "prio": 0,
+     "block": "eskalation",
+     "quelle": "gedaechtnis/OFFEN.md",
      "titel": "Ticket mit dem Text aus ~/timo/entwuerfe/2026-10-04_ecomwarts_shop_ticket.md senden, direkt nach …",
      "wer": "Timo",
      "tun": "Shop-Pruefung bei den Ecomwarts-Coaches anfragen",
@@ -374,13 +388,13 @@
    "nr": 3,
    "id": "wer",
    "frage": "Wer arbeitet woran?",
-   "ampel": "gruen",
-   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 106 Runden heute.",
+   "ampel": "gelb",
+   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 108 Runden heute.",
    "saetze": [],
    "zeilen": [
     {
      "name": "David",
-     "text": "Nicht gemessen, weil David die Mac-Messung am 03.10. abgeschaltet hat. Auf David warten heute 3 Sachen (Karte 2).",
+     "text": "Nicht gemessen, weil David die Mac-Messung am 03.10. abgeschaltet hat. Auf David warten heute 4 Sachen (Karte 2).",
      "ampel": "grau"
     },
     {
@@ -390,8 +404,8 @@
     },
     {
      "name": "Claude",
-     "text": "106 Runden heute, alle 5 Minuten eine. Zuletzt: neues Video C60 PN_V16_CATBOX_4x5 mit Hook V10 You bought the cute bed. Your cat chose the …",
-     "ampel": "gruen"
+     "text": "108 Runden heute, alle 5 Minuten eine. Zuletzt: entsperrt Stufe 5, weil dem Shop-Chat-Startblock P31 fehlte (Warenkorb sagt calculated at …",
+     "ampel": "gelb"
     },
     {
      "name": "Abteilungs-Chats",
@@ -404,8 +418,8 @@
    "nr": 4,
    "id": "tempo",
    "frage": "Wie schnell geht es gerade?",
-   "ampel": "gruen",
-   "kurz": "Letzte Stunde: 11 Runden, 9 davon mit fertigem Ergebnis.",
+   "ampel": "gelb",
+   "kurz": "Letzte Stunde: 10 Runden, 6 davon mit fertigem Ergebnis.",
    "saetze": [
     "Den Gewinn heute wissen wir noch nicht, weil uns der Shopify-Zugang fehlt.",
     "Fertig heißt noch nicht live: 9 Ja-Schritte warten auf euer Ja (Karte 2)."
@@ -423,8 +437,8 @@
     },
     {
      "name": "Runden, letzte Stunde",
-     "text": "11 Runden: 9 mit fertigem Ergebnis (Creative, Text oder Klickweg), 0 haben einen Menschen erinnert, 2 nur innen gearbeitet.",
-     "ampel": "gruen"
+     "text": "10 Runden: 6 mit fertigem Ergebnis (Creative, Text oder Klickweg), 1 hat einen Menschen erinnert, 3 nur innen gearbeitet.",
+     "ampel": "gelb"
     },
     {
      "name": "Erledigt heute",
@@ -433,7 +447,7 @@
     },
     {
      "name": "Neu gebaut heute",
-     "text": "16 Bilder und Videos für Anzeigen.",
+     "text": "17 Bilder und Videos für Anzeigen.",
      "ampel": "gruen"
     }
    ]
@@ -470,7 +484,7 @@
     },
     {
      "name": "Runden",
-     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 11, davon 2 nur innen.",
+     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 10, davon 3 nur innen.",
      "ampel": "rot"
     }
    ]
@@ -599,11 +613,11 @@
    "zeilen": [
     {
      "name": "Gebaut diese Woche",
-     "wert": "86 Dateien",
+     "wert": "87 Dateien",
      "ampel": "grau",
-     "detail": "54 Bilder, 32 Videos, neu seit Montag, 28.09., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
+     "detail": "55 Bilder, 32 Videos, neu seit Montag, 28.09., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
      "quelle": "Erstellzeit der Dateien in creatives/fertig, 05_creatives/ads, 05_creatives/ki/fertig",
-     "stand": "08:17",
+     "stand": "08:32",
      "ziel": null
     },
     {
@@ -616,7 +630,7 @@
      "ziel": "3 bis 5 je Woche"
     }
    ],
-   "zahl_gebaut": 86
+   "zahl_gebaut": 87
   },
   {
    "id": "menschen",
@@ -663,7 +677,7 @@
      "ampel": "grau",
      "detail": "1 Zeile im Codeblock (Formatbeispiel) nicht gezählt. Steht dort eine echte Aufgabe, gehört sie aus dem Block heraus.",
      "quelle": "timo/OFFEN.md",
-     "stand": "08:17",
+     "stand": "08:32",
      "ziel": null
     },
     {
@@ -792,7 +806,7 @@
    "zeilen": [
     {
      "name": "Wächter, letzter Lauf",
-     "wert": "08:12",
+     "wert": "08:27",
      "ampel": "gruen",
      "detail": null,
      "quelle": "waechter_zustand.json",
@@ -805,7 +819,7 @@
      "name": "Takt-Schleife",
      "schluessel": "takt",
      "ampel": "gruen",
-     "text": "letzte Runde 08:11 (chef), rc=0"
+     "text": "letzte Runde 08:26 (chef), rc=0"
     },
     {
      "name": "Perplexity",
@@ -823,7 +837,7 @@
      "name": "Crosspost",
      "schluessel": "crosspost",
      "ampel": "gruen",
-     "text": "laeuft (pid 61877), Herzschlag vor 2 s, Trockenlauf ohne AKTIV, letzter Fehler: 2026-10-03T21:37:30.732Z keine Videos in der Antwort: {\"extr"
+     "text": "laeuft (pid 61877), Herzschlag vor 6 s, Trockenlauf ohne AKTIV, letzter Fehler: 2026-10-03T21:37:30.732Z keine Videos in der Antwort: {\"extr"
     },
     {
      "name": "Speicher",
@@ -835,7 +849,7 @@
      "name": "GitHub-Push",
      "schluessel": "github",
      "ampel": "gruen",
-     "text": "origin/main 12fc17f vor 0 Min"
+     "text": "origin/main fb16264 vor 1 Min"
     },
     {
      "name": "WhatsApp Web",
@@ -859,7 +873,7 @@
      "name": "Ereignis-Sensor",
      "schluessel": "ereignisse",
      "ampel": "gruen",
-     "text": "letzter Lauf 08:12, 0 offene Ereignisse"
+     "text": "letzter Lauf 08:27, 0 offene Ereignisse"
     },
     {
      "name": "Chrome auf Timos PC",
