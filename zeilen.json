@@ -2000,5 +2000,12 @@
 "typ": "chef",
 "titel": "Käufermeinungen im Laden wieder da",
 "satz": "Ich habe die Anzeige wieder eingebaut, damit neue Käufer wissen, was andere denken."
+},
+{
+"tag": "2026-10-04",
+"zeit": "05:10",
+"typ": "chef",
+"titel": "Mail-Fehler gefunden und David erinnert",
+"satz": "Ich habe die Fehler gefunden und David heute morgen erinnert, sie zu beheben."
 }
 ]
