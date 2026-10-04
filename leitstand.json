@@ -1,7 +1,7 @@
 {
  "version": 2,
- "stand": "2026-10-04T23:47:05Z",
- "stand_berlin": "05.10.2026 01:47",
+ "stand": "2026-10-04T23:49:02Z",
+ "stand_berlin": "05.10.2026 01:49",
  "takt_min": 15,
  "quelle": "takt/leitstand_bauen.py auf Davids Mac, ohne Modell",
  "ziele": {
@@ -18,7 +18,7 @@
    "id": "wo",
    "frage": "Was passiert gerade wo?",
    "ampel": "rot",
-   "kurz": "Der Shop ist offen. Ob die Anzeigen laufen, sehen wir nicht.",
+   "kurz": "Der Shop ist offen. Die Anzeigen sind aus.",
    "saetze": [],
    "zeilen": [
     {
@@ -28,7 +28,7 @@
     },
     {
      "name": "Anzeigen",
-     "text": "Start war für 03.10. 20:00 geplant. Ob sie laufen, wissen wir noch nicht, weil uns der Meta-Zugang fehlt.",
+     "text": "Aus (gemessen 01:49, Meta Ads Konto Porch Nap 1984849605541642, 0 Kampagnen, heute keine Ausgaben, 01:49). Ohne Anzeigen kommt kein Geld.",
      "ampel": "rot"
     },
     {
@@ -63,7 +63,7 @@
    "id": "auf",
    "frage": "Was hält uns auf?",
    "ampel": "rot",
-   "kurz": "5 Dinge halten uns auf.",
+   "kurz": "6 Dinge halten uns auf.",
    "saetze": [
     "Bei jedem steht, wer es tun muss. Oben steht das, was am meisten Geld kostet."
    ],
@@ -101,6 +101,14 @@
      ]
     },
     {
+     "prio": 1,
+     "block": "anzeigen",
+     "titel": "Anzeigen sind aus",
+     "text": "Gemessen 01:49, Quelle: Meta Ads Konto Porch Nap 1984849605541642, 0 Kampagnen, heute keine Ausgaben, 01:49. Ohne Anzeigen kommt kein Geld.",
+     "wer": "Timo",
+     "tun": "Kampagne bauen und veröffentlichen (K5, K6)"
+    },
+    {
      "prio": 1.5,
      "block": "ja",
      "titel": "3 Ja-Fragen warten: ja knopf (bis 04.10. 12:00), ja john (bis 05.10. 10:00), ja bonnie zahlweg (bis 05.10. 10:00)",
@@ -111,10 +119,10 @@
     {
      "prio": 2,
      "block": "geld",
-     "titel": "Keine frische Zahl zu Anzeigen und Geld",
-     "text": "veraltet oder verworfen: Anzeigen aktiv, Ausgaben heute, Bestellungen heute, Gewinn heute, Gewinn seit 01.10.. Niemand sieht hier, ob Anzeigen laufen und Geld kommt. Abhilfe: keine Aufgabe fuer David oder Timo (David 04.10. 14:20: Meta, BM3, Karte nie erinnern); Claude liest Zahlen, sobald sie da sind. Bis dahin trägt ein Chat gemessene Werte ein: takt/leitstand_bauen.py --eintragen.",
-     "wer": "Timo",
-     "tun": "Einmal den Shopify-Schlüssel (5 min) und den Meta-Zugang (10 min) anlegen, Plan Abschnitt 3"
+     "titel": "Rückstand 8.696 USD gegen Plan",
+     "text": "Gewinn seit 01.10. 0,00 USD, Soll nach 4 Tagen 8.696 USD (2.174 USD je Tag).",
+     "wer": "David und Timo",
+     "tun": "Anzeigen und Kasse nach betrieb/ENTSCHEIDUNGSREGELN.md prüfen"
     },
     {
      "prio": 4,
@@ -160,21 +168,21 @@
    "nr": 4,
    "id": "tempo",
    "frage": "Wie schnell geht es gerade?",
-   "ampel": "gruen",
+   "ampel": "gelb",
    "kurz": "Letzte Stunde: 3 Runden, 3 davon mit fertigem Ergebnis.",
    "saetze": [
-    "Den Gewinn heute wissen wir noch nicht, weil uns der Shopify-Zugang fehlt.",
+    "Gewinn heute: 0,00 USD.",
     "Fertig heißt noch nicht live: 6 Ja-Schritte warten auf euer Ja (Karte 2)."
    ],
    "zeilen": [
     {
      "name": "Gewinn heute",
-     "text": "Wissen wir noch nicht, weil uns der Shopify-Zugang fehlt.",
-     "ampel": "grau"
+     "text": "0,00 USD (gemessen 01:49, Shopify Porchnap list-orders created_at>=2026-10-01: 0 Bestellungen, 01:49; keine Werbeausgaben laut Meta).",
+     "ampel": "gelb"
     },
     {
      "name": "Bestellungen heute",
-     "text": "Wissen wir noch nicht, weil uns der Shopify-Zugang fehlt.",
+     "text": "0 (gemessen 01:49).",
      "ampel": "grau"
     },
     {
@@ -198,16 +206,16 @@
    "nr": 5,
    "id": "soll",
    "frage": "Wie schnell sollte es gehen?",
-   "ampel": "gelb",
+   "ampel": "rot",
    "kurz": "Wir schaffen 0 von 5 Zielen.",
    "saetze": [
-    "1 verfehlen wir gerade. 4 messen wir noch nicht."
+    "3 verfehlen wir gerade. 2 messen wir noch nicht."
    ],
    "zeilen": [
     {
      "name": "Gewinn",
-     "text": "Soll 2.174 USD am Tag, damit wir bis Weihnachten 200.000 USD haben. Heute: wissen wir noch nicht.",
-     "ampel": "grau"
+     "text": "Soll 2.174 USD am Tag. Heute bisher 0,00 USD.",
+     "ampel": "rot"
     },
     {
      "name": "David",
@@ -221,8 +229,8 @@
     },
     {
      "name": "Anzeigen",
-     "text": "Soll: laufen ab heute mit 200 USD am Tag. Ist: wissen wir noch nicht, weil uns der Meta-Zugang fehlt.",
-     "ampel": "grau"
+     "text": "Soll: laufen ab heute mit 200 USD am Tag. Ist: aus.",
+     "ampel": "rot"
     },
     {
      "name": "Runden",
@@ -273,10 +281,16 @@
  "karten_fehler": null,
  "rot": [
   {
+   "prio": 1,
+   "block": "anzeigen",
+   "titel": "Anzeigen sind aus",
+   "text": "Gemessen 01:49, Quelle: Meta Ads Konto Porch Nap 1984849605541642, 0 Kampagnen, heute keine Ausgaben, 01:49. Ohne Anzeigen kommt kein Geld."
+  },
+  {
    "prio": 2,
    "block": "geld",
-   "titel": "Keine frische Zahl zu Anzeigen und Geld",
-   "text": "veraltet oder verworfen: Anzeigen aktiv, Ausgaben heute, Bestellungen heute, Gewinn heute, Gewinn seit 01.10.. Niemand sieht hier, ob Anzeigen laufen und Geld kommt. Abhilfe: keine Aufgabe fuer David oder Timo (David 04.10. 14:20: Meta, BM3, Karte nie erinnern); Claude liest Zahlen, sobald sie da sind. Bis dahin trägt ein Chat gemessene Werte ein: takt/leitstand_bauen.py --eintragen."
+   "titel": "Rückstand 8.696 USD gegen Plan",
+   "text": "Gewinn seit 01.10. 0,00 USD, Soll nach 4 Tagen 8.696 USD (2.174 USD je Tag)."
   },
   {
    "prio": 4,
@@ -291,24 +305,24 @@
   {
    "id": "anzeigen",
    "titel": "Anzeigen",
-   "ampel": "grau",
+   "ampel": "rot",
    "zeilen": [
     {
      "name": "Anzeigen aktiv",
-     "wert": "veraltet",
-     "ampel": "grau",
-     "detail": "letzte Messung 04.10. 19:36, älter als 6 h: damals nein",
-     "quelle": "Shopify list-orders ab 01.10. 0 Bestellungen, Meta ads_get_ad_entities Konto 1984849605541642 0 Anzeigen ohne Ausgaben heute und im Monat, 19:36",
-     "stand": "04.10. 19:36",
+     "wert": "nein",
+     "ampel": "rot",
+     "detail": null,
+     "quelle": "Meta Ads Konto Porch Nap 1984849605541642, 0 Kampagnen, heute keine Ausgaben, 01:49",
+     "stand": "01:49",
      "ziel": null
     },
     {
      "name": "Ausgaben heute",
-     "wert": "veraltet",
+     "wert": "0,00 USD",
      "ampel": "grau",
-     "detail": "letzte Messung 04.10. 19:36, älter als 6 h: damals 0,00 USD",
-     "quelle": "Shopify list-orders ab 01.10. 0 Bestellungen, Meta ads_get_ad_entities Konto 1984849605541642 0 Anzeigen ohne Ausgaben heute und im Monat, 19:36",
-     "stand": "04.10. 19:36",
+     "detail": null,
+     "quelle": "Meta Ads Konto Porch Nap 1984849605541642, 0 Kampagnen, heute keine Ausgaben, 01:49",
+     "stand": "01:49",
      "ziel": "Budget 200,00 USD am Tag bis zum ersten Gewinn (Plan 5)"
     },
     {
@@ -325,33 +339,33 @@
   {
    "id": "geld",
    "titel": "Geld",
-   "ampel": "grau",
+   "ampel": "rot",
    "zeilen": [
     {
      "name": "Bestellungen heute",
-     "wert": "veraltet",
+     "wert": "0",
      "ampel": "grau",
-     "detail": "letzte Messung 04.10. 19:36, älter als 6 h: damals 0",
-     "quelle": "Shopify list-orders ab 01.10. 0 Bestellungen, Meta ads_get_ad_entities Konto 1984849605541642 0 Anzeigen ohne Ausgaben heute und im Monat, 19:36",
-     "stand": "04.10. 19:36",
+     "detail": null,
+     "quelle": "Shopify Porchnap list-orders created_at>=2026-10-01: 0 Bestellungen, 01:49",
+     "stand": "01:49",
      "ziel": null
     },
     {
      "name": "Gewinn heute",
-     "wert": "veraltet",
-     "ampel": "grau",
-     "detail": "letzte Messung 04.10. 19:36, älter als 6 h: damals 0,00 USD",
-     "quelle": "Shopify list-orders ab 01.10. 0 Bestellungen, Meta ads_get_ad_entities Konto 1984849605541642 0 Anzeigen ohne Ausgaben heute und im Monat, 19:36",
-     "stand": "04.10. 19:36",
+     "wert": "0,00 USD",
+     "ampel": "gelb",
+     "detail": null,
+     "quelle": "Shopify Porchnap list-orders created_at>=2026-10-01: 0 Bestellungen, 01:49; keine Werbeausgaben laut Meta",
+     "stand": "01:49",
      "ziel": "2.174 USD"
     },
     {
      "name": "Gewinn seit 01.10.",
-     "wert": "veraltet",
-     "ampel": "grau",
-     "detail": "letzte Messung 04.10. 19:36, älter als 6 h: damals 0,00 USD",
-     "quelle": "Shopify list-orders ab 01.10. 0 Bestellungen, Meta ads_get_ad_entities Konto 1984849605541642 0 Anzeigen ohne Ausgaben heute und im Monat, 19:36",
-     "stand": "04.10. 19:36",
+     "wert": "0,00 USD",
+     "ampel": "rot",
+     "detail": null,
+     "quelle": "Shopify Porchnap list-orders created_at>=2026-10-01: 0 Bestellungen, 01:49; keine Werbeausgaben laut Meta",
+     "stand": "01:49",
      "ziel": "200.000 USD bis 31.12., Soll bis gestern 8.696 USD (4 Tage)"
     }
    ]
@@ -367,7 +381,7 @@
      "ampel": "grau",
      "detail": "4 Bilder, 3 Videos, neu seit Montag, 05.10., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
      "quelle": "Erstellzeit der Dateien in creatives/fertig, 05_creatives/ads, 05_creatives/ki/fertig",
-     "stand": "01:47",
+     "stand": "01:49",
      "ziel": null
     },
     {
@@ -427,7 +441,7 @@
      "ampel": "grau",
      "detail": "1 Zeile im Codeblock (Formatbeispiel) nicht gezählt. Steht dort eine echte Aufgabe, gehört sie aus dem Block heraus.",
      "quelle": "timo/OFFEN.md",
-     "stand": "01:47",
+     "stand": "01:49",
      "ziel": null
     },
     {
