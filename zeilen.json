@@ -2700,5 +2700,12 @@
 "typ": "chef",
 "titel": "Timo trägt Karte bis 14 Uhr",
 "satz": "Ich habe geprüft, damit Timo die Karte einträgt und Geld kommt."
+},
+{
+"tag": "2026-10-04",
+"zeit": "13:45",
+"typ": "chef",
+"titel": "Claudes Plan wird teuer",
+"satz": "Ich habe geklärt, dass Claude monatlich Geld kostet und nur noch einen Plan hat."
 }
 ]
