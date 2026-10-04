@@ -1,7 +1,7 @@
 {
  "version": 2,
- "stand": "2026-10-04T20:17:05Z",
- "stand_berlin": "04.10.2026 22:17",
+ "stand": "2026-10-04T20:32:05Z",
+ "stand_berlin": "04.10.2026 22:32",
  "takt_min": 15,
  "quelle": "takt/leitstand_bauen.py auf Davids Mac, ohne Modell",
  "ziele": {
@@ -43,7 +43,7 @@
     },
     {
      "name": "Recherche",
-     "text": "Perplexity hat heute 84 Fragen beantwortet, die letzte um 21:38. Die letzten 3 Versuche kamen ohne Antwort zurück.",
+     "text": "Perplexity hat heute 84 Fragen beantwortet, die letzte um 21:38. Die letzten 4 Versuche kamen ohne Antwort zurück.",
      "ampel": "gelb"
     },
     {
@@ -413,7 +413,7 @@
    "id": "tempo",
    "frage": "Wie schnell geht es gerade?",
    "ampel": "gelb",
-   "kurz": "Letzte Stunde: 3 Runden, 3 davon mit fertigem Ergebnis.",
+   "kurz": "Letzte Stunde: 2 Runden, 2 davon mit fertigem Ergebnis.",
    "saetze": [
     "Gewinn heute: 0,00 USD.",
     "Fertig heißt noch nicht live: 6 Ja-Schritte warten auf euer Ja (Karte 2)."
@@ -431,7 +431,7 @@
     },
     {
      "name": "Runden, letzte Stunde",
-     "text": "3 Runden: 3 mit fertigem Ergebnis (Creative, Text oder Klickweg), 0 haben einen Menschen erinnert, 0 nur innen gearbeitet.",
+     "text": "2 Runden: 2 mit fertigem Ergebnis (Creative, Text oder Klickweg), 0 haben einen Menschen erinnert, 0 nur innen gearbeitet.",
      "ampel": "gruen"
     },
     {
@@ -478,7 +478,7 @@
     },
     {
      "name": "Runden",
-     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 3, davon 0 nur innen.",
+     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 2, davon 0 nur innen.",
      "ampel": "rot"
     }
    ]
@@ -617,7 +617,7 @@
      "ampel": "grau",
      "detail": "83 Bilder, 32 Videos, neu seit Montag, 28.09., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
      "quelle": "Erstellzeit der Dateien in creatives/fertig, 05_creatives/ads, 05_creatives/ki/fertig",
-     "stand": "22:17",
+     "stand": "22:32",
      "ziel": null
     },
     {
@@ -677,7 +677,7 @@
      "ampel": "grau",
      "detail": "1 Zeile im Codeblock (Formatbeispiel) nicht gezählt. Steht dort eine echte Aufgabe, gehört sie aus dem Block heraus.",
      "quelle": "timo/OFFEN.md",
-     "stand": "22:17",
+     "stand": "22:32",
      "ziel": null
     },
     {
@@ -806,7 +806,7 @@
    "zeilen": [
     {
      "name": "Wächter, letzter Lauf",
-     "wert": "22:13",
+     "wert": "22:29",
      "ampel": "gruen",
      "detail": null,
      "quelle": "waechter_zustand.json",
@@ -825,7 +825,7 @@
      "name": "Perplexity",
      "schluessel": "perplexity",
      "ampel": "gruen",
-     "text": "Gins laeuft; letzter Lauf 21:51 ohne Antwortdatei: nach 12 Minuten nicht fertig"
+     "text": "Gins laeuft; letzter Lauf 22:15 ohne Antwortdatei: nach 12 Minuten nicht fertig"
     },
     {
      "name": "Davids Chrome",
@@ -837,7 +837,7 @@
      "name": "Crosspost",
      "schluessel": "crosspost",
      "ampel": "gruen",
-     "text": "laeuft (pid 34390), Herzschlag vor 3 s, postet, letzter Fehler: 2026-10-04T20:00:14.318Z keine Videos in der Antwort: {\"log_"
+     "text": "laeuft (pid 34390), Herzschlag vor 0 s, postet, letzter Fehler: 2026-10-04T20:17:03.764Z keine Videos in der Antwort: {\"log_"
     },
     {
      "name": "Speicher",
@@ -849,7 +849,7 @@
      "name": "GitHub-Push",
      "schluessel": "github",
      "ampel": "gruen",
-     "text": "origin/main 1f0a5b7 vor 7 Min"
+     "text": "origin/main 1f0a5b7 vor 22 Min"
     },
     {
      "name": "WhatsApp Web",
@@ -873,7 +873,7 @@
      "name": "Ereignis-Sensor",
      "schluessel": "ereignisse",
      "ampel": "gruen",
-     "text": "letzter Lauf 22:13, 0 offene Ereignisse"
+     "text": "letzter Lauf 22:28, 0 offene Ereignisse"
     },
     {
      "name": "Chrome auf Timos PC",
