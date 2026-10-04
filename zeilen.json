@@ -2301,5 +2301,12 @@
 "typ": "chef",
 "titel": "Timo repariert den Laden",
 "satz": "Ich habe gesehen, dass Timo alles gemacht hat, damit mehr Kunden bei uns kaufen."
+},
+{
+"tag": "2026-10-04",
+"zeit": "08:55",
+"typ": "chef",
+"titel": "Erstes Bild mit allen Betten gemacht",
+"satz": "Ich habe alle Betten mit Garantie, Gratisversand und einer Frage gezeigt."
 }
 ]
