@@ -1,7 +1,7 @@
 {
  "version": 2,
- "stand": "2026-10-04T06:47:05Z",
- "stand_berlin": "04.10.2026 08:47",
+ "stand": "2026-10-04T07:02:05Z",
+ "stand_berlin": "04.10.2026 09:02",
  "takt_min": 15,
  "quelle": "takt/leitstand_bauen.py auf Davids Mac, ohne Modell",
  "ziele": {
@@ -38,12 +38,12 @@
     },
     {
      "name": "Creatives",
-     "text": "Heute 18 neue Bilder oder Videos gebaut, diese Woche 88. Das neueste: PN_STOCKING_4x5.png um 08:36. Wie viele davon live sind, wissen wir nicht.",
+     "text": "Heute 19 neue Bilder oder Videos gebaut, diese Woche 89. Das neueste: PN_WHICH_4x5.png um 08:56. Wie viele davon live sind, wissen wir nicht.",
      "ampel": "gruen"
     },
     {
      "name": "Recherche",
-     "text": "Perplexity hat heute 18 Fragen beantwortet, die letzte um 08:45.",
+     "text": "Perplexity hat heute 22 Fragen beantwortet, die letzte um 09:00.",
      "ampel": "gruen"
     },
     {
@@ -53,7 +53,7 @@
     },
     {
      "name": "Chef-Runde",
-     "text": "Um 08:44: entsperrt Stufe 1, weil die Länderfrage jetzt entschieden ist: nur USA bleibt offen, UK braucht vorher eine …",
+     "text": "Um 08:57: entsperrt Stufe 2, weil vier Dateien vier Skaliertakte nannten; jetzt gilt überall PLAYBOOK D12 (Stufen, 3 …",
      "ampel": "gelb"
     }
    ]
@@ -63,7 +63,7 @@
    "id": "auf",
    "frage": "Was hält uns auf?",
    "ampel": "rot",
-   "kurz": "26 Dinge halten uns auf.",
+   "kurz": "27 Dinge halten uns auf.",
    "saetze": [
     "Bei jedem steht, wer es tun muss. Oben steht das, was am meisten Geld kostet."
    ],
@@ -139,6 +139,18 @@
      "wer": "Timo",
      "tun": null,
      "bis": "09:30",
+     "vorbei": false,
+     "stufe": 1,
+     "ja": []
+    },
+    {
+     "prio": 0,
+     "block": "eskalation",
+     "quelle": "gedaechtnis/OFFEN.md",
+     "titel": "Timo verbindet in 20 Minuten im BM3-Klickweg Schritt 4 (~/timo/launch/coach_2026-10-03/11_BM3_HEUTE_ …",
+     "wer": "Timo",
+     "tun": null,
+     "bis": "09:35",
      "vorbei": false,
      "stufe": 1,
      "ja": []
@@ -348,7 +360,7 @@
      "wer": "David",
      "tun": null,
      "bis": "09:00",
-     "vorbei": false,
+     "vorbei": true,
      "stufe": 5,
      "ja": [
       19
@@ -401,7 +413,7 @@
    "id": "wer",
    "frage": "Wer arbeitet woran?",
    "ampel": "gelb",
-   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 112 Runden heute.",
+   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 115 Runden heute.",
    "saetze": [],
    "zeilen": [
     {
@@ -416,7 +428,7 @@
     },
     {
      "name": "Claude",
-     "text": "112 Runden heute, alle 5 Minuten eine. Zuletzt: entsperrt Stufe 1, weil die Länderfrage jetzt entschieden ist: nur USA bleibt offen, UK …",
+     "text": "115 Runden heute, alle 5 Minuten eine. Zuletzt: entsperrt Stufe 2, weil vier Dateien vier Skaliertakte nannten; jetzt gilt überall PLAYBOOK …",
      "ampel": "gelb"
     },
     {
@@ -431,7 +443,7 @@
    "id": "tempo",
    "frage": "Wie schnell geht es gerade?",
    "ampel": "gelb",
-   "kurz": "Letzte Stunde: 12 Runden, 7 davon mit fertigem Ergebnis.",
+   "kurz": "Letzte Stunde: 12 Runden, 5 davon mit fertigem Ergebnis.",
    "saetze": [
     "Den Gewinn heute wissen wir noch nicht, weil uns der Shopify-Zugang fehlt.",
     "Fertig heißt noch nicht live: 9 Ja-Schritte warten auf euer Ja (Karte 2)."
@@ -449,7 +461,7 @@
     },
     {
      "name": "Runden, letzte Stunde",
-     "text": "12 Runden: 7 mit fertigem Ergebnis (Creative, Text oder Klickweg), 2 haben einen Menschen erinnert, 3 nur innen gearbeitet.",
+     "text": "12 Runden: 5 mit fertigem Ergebnis (Creative, Text oder Klickweg), 3 haben einen Menschen erinnert, 4 nur innen gearbeitet.",
      "ampel": "gelb"
     },
     {
@@ -459,7 +471,7 @@
     },
     {
      "name": "Neu gebaut heute",
-     "text": "18 Bilder und Videos für Anzeigen.",
+     "text": "19 Bilder und Videos für Anzeigen.",
      "ampel": "gruen"
     }
    ]
@@ -469,9 +481,9 @@
    "id": "soll",
    "frage": "Wie schnell sollte es gehen?",
    "ampel": "gelb",
-   "kurz": "Wir schaffen 1 von 5 Zielen.",
+   "kurz": "Wir schaffen 0 von 5 Zielen.",
    "saetze": [
-    "4 messen wir noch nicht."
+    "1 verfehlen wir gerade. 4 messen wir noch nicht."
    ],
    "zeilen": [
     {
@@ -496,8 +508,8 @@
     },
     {
      "name": "Runden",
-     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 12, davon 3 nur innen.",
-     "ampel": "gruen"
+     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 12, davon 4 nur innen.",
+     "ampel": "rot"
     }
    ]
   },
@@ -625,11 +637,11 @@
    "zeilen": [
     {
      "name": "Gebaut diese Woche",
-     "wert": "88 Dateien",
+     "wert": "89 Dateien",
      "ampel": "grau",
-     "detail": "56 Bilder, 32 Videos, neu seit Montag, 28.09., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
+     "detail": "57 Bilder, 32 Videos, neu seit Montag, 28.09., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
      "quelle": "Erstellzeit der Dateien in creatives/fertig, 05_creatives/ads, 05_creatives/ki/fertig",
-     "stand": "08:47",
+     "stand": "09:02",
      "ziel": null
     },
     {
@@ -642,7 +654,7 @@
      "ziel": "3 bis 5 je Woche"
     }
    ],
-   "zahl_gebaut": 88
+   "zahl_gebaut": 89
   },
   {
    "id": "menschen",
@@ -669,7 +681,7 @@
     },
     {
      "name": "Nächster Check-in",
-     "wert": "09:00 heute",
+     "wert": "13:00 heute",
      "ampel": "grau",
      "detail": "Tagesstart 08:00 ist festgelegt (Plan 5). Die Check-in-Zeiten (09:00, 13:00, 18:00, 22:00) sind der Vorschlag aus Plan 2.4, noch nicht festgelegt.",
      "quelle": "LEITSTAND_PLAN.md 2.4 und 5",
@@ -689,7 +701,7 @@
      "ampel": "grau",
      "detail": "1 Zeile im Codeblock (Formatbeispiel) nicht gezählt. Steht dort eine echte Aufgabe, gehört sie aus dem Block heraus.",
      "quelle": "timo/OFFEN.md",
-     "stand": "08:47",
+     "stand": "09:02",
      "ziel": null
     },
     {
@@ -818,7 +830,7 @@
    "zeilen": [
     {
      "name": "Wächter, letzter Lauf",
-     "wert": "08:43",
+     "wert": "08:58",
      "ampel": "gruen",
      "detail": null,
      "quelle": "waechter_zustand.json",
@@ -831,13 +843,13 @@
      "name": "Takt-Schleife",
      "schluessel": "takt",
      "ampel": "gruen",
-     "text": "letzte Runde 08:36 (chef), rc=0, Runde laeuft seit 3 Min"
+     "text": "letzte Runde 08:56 (chef), rc=0, Runde laeuft seit 1 Min"
     },
     {
      "name": "Perplexity",
      "schluessel": "perplexity",
      "ampel": "gruen",
-     "text": "letzter Lauf 08:36 erfolgreich, Gins laeuft"
+     "text": "letzter Lauf 08:52 erfolgreich, Gins laeuft"
     },
     {
      "name": "Davids Chrome",
@@ -849,19 +861,19 @@
      "name": "Crosspost",
      "schluessel": "crosspost",
      "ampel": "gruen",
-     "text": "laeuft (pid 61877), Herzschlag vor 1 s, Trockenlauf ohne AKTIV, letzter Fehler: 2026-10-03T21:37:30.732Z keine Videos in der Antwort: {\"extr"
+     "text": "laeuft (pid 61877), Herzschlag vor 6 s, Trockenlauf ohne AKTIV, letzter Fehler: 2026-10-03T21:37:30.732Z keine Videos in der Antwort: {\"extr"
     },
     {
      "name": "Speicher",
      "schluessel": "speicher",
      "ampel": "gruen",
-     "text": "130 GB frei"
+     "text": "131 GB frei"
     },
     {
      "name": "GitHub-Push",
      "schluessel": "github",
      "ampel": "gruen",
-     "text": "origin/main 43fe73d vor 2 Min"
+     "text": "origin/main bef37fc vor 1 Min"
     },
     {
      "name": "WhatsApp Web",
@@ -885,7 +897,7 @@
      "name": "Ereignis-Sensor",
      "schluessel": "ereignisse",
      "ampel": "gruen",
-     "text": "letzter Lauf 08:43, 1 offene Ereignisse, aeltestes 08:41"
+     "text": "letzter Lauf 08:58, 0 offene Ereignisse"
     },
     {
      "name": "Chrome auf Timos PC",
