@@ -1,7 +1,7 @@
 {
  "version": 2,
- "stand": "2026-10-04T21:47:05Z",
- "stand_berlin": "04.10.2026 23:47",
+ "stand": "2026-10-04T22:02:05Z",
+ "stand_berlin": "05.10.2026 00:02",
  "takt_min": 15,
  "quelle": "takt/leitstand_bauen.py auf Davids Mac, ohne Modell",
  "ziele": {
@@ -9,7 +9,7 @@
   "gewinn_tag_usd": 2174,
   "break_even_cpa_usd": 47.01,
   "stunden_je_person": 10,
-  "tag": 4,
+  "tag": 5,
   "tage_gesamt": 92
  },
  "karten": [
@@ -28,7 +28,7 @@
     },
     {
      "name": "Anzeigen",
-     "text": "Aus (gemessen 19:36, Shopify list-orders ab 01.10. 0 Bestellungen, Meta ads_get_ad_entities Konto 1984849605541642 0 Anzeigen ohne Ausgaben heute und im Monat, 19:36). Ohne Anzeigen kommt kein Geld.",
+     "text": "Aus (gemessen 04.10. 19:36, Shopify list-orders ab 01.10. 0 Bestellungen, Meta ads_get_ad_entities Konto 1984849605541642 0 Anzeigen ohne Ausgaben heute und im Monat, 19:36). Ohne Anzeigen kommt kein Geld.",
      "ampel": "rot"
     },
     {
@@ -38,12 +38,12 @@
     },
     {
      "name": "Creatives",
-     "text": "Heute 45 neue Bilder oder Videos gebaut, diese Woche 115. Das neueste: PN_SMALLBOX_4x5.png um 21:27. Wie viele davon live sind, wissen wir nicht.",
-     "ampel": "gruen"
+     "text": "Heute 0 neue Bilder oder Videos gebaut, diese Woche 0. Das neueste: PN_SMALLBOX_4x5.png um 04.10. 21:27. Wie viele davon live sind, wissen wir nicht.",
+     "ampel": "rot"
     },
     {
      "name": "Recherche",
-     "text": "Perplexity hat heute 88 Fragen beantwortet, die letzte um 23:24.",
+     "text": "Perplexity hat heute 0 Fragen beantwortet, die letzte um 04.10. 23:58.",
      "ampel": "gruen"
     },
     {
@@ -53,8 +53,8 @@
     },
     {
      "name": "Chef-Runde",
-     "text": "Um 23:35: Einfügetexte für About und FAQ sagen jetzt 1 to 3 und 7 to 13 statt 7 to 12, Nachmess-Skript des Shop-Chats …",
-     "ampel": "gruen"
+     "text": "Um 04.10. 23:48: entsperrt Stufe 6, weil das Ereignis Perplexity 21:24 zwölf Haustier-Produkte mit China-DDP lieferte; Urteil …",
+     "ampel": "gelb"
     }
    ]
   },
@@ -63,7 +63,7 @@
    "id": "auf",
    "frage": "Was hält uns auf?",
    "ampel": "rot",
-   "kurz": "24 Dinge halten uns auf.",
+   "kurz": "8 Dinge halten uns auf.",
    "saetze": [
     "Bei jedem steht, wer es tun muss. Oben steht das, was am meisten Geld kostet."
    ],
@@ -73,209 +73,15 @@
      "prio": 0,
      "block": "eskalation",
      "quelle": "gedaechtnis/OFFEN.md",
-     "titel": "B2_FRIST_01 und _02 ohne Versandtage neu gebaut (Bild: \"Tracked delivery, duties included\" bzw …",
-     "wer": "Claude",
-     "tun": "TEIL (1) ERLEDIGT 04.10. 00:55 (Gegenpruefung)",
-     "bis": "08:00",
-     "vorbei": true,
-     "stufe": 1,
-     "ja": []
-    },
-    {
-     "prio": 0,
-     "block": "eskalation",
-     "quelle": "gedaechtnis/OFFEN.md",
-     "titel": "Timo oder David schaut 3 Minuten nach, wer bei Shopify Payments als Kontoverantwortlicher steht …",
-     "wer": "Timo",
-     "tun": null,
-     "bis": "16:15",
-     "vorbei": true,
-     "stufe": 1,
-     "ja": []
-    },
-    {
-     "prio": 0,
-     "block": "eskalation",
-     "quelle": "gedaechtnis/OFFEN.md",
-     "titel": "David verbindet WhatsApp Web in seinem Chrome neu (Tab web.whatsapp.com zeigt den QR-Code; Handy > …",
+     "titel": "richtige Lieferzeit, Größe und Garantie auf der Seite vor dem ersten Kauf. Ja 25 in …",
      "wer": "David",
-     "tun": null,
-     "bis": "16:10",
-     "vorbei": true,
-     "stufe": 4,
-     "ja": [
-      30
-     ]
-    },
-    {
-     "prio": 0,
-     "block": "eskalation",
-     "quelle": "gedaechtnis/OFFEN.md",
-     "titel": "die About-Seite zeigt weiter den alten Satz 'arrives within 6 to 10 business days', der neue '7 to …",
-     "wer": "Timo",
-     "tun": "Seitentexte About us und Kontakt pruefen, Ja 11 in ~/timo/JA_LISTE.md. KORRIGIERT 04.10. 03:58 (curl porchnap.com/pages/about-us …",
-     "bis": "07:30",
-     "vorbei": true,
+     "tun": "Lässt seinen Shop-Chat alle 14 fertigen Aufgaben aus ~/takt/spuren/aufgaben/offen/ plus Ja 25 und Ja 28 abarbeiten, 5 Minuten …",
+     "bis": "08:00",
+     "vorbei": false,
      "stufe": 5,
      "ja": [
-      11,
-      11
-     ]
-    },
-    {
-     "prio": 0,
-     "block": "eskalation",
-     "quelle": "gedaechtnis/OFFEN.md",
-     "titel": "A/B-Test stoppen (nicht loeschen), Zoomfeld-CSS einfuegen, Einzelauswahl aus. Die Kaufleiste laedt …",
-     "wer": "Timo",
-     "tun": "Kaching-Bundles-Einstellungen im Shopify Admin, Ja 5 bis 7 in ~/timo/JA_LISTE.md",
-     "bis": "07:30",
-     "vorbei": true,
-     "stufe": 5,
-     "ja": [
-      5
-     ]
-    },
-    {
-     "prio": 0,
-     "block": "eskalation",
-     "quelle": "gedaechtnis/OFFEN.md",
-     "titel": "Claude setzt per Shopify-Verbindung Startseiten-Titel und Meta-Beschreibung aus Ja 15 (Endwerte in …",
-     "wer": "Claude",
-     "tun": null,
-     "bis": "08:00",
-     "vorbei": true,
-     "stufe": 5,
-     "ja": [
-      15,
-      15,
-      15
-     ]
-    },
-    {
-     "prio": 0,
-     "block": "eskalation",
-     "quelle": "gedaechtnis/OFFEN.md",
-     "titel": "das Design-Auswahlfeld der Sticky-Leiste (assets/jn-produkt-stil.css:821-840, .jn-p-sticky__wahl …",
-     "wer": "Claude",
-     "tun": "IPhone-Zoom in UNSERER Kaufleiste",
-     "bis": "08:00",
-     "vorbei": true,
-     "stufe": 5,
-     "ja": []
-    },
-    {
-     "prio": 0,
-     "block": "eskalation",
-     "quelle": "gedaechtnis/OFFEN.md",
-     "titel": "Warenkorbseite /cart sagt 'Discounts and shipping calculated at checkout', obwohl die Kasse 0,00 …",
-     "wer": "Claude",
-     "tun": null,
-     "bis": "08:00",
-     "vorbei": true,
-     "stufe": 5,
-     "ja": []
-    },
-    {
-     "prio": 0,
-     "block": "eskalation",
-     "quelle": "gedaechtnis/OFFEN.md",
-     "titel": "Versandrichtlinie um den Satz zum Versandstart 12.10. (Feiertag beim Hersteller) ergaenzen, Start- …",
-     "wer": "Claude",
-     "tun": null,
-     "bis": "08:00",
-     "vorbei": true,
-     "stufe": 5,
-     "ja": []
-    },
-    {
-     "prio": 0,
-     "block": "eskalation",
-     "quelle": "gedaechtnis/OFFEN.md",
-     "titel": "0-mal 'One refund per household'); fertige Section-Datei ~/timo/launch/kurs_umsetzung/02_seiten_und_ …",
-     "wer": "Claude",
-     "tun": "Startseiten-Band 'Free US Shipping with a 30-Day Money-Back Guarantee' nennt keine Bedingung (curl 05:56",
-     "bis": "08:00",
-     "vorbei": true,
-     "stufe": 5,
-     "ja": []
-    },
-    {
-     "prio": 0,
-     "block": "eskalation",
-     "quelle": "gedaechtnis/OFFEN.md",
-     "titel": "About us verspricht 6 bis 10 Werktage ab Bestellung und verschweigt den Versandstart 12.10. (curl …",
-     "wer": "Claude",
-     "tun": null,
-     "bis": "08:00",
-     "vorbei": true,
-     "stufe": 5,
-     "ja": []
-    },
-    {
-     "prio": 0,
-     "block": "eskalation",
-     "quelle": "gedaechtnis/OFFEN.md",
-     "titel": "0-mal lb, kg, inch, cm); Satz 'Every design comes in size S, made for small pets.' durch '... made …",
-     "wer": "Claude",
-     "tun": "Produktseite nennt für Größe S kein Gewicht (curl 06:12",
-     "bis": "08:00",
-     "vorbei": true,
-     "stufe": 5,
-     "ja": []
-    },
-    {
-     "prio": 0,
-     "block": "eskalation",
-     "quelle": "gedaechtnis/OFFEN.md",
-     "titel": "FAQ-Seite nennt 6 bis 10 Werktage ohne Bearbeitung, ohne Versandstart 12.10. und Größe S ohne …",
-     "wer": "Claude",
-     "tun": null,
-     "bis": "08:00",
-     "vorbei": true,
-     "stufe": 5,
-     "ja": []
-    },
-    {
-     "prio": 0,
-     "block": "eskalation",
-     "quelle": "gedaechtnis/OFFEN.md",
-     "titel": "Timo stoppt im Shopify Admin > Apps > Kaching Bundles > A/B tests den laufenden Test (Stop, nicht …",
-     "wer": "Timo",
-     "tun": null,
-     "bis": "13:45",
-     "vorbei": true,
-     "stufe": 5,
-     "ja": [
-      5
-     ]
-    },
-    {
-     "prio": 0,
-     "block": "eskalation",
-     "quelle": "gedaechtnis/OFFEN.md",
-     "titel": "Online Store > Preferences > Homepage title und meta description plus Teilen-Bild, Wortlaut in …",
-     "wer": "David",
-     "tun": "Lässt seinen Shop-Chat (Shopify frei, kein Ja nötig) Ja 15 umsetzen",
-     "bis": "14:45",
-     "vorbei": true,
-     "stufe": 5,
-     "ja": [
-      15,
-      15
-     ]
-    },
-    {
-     "prio": 0,
-     "block": "eskalation",
-     "quelle": "gedaechtnis/OFFEN.md",
-     "titel": "David lässt seinen Shop-Chat (Shopify frei, kein Ja nötig) zwei Richtlinien-Texte einfügen, 3 …",
-     "wer": "David",
-     "tun": null,
-     "bis": "15:00",
-     "vorbei": true,
-     "stufe": 5,
-     "ja": [
+      25,
+      28,
       25
      ]
     },
@@ -283,87 +89,29 @@
      "prio": 0,
      "block": "eskalation",
      "quelle": "gedaechtnis/OFFEN.md",
-     "titel": "David lässt seinen Shop-Chat (Shopify frei, kein Ja nötig) drei Seitentexte zum Versand einfügen, 5 …",
-     "wer": "David",
-     "tun": null,
-     "bis": "15:30",
-     "vorbei": true,
-     "stufe": 5,
-     "ja": []
-    },
-    {
-     "prio": 0,
-     "block": "eskalation",
-     "quelle": "gedaechtnis/OFFEN.md",
-     "titel": "Ja 19 (Show price im Kaufknopf aus) und Ja 26 (App embed Judge.me Reviews aus), dazu P30, 10 …",
-     "wer": "David",
-     "tun": "Laesst seinen Shop-Chat (Shopify frei, kein Ja noetig) die Theme-Aufgabe ~/takt/spuren/aufgaben/offen/20261004_1236_theme_kaufseit …",
-     "bis": "16:45",
-     "vorbei": true,
+     "titel": "45 KB Ladezeit auf dem Handy. Ja 26 in ~/timo/JA_LISTE.md.",
+     "wer": "Timo",
+     "tun": "Sagt \"an\" oder \"aus\" zum Bewertungsbaustein Judge.me (Ja 26), 1 Minute, hängt daran",
+     "bis": "10:00",
+     "vorbei": false,
      "stufe": 5,
      "ja": [
-      19,
+      26,
       26
      ]
-    },
-    {
-     "prio": 0,
-     "block": "eskalation",
-     "quelle": "gedaechtnis/OFFEN.md",
-     "titel": "Ja 28 Überschrift money-back in der Refund policy und Ja 25 zwei AGB-Sätze (Wortlaut …",
-     "wer": "David",
-     "tun": "Lässt seinen Shop-Chat (Shopify frei, kein Ja nötig) vier Text-Änderungen einfügen, 10 Minuten, 0 USD",
-     "bis": "20:29",
-     "vorbei": true,
-     "stufe": 5,
-     "ja": [
-      28,
-      25,
-      25
-     ]
-    },
-    {
-     "prio": 0,
-     "block": "eskalation",
-     "quelle": "gedaechtnis/OFFEN.md",
-     "titel": "Kaufquote am Handy vor dem ersten Werbedollar. Ja 11 Seitentexte (About us 7 to 12 business days …",
-     "wer": "David",
-     "tun": "Lässt seinen Shop-Chat (Shopify frei, kein Ja nötig) die vier seit 12:00 überfälligen Shop-Texte erledigen, 15 Minuten, 0 USD …",
-     "bis": "20:45",
-     "vorbei": true,
-     "stufe": 5,
-     "ja": [
-      11,
-      15,
-      6,
-      7,
-      6
-     ]
-    },
-    {
-     "prio": 0,
-     "block": "eskalation",
-     "quelle": "gedaechtnis/OFFEN.md",
-     "titel": "Perplexity ist abgemeldet (Lauf 14:56 \"LOGIN FEHLT\" nach drei Versuchen ueber die …",
-     "wer": "David",
-     "tun": null,
-     "bis": "15:45",
-     "vorbei": true,
-     "stufe": 6,
-     "ja": []
     },
     {
      "prio": 1,
      "block": "anzeigen",
      "titel": "Anzeigen sind aus",
-     "text": "Gemessen 19:36, Quelle: Shopify list-orders ab 01.10. 0 Bestellungen, Meta ads_get_ad_entities Konto 1984849605541642 0 Anzeigen ohne Ausgaben heute und im Monat, 19:36. Ohne Anzeigen kommt kein Geld.",
+     "text": "Gemessen 04.10. 19:36, Quelle: Shopify list-orders ab 01.10. 0 Bestellungen, Meta ads_get_ad_entities Konto 1984849605541642 0 Anzeigen ohne Ausgaben heute und im Monat, 19:36. Ohne Anzeigen kommt kein Geld.",
      "wer": "Timo",
      "tun": "Kampagne bauen und veröffentlichen (K5, K6)"
     },
     {
      "prio": 1.5,
      "block": "ja",
-     "titel": "1 Ja-Frage wartet: ja bonnie zahlweg (bis 05.10. 10:00)",
+     "titel": "3 Ja-Fragen warten: ja knopf (bis 04.10. 12:00), ja john (bis 05.10. 10:00), ja bonnie zahlweg (bis 05.10. 10:00)",
      "wer": "David oder Timo",
      "tun": "Im Claude-Chat „ja <Nr>“ schreiben, Liste in timo/JA_LISTE.md",
      "quelle": "timo/JA_LISTE.md"
@@ -371,10 +119,34 @@
     {
      "prio": 2,
      "block": "geld",
-     "titel": "Rückstand 6.522 USD gegen Plan",
-     "text": "Gewinn seit 01.10. 0,00 USD, Soll nach 3 Tagen 6.522 USD (2.174 USD je Tag).",
+     "titel": "3 von 5 Geldzahlen fehlen",
+     "text": "veraltet oder verworfen: Ausgaben heute, Bestellungen heute, Gewinn heute. Niemand sieht hier, ob Anzeigen laufen und Geld kommt. Abhilfe: keine Aufgabe fuer David oder Timo (David 04.10. 14:20: Meta, BM3, Karte nie erinnern); Claude liest Zahlen, sobald sie da sind. Bis dahin trägt ein Chat gemessene Werte ein: takt/leitstand_bauen.py --eintragen.",
+     "wer": "Timo",
+     "tun": "Einmal den Shopify-Schlüssel (5 min) und den Meta-Zugang (10 min) anlegen, Plan Abschnitt 3"
+    },
+    {
+     "prio": 2,
+     "block": "geld",
+     "titel": "Rückstand 8.696 USD gegen Plan",
+     "text": "Gewinn seit 01.10. 0,00 USD, Soll nach 4 Tagen 8.696 USD (2.174 USD je Tag).",
      "wer": "David und Timo",
      "tun": "Anzeigen und Kasse nach betrieb/ENTSCHEIDUNGSREGELN.md prüfen"
+    },
+    {
+     "prio": 3,
+     "block": "creatives",
+     "titel": "Diese Woche kein neues Creative gebaut",
+     "text": "Kurs: zum Skalieren jede Woche neue Creatives (05_TAKT Abschnitt 3).",
+     "wer": "Claude (Creatives)",
+     "tun": "Neue Bilder und Videos bauen"
+    },
+    {
+     "prio": 4,
+     "block": "aufgaben",
+     "wer": "Timo 2, David 0, Claude 0",
+     "tun": "Die älteste zuerst erledigen oder neu datieren; Liste unten unter Offene Aufgaben",
+     "titel": "2 Aufgaben überfällig",
+     "text": "Älteste: 04.10., Timo, 10 min, im BM3 vor dem Anzeigenstart. Davon nennen Timo 2, David 0, Claude 0."
     }
    ]
   },
@@ -382,24 +154,24 @@
    "nr": 3,
    "id": "wer",
    "frage": "Wer arbeitet woran?",
-   "ampel": "gruen",
-   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 217 Runden heute.",
+   "ampel": "gelb",
+   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 0 Runden heute.",
    "saetze": [],
    "zeilen": [
     {
      "name": "David",
-     "text": "Nicht gemessen, weil David die Mac-Messung am 03.10. abgeschaltet hat. Auf David warten heute 8 Sachen (Karte 2).",
+     "text": "Nicht gemessen, weil David die Mac-Messung am 03.10. abgeschaltet hat. Auf David warten heute 1 Sache (Karte 2).",
      "ampel": "grau"
     },
     {
      "name": "Timo",
-     "text": "Nicht gemessen, das hat Timo am 03.10. so entschieden.",
+     "text": "Nicht gemessen, das hat Timo am 03.10. so entschieden. 2 überfällige Aufgaben nennen Timo.",
      "ampel": "grau"
     },
     {
      "name": "Claude",
-     "text": "217 Runden heute, alle 5 Minuten eine. Zuletzt: Einfügetexte für About und FAQ sagen jetzt 1 to 3 und 7 to 13 statt 7 to 12, Nachmess-Skript …",
-     "ampel": "gruen"
+     "text": "0 Runden heute, alle 5 Minuten eine. Zuletzt: entsperrt Stufe 6, weil das Ereignis Perplexity 21:24 zwölf Haustier-Produkte mit China-DDP …",
+     "ampel": "gelb"
     },
     {
      "name": "Abteilungs-Chats",
@@ -413,36 +185,36 @@
    "id": "tempo",
    "frage": "Wie schnell geht es gerade?",
    "ampel": "gelb",
-   "kurz": "Letzte Stunde: 3 Runden, 3 davon mit fertigem Ergebnis.",
+   "kurz": "Letzte Stunde: 3 Runden, 2 davon mit fertigem Ergebnis.",
    "saetze": [
-    "Gewinn heute: 0,00 USD.",
+    "Den Gewinn heute wissen wir noch nicht, weil uns der Shopify-Zugang fehlt.",
     "Fertig heißt noch nicht live: 6 Ja-Schritte warten auf euer Ja (Karte 2)."
    ],
    "zeilen": [
     {
      "name": "Gewinn heute",
-     "text": "0,00 USD (gemessen 19:36, Shopify list-orders ab 01.10. 0 Bestellungen, Meta ads_get_ad_entities Konto 1984849605541642 0 Anzeigen ohne Ausgaben heute und im Monat, 19:36).",
-     "ampel": "gelb"
+     "text": "Wissen wir noch nicht, weil uns der Shopify-Zugang fehlt.",
+     "ampel": "grau"
     },
     {
      "name": "Bestellungen heute",
-     "text": "0 (gemessen 19:36).",
+     "text": "Wissen wir noch nicht, weil uns der Shopify-Zugang fehlt.",
      "ampel": "grau"
     },
     {
      "name": "Runden, letzte Stunde",
-     "text": "3 Runden: 3 mit fertigem Ergebnis (Creative, Text oder Klickweg), 0 haben einen Menschen erinnert, 0 nur innen gearbeitet.",
-     "ampel": "gruen"
+     "text": "3 Runden: 2 mit fertigem Ergebnis (Creative, Text oder Klickweg), 0 haben einen Menschen erinnert, 1 nur innen gearbeitet.",
+     "ampel": "gelb"
     },
     {
      "name": "Erledigt heute",
-     "text": "0 in OFFEN.md als erledigt eingetragen, 2 Ja-Schritte erledigt.",
-     "ampel": "gruen"
+     "text": "0 in OFFEN.md als erledigt eingetragen, 0 Ja-Schritte erledigt.",
+     "ampel": "gelb"
     },
     {
      "name": "Neu gebaut heute",
-     "text": "45 Bilder und Videos für Anzeigen.",
-     "ampel": "gruen"
+     "text": "0 Bilder und Videos für Anzeigen.",
+     "ampel": "gelb"
     }
    ]
   },
@@ -453,13 +225,13 @@
    "ampel": "rot",
    "kurz": "Wir schaffen 0 von 5 Zielen.",
    "saetze": [
-    "3 verfehlen wir gerade. 2 messen wir noch nicht."
+    "2 verfehlen wir gerade. 3 messen wir noch nicht."
    ],
    "zeilen": [
     {
      "name": "Gewinn",
-     "text": "Soll 2.174 USD am Tag. Heute bisher 0,00 USD.",
-     "ampel": "rot"
+     "text": "Soll 2.174 USD am Tag, damit wir bis Weihnachten 200.000 USD haben. Heute: wissen wir noch nicht.",
+     "ampel": "grau"
     },
     {
      "name": "David",
@@ -478,7 +250,7 @@
     },
     {
      "name": "Runden",
-     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 3, davon 0 nur innen.",
+     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 3, davon 1 nur innen.",
      "ampel": "rot"
     }
    ]
@@ -528,13 +300,33 @@
    "prio": 1,
    "block": "anzeigen",
    "titel": "Anzeigen sind aus",
-   "text": "Gemessen 19:36, Quelle: Shopify list-orders ab 01.10. 0 Bestellungen, Meta ads_get_ad_entities Konto 1984849605541642 0 Anzeigen ohne Ausgaben heute und im Monat, 19:36. Ohne Anzeigen kommt kein Geld."
+   "text": "Gemessen 04.10. 19:36, Quelle: Shopify list-orders ab 01.10. 0 Bestellungen, Meta ads_get_ad_entities Konto 1984849605541642 0 Anzeigen ohne Ausgaben heute und im Monat, 19:36. Ohne Anzeigen kommt kein Geld."
   },
   {
    "prio": 2,
    "block": "geld",
-   "titel": "Rückstand 6.522 USD gegen Plan",
-   "text": "Gewinn seit 01.10. 0,00 USD, Soll nach 3 Tagen 6.522 USD (2.174 USD je Tag)."
+   "titel": "3 von 5 Geldzahlen fehlen",
+   "text": "veraltet oder verworfen: Ausgaben heute, Bestellungen heute, Gewinn heute. Niemand sieht hier, ob Anzeigen laufen und Geld kommt. Abhilfe: keine Aufgabe fuer David oder Timo (David 04.10. 14:20: Meta, BM3, Karte nie erinnern); Claude liest Zahlen, sobald sie da sind. Bis dahin trägt ein Chat gemessene Werte ein: takt/leitstand_bauen.py --eintragen."
+  },
+  {
+   "prio": 2,
+   "block": "geld",
+   "titel": "Rückstand 8.696 USD gegen Plan",
+   "text": "Gewinn seit 01.10. 0,00 USD, Soll nach 4 Tagen 8.696 USD (2.174 USD je Tag)."
+  },
+  {
+   "prio": 3,
+   "block": "creatives",
+   "titel": "Diese Woche kein neues Creative gebaut",
+   "text": "Kurs: zum Skalieren jede Woche neue Creatives (05_TAKT Abschnitt 3)."
+  },
+  {
+   "prio": 4,
+   "block": "aufgaben",
+   "wer": "Timo 2, David 0, Claude 0",
+   "tun": "die älteste zuerst erledigen oder neu datieren; Liste unten unter Offene Aufgaben",
+   "titel": "2 Aufgaben überfällig",
+   "text": "Älteste: 04.10., Timo, 10 min, im BM3 vor dem Anzeigenstart. Davon nennen Timo 2, David 0, Claude 0."
   }
  ],
  "bloecke": [
@@ -549,16 +341,16 @@
      "ampel": "rot",
      "detail": null,
      "quelle": "Shopify list-orders ab 01.10. 0 Bestellungen, Meta ads_get_ad_entities Konto 1984849605541642 0 Anzeigen ohne Ausgaben heute und im Monat, 19:36",
-     "stand": "19:36",
+     "stand": "04.10. 19:36",
      "ziel": null
     },
     {
      "name": "Ausgaben heute",
-     "wert": "0,00 USD",
+     "wert": "veraltet",
      "ampel": "grau",
-     "detail": null,
+     "detail": "Messung vom 04.10., nicht von heute: damals 0,00 USD",
      "quelle": "Shopify list-orders ab 01.10. 0 Bestellungen, Meta ads_get_ad_entities Konto 1984849605541642 0 Anzeigen ohne Ausgaben heute und im Monat, 19:36",
-     "stand": "19:36",
+     "stand": "04.10. 19:36",
      "ziel": "Budget 200,00 USD am Tag bis zum ersten Gewinn (Plan 5)"
     },
     {
@@ -579,20 +371,20 @@
    "zeilen": [
     {
      "name": "Bestellungen heute",
-     "wert": "0",
+     "wert": "veraltet",
      "ampel": "grau",
-     "detail": null,
+     "detail": "Messung vom 04.10., nicht von heute: damals 0",
      "quelle": "Shopify list-orders ab 01.10. 0 Bestellungen, Meta ads_get_ad_entities Konto 1984849605541642 0 Anzeigen ohne Ausgaben heute und im Monat, 19:36",
-     "stand": "19:36",
+     "stand": "04.10. 19:36",
      "ziel": null
     },
     {
      "name": "Gewinn heute",
-     "wert": "0,00 USD",
-     "ampel": "gelb",
-     "detail": null,
+     "wert": "veraltet",
+     "ampel": "grau",
+     "detail": "Messung vom 04.10., nicht von heute: damals 0,00 USD",
      "quelle": "Shopify list-orders ab 01.10. 0 Bestellungen, Meta ads_get_ad_entities Konto 1984849605541642 0 Anzeigen ohne Ausgaben heute und im Monat, 19:36",
-     "stand": "19:36",
+     "stand": "04.10. 19:36",
      "ziel": "2.174 USD"
     },
     {
@@ -601,23 +393,23 @@
      "ampel": "rot",
      "detail": null,
      "quelle": "Shopify list-orders ab 01.10. 0 Bestellungen, Meta ads_get_ad_entities Konto 1984849605541642 0 Anzeigen ohne Ausgaben heute und im Monat, 19:36",
-     "stand": "19:36",
-     "ziel": "200.000 USD bis 31.12., Soll bis gestern 6.522 USD (3 Tage)"
+     "stand": "04.10. 19:36",
+     "ziel": "200.000 USD bis 31.12., Soll bis gestern 8.696 USD (4 Tage)"
     }
    ]
   },
   {
    "id": "creatives",
    "titel": "Creatives",
-   "ampel": "grau",
+   "ampel": "rot",
    "zeilen": [
     {
      "name": "Gebaut diese Woche",
-     "wert": "115 Dateien",
-     "ampel": "grau",
-     "detail": "83 Bilder, 32 Videos, neu seit Montag, 28.09., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
+     "wert": "0 Dateien",
+     "ampel": "rot",
+     "detail": "0 Bilder, 0 Videos, neu seit Montag, 05.10., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
      "quelle": "Erstellzeit der Dateien in creatives/fertig, 05_creatives/ads, 05_creatives/ki/fertig",
-     "stand": "23:47",
+     "stand": "00:02",
      "ziel": null
     },
     {
@@ -630,7 +422,7 @@
      "ziel": "3 bis 5 je Woche"
     }
    ],
-   "zahl_gebaut": 115
+   "zahl_gebaut": 0
   },
   {
    "id": "menschen",
@@ -657,7 +449,7 @@
     },
     {
      "name": "Nächster Check-in",
-     "wert": "09:00 morgen",
+     "wert": "09:00 heute",
      "ampel": "grau",
      "detail": "Tagesstart 08:00 ist festgelegt (Plan 5). Die Check-in-Zeiten (09:00, 13:00, 18:00, 22:00) sind der Vorschlag aus Plan 2.4, noch nicht festgelegt.",
      "quelle": "LEITSTAND_PLAN.md 2.4 und 5",
@@ -669,7 +461,7 @@
   {
    "id": "aufgaben",
    "titel": "Offene Aufgaben",
-   "ampel": "gelb",
+   "ampel": "rot",
    "zeilen": [
     {
      "name": "Offen",
@@ -677,21 +469,21 @@
      "ampel": "grau",
      "detail": "1 Zeile im Codeblock (Formatbeispiel) nicht gezählt. Steht dort eine echte Aufgabe, gehört sie aus dem Block heraus.",
      "quelle": "timo/OFFEN.md",
-     "stand": "23:47",
+     "stand": "00:02",
      "ziel": null
     },
     {
      "name": "Überfällig",
-     "wert": "0",
-     "ampel": "gruen",
-     "detail": null,
+     "wert": "2",
+     "ampel": "rot",
+     "detail": "davon nennen Timo 2, David 0, Claude 0",
      "quelle": null,
      "stand": null,
      "ziel": null
     },
     {
      "name": "Heute fällig",
-     "wert": "2",
+     "wert": "1",
      "ampel": "gelb",
      "detail": null,
      "quelle": null,
@@ -705,16 +497,16 @@
      "datum_kurz": "04.10.",
      "wer": "Timo, 10 min, im BM3 vor dem Anzeigenstart",
      "text": "ENTSCHIEDEN 03.10. 23:33 Kursrichter AENDERN (~/takt/kursrichter/urteile/2026-10-03_232719.md): erst Pixel/Datensatz …",
-     "tage_ueberfaellig": 0,
-     "ampel": "gelb"
+     "tage_ueberfaellig": 1,
+     "ampel": "rot"
     },
     {
      "datum": "2026-10-04",
      "datum_kurz": "04.10.",
      "wer": "Timo, 5 min, vor dem Anzeigenstart",
      "text": "ENTSCHIEDEN 03.10. 23:33 Kursrichter AENDERN (~/takt/kursrichter/urteile/2026-10-03_232734.md): Shopify Inbox > Agent …",
-     "tage_ueberfaellig": 0,
-     "ampel": "gelb"
+     "tage_ueberfaellig": 1,
+     "ampel": "rot"
     },
     {
      "datum": "2026-10-05",
@@ -722,7 +514,7 @@
      "wer": "Claude (Mac)",
      "text": "Daily Mentor Academy (David Fogarty): Neubezug am 02.10.2026 auf Timos PC erledigt, 299 Lektionen von Timos Handy in …",
      "tage_ueberfaellig": 0,
-     "ampel": "grau"
+     "ampel": "gelb"
     },
     {
      "datum": "2026-10-06",
@@ -806,7 +598,7 @@
    "zeilen": [
     {
      "name": "Wächter, letzter Lauf",
-     "wert": "23:46",
+     "wert": "04.10. 23:57",
      "ampel": "gruen",
      "detail": null,
      "quelle": "waechter_zustand.json",
@@ -819,13 +611,13 @@
      "name": "Takt-Schleife",
      "schluessel": "takt",
      "ampel": "gruen",
-     "text": "letzte Runde 23:37 (chef), rc=0"
+     "text": "letzte Runde 23:49 (chef), rc=0"
     },
     {
      "name": "Perplexity",
      "schluessel": "perplexity",
      "ampel": "gruen",
-     "text": "Gins laeuft; letzter Lauf 23:24 ohne Antwortdatei: nach 12 Minuten nicht fertig"
+     "text": "letzter Lauf 23:48 erfolgreich, Gins laeuft"
     },
     {
      "name": "Davids Chrome",
@@ -837,7 +629,7 @@
      "name": "Crosspost",
      "schluessel": "crosspost",
      "ampel": "gruen",
-     "text": "laeuft (pid 34390), Herzschlag vor 5 s, postet, letzter Fehler: 2026-10-04T20:17:03.764Z keine Videos in der Antwort: {\"log_"
+     "text": "laeuft (pid 34390), Herzschlag vor 6 s, postet, letzter Fehler: 2026-10-04T20:17:03.764Z keine Videos in der Antwort: {\"log_"
     },
     {
      "name": "Speicher",
@@ -849,7 +641,7 @@
      "name": "GitHub-Push",
      "schluessel": "github",
      "ampel": "gruen",
-     "text": "origin/main 51da22b vor 9 Min"
+     "text": "origin/main f12665a vor 7 Min"
     },
     {
      "name": "WhatsApp Web",
@@ -873,7 +665,7 @@
      "name": "Ereignis-Sensor",
      "schluessel": "ereignisse",
      "ampel": "gruen",
-     "text": "letzter Lauf 23:46, 0 offene Ereignisse"
+     "text": "letzter Lauf 23:57, 0 offene Ereignisse"
     },
     {
      "name": "Chrome auf Timos PC",
