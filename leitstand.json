@@ -1,7 +1,7 @@
 {
  "version": 2,
- "stand": "2026-10-04T16:17:05Z",
- "stand_berlin": "04.10.2026 18:17",
+ "stand": "2026-10-04T16:32:05Z",
+ "stand_berlin": "04.10.2026 18:32",
  "takt_min": 15,
  "quelle": "takt/leitstand_bauen.py auf Davids Mac, ohne Modell",
  "ziele": {
@@ -38,12 +38,12 @@
     },
     {
      "name": "Creatives",
-     "text": "Heute 40 neue Bilder oder Videos gebaut, diese Woche 110. Das neueste: PN_GRANDDOG_4x5.png um 17:28. Wie viele davon live sind, wissen wir nicht.",
+     "text": "Heute 41 neue Bilder oder Videos gebaut, diese Woche 111. Das neueste: PN_UNDER6LB_4x5.png um 18:23. Wie viele davon live sind, wissen wir nicht.",
      "ampel": "gruen"
     },
     {
      "name": "Recherche",
-     "text": "Perplexity hat heute 66 Fragen beantwortet, die letzte um 17:49. Die letzten 2 Versuche kamen ohne Antwort zurück.",
+     "text": "Perplexity hat heute 69 Fragen beantwortet, die letzte um 18:28.",
      "ampel": "gruen"
     },
     {
@@ -53,8 +53,8 @@
     },
     {
      "name": "Chef-Runde",
-     "text": "Um 18:05: entsperrt Stufe 4, weil feste Prüfzeit 18:05 lief: 0 Bestellungen, 0 abgebrochene Kassen, 0 …",
-     "ampel": "gelb"
+     "text": "Um 18:20: neues Werbebild C85 PN_UNDER6LB fertig, Größen-Zuruf mit der Live-Angabe bis etwa 6 lb statt Rassen …",
+     "ampel": "gruen"
     }
    ]
   },
@@ -340,8 +340,8 @@
    "nr": 3,
    "id": "wer",
    "frage": "Wer arbeitet woran?",
-   "ampel": "gelb",
-   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 194 Runden heute.",
+   "ampel": "gruen",
+   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 195 Runden heute.",
    "saetze": [],
    "zeilen": [
     {
@@ -356,8 +356,8 @@
     },
     {
      "name": "Claude",
-     "text": "194 Runden heute, alle 5 Minuten eine. Zuletzt: entsperrt Stufe 4, weil feste Prüfzeit 18:05 lief: 0 Bestellungen, 0 abgebrochene Kassen, 0 …",
-     "ampel": "gelb"
+     "text": "195 Runden heute, alle 5 Minuten eine. Zuletzt: neues Werbebild C85 PN_UNDER6LB fertig, Größen-Zuruf mit der Live-Angabe bis etwa 6 lb statt …",
+     "ampel": "gruen"
     },
     {
      "name": "Abteilungs-Chats",
@@ -399,7 +399,7 @@
     },
     {
      "name": "Neu gebaut heute",
-     "text": "40 Bilder und Videos für Anzeigen.",
+     "text": "41 Bilder und Videos für Anzeigen.",
      "ampel": "gruen"
     }
    ]
@@ -565,11 +565,11 @@
    "zeilen": [
     {
      "name": "Gebaut diese Woche",
-     "wert": "110 Dateien",
+     "wert": "111 Dateien",
      "ampel": "grau",
-     "detail": "78 Bilder, 32 Videos, neu seit Montag, 28.09., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
+     "detail": "79 Bilder, 32 Videos, neu seit Montag, 28.09., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
      "quelle": "Erstellzeit der Dateien in creatives/fertig, 05_creatives/ads, 05_creatives/ki/fertig",
-     "stand": "18:17",
+     "stand": "18:32",
      "ziel": null
     },
     {
@@ -582,7 +582,7 @@
      "ziel": "3 bis 5 je Woche"
     }
    ],
-   "zahl_gebaut": 110
+   "zahl_gebaut": 111
   },
   {
    "id": "menschen",
@@ -629,7 +629,7 @@
      "ampel": "grau",
      "detail": "1 Zeile im Codeblock (Formatbeispiel) nicht gezählt. Steht dort eine echte Aufgabe, gehört sie aus dem Block heraus.",
      "quelle": "timo/OFFEN.md",
-     "stand": "18:17",
+     "stand": "18:32",
      "ziel": null
     },
     {
@@ -758,7 +758,7 @@
    "zeilen": [
     {
      "name": "Wächter, letzter Lauf",
-     "wert": "18:14",
+     "wert": "18:30",
      "ampel": "gruen",
      "detail": null,
      "quelle": "waechter_zustand.json",
@@ -771,13 +771,13 @@
      "name": "Takt-Schleife",
      "schluessel": "takt",
      "ampel": "gruen",
-     "text": "letzte Runde 18:06 (chef), rc=0"
+     "text": "letzte Runde 18:23 (chef), rc=0"
     },
     {
      "name": "Perplexity",
      "schluessel": "perplexity",
      "ampel": "gruen",
-     "text": "Gins laeuft; letzter Lauf 18:01 ohne Antwortdatei: nach 12 Minuten nicht fertig"
+     "text": "letzter Lauf 18:24 erfolgreich, Gins laeuft"
     },
     {
      "name": "Davids Chrome",
@@ -789,7 +789,7 @@
      "name": "Crosspost",
      "schluessel": "crosspost",
      "ampel": "gruen",
-     "text": "laeuft (pid 34390), Herzschlag vor 10 s, postet, letzter Fehler: 2026-10-04T15:48:25.617Z keine Videos in der Antwort: {\"log_"
+     "text": "laeuft (pid 34390), Herzschlag vor 5 s, postet, letzter Fehler: 2026-10-04T15:48:25.617Z keine Videos in der Antwort: {\"log_"
     },
     {
      "name": "Speicher",
@@ -801,13 +801,13 @@
      "name": "GitHub-Push",
      "schluessel": "github",
      "ampel": "gruen",
-     "text": "origin/main 3f3ec9d vor 9 Min"
+     "text": "origin/main e904608 vor 7 Min"
     },
     {
      "name": "WhatsApp Web",
      "schluessel": "whatsapp",
      "ampel": "gruen",
-     "text": "Chatliste gelesen (apple, 1 Zeilen), 0 von 6 Lieferanten sichtbar, nicht sichtbar: Bonnie DS, John (Supplier), Adam DS, Mr Anh, Vito DS, Joel DS"
+     "text": "Chatliste gelesen (apple, 12 Zeilen), 6 von 6 Lieferanten sichtbar"
     },
     {
      "name": "Shopify",
@@ -825,7 +825,7 @@
      "name": "Ereignis-Sensor",
      "schluessel": "ereignisse",
      "ampel": "gruen",
-     "text": "letzter Lauf 18:14, 0 offene Ereignisse"
+     "text": "letzter Lauf 18:30, 0 offene Ereignisse"
     },
     {
      "name": "Chrome auf Timos PC",
