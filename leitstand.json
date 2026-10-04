@@ -1,7 +1,7 @@
 {
  "version": 2,
- "stand": "2026-10-04T18:02:05Z",
- "stand_berlin": "04.10.2026 20:02",
+ "stand": "2026-10-04T18:17:05Z",
+ "stand_berlin": "04.10.2026 20:17",
  "takt_min": 15,
  "quelle": "takt/leitstand_bauen.py auf Davids Mac, ohne Modell",
  "ziele": {
@@ -53,8 +53,8 @@
     },
     {
      "name": "Chef-Runde",
-     "text": "Um 19:59: neues Werbebild C88 PN_NOFEES fertig, Nutzen keine Zollgebühr an der Tür, Angaben wie live (Produktseite …",
-     "ampel": "gruen"
+     "text": "Um 20:05: entsperrt Stufe 5, weil die Ja-Liste am Deckel 8 neue Welt-Zeilen blockierte: Ja 20, 24, 29 nach harter Regel …",
+     "ampel": "gelb"
     }
    ]
   },
@@ -363,7 +363,7 @@
     {
      "prio": 1.5,
      "block": "ja",
-     "titel": "4 Ja-Fragen warten: ja vincent (bis 04.10. 12:00), ja ticket (bis 04.10. 12:00), ja pntest95 (bis 04.10. 10:15) und 1 weitere",
+     "titel": "1 Ja-Frage wartet: ja bonnie zahlweg (bis 05.10. 10:00)",
      "wer": "David oder Timo",
      "tun": "Im Claude-Chat „ja <Nr>“ schreiben, Liste in timo/JA_LISTE.md",
      "quelle": "timo/JA_LISTE.md"
@@ -382,8 +382,8 @@
    "nr": 3,
    "id": "wer",
    "frage": "Wer arbeitet woran?",
-   "ampel": "gruen",
-   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 207 Runden heute.",
+   "ampel": "gelb",
+   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 208 Runden heute.",
    "saetze": [],
    "zeilen": [
     {
@@ -398,8 +398,8 @@
     },
     {
      "name": "Claude",
-     "text": "207 Runden heute, alle 5 Minuten eine. Zuletzt: neues Werbebild C88 PN_NOFEES fertig, Nutzen keine Zollgebühr an der Tür, Angaben wie live …",
-     "ampel": "gruen"
+     "text": "208 Runden heute, alle 5 Minuten eine. Zuletzt: entsperrt Stufe 5, weil die Ja-Liste am Deckel 8 neue Welt-Zeilen blockierte: Ja 20, 24, 29 …",
+     "ampel": "gelb"
     },
     {
      "name": "Abteilungs-Chats",
@@ -413,10 +413,10 @@
    "id": "tempo",
    "frage": "Wie schnell geht es gerade?",
    "ampel": "gelb",
-   "kurz": "Letzte Stunde: 10 Runden, 6 davon mit fertigem Ergebnis.",
+   "kurz": "Letzte Stunde: 9 Runden, 5 davon mit fertigem Ergebnis.",
    "saetze": [
     "Gewinn heute: 0,00 USD.",
-    "Fertig heißt noch nicht live: 9 Ja-Schritte warten auf euer Ja (Karte 2)."
+    "Fertig heißt noch nicht live: 6 Ja-Schritte warten auf euer Ja (Karte 2)."
    ],
    "zeilen": [
     {
@@ -431,7 +431,7 @@
     },
     {
      "name": "Runden, letzte Stunde",
-     "text": "10 Runden: 6 mit fertigem Ergebnis (Creative, Text oder Klickweg), 2 haben einen Menschen erinnert, 2 nur innen gearbeitet.",
+     "text": "9 Runden: 5 mit fertigem Ergebnis (Creative, Text oder Klickweg), 2 haben einen Menschen erinnert, 2 nur innen gearbeitet.",
      "ampel": "gelb"
     },
     {
@@ -478,7 +478,7 @@
     },
     {
      "name": "Runden",
-     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 10, davon 2 nur innen.",
+     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 9, davon 2 nur innen.",
      "ampel": "rot"
     }
    ]
@@ -617,7 +617,7 @@
      "ampel": "grau",
      "detail": "82 Bilder, 32 Videos, neu seit Montag, 28.09., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
      "quelle": "Erstellzeit der Dateien in creatives/fertig, 05_creatives/ads, 05_creatives/ki/fertig",
-     "stand": "20:02",
+     "stand": "20:17",
      "ziel": null
     },
     {
@@ -677,7 +677,7 @@
      "ampel": "grau",
      "detail": "1 Zeile im Codeblock (Formatbeispiel) nicht gezählt. Steht dort eine echte Aufgabe, gehört sie aus dem Block heraus.",
      "quelle": "timo/OFFEN.md",
-     "stand": "20:02",
+     "stand": "20:17",
      "ziel": null
     },
     {
@@ -806,7 +806,7 @@
    "zeilen": [
     {
      "name": "Wächter, letzter Lauf",
-     "wert": "19:58",
+     "wert": "20:14",
      "ampel": "gruen",
      "detail": null,
      "quelle": "waechter_zustand.json",
@@ -819,13 +819,13 @@
      "name": "Takt-Schleife",
      "schluessel": "takt",
      "ampel": "gruen",
-     "text": "letzte Runde 19:55 (chef), rc=0"
+     "text": "letzte Runde 20:07 (chef), rc=0"
     },
     {
      "name": "Perplexity",
      "schluessel": "perplexity",
      "ampel": "gruen",
-     "text": "Gins laeuft; letzter Lauf 19:34 ohne Antwortdatei: nach 12 Minuten nicht fertig"
+     "text": "Gins laeuft; letzter Lauf 19:47 ohne Antwortdatei: nach 12 Minuten nicht fertig"
     },
     {
      "name": "Davids Chrome",
@@ -837,19 +837,19 @@
      "name": "Crosspost",
      "schluessel": "crosspost",
      "ampel": "gruen",
-     "text": "laeuft (pid 34390), Herzschlag vor 10 s, postet, letzter Fehler: 2026-10-04T17:16:35.160Z keine Videos in der Antwort: {\"extr"
+     "text": "laeuft (pid 34390), Herzschlag vor 2 s, postet, letzter Fehler: 2026-10-04T17:16:35.160Z keine Videos in der Antwort: {\"extr"
     },
     {
      "name": "Speicher",
      "schluessel": "speicher",
      "ampel": "gruen",
-     "text": "122 GB frei"
+     "text": "116 GB frei"
     },
     {
      "name": "GitHub-Push",
      "schluessel": "github",
      "ampel": "gruen",
-     "text": "origin/main efed44e vor 3 Min"
+     "text": "origin/main e3e4c45 vor 7 Min"
     },
     {
      "name": "WhatsApp Web",
@@ -873,7 +873,7 @@
      "name": "Ereignis-Sensor",
      "schluessel": "ereignisse",
      "ampel": "gruen",
-     "text": "letzter Lauf 19:58, 0 offene Ereignisse"
+     "text": "letzter Lauf 20:14, 0 offene Ereignisse"
     },
     {
      "name": "Chrome auf Timos PC",
