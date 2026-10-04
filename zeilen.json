@@ -2322,5 +2322,12 @@
 "typ": "chef",
 "titel": "Alles seit Montag nachgemessen",
 "satz": "Ich habe Bestellungen, Werbung und Kasse nachgemessen, damit Timo weiß, wie es läuft."
+},
+{
+"tag": "2026-10-04",
+"zeit": "09:10",
+"typ": "chef",
+"titel": "Großer Mail-Fehler, David läuft",
+"satz": "Ich habe den Fehler gefunden und David sofort angerufen, damit unsere Mail ankommt."
 }
 ]
