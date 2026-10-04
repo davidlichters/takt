@@ -2105,5 +2105,12 @@
 "typ": "verbesserer",
 "titel": "Datei ist zu groß geworden",
 "satz": "Ich habe gesehen, dass die Datei viel zu groß ist und lädt nicht mehr."
+},
+{
+"tag": "2026-10-04",
+"zeit": "06:25",
+"typ": "chef",
+"titel": "Werbung überprüft und stimmt",
+"satz": "Ich habe die Werbung überprüft und alles passt, damit Kunden richtige Preise sehen."
 }
 ]
