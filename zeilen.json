@@ -2756,5 +2756,12 @@
 "typ": "chef",
 "titel": "Kaufknopf auf der Kaufseite repariert",
 "satz": "Ich habe den Kaufknopf repariert, damit Kunden sehen, was sie kaufen."
+},
+{
+"tag": "2026-10-04",
+"zeit": "15:01",
+"typ": "chef",
+"titel": "Bonnie Zahlung aufgeschrieben",
+"satz": "Ich habe aufgeschrieben, wie wir Bonnie Geld zahlen, wenn ein Kunde bei uns kauft."
 }
 ]
