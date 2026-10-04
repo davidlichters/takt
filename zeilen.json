@@ -2203,5 +2203,12 @@
 "typ": "chef",
 "titel": "Versand-Fehler im Laden behoben",
 "satz": "Ich habe den Fehler behoben, jetzt sagt der Laden überall den Versand richtig."
+},
+{
+"tag": "2026-10-04",
+"zeit": "07:45",
+"typ": "chef",
+"titel": "Schlitten-Werbung fertig gemacht",
+"satz": "Ich habe drei neue Bilder für Werbung gemacht, damit mehr Kunden kaufen."
 }
 ]
