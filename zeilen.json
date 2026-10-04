@@ -2630,5 +2630,12 @@
 "typ": "chef",
 "titel": "Laden-Text verbessert und verschickt",
 "satz": "Ich habe den Text korrigiert und zum Helfer geschickt, damit er uns hilft."
+},
+{
+"tag": "2026-10-04",
+"zeit": "12:10",
+"typ": "chef",
+"titel": "Frage an John zum Vergleich fertig",
+"satz": "Ich habe die Frage an John geschrieben, damit Adams die Preise vergleichen kann."
 }
 ]
