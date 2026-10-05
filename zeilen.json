@@ -1,13 +1,6 @@
 [
 {
 "tag": "2026-09-30",
-"zeit": "01:15",
-"typ": "normal",
-"titel": "Brief an Bonnie geschrieben",
-"satz": "Ich habe einen Brief geschrieben und viel gefragt, damit wir schneller Ware bekommen."
-},
-{
-"tag": "2026-09-30",
 "zeit": "01:20",
 "typ": "recherche",
 "titel": "Datenschutz-Antwort bekommen",
@@ -4195,6 +4188,13 @@
 {
 "tag": "2026-10-06",
 "zeit": "01:20",
+"typ": "chef",
+"titel": "You've hit your weekly limit · resets Oct 8 at 1pm (Europe/Berlin)",
+"satz": ""
+},
+{
+"tag": "2026-10-06",
+"zeit": "01:25",
 "typ": "chef",
 "titel": "You've hit your weekly limit · resets Oct 8 at 1pm (Europe/Berlin)",
 "satz": ""
