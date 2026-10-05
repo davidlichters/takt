@@ -1,7 +1,7 @@
 {
  "version": 2,
- "stand": "2026-10-05T12:17:05Z",
- "stand_berlin": "05.10.2026 14:17",
+ "stand": "2026-10-05T12:32:05Z",
+ "stand_berlin": "05.10.2026 14:32",
  "takt_min": 15,
  "quelle": "takt/leitstand_bauen.py auf Davids Mac, ohne Modell",
  "ziele": {
@@ -122,7 +122,7 @@
      "wer": "David",
      "tun": "Sendet die drei fertigen WhatsApp-Texte an Lieferanten, zusammen 3 Minuten, 0 USD, seit 10:00 und 12:00 überfällig, zuletzt 09:03 …",
      "bis": "14:30",
-     "vorbei": false,
+     "vorbei": true,
      "stufe": 4,
      "ja": [
       30,
@@ -545,7 +545,7 @@
      "ampel": "grau",
      "detail": "12 Bilder, 10 Videos, neu seit Montag, 05.10., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
      "quelle": "Erstellzeit der Dateien in creatives/fertig, 05_creatives/ads, 05_creatives/ki/fertig",
-     "stand": "14:17",
+     "stand": "14:32",
      "ziel": null
     },
     {
@@ -605,7 +605,7 @@
      "ampel": "grau",
      "detail": "1 Zeile im Codeblock (Formatbeispiel) nicht gezählt. Steht dort eine echte Aufgabe, gehört sie aus dem Block heraus.",
      "quelle": "timo/OFFEN.md",
-     "stand": "14:17",
+     "stand": "14:32",
      "ziel": null
     },
     {
@@ -734,7 +734,7 @@
    "zeilen": [
     {
      "name": "Wächter, letzter Lauf",
-     "wert": "14:12",
+     "wert": "14:28",
      "ampel": "gruen",
      "detail": null,
      "quelle": "waechter_zustand.json",
@@ -777,7 +777,7 @@
      "name": "GitHub-Push",
      "schluessel": "github",
      "ampel": "gruen",
-     "text": "origin/main bf8cabd vor 6 Min"
+     "text": "origin/main bf8cabd vor 21 Min"
     },
     {
      "name": "WhatsApp Web",
@@ -801,7 +801,7 @@
      "name": "Ereignis-Sensor",
      "schluessel": "ereignisse",
      "ampel": "gruen",
-     "text": "letzter Lauf 14:12, 0 offene Ereignisse"
+     "text": "letzter Lauf 14:28, 0 offene Ereignisse"
     },
     {
      "name": "Chrome auf Timos PC",
