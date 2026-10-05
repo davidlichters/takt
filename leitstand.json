@@ -1,7 +1,7 @@
 {
  "version": 2,
- "stand": "2026-10-05T07:02:05Z",
- "stand_berlin": "05.10.2026 09:02",
+ "stand": "2026-10-05T07:17:05Z",
+ "stand_berlin": "05.10.2026 09:17",
  "takt_min": 15,
  "quelle": "takt/leitstand_bauen.py auf Davids Mac, ohne Modell",
  "ziele": {
@@ -43,7 +43,7 @@
     },
     {
      "name": "Recherche",
-     "text": "Perplexity hat heute 48 Fragen beantwortet, die letzte um 08:57.",
+     "text": "Perplexity hat heute 50 Fragen beantwortet, die letzte um 09:14.",
      "ampel": "gruen"
     },
     {
@@ -53,7 +53,7 @@
     },
     {
      "name": "Chef-Runde",
-     "text": "Um 08:57: sendefertiger Contabo-Widerruf (statt Kündigung, die nichts erstattet), Ja 35, David 05.10.2026 18:00 in …",
+     "text": "Um 09:03: drei sendefertige Lieferantentexte (John Absage Ja 30, Adam Absage Ja 33, Adam Pullover Ja 34) gebündelt …",
      "ampel": "gruen"
     }
    ]
@@ -63,7 +63,7 @@
    "id": "auf",
    "frage": "Was hält uns auf?",
    "ampel": "rot",
-   "kurz": "8 Dinge halten uns auf.",
+   "kurz": "9 Dinge halten uns auf.",
    "saetze": [
     "Bei jedem steht, wer es tun muss. Oben steht das, was am meisten Geld kostet."
    ],
@@ -81,6 +81,22 @@
      "stufe": 4,
      "ja": [
       32
+     ]
+    },
+    {
+     "prio": 0,
+     "block": "eskalation",
+     "quelle": "gedaechtnis/OFFEN.md",
+     "titel": "(1) Chat \"John (Supplier)\": Kinderwagen-Absage aus ~/timo/entwuerfe/2026-10-04_john_kinderwagen_absa …",
+     "wer": "David",
+     "tun": "Drei fertige WhatsApp-Texte an Lieferanten senden, je 1 Minute, 0 USD",
+     "bis": "10:00",
+     "vorbei": false,
+     "stufe": 4,
+     "ja": [
+      30,
+      33,
+      34
      ]
     },
     {
@@ -149,7 +165,7 @@
     {
      "prio": 1.5,
      "block": "ja",
-     "titel": "4 Ja-Fragen warten: ja john (bis 05.10. 10:00), ja adam (bis 05.10. 12:00), ja adam2 (bis 05.10. 12:00) und 1 weitere",
+     "titel": "1 Ja-Frage wartet: ja contabo (bis 05.10. 18:00)",
      "wer": "David oder Timo",
      "tun": "Im Claude-Chat „ja <Nr>“ schreiben, Liste in timo/JA_LISTE.md",
      "quelle": "timo/JA_LISTE.md"
@@ -177,12 +193,12 @@
    "id": "wer",
    "frage": "Wer arbeitet woran?",
    "ampel": "gruen",
-   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 39 Runden heute.",
+   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 40 Runden heute.",
    "saetze": [],
    "zeilen": [
     {
      "name": "David",
-     "text": "Nicht gemessen, weil David die Mac-Messung am 03.10. abgeschaltet hat. Auf David warten heute 4 Sachen (Karte 2).",
+     "text": "Nicht gemessen, weil David die Mac-Messung am 03.10. abgeschaltet hat. Auf David warten heute 5 Sachen (Karte 2).",
      "ampel": "grau"
     },
     {
@@ -192,7 +208,7 @@
     },
     {
      "name": "Claude",
-     "text": "39 Runden heute, alle 5 Minuten eine. Zuletzt: sendefertiger Contabo-Widerruf (statt Kündigung, die nichts erstattet), Ja 35, David …",
+     "text": "40 Runden heute, alle 5 Minuten eine. Zuletzt: drei sendefertige Lieferantentexte (John Absage Ja 30, Adam Absage Ja 33, Adam Pullover Ja 34) …",
      "ampel": "gruen"
     },
     {
@@ -207,7 +223,7 @@
    "id": "tempo",
    "frage": "Wie schnell geht es gerade?",
    "ampel": "gelb",
-   "kurz": "Letzte Stunde: 5 Runden, 2 davon mit fertigem Ergebnis.",
+   "kurz": "Letzte Stunde: 5 Runden, 1 davon mit fertigem Ergebnis.",
    "saetze": [
     "Den Gewinn heute wissen wir noch nicht, weil uns der Shopify-Zugang fehlt.",
     "Fertig heißt noch nicht live: 9 Ja-Schritte warten auf euer Ja (Karte 2)."
@@ -225,7 +241,7 @@
     },
     {
      "name": "Runden, letzte Stunde",
-     "text": "5 Runden: 2 mit fertigem Ergebnis (Creative, Text oder Klickweg), 2 haben einen Menschen erinnert, 1 nur innen gearbeitet.",
+     "text": "5 Runden: 1 mit fertigem Ergebnis (Creative, Text oder Klickweg), 3 haben einen Menschen erinnert, 1 nur innen gearbeitet.",
      "ampel": "gelb"
     },
     {
@@ -413,7 +429,7 @@
      "ampel": "grau",
      "detail": "12 Bilder, 10 Videos, neu seit Montag, 05.10., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
      "quelle": "Erstellzeit der Dateien in creatives/fertig, 05_creatives/ads, 05_creatives/ki/fertig",
-     "stand": "09:02",
+     "stand": "09:17",
      "ziel": null
     },
     {
@@ -473,7 +489,7 @@
      "ampel": "grau",
      "detail": "1 Zeile im Codeblock (Formatbeispiel) nicht gezählt. Steht dort eine echte Aufgabe, gehört sie aus dem Block heraus.",
      "quelle": "timo/OFFEN.md",
-     "stand": "09:02",
+     "stand": "09:17",
      "ziel": null
     },
     {
@@ -602,7 +618,7 @@
    "zeilen": [
     {
      "name": "Wächter, letzter Lauf",
-     "wert": "09:01",
+     "wert": "09:12",
      "ampel": "gruen",
      "detail": null,
      "quelle": "waechter_zustand.json",
@@ -615,13 +631,13 @@
      "name": "Takt-Schleife",
      "schluessel": "takt",
      "ampel": "gruen",
-     "text": "letzte Runde 08:59 (chef), rc=0"
+     "text": "letzte Runde 09:06 (chef), rc=0"
     },
     {
      "name": "Perplexity",
      "schluessel": "perplexity",
      "ampel": "gruen",
-     "text": "letzter Lauf 08:53 erfolgreich, Gins laeuft"
+     "text": "letzter Lauf 09:03 erfolgreich, Gins laeuft"
     },
     {
      "name": "Davids Chrome",
@@ -633,7 +649,7 @@
      "name": "Crosspost",
      "schluessel": "crosspost",
      "ampel": "gruen",
-     "text": "laeuft (pid 34390), Herzschlag vor 7 s, postet, letzter Fehler: 2026-10-04T20:17:03.764Z keine Videos in der Antwort: {\"log_"
+     "text": "laeuft (pid 34390), Herzschlag vor 11 s, postet, letzter Fehler: 2026-10-04T20:17:03.764Z keine Videos in der Antwort: {\"log_"
     },
     {
      "name": "Speicher",
@@ -645,13 +661,13 @@
      "name": "GitHub-Push",
      "schluessel": "github",
      "ampel": "gruen",
-     "text": "origin/main 7c9cd99 vor 2 Min"
+     "text": "origin/main fcca3e9 vor 5 Min"
     },
     {
      "name": "WhatsApp Web",
      "schluessel": "whatsapp",
      "ampel": "gruen",
-     "text": "Chatliste gelesen (apple, 1 Zeilen), 0 von 6 Lieferanten sichtbar, nicht sichtbar: Bonnie DS, John (Supplier), Adam DS, Mr Anh, Vito DS, Joel DS"
+     "text": "Chatliste gelesen (apple, 2 Zeilen), 1 von 6 Lieferanten sichtbar, nicht sichtbar: Bonnie DS, Adam DS, Mr Anh, Vito DS, Joel DS"
     },
     {
      "name": "Shopify",
@@ -669,7 +685,7 @@
      "name": "Ereignis-Sensor",
      "schluessel": "ereignisse",
      "ampel": "gruen",
-     "text": "letzter Lauf 09:01, 0 offene Ereignisse"
+     "text": "letzter Lauf 09:12, 0 offene Ereignisse"
     },
     {
      "name": "Chrome auf Timos PC",
