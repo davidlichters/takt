@@ -1,7 +1,7 @@
 {
  "version": 2,
- "stand": "2026-10-05T21:47:05Z",
- "stand_berlin": "05.10.2026 23:47",
+ "stand": "2026-10-05T22:02:05Z",
+ "stand_berlin": "06.10.2026 00:02",
  "takt_min": 15,
  "quelle": "takt/leitstand_bauen.py auf Davids Mac, ohne Modell",
  "ziele": {
@@ -9,7 +9,7 @@
   "gewinn_tag_usd": 2174,
   "break_even_cpa_usd": 47.01,
   "stunden_je_person": 10,
-  "tag": 5,
+  "tag": 6,
   "tage_gesamt": 92
  },
  "karten": [
@@ -38,12 +38,12 @@
     },
     {
      "name": "Creatives",
-     "text": "Heute 22 neue Bilder oder Videos gebaut, diese Woche 22. Das neueste: PN_V25_COZY_4x5.mp4 um 08:07. Wie viele davon live sind, wissen wir nicht.",
-     "ampel": "gruen"
+     "text": "Heute 0 neue Bilder oder Videos gebaut, diese Woche 22. Das neueste: PN_V25_COZY_4x5.mp4 um 05.10. 08:07. Wie viele davon live sind, wissen wir nicht.",
+     "ampel": "gelb"
     },
     {
      "name": "Recherche",
-     "text": "Perplexity hat heute 55 Fragen beantwortet, die letzte um 10:18. Die letzten 5 Versuche kamen ohne Antwort zurück.",
+     "text": "Perplexity hat heute 0 Fragen beantwortet, die letzte um 05.10. 10:18. Die letzten 5 Versuche kamen ohne Antwort zurück.",
      "ampel": "rot"
     },
     {
@@ -53,7 +53,7 @@
     },
     {
      "name": "Chef-Runde",
-     "text": "Um 23:45: Takt ohne Ergebniszeile beendet (rc=1), Protokoll in ~/takt/laeufe.",
+     "text": "Um 00:00: Takt ohne Ergebniszeile beendet (rc=1), Protokoll in ~/takt/laeufe.",
      "ampel": "rot"
     }
    ]
@@ -63,261 +63,19 @@
    "id": "auf",
    "frage": "Was hält uns auf?",
    "ampel": "rot",
-   "kurz": "21 Dinge halten uns auf.",
+   "kurz": "5 Dinge halten uns auf.",
    "saetze": [
     "Bei jedem steht, wer es tun muss. Oben steht das, was am meisten Geld kostet."
    ],
    "zeilen": [],
    "punkte": [
     {
-     "prio": 0,
-     "block": "eskalation",
-     "quelle": "gedaechtnis/OFFEN.md",
-     "titel": "Bonnie verbindet unseren Shop mit ihrem Bestellsystem und nennt die Bankdaten, ohne das kann keine …",
-     "wer": "David",
-     "tun": "Im Claude-Chat \"ja bonnie zahlweg\" (Ja 32) schreiben, 1 Minute, 0 USD. Hängt daran",
-     "bis": "07:30",
-     "vorbei": true,
-     "stufe": 4,
-     "ja": [
-      32
-     ]
-    },
-    {
-     "prio": 0,
-     "block": "eskalation",
-     "quelle": "gedaechtnis/OFFEN.md",
-     "titel": "(1) Chat \"John (Supplier)\": Kinderwagen-Absage aus ~/timo/entwuerfe/2026-10-04_john_kinderwagen_absa …",
-     "wer": "David",
-     "tun": "Drei fertige WhatsApp-Texte an Lieferanten senden, je 1 Minute, 0 USD",
-     "bis": "10:00",
-     "vorbei": true,
-     "stufe": 4,
-     "ja": [
-      30,
-      33,
-      34
-     ]
-    },
-    {
-     "prio": 0,
-     "block": "eskalation",
-     "quelle": "gedaechtnis/OFFEN.md",
-     "titel": "David sendet im WhatsApp-Chat \"Bonnie DS\" den Text von Ja 32 (Zahlweg in CNY, Versandlinie und …",
-     "wer": "David",
-     "tun": null,
-     "bis": "11:50",
-     "vorbei": true,
-     "stufe": 4,
-     "ja": [
-      32,
-      32
-     ]
-    },
-    {
-     "prio": 0,
-     "block": "eskalation",
-     "quelle": "gedaechtnis/OFFEN.md",
-     "titel": "(1) Chat \"John (Supplier)\" Block aus ~/timo/entwuerfe/2026-10-04_john_kinderwagen_absage.md (Ja …",
-     "wer": "David",
-     "tun": "Sendet die drei fertigen WhatsApp-Texte an Lieferanten, zusammen 3 Minuten, 0 USD, seit 10:00 und 12:00 überfällig, zuletzt 09:03 …",
-     "bis": "14:30",
-     "vorbei": true,
-     "stufe": 4,
-     "ja": [
-      30,
-      33,
-      34
-     ]
-    },
-    {
-     "prio": 0,
-     "block": "eskalation",
-     "quelle": "gedaechtnis/OFFEN.md",
-     "titel": "David sendet in WhatsApp \"Bonnie DS\" den fertigen Text aus ~/timo/entwuerfe/2026-10-04_bonnie_kurz_z …",
-     "wer": "David",
-     "tun": null,
-     "bis": "15:50",
-     "vorbei": true,
-     "stufe": 4,
-     "ja": [
-      32
-     ]
-    },
-    {
-     "prio": 0,
-     "block": "eskalation",
-     "quelle": "gedaechtnis/OFFEN.md",
-     "titel": "richtige Lieferzeit, Größe und Garantie auf der Seite vor dem ersten Kauf. Ja 25 in …",
-     "wer": "David",
-     "tun": "Lässt seinen Shop-Chat alle 14 fertigen Aufgaben aus ~/takt/spuren/aufgaben/offen/ plus Ja 25 und Ja 28 abarbeiten, 5 Minuten …",
-     "bis": "08:00",
-     "vorbei": true,
-     "stufe": 5,
-     "ja": [
-      25,
-      28,
-      25,
-      26
-     ]
-    },
-    {
-     "prio": 0,
-     "block": "eskalation",
-     "quelle": "gedaechtnis/OFFEN.md",
-     "titel": "Kunden lesen sonst in den AGB \"keine Stornierung\" und \"nicht haftbar für Verspätung\", während …",
-     "wer": "David",
-     "tun": "Schreibt in seinen Shop-Chat \"ja agb\" und \"ja moneyback\" (Ja 25 und Ja 28), 2 Minuten, hängt daran",
-     "bis": "09:20",
-     "vorbei": true,
-     "stufe": 5,
-     "ja": [
-      25,
-      28,
-      25,
-      26
-     ]
-    },
-    {
-     "prio": 0,
-     "block": "eskalation",
-     "quelle": "gedaechtnis/OFFEN.md",
-     "titel": "45 KB Ladezeit auf dem Handy. Ja 26 in ~/timo/JA_LISTE.md.",
-     "wer": "Timo",
-     "tun": "Sagt \"an\" oder \"aus\" zum Bewertungsbaustein Judge.me (Ja 26), 1 Minute, hängt daran",
-     "bis": "10:00",
-     "vorbei": true,
-     "stufe": 5,
-     "ja": [
-      26,
-      26
-     ]
-    },
-    {
-     "prio": 0,
-     "block": "eskalation",
-     "quelle": "gedaechtnis/OFFEN.md",
-     "titel": "im Kaufknopf \"Show price\" aus, 2 Minuten, 0 USD. Liegt seit 04.10. 12:36, keine Shop-Spur hat sie …",
-     "wer": "David",
-     "tun": "Laesst seinen Shop-Chat (Shopify frei, kein Ja noetig) die Theme-Aufgabe ~/takt/spuren/aufgaben/offen/20261004_1236_theme_kaufseit …",
-     "bis": "10:00",
-     "vorbei": true,
-     "stufe": 5,
-     "ja": [
-      19
-     ]
-    },
-    {
-     "prio": 0,
-     "block": "eskalation",
-     "quelle": "gedaechtnis/OFFEN.md",
-     "titel": "(1) Online Store > Preferences > Homepage meta description auf 'Cozy Christmas beds for small dogs …",
-     "wer": "David",
-     "tun": "Lässt seinen Shop-Chat (Shopify frei, kein Ja nötig) zwei Dinge ändern, 4 Minuten, 0 USD",
-     "bis": "10:45",
-     "vorbei": true,
-     "stufe": 5,
-     "ja": [
-      15,
-      11,
-      11
-     ]
-    },
-    {
-     "prio": 0,
-     "block": "eskalation",
-     "quelle": "gedaechtnis/OFFEN.md",
-     "titel": "Titel und Beschreibung sagen noch \"Free US Shipping\", \"small pets\" und \"Order by Dec 4\", genau die …",
-     "wer": "David",
-     "tun": "Lässt seinen Shop-Chat (Shopify frei, kein Ja nötig) bei Porchnap Sleigh Bed den Google-Suchtext ersetzen, 2 Minuten, 0 USD. Grund",
-     "bis": "13:30",
-     "vorbei": true,
-     "stufe": 5,
-     "ja": []
-    },
-    {
-     "prio": 0,
-     "block": "eskalation",
-     "quelle": "gedaechtnis/OFFEN.md",
-     "titel": "AGB bekommen die zwei Sätze zu Erstattung und kostenlosem Storno binnen 12 Stunden, Rückgabeseite …",
-     "wer": "David",
-     "tun": "Schreibt seinem Shop-Chat \"ja 25 ja 28\" (Shopify frei), 3 Minuten, 0 USD",
-     "bis": "14:00",
-     "vorbei": true,
-     "stufe": 5,
-     "ja": [
-      25,
-      28,
-      25
-     ]
-    },
-    {
-     "prio": 0,
-     "block": "eskalation",
-     "quelle": "gedaechtnis/OFFEN.md",
-     "titel": "David öffnet einen neuen Claude-Chat in ~/timo und fügt den EINEN Block aus …",
-     "wer": "David",
-     "tun": null,
-     "bis": "15:00",
-     "vorbei": true,
-     "stufe": 5,
-     "ja": [
-      25,
-      28
-     ]
-    },
-    {
-     "prio": 0,
-     "block": "eskalation",
-     "quelle": "gedaechtnis/OFFEN.md",
-     "titel": "Kaufkasten am iPhone ohne doppelte Design-Auswahl und ohne Zoom beim Antippen. Ja 7: Kaching-Block …",
-     "wer": "David",
-     "tun": "Schreibt seinem Shop-Chat \"ja 6 ja 7\" (Kaching-App, Shopify frei), 3 Minuten, 0 USD, hängt daran",
-     "bis": "16:00",
-     "vorbei": true,
-     "stufe": 5,
-     "ja": [
-      6,
-      7,
-      7,
-      6,
-      6
-     ]
-    },
-    {
-     "prio": 0,
-     "block": "eskalation",
-     "quelle": "gedaechtnis/OFFEN.md",
-     "titel": "David fügt den Block aus ~/timo/launch/kurs_umsetzung/02_seiten_und_service/SHOP_CHAT_START_2026-10- …",
-     "wer": "David",
-     "tun": null,
-     "bis": "16:30",
-     "vorbei": true,
-     "stufe": 5,
-     "ja": [
-      5,
-      5
-     ]
-    },
-    {
-     "prio": 0,
-     "block": "eskalation",
-     "quelle": "gedaechtnis/OFFEN.md",
-     "titel": "DICloak läuft, zeigt aber keine Profilliste (9 Bedienelemente, Zeile Dashboard fehlt), der …",
-     "wer": "David",
-     "tun": "Schreibt im Claude-Chat am Mac \"Perplexity reparieren\", 2 Minuten, Fenster kommt kurz nach vorn. Grund",
-     "bis": "11:40",
-     "vorbei": true,
-     "stufe": 6,
-     "ja": []
-    },
-    {
      "prio": 1,
      "block": "werkzeuge",
      "titel": "Takt-Schleife ist kaputt",
-     "text": "40 Fehlrunden in Folge (letzte rc=1). Ursache: 20261005_2340.txt: You've hit your weekly limit · resets Oct 8 at 1pm (Europe/Berlin)",
+     "text": "40 Fehlrunden in Folge (letzte rc=1). Ursache: 20261005_2355.txt: You've hit your weekly limit · resets Oct 8 at 1pm (Europe/Berlin)",
      "wer": "Claude (Technik)",
-     "tun": "Reparieren. Grund: 40 Fehlrunden in Folge (letzte rc=1). Ursache: 20261005_2340.txt: You've hit …"
+     "tun": "Reparieren. Grund: 40 Fehlrunden in Folge (letzte rc=1). Ursache: 20261005_2355.txt: You've hit …"
     },
     {
      "prio": 1,
@@ -330,7 +88,7 @@
     {
      "prio": 1.5,
      "block": "ja",
-     "titel": "1 Ja-Frage wartet: ja contabo (bis 05.10. 18:00)",
+     "titel": "9 Ja-Fragen warten: ja knopf (bis 04.10. 12:00), ja agb (bis 04.10. 12:00), ja judgeme (bis 04.10. 12:00) und 6 weitere",
      "wer": "David oder Timo",
      "tun": "Im Claude-Chat „ja <Nr>“ schreiben, Liste in timo/JA_LISTE.md",
      "quelle": "timo/JA_LISTE.md"
@@ -346,10 +104,10 @@
     {
      "prio": 4,
      "block": "aufgaben",
-     "wer": "Timo 2, David 0, Claude 0",
+     "wer": "Timo 2, David 0, Claude 1",
      "tun": "Die älteste zuerst erledigen oder neu datieren; Liste unten unter Offene Aufgaben",
-     "titel": "2 Aufgaben überfällig",
-     "text": "Älteste: 04.10., Timo, 10 min, im BM3 vor dem Anzeigenstart. Davon nennen Timo 2, David 0, Claude 0."
+     "titel": "3 Aufgaben überfällig",
+     "text": "Älteste: 04.10., Timo, 10 min, im BM3 vor dem Anzeigenstart. Davon nennen Timo 2, David 0, Claude 1."
     }
    ]
   },
@@ -358,12 +116,12 @@
    "id": "wer",
    "frage": "Wer arbeitet woran?",
    "ampel": "rot",
-   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 165 Runden heute.",
+   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 1 Runde heute.",
    "saetze": [],
    "zeilen": [
     {
      "name": "David",
-     "text": "Nicht gemessen, weil David die Mac-Messung am 03.10. abgeschaltet hat. Auf David warten heute 15 Sachen (Karte 2).",
+     "text": "Nicht gemessen, weil David die Mac-Messung am 03.10. abgeschaltet hat.",
      "ampel": "grau"
     },
     {
@@ -373,7 +131,7 @@
     },
     {
      "name": "Claude",
-     "text": "165 Runden heute, alle 5 Minuten eine. Zuletzt: Takt ohne Ergebniszeile beendet (rc=1), Protokoll in ~/takt/laeufe.",
+     "text": "1 Runde heute, alle 5 Minuten eine. Zuletzt: Takt ohne Ergebniszeile beendet (rc=1), Protokoll in ~/takt/laeufe.",
      "ampel": "rot"
     },
     {
@@ -416,8 +174,8 @@
     },
     {
      "name": "Neu gebaut heute",
-     "text": "22 Bilder und Videos für Anzeigen.",
-     "ampel": "gruen"
+     "text": "0 Bilder und Videos für Anzeigen.",
+     "ampel": "gelb"
     }
    ]
   },
@@ -503,7 +261,7 @@
    "prio": 1,
    "block": "werkzeuge",
    "titel": "Takt-Schleife ist rot",
-   "text": "40 Fehlrunden in Folge (letzte rc=1). Ursache: 20261005_2340.txt: You've hit your weekly limit · resets Oct 8 at 1pm (Europe/Berlin)"
+   "text": "40 Fehlrunden in Folge (letzte rc=1). Ursache: 20261005_2355.txt: You've hit your weekly limit · resets Oct 8 at 1pm (Europe/Berlin)"
   },
   {
    "prio": 1,
@@ -520,10 +278,10 @@
   {
    "prio": 4,
    "block": "aufgaben",
-   "wer": "Timo 2, David 0, Claude 0",
+   "wer": "Timo 2, David 0, Claude 1",
    "tun": "die älteste zuerst erledigen oder neu datieren; Liste unten unter Offene Aufgaben",
-   "titel": "2 Aufgaben überfällig",
-   "text": "Älteste: 04.10., Timo, 10 min, im BM3 vor dem Anzeigenstart. Davon nennen Timo 2, David 0, Claude 0."
+   "titel": "3 Aufgaben überfällig",
+   "text": "Älteste: 04.10., Timo, 10 min, im BM3 vor dem Anzeigenstart. Davon nennen Timo 2, David 0, Claude 1."
   }
  ],
  "bloecke": [
@@ -536,18 +294,18 @@
      "name": "Anzeigen aktiv",
      "wert": "veraltet",
      "ampel": "grau",
-     "detail": "letzte Messung 01:49, älter als 6 h: damals nein",
+     "detail": "letzte Messung 05.10. 01:49, älter als 6 h: damals nein",
      "quelle": "Meta Ads Konto Porch Nap 1984849605541642, 0 Kampagnen, heute keine Ausgaben, 01:49",
-     "stand": "01:49",
+     "stand": "05.10. 01:49",
      "ziel": null
     },
     {
      "name": "Ausgaben heute",
      "wert": "veraltet",
      "ampel": "grau",
-     "detail": "letzte Messung 01:49, älter als 6 h: damals 0,00 USD",
+     "detail": "letzte Messung 05.10. 01:49, älter als 6 h: damals 0,00 USD",
      "quelle": "Meta Ads Konto Porch Nap 1984849605541642, 0 Kampagnen, heute keine Ausgaben, 01:49",
-     "stand": "01:49",
+     "stand": "05.10. 01:49",
      "ziel": "Budget 200,00 USD am Tag bis zum ersten Gewinn (Plan 5)"
     },
     {
@@ -570,28 +328,28 @@
      "name": "Bestellungen heute",
      "wert": "veraltet",
      "ampel": "grau",
-     "detail": "letzte Messung 01:49, älter als 6 h: damals 0",
+     "detail": "letzte Messung 05.10. 01:49, älter als 6 h: damals 0",
      "quelle": "Shopify Porchnap list-orders created_at>=2026-10-01: 0 Bestellungen, 01:49",
-     "stand": "01:49",
+     "stand": "05.10. 01:49",
      "ziel": null
     },
     {
      "name": "Gewinn heute",
      "wert": "veraltet",
      "ampel": "grau",
-     "detail": "letzte Messung 01:49, älter als 6 h: damals 0,00 USD",
+     "detail": "letzte Messung 05.10. 01:49, älter als 6 h: damals 0,00 USD",
      "quelle": "Shopify Porchnap list-orders created_at>=2026-10-01: 0 Bestellungen, 01:49; keine Werbeausgaben laut Meta",
-     "stand": "01:49",
+     "stand": "05.10. 01:49",
      "ziel": "2.174 USD"
     },
     {
      "name": "Gewinn seit 01.10.",
      "wert": "veraltet",
      "ampel": "grau",
-     "detail": "letzte Messung 01:49, älter als 6 h: damals 0,00 USD",
+     "detail": "letzte Messung 05.10. 01:49, älter als 6 h: damals 0,00 USD",
      "quelle": "Shopify Porchnap list-orders created_at>=2026-10-01: 0 Bestellungen, 01:49; keine Werbeausgaben laut Meta",
-     "stand": "01:49",
-     "ziel": "200.000 USD bis 31.12., Soll bis gestern 8.696 USD (4 Tage)"
+     "stand": "05.10. 01:49",
+     "ziel": "200.000 USD bis 31.12., Soll bis gestern 10.870 USD (5 Tage)"
     }
    ]
   },
@@ -606,7 +364,7 @@
      "ampel": "grau",
      "detail": "12 Bilder, 10 Videos, neu seit Montag, 05.10., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
      "quelle": "Erstellzeit der Dateien in creatives/fertig, 05_creatives/ads, 05_creatives/ki/fertig",
-     "stand": "23:47",
+     "stand": "00:02",
      "ziel": null
     },
     {
@@ -646,7 +404,7 @@
     },
     {
      "name": "Nächster Check-in",
-     "wert": "09:00 morgen",
+     "wert": "09:00 heute",
      "ampel": "grau",
      "detail": "Tagesstart 08:00 ist festgelegt (Plan 5). Die Check-in-Zeiten (09:00, 13:00, 18:00, 22:00) sind der Vorschlag aus Plan 2.4, noch nicht festgelegt.",
      "quelle": "LEITSTAND_PLAN.md 2.4 und 5",
@@ -666,21 +424,21 @@
      "ampel": "grau",
      "detail": "1 Zeile im Codeblock (Formatbeispiel) nicht gezählt. Steht dort eine echte Aufgabe, gehört sie aus dem Block heraus.",
      "quelle": "timo/OFFEN.md",
-     "stand": "23:47",
+     "stand": "00:02",
      "ziel": null
     },
     {
      "name": "Überfällig",
-     "wert": "2",
+     "wert": "3",
      "ampel": "rot",
-     "detail": "davon nennen Timo 2, David 0, Claude 0",
+     "detail": "davon nennen Timo 2, David 0, Claude 1",
      "quelle": null,
      "stand": null,
      "ziel": null
     },
     {
      "name": "Heute fällig",
-     "wert": "1",
+     "wert": "2",
      "ampel": "gelb",
      "detail": null,
      "quelle": null,
@@ -694,7 +452,7 @@
      "datum_kurz": "04.10.",
      "wer": "Timo, 10 min, im BM3 vor dem Anzeigenstart",
      "text": "ENTSCHIEDEN 03.10. 23:33 Kursrichter AENDERN (~/takt/kursrichter/urteile/2026-10-03_232719.md): erst Pixel/Datensatz …",
-     "tage_ueberfaellig": 1,
+     "tage_ueberfaellig": 2,
      "ampel": "rot"
     },
     {
@@ -702,7 +460,7 @@
      "datum_kurz": "04.10.",
      "wer": "Timo, 5 min, vor dem Anzeigenstart",
      "text": "ENTSCHIEDEN 03.10. 23:33 Kursrichter AENDERN (~/takt/kursrichter/urteile/2026-10-03_232734.md): Shopify Inbox > Agent …",
-     "tage_ueberfaellig": 1,
+     "tage_ueberfaellig": 2,
      "ampel": "rot"
     },
     {
@@ -710,8 +468,8 @@
      "datum_kurz": "05.10.",
      "wer": "Claude (Mac)",
      "text": "Daily Mentor Academy (David Fogarty): Neubezug am 02.10.2026 auf Timos PC erledigt, 299 Lektionen von Timos Handy in …",
-     "tage_ueberfaellig": 0,
-     "ampel": "gelb"
+     "tage_ueberfaellig": 1,
+     "ampel": "rot"
     },
     {
      "datum": "2026-10-06",
@@ -719,7 +477,7 @@
      "wer": "Claude, 45 min",
      "text": "Bauplan aus /system-verbessern 04.10.: Handy-Sicht-Prüfung ~/takt/handy_sicht.mjs (headless, 390 px: nichts ragt raus …",
      "tage_ueberfaellig": 0,
-     "ampel": "grau"
+     "ampel": "gelb"
     },
     {
      "datum": "2026-10-06",
@@ -727,7 +485,7 @@
      "wer": "Claude, 30 min",
      "text": "Bauplan aus /system-verbessern 04.10.: Prüfung vor dem Senden, die Antwortenden mit Ja-Frage ohne frisches …",
      "tage_ueberfaellig": 0,
-     "ampel": "grau"
+     "ampel": "gelb"
     },
     {
      "datum": "2026-10-07",
@@ -795,7 +553,7 @@
    "zeilen": [
     {
      "name": "Wächter, letzter Lauf",
-     "wert": "23:43",
+     "wert": "05.10. 23:58",
      "ampel": "gruen",
      "detail": null,
      "quelle": "waechter_zustand.json",
@@ -808,7 +566,7 @@
      "name": "Takt-Schleife",
      "schluessel": "takt",
      "ampel": "rot",
-     "text": "40 Fehlrunden in Folge (letzte rc=1). Ursache: 20261005_2340.txt: You've hit your weekly limit · resets Oct 8 at 1pm (Europe/Berlin)"
+     "text": "40 Fehlrunden in Folge (letzte rc=1). Ursache: 20261005_2355.txt: You've hit your weekly limit · resets Oct 8 at 1pm (Europe/Berlin)"
     },
     {
      "name": "Perplexity",
@@ -826,7 +584,7 @@
      "name": "Crosspost",
      "schluessel": "crosspost",
      "ampel": "gruen",
-     "text": "laeuft (pid 34390), Herzschlag vor 7 s, postet, letzter Fehler: 2026-10-05T20:17:03.188Z keine Videos in der Antwort: {\"log_"
+     "text": "laeuft (pid 34390), Herzschlag vor 0 s, postet, letzter Fehler: 2026-10-05T20:17:03.188Z keine Videos in der Antwort: {\"log_"
     },
     {
      "name": "Speicher",
@@ -862,7 +620,7 @@
      "name": "Ereignis-Sensor",
      "schluessel": "ereignisse",
      "ampel": "gruen",
-     "text": "letzter Lauf 23:43, 0 offene Ereignisse"
+     "text": "letzter Lauf 23:58, 0 offene Ereignisse"
     },
     {
      "name": "Chrome auf Timos PC",
