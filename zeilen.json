@@ -3484,5 +3484,12 @@
 "typ": "chef",
 "titel": "Versand kostet kein Geld",
 "satz": "Ich habe gemessen, dass wir das Hundebett kostenlos verschicken, und zwei Punkte sind fertig."
+},
+{
+"tag": "2026-10-05",
+"zeit": "16:00",
+"typ": "chef",
+"titel": "You've hit your weekly limit · resets Oct 8 at 1pm (Europe/Berlin)",
+"satz": ""
 }
 ]
