@@ -3470,5 +3470,12 @@
 "typ": "chef",
 "titel": "Text und Geld überprüft, Fehler gefunden",
 "satz": "Ich habe Text und Geld überprüft und den alten Fehler gefunden."
+},
+{
+"tag": "2026-10-05",
+"zeit": "15:50",
+"typ": "chef",
+"titel": "Versprechen im Laden überprüft",
+"satz": "Ich habe überprüft, ob die Versprechen im Laden stimmen, damit alles richtig ist."
 }
 ]
