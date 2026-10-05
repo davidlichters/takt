@@ -1,13 +1,6 @@
 [
 {
 "tag": "2026-09-30",
-"zeit": "00:50",
-"typ": "kreativ",
-"titel": "Abbruch-Mail mit fünf Texten",
-"satz": "Ich habe fünf Briefe gebaut, damit wir Käufer zurückholen, die fast kauften."
-},
-{
-"tag": "2026-09-30",
 "zeit": "01:00",
 "typ": "normal",
 "titel": "Kaufseite kaputt gefunden",
@@ -4196,6 +4189,13 @@
 "tag": "2026-10-06",
 "zeit": "01:00",
 "typ": "recherche",
+"titel": "You've hit your weekly limit · resets Oct 8 at 1pm (Europe/Berlin)",
+"satz": ""
+},
+{
+"tag": "2026-10-06",
+"zeit": "01:05",
+"typ": "chef",
 "titel": "You've hit your weekly limit · resets Oct 8 at 1pm (Europe/Berlin)",
 "satz": ""
 }
