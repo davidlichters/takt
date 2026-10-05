@@ -1,7 +1,7 @@
 {
  "version": 2,
- "stand": "2026-10-05T08:47:05Z",
- "stand_berlin": "05.10.2026 10:47",
+ "stand": "2026-10-05T09:02:05Z",
+ "stand_berlin": "05.10.2026 11:02",
  "takt_min": 15,
  "quelle": "takt/leitstand_bauen.py auf Davids Mac, ohne Modell",
  "ziele": {
@@ -43,7 +43,7 @@
     },
     {
      "name": "Recherche",
-     "text": "Perplexity hat heute 55 Fragen beantwortet, die letzte um 10:18. Die letzten 4 Versuche kamen ohne Antwort zurück.",
+     "text": "Perplexity hat heute 55 Fragen beantwortet, die letzte um 10:18. Die letzten 5 Versuche kamen ohne Antwort zurück.",
      "ampel": "rot"
     },
     {
@@ -53,7 +53,7 @@
     },
     {
      "name": "Chef-Runde",
-     "text": "Um 10:37: Bonnie-Text von Ja 32 fragt jetzt Versandlinie und Dezember-Laufzeit, weil 4PX im Nov/Dez 12 bis 18 Werktage …",
+     "text": "Um 10:47: Perplexity steht seit 10:35, DICloak zeigt keine Profilliste, Neustart ohne Fenster scheiterte 10:35 und …",
      "ampel": "gruen"
     }
    ]
@@ -63,7 +63,7 @@
    "id": "auf",
    "frage": "Was hält uns auf?",
    "ampel": "rot",
-   "kurz": "11 Dinge halten uns auf.",
+   "kurz": "12 Dinge halten uns auf.",
    "saetze": [
     "Bei jedem steht, wer es tun muss. Oben steht das, was am meisten Geld kostet."
    ],
@@ -179,6 +179,18 @@
      ]
     },
     {
+     "prio": 0,
+     "block": "eskalation",
+     "quelle": "gedaechtnis/OFFEN.md",
+     "titel": "DICloak läuft, zeigt aber keine Profilliste (9 Bedienelemente, Zeile Dashboard fehlt), der …",
+     "wer": "David",
+     "tun": "Schreibt im Claude-Chat am Mac \"Perplexity reparieren\", 2 Minuten, Fenster kommt kurz nach vorn. Grund",
+     "bis": "11:40",
+     "vorbei": false,
+     "stufe": 6,
+     "ja": []
+    },
+    {
      "prio": 1,
      "block": "werkzeuge",
      "titel": "Perplexity ist kaputt",
@@ -217,12 +229,12 @@
    "id": "wer",
    "frage": "Wer arbeitet woran?",
    "ampel": "gruen",
-   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 46 Runden heute.",
+   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 47 Runden heute.",
    "saetze": [],
    "zeilen": [
     {
      "name": "David",
-     "text": "Nicht gemessen, weil David die Mac-Messung am 03.10. abgeschaltet hat. Auf David warten heute 6 Sachen (Karte 2).",
+     "text": "Nicht gemessen, weil David die Mac-Messung am 03.10. abgeschaltet hat. Auf David warten heute 7 Sachen (Karte 2).",
      "ampel": "grau"
     },
     {
@@ -232,7 +244,7 @@
     },
     {
      "name": "Claude",
-     "text": "46 Runden heute, alle 5 Minuten eine. Zuletzt: Bonnie-Text von Ja 32 fragt jetzt Versandlinie und Dezember-Laufzeit, weil 4PX im Nov/Dez 12 …",
+     "text": "47 Runden heute, alle 5 Minuten eine. Zuletzt: Perplexity steht seit 10:35, DICloak zeigt keine Profilliste, Neustart ohne Fenster scheiterte …",
      "ampel": "gruen"
     },
     {
@@ -247,7 +259,7 @@
    "id": "tempo",
    "frage": "Wie schnell geht es gerade?",
    "ampel": "gelb",
-   "kurz": "Letzte Stunde: 5 Runden, 3 davon mit fertigem Ergebnis.",
+   "kurz": "Letzte Stunde: 4 Runden, 1 davon mit fertigem Ergebnis.",
    "saetze": [
     "Den Gewinn heute wissen wir noch nicht, weil uns der Shopify-Zugang fehlt.",
     "Fertig heißt noch nicht live: 9 Ja-Schritte warten auf euer Ja (Karte 2)."
@@ -265,7 +277,7 @@
     },
     {
      "name": "Runden, letzte Stunde",
-     "text": "5 Runden: 3 mit fertigem Ergebnis (Creative, Text oder Klickweg), 1 hat einen Menschen erinnert, 1 nur innen gearbeitet.",
+     "text": "4 Runden: 1 mit fertigem Ergebnis (Creative, Text oder Klickweg), 2 haben einen Menschen erinnert, 1 nur innen gearbeitet.",
      "ampel": "gelb"
     },
     {
@@ -312,7 +324,7 @@
     },
     {
      "name": "Runden",
-     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 5, davon 1 nur innen.",
+     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 4, davon 1 nur innen.",
      "ampel": "rot"
     }
    ]
@@ -459,7 +471,7 @@
      "ampel": "grau",
      "detail": "12 Bilder, 10 Videos, neu seit Montag, 05.10., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
      "quelle": "Erstellzeit der Dateien in creatives/fertig, 05_creatives/ads, 05_creatives/ki/fertig",
-     "stand": "10:47",
+     "stand": "11:02",
      "ziel": null
     },
     {
@@ -519,7 +531,7 @@
      "ampel": "grau",
      "detail": "1 Zeile im Codeblock (Formatbeispiel) nicht gezählt. Steht dort eine echte Aufgabe, gehört sie aus dem Block heraus.",
      "quelle": "timo/OFFEN.md",
-     "stand": "10:47",
+     "stand": "11:02",
      "ziel": null
     },
     {
@@ -648,7 +660,7 @@
    "zeilen": [
     {
      "name": "Wächter, letzter Lauf",
-     "wert": "10:45",
+     "wert": "11:01",
      "ampel": "gruen",
      "detail": null,
      "quelle": "waechter_zustand.json",
@@ -661,7 +673,7 @@
      "name": "Takt-Schleife",
      "schluessel": "takt",
      "ampel": "gruen",
-     "text": "letzte Runde 10:38 (chef), rc=0"
+     "text": "letzte Runde 10:48 (chef), rc=0"
     },
     {
      "name": "Perplexity",
@@ -679,7 +691,7 @@
      "name": "Crosspost",
      "schluessel": "crosspost",
      "ampel": "gruen",
-     "text": "laeuft (pid 34390), Herzschlag vor 1 s, postet, letzter Fehler: 2026-10-04T20:17:03.764Z keine Videos in der Antwort: {\"log_"
+     "text": "laeuft (pid 34390), Herzschlag vor 8 s, postet, letzter Fehler: 2026-10-04T20:17:03.764Z keine Videos in der Antwort: {\"log_"
     },
     {
      "name": "Speicher",
@@ -691,7 +703,7 @@
      "name": "GitHub-Push",
      "schluessel": "github",
      "ampel": "gruen",
-     "text": "origin/main 41b5780 vor 6 Min"
+     "text": "origin/main 41b5780 vor 22 Min"
     },
     {
      "name": "WhatsApp Web",
@@ -715,7 +727,7 @@
      "name": "Ereignis-Sensor",
      "schluessel": "ereignisse",
      "ampel": "gruen",
-     "text": "letzter Lauf 10:45, 0 offene Ereignisse"
+     "text": "letzter Lauf 11:00, 0 offene Ereignisse"
     },
     {
      "name": "Chrome auf Timos PC",
