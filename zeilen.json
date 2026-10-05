@@ -3379,5 +3379,12 @@
 "typ": "chef",
 "titel": "Wichtige Sätze über Geld zurück überprüft",
 "satz": "Ich habe überprüft, ob im Laden richtig steht, dass Kunden Geld zurück bekommen können."
+},
+{
+"tag": "2026-10-05",
+"zeit": "13:05",
+"typ": "chef",
+"titel": "Lieferanten notiert, keine neuen Bestellungen",
+"satz": "Ich habe Lieferanten notiert und geprüft, ob Kunden Pakete bestellt haben - noch nicht."
 }
 ]
