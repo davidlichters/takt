@@ -3477,5 +3477,12 @@
 "typ": "chef",
 "titel": "Versprechen im Laden überprüft",
 "satz": "Ich habe überprüft, ob die Versprechen im Laden stimmen, damit alles richtig ist."
+},
+{
+"tag": "2026-10-05",
+"zeit": "15:55",
+"typ": "chef",
+"titel": "Versand kostet kein Geld",
+"satz": "Ich habe gemessen, dass wir das Hundebett kostenlos verschicken, und zwei Punkte sind fertig."
 }
 ]
