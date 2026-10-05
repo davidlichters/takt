@@ -3169,5 +3169,12 @@
 "typ": "chef",
 "titel": "Video fertig, Laden hat Fehler",
 "satz": "Ich habe ein Video hochgeladen, aber der Laden macht jetzt Fehler."
+},
+{
+"tag": "2026-10-05",
+"zeit": "04:23",
+"typ": "chef",
+"titel": "Offene Arbeiten gezählt und gemessen",
+"satz": "Ich habe gezählt, was offen ist, damit David weiß, was noch zu tun ist."
 }
 ]
