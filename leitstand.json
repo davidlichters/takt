@@ -1,7 +1,7 @@
 {
  "version": 2,
- "stand": "2026-10-05T00:17:04Z",
- "stand_berlin": "05.10.2026 02:17",
+ "stand": "2026-10-05T00:32:02Z",
+ "stand_berlin": "05.10.2026 02:32",
  "takt_min": 15,
  "quelle": "takt/leitstand_bauen.py auf Davids Mac, ohne Modell",
  "ziele": {
@@ -43,7 +43,7 @@
     },
     {
      "name": "Recherche",
-     "text": "Perplexity hat heute 10 Fragen beantwortet, die letzte um 01:49. Die letzten 2 Versuche kamen ohne Antwort zurück.",
+     "text": "Perplexity hat heute 14 Fragen beantwortet, die letzte um 02:31.",
      "ampel": "gruen"
     },
     {
@@ -53,8 +53,8 @@
     },
     {
      "name": "Chef-Runde",
-     "text": "Um 02:05: entsperrt Stufe 6, weil Stufe 1 bis 5 bearbeitet sind (Kasse geprüft 02:0x US 0,00 Versand, Shop-Korrekturen …",
-     "ampel": "gelb"
+     "text": "Um 02:15: neues Werbebild C97 PN_FIRSTXMAS 1080x1350, erstes Weihnachten des neuen Welpen, erstes eigenes Bett, nur …",
+     "ampel": "gruen"
     }
    ]
   },
@@ -138,8 +138,8 @@
    "nr": 3,
    "id": "wer",
    "frage": "Wer arbeitet woran?",
-   "ampel": "gelb",
-   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 10 Runden heute.",
+   "ampel": "gruen",
+   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 11 Runden heute.",
    "saetze": [],
    "zeilen": [
     {
@@ -154,8 +154,8 @@
     },
     {
      "name": "Claude",
-     "text": "10 Runden heute, alle 5 Minuten eine. Zuletzt: entsperrt Stufe 6, weil Stufe 1 bis 5 bearbeitet sind (Kasse geprüft 02:0x US 0,00 Versand …",
-     "ampel": "gelb"
+     "text": "11 Runden heute, alle 5 Minuten eine. Zuletzt: neues Werbebild C97 PN_FIRSTXMAS 1080x1350, erstes Weihnachten des neuen Welpen, erstes …",
+     "ampel": "gruen"
     },
     {
      "name": "Abteilungs-Chats",
@@ -381,7 +381,7 @@
      "ampel": "grau",
      "detail": "5 Bilder, 3 Videos, neu seit Montag, 05.10., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
      "quelle": "Erstellzeit der Dateien in creatives/fertig, 05_creatives/ads, 05_creatives/ki/fertig",
-     "stand": "02:17",
+     "stand": "02:32",
      "ziel": null
     },
     {
@@ -441,7 +441,7 @@
      "ampel": "grau",
      "detail": "1 Zeile im Codeblock (Formatbeispiel) nicht gezählt. Steht dort eine echte Aufgabe, gehört sie aus dem Block heraus.",
      "quelle": "timo/OFFEN.md",
-     "stand": "02:17",
+     "stand": "02:32",
      "ziel": null
     },
     {
@@ -570,7 +570,7 @@
    "zeilen": [
     {
      "name": "Wächter, letzter Lauf",
-     "wert": "02:11",
+     "wert": "02:27",
      "ampel": "gruen",
      "detail": null,
      "quelle": "waechter_zustand.json",
@@ -583,13 +583,13 @@
      "name": "Takt-Schleife",
      "schluessel": "takt",
      "ampel": "gruen",
-     "text": "letzte Runde 02:08 (chef), rc=0"
+     "text": "letzte Runde 02:17 (chef), rc=0"
     },
     {
      "name": "Perplexity",
      "schluessel": "perplexity",
      "ampel": "gruen",
-     "text": "Gins laeuft; letzter Lauf 01:49 ohne Antwortdatei: nach 12 Minuten nicht fertig"
+     "text": "letzter Lauf 02:22 erfolgreich, Gins laeuft"
     },
     {
      "name": "Davids Chrome",
@@ -601,7 +601,7 @@
      "name": "Crosspost",
      "schluessel": "crosspost",
      "ampel": "gruen",
-     "text": "laeuft (pid 34390), Herzschlag vor 9 s, postet, letzter Fehler: 2026-10-04T20:17:03.764Z keine Videos in der Antwort: {\"log_"
+     "text": "laeuft (pid 34390), Herzschlag vor 3 s, postet, letzter Fehler: 2026-10-04T20:17:03.764Z keine Videos in der Antwort: {\"log_"
     },
     {
      "name": "Speicher",
@@ -613,7 +613,7 @@
      "name": "GitHub-Push",
      "schluessel": "github",
      "ampel": "gruen",
-     "text": "origin/main f1d81a3 vor 4 Min"
+     "text": "origin/main d2a51c9 vor 10 Min"
     },
     {
      "name": "WhatsApp Web",
@@ -637,7 +637,7 @@
      "name": "Ereignis-Sensor",
      "schluessel": "ereignisse",
      "ampel": "gruen",
-     "text": "letzter Lauf 02:11, 0 offene Ereignisse"
+     "text": "letzter Lauf 02:27, 0 offene Ereignisse"
     },
     {
      "name": "Chrome auf Timos PC",
