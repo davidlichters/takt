@@ -1,12 +1,5 @@
 [
 {
-"tag": "2026-09-29",
-"zeit": "23:55",
-"typ": "kreativ",
-"titel": "Acht Ideen für Dezember",
-"satz": "Ich habe acht Ideen für Dezember gesammelt, damit wir mehr Geld verdienen."
-},
-{
 "tag": "2026-09-30",
 "zeit": "00:00",
 "typ": "normal",
@@ -4196,6 +4189,13 @@
 "tag": "2026-10-06",
 "zeit": "00:00",
 "typ": "recherche",
+"titel": "You've hit your weekly limit · resets Oct 8 at 1pm (Europe/Berlin)",
+"satz": ""
+},
+{
+"tag": "2026-10-06",
+"zeit": "00:05",
+"typ": "chef",
 "titel": "You've hit your weekly limit · resets Oct 8 at 1pm (Europe/Berlin)",
 "satz": ""
 }
