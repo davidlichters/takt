@@ -1,7 +1,7 @@
 {
  "version": 2,
- "stand": "2026-10-05T12:02:05Z",
- "stand_berlin": "05.10.2026 14:02",
+ "stand": "2026-10-05T12:17:05Z",
+ "stand_berlin": "05.10.2026 14:17",
  "takt_min": 15,
  "quelle": "takt/leitstand_bauen.py auf Davids Mac, ohne Modell",
  "ziele": {
@@ -53,8 +53,8 @@
     },
     {
      "name": "Chef-Runde",
-     "text": "Um 13:35: ein Block statt fünf Einzelzeilen für den Shop-Chat (SKUs, Suchtext, Ja 25 28 15 11, 19 Theme-Aufgaben samt …",
-     "ampel": "gruen"
+     "text": "Um 14:05: entsperrt Stufe 1, weil die Kasse seit heute früh wegen 429 ungemessen war; Shop wieder 200, 4 Varianten …",
+     "ampel": "gelb"
     }
    ]
   },
@@ -302,8 +302,8 @@
    "nr": 3,
    "id": "wer",
    "frage": "Wer arbeitet woran?",
-   "ampel": "gruen",
-   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 53 Runden heute.",
+   "ampel": "gelb",
+   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 54 Runden heute.",
    "saetze": [],
    "zeilen": [
     {
@@ -318,8 +318,8 @@
     },
     {
      "name": "Claude",
-     "text": "53 Runden heute, alle 5 Minuten eine. Zuletzt: ein Block statt fünf Einzelzeilen für den Shop-Chat (SKUs, Suchtext, Ja 25 28 15 11, 19 …",
-     "ampel": "gruen"
+     "text": "54 Runden heute, alle 5 Minuten eine. Zuletzt: entsperrt Stufe 1, weil die Kasse seit heute früh wegen 429 ungemessen war; Shop wieder 200, 4 …",
+     "ampel": "gelb"
     },
     {
      "name": "Abteilungs-Chats",
@@ -351,7 +351,7 @@
     },
     {
      "name": "Runden, letzte Stunde",
-     "text": "2 Runden: 0 mit fertigem Ergebnis (Creative, Text oder Klickweg), 2 haben einen Menschen erinnert, 0 nur innen gearbeitet.",
+     "text": "2 Runden: 0 mit fertigem Ergebnis (Creative, Text oder Klickweg), 1 hat einen Menschen erinnert, 1 nur innen gearbeitet.",
      "ampel": "gelb"
     },
     {
@@ -398,7 +398,7 @@
     },
     {
      "name": "Runden",
-     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 2, davon 0 nur innen.",
+     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 2, davon 1 nur innen.",
      "ampel": "rot"
     }
    ]
@@ -545,7 +545,7 @@
      "ampel": "grau",
      "detail": "12 Bilder, 10 Videos, neu seit Montag, 05.10., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
      "quelle": "Erstellzeit der Dateien in creatives/fertig, 05_creatives/ads, 05_creatives/ki/fertig",
-     "stand": "14:02",
+     "stand": "14:17",
      "ziel": null
     },
     {
@@ -605,7 +605,7 @@
      "ampel": "grau",
      "detail": "1 Zeile im Codeblock (Formatbeispiel) nicht gezählt. Steht dort eine echte Aufgabe, gehört sie aus dem Block heraus.",
      "quelle": "timo/OFFEN.md",
-     "stand": "14:02",
+     "stand": "14:17",
      "ziel": null
     },
     {
@@ -734,7 +734,7 @@
    "zeilen": [
     {
      "name": "Wächter, letzter Lauf",
-     "wert": "13:57",
+     "wert": "14:12",
      "ampel": "gruen",
      "detail": null,
      "quelle": "waechter_zustand.json",
@@ -747,7 +747,7 @@
      "name": "Takt-Schleife",
      "schluessel": "takt",
      "ampel": "gruen",
-     "text": "letzte Runde 13:36 (chef), rc=0"
+     "text": "letzte Runde 14:06 (chef), rc=0"
     },
     {
      "name": "Perplexity",
@@ -765,19 +765,19 @@
      "name": "Crosspost",
      "schluessel": "crosspost",
      "ampel": "gruen",
-     "text": "laeuft (pid 34390), Herzschlag vor 5 s, postet, letzter Fehler: 2026-10-04T20:17:03.764Z keine Videos in der Antwort: {\"log_"
+     "text": "laeuft (pid 34390), Herzschlag vor 0 s, postet, letzter Fehler: 2026-10-04T20:17:03.764Z keine Videos in der Antwort: {\"log_"
     },
     {
      "name": "Speicher",
      "schluessel": "speicher",
      "ampel": "gruen",
-     "text": "107 GB frei"
+     "text": "101 GB frei"
     },
     {
      "name": "GitHub-Push",
      "schluessel": "github",
      "ampel": "gruen",
-     "text": "origin/main eb03a45 vor 20 Min"
+     "text": "origin/main bf8cabd vor 6 Min"
     },
     {
      "name": "WhatsApp Web",
@@ -801,7 +801,7 @@
      "name": "Ereignis-Sensor",
      "schluessel": "ereignisse",
      "ampel": "gruen",
-     "text": "letzter Lauf 13:57, 0 offene Ereignisse"
+     "text": "letzter Lauf 14:12, 0 offene Ereignisse"
     },
     {
      "name": "Chrome auf Timos PC",
