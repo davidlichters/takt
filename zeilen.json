@@ -3456,5 +3456,12 @@
 "typ": "chef",
 "titel": "Laden überprüft und Stufe fünf freigeschaltet",
 "satz": "Ich habe alle Seiten und Links des Ladens überprüft, alles geht und ist richtig."
+},
+{
+"tag": "2026-10-05",
+"zeit": "15:40",
+"typ": "chef",
+"titel": "Angebot-Test läuft immer noch weiter",
+"satz": "Ich habe geprüft: der Test läuft noch, David muss Ja sagen, dann stoppt es."
 }
 ]
