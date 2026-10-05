@@ -1,7 +1,7 @@
 {
  "version": 2,
- "stand": "2026-10-05T13:17:05Z",
- "stand_berlin": "05.10.2026 15:17",
+ "stand": "2026-10-05T13:32:05Z",
+ "stand_berlin": "05.10.2026 15:32",
  "takt_min": 15,
  "quelle": "takt/leitstand_bauen.py auf Davids Mac, ohne Modell",
  "ziele": {
@@ -53,8 +53,8 @@
     },
     {
      "name": "Chef-Runde",
-     "text": "Um 15:15: entsperrt Stufe 6, weil Stufe 1 bis 5 bearbeitet sind (0 Bestellungen seit 01.10. um 15:10, alle Shop- und …",
-     "ampel": "gelb"
+     "text": "Um 15:30: Rückgabeseite verspricht oben Erstattung in 24 Stunden, unten in 5 Werktagen; Ersatzsatz mit Vorher-Messung …",
+     "ampel": "gruen"
     }
    ]
   },
@@ -334,8 +334,8 @@
    "nr": 3,
    "id": "wer",
    "frage": "Wer arbeitet woran?",
-   "ampel": "gelb",
-   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 58 Runden heute.",
+   "ampel": "gruen",
+   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 61 Runden heute.",
    "saetze": [],
    "zeilen": [
     {
@@ -350,8 +350,8 @@
     },
     {
      "name": "Claude",
-     "text": "58 Runden heute, alle 5 Minuten eine. Zuletzt: entsperrt Stufe 6, weil Stufe 1 bis 5 bearbeitet sind (0 Bestellungen seit 01.10. um 15:10 …",
-     "ampel": "gelb"
+     "text": "61 Runden heute, alle 5 Minuten eine. Zuletzt: Rückgabeseite verspricht oben Erstattung in 24 Stunden, unten in 5 Werktagen; Ersatzsatz mit …",
+     "ampel": "gruen"
     },
     {
      "name": "Abteilungs-Chats",
@@ -365,7 +365,7 @@
    "id": "tempo",
    "frage": "Wie schnell geht es gerade?",
    "ampel": "gelb",
-   "kurz": "Letzte Stunde: 4 Runden, 1 davon mit fertigem Ergebnis.",
+   "kurz": "Letzte Stunde: 7 Runden, 4 davon mit fertigem Ergebnis.",
    "saetze": [
     "Den Gewinn heute wissen wir noch nicht, weil uns der Shopify-Zugang fehlt.",
     "Fertig heißt noch nicht live: 9 Ja-Schritte warten auf euer Ja (Karte 2)."
@@ -383,7 +383,7 @@
     },
     {
      "name": "Runden, letzte Stunde",
-     "text": "4 Runden: 1 mit fertigem Ergebnis (Creative, Text oder Klickweg), 2 haben einen Menschen erinnert, 1 nur innen gearbeitet.",
+     "text": "7 Runden: 4 mit fertigem Ergebnis (Creative, Text oder Klickweg), 2 haben einen Menschen erinnert, 1 nur innen gearbeitet.",
      "ampel": "gelb"
     },
     {
@@ -430,7 +430,7 @@
     },
     {
      "name": "Runden",
-     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 4, davon 1 nur innen.",
+     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 7, davon 1 nur innen.",
      "ampel": "rot"
     }
    ]
@@ -577,7 +577,7 @@
      "ampel": "grau",
      "detail": "12 Bilder, 10 Videos, neu seit Montag, 05.10., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
      "quelle": "Erstellzeit der Dateien in creatives/fertig, 05_creatives/ads, 05_creatives/ki/fertig",
-     "stand": "15:17",
+     "stand": "15:32",
      "ziel": null
     },
     {
@@ -637,7 +637,7 @@
      "ampel": "grau",
      "detail": "1 Zeile im Codeblock (Formatbeispiel) nicht gezählt. Steht dort eine echte Aufgabe, gehört sie aus dem Block heraus.",
      "quelle": "timo/OFFEN.md",
-     "stand": "15:17",
+     "stand": "15:32",
      "ziel": null
     },
     {
@@ -766,7 +766,7 @@
    "zeilen": [
     {
      "name": "Wächter, letzter Lauf",
-     "wert": "15:14",
+     "wert": "15:30",
      "ampel": "gruen",
      "detail": null,
      "quelle": "waechter_zustand.json",
@@ -779,7 +779,7 @@
      "name": "Takt-Schleife",
      "schluessel": "takt",
      "ampel": "gruen",
-     "text": "letzte Runde 15:11 (chef), rc=0"
+     "text": "letzte Runde 15:28 (chef), rc=0, Runde laeuft seit 0 Min"
     },
     {
      "name": "Perplexity",
@@ -797,7 +797,7 @@
      "name": "Crosspost",
      "schluessel": "crosspost",
      "ampel": "gruen",
-     "text": "laeuft (pid 34390), Herzschlag vor 0 s, postet, letzter Fehler: 2026-10-04T20:17:03.764Z keine Videos in der Antwort: {\"log_"
+     "text": "laeuft (pid 34390), Herzschlag vor 6 s, postet, letzter Fehler: 2026-10-04T20:17:03.764Z keine Videos in der Antwort: {\"log_"
     },
     {
      "name": "Speicher",
@@ -809,13 +809,13 @@
      "name": "GitHub-Push",
      "schluessel": "github",
      "ampel": "gruen",
-     "text": "origin/main ac298b2 vor 3 Min"
+     "text": "origin/main d8f3ffe vor 0 Min"
     },
     {
      "name": "WhatsApp Web",
      "schluessel": "whatsapp",
      "ampel": "gruen",
-     "text": "Chatliste gelesen (apple, 1 Zeilen), 1 von 6 Lieferanten sichtbar, nicht sichtbar: John (Supplier), Adam DS, Mr Anh, Vito DS, Joel DS"
+     "text": "ausgesetzt, WhatsApp gerade belegt: claude -p --settings {\"ultracode\":false,\"enableWorkflows\":false} DAUER-CHEF, RUNDE 2 DIES…"
     },
     {
      "name": "Shopify",
@@ -833,7 +833,7 @@
      "name": "Ereignis-Sensor",
      "schluessel": "ereignisse",
      "ampel": "gruen",
-     "text": "letzter Lauf 15:14, 0 offene Ereignisse"
+     "text": "letzter Lauf 15:30, 0 offene Ereignisse"
     },
     {
      "name": "Chrome auf Timos PC",
