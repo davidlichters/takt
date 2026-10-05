@@ -3386,5 +3386,12 @@
 "typ": "chef",
 "titel": "Lieferanten notiert, keine neuen Bestellungen",
 "satz": "Ich habe Lieferanten notiert und geprüft, ob Kunden Pakete bestellt haben - noch nicht."
+},
+{
+"tag": "2026-10-05",
+"zeit": "13:35",
+"typ": "chef",
+"titel": "Großer Fehler im Laden entdeckt",
+"satz": "Ich habe gesehen, dass etwas im Laden kaputt ist und wir müssen es reparieren."
 }
 ]
