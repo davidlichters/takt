@@ -1,7 +1,7 @@
 {
  "version": 2,
- "stand": "2026-10-05T05:17:05Z",
- "stand_berlin": "05.10.2026 07:17",
+ "stand": "2026-10-05T05:32:05Z",
+ "stand_berlin": "05.10.2026 07:32",
  "takt_min": 15,
  "quelle": "takt/leitstand_bauen.py auf Davids Mac, ohne Modell",
  "ziele": {
@@ -38,12 +38,12 @@
     },
     {
      "name": "Creatives",
-     "text": "Heute 18 neue Bilder oder Videos gebaut, diese Woche 18. Das neueste: PN_LAUNDRY_4x5.png um 06:30. Wie viele davon live sind, wissen wir nicht.",
+     "text": "Heute 20 neue Bilder oder Videos gebaut, diese Woche 20. Das neueste: PN_V23_DOGFIRST_4x5.mp4 um 07:28. Wie viele davon live sind, wissen wir nicht.",
      "ampel": "gruen"
     },
     {
      "name": "Recherche",
-     "text": "Perplexity hat heute 42 Fragen beantwortet, die letzte um 06:41.",
+     "text": "Perplexity hat heute 43 Fragen beantwortet, die letzte um 07:25.",
      "ampel": "gruen"
     },
     {
@@ -53,8 +53,8 @@
     },
     {
      "name": "Chef-Runde",
-     "text": "Um 07:05: entsperrt Stufe 1, weil alle Stufen bearbeitet sind und die Kassenmessung falsche Nullen meldete …",
-     "ampel": "gelb"
+     "text": "Um 07:27: neues Video C109 PN_V23_DOGFIRST 1080x1350 10 s mit Tonspur, echter Welpe im Reindeer Sleigh ab Bild 1 unter …",
+     "ampel": "gruen"
     }
    ]
   },
@@ -77,7 +77,7 @@
      "wer": "David",
      "tun": "Im Claude-Chat \"ja bonnie zahlweg\" (Ja 32) schreiben, 1 Minute, 0 USD. Hängt daran",
      "bis": "07:30",
-     "vorbei": false,
+     "vorbei": true,
      "stufe": 4,
      "ja": [
       32
@@ -153,8 +153,8 @@
    "nr": 3,
    "id": "wer",
    "frage": "Wer arbeitet woran?",
-   "ampel": "gelb",
-   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 31 Runden heute.",
+   "ampel": "gruen",
+   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 33 Runden heute.",
    "saetze": [],
    "zeilen": [
     {
@@ -169,8 +169,8 @@
     },
     {
      "name": "Claude",
-     "text": "31 Runden heute, alle 5 Minuten eine. Zuletzt: entsperrt Stufe 1, weil alle Stufen bearbeitet sind und die Kassenmessung falsche Nullen …",
-     "ampel": "gelb"
+     "text": "33 Runden heute, alle 5 Minuten eine. Zuletzt: neues Video C109 PN_V23_DOGFIRST 1080x1350 10 s mit Tonspur, echter Welpe im Reindeer Sleigh …",
+     "ampel": "gruen"
     },
     {
      "name": "Abteilungs-Chats",
@@ -184,7 +184,7 @@
    "id": "tempo",
    "frage": "Wie schnell geht es gerade?",
    "ampel": "gelb",
-   "kurz": "Letzte Stunde: 3 Runden, 1 davon mit fertigem Ergebnis.",
+   "kurz": "Letzte Stunde: 4 Runden, 2 davon mit fertigem Ergebnis.",
    "saetze": [
     "Gewinn heute: 0,00 USD.",
     "Fertig heißt noch nicht live: 8 Ja-Schritte warten auf euer Ja (Karte 2)."
@@ -202,7 +202,7 @@
     },
     {
      "name": "Runden, letzte Stunde",
-     "text": "3 Runden: 1 mit fertigem Ergebnis (Creative, Text oder Klickweg), 1 hat einen Menschen erinnert, 1 nur innen gearbeitet.",
+     "text": "4 Runden: 2 mit fertigem Ergebnis (Creative, Text oder Klickweg), 1 hat einen Menschen erinnert, 1 nur innen gearbeitet.",
      "ampel": "gelb"
     },
     {
@@ -212,7 +212,7 @@
     },
     {
      "name": "Neu gebaut heute",
-     "text": "18 Bilder und Videos für Anzeigen.",
+     "text": "20 Bilder und Videos für Anzeigen.",
      "ampel": "gruen"
     }
    ]
@@ -249,7 +249,7 @@
     },
     {
      "name": "Runden",
-     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 3, davon 1 nur innen.",
+     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 4, davon 1 nur innen.",
      "ampel": "rot"
     }
    ]
@@ -392,11 +392,11 @@
    "zeilen": [
     {
      "name": "Gebaut diese Woche",
-     "wert": "18 Dateien",
+     "wert": "20 Dateien",
      "ampel": "grau",
-     "detail": "12 Bilder, 6 Videos, neu seit Montag, 05.10., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
+     "detail": "12 Bilder, 8 Videos, neu seit Montag, 05.10., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
      "quelle": "Erstellzeit der Dateien in creatives/fertig, 05_creatives/ads, 05_creatives/ki/fertig",
-     "stand": "07:17",
+     "stand": "07:32",
      "ziel": null
     },
     {
@@ -409,7 +409,7 @@
      "ziel": "3 bis 5 je Woche"
     }
    ],
-   "zahl_gebaut": 18
+   "zahl_gebaut": 20
   },
   {
    "id": "menschen",
@@ -456,7 +456,7 @@
      "ampel": "grau",
      "detail": "1 Zeile im Codeblock (Formatbeispiel) nicht gezählt. Steht dort eine echte Aufgabe, gehört sie aus dem Block heraus.",
      "quelle": "timo/OFFEN.md",
-     "stand": "07:17",
+     "stand": "07:32",
      "ziel": null
     },
     {
@@ -585,7 +585,7 @@
    "zeilen": [
     {
      "name": "Wächter, letzter Lauf",
-     "wert": "07:12",
+     "wert": "07:28",
      "ampel": "gruen",
      "detail": null,
      "quelle": "waechter_zustand.json",
@@ -598,13 +598,13 @@
      "name": "Takt-Schleife",
      "schluessel": "takt",
      "ampel": "gruen",
-     "text": "letzte Runde 07:09 (chef), rc=0"
+     "text": "letzte Runde 07:20 (chef), rc=0, Runde laeuft seit 1 Min"
     },
     {
      "name": "Perplexity",
      "schluessel": "perplexity",
      "ampel": "gruen",
-     "text": "letzter Lauf 06:32 erfolgreich, Gins laeuft"
+     "text": "letzter Lauf 07:21 erfolgreich, Gins laeuft"
     },
     {
      "name": "Davids Chrome",
@@ -616,7 +616,7 @@
      "name": "Crosspost",
      "schluessel": "crosspost",
      "ampel": "gruen",
-     "text": "laeuft (pid 34390), Herzschlag vor 3 s, postet, letzter Fehler: 2026-10-04T20:17:03.764Z keine Videos in der Antwort: {\"log_"
+     "text": "laeuft (pid 34390), Herzschlag vor 4 s, postet, letzter Fehler: 2026-10-04T20:17:03.764Z keine Videos in der Antwort: {\"log_"
     },
     {
      "name": "Speicher",
@@ -628,7 +628,7 @@
      "name": "GitHub-Push",
      "schluessel": "github",
      "ampel": "gruen",
-     "text": "origin/main 8943def vor 2 Min"
+     "text": "origin/main 0562ce1 vor 7 Min"
     },
     {
      "name": "WhatsApp Web",
@@ -652,7 +652,7 @@
      "name": "Ereignis-Sensor",
      "schluessel": "ereignisse",
      "ampel": "gruen",
-     "text": "letzter Lauf 07:12, 0 offene Ereignisse"
+     "text": "letzter Lauf 07:28, 0 offene Ereignisse"
     },
     {
      "name": "Chrome auf Timos PC",
