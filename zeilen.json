@@ -3407,5 +3407,12 @@
 "typ": "chef",
 "titel": "Nachricht für Bonnie fertig",
 "satz": "Ich habe Bonnie gefragt, wann sie die Betten schickt und wie viele jeden Tag."
+},
+{
+"tag": "2026-10-05",
+"zeit": "15:05",
+"typ": "chef",
+"titel": "Bonnie antwortet nicht rechtzeitig",
+"satz": "Ich habe gemerkt, dass die Antwort nicht da ist und wir müssen sie haben."
 }
 ]
