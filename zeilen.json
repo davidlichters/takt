@@ -3414,5 +3414,12 @@
 "typ": "chef",
 "titel": "Bonnie antwortet nicht rechtzeitig",
 "satz": "Ich habe gemerkt, dass die Antwort nicht da ist und wir müssen sie haben."
+},
+{
+"tag": "2026-10-05",
+"zeit": "15:10",
+"typ": "chef",
+"titel": "Kauf-Box zeigt Doppel-Knöpfe und Lupe-Problem noch",
+"satz": "Ich habe es gerade geprüft und David soll die zwei Fehler beheben."
 }
 ]
