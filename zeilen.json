@@ -2,13 +2,6 @@
 {
 "tag": "2026-09-30",
 "zeit": "01:40",
-"typ": "verbesserer",
-"titel": "Regel für zweites Produkt",
-"satz": "Ich habe aufgeschrieben, wie das zweite Produkt bei uns funktioniert."
-},
-{
-"tag": "2026-09-30",
-"zeit": "01:40",
 "typ": "normal",
 "titel": "Zweites Produkt gerechnet",
 "satz": "Ich habe gerechnet, ob das zweite Produkt Geld verdient."
@@ -4195,6 +4188,13 @@
 {
 "tag": "2026-10-06",
 "zeit": "01:45",
+"typ": "chef",
+"titel": "You've hit your weekly limit · resets Oct 8 at 1pm (Europe/Berlin)",
+"satz": ""
+},
+{
+"tag": "2026-10-06",
+"zeit": "01:50",
 "typ": "chef",
 "titel": "You've hit your weekly limit · resets Oct 8 at 1pm (Europe/Berlin)",
 "satz": ""
