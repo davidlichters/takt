@@ -3239,5 +3239,12 @@
 "typ": "chef",
 "titel": "Stufe 1 offen gemacht, Geldmessung repariert",
 "satz": "Ich habe Stufe 1 offen gemacht und die Geldmessung repariert, die falsch zählte."
+},
+{
+"tag": "2026-10-05",
+"zeit": "07:18",
+"typ": "chef",
+"titel": "Neues Video mit Frage fertig",
+"satz": "Ich habe ein Video mit einer Frage gebaut, das Kunden gerne ansehen."
 }
 ]
