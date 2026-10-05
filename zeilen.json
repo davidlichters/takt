@@ -1,13 +1,6 @@
 [
 {
 "tag": "2026-09-30",
-"zeit": "00:15",
-"typ": "normal",
-"titel": "Über uns fertig",
-"satz": "Ich habe die Über-uns-Seite fertig gemacht, damit Kunden uns kennenlernen."
-},
-{
-"tag": "2026-09-30",
 "zeit": "00:20",
 "typ": "recherche",
 "titel": "Hundeart-Test gemacht",
@@ -4196,6 +4189,13 @@
 "tag": "2026-10-06",
 "zeit": "00:20",
 "typ": "verbesserer",
+"titel": "You've hit your weekly limit · resets Oct 8 at 1pm (Europe/Berlin)",
+"satz": ""
+},
+{
+"tag": "2026-10-06",
+"zeit": "00:25",
+"typ": "chef",
 "titel": "You've hit your weekly limit · resets Oct 8 at 1pm (Europe/Berlin)",
 "satz": ""
 }
