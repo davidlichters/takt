@@ -3344,5 +3344,12 @@
 "typ": "chef",
 "titel": "Wie lange das Paket im Dezember dauert",
 "satz": "Ich habe geschaut, wie lange das Paket im Dezember dauert, damit wir richtig antworten."
+},
+{
+"tag": "2026-10-05",
+"zeit": "10:47",
+"typ": "chef",
+"titel": "Perplexity läuft nicht mehr",
+"satz": "Ich habe bemerkt, dass Perplexity nicht läuft und zweimal neu starten hat nicht funktioniert."
 }
 ]
