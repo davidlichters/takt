@@ -1,7 +1,7 @@
 {
  "version": 2,
- "stand": "2026-10-05T10:47:04Z",
- "stand_berlin": "05.10.2026 12:47",
+ "stand": "2026-10-05T11:02:05Z",
+ "stand_berlin": "05.10.2026 13:02",
  "takt_min": 15,
  "quelle": "takt/leitstand_bauen.py auf Davids Mac, ohne Modell",
  "ziele": {
@@ -514,7 +514,7 @@
      "ampel": "grau",
      "detail": "12 Bilder, 10 Videos, neu seit Montag, 05.10., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
      "quelle": "Erstellzeit der Dateien in creatives/fertig, 05_creatives/ads, 05_creatives/ki/fertig",
-     "stand": "12:47",
+     "stand": "13:02",
      "ziel": null
     },
     {
@@ -554,7 +554,7 @@
     },
     {
      "name": "Nächster Check-in",
-     "wert": "13:00 heute",
+     "wert": "18:00 heute",
      "ampel": "grau",
      "detail": "Tagesstart 08:00 ist festgelegt (Plan 5). Die Check-in-Zeiten (09:00, 13:00, 18:00, 22:00) sind der Vorschlag aus Plan 2.4, noch nicht festgelegt.",
      "quelle": "LEITSTAND_PLAN.md 2.4 und 5",
@@ -574,7 +574,7 @@
      "ampel": "grau",
      "detail": "1 Zeile im Codeblock (Formatbeispiel) nicht gezählt. Steht dort eine echte Aufgabe, gehört sie aus dem Block heraus.",
      "quelle": "timo/OFFEN.md",
-     "stand": "12:47",
+     "stand": "13:02",
      "ziel": null
     },
     {
@@ -703,7 +703,7 @@
    "zeilen": [
     {
      "name": "Wächter, letzter Lauf",
-     "wert": "12:44",
+     "wert": "13:00",
      "ampel": "gruen",
      "detail": null,
      "quelle": "waechter_zustand.json",
@@ -734,7 +734,7 @@
      "name": "Crosspost",
      "schluessel": "crosspost",
      "ampel": "gruen",
-     "text": "laeuft (pid 34390), Herzschlag vor 11 s, postet, letzter Fehler: 2026-10-04T20:17:03.764Z keine Videos in der Antwort: {\"log_"
+     "text": "laeuft (pid 34390), Herzschlag vor 1 s, postet, letzter Fehler: 2026-10-04T20:17:03.764Z keine Videos in der Antwort: {\"log_"
     },
     {
      "name": "Speicher",
@@ -746,7 +746,7 @@
      "name": "GitHub-Push",
      "schluessel": "github",
      "ampel": "gruen",
-     "text": "origin/main d18e3e2 vor 9 Min"
+     "text": "origin/main d18e3e2 vor 24 Min"
     },
     {
      "name": "WhatsApp Web",
@@ -770,7 +770,7 @@
      "name": "Ereignis-Sensor",
      "schluessel": "ereignisse",
      "ampel": "gruen",
-     "text": "letzter Lauf 12:44, 0 offene Ereignisse"
+     "text": "letzter Lauf 13:00, 0 offene Ereignisse"
     },
     {
      "name": "Chrome auf Timos PC",
