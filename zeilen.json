@@ -3295,5 +3295,12 @@
 "typ": "chef",
 "titel": "Brief für Geld zurück fertig",
 "satz": "Ich habe einen Brief geschrieben, damit wir unser Geld bestimmt zurückbekommen."
+},
+{
+"tag": "2026-10-05",
+"zeit": "09:03",
+"typ": "chef",
+"titel": "Nachrichten an Lieferanten fertig",
+"satz": "Ich habe drei Briefe geschrieben und David gezeigt, damit John sie prüft."
 }
 ]
