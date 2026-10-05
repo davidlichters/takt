@@ -3330,5 +3330,12 @@
 "typ": "chef",
 "titel": "Zwei Fehler im Laden gemessen",
 "satz": "Ich habe nachgemessen, dass die Startseite und das Menü immer noch nicht stimmen."
+},
+{
+"tag": "2026-10-05",
+"zeit": "10:35",
+"typ": "chef",
+"titel": "Werbung überprüft und neu gebaut",
+"satz": "Ich habe überprüft, ob die alte Werbung richtig ist, und neue Werbung gemacht."
 }
 ]
