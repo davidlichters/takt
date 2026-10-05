@@ -3288,5 +3288,12 @@
 "typ": "chef",
 "titel": "Kaufknopf zeigt immer noch falsch",
 "satz": "Ich habe überprüft: Kaufknopf kaputt, aber das Geld von Kunden kommt nach fünf Tagen."
+},
+{
+"tag": "2026-10-05",
+"zeit": "08:57",
+"typ": "chef",
+"titel": "Brief für Geld zurück fertig",
+"satz": "Ich habe einen Brief geschrieben, damit wir unser Geld bestimmt zurückbekommen."
 }
 ]
