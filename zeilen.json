@@ -3162,5 +3162,12 @@
 "typ": "chef",
 "titel": "Neues Bild mit dem Hund hochgeladen",
 "satz": "Ich habe das neue Bild mit dem Hund hochgeladen, damit wir mehr Hundebetten verkaufen."
+},
+{
+"tag": "2026-10-05",
+"zeit": "04:05",
+"typ": "chef",
+"titel": "Video fertig, Laden hat Fehler",
+"satz": "Ich habe ein Video hochgeladen, aber der Laden macht jetzt Fehler."
 }
 ]
