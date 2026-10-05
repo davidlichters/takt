@@ -3281,5 +3281,12 @@
 "typ": "chef",
 "titel": "Hundebettladen ist gerade offen",
 "satz": "Ich habe den Laden zum Probieren aufgemacht, damit Kunden reinkommen und zahlen."
+},
+{
+"tag": "2026-10-05",
+"zeit": "08:48",
+"typ": "chef",
+"titel": "Kaufknopf zeigt immer noch falsch",
+"satz": "Ich habe überprüft: Kaufknopf kaputt, aber das Geld von Kunden kommt nach fünf Tagen."
 }
 ]
