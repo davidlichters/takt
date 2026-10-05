@@ -1,7 +1,7 @@
 {
  "version": 2,
- "stand": "2026-10-05T14:02:05Z",
- "stand_berlin": "05.10.2026 16:02",
+ "stand": "2026-10-05T14:17:05Z",
+ "stand_berlin": "05.10.2026 16:17",
  "takt_min": 15,
  "quelle": "takt/leitstand_bauen.py auf Davids Mac, ohne Modell",
  "ziele": {
@@ -48,12 +48,12 @@
     },
     {
      "name": "Technik",
-     "text": "Der Wächter prüft alle 5 Minuten 10 Werkzeuge: 7 gehen, 1 kaputt (Perplexity), 2 warten auf Zugang oder sind aus (Shopify, Meta). 1 weiteres prüft er noch nicht.",
+     "text": "Der Wächter prüft alle 5 Minuten 10 Werkzeuge: 6 gehen, 2 kaputt (Takt-Schleife, Perplexity), 2 warten auf Zugang oder sind aus (Shopify, Meta). 1 weiteres prüft er noch nicht.",
      "ampel": "rot"
     },
     {
      "name": "Chef-Runde",
-     "text": "Um 16:00: Takt ohne Ergebniszeile beendet (rc=1), Protokoll in ~/takt/laeufe.",
+     "text": "Um 16:15: Takt ohne Ergebniszeile beendet (rc=1), Protokoll in ~/takt/laeufe.",
      "ampel": "rot"
     }
    ]
@@ -63,7 +63,7 @@
    "id": "auf",
    "frage": "Was hält uns auf?",
    "ampel": "rot",
-   "kurz": "20 Dinge halten uns auf.",
+   "kurz": "21 Dinge halten uns auf.",
    "saetze": [
     "Bei jedem steht, wer es tun muss. Oben steht das, was am meisten Geld kostet."
    ],
@@ -314,6 +314,14 @@
     {
      "prio": 1,
      "block": "werkzeuge",
+     "titel": "Takt-Schleife ist kaputt",
+     "text": "3 Fehlrunden in Folge (letzte rc=1). Ursache: 20261005_1610.txt: You've hit your weekly limit · resets Oct 8 at 1pm (Europe/Berlin)",
+     "wer": "Claude (Technik)",
+     "tun": "Reparieren. Grund: 3 Fehlrunden in Folge (letzte rc=1). Ursache: 20261005_1610.txt: You've hit …"
+    },
+    {
+     "prio": 1,
+     "block": "werkzeuge",
      "titel": "Perplexity ist kaputt",
      "text": "Gins Browser laeuft nicht; KALTSTART_NOETIG gesetzt, Recherche-Schlange pausiert",
      "wer": "Claude (Technik)",
@@ -350,7 +358,7 @@
    "id": "wer",
    "frage": "Wer arbeitet woran?",
    "ampel": "rot",
-   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 67 Runden heute.",
+   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 70 Runden heute.",
    "saetze": [],
    "zeilen": [
     {
@@ -365,7 +373,7 @@
     },
     {
      "name": "Claude",
-     "text": "67 Runden heute, alle 5 Minuten eine. Zuletzt: Takt ohne Ergebniszeile beendet (rc=1), Protokoll in ~/takt/laeufe.",
+     "text": "70 Runden heute, alle 5 Minuten eine. Zuletzt: Takt ohne Ergebniszeile beendet (rc=1), Protokoll in ~/takt/laeufe.",
      "ampel": "rot"
     },
     {
@@ -398,7 +406,7 @@
     },
     {
      "name": "Runden, letzte Stunde",
-     "text": "12 Runden: 5 mit fertigem Ergebnis (Creative, Text oder Klickweg), 3 haben einen Menschen erinnert, 3 nur innen gearbeitet, 1 ist abgestürzt.",
+     "text": "12 Runden: 5 mit fertigem Ergebnis (Creative, Text oder Klickweg), 1 hat einen Menschen erinnert, 2 nur innen gearbeitet, 4 sind abgestürzt.",
      "ampel": "gelb"
     },
     {
@@ -445,7 +453,7 @@
     },
     {
      "name": "Runden",
-     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 12, davon 4 nur innen oder abgestürzt.",
+     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 12, davon 6 nur innen oder abgestürzt.",
      "ampel": "rot"
     }
    ]
@@ -491,6 +499,12 @@
  ],
  "karten_fehler": null,
  "rot": [
+  {
+   "prio": 1,
+   "block": "werkzeuge",
+   "titel": "Takt-Schleife ist rot",
+   "text": "3 Fehlrunden in Folge (letzte rc=1). Ursache: 20261005_1610.txt: You've hit your weekly limit · resets Oct 8 at 1pm (Europe/Berlin)"
+  },
   {
    "prio": 1,
    "block": "werkzeuge",
@@ -592,7 +606,7 @@
      "ampel": "grau",
      "detail": "12 Bilder, 10 Videos, neu seit Montag, 05.10., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
      "quelle": "Erstellzeit der Dateien in creatives/fertig, 05_creatives/ads, 05_creatives/ki/fertig",
-     "stand": "16:02",
+     "stand": "16:17",
      "ziel": null
     },
     {
@@ -652,7 +666,7 @@
      "ampel": "grau",
      "detail": "1 Zeile im Codeblock (Formatbeispiel) nicht gezählt. Steht dort eine echte Aufgabe, gehört sie aus dem Block heraus.",
      "quelle": "timo/OFFEN.md",
-     "stand": "16:02",
+     "stand": "16:17",
      "ziel": null
     },
     {
@@ -781,7 +795,7 @@
    "zeilen": [
     {
      "name": "Wächter, letzter Lauf",
-     "wert": "16:01",
+     "wert": "16:11",
      "ampel": "gruen",
      "detail": null,
      "quelle": "waechter_zustand.json",
@@ -793,8 +807,8 @@
     {
      "name": "Takt-Schleife",
      "schluessel": "takt",
-     "ampel": "gruen",
-     "text": "letzte Runde 16:00 (chef), rc=1, 1 Fehlrunde in Folge"
+     "ampel": "rot",
+     "text": "3 Fehlrunden in Folge (letzte rc=1). Ursache: 20261005_1610.txt: You've hit your weekly limit · resets Oct 8 at 1pm (Europe/Berlin)"
     },
     {
      "name": "Perplexity",
@@ -812,7 +826,7 @@
      "name": "Crosspost",
      "schluessel": "crosspost",
      "ampel": "gruen",
-     "text": "laeuft (pid 34390), Herzschlag vor 9 s, postet, letzter Fehler: 2026-10-04T20:17:03.764Z keine Videos in der Antwort: {\"log_"
+     "text": "laeuft (pid 34390), Herzschlag vor 5 s, postet, letzter Fehler: 2026-10-04T20:17:03.764Z keine Videos in der Antwort: {\"log_"
     },
     {
      "name": "Speicher",
@@ -824,13 +838,13 @@
      "name": "GitHub-Push",
      "schluessel": "github",
      "ampel": "gruen",
-     "text": "origin/main 42e0df0 vor 1 Min"
+     "text": "origin/main f96c9e5 vor 1 Min"
     },
     {
      "name": "WhatsApp Web",
      "schluessel": "whatsapp",
      "ampel": "gruen",
-     "text": "Chatliste gelesen (apple, 2 Zeilen), 1 von 6 Lieferanten sichtbar, nicht sichtbar: Bonnie DS, Adam DS, Mr Anh, Vito DS, Joel DS"
+     "text": "Chatliste gelesen (apple, 1 Zeilen), 0 von 6 Lieferanten sichtbar, nicht sichtbar: Bonnie DS, John (Supplier), Adam DS, Mr Anh, Vito DS, Joel DS"
     },
     {
      "name": "Shopify",
@@ -848,7 +862,7 @@
      "name": "Ereignis-Sensor",
      "schluessel": "ereignisse",
      "ampel": "gruen",
-     "text": "letzter Lauf 16:01, 0 offene Ereignisse"
+     "text": "letzter Lauf 16:11, 0 offene Ereignisse"
     },
     {
      "name": "Chrome auf Timos PC",
