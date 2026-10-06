@@ -1,13 +1,6 @@
 [
 {
 "tag": "2026-10-03",
-"zeit": "20:05",
-"typ": "chef",
-"titel": "Laden sendet Käufe zur falschen Stelle",
-"satz": "Ich habe die falsche Stelle gefunden, damit wir die Werbung reparieren."
-},
-{
-"tag": "2026-10-03",
 "zeit": "20:07",
 "typ": "chef",
 "titel": "Schrift im Handymenü dunkler gemacht",
@@ -4195,6 +4188,13 @@
 {
 "tag": "2026-10-06",
 "zeit": "13:10",
+"typ": "chef",
+"titel": "You've hit your weekly limit · resets Oct 8 at 1pm (Europe/Berlin)",
+"satz": ""
+},
+{
+"tag": "2026-10-06",
+"zeit": "13:15",
 "typ": "chef",
 "titel": "You've hit your weekly limit · resets Oct 8 at 1pm (Europe/Berlin)",
 "satz": ""
