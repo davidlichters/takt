@@ -1,13 +1,6 @@
 [
 {
 "tag": "2026-09-30",
-"zeit": "05:00",
-"typ": "verbesserer",
-"titel": "Blatt gekürzt für Timo",
-"satz": "Ich habe Timos Zettel gekürzt, damit er schneller startet und alles findet."
-},
-{
-"tag": "2026-09-30",
 "zeit": "05:05",
 "typ": "normal",
 "titel": "Rabatt im Laden",
@@ -4195,6 +4188,13 @@
 {
 "tag": "2026-10-06",
 "zeit": "05:15",
+"typ": "chef",
+"titel": "You've hit your weekly limit · resets Oct 8 at 1pm (Europe/Berlin)",
+"satz": ""
+},
+{
+"tag": "2026-10-06",
+"zeit": "05:20",
 "typ": "chef",
 "titel": "You've hit your weekly limit · resets Oct 8 at 1pm (Europe/Berlin)",
 "satz": ""
