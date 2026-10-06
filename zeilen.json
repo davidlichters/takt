@@ -1,13 +1,6 @@
 [
 {
 "tag": "2026-10-04",
-"zeit": "02:20",
-"typ": "chef",
-"titel": "Acht Ideen für bessere Anzeigen",
-"satz": "Ich habe acht Ideen gefunden und vier davon können wir gleich machen."
-},
-{
-"tag": "2026-10-04",
 "zeit": "02:25",
 "typ": "chef",
 "titel": "Werbekonto zeigt falsches Konto",
@@ -4195,6 +4188,13 @@
 {
 "tag": "2026-10-06",
 "zeit": "21:50",
+"typ": "chef",
+"titel": "Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access",
+"satz": ""
+},
+{
+"tag": "2026-10-06",
+"zeit": "22:00",
 "typ": "chef",
 "titel": "Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access",
 "satz": ""
