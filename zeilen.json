@@ -1,13 +1,6 @@
 [
 {
 "tag": "2026-10-03",
-"zeit": "19:05",
-"typ": "chef",
-"titel": "Text und Fotos sind live",
-"satz": "Ich habe Text überprüft und alle Hundebettfotos geprüft, damit Google und Kunden uns finden."
-},
-{
-"tag": "2026-10-03",
 "zeit": "19:08",
 "typ": "chef",
 "titel": "Hundebett Bild für Geschenk gebaut",
@@ -4195,6 +4188,13 @@
 {
 "tag": "2026-10-06",
 "zeit": "11:20",
+"typ": "chef",
+"titel": "You've hit your weekly limit · resets Oct 8 at 1pm (Europe/Berlin)",
+"satz": ""
+},
+{
+"tag": "2026-10-06",
+"zeit": "11:25",
 "typ": "chef",
 "titel": "You've hit your weekly limit · resets Oct 8 at 1pm (Europe/Berlin)",
 "satz": ""
