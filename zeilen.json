@@ -1,13 +1,6 @@
 [
 {
 "tag": "2026-09-30",
-"zeit": "03:40",
-"typ": "verbesserer",
-"titel": "Perplexity-Fehler gefixt",
-"satz": "Ich habe einen Fehler in einer Maschine repariert, die uns hilft."
-},
-{
-"tag": "2026-09-30",
 "zeit": "03:45",
 "typ": "normal",
 "titel": "Import-CSV geprüft",
@@ -4195,6 +4188,13 @@
 {
 "tag": "2026-10-06",
 "zeit": "03:45",
+"typ": "chef",
+"titel": "You've hit your weekly limit · resets Oct 8 at 1pm (Europe/Berlin)",
+"satz": ""
+},
+{
+"tag": "2026-10-06",
+"zeit": "03:50",
 "typ": "chef",
 "titel": "You've hit your weekly limit · resets Oct 8 at 1pm (Europe/Berlin)",
 "satz": ""
