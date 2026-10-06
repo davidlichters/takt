@@ -1,7 +1,7 @@
 {
  "version": 2,
- "stand": "2026-10-06T18:02:05Z",
- "stand_berlin": "06.10.2026 20:02",
+ "stand": "2026-10-06T18:17:05Z",
+ "stand_berlin": "06.10.2026 20:17",
  "takt_min": 15,
  "quelle": "takt/leitstand_bauen.py auf Davids Mac, ohne Modell",
  "ziele": {
@@ -53,8 +53,8 @@
     },
     {
      "name": "Chef-Runde",
-     "text": "Um 19:55: entsperrt Stufe 6, weil Stufen 1 bis 5 in den letzten 70 Min schon eskaliert sind; wa_chat.mjs gelesen …",
-     "ampel": "gelb"
+     "text": "Um 20:05: Shop-Spur laeuft seit 04.10. 13:27 nicht mehr, 18 fertige Theme-Fixes (AGB, Judge.me, Preis-Knopf) liegen …",
+     "ampel": "gruen"
     }
    ]
   },
@@ -63,7 +63,7 @@
    "id": "auf",
    "frage": "Was hält uns auf?",
    "ampel": "rot",
-   "kurz": "23 Dinge halten uns auf.",
+   "kurz": "24 Dinge halten uns auf.",
    "saetze": [
     "Bei jedem steht, wer es tun muss. Oben steht das, was am meisten Geld kostet."
    ],
@@ -321,6 +321,18 @@
      "prio": 0,
      "block": "eskalation",
      "quelle": "gedaechtnis/OFFEN.md",
+     "titel": "Die Shop-Spur (eigener Claude-Chat in ~/timo, der fertige Theme-Fixes live schaltet) ist seit …",
+     "wer": "David",
+     "tun": null,
+     "bis": "20:50",
+     "vorbei": false,
+     "stufe": 5,
+     "ja": []
+    },
+    {
+     "prio": 0,
+     "block": "eskalation",
+     "quelle": "gedaechtnis/OFFEN.md",
      "titel": "Perplexity läuft seit 6 Versuchen nicht, heute 0 von 20 Fragen, die Zweitprodukt-Entscheidung und …",
      "wer": "David",
      "tun": "Öffnet auf dem Mac im DICloak-Browser das Profil \"Dashboard\" (Open; steht dort \"Close\", erst Close und Confirm), 1 Minute, 0 USD …",
@@ -367,13 +379,13 @@
    "nr": 3,
    "id": "wer",
    "frage": "Wer arbeitet woran?",
-   "ampel": "gelb",
-   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 237 Runden heute.",
+   "ampel": "gruen",
+   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 238 Runden heute.",
    "saetze": [],
    "zeilen": [
     {
      "name": "David",
-     "text": "Nicht gemessen, weil David die Mac-Messung am 03.10. abgeschaltet hat. Auf David warten heute 8 Sachen (Karte 2).",
+     "text": "Nicht gemessen, weil David die Mac-Messung am 03.10. abgeschaltet hat. Auf David warten heute 9 Sachen (Karte 2).",
      "ampel": "grau"
     },
     {
@@ -383,8 +395,8 @@
     },
     {
      "name": "Claude",
-     "text": "237 Runden heute, alle 5 Minuten eine. Zuletzt: entsperrt Stufe 6, weil Stufen 1 bis 5 in den letzten 70 Min schon eskaliert sind; wa_chat.mjs …",
-     "ampel": "gelb"
+     "text": "238 Runden heute, alle 5 Minuten eine. Zuletzt: Shop-Spur laeuft seit 04.10. 13:27 nicht mehr, 18 fertige Theme-Fixes (AGB, Judge.me …",
+     "ampel": "gruen"
     },
     {
      "name": "Abteilungs-Chats",
@@ -398,7 +410,7 @@
    "id": "tempo",
    "frage": "Wie schnell geht es gerade?",
    "ampel": "gelb",
-   "kurz": "Letzte Stunde: 7 Runden, 0 davon mit fertigem Ergebnis.",
+   "kurz": "Letzte Stunde: 5 Runden, 0 davon mit fertigem Ergebnis.",
    "saetze": [
     "Den Gewinn heute wissen wir noch nicht, weil uns der Shopify-Zugang fehlt.",
     "Fertig heißt noch nicht live: 9 Ja-Schritte warten auf euer Ja (Karte 2)."
@@ -416,7 +428,7 @@
     },
     {
      "name": "Runden, letzte Stunde",
-     "text": "7 Runden: 0 mit fertigem Ergebnis (Creative, Text oder Klickweg), 4 haben einen Menschen erinnert, 2 nur innen gearbeitet, 1 ist abgestürzt.",
+     "text": "5 Runden: 0 mit fertigem Ergebnis (Creative, Text oder Klickweg), 3 haben einen Menschen erinnert, 1 nur innen gearbeitet, 1 ist abgestürzt.",
      "ampel": "gelb"
     },
     {
@@ -463,7 +475,7 @@
     },
     {
      "name": "Runden",
-     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 7, davon 3 nur innen oder abgestürzt.",
+     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 5, davon 2 nur innen oder abgestürzt.",
      "ampel": "rot"
     }
    ]
@@ -610,7 +622,7 @@
      "ampel": "grau",
      "detail": "12 Bilder, 10 Videos, neu seit Montag, 05.10., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
      "quelle": "Erstellzeit der Dateien in creatives/fertig, 05_creatives/ads, 05_creatives/ki/fertig",
-     "stand": "20:02",
+     "stand": "20:17",
      "ziel": null
     },
     {
@@ -670,7 +682,7 @@
      "ampel": "grau",
      "detail": "1 Zeile im Codeblock (Formatbeispiel) nicht gezählt. Steht dort eine echte Aufgabe, gehört sie aus dem Block heraus.",
      "quelle": "timo/OFFEN.md",
-     "stand": "20:02",
+     "stand": "20:17",
      "ziel": null
     },
     {
@@ -799,7 +811,7 @@
    "zeilen": [
     {
      "name": "Wächter, letzter Lauf",
-     "wert": "19:56",
+     "wert": "20:12",
      "ampel": "gruen",
      "detail": null,
      "quelle": "waechter_zustand.json",
@@ -812,7 +824,7 @@
      "name": "Takt-Schleife",
      "schluessel": "takt",
      "ampel": "gruen",
-     "text": "letzte Runde 19:52 (chef), rc=0, Runde laeuft seit 1 Min"
+     "text": "letzte Runde 20:11 (chef), rc=0"
     },
     {
      "name": "Perplexity",
@@ -830,19 +842,19 @@
      "name": "Crosspost",
      "schluessel": "crosspost",
      "ampel": "gruen",
-     "text": "laeuft (pid 34390), Herzschlag vor 3 s, postet, letzter Fehler: 2026-10-06T17:38:13.491Z keine Videos in der Antwort: {\"log_"
+     "text": "laeuft (pid 34390), Herzschlag vor 5 s, postet, letzter Fehler: 2026-10-06T17:38:13.491Z keine Videos in der Antwort: {\"log_"
     },
     {
      "name": "Speicher",
      "schluessel": "speicher",
      "ampel": "gruen",
-     "text": "71 GB frei"
+     "text": "67 GB frei"
     },
     {
      "name": "GitHub-Push",
      "schluessel": "github",
      "ampel": "gruen",
-     "text": "origin/main d566989 vor 1 Min"
+     "text": "origin/main ca15012 vor 1 Min"
     },
     {
      "name": "WhatsApp Web",
@@ -866,7 +878,7 @@
      "name": "Ereignis-Sensor",
      "schluessel": "ereignisse",
      "ampel": "gruen",
-     "text": "letzter Lauf 19:56, 0 offene Ereignisse"
+     "text": "letzter Lauf 20:12, 0 offene Ereignisse"
     },
     {
      "name": "Chrome auf Timos PC",
