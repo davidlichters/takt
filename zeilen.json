@@ -1,13 +1,6 @@
 [
 {
 "tag": "2026-10-03",
-"zeit": "21:35",
-"typ": "chef",
-"titel": "Neue Texte für die Hundebett-Seite",
-"satz": "Ich habe die neuen Texte fertig gemacht, damit die Seite besser wird."
-},
-{
-"tag": "2026-10-03",
 "zeit": "21:40",
 "typ": "recherche",
 "titel": "Fragen gelöst, Belohnung kommt später",
@@ -4195,6 +4188,13 @@
 {
 "tag": "2026-10-06",
 "zeit": "14:50",
+"typ": "chef",
+"titel": "You've hit your weekly limit · resets Oct 8 at 1pm (Europe/Berlin)",
+"satz": ""
+},
+{
+"tag": "2026-10-06",
+"zeit": "14:55",
 "typ": "chef",
 "titel": "You've hit your weekly limit · resets Oct 8 at 1pm (Europe/Berlin)",
 "satz": ""
