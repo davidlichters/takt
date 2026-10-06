@@ -1,13 +1,6 @@
 [
 {
 "tag": "2026-09-30",
-"zeit": "06:25",
-"typ": "verbesserer",
-"titel": "Kreis gebrochen, aufgeräumt",
-"satz": "Ich habe sieben Aufträge zu Ende gemacht und alles neu aufgeräumt."
-},
-{
-"tag": "2026-09-30",
 "zeit": "06:30",
 "typ": "normal",
 "titel": "Bestellschluss überall gleich",
@@ -4195,6 +4188,13 @@
 {
 "tag": "2026-10-06",
 "zeit": "06:45",
+"typ": "chef",
+"titel": "You've hit your weekly limit · resets Oct 8 at 1pm (Europe/Berlin)",
+"satz": ""
+},
+{
+"tag": "2026-10-06",
+"zeit": "06:50",
 "typ": "chef",
 "titel": "You've hit your weekly limit · resets Oct 8 at 1pm (Europe/Berlin)",
 "satz": ""
