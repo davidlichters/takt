@@ -1,13 +1,6 @@
 [
 {
 "tag": "2026-10-03",
-"zeit": "19:09",
-"typ": "chef",
-"titel": "Anleitung für Timo korrigiert",
-"satz": "Ich habe gezeigt, wie Timo es richtig macht, damit kein Fehler passiert."
-},
-{
-"tag": "2026-10-03",
 "zeit": "19:12",
 "typ": "chef",
 "titel": "Hundebett-Bild mit Rentierschlitten",
@@ -4195,6 +4188,13 @@
 {
 "tag": "2026-10-06",
 "zeit": "11:30",
+"typ": "chef",
+"titel": "You've hit your weekly limit · resets Oct 8 at 1pm (Europe/Berlin)",
+"satz": ""
+},
+{
+"tag": "2026-10-06",
+"zeit": "11:35",
 "typ": "chef",
 "titel": "You've hit your weekly limit · resets Oct 8 at 1pm (Europe/Berlin)",
 "satz": ""
