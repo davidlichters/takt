@@ -1,13 +1,6 @@
 [
 {
 "tag": "2026-10-03",
-"zeit": "19:14",
-"typ": "chef",
-"titel": "Frage zu teuren Videos gepruft",
-"satz": "Ich habe gefunden, dass die Werbung sicher ist, damit David gut entscheiden kann."
-},
-{
-"tag": "2026-10-03",
 "zeit": "19:17",
 "typ": "chef",
 "titel": "Neues Bild mit Betten für Anzeige",
@@ -4196,6 +4189,13 @@
 "tag": "2026-10-06",
 "zeit": "11:40",
 "typ": "recherche",
+"titel": "You've hit your weekly limit · resets Oct 8 at 1pm (Europe/Berlin)",
+"satz": ""
+},
+{
+"tag": "2026-10-06",
+"zeit": "11:45",
+"typ": "chef",
 "titel": "You've hit your weekly limit · resets Oct 8 at 1pm (Europe/Berlin)",
 "satz": ""
 }
