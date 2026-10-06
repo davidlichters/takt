@@ -1,7 +1,7 @@
 {
  "version": 2,
- "stand": "2026-10-06T22:47:05Z",
- "stand_berlin": "07.10.2026 00:47",
+ "stand": "2026-10-06T23:02:05Z",
+ "stand_berlin": "07.10.2026 01:02",
  "takt_min": 15,
  "quelle": "takt/leitstand_bauen.py auf Davids Mac, ohne Modell",
  "ziele": {
@@ -53,7 +53,7 @@
     },
     {
      "name": "Chef-Runde",
-     "text": "Um 00:45: Kaufkasten-Zoom (Ja 6) live nicht gesetzt, 14-px-Dropdown bleibt, Zeile von Timo 06.10. 18:15 nicht gemacht …",
+     "text": "Um 01:00: Contabo-Widerruf (Ja 35) noch nicht sendefertig, Entwurf hat Platzhalter für Kundennummer, Server-IDs und …",
      "ampel": "gruen"
     }
    ]
@@ -63,7 +63,7 @@
    "id": "auf",
    "frage": "Was hält uns auf?",
    "ampel": "rot",
-   "kurz": "24 Dinge halten uns auf.",
+   "kurz": "26 Dinge halten uns auf.",
    "saetze": [
     "Bei jedem steht, wer es tun muss. Oben steht das, was am meisten Geld kostet."
    ],
@@ -327,6 +327,20 @@
      "prio": 0,
      "block": "eskalation",
      "quelle": "gedaechtnis/OFFEN.md",
+     "titel": "letzte Veröffentlichung in ~/takt/spuren/live_log.jsonl, 21 Aufgaben in …",
+     "wer": "David",
+     "tun": "Die Shop-Spur (Claude-Chat, der fertige Theme-Fixes live schaltet) ist seit 04.10. 13:27 still",
+     "bis": "07:30",
+     "vorbei": false,
+     "stufe": 5,
+     "ja": [
+      6
+     ]
+    },
+    {
+     "prio": 0,
+     "block": "eskalation",
+     "quelle": "gedaechtnis/OFFEN.md",
      "titel": "im DICloak-Browser auf dem Mac das Profil Dashboard öffnen (Open, falls Close steht erst Close und …",
      "wer": "David",
      "tun": "Perplexity wieder starten",
@@ -362,6 +376,21 @@
      "ja": []
     },
     {
+     "prio": 0,
+     "block": "eskalation",
+     "quelle": "gedaechtnis/OFFEN.md",
+     "titel": "im Entwurf stehen noch Platzhalter für Kundennummer, Server-Namen oder VPS-IDs und Bestelldatum …",
+     "wer": "David",
+     "tun": "Contabo-Widerruf (Ja 35) ist noch nicht versandfertig",
+     "bis": "07:30",
+     "vorbei": false,
+     "stufe": 6,
+     "ja": [
+      35,
+      35
+     ]
+    },
+    {
      "prio": 1,
      "block": "werkzeuge",
      "titel": "Perplexity ist kaputt",
@@ -392,12 +421,12 @@
    "id": "wer",
    "frage": "Wer arbeitet woran?",
    "ampel": "gruen",
-   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 10 Runden heute.",
+   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 13 Runden heute.",
    "saetze": [],
    "zeilen": [
     {
      "name": "David",
-     "text": "Nicht gemessen, weil David die Mac-Messung am 03.10. abgeschaltet hat. Auf David warten heute 12 Sachen (Karte 2).",
+     "text": "Nicht gemessen, weil David die Mac-Messung am 03.10. abgeschaltet hat. Auf David warten heute 14 Sachen (Karte 2).",
      "ampel": "grau"
     },
     {
@@ -407,7 +436,7 @@
     },
     {
      "name": "Claude",
-     "text": "10 Runden heute, alle 5 Minuten eine. Zuletzt: Kaufkasten-Zoom (Ja 6) live nicht gesetzt, 14-px-Dropdown bleibt, Zeile von Timo 06.10. 18:15 …",
+     "text": "13 Runden heute, alle 5 Minuten eine. Zuletzt: Contabo-Widerruf (Ja 35) noch nicht sendefertig, Entwurf hat Platzhalter für Kundennummer …",
      "ampel": "gruen"
     },
     {
@@ -634,7 +663,7 @@
      "ampel": "grau",
      "detail": "12 Bilder, 10 Videos, neu seit Montag, 05.10., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
      "quelle": "Erstellzeit der Dateien in creatives/fertig, 05_creatives/ads, 05_creatives/ki/fertig",
-     "stand": "00:47",
+     "stand": "01:02",
      "ziel": null
     },
     {
@@ -694,7 +723,7 @@
      "ampel": "grau",
      "detail": "1 Zeile im Codeblock (Formatbeispiel) nicht gezählt. Steht dort eine echte Aufgabe, gehört sie aus dem Block heraus.",
      "quelle": "timo/OFFEN.md",
-     "stand": "00:47",
+     "stand": "01:02",
      "ziel": null
     },
     {
@@ -823,7 +852,7 @@
    "zeilen": [
     {
      "name": "Wächter, letzter Lauf",
-     "wert": "00:43",
+     "wert": "00:59",
      "ampel": "gruen",
      "detail": null,
      "quelle": "waechter_zustand.json",
@@ -836,7 +865,7 @@
      "name": "Takt-Schleife",
      "schluessel": "takt",
      "ampel": "gruen",
-     "text": "letzte Runde 00:40 (chef), rc=0"
+     "text": "letzte Runde 00:56 (chef), rc=0"
     },
     {
      "name": "Perplexity",
@@ -854,19 +883,19 @@
      "name": "Crosspost",
      "schluessel": "crosspost",
      "ampel": "gruen",
-     "text": "laeuft (pid 34390), Herzschlag vor 7 s, postet, letzter Fehler: 2026-10-06T20:19:12.386Z keine Videos in der Antwort: {\"extr"
+     "text": "laeuft (pid 34390), Herzschlag vor 9 s, postet, letzter Fehler: 2026-10-06T20:19:12.386Z keine Videos in der Antwort: {\"extr"
     },
     {
      "name": "Speicher",
      "schluessel": "speicher",
      "ampel": "gruen",
-     "text": "65 GB frei"
+     "text": "66 GB frei"
     },
     {
      "name": "GitHub-Push",
      "schluessel": "github",
      "ampel": "gruen",
-     "text": "origin/main 686e126 vor 3 Min"
+     "text": "origin/main ca8890f vor 4 Min"
     },
     {
      "name": "WhatsApp Web",
@@ -890,7 +919,7 @@
      "name": "Ereignis-Sensor",
      "schluessel": "ereignisse",
      "ampel": "gruen",
-     "text": "letzter Lauf 00:43, 0 offene Ereignisse"
+     "text": "letzter Lauf 00:59, 0 offene Ereignisse"
     },
     {
      "name": "Chrome auf Timos PC",
