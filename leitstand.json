@@ -1,7 +1,7 @@
 {
  "version": 2,
- "stand": "2026-10-06T23:32:06Z",
- "stand_berlin": "07.10.2026 01:32",
+ "stand": "2026-10-06T23:47:05Z",
+ "stand_berlin": "07.10.2026 01:47",
  "takt_min": 15,
  "quelle": "takt/leitstand_bauen.py auf Davids Mac, ohne Modell",
  "ziele": {
@@ -53,7 +53,7 @@
     },
     {
      "name": "Chef-Runde",
-     "text": "Um 01:30: Ja 25 (AGB, Terms of service) seit 04.10. 12:00 offen, die Live-Seite sagt noch \"unable to accommodate …",
+     "text": "Um 01:45: keine Welt gefunden, Sperre bleibt, weil alle sieben offenen Ja-Zeilen eine Eskalation unter 4 Stunden haben …",
      "ampel": "gruen"
     }
    ]
@@ -468,7 +468,7 @@
    "id": "wer",
    "frage": "Wer arbeitet woran?",
    "ampel": "gruen",
-   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 19 Runden heute.",
+   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 22 Runden heute.",
    "saetze": [],
    "zeilen": [
     {
@@ -483,7 +483,7 @@
     },
     {
      "name": "Claude",
-     "text": "19 Runden heute, alle 5 Minuten eine. Zuletzt: Ja 25 (AGB, Terms of service) seit 04.10. 12:00 offen, die Live-Seite sagt noch \"unable to …",
+     "text": "22 Runden heute, alle 5 Minuten eine. Zuletzt: keine Welt gefunden, Sperre bleibt, weil alle sieben offenen Ja-Zeilen eine Eskalation unter 4 …",
      "ampel": "gruen"
     },
     {
@@ -710,7 +710,7 @@
      "ampel": "grau",
      "detail": "12 Bilder, 10 Videos, neu seit Montag, 05.10., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
      "quelle": "Erstellzeit der Dateien in creatives/fertig, 05_creatives/ads, 05_creatives/ki/fertig",
-     "stand": "01:32",
+     "stand": "01:47",
      "ziel": null
     },
     {
@@ -770,7 +770,7 @@
      "ampel": "grau",
      "detail": "1 Zeile im Codeblock (Formatbeispiel) nicht gezählt. Steht dort eine echte Aufgabe, gehört sie aus dem Block heraus.",
      "quelle": "timo/OFFEN.md",
-     "stand": "01:32",
+     "stand": "01:47",
      "ziel": null
     },
     {
@@ -899,7 +899,7 @@
    "zeilen": [
     {
      "name": "Wächter, letzter Lauf",
-     "wert": "01:30",
+     "wert": "01:46",
      "ampel": "gruen",
      "detail": null,
      "quelle": "waechter_zustand.json",
@@ -912,7 +912,7 @@
      "name": "Takt-Schleife",
      "schluessel": "takt",
      "ampel": "gruen",
-     "text": "letzte Runde 01:25 (chef), rc=0, Runde laeuft seit 0 Min"
+     "text": "letzte Runde 01:45 (chef), rc=0"
     },
     {
      "name": "Perplexity",
@@ -930,7 +930,7 @@
      "name": "Crosspost",
      "schluessel": "crosspost",
      "ampel": "gruen",
-     "text": "laeuft (pid 34390), Herzschlag vor 8 s, postet, letzter Fehler: 2026-10-06T20:19:12.386Z keine Videos in der Antwort: {\"extr"
+     "text": "laeuft (pid 34390), Herzschlag vor 7 s, postet, letzter Fehler: 2026-10-06T20:19:12.386Z keine Videos in der Antwort: {\"extr"
     },
     {
      "name": "Speicher",
@@ -942,7 +942,7 @@
      "name": "GitHub-Push",
      "schluessel": "github",
      "ampel": "gruen",
-     "text": "origin/main 193a206 vor 0 Min"
+     "text": "origin/main cfc9636 vor 1 Min"
     },
     {
      "name": "WhatsApp Web",
@@ -966,7 +966,7 @@
      "name": "Ereignis-Sensor",
      "schluessel": "ereignisse",
      "ampel": "gruen",
-     "text": "letzter Lauf 01:30, 0 offene Ereignisse"
+     "text": "letzter Lauf 01:46, 0 offene Ereignisse"
     },
     {
      "name": "Chrome auf Timos PC",
