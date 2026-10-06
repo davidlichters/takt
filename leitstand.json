@@ -1,7 +1,7 @@
 {
  "version": 2,
- "stand": "2026-10-06T17:47:05Z",
- "stand_berlin": "06.10.2026 19:47",
+ "stand": "2026-10-06T18:02:05Z",
+ "stand_berlin": "06.10.2026 20:02",
  "takt_min": 15,
  "quelle": "takt/leitstand_bauen.py auf Davids Mac, ohne Modell",
  "ziele": {
@@ -53,8 +53,8 @@
     },
     {
      "name": "Chef-Runde",
-     "text": "Um 19:25: Takt nach 18 Minuten abgebrochen, Protokoll in ~/takt/laeufe.",
-     "ampel": "rot"
+     "text": "Um 19:55: entsperrt Stufe 6, weil Stufen 1 bis 5 in den letzten 70 Min schon eskaliert sind; wa_chat.mjs gelesen …",
+     "ampel": "gelb"
     }
    ]
   },
@@ -63,7 +63,7 @@
    "id": "auf",
    "frage": "Was hält uns auf?",
    "ampel": "rot",
-   "kurz": "21 Dinge halten uns auf.",
+   "kurz": "23 Dinge halten uns auf.",
    "saetze": [
     "Bei jedem steht, wer es tun muss. Oben steht das, was am meisten Geld kostet."
    ],
@@ -191,6 +191,20 @@
      "prio": 0,
      "block": "eskalation",
      "quelle": "gedaechtnis/OFFEN.md",
+     "titel": "Bonnie wartet seit 04.10. 19:26 auf Antwort zu Mitarbeiterzugang, Bankweg und der …",
+     "wer": "Timo",
+     "tun": "Schickt im WhatsApp-Chat \"Bonnie DS\" den Block \"Text zum Senden\" aus ~/timo/entwuerfe/2026-10-04_bonnie_kurz_zahlweg.md, 1 …",
+     "bis": "20:35",
+     "vorbei": false,
+     "stufe": 4,
+     "ja": [
+      32
+     ]
+    },
+    {
+     "prio": 0,
+     "block": "eskalation",
+     "quelle": "gedaechtnis/OFFEN.md",
      "titel": "abTestsRunning true, also sehen Besucher noch zwei Angebote. Ja 5 steht seit 03.10. 16:4x, die …",
      "wer": "Timo",
      "tun": "Drückt in Kaching > A/B tests > Stop (nicht löschen). Live gemessen 17:05 per curl iPhone",
@@ -265,7 +279,7 @@
      "wer": "David",
      "tun": "Schreibt seinem Shop-Chat \"ja 25 ja 28\" (Shopify frei, kein Ja nötig), 4 Minuten, 0 USD",
      "bis": "19:50",
-     "vorbei": false,
+     "vorbei": true,
      "stufe": 5,
      "ja": [
       25,
@@ -281,11 +295,26 @@
      "wer": "David",
      "tun": "Schreibt seinem Shop-Chat \"ja 19\" (Shopify frei, kein Ja nötig), 2 Minuten, 0 USD",
      "bis": "19:50",
-     "vorbei": false,
+     "vorbei": true,
      "stufe": 5,
      "ja": [
       19,
       19
+     ]
+    },
+    {
+     "prio": 0,
+     "block": "eskalation",
+     "quelle": "gedaechtnis/OFFEN.md",
+     "titel": "Online Store > Themes > Customize > App embeds > \"Judge.me Reviews\" aus, Save. Grund: Die leere …",
+     "wer": "Timo",
+     "tun": "Schreibt seinem Shop-Chat \"ja 26\" (Shopify frei, kein Ja nötig), 2 Minuten, 0 USD",
+     "bis": "20:30",
+     "vorbei": false,
+     "stufe": 5,
+     "ja": [
+      26,
+      26
      ]
     },
     {
@@ -311,7 +340,7 @@
     {
      "prio": 1.5,
      "block": "ja",
-     "titel": "5 Ja-Fragen warten: ja judgeme (bis 04.10. 12:00), ja bonnie zahlweg (bis 05.10. 10:00), ja adam (bis 05.10. 12:00) und 2 weitere",
+     "titel": "3 Ja-Fragen warten: ja adam (bis 05.10. 12:00), ja adam2 (bis 05.10. 12:00), ja contabo (bis 05.10. 18:00)",
      "wer": "David oder Timo",
      "tun": "Im Claude-Chat „ja <Nr>“ schreiben, Liste in timo/JA_LISTE.md",
      "quelle": "timo/JA_LISTE.md"
@@ -338,8 +367,8 @@
    "nr": 3,
    "id": "wer",
    "frage": "Wer arbeitet woran?",
-   "ampel": "rot",
-   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 234 Runden heute.",
+   "ampel": "gelb",
+   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 237 Runden heute.",
    "saetze": [],
    "zeilen": [
     {
@@ -354,8 +383,8 @@
     },
     {
      "name": "Claude",
-     "text": "234 Runden heute, alle 5 Minuten eine. Zuletzt: Takt nach 18 Minuten abgebrochen, Protokoll in ~/takt/laeufe.",
-     "ampel": "rot"
+     "text": "237 Runden heute, alle 5 Minuten eine. Zuletzt: entsperrt Stufe 6, weil Stufen 1 bis 5 in den letzten 70 Min schon eskaliert sind; wa_chat.mjs …",
+     "ampel": "gelb"
     },
     {
      "name": "Abteilungs-Chats",
@@ -387,7 +416,7 @@
     },
     {
      "name": "Runden, letzte Stunde",
-     "text": "7 Runden: 0 mit fertigem Ergebnis (Creative, Text oder Klickweg), 5 haben einen Menschen erinnert, 1 nur innen gearbeitet, 1 ist abgestürzt.",
+     "text": "7 Runden: 0 mit fertigem Ergebnis (Creative, Text oder Klickweg), 4 haben einen Menschen erinnert, 2 nur innen gearbeitet, 1 ist abgestürzt.",
      "ampel": "gelb"
     },
     {
@@ -434,7 +463,7 @@
     },
     {
      "name": "Runden",
-     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 7, davon 2 nur innen oder abgestürzt.",
+     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 7, davon 3 nur innen oder abgestürzt.",
      "ampel": "rot"
     }
    ]
@@ -581,7 +610,7 @@
      "ampel": "grau",
      "detail": "12 Bilder, 10 Videos, neu seit Montag, 05.10., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
      "quelle": "Erstellzeit der Dateien in creatives/fertig, 05_creatives/ads, 05_creatives/ki/fertig",
-     "stand": "19:47",
+     "stand": "20:02",
      "ziel": null
     },
     {
@@ -641,7 +670,7 @@
      "ampel": "grau",
      "detail": "1 Zeile im Codeblock (Formatbeispiel) nicht gezählt. Steht dort eine echte Aufgabe, gehört sie aus dem Block heraus.",
      "quelle": "timo/OFFEN.md",
-     "stand": "19:47",
+     "stand": "20:02",
      "ziel": null
     },
     {
@@ -770,7 +799,7 @@
    "zeilen": [
     {
      "name": "Wächter, letzter Lauf",
-     "wert": "19:46",
+     "wert": "19:56",
      "ampel": "gruen",
      "detail": null,
      "quelle": "waechter_zustand.json",
@@ -783,7 +812,7 @@
      "name": "Takt-Schleife",
      "schluessel": "takt",
      "ampel": "gruen",
-     "text": "letzte Runde 19:43 (chef), rc=143, 1 Fehlrunde in Folge, Runde laeuft seit 1 Min"
+     "text": "letzte Runde 19:52 (chef), rc=0, Runde laeuft seit 1 Min"
     },
     {
      "name": "Perplexity",
@@ -801,7 +830,7 @@
      "name": "Crosspost",
      "schluessel": "crosspost",
      "ampel": "gruen",
-     "text": "laeuft (pid 34390), Herzschlag vor 9 s, postet, letzter Fehler: 2026-10-06T17:38:13.491Z keine Videos in der Antwort: {\"log_"
+     "text": "laeuft (pid 34390), Herzschlag vor 3 s, postet, letzter Fehler: 2026-10-06T17:38:13.491Z keine Videos in der Antwort: {\"log_"
     },
     {
      "name": "Speicher",
@@ -813,7 +842,7 @@
      "name": "GitHub-Push",
      "schluessel": "github",
      "ampel": "gruen",
-     "text": "origin/main 0f6199a vor 1 Min"
+     "text": "origin/main d566989 vor 1 Min"
     },
     {
      "name": "WhatsApp Web",
@@ -837,7 +866,7 @@
      "name": "Ereignis-Sensor",
      "schluessel": "ereignisse",
      "ampel": "gruen",
-     "text": "letzter Lauf 19:46, 0 offene Ereignisse"
+     "text": "letzter Lauf 19:56, 0 offene Ereignisse"
     },
     {
      "name": "Chrome auf Timos PC",
