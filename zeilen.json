@@ -1,13 +1,6 @@
 [
 {
 "tag": "2026-10-04",
-"zeit": "04:15",
-"typ": "chef",
-"titel": "Fehler beim Hundebett-Laden gefunden",
-"satz": "Ich habe den Laden geprüft und weiß jetzt, wie Kunden das Hundebett sehen."
-},
-{
-"tag": "2026-10-04",
 "zeit": "04:20",
 "typ": "verbesserer",
 "titel": "Programm macht neun Mal einen Fehler",
@@ -4195,6 +4188,13 @@
 {
 "tag": "2026-10-07",
 "zeit": "00:00",
+"typ": "chef",
+"titel": "Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access",
+"satz": ""
+},
+{
+"tag": "2026-10-07",
+"zeit": "00:05",
 "typ": "chef",
 "titel": "Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access",
 "satz": ""
