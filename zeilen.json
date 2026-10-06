@@ -1,13 +1,6 @@
 [
 {
 "tag": "2026-10-04",
-"zeit": "05:50",
-"typ": "chef",
-"titel": "Versand überall gleich gemacht",
-"satz": "Ich habe gemacht, dass alle Kunden überall das Gleiche beim Versand sehen und wissen."
-},
-{
-"tag": "2026-10-04",
 "zeit": "05:55",
 "typ": "chef",
 "titel": "Startseite zeigt Geld zurück",
@@ -4195,6 +4188,13 @@
 {
 "tag": "2026-10-07",
 "zeit": "01:35",
+"typ": "chef",
+"titel": "Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access",
+"satz": ""
+},
+{
+"tag": "2026-10-07",
+"zeit": "01:40",
 "typ": "chef",
 "titel": "Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access",
 "satz": ""
