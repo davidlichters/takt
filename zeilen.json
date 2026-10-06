@@ -1,13 +1,6 @@
 [
 {
 "tag": "2026-10-03",
-"zeit": "17:31",
-"typ": "chef",
-"titel": "Hundebett-Preise angepasst und geprüft",
-"satz": "Ich habe die neuen Preise mit Gratisversand nachgemessen und alles stimmt."
-},
-{
-"tag": "2026-10-03",
 "zeit": "17:35",
 "typ": "chef",
 "titel": "Laden-Seiten bearbeitet und gereinigt",
@@ -4195,6 +4188,13 @@
 {
 "tag": "2026-10-06",
 "zeit": "09:15",
+"typ": "chef",
+"titel": "You've hit your weekly limit · resets Oct 8 at 1pm (Europe/Berlin)",
+"satz": ""
+},
+{
+"tag": "2026-10-06",
+"zeit": "09:20",
 "typ": "chef",
 "titel": "You've hit your weekly limit · resets Oct 8 at 1pm (Europe/Berlin)",
 "satz": ""
