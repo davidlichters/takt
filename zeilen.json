@@ -1,13 +1,6 @@
 [
 {
 "tag": "2026-10-03",
-"zeit": "20:13",
-"typ": "chef",
-"titel": "Test läuft mit zwei Betten",
-"satz": "Ich habe den Test geschaut und die falsche Kasse machen wir nicht."
-},
-{
-"tag": "2026-10-03",
 "zeit": "20:16",
 "typ": "chef",
 "titel": "Handy fertig, Kaufknopf zeigt alles",
@@ -4195,6 +4188,13 @@
 {
 "tag": "2026-10-06",
 "zeit": "13:30",
+"typ": "chef",
+"titel": "You've hit your weekly limit · resets Oct 8 at 1pm (Europe/Berlin)",
+"satz": ""
+},
+{
+"tag": "2026-10-06",
+"zeit": "13:35",
 "typ": "chef",
 "titel": "You've hit your weekly limit · resets Oct 8 at 1pm (Europe/Berlin)",
 "satz": ""
