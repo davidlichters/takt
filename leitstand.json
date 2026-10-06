@@ -1,7 +1,7 @@
 {
  "version": 2,
- "stand": "2026-10-06T22:17:05Z",
- "stand_berlin": "07.10.2026 00:17",
+ "stand": "2026-10-06T22:32:05Z",
+ "stand_berlin": "07.10.2026 00:32",
  "takt_min": 15,
  "quelle": "takt/leitstand_bauen.py auf Davids Mac, ohne Modell",
  "ziele": {
@@ -53,8 +53,8 @@
     },
     {
      "name": "Chef-Runde",
-     "text": "Um 00:15: 2 Fragen zur 429-Sperre der Shopify-Seite in die Perplexity-Warteschlange gelegt (Stufe 1 bleibt Eskalation …",
-     "ampel": "gelb"
+     "text": "Um 00:30: Bonnie antwortet seit 04.10. 19:26 nicht mehr, Zahlweg und Versandtag fehlen, Bett S 18,90 USD je Bestellung …",
+     "ampel": "gruen"
     }
    ]
   },
@@ -147,6 +147,20 @@
      "ja": [
       33,
       34
+     ]
+    },
+    {
+     "prio": 0,
+     "block": "eskalation",
+     "quelle": "gedaechtnis/OFFEN.md",
+     "titel": "Bonnie antwortet seit 04.10. 19:26 nicht mehr (Chat \"Bonnie DS\" um 00:30 gelesen, letzte Nachricht …",
+     "wer": "David",
+     "tun": null,
+     "bis": "07:30",
+     "vorbei": false,
+     "stufe": 4,
+     "ja": [
+      32
      ]
     },
     {
@@ -341,14 +355,6 @@
      "tun": "Reparieren. Grund: Gins Browser laeuft nicht; 6 Laeufe in Folge ohne Antwort, letzter Erfolg …"
     },
     {
-     "prio": 1.5,
-     "block": "ja",
-     "titel": "1 Ja-Frage wartet: ja bonnie zahlweg (bis 05.10. 10:00)",
-     "wer": "David oder Timo",
-     "tun": "Im Claude-Chat „ja <Nr>“ schreiben, Liste in timo/JA_LISTE.md",
-     "quelle": "timo/JA_LISTE.md"
-    },
-    {
      "prio": 2,
      "block": "geld",
      "titel": "Keine frische Zahl zu Anzeigen und Geld",
@@ -370,13 +376,13 @@
    "nr": 3,
    "id": "wer",
    "frage": "Wer arbeitet woran?",
-   "ampel": "gelb",
-   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 4 Runden heute.",
+   "ampel": "gruen",
+   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 7 Runden heute.",
    "saetze": [],
    "zeilen": [
     {
      "name": "David",
-     "text": "Nicht gemessen, weil David die Mac-Messung am 03.10. abgeschaltet hat. Auf David warten heute 11 Sachen (Karte 2).",
+     "text": "Nicht gemessen, weil David die Mac-Messung am 03.10. abgeschaltet hat. Auf David warten heute 12 Sachen (Karte 2).",
      "ampel": "grau"
     },
     {
@@ -386,8 +392,8 @@
     },
     {
      "name": "Claude",
-     "text": "4 Runden heute, alle 5 Minuten eine. Zuletzt: 2 Fragen zur 429-Sperre der Shopify-Seite in die Perplexity-Warteschlange gelegt (Stufe 1 …",
-     "ampel": "gelb"
+     "text": "7 Runden heute, alle 5 Minuten eine. Zuletzt: Bonnie antwortet seit 04.10. 19:26 nicht mehr, Zahlweg und Versandtag fehlen, Bett S 18,90 USD …",
+     "ampel": "gruen"
     },
     {
      "name": "Abteilungs-Chats",
@@ -613,7 +619,7 @@
      "ampel": "grau",
      "detail": "12 Bilder, 10 Videos, neu seit Montag, 05.10., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
      "quelle": "Erstellzeit der Dateien in creatives/fertig, 05_creatives/ads, 05_creatives/ki/fertig",
-     "stand": "00:17",
+     "stand": "00:32",
      "ziel": null
     },
     {
@@ -673,7 +679,7 @@
      "ampel": "grau",
      "detail": "1 Zeile im Codeblock (Formatbeispiel) nicht gezählt. Steht dort eine echte Aufgabe, gehört sie aus dem Block heraus.",
      "quelle": "timo/OFFEN.md",
-     "stand": "00:17",
+     "stand": "00:32",
      "ziel": null
     },
     {
@@ -802,7 +808,7 @@
    "zeilen": [
     {
      "name": "Wächter, letzter Lauf",
-     "wert": "00:12",
+     "wert": "00:28",
      "ampel": "gruen",
      "detail": null,
      "quelle": "waechter_zustand.json",
@@ -815,7 +821,7 @@
      "name": "Takt-Schleife",
      "schluessel": "takt",
      "ampel": "gruen",
-     "text": "letzte Runde 00:11 (chef), rc=0"
+     "text": "letzte Runde 00:25 (chef), rc=0"
     },
     {
      "name": "Perplexity",
@@ -833,19 +839,19 @@
      "name": "Crosspost",
      "schluessel": "crosspost",
      "ampel": "gruen",
-     "text": "laeuft (pid 34390), Herzschlag vor 1 s, postet, letzter Fehler: 2026-10-06T20:19:12.386Z keine Videos in der Antwort: {\"extr"
+     "text": "laeuft (pid 34390), Herzschlag vor 4 s, postet, letzter Fehler: 2026-10-06T20:19:12.386Z keine Videos in der Antwort: {\"extr"
     },
     {
      "name": "Speicher",
      "schluessel": "speicher",
      "ampel": "gruen",
-     "text": "66 GB frei"
+     "text": "65 GB frei"
     },
     {
      "name": "GitHub-Push",
      "schluessel": "github",
      "ampel": "gruen",
-     "text": "origin/main 5d7040e vor 2 Min"
+     "text": "origin/main cc3b5aa vor 3 Min"
     },
     {
      "name": "WhatsApp Web",
@@ -869,7 +875,7 @@
      "name": "Ereignis-Sensor",
      "schluessel": "ereignisse",
      "ampel": "gruen",
-     "text": "letzter Lauf 00:12, 0 offene Ereignisse"
+     "text": "letzter Lauf 00:28, 0 offene Ereignisse"
     },
     {
      "name": "Chrome auf Timos PC",
