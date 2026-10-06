@@ -1,13 +1,6 @@
 [
 {
 "tag": "2026-10-03",
-"zeit": "18:36",
-"typ": "chef",
-"titel": "Neues Video für Hundebett gebaut",
-"satz": "Ich habe ein Video gemacht, das zeigt, wie Geschenkpapier reißt und Bett herauskommt."
-},
-{
-"tag": "2026-10-03",
 "zeit": "18:40",
 "typ": "chef",
 "titel": "Neues Weihnachts-Bild für Werbung",
@@ -4195,6 +4188,13 @@
 {
 "tag": "2026-10-06",
 "zeit": "10:30",
+"typ": "chef",
+"titel": "You've hit your weekly limit · resets Oct 8 at 1pm (Europe/Berlin)",
+"satz": ""
+},
+{
+"tag": "2026-10-06",
+"zeit": "10:35",
 "typ": "chef",
 "titel": "You've hit your weekly limit · resets Oct 8 at 1pm (Europe/Berlin)",
 "satz": ""
