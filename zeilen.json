@@ -1,13 +1,6 @@
 [
 {
 "tag": "2026-10-03",
-"zeit": "20:07",
-"typ": "chef",
-"titel": "Schrift im Handymenü dunkler gemacht",
-"satz": "Ich habe die Farbe dunkler gemacht, damit man alles besser lesen kann."
-},
-{
-"tag": "2026-10-03",
 "zeit": "20:09",
 "typ": "chef",
 "titel": "Laden ist schnell genug",
@@ -4195,6 +4188,13 @@
 {
 "tag": "2026-10-06",
 "zeit": "13:15",
+"typ": "chef",
+"titel": "You've hit your weekly limit · resets Oct 8 at 1pm (Europe/Berlin)",
+"satz": ""
+},
+{
+"tag": "2026-10-06",
+"zeit": "13:20",
 "typ": "chef",
 "titel": "You've hit your weekly limit · resets Oct 8 at 1pm (Europe/Berlin)",
 "satz": ""
