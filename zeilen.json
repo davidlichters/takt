@@ -1,13 +1,6 @@
 [
 {
 "tag": "2026-09-30",
-"zeit": "04:05",
-"typ": "recherche",
-"titel": "Zwei Antworten geerntet",
-"satz": "Ich habe immer noch auf die Antwort zum zweiten Hundebett gewartet."
-},
-{
-"tag": "2026-09-30",
 "zeit": "04:10",
 "typ": "verbesserer",
 "titel": "Lieferzeit-Kreis gebrochen",
@@ -4195,6 +4188,13 @@
 {
 "tag": "2026-10-06",
 "zeit": "04:10",
+"typ": "chef",
+"titel": "You've hit your weekly limit · resets Oct 8 at 1pm (Europe/Berlin)",
+"satz": ""
+},
+{
+"tag": "2026-10-06",
+"zeit": "04:15",
 "typ": "chef",
 "titel": "You've hit your weekly limit · resets Oct 8 at 1pm (Europe/Berlin)",
 "satz": ""
