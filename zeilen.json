@@ -1,13 +1,6 @@
 [
 {
 "tag": "2026-10-04",
-"zeit": "05:00",
-"typ": "recherche",
-"titel": "Knopf wird nicht gebaut",
-"satz": "Ich habe aufgeschrieben, warum das nicht genug Geld bringt, und drei Fragen gestellt."
-},
-{
-"tag": "2026-10-04",
 "zeit": "05:05",
 "typ": "chef",
 "titel": "Käufermeinungen im Laden wieder da",
@@ -4195,6 +4188,13 @@
 {
 "tag": "2026-10-07",
 "zeit": "00:45",
+"typ": "chef",
+"titel": "Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access",
+"satz": ""
+},
+{
+"tag": "2026-10-07",
+"zeit": "00:50",
 "typ": "chef",
 "titel": "Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access",
 "satz": ""
