@@ -1,7 +1,7 @@
 {
  "version": 2,
- "stand": "2026-10-06T16:32:05Z",
- "stand_berlin": "06.10.2026 18:32",
+ "stand": "2026-10-06T16:47:05Z",
+ "stand_berlin": "06.10.2026 18:47",
  "takt_min": 15,
  "quelle": "takt/leitstand_bauen.py auf Davids Mac, ohne Modell",
  "ziele": {
@@ -53,8 +53,8 @@
     },
     {
      "name": "Chef-Runde",
-     "text": "Um 18:30: Ticket-Entwurf an die Ecomwarts-Coaches nennt Versand jetzt 0,00 USD und 6 bis 10 Werktage statt Free US …",
-     "ampel": "gruen"
+     "text": "Um 18:45: entsperrt Stufe 4, weil der Ticket-Text noch die BM-Zeile hatte (harte Regel), entfernt, nichts gesendet, Ja …",
+     "ampel": "gelb"
     }
    ]
   },
@@ -63,7 +63,7 @@
    "id": "auf",
    "frage": "Was hält uns auf?",
    "ampel": "rot",
-   "kurz": "13 Dinge halten uns auf.",
+   "kurz": "16 Dinge halten uns auf.",
    "saetze": [
     "Bei jedem steht, wer es tun muss. Oben steht das, was am meisten Geld kostet."
    ],
@@ -101,7 +101,7 @@
      "wer": "Timo",
      "tun": "Den Ansagebalken oben auf allen Seiten leeren, Text 'FREE US SHIPPING · ORDER BY DEC 4 FOR CHRISTMAS' raus",
      "bis": "18:45",
-     "vorbei": false,
+     "vorbei": true,
      "stufe": 1,
      "ja": []
     },
@@ -130,6 +130,35 @@
      "ja": [
       3,
       3
+     ]
+    },
+    {
+     "prio": 0,
+     "block": "eskalation",
+     "quelle": "gedaechtnis/OFFEN.md",
+     "titel": "John (Supplier) Block aus ~/timo/entwuerfe/2026-10-04_john_kinderwagen_absage.md und Adam DS Block …",
+     "wer": "David",
+     "tun": "Zwei Kinderwagen-Absagen an die Lieferanten senden, falls noch nicht raus",
+     "bis": "19:15",
+     "vorbei": false,
+     "stufe": 4,
+     "ja": [
+      30
+     ]
+    },
+    {
+     "prio": 0,
+     "block": "eskalation",
+     "quelle": "gedaechtnis/OFFEN.md",
+     "titel": "Im WhatsApp-Chat 'John (Supplier)' die 11 neuen Nachrichten lesen, zuletzt steht dort nur 'Photo' …",
+     "wer": "Timo",
+     "tun": null,
+     "bis": "19:20",
+     "vorbei": false,
+     "stufe": 4,
+     "ja": [
+      30,
+      30
      ]
     },
     {
@@ -180,6 +209,18 @@
      "prio": 0,
      "block": "eskalation",
      "quelle": "gedaechtnis/OFFEN.md",
+     "titel": "In Shopify (Online Store > Preferences > Homepage meta description) den Text aus …",
+     "wer": "David",
+     "tun": null,
+     "bis": "19:10",
+     "vorbei": false,
+     "stufe": 5,
+     "ja": []
+    },
+    {
+     "prio": 0,
+     "block": "eskalation",
+     "quelle": "gedaechtnis/OFFEN.md",
      "titel": "Perplexity läuft seit 6 Versuchen nicht, heute 0 von 20 Fragen, die Zweitprodukt-Entscheidung und …",
      "wer": "David",
      "tun": "Öffnet auf dem Mac im DICloak-Browser das Profil \"Dashboard\" (Open; steht dort \"Close\", erst Close und Confirm), 1 Minute, 0 USD …",
@@ -199,7 +240,7 @@
     {
      "prio": 1.5,
      "block": "ja",
-     "titel": "8 Ja-Fragen warten: ja knopf (bis 04.10. 12:00), ja judgeme (bis 04.10. 12:00), ja moneyback (bis 04.10. 12:00) und 5 weitere",
+     "titel": "7 Ja-Fragen warten: ja knopf (bis 04.10. 12:00), ja judgeme (bis 04.10. 12:00), ja moneyback (bis 04.10. 12:00) und 4 weitere",
      "wer": "David oder Timo",
      "tun": "Im Claude-Chat „ja <Nr>“ schreiben, Liste in timo/JA_LISTE.md",
      "quelle": "timo/JA_LISTE.md"
@@ -226,13 +267,13 @@
    "nr": 3,
    "id": "wer",
    "frage": "Wer arbeitet woran?",
-   "ampel": "gruen",
-   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 223 Runden heute.",
+   "ampel": "gelb",
+   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 227 Runden heute.",
    "saetze": [],
    "zeilen": [
     {
      "name": "David",
-     "text": "Nicht gemessen, weil David die Mac-Messung am 03.10. abgeschaltet hat. Auf David warten heute 4 Sachen (Karte 2).",
+     "text": "Nicht gemessen, weil David die Mac-Messung am 03.10. abgeschaltet hat. Auf David warten heute 6 Sachen (Karte 2).",
      "ampel": "grau"
     },
     {
@@ -242,8 +283,8 @@
     },
     {
      "name": "Claude",
-     "text": "223 Runden heute, alle 5 Minuten eine. Zuletzt: Ticket-Entwurf an die Ecomwarts-Coaches nennt Versand jetzt 0,00 USD und 6 bis 10 Werktage …",
-     "ampel": "gruen"
+     "text": "227 Runden heute, alle 5 Minuten eine. Zuletzt: entsperrt Stufe 4, weil der Ticket-Text noch die BM-Zeile hatte (harte Regel), entfernt …",
+     "ampel": "gelb"
     },
     {
      "name": "Abteilungs-Chats",
@@ -257,7 +298,7 @@
    "id": "tempo",
    "frage": "Wie schnell geht es gerade?",
    "ampel": "gelb",
-   "kurz": "Letzte Stunde: 12 Runden, 1 davon mit fertigem Ergebnis.",
+   "kurz": "Letzte Stunde: 13 Runden, 1 davon mit fertigem Ergebnis.",
    "saetze": [
     "Den Gewinn heute wissen wir noch nicht, weil uns der Shopify-Zugang fehlt.",
     "Fertig heißt noch nicht live: 9 Ja-Schritte warten auf euer Ja (Karte 2)."
@@ -275,7 +316,7 @@
     },
     {
      "name": "Runden, letzte Stunde",
-     "text": "12 Runden: 1 mit fertigem Ergebnis (Creative, Text oder Klickweg), 6 haben einen Menschen erinnert, 5 nur innen gearbeitet.",
+     "text": "13 Runden: 1 mit fertigem Ergebnis (Creative, Text oder Klickweg), 7 haben einen Menschen erinnert, 5 nur innen gearbeitet.",
      "ampel": "gelb"
     },
     {
@@ -322,7 +363,7 @@
     },
     {
      "name": "Runden",
-     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 12, davon 5 nur innen.",
+     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 13, davon 5 nur innen.",
      "ampel": "rot"
     }
    ]
@@ -469,7 +510,7 @@
      "ampel": "grau",
      "detail": "12 Bilder, 10 Videos, neu seit Montag, 05.10., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
      "quelle": "Erstellzeit der Dateien in creatives/fertig, 05_creatives/ads, 05_creatives/ki/fertig",
-     "stand": "18:32",
+     "stand": "18:47",
      "ziel": null
     },
     {
@@ -529,7 +570,7 @@
      "ampel": "grau",
      "detail": "1 Zeile im Codeblock (Formatbeispiel) nicht gezählt. Steht dort eine echte Aufgabe, gehört sie aus dem Block heraus.",
      "quelle": "timo/OFFEN.md",
-     "stand": "18:32",
+     "stand": "18:47",
      "ziel": null
     },
     {
@@ -658,7 +699,7 @@
    "zeilen": [
     {
      "name": "Wächter, letzter Lauf",
-     "wert": "18:28",
+     "wert": "18:44",
      "ampel": "gruen",
      "detail": null,
      "quelle": "waechter_zustand.json",
@@ -671,7 +712,7 @@
      "name": "Takt-Schleife",
      "schluessel": "takt",
      "ampel": "gruen",
-     "text": "letzte Runde 18:25 (chef), rc=0"
+     "text": "letzte Runde 18:42 (chef), rc=0"
     },
     {
      "name": "Perplexity",
@@ -689,7 +730,7 @@
      "name": "Crosspost",
      "schluessel": "crosspost",
      "ampel": "gruen",
-     "text": "laeuft (pid 34390), Herzschlag vor 4 s, postet, letzter Fehler: 2026-10-06T15:21:42.144Z keine Videos in der Antwort: {\"log_"
+     "text": "laeuft (pid 34390), Herzschlag vor 4 s, postet, letzter Fehler: 2026-10-06T16:42:42.102Z keine Videos in der Antwort: {\"log_"
     },
     {
      "name": "Speicher",
@@ -701,13 +742,13 @@
      "name": "GitHub-Push",
      "schluessel": "github",
      "ampel": "gruen",
-     "text": "origin/main e1c0ed1 vor 3 Min"
+     "text": "origin/main ca0d1cb vor 3 Min"
     },
     {
      "name": "WhatsApp Web",
      "schluessel": "whatsapp",
      "ampel": "gruen",
-     "text": "Chatliste gelesen (apple, 1 Zeilen), 0 von 6 Lieferanten sichtbar, nicht sichtbar: Bonnie DS, John (Supplier), Adam DS, Mr Anh, Vito DS, Joel DS"
+     "text": "Chatliste gelesen (apple, 12 Zeilen), 6 von 6 Lieferanten sichtbar"
     },
     {
      "name": "Shopify",
@@ -725,7 +766,7 @@
      "name": "Ereignis-Sensor",
      "schluessel": "ereignisse",
      "ampel": "gruen",
-     "text": "letzter Lauf 18:28, 0 offene Ereignisse"
+     "text": "letzter Lauf 18:44, 0 offene Ereignisse"
     },
     {
      "name": "Chrome auf Timos PC",
