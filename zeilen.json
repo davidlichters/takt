@@ -1,13 +1,6 @@
 [
 {
 "tag": "2026-10-03",
-"zeit": "23:45",
-"typ": "chef",
-"titel": "Ich brauche mehr Information über die Runde, die gerade beendet wurde. Das Protokoll zeigt nur alte Fehler von gestern. Was hat die aktuelle Runde gemacht?",
-"satz": ""
-},
-{
-"tag": "2026-10-03",
 "zeit": "23:50",
 "typ": "chef",
 "titel": "Takt fertig, aber keine Zeile",
@@ -4195,6 +4188,13 @@
 {
 "tag": "2026-10-06",
 "zeit": "17:35",
+"typ": "chef",
+"titel": "You've hit your weekly limit · resets Oct 8 at 1pm (Europe/Berlin)",
+"satz": ""
+},
+{
+"tag": "2026-10-06",
+"zeit": "17:40",
 "typ": "chef",
 "titel": "You've hit your weekly limit · resets Oct 8 at 1pm (Europe/Berlin)",
 "satz": ""
