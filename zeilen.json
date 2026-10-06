@@ -1,13 +1,6 @@
 [
 {
 "tag": "2026-10-03",
-"zeit": "19:17",
-"typ": "chef",
-"titel": "Neues Bild mit Betten für Anzeige",
-"satz": "Ich habe ein Bild mit allen Betten gemacht und die Preise dafür geprüft."
-},
-{
-"tag": "2026-10-03",
 "zeit": "19:20",
 "typ": "chef",
 "titel": "Erinnerung für Bettkauf gelöscht",
@@ -4195,6 +4188,13 @@
 {
 "tag": "2026-10-06",
 "zeit": "11:45",
+"typ": "chef",
+"titel": "You've hit your weekly limit · resets Oct 8 at 1pm (Europe/Berlin)",
+"satz": ""
+},
+{
+"tag": "2026-10-06",
+"zeit": "11:50",
 "typ": "chef",
 "titel": "You've hit your weekly limit · resets Oct 8 at 1pm (Europe/Berlin)",
 "satz": ""
