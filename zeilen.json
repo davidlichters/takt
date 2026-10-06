@@ -1,13 +1,6 @@
 [
 {
 "tag": "2026-09-30",
-"zeit": "06:55",
-"typ": "verbesserer",
-"titel": "Fehler in Zeit behoben",
-"satz": "Ich habe einen großen Fehler mit falscher Zeit gefunden und behoben."
-},
-{
-"tag": "2026-09-30",
 "zeit": "07:00",
 "typ": "normal",
 "titel": "Kritischer Weg bis Start",
@@ -4195,6 +4188,13 @@
 {
 "tag": "2026-10-06",
 "zeit": "07:15",
+"typ": "chef",
+"titel": "You've hit your weekly limit · resets Oct 8 at 1pm (Europe/Berlin)",
+"satz": ""
+},
+{
+"tag": "2026-10-06",
+"zeit": "07:20",
 "typ": "chef",
 "titel": "You've hit your weekly limit · resets Oct 8 at 1pm (Europe/Berlin)",
 "satz": ""
