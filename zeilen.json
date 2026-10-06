@@ -1,13 +1,6 @@
 [
 {
 "tag": "2026-10-03",
-"zeit": "19:12",
-"typ": "chef",
-"titel": "Hundebett-Bild mit Rentierschlitten",
-"satz": "Ich habe ein neues Bild gebaut mit Rentierschlitten und Wörtern, die echte Kunden sagten."
-},
-{
-"tag": "2026-10-03",
 "zeit": "19:14",
 "typ": "chef",
 "titel": "Frage zu teuren Videos gepruft",
@@ -4196,6 +4189,13 @@
 "tag": "2026-10-06",
 "zeit": "11:35",
 "typ": "chef",
+"titel": "You've hit your weekly limit · resets Oct 8 at 1pm (Europe/Berlin)",
+"satz": ""
+},
+{
+"tag": "2026-10-06",
+"zeit": "11:40",
+"typ": "recherche",
 "titel": "You've hit your weekly limit · resets Oct 8 at 1pm (Europe/Berlin)",
 "satz": ""
 }
