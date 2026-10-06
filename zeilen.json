@@ -1,13 +1,6 @@
 [
 {
 "tag": "2026-10-03",
-"zeit": "22:25",
-"typ": "chef",
-"titel": "Vier Sachen stoppen die Arbeit",
-"satz": "Ich habe vier Sachen gefunden, die wir fertig machen müssen, damit es weitergeht."
-},
-{
-"tag": "2026-10-03",
 "zeit": "22:30",
 "typ": "chef",
 "titel": "Werbung braucht Karte zum Laufen",
@@ -4195,6 +4188,13 @@
 {
 "tag": "2026-10-06",
 "zeit": "15:50",
+"typ": "chef",
+"titel": "You've hit your weekly limit · resets Oct 8 at 1pm (Europe/Berlin)",
+"satz": ""
+},
+{
+"tag": "2026-10-06",
+"zeit": "15:55",
 "typ": "chef",
 "titel": "You've hit your weekly limit · resets Oct 8 at 1pm (Europe/Berlin)",
 "satz": ""
