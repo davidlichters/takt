@@ -1,7 +1,7 @@
 {
  "version": 2,
- "stand": "2026-10-06T14:47:05Z",
- "stand_berlin": "06.10.2026 16:47",
+ "stand": "2026-10-06T15:02:04Z",
+ "stand_berlin": "06.10.2026 17:02",
  "takt_min": 15,
  "quelle": "takt/leitstand_bauen.py auf Davids Mac, ohne Modell",
  "ziele": {
@@ -48,13 +48,13 @@
     },
     {
      "name": "Technik",
-     "text": "Der Wächter prüft alle 5 Minuten 10 Werkzeuge: 6 gehen, 2 kaputt (Takt-Schleife, Perplexity), 2 warten auf Zugang oder sind aus (Shopify, Meta). 1 weiteres prüft er noch nicht.",
+     "text": "Der Wächter prüft alle 5 Minuten 10 Werkzeuge: 7 gehen, 1 kaputt (Perplexity), 2 warten auf Zugang oder sind aus (Shopify, Meta). 1 weiteres prüft er noch nicht.",
      "ampel": "rot"
     },
     {
      "name": "Chef-Runde",
-     "text": "Um 16:45: Takt ohne Ergebniszeile beendet (rc=1), Protokoll in ~/takt/laeufe.",
-     "ampel": "rot"
+     "text": "Um 17:00: Keine Welt-Änderung. git pull abgebrochen, 860 geänderte Dateien von Hand, nicht meine, nicht angerührt …",
+     "ampel": "gelb"
     }
    ]
   },
@@ -63,20 +63,12 @@
    "id": "auf",
    "frage": "Was hält uns auf?",
    "ampel": "rot",
-   "kurz": "5 Dinge halten uns auf.",
+   "kurz": "4 Dinge halten uns auf.",
    "saetze": [
     "Bei jedem steht, wer es tun muss. Oben steht das, was am meisten Geld kostet."
    ],
    "zeilen": [],
    "punkte": [
-    {
-     "prio": 1,
-     "block": "werkzeuge",
-     "titel": "Takt-Schleife ist kaputt",
-     "text": "40 Fehlrunden in Folge (letzte rc=1). Ursache: 20261006_1640.txt: You've hit your weekly limit · resets Oct 8 at 1pm (Europe/Berlin)",
-     "wer": "Claude (Technik)",
-     "tun": "Reparieren. Grund: 40 Fehlrunden in Folge (letzte rc=1). Ursache: 20261006_1640.txt: You've hit …"
-    },
     {
      "prio": 1,
      "block": "werkzeuge",
@@ -115,8 +107,8 @@
    "nr": 3,
    "id": "wer",
    "frage": "Wer arbeitet woran?",
-   "ampel": "rot",
-   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 202 Runden heute.",
+   "ampel": "gelb",
+   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 205 Runden heute.",
    "saetze": [],
    "zeilen": [
     {
@@ -131,8 +123,8 @@
     },
     {
      "name": "Claude",
-     "text": "202 Runden heute, alle 5 Minuten eine. Zuletzt: Takt ohne Ergebniszeile beendet (rc=1), Protokoll in ~/takt/laeufe.",
-     "ampel": "rot"
+     "text": "205 Runden heute, alle 5 Minuten eine. Zuletzt: Keine Welt-Änderung. git pull abgebrochen, 860 geänderte Dateien von Hand, nicht meine, nicht …",
+     "ampel": "gelb"
     },
     {
      "name": "Abteilungs-Chats",
@@ -164,7 +156,7 @@
     },
     {
      "name": "Runden, letzte Stunde",
-     "text": "12 Runden: 0 mit fertigem Ergebnis (Creative, Text oder Klickweg), 0 haben einen Menschen erinnert, 0 nur innen gearbeitet, 12 sind abgestürzt.",
+     "text": "12 Runden: 0 mit fertigem Ergebnis (Creative, Text oder Klickweg), 1 hat einen Menschen erinnert, 1 nur innen gearbeitet, 10 sind abgestürzt.",
      "ampel": "rot"
     },
     {
@@ -211,7 +203,7 @@
     },
     {
      "name": "Runden",
-     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 12, davon 12 nur innen oder abgestürzt.",
+     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 12, davon 11 nur innen oder abgestürzt.",
      "ampel": "rot"
     }
    ]
@@ -257,12 +249,6 @@
  ],
  "karten_fehler": null,
  "rot": [
-  {
-   "prio": 1,
-   "block": "werkzeuge",
-   "titel": "Takt-Schleife ist rot",
-   "text": "40 Fehlrunden in Folge (letzte rc=1). Ursache: 20261006_1640.txt: You've hit your weekly limit · resets Oct 8 at 1pm (Europe/Berlin)"
-  },
   {
    "prio": 1,
    "block": "werkzeuge",
@@ -364,7 +350,7 @@
      "ampel": "grau",
      "detail": "12 Bilder, 10 Videos, neu seit Montag, 05.10., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
      "quelle": "Erstellzeit der Dateien in creatives/fertig, 05_creatives/ads, 05_creatives/ki/fertig",
-     "stand": "16:47",
+     "stand": "17:02",
      "ziel": null
     },
     {
@@ -424,7 +410,7 @@
      "ampel": "grau",
      "detail": "1 Zeile im Codeblock (Formatbeispiel) nicht gezählt. Steht dort eine echte Aufgabe, gehört sie aus dem Block heraus.",
      "quelle": "timo/OFFEN.md",
-     "stand": "16:47",
+     "stand": "17:02",
      "ziel": null
     },
     {
@@ -553,7 +539,7 @@
    "zeilen": [
     {
      "name": "Wächter, letzter Lauf",
-     "wert": "16:43",
+     "wert": "16:59",
      "ampel": "gruen",
      "detail": null,
      "quelle": "waechter_zustand.json",
@@ -565,8 +551,8 @@
     {
      "name": "Takt-Schleife",
      "schluessel": "takt",
-     "ampel": "rot",
-     "text": "40 Fehlrunden in Folge (letzte rc=1). Ursache: 20261006_1640.txt: You've hit your weekly limit · resets Oct 8 at 1pm (Europe/Berlin)"
+     "ampel": "gruen",
+     "text": "letzte Runde 16:56 (chef), rc=0"
     },
     {
      "name": "Perplexity",
@@ -584,7 +570,7 @@
      "name": "Crosspost",
      "schluessel": "crosspost",
      "ampel": "gruen",
-     "text": "laeuft (pid 34390), Herzschlag vor 8 s, postet, letzter Fehler: 2026-10-06T13:46:22.464Z keine Videos in der Antwort: {\"extr"
+     "text": "laeuft (pid 34390), Herzschlag vor 5 s, postet, letzter Fehler: 2026-10-06T13:46:22.464Z keine Videos in der Antwort: {\"extr"
     },
     {
      "name": "Speicher",
@@ -596,7 +582,7 @@
      "name": "GitHub-Push",
      "schluessel": "github",
      "ampel": "gruen",
-     "text": "keine erfolgreiche Takt-Runde in 2 Stunden, kein Push erwartet"
+     "text": "origin/main 61e13a6 vor 4 Min"
     },
     {
      "name": "WhatsApp Web",
@@ -620,7 +606,7 @@
      "name": "Ereignis-Sensor",
      "schluessel": "ereignisse",
      "ampel": "gruen",
-     "text": "letzter Lauf 16:43, 0 offene Ereignisse"
+     "text": "letzter Lauf 16:59, 0 offene Ereignisse"
     },
     {
      "name": "Chrome auf Timos PC",
