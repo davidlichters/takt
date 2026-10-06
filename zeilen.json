@@ -1,12 +1,5 @@
 [
 {
-"tag": "2026-09-30",
-"zeit": "07:45",
-"typ": "kreativ",
-"titel": "Acht Ideen zu Schule",
-"satz": "Ich habe acht gute Ideen gemacht wie wir die Schule erreichen."
-},
-{
 "tag": "2026-10-03",
 "zeit": "16:08",
 "typ": "chef",
@@ -4196,6 +4189,13 @@
 "tag": "2026-10-06",
 "zeit": "08:00",
 "typ": "recherche",
+"titel": "You've hit your weekly limit · resets Oct 8 at 1pm (Europe/Berlin)",
+"satz": ""
+},
+{
+"tag": "2026-10-06",
+"zeit": "08:05",
+"typ": "chef",
 "titel": "You've hit your weekly limit · resets Oct 8 at 1pm (Europe/Berlin)",
 "satz": ""
 }
