@@ -1,7 +1,7 @@
 {
  "version": 2,
- "stand": "2026-10-06T21:32:05Z",
- "stand_berlin": "06.10.2026 23:32",
+ "stand": "2026-10-06T21:47:05Z",
+ "stand_berlin": "06.10.2026 23:47",
  "takt_min": 15,
  "quelle": "takt/leitstand_bauen.py auf Davids Mac, ohne Modell",
  "ziele": {
@@ -53,7 +53,7 @@
     },
     {
      "name": "Chef-Runde",
-     "text": "Um 23:30: Contabo-Widerruf (Ja 35) ist seit 05.10. 18:00 überfällig, David sendet die Mail aus …",
+     "text": "Um 23:45: Größenzeile \"fits pets under 8 lb\" fehlt weiter auf der Startseite (0 Treffer), Aufgabe seit 05.10. 05:55 …",
      "ampel": "gruen"
     }
    ]
@@ -429,7 +429,7 @@
    "id": "wer",
    "frage": "Wer arbeitet woran?",
    "ampel": "gruen",
-   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 270 Runden heute.",
+   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 273 Runden heute.",
    "saetze": [],
    "zeilen": [
     {
@@ -444,7 +444,7 @@
     },
     {
      "name": "Claude",
-     "text": "270 Runden heute, alle 5 Minuten eine. Zuletzt: Contabo-Widerruf (Ja 35) ist seit 05.10. 18:00 überfällig, David sendet die Mail aus …",
+     "text": "273 Runden heute, alle 5 Minuten eine. Zuletzt: Größenzeile \"fits pets under 8 lb\" fehlt weiter auf der Startseite (0 Treffer), Aufgabe seit …",
      "ampel": "gruen"
     },
     {
@@ -459,7 +459,7 @@
    "id": "tempo",
    "frage": "Wie schnell geht es gerade?",
    "ampel": "gelb",
-   "kurz": "Letzte Stunde: 12 Runden, 1 davon mit fertigem Ergebnis.",
+   "kurz": "Letzte Stunde: 12 Runden, 0 davon mit fertigem Ergebnis.",
    "saetze": [
     "Den Gewinn heute wissen wir noch nicht, weil uns der Shopify-Zugang fehlt.",
     "Fertig heißt noch nicht live: 9 Ja-Schritte warten auf euer Ja (Karte 2)."
@@ -477,7 +477,7 @@
     },
     {
      "name": "Runden, letzte Stunde",
-     "text": "12 Runden: 1 mit fertigem Ergebnis (Creative, Text oder Klickweg), 10 haben einen Menschen erinnert, 1 nur innen gearbeitet.",
+     "text": "12 Runden: 0 mit fertigem Ergebnis (Creative, Text oder Klickweg), 11 haben einen Menschen erinnert, 1 nur innen gearbeitet.",
      "ampel": "gelb"
     },
     {
@@ -671,7 +671,7 @@
      "ampel": "grau",
      "detail": "12 Bilder, 10 Videos, neu seit Montag, 05.10., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
      "quelle": "Erstellzeit der Dateien in creatives/fertig, 05_creatives/ads, 05_creatives/ki/fertig",
-     "stand": "23:32",
+     "stand": "23:47",
      "ziel": null
     },
     {
@@ -731,7 +731,7 @@
      "ampel": "grau",
      "detail": "1 Zeile im Codeblock (Formatbeispiel) nicht gezählt. Steht dort eine echte Aufgabe, gehört sie aus dem Block heraus.",
      "quelle": "timo/OFFEN.md",
-     "stand": "23:32",
+     "stand": "23:47",
      "ziel": null
     },
     {
@@ -860,7 +860,7 @@
    "zeilen": [
     {
      "name": "Wächter, letzter Lauf",
-     "wert": "23:30",
+     "wert": "23:46",
      "ampel": "gruen",
      "detail": null,
      "quelle": "waechter_zustand.json",
@@ -873,7 +873,7 @@
      "name": "Takt-Schleife",
      "schluessel": "takt",
      "ampel": "gruen",
-     "text": "letzte Runde 23:30 (chef), rc=0"
+     "text": "letzte Runde 23:46 (chef), rc=0"
     },
     {
      "name": "Perplexity",
@@ -891,7 +891,7 @@
      "name": "Crosspost",
      "schluessel": "crosspost",
      "ampel": "gruen",
-     "text": "laeuft (pid 34390), Herzschlag vor 8 s, postet, letzter Fehler: 2026-10-06T20:19:12.386Z keine Videos in der Antwort: {\"extr"
+     "text": "laeuft (pid 34390), Herzschlag vor 1 s, postet, letzter Fehler: 2026-10-06T20:19:12.386Z keine Videos in der Antwort: {\"extr"
     },
     {
      "name": "Speicher",
@@ -903,7 +903,7 @@
      "name": "GitHub-Push",
      "schluessel": "github",
      "ampel": "gruen",
-     "text": "origin/main ed1d913 vor 0 Min"
+     "text": "origin/main d891560 vor 1 Min"
     },
     {
      "name": "WhatsApp Web",
@@ -927,7 +927,7 @@
      "name": "Ereignis-Sensor",
      "schluessel": "ereignisse",
      "ampel": "gruen",
-     "text": "letzter Lauf 23:30, 0 offene Ereignisse"
+     "text": "letzter Lauf 23:46, 0 offene Ereignisse"
     },
     {
      "name": "Chrome auf Timos PC",
