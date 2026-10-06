@@ -1,13 +1,6 @@
 [
 {
 "tag": "2026-10-03",
-"zeit": "17:15",
-"typ": "chef",
-"titel": "Kasse und Werbung machen Betten billiger",
-"satz": "Ich habe gesehen, zwei Betten kosten weniger, aber weniger Geld verdienen wir."
-},
-{
-"tag": "2026-10-03",
 "zeit": "17:18",
 "typ": "chef",
 "titel": "Hundebett-Preise nach dem Plan gestellt",
@@ -4195,6 +4188,13 @@
 {
 "tag": "2026-10-06",
 "zeit": "08:50",
+"typ": "chef",
+"titel": "You've hit your weekly limit · resets Oct 8 at 1pm (Europe/Berlin)",
+"satz": ""
+},
+{
+"tag": "2026-10-06",
+"zeit": "08:55",
 "typ": "chef",
 "titel": "You've hit your weekly limit · resets Oct 8 at 1pm (Europe/Berlin)",
 "satz": ""
