@@ -1,13 +1,6 @@
 [
 {
 "tag": "2026-09-30",
-"zeit": "03:25",
-"typ": "kreativ",
-"titel": "Reveal-Karte für Kunden",
-"satz": "Ich habe eine Karte gemacht, um das Hundebett zu verstecken."
-},
-{
-"tag": "2026-09-30",
 "zeit": "03:30",
 "typ": "normal",
 "titel": "Welt-Versand geprüft",
@@ -4195,6 +4188,13 @@
 {
 "tag": "2026-10-06",
 "zeit": "03:30",
+"typ": "chef",
+"titel": "You've hit your weekly limit · resets Oct 8 at 1pm (Europe/Berlin)",
+"satz": ""
+},
+{
+"tag": "2026-10-06",
+"zeit": "03:35",
 "typ": "chef",
 "titel": "You've hit your weekly limit · resets Oct 8 at 1pm (Europe/Berlin)",
 "satz": ""
