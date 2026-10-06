@@ -1,13 +1,6 @@
 [
 {
 "tag": "2026-10-03",
-"zeit": "22:05",
-"typ": "chef",
-"titel": "Timo löscht alte Kopien",
-"satz": "Ich habe gesehen, dass zu viele Kopien Probleme machen und Timo macht jetzt Platz."
-},
-{
-"tag": "2026-10-03",
 "zeit": "22:08",
 "typ": "chef",
 "titel": "Großbritannien-Frage beantwortet",
@@ -4195,6 +4188,13 @@
 {
 "tag": "2026-10-06",
 "zeit": "15:25",
+"typ": "chef",
+"titel": "You've hit your weekly limit · resets Oct 8 at 1pm (Europe/Berlin)",
+"satz": ""
+},
+{
+"tag": "2026-10-06",
+"zeit": "15:30",
 "typ": "chef",
 "titel": "You've hit your weekly limit · resets Oct 8 at 1pm (Europe/Berlin)",
 "satz": ""
