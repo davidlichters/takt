@@ -1,13 +1,6 @@
 [
 {
 "tag": "2026-09-30",
-"zeit": "05:30",
-"typ": "normal",
-"titel": "Blatt halb so lang",
-"satz": "Ich habe Timos Zettel halb so lang gemacht, damit er schneller anfangen kann."
-},
-{
-"tag": "2026-09-30",
 "zeit": "05:35",
 "typ": "recherche",
 "titel": "Bilder-Antwort geerntet",
@@ -4195,6 +4188,13 @@
 {
 "tag": "2026-10-06",
 "zeit": "05:50",
+"typ": "chef",
+"titel": "You've hit your weekly limit · resets Oct 8 at 1pm (Europe/Berlin)",
+"satz": ""
+},
+{
+"tag": "2026-10-06",
+"zeit": "05:55",
 "typ": "chef",
 "titel": "You've hit your weekly limit · resets Oct 8 at 1pm (Europe/Berlin)",
 "satz": ""
