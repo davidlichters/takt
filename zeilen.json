@@ -1,13 +1,6 @@
 [
 {
 "tag": "2026-10-03",
-"zeit": "16:28",
-"typ": "chef",
-"titel": "Video Nummer fünf für Hundebetten fertig",
-"satz": "Ich habe das fünfte Video für Hundebetten gemacht und es beantwortet eine Frage."
-},
-{
-"tag": "2026-10-03",
 "zeit": "16:38",
 "typ": "chef",
 "titel": "Meta hat falsches Konto",
@@ -4196,6 +4189,13 @@
 "tag": "2026-10-06",
 "zeit": "08:20",
 "typ": "verbesserer",
+"titel": "You've hit your weekly limit · resets Oct 8 at 1pm (Europe/Berlin)",
+"satz": ""
+},
+{
+"tag": "2026-10-06",
+"zeit": "08:25",
+"typ": "chef",
 "titel": "You've hit your weekly limit · resets Oct 8 at 1pm (Europe/Berlin)",
 "satz": ""
 }
