@@ -1,7 +1,7 @@
 {
  "version": 2,
- "stand": "2026-10-06T18:17:05Z",
- "stand_berlin": "06.10.2026 20:17",
+ "stand": "2026-10-06T18:32:05Z",
+ "stand_berlin": "06.10.2026 20:32",
  "takt_min": 15,
  "quelle": "takt/leitstand_bauen.py auf Davids Mac, ohne Modell",
  "ziele": {
@@ -53,7 +53,7 @@
     },
     {
      "name": "Chef-Runde",
-     "text": "Um 20:05: Shop-Spur laeuft seit 04.10. 13:27 nicht mehr, 18 fertige Theme-Fixes (AGB, Judge.me, Preis-Knopf) liegen …",
+     "text": "Um 20:20: Contabo-Widerruf (Ja 35, Geld zurueck binnen 14 Tagen) liegt seit 26 Std ohne Erinnerung, David 21:00 in …",
      "ampel": "gruen"
     }
    ]
@@ -63,7 +63,7 @@
    "id": "auf",
    "frage": "Was hält uns auf?",
    "ampel": "rot",
-   "kurz": "24 Dinge halten uns auf.",
+   "kurz": "26 Dinge halten uns auf.",
    "saetze": [
     "Bei jedem steht, wer es tun muss. Oben steht das, was am meisten Geld kostet."
    ],
@@ -310,7 +310,7 @@
      "wer": "Timo",
      "tun": "Schreibt seinem Shop-Chat \"ja 26\" (Shopify frei, kein Ja nötig), 2 Minuten, 0 USD",
      "bis": "20:30",
-     "vorbei": false,
+     "vorbei": true,
      "stufe": 5,
      "ja": [
       26,
@@ -333,6 +333,20 @@
      "prio": 0,
      "block": "eskalation",
      "quelle": "gedaechtnis/OFFEN.md",
+     "titel": "\"FAQ\" mit Link /pages/faq, \"Returns\" mit Link /policies/refund-policy, Save. 2 Minuten, 0 USD …",
+     "wer": "Timo",
+     "tun": "Fügt in Shopify (Online Store > Navigation > Main menu) zwei Einträge ans Ende hinzu",
+     "bis": "20:50",
+     "vorbei": false,
+     "stufe": 5,
+     "ja": [
+      11
+     ]
+    },
+    {
+     "prio": 0,
+     "block": "eskalation",
+     "quelle": "gedaechtnis/OFFEN.md",
      "titel": "Perplexity läuft seit 6 Versuchen nicht, heute 0 von 20 Fragen, die Zweitprodukt-Entscheidung und …",
      "wer": "David",
      "tun": "Öffnet auf dem Mac im DICloak-Browser das Profil \"Dashboard\" (Open; steht dort \"Close\", erst Close und Confirm), 1 Minute, 0 USD …",
@@ -340,6 +354,20 @@
      "vorbei": true,
      "stufe": 6,
      "ja": []
+    },
+    {
+     "prio": 0,
+     "block": "eskalation",
+     "quelle": "gedaechtnis/OFFEN.md",
+     "titel": "David widerruft den Contabo-Server per Mail an support@contabo.com (nicht im Kundenpanel kündigen …",
+     "wer": "David",
+     "tun": null,
+     "bis": "21:00",
+     "vorbei": false,
+     "stufe": 6,
+     "ja": [
+      35
+     ]
     },
     {
      "prio": 1,
@@ -352,7 +380,7 @@
     {
      "prio": 1.5,
      "block": "ja",
-     "titel": "3 Ja-Fragen warten: ja adam (bis 05.10. 12:00), ja adam2 (bis 05.10. 12:00), ja contabo (bis 05.10. 18:00)",
+     "titel": "2 Ja-Fragen warten: ja adam (bis 05.10. 12:00), ja adam2 (bis 05.10. 12:00)",
      "wer": "David oder Timo",
      "tun": "Im Claude-Chat „ja <Nr>“ schreiben, Liste in timo/JA_LISTE.md",
      "quelle": "timo/JA_LISTE.md"
@@ -380,12 +408,12 @@
    "id": "wer",
    "frage": "Wer arbeitet woran?",
    "ampel": "gruen",
-   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 238 Runden heute.",
+   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 240 Runden heute.",
    "saetze": [],
    "zeilen": [
     {
      "name": "David",
-     "text": "Nicht gemessen, weil David die Mac-Messung am 03.10. abgeschaltet hat. Auf David warten heute 9 Sachen (Karte 2).",
+     "text": "Nicht gemessen, weil David die Mac-Messung am 03.10. abgeschaltet hat. Auf David warten heute 10 Sachen (Karte 2).",
      "ampel": "grau"
     },
     {
@@ -395,7 +423,7 @@
     },
     {
      "name": "Claude",
-     "text": "238 Runden heute, alle 5 Minuten eine. Zuletzt: Shop-Spur laeuft seit 04.10. 13:27 nicht mehr, 18 fertige Theme-Fixes (AGB, Judge.me …",
+     "text": "240 Runden heute, alle 5 Minuten eine. Zuletzt: Contabo-Widerruf (Ja 35, Geld zurueck binnen 14 Tagen) liegt seit 26 Std ohne Erinnerung …",
      "ampel": "gruen"
     },
     {
@@ -410,7 +438,7 @@
    "id": "tempo",
    "frage": "Wie schnell geht es gerade?",
    "ampel": "gelb",
-   "kurz": "Letzte Stunde: 5 Runden, 0 davon mit fertigem Ergebnis.",
+   "kurz": "Letzte Stunde: 6 Runden, 0 davon mit fertigem Ergebnis.",
    "saetze": [
     "Den Gewinn heute wissen wir noch nicht, weil uns der Shopify-Zugang fehlt.",
     "Fertig heißt noch nicht live: 9 Ja-Schritte warten auf euer Ja (Karte 2)."
@@ -428,7 +456,7 @@
     },
     {
      "name": "Runden, letzte Stunde",
-     "text": "5 Runden: 0 mit fertigem Ergebnis (Creative, Text oder Klickweg), 3 haben einen Menschen erinnert, 1 nur innen gearbeitet, 1 ist abgestürzt.",
+     "text": "6 Runden: 0 mit fertigem Ergebnis (Creative, Text oder Klickweg), 5 haben einen Menschen erinnert, 1 nur innen gearbeitet.",
      "ampel": "gelb"
     },
     {
@@ -475,7 +503,7 @@
     },
     {
      "name": "Runden",
-     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 5, davon 2 nur innen oder abgestürzt.",
+     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 6, davon 1 nur innen.",
      "ampel": "rot"
     }
    ]
@@ -622,7 +650,7 @@
      "ampel": "grau",
      "detail": "12 Bilder, 10 Videos, neu seit Montag, 05.10., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
      "quelle": "Erstellzeit der Dateien in creatives/fertig, 05_creatives/ads, 05_creatives/ki/fertig",
-     "stand": "20:17",
+     "stand": "20:32",
      "ziel": null
     },
     {
@@ -682,7 +710,7 @@
      "ampel": "grau",
      "detail": "1 Zeile im Codeblock (Formatbeispiel) nicht gezählt. Steht dort eine echte Aufgabe, gehört sie aus dem Block heraus.",
      "quelle": "timo/OFFEN.md",
-     "stand": "20:17",
+     "stand": "20:32",
      "ziel": null
     },
     {
@@ -811,7 +839,7 @@
    "zeilen": [
     {
      "name": "Wächter, letzter Lauf",
-     "wert": "20:12",
+     "wert": "20:28",
      "ampel": "gruen",
      "detail": null,
      "quelle": "waechter_zustand.json",
@@ -824,7 +852,7 @@
      "name": "Takt-Schleife",
      "schluessel": "takt",
      "ampel": "gruen",
-     "text": "letzte Runde 20:11 (chef), rc=0"
+     "text": "letzte Runde 20:18 (chef), rc=0, Runde laeuft seit 7 Min"
     },
     {
      "name": "Perplexity",
@@ -842,25 +870,25 @@
      "name": "Crosspost",
      "schluessel": "crosspost",
      "ampel": "gruen",
-     "text": "laeuft (pid 34390), Herzschlag vor 5 s, postet, letzter Fehler: 2026-10-06T17:38:13.491Z keine Videos in der Antwort: {\"log_"
+     "text": "laeuft (pid 34390), Herzschlag vor 7 s, postet, letzter Fehler: 2026-10-06T17:38:13.491Z keine Videos in der Antwort: {\"log_"
     },
     {
      "name": "Speicher",
      "schluessel": "speicher",
      "ampel": "gruen",
-     "text": "67 GB frei"
+     "text": "66 GB frei"
     },
     {
      "name": "GitHub-Push",
      "schluessel": "github",
      "ampel": "gruen",
-     "text": "origin/main ca15012 vor 1 Min"
+     "text": "origin/main 69bf6b5 vor 7 Min"
     },
     {
      "name": "WhatsApp Web",
      "schluessel": "whatsapp",
      "ampel": "gruen",
-     "text": "Chatliste gelesen (apple, 12 Zeilen), 6 von 6 Lieferanten sichtbar"
+     "text": "ausgesetzt, WhatsApp gerade belegt: /opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/Resourc…"
     },
     {
      "name": "Shopify",
@@ -878,7 +906,7 @@
      "name": "Ereignis-Sensor",
      "schluessel": "ereignisse",
      "ampel": "gruen",
-     "text": "letzter Lauf 20:12, 0 offene Ereignisse"
+     "text": "letzter Lauf 20:28, 0 offene Ereignisse"
     },
     {
      "name": "Chrome auf Timos PC",
