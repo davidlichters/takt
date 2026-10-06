@@ -1,13 +1,6 @@
 [
 {
 "tag": "2026-10-03",
-"zeit": "19:08",
-"typ": "chef",
-"titel": "Hundebett Bild für Geschenk gebaut",
-"satz": "Ich habe ein neues Bild vom Hundebett gebaut, damit Kunden es als Geschenk kaufen."
-},
-{
-"tag": "2026-10-03",
 "zeit": "19:09",
 "typ": "chef",
 "titel": "Anleitung für Timo korrigiert",
@@ -4195,6 +4188,13 @@
 {
 "tag": "2026-10-06",
 "zeit": "11:25",
+"typ": "chef",
+"titel": "You've hit your weekly limit · resets Oct 8 at 1pm (Europe/Berlin)",
+"satz": ""
+},
+{
+"tag": "2026-10-06",
+"zeit": "11:30",
 "typ": "chef",
 "titel": "You've hit your weekly limit · resets Oct 8 at 1pm (Europe/Berlin)",
 "satz": ""
