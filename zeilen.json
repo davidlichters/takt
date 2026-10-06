@@ -1,13 +1,6 @@
 [
 {
 "tag": "2026-10-03",
-"zeit": "21:51",
-"typ": "chef",
-"titel": "Großbritannien: erst verkaufen, dann Genehmigung",
-"satz": "Ich habe gefunden, dass wir erst verkaufen müssen, dann dauert die Genehmigung wenige Wochen."
-},
-{
-"tag": "2026-10-03",
 "zeit": "21:55",
 "typ": "chef",
 "titel": "Drei Fragen für Hundebett und Werbung",
@@ -4195,6 +4188,13 @@
 {
 "tag": "2026-10-06",
 "zeit": "15:10",
+"typ": "chef",
+"titel": "You've hit your weekly limit · resets Oct 8 at 1pm (Europe/Berlin)",
+"satz": ""
+},
+{
+"tag": "2026-10-06",
+"zeit": "15:15",
 "typ": "chef",
 "titel": "You've hit your weekly limit · resets Oct 8 at 1pm (Europe/Berlin)",
 "satz": ""
