@@ -1,13 +1,6 @@
 [
 {
 "tag": "2026-10-04",
-"zeit": "05:20",
-"typ": "chef",
-"titel": "Geld-zurück-Seite überprüft und gemacht",
-"satz": "Ich habe geschaut, welche Wörter auf der Seite stehen, und die Seite besser gemacht."
-},
-{
-"tag": "2026-10-04",
 "zeit": "05:25",
 "typ": "chef",
 "titel": "Videos für Werbung geprüft und gekürzt",
@@ -4195,6 +4188,13 @@
 {
 "tag": "2026-10-07",
 "zeit": "01:05",
+"typ": "chef",
+"titel": "Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access",
+"satz": ""
+},
+{
+"tag": "2026-10-07",
+"zeit": "01:10",
 "typ": "chef",
 "titel": "Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access",
 "satz": ""
