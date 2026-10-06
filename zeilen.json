@@ -1,13 +1,6 @@
 [
 {
 "tag": "2026-10-03",
-"zeit": "21:03",
-"typ": "chef",
-"titel": "You've hit your session limit · resets 9:20pm (Europe/Berlin)",
-"satz": ""
-},
-{
-"tag": "2026-10-03",
 "zeit": "21:24",
 "typ": "chef",
 "titel": "Drei Länder aus dem Laden raus",
@@ -4196,6 +4189,13 @@
 "tag": "2026-10-06",
 "zeit": "14:35",
 "typ": "chef",
+"titel": "You've hit your weekly limit · resets Oct 8 at 1pm (Europe/Berlin)",
+"satz": ""
+},
+{
+"tag": "2026-10-06",
+"zeit": "14:40",
+"typ": "recherche",
 "titel": "You've hit your weekly limit · resets Oct 8 at 1pm (Europe/Berlin)",
 "satz": ""
 }
