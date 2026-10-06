@@ -1,13 +1,6 @@
 [
 {
 "tag": "2026-09-30",
-"zeit": "04:10",
-"typ": "recherche",
-"titel": "Creative-Treffer geerntet",
-"satz": "Ich habe gelernt, wie oft unsere Werbung einen Kunden bringt."
-},
-{
-"tag": "2026-09-30",
 "zeit": "04:15",
 "typ": "kreativ",
 "titel": "Bonnies zweite Nachricht",
@@ -4195,6 +4188,13 @@
 {
 "tag": "2026-10-06",
 "zeit": "04:25",
+"typ": "chef",
+"titel": "You've hit your weekly limit · resets Oct 8 at 1pm (Europe/Berlin)",
+"satz": ""
+},
+{
+"tag": "2026-10-06",
+"zeit": "04:30",
 "typ": "chef",
 "titel": "You've hit your weekly limit · resets Oct 8 at 1pm (Europe/Berlin)",
 "satz": ""
