@@ -1,13 +1,6 @@
 [
 {
 "tag": "2026-10-04",
-"zeit": "05:35",
-"typ": "chef",
-"titel": "Hundebett-Seiten und Kasse funktionieren jetzt",
-"satz": "Ich habe die Sperre gelöscht, damit Werbung die richtigen Hundebetten zeigen kann."
-},
-{
-"tag": "2026-10-04",
 "zeit": "05:40",
 "typ": "chef",
 "titel": "Kaufleiste wird größer",
@@ -4195,6 +4188,13 @@
 {
 "tag": "2026-10-07",
 "zeit": "01:20",
+"typ": "chef",
+"titel": "Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access",
+"satz": ""
+},
+{
+"tag": "2026-10-07",
+"zeit": "01:25",
 "typ": "chef",
 "titel": "Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access",
 "satz": ""
