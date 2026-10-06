@@ -1,13 +1,6 @@
 [
 {
 "tag": "2026-09-30",
-"zeit": "03:15",
-"typ": "normal",
-"titel": "Skript für Platzhalter",
-"satz": "Ich habe Davids Daten und Timos Daten genutzt, um Löcher zu füllen."
-},
-{
-"tag": "2026-09-30",
 "zeit": "03:20",
 "typ": "recherche",
 "titel": "Laden live geprüft",
@@ -4195,6 +4188,13 @@
 {
 "tag": "2026-10-06",
 "zeit": "03:20",
+"typ": "chef",
+"titel": "You've hit your weekly limit · resets Oct 8 at 1pm (Europe/Berlin)",
+"satz": ""
+},
+{
+"tag": "2026-10-06",
+"zeit": "03:25",
 "typ": "chef",
 "titel": "You've hit your weekly limit · resets Oct 8 at 1pm (Europe/Berlin)",
 "satz": ""
