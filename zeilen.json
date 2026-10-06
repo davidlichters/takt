@@ -1,13 +1,6 @@
 [
 {
 "tag": "2026-10-03",
-"zeit": "22:50",
-"typ": "chef",
-"titel": "Kundenmails für Weihnacht geschrieben",
-"satz": "Ich habe die Mails geschrieben, die Kunden bekommen, wenn ihr Paket zu Weihnacht kommt."
-},
-{
-"tag": "2026-10-03",
 "zeit": "22:55",
 "typ": "chef",
 "titel": "Laden überprüft, alles ok",
@@ -4195,6 +4188,13 @@
 {
 "tag": "2026-10-06",
 "zeit": "16:25",
+"typ": "chef",
+"titel": "You've hit your weekly limit · resets Oct 8 at 1pm (Europe/Berlin)",
+"satz": ""
+},
+{
+"tag": "2026-10-06",
+"zeit": "16:30",
 "typ": "chef",
 "titel": "You've hit your weekly limit · resets Oct 8 at 1pm (Europe/Berlin)",
 "satz": ""
