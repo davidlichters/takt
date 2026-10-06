@@ -1,7 +1,7 @@
 {
  "version": 2,
- "stand": "2026-10-06T22:02:05Z",
- "stand_berlin": "07.10.2026 00:02",
+ "stand": "2026-10-06T22:17:05Z",
+ "stand_berlin": "07.10.2026 00:17",
  "takt_min": 15,
  "quelle": "takt/leitstand_bauen.py auf Davids Mac, ohne Modell",
  "ziele": {
@@ -53,8 +53,8 @@
     },
     {
      "name": "Chef-Runde",
-     "text": "Um 00:00: keine neue Zeile, weil alle Treffer bis 07.10. 07:30 schon in OFFEN.md stehen (Kasse 429 Zeile 188 …",
-     "ampel": "gruen"
+     "text": "Um 00:15: 2 Fragen zur 429-Sperre der Shopify-Seite in die Perplexity-Warteschlange gelegt (Stufe 1 bleibt Eskalation …",
+     "ampel": "gelb"
     }
    ]
   },
@@ -63,7 +63,7 @@
    "id": "auf",
    "frage": "Was hält uns auf?",
    "ampel": "rot",
-   "kurz": "22 Dinge halten uns auf.",
+   "kurz": "23 Dinge halten uns auf.",
    "saetze": [
     "Bei jedem steht, wer es tun muss. Oben steht das, was am meisten Geld kostet."
    ],
@@ -321,6 +321,18 @@
      ]
     },
     {
+     "prio": 0,
+     "block": "eskalation",
+     "quelle": "gedaechtnis/OFFEN.md",
+     "titel": "in den Claude-Chat 'nein 17' schreiben, damit die UK-VAT-Zeile aus der Ja-Liste fällt. Der …",
+     "wer": "David",
+     "tun": null,
+     "bis": "07:30",
+     "vorbei": false,
+     "stufe": 6,
+     "ja": []
+    },
+    {
      "prio": 1,
      "block": "werkzeuge",
      "titel": "Perplexity ist kaputt",
@@ -358,13 +370,13 @@
    "nr": 3,
    "id": "wer",
    "frage": "Wer arbeitet woran?",
-   "ampel": "gruen",
-   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 1 Runde heute.",
+   "ampel": "gelb",
+   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 4 Runden heute.",
    "saetze": [],
    "zeilen": [
     {
      "name": "David",
-     "text": "Nicht gemessen, weil David die Mac-Messung am 03.10. abgeschaltet hat. Auf David warten heute 10 Sachen (Karte 2).",
+     "text": "Nicht gemessen, weil David die Mac-Messung am 03.10. abgeschaltet hat. Auf David warten heute 11 Sachen (Karte 2).",
      "ampel": "grau"
     },
     {
@@ -374,8 +386,8 @@
     },
     {
      "name": "Claude",
-     "text": "1 Runde heute, alle 5 Minuten eine. Zuletzt: keine neue Zeile, weil alle Treffer bis 07.10. 07:30 schon in OFFEN.md stehen (Kasse 429 Zeile …",
-     "ampel": "gruen"
+     "text": "4 Runden heute, alle 5 Minuten eine. Zuletzt: 2 Fragen zur 429-Sperre der Shopify-Seite in die Perplexity-Warteschlange gelegt (Stufe 1 …",
+     "ampel": "gelb"
     },
     {
      "name": "Abteilungs-Chats",
@@ -407,7 +419,7 @@
     },
     {
      "name": "Runden, letzte Stunde",
-     "text": "12 Runden: 0 mit fertigem Ergebnis (Creative, Text oder Klickweg), 10 haben einen Menschen erinnert, 2 nur innen gearbeitet.",
+     "text": "12 Runden: 0 mit fertigem Ergebnis (Creative, Text oder Klickweg), 9 haben einen Menschen erinnert, 3 nur innen gearbeitet.",
      "ampel": "gelb"
     },
     {
@@ -454,7 +466,7 @@
     },
     {
      "name": "Runden",
-     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 12, davon 2 nur innen.",
+     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 12, davon 3 nur innen.",
      "ampel": "gruen"
     }
    ]
@@ -601,7 +613,7 @@
      "ampel": "grau",
      "detail": "12 Bilder, 10 Videos, neu seit Montag, 05.10., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
      "quelle": "Erstellzeit der Dateien in creatives/fertig, 05_creatives/ads, 05_creatives/ki/fertig",
-     "stand": "00:02",
+     "stand": "00:17",
      "ziel": null
     },
     {
@@ -661,7 +673,7 @@
      "ampel": "grau",
      "detail": "1 Zeile im Codeblock (Formatbeispiel) nicht gezählt. Steht dort eine echte Aufgabe, gehört sie aus dem Block heraus.",
      "quelle": "timo/OFFEN.md",
-     "stand": "00:02",
+     "stand": "00:17",
      "ziel": null
     },
     {
@@ -790,7 +802,7 @@
    "zeilen": [
     {
      "name": "Wächter, letzter Lauf",
-     "wert": "06.10. 23:57",
+     "wert": "00:12",
      "ampel": "gruen",
      "detail": null,
      "quelle": "waechter_zustand.json",
@@ -803,7 +815,7 @@
      "name": "Takt-Schleife",
      "schluessel": "takt",
      "ampel": "gruen",
-     "text": "letzte Runde 23:56 (chef), rc=0"
+     "text": "letzte Runde 00:11 (chef), rc=0"
     },
     {
      "name": "Perplexity",
@@ -821,19 +833,19 @@
      "name": "Crosspost",
      "schluessel": "crosspost",
      "ampel": "gruen",
-     "text": "laeuft (pid 34390), Herzschlag vor 4 s, postet, letzter Fehler: 2026-10-06T20:19:12.386Z keine Videos in der Antwort: {\"extr"
+     "text": "laeuft (pid 34390), Herzschlag vor 1 s, postet, letzter Fehler: 2026-10-06T20:19:12.386Z keine Videos in der Antwort: {\"extr"
     },
     {
      "name": "Speicher",
      "schluessel": "speicher",
      "ampel": "gruen",
-     "text": "65 GB frei"
+     "text": "66 GB frei"
     },
     {
      "name": "GitHub-Push",
      "schluessel": "github",
      "ampel": "gruen",
-     "text": "origin/main bd97788 vor 0 Min"
+     "text": "origin/main 5d7040e vor 2 Min"
     },
     {
      "name": "WhatsApp Web",
@@ -857,7 +869,7 @@
      "name": "Ereignis-Sensor",
      "schluessel": "ereignisse",
      "ampel": "gruen",
-     "text": "letzter Lauf 23:56, 0 offene Ereignisse"
+     "text": "letzter Lauf 00:12, 0 offene Ereignisse"
     },
     {
      "name": "Chrome auf Timos PC",
