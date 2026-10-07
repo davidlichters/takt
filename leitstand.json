@@ -1,7 +1,7 @@
 {
  "version": 2,
- "stand": "2026-10-07T18:47:05Z",
- "stand_berlin": "07.10.2026 20:47",
+ "stand": "2026-10-07T19:02:04Z",
+ "stand_berlin": "07.10.2026 21:02",
  "takt_min": 15,
  "quelle": "takt/leitstand_bauen.py auf Davids Mac, ohne Modell",
  "ziele": {
@@ -53,8 +53,8 @@
     },
     {
      "name": "Chef-Runde",
-     "text": "Um 20:35: TIMO_ADMIN Station 6 (Produktbeschreibung einfuegen) live neu bestaetigt, Text unveraendert seit 06.10., Timo …",
-     "ampel": "gruen"
+     "text": "Um 21:00: Takt ohne Ergebniszeile beendet (rc=1), Protokoll in ~/takt/laeufe.",
+     "ampel": "rot"
     }
    ]
   },
@@ -395,8 +395,8 @@
    "nr": 3,
    "id": "wer",
    "frage": "Wer arbeitet woran?",
-   "ampel": "gruen",
-   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 188 Runden heute.",
+   "ampel": "rot",
+   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 192 Runden heute.",
    "saetze": [],
    "zeilen": [
     {
@@ -411,8 +411,8 @@
     },
     {
      "name": "Claude",
-     "text": "188 Runden heute, alle 5 Minuten eine. Zuletzt: TIMO_ADMIN Station 6 (Produktbeschreibung einfuegen) live neu bestaetigt, Text unveraendert …",
-     "ampel": "gruen"
+     "text": "192 Runden heute, alle 5 Minuten eine. Zuletzt: Takt ohne Ergebniszeile beendet (rc=1), Protokoll in ~/takt/laeufe.",
+     "ampel": "rot"
     },
     {
      "name": "Abteilungs-Chats",
@@ -426,7 +426,7 @@
    "id": "tempo",
    "frage": "Wie schnell geht es gerade?",
    "ampel": "gelb",
-   "kurz": "Letzte Stunde: 4 Runden, 1 davon mit fertigem Ergebnis.",
+   "kurz": "Letzte Stunde: 7 Runden, 4 davon mit fertigem Ergebnis.",
    "saetze": [
     "Den Gewinn heute wissen wir noch nicht, weil uns der Shopify-Zugang fehlt.",
     "Fertig heißt noch nicht live: 8 Ja-Schritte warten auf euer Ja (Karte 2)."
@@ -444,7 +444,7 @@
     },
     {
      "name": "Runden, letzte Stunde",
-     "text": "4 Runden: 1 mit fertigem Ergebnis (Creative, Text oder Klickweg), 1 hat einen Menschen erinnert, 1 nur innen gearbeitet, 1 ist abgestürzt.",
+     "text": "7 Runden: 4 mit fertigem Ergebnis (Creative, Text oder Klickweg), 1 hat einen Menschen erinnert, 1 nur innen gearbeitet, 1 ist abgestürzt.",
      "ampel": "gelb"
     },
     {
@@ -491,7 +491,7 @@
     },
     {
      "name": "Runden",
-     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 4, davon 2 nur innen oder abgestürzt.",
+     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 7, davon 2 nur innen oder abgestürzt.",
      "ampel": "rot"
     }
    ]
@@ -638,7 +638,7 @@
      "ampel": "grau",
      "detail": "12 Bilder, 10 Videos, neu seit Montag, 05.10., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
      "quelle": "Erstellzeit der Dateien in creatives/fertig, 05_creatives/ads, 05_creatives/ki/fertig",
-     "stand": "20:47",
+     "stand": "21:02",
      "ziel": null
     },
     {
@@ -698,7 +698,7 @@
      "ampel": "grau",
      "detail": "1 Zeile im Codeblock (Formatbeispiel) nicht gezählt. Steht dort eine echte Aufgabe, gehört sie aus dem Block heraus.",
      "quelle": "timo/OFFEN.md",
-     "stand": "20:47",
+     "stand": "21:02",
      "ziel": null
     },
     {
@@ -827,7 +827,7 @@
    "zeilen": [
     {
      "name": "Wächter, letzter Lauf",
-     "wert": "20:42",
+     "wert": "20:58",
      "ampel": "gruen",
      "detail": null,
      "quelle": "waechter_zustand.json",
@@ -840,7 +840,7 @@
      "name": "Takt-Schleife",
      "schluessel": "takt",
      "ampel": "gruen",
-     "text": "letzte Runde 20:30 (chef), rc=0, Runde laeuft seit 7 Min"
+     "text": "letzte Runde 20:56 (chef), rc=0"
     },
     {
      "name": "Perplexity",
@@ -858,7 +858,7 @@
      "name": "Crosspost",
      "schluessel": "crosspost",
      "ampel": "gruen",
-     "text": "laeuft (pid 34390), Herzschlag vor 10 s, postet, letzter Fehler: 2026-10-06T20:19:12.386Z keine Videos in der Antwort: {\"extr"
+     "text": "laeuft (pid 34390), Herzschlag vor 8 s, postet, letzter Fehler: 2026-10-06T20:19:12.386Z keine Videos in der Antwort: {\"extr"
     },
     {
      "name": "Speicher",
@@ -870,13 +870,13 @@
      "name": "GitHub-Push",
      "schluessel": "github",
      "ampel": "gruen",
-     "text": "origin/main 8404f72 vor 7 Min"
+     "text": "origin/main 490ddc7 vor 2 Min"
     },
     {
      "name": "WhatsApp Web",
      "schluessel": "whatsapp",
      "ampel": "gruen",
-     "text": "ausgesetzt, WhatsApp gerade belegt: /opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/Resourc…"
+     "text": "Chatliste gelesen (apple, 12 Zeilen), 6 von 6 Lieferanten sichtbar"
     },
     {
      "name": "Shopify",
@@ -894,7 +894,7 @@
      "name": "Ereignis-Sensor",
      "schluessel": "ereignisse",
      "ampel": "gruen",
-     "text": "letzter Lauf 20:42, 0 offene Ereignisse"
+     "text": "letzter Lauf 20:58, 0 offene Ereignisse"
     },
     {
      "name": "Chrome auf Timos PC",
