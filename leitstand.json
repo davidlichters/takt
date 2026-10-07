@@ -1,7 +1,7 @@
 {
  "version": 2,
- "stand": "2026-10-07T17:32:05Z",
- "stand_berlin": "07.10.2026 19:32",
+ "stand": "2026-10-07T17:47:05Z",
+ "stand_berlin": "07.10.2026 19:47",
  "takt_min": 15,
  "quelle": "takt/leitstand_bauen.py auf Davids Mac, ohne Modell",
  "ziele": {
@@ -53,8 +53,8 @@
     },
     {
      "name": "Chef-Runde",
-     "text": "Um 19:05: entsperrt Stufe 4, weil Stufen 1, 2, 3, 5, 6 in den letzten 4 Std. schon eskaliert sind; Lieferanten Chats …",
-     "ampel": "gelb"
+     "text": "Seit 32 min keine Runde. Die letzte (Chef-Runde, 19:15): Kursrichter entschieden, keine neue Zweitprodukt-Suche mehr, da Adam/John/Bonnie auf …",
+     "ampel": "rot"
     }
    ]
   },
@@ -371,8 +371,8 @@
    "nr": 3,
    "id": "wer",
    "frage": "Wer arbeitet woran?",
-   "ampel": "gelb",
-   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 182 Runden heute.",
+   "ampel": "rot",
+   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 183 Runden heute.",
    "saetze": [],
    "zeilen": [
     {
@@ -387,8 +387,8 @@
     },
     {
      "name": "Claude",
-     "text": "182 Runden heute, alle 5 Minuten eine. Zuletzt: entsperrt Stufe 4, weil Stufen 1, 2, 3, 5, 6 in den letzten 4 Std. schon eskaliert sind …",
-     "ampel": "gelb"
+     "text": "183 Runden heute, alle 5 Minuten eine. Zuletzt: Kursrichter entschieden, keine neue Zweitprodukt-Suche mehr, da Adam/John/Bonnie auf unsere …",
+     "ampel": "rot"
     },
     {
      "name": "Abteilungs-Chats",
@@ -401,7 +401,7 @@
    "nr": 4,
    "id": "tempo",
    "frage": "Wie schnell geht es gerade?",
-   "ampel": "gelb",
+   "ampel": "rot",
    "kurz": "Letzte Stunde: 3 Runden, 0 davon mit fertigem Ergebnis.",
    "saetze": [
     "Den Gewinn heute wissen wir noch nicht, weil uns der Shopify-Zugang fehlt.",
@@ -420,8 +420,8 @@
     },
     {
      "name": "Runden, letzte Stunde",
-     "text": "3 Runden: 0 mit fertigem Ergebnis (Creative, Text oder Klickweg), 2 haben einen Menschen erinnert, 1 nur innen gearbeitet.",
-     "ampel": "gelb"
+     "text": "3 Runden: 0 mit fertigem Ergebnis (Creative, Text oder Klickweg), 1 hat einen Menschen erinnert, 1 nur innen gearbeitet, 1 ist abgestürzt.",
+     "ampel": "rot"
     },
     {
      "name": "Erledigt heute",
@@ -467,7 +467,7 @@
     },
     {
      "name": "Runden",
-     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 3, davon 1 nur innen.",
+     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 3, davon 2 nur innen oder abgestürzt.",
      "ampel": "rot"
     }
    ]
@@ -614,7 +614,7 @@
      "ampel": "grau",
      "detail": "12 Bilder, 10 Videos, neu seit Montag, 05.10., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
      "quelle": "Erstellzeit der Dateien in creatives/fertig, 05_creatives/ads, 05_creatives/ki/fertig",
-     "stand": "19:32",
+     "stand": "19:47",
      "ziel": null
     },
     {
@@ -674,7 +674,7 @@
      "ampel": "grau",
      "detail": "1 Zeile im Codeblock (Formatbeispiel) nicht gezählt. Steht dort eine echte Aufgabe, gehört sie aus dem Block heraus.",
      "quelle": "timo/OFFEN.md",
-     "stand": "19:32",
+     "stand": "19:47",
      "ziel": null
     },
     {
@@ -803,7 +803,7 @@
    "zeilen": [
     {
      "name": "Wächter, letzter Lauf",
-     "wert": "19:30",
+     "wert": "19:46",
      "ampel": "gruen",
      "detail": null,
      "quelle": "waechter_zustand.json",
@@ -816,7 +816,7 @@
      "name": "Takt-Schleife",
      "schluessel": "takt",
      "ampel": "gruen",
-     "text": "letzte Runde 19:11 (chef), rc=0, Runde laeuft seit 15 Min"
+     "text": "letzte Runde 19:34 (chef), rc=143, 1 Fehlrunde in Folge, Runde laeuft seit 11 Min"
     },
     {
      "name": "Perplexity",
@@ -846,7 +846,7 @@
      "name": "GitHub-Push",
      "schluessel": "github",
      "ampel": "gruen",
-     "text": "origin/main a769c65 vor 15 Min"
+     "text": "origin/main ee7a335 vor 10 Min"
     },
     {
      "name": "WhatsApp Web",
@@ -870,7 +870,7 @@
      "name": "Ereignis-Sensor",
      "schluessel": "ereignisse",
      "ampel": "gruen",
-     "text": "letzter Lauf 19:30, 0 offene Ereignisse"
+     "text": "letzter Lauf 19:46, 0 offene Ereignisse"
     },
     {
      "name": "Chrome auf Timos PC",
