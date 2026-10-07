@@ -1,13 +1,6 @@
 [
 {
 "tag": "2026-10-05",
-"zeit": "15:50",
-"typ": "chef",
-"titel": "Versprechen im Laden überprüft",
-"satz": "Ich habe überprüft, ob die Versprechen im Laden stimmen, damit alles richtig ist."
-},
-{
-"tag": "2026-10-05",
 "zeit": "15:55",
 "typ": "chef",
 "titel": "Versand kostet kein Geld",
@@ -4195,6 +4188,13 @@
 {
 "tag": "2026-10-07",
 "zeit": "23:45",
+"typ": "chef",
+"titel": "Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access",
+"satz": ""
+},
+{
+"tag": "2026-10-08",
+"zeit": "23:55",
 "typ": "chef",
 "titel": "Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access",
 "satz": ""
