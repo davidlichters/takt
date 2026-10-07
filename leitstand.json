@@ -1,7 +1,7 @@
 {
  "version": 2,
- "stand": "2026-10-07T12:02:05Z",
- "stand_berlin": "07.10.2026 14:02",
+ "stand": "2026-10-07T12:17:05Z",
+ "stand_berlin": "07.10.2026 14:17",
  "takt_min": 15,
  "quelle": "takt/leitstand_bauen.py auf Davids Mac, ohne Modell",
  "ziele": {
@@ -287,7 +287,7 @@
      "wer": "David",
      "tun": "Perplexity wieder starten",
      "bis": "14:15",
-     "vorbei": false,
+     "vorbei": true,
      "stufe": 6,
      "ja": []
     },
@@ -360,7 +360,7 @@
    "id": "tempo",
    "frage": "Wie schnell geht es gerade?",
    "ampel": "gelb",
-   "kurz": "Letzte Stunde: 7 Runden, 1 davon mit fertigem Ergebnis.",
+   "kurz": "Letzte Stunde: 5 Runden, 1 davon mit fertigem Ergebnis.",
    "saetze": [
     "Den Gewinn heute wissen wir noch nicht, weil uns der Shopify-Zugang fehlt.",
     "Fertig heißt noch nicht live: 8 Ja-Schritte warten auf euer Ja (Karte 2)."
@@ -378,7 +378,7 @@
     },
     {
      "name": "Runden, letzte Stunde",
-     "text": "7 Runden: 1 mit fertigem Ergebnis (Creative, Text oder Klickweg), 4 haben einen Menschen erinnert, 2 nur innen gearbeitet.",
+     "text": "5 Runden: 1 mit fertigem Ergebnis (Creative, Text oder Klickweg), 3 haben einen Menschen erinnert, 1 nur innen gearbeitet.",
      "ampel": "gelb"
     },
     {
@@ -425,7 +425,7 @@
     },
     {
      "name": "Runden",
-     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 7, davon 2 nur innen.",
+     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 5, davon 1 nur innen.",
      "ampel": "rot"
     }
    ]
@@ -572,7 +572,7 @@
      "ampel": "grau",
      "detail": "12 Bilder, 10 Videos, neu seit Montag, 05.10., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
      "quelle": "Erstellzeit der Dateien in creatives/fertig, 05_creatives/ads, 05_creatives/ki/fertig",
-     "stand": "14:02",
+     "stand": "14:17",
      "ziel": null
     },
     {
@@ -632,7 +632,7 @@
      "ampel": "grau",
      "detail": "1 Zeile im Codeblock (Formatbeispiel) nicht gezählt. Steht dort eine echte Aufgabe, gehört sie aus dem Block heraus.",
      "quelle": "timo/OFFEN.md",
-     "stand": "14:02",
+     "stand": "14:17",
      "ziel": null
     },
     {
@@ -761,7 +761,7 @@
    "zeilen": [
     {
      "name": "Wächter, letzter Lauf",
-     "wert": "13:57",
+     "wert": "14:13",
      "ampel": "gruen",
      "detail": null,
      "quelle": "waechter_zustand.json",
@@ -774,7 +774,7 @@
      "name": "Takt-Schleife",
      "schluessel": "takt",
      "ampel": "gruen",
-     "text": "letzte Runde 13:50 (chef), rc=0, Runde laeuft seit 2 Min"
+     "text": "letzte Runde 14:01 (chef), rc=0, Runde laeuft seit 8 Min"
     },
     {
      "name": "Perplexity",
@@ -798,13 +798,13 @@
      "name": "Speicher",
      "schluessel": "speicher",
      "ampel": "gruen",
-     "text": "54 GB frei"
+     "text": "48 GB frei"
     },
     {
      "name": "GitHub-Push",
      "schluessel": "github",
      "ampel": "gruen",
-     "text": "origin/main 7461c1e vor 2 Min"
+     "text": "origin/main 4242d12 vor 7 Min"
     },
     {
      "name": "WhatsApp Web",
@@ -828,7 +828,7 @@
      "name": "Ereignis-Sensor",
      "schluessel": "ereignisse",
      "ampel": "gruen",
-     "text": "letzter Lauf 13:57, 0 offene Ereignisse"
+     "text": "letzter Lauf 14:13, 0 offene Ereignisse"
     },
     {
      "name": "Chrome auf Timos PC",
