@@ -1,13 +1,6 @@
 [
 {
 "tag": "2026-10-05",
-"zeit": "04:23",
-"typ": "chef",
-"titel": "Offene Arbeiten gezählt und gemessen",
-"satz": "Ich habe gezählt, was offen ist, damit David weiß, was noch zu tun ist."
-},
-{
-"tag": "2026-10-05",
 "zeit": "04:35",
 "typ": "chef",
 "titel": "Filme für Werbung fertig",
@@ -4195,6 +4188,13 @@
 {
 "tag": "2026-10-07",
 "zeit": "18:30",
+"typ": "chef",
+"titel": "Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access",
+"satz": ""
+},
+{
+"tag": "2026-10-07",
+"zeit": "18:40",
 "typ": "chef",
 "titel": "Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access",
 "satz": ""
