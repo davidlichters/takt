@@ -1,7 +1,7 @@
 {
  "version": 2,
- "stand": "2026-10-07T00:32:05Z",
- "stand_berlin": "07.10.2026 02:32",
+ "stand": "2026-10-07T00:47:05Z",
+ "stand_berlin": "07.10.2026 02:47",
  "takt_min": 15,
  "quelle": "takt/leitstand_bauen.py auf Davids Mac, ohne Modell",
  "ziele": {
@@ -53,8 +53,8 @@
     },
     {
      "name": "Chef-Runde",
-     "text": "Seit 32 min keine Runde. Die letzte (Recherche-Runde, 02:00): Takt ohne Ergebniszeile beendet (rc=0), Protokoll in ~/takt/laeufe.",
-     "ampel": "rot"
+     "text": "Um 02:35: John-Chat live geprueft, er fragt noch 06.10. zum verworfenen Kinderwagen, unsere Absage (Ja 30) liegt seit …",
+     "ampel": "gruen"
     }
    ]
   },
@@ -63,7 +63,7 @@
    "id": "auf",
    "frage": "Was hält uns auf?",
    "ampel": "rot",
-   "kurz": "30 Dinge halten uns auf.",
+   "kurz": "32 Dinge halten uns auf.",
    "saetze": [
     "Bei jedem steht, wer es tun muss. Oben steht das, was am meisten Geld kostet."
    ],
@@ -177,6 +177,21 @@
       33,
       34,
       33
+     ]
+    },
+    {
+     "prio": 0,
+     "block": "eskalation",
+     "quelle": "gedaechtnis/OFFEN.md",
+     "titel": "John schreibt noch 06.10. 05:48 \"How about this one, bro?\" und 06:09 \"This type of product is …",
+     "wer": "Timo",
+     "tun": "John-Absage (Kinderwagen) jetzt senden, Chat live geprüft 02:38 [SICHER]",
+     "bis": "07:30",
+     "vorbei": false,
+     "stufe": 4,
+     "ja": [
+      30,
+      30
      ]
     },
     {
@@ -403,6 +418,20 @@
      "prio": 0,
      "block": "eskalation",
      "quelle": "gedaechtnis/OFFEN.md",
+     "titel": "zwei Einträge ans Ende hinzufügen, \"FAQ\" Link /pages/faq, \"Returns\" Link /policies/refund-policy …",
+     "wer": "Timo",
+     "tun": "FAQ und Returns fehlen weiter im Handymenü. Shopify Admin > Online Store > Navigation > Main menu",
+     "bis": "07:30",
+     "vorbei": false,
+     "stufe": 5,
+     "ja": [
+      11
+     ]
+    },
+    {
+     "prio": 0,
+     "block": "eskalation",
+     "quelle": "gedaechtnis/OFFEN.md",
      "titel": "im DICloak-Browser auf dem Mac das Profil Dashboard öffnen (Open, falls Close steht erst Close und …",
      "wer": "David",
      "tun": "Perplexity wieder starten",
@@ -482,8 +511,8 @@
    "nr": 3,
    "id": "wer",
    "frage": "Wer arbeitet woran?",
-   "ampel": "rot",
-   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 25 Runden heute.",
+   "ampel": "gruen",
+   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 27 Runden heute.",
    "saetze": [],
    "zeilen": [
     {
@@ -498,8 +527,8 @@
     },
     {
      "name": "Claude",
-     "text": "25 Runden heute, alle 5 Minuten eine. Zuletzt: Takt ohne Ergebniszeile beendet (rc=0), Protokoll in ~/takt/laeufe.",
-     "ampel": "rot"
+     "text": "27 Runden heute, alle 5 Minuten eine. Zuletzt: John-Chat live geprueft, er fragt noch 06.10. zum verworfenen Kinderwagen, unsere Absage (Ja …",
+     "ampel": "gruen"
     },
     {
      "name": "Abteilungs-Chats",
@@ -513,7 +542,7 @@
    "id": "tempo",
    "frage": "Wie schnell geht es gerade?",
    "ampel": "gelb",
-   "kurz": "Letzte Stunde: 6 Runden, 0 davon mit fertigem Ergebnis.",
+   "kurz": "Letzte Stunde: 5 Runden, 0 davon mit fertigem Ergebnis.",
    "saetze": [
     "Den Gewinn heute wissen wir noch nicht, weil uns der Shopify-Zugang fehlt.",
     "Fertig heißt noch nicht live: 8 Ja-Schritte warten auf euer Ja (Karte 2)."
@@ -531,7 +560,7 @@
     },
     {
      "name": "Runden, letzte Stunde",
-     "text": "6 Runden: 0 mit fertigem Ergebnis (Creative, Text oder Klickweg), 4 haben einen Menschen erinnert, 2 nur innen gearbeitet.",
+     "text": "5 Runden: 0 mit fertigem Ergebnis (Creative, Text oder Klickweg), 4 haben einen Menschen erinnert, 1 nur innen gearbeitet.",
      "ampel": "gelb"
     },
     {
@@ -578,7 +607,7 @@
     },
     {
      "name": "Runden",
-     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 6, davon 2 nur innen.",
+     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 5, davon 1 nur innen.",
      "ampel": "rot"
     }
    ]
@@ -725,7 +754,7 @@
      "ampel": "grau",
      "detail": "12 Bilder, 10 Videos, neu seit Montag, 05.10., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
      "quelle": "Erstellzeit der Dateien in creatives/fertig, 05_creatives/ads, 05_creatives/ki/fertig",
-     "stand": "02:32",
+     "stand": "02:47",
      "ziel": null
     },
     {
@@ -785,7 +814,7 @@
      "ampel": "grau",
      "detail": "1 Zeile im Codeblock (Formatbeispiel) nicht gezählt. Steht dort eine echte Aufgabe, gehört sie aus dem Block heraus.",
      "quelle": "timo/OFFEN.md",
-     "stand": "02:32",
+     "stand": "02:47",
      "ziel": null
     },
     {
@@ -914,7 +943,7 @@
    "zeilen": [
     {
      "name": "Wächter, letzter Lauf",
-     "wert": "02:28",
+     "wert": "02:43",
      "ampel": "gruen",
      "detail": null,
      "quelle": "waechter_zustand.json",
@@ -927,7 +956,7 @@
      "name": "Takt-Schleife",
      "schluessel": "takt",
      "ampel": "gruen",
-     "text": "letzte Runde 02:02 (recherche), rc=0, Runde laeuft seit 3 Min"
+     "text": "letzte Runde 02:40 (chef), rc=0"
     },
     {
      "name": "Perplexity",
@@ -945,7 +974,7 @@
      "name": "Crosspost",
      "schluessel": "crosspost",
      "ampel": "gruen",
-     "text": "laeuft (pid 34390), Herzschlag vor 7 s, postet, letzter Fehler: 2026-10-06T20:19:12.386Z keine Videos in der Antwort: {\"extr"
+     "text": "laeuft (pid 34390), Herzschlag vor 1 s, postet, letzter Fehler: 2026-10-06T20:19:12.386Z keine Videos in der Antwort: {\"extr"
     },
     {
      "name": "Speicher",
@@ -957,7 +986,7 @@
      "name": "GitHub-Push",
      "schluessel": "github",
      "ampel": "gruen",
-     "text": "origin/main a7d6a26 vor 2 Min"
+     "text": "origin/main 8c48fff vor 3 Min"
     },
     {
      "name": "WhatsApp Web",
@@ -981,7 +1010,7 @@
      "name": "Ereignis-Sensor",
      "schluessel": "ereignisse",
      "ampel": "gruen",
-     "text": "letzter Lauf 02:28, 0 offene Ereignisse"
+     "text": "letzter Lauf 02:43, 0 offene Ereignisse"
     },
     {
      "name": "Chrome auf Timos PC",
