@@ -1,13 +1,6 @@
 [
 {
 "tag": "2026-10-05",
-"zeit": "00:08",
-"typ": "chef",
-"titel": "Neuer Film und großer Fehler",
-"satz": "Ich habe einen neuen Film gemacht, aber das Bett zeigt sich viel zu spät."
-},
-{
-"tag": "2026-10-05",
 "zeit": "00:35",
 "typ": "chef",
 "titel": "Video anders gemacht für Handys",
@@ -4196,6 +4189,13 @@
 "tag": "2026-10-07",
 "zeit": "16:35",
 "typ": "chef",
+"titel": "Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access",
+"satz": ""
+},
+{
+"tag": "2026-10-07",
+"zeit": "16:40",
+"typ": "recherche",
 "titel": "Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access",
 "satz": ""
 }
