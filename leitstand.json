@@ -1,7 +1,7 @@
 {
  "version": 2,
- "stand": "2026-10-07T04:47:00Z",
- "stand_berlin": "07.10.2026 06:47",
+ "stand": "2026-10-07T05:02:05Z",
+ "stand_berlin": "07.10.2026 07:02",
  "takt_min": 15,
  "quelle": "takt/leitstand_bauen.py auf Davids Mac, ohne Modell",
  "ziele": {
@@ -53,7 +53,7 @@
     },
     {
      "name": "Chef-Runde",
-     "text": "Um 06:30: Bonnie-Text sendefertig gegen ihre letzte Antwort 04.10. 19:26 (Chat 06:3x neu gelesen, still), Feiertagssatz …",
+     "text": "Um 06:55: Cloudflare sperrt unsere Messung mit HTTP 429 (Kasse seit 06:25, Produktseite 06:56), Kasse und Kaufknopf …",
      "ampel": "gruen"
     }
    ]
@@ -239,6 +239,8 @@
       25,
       26,
       28,
+      8,
+      25,
       8
      ]
     },
@@ -307,7 +309,7 @@
    "id": "wer",
    "frage": "Wer arbeitet woran?",
    "ampel": "gruen",
-   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 71 Runden heute.",
+   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 74 Runden heute.",
    "saetze": [],
    "zeilen": [
     {
@@ -322,7 +324,7 @@
     },
     {
      "name": "Claude",
-     "text": "71 Runden heute, alle 5 Minuten eine. Zuletzt: Bonnie-Text sendefertig gegen ihre letzte Antwort 04.10. 19:26 (Chat 06:3x neu gelesen …",
+     "text": "74 Runden heute, alle 5 Minuten eine. Zuletzt: Cloudflare sperrt unsere Messung mit HTTP 429 (Kasse seit 06:25, Produktseite 06:56), Kasse …",
      "ampel": "gruen"
     },
     {
@@ -355,7 +357,7 @@
     },
     {
      "name": "Runden, letzte Stunde",
-     "text": "9 Runden: 1 mit fertigem Ergebnis (Creative, Text oder Klickweg), 7 haben einen Menschen erinnert, 1 nur innen gearbeitet.",
+     "text": "9 Runden: 1 mit fertigem Ergebnis (Creative, Text oder Klickweg), 6 haben einen Menschen erinnert, 2 nur innen gearbeitet.",
      "ampel": "gelb"
     },
     {
@@ -402,7 +404,7 @@
     },
     {
      "name": "Runden",
-     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 9, davon 1 nur innen.",
+     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 9, davon 2 nur innen.",
      "ampel": "rot"
     }
    ]
@@ -549,7 +551,7 @@
      "ampel": "grau",
      "detail": "12 Bilder, 10 Videos, neu seit Montag, 05.10., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
      "quelle": "Erstellzeit der Dateien in creatives/fertig, 05_creatives/ads, 05_creatives/ki/fertig",
-     "stand": "06:47",
+     "stand": "07:02",
      "ziel": null
     },
     {
@@ -609,7 +611,7 @@
      "ampel": "grau",
      "detail": "1 Zeile im Codeblock (Formatbeispiel) nicht gezählt. Steht dort eine echte Aufgabe, gehört sie aus dem Block heraus.",
      "quelle": "timo/OFFEN.md",
-     "stand": "06:47",
+     "stand": "07:02",
      "ziel": null
     },
     {
@@ -738,7 +740,7 @@
    "zeilen": [
     {
      "name": "Wächter, letzter Lauf",
-     "wert": "06:43",
+     "wert": "06:59",
      "ampel": "gruen",
      "detail": null,
      "quelle": "waechter_zustand.json",
@@ -751,7 +753,7 @@
      "name": "Takt-Schleife",
      "schluessel": "takt",
      "ampel": "gruen",
-     "text": "letzte Runde 06:32 (chef), rc=0, Runde laeuft seit 8 Min"
+     "text": "letzte Runde 06:57 (chef), rc=0"
     },
     {
      "name": "Perplexity",
@@ -769,7 +771,7 @@
      "name": "Crosspost",
      "schluessel": "crosspost",
      "ampel": "gruen",
-     "text": "laeuft (pid 34390), Herzschlag vor 9 s, postet, letzter Fehler: 2026-10-06T20:19:12.386Z keine Videos in der Antwort: {\"extr"
+     "text": "laeuft (pid 34390), Herzschlag vor 0 s, postet, letzter Fehler: 2026-10-06T20:19:12.386Z keine Videos in der Antwort: {\"extr"
     },
     {
      "name": "Speicher",
@@ -781,13 +783,13 @@
      "name": "GitHub-Push",
      "schluessel": "github",
      "ampel": "gruen",
-     "text": "origin/main 9aec16b vor 4 Min"
+     "text": "origin/main 30c469a vor 3 Min"
     },
     {
      "name": "WhatsApp Web",
      "schluessel": "whatsapp",
      "ampel": "gruen",
-     "text": "ausgesetzt, WhatsApp gerade belegt: /bin/zsh -c source /Users/david/claude-plaetze/11/shell-snapshots/snapshot-zsh-1791347749…"
+     "text": "Chatliste gelesen (apple, 13 Zeilen), 6 von 6 Lieferanten sichtbar"
     },
     {
      "name": "Shopify",
@@ -805,7 +807,7 @@
      "name": "Ereignis-Sensor",
      "schluessel": "ereignisse",
      "ampel": "gruen",
-     "text": "letzter Lauf 06:43, 0 offene Ereignisse"
+     "text": "letzter Lauf 06:59, 0 offene Ereignisse"
     },
     {
      "name": "Chrome auf Timos PC",
