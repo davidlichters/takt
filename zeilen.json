@@ -1,13 +1,6 @@
 [
 {
 "tag": "2026-10-05",
-"zeit": "00:35",
-"typ": "chef",
-"titel": "Video anders gemacht für Handys",
-"satz": "Ich habe es hochkant gemacht und überlegt, ob Bilder oder Film besser passen."
-},
-{
-"tag": "2026-10-05",
 "zeit": "00:43",
 "typ": "chef",
 "titel": "Hundebett-Werbung wird viel zu teuer",
@@ -4196,6 +4189,13 @@
 "tag": "2026-10-07",
 "zeit": "16:40",
 "typ": "recherche",
+"titel": "Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access",
+"satz": ""
+},
+{
+"tag": "2026-10-07",
+"zeit": "16:45",
+"typ": "chef",
 "titel": "Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access",
 "satz": ""
 }
