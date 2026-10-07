@@ -1,13 +1,6 @@
 [
 {
 "tag": "2026-10-04",
-"zeit": "11:12",
-"typ": "chef",
-"titel": "Versandtext verbessert für Kunden",
-"satz": "Ich habe gezeigt, wie lange die Pakete laufen, damit Shopify unser Geld nicht zurückhält."
-},
-{
-"tag": "2026-10-04",
 "zeit": "11:14",
 "typ": "chef",
 "titel": "Neues Bild und Antwort für Fragen fertig",
@@ -4195,6 +4188,13 @@
 {
 "tag": "2026-10-07",
 "zeit": "08:40",
+"typ": "chef",
+"titel": "Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access",
+"satz": ""
+},
+{
+"tag": "2026-10-07",
+"zeit": "08:45",
 "typ": "chef",
 "titel": "Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access",
 "satz": ""
