@@ -1,13 +1,6 @@
 [
 {
 "tag": "2026-10-04",
-"zeit": "19:20",
-"typ": "chef",
-"titel": "Bonnie sagt wann und wie bezahlen",
-"satz": "Ich habe Bonnies Antwort bekommen, aber ein Tag ist zu kurz für den Laden."
-},
-{
-"tag": "2026-10-04",
 "zeit": "19:22",
 "typ": "chef",
 "titel": "Antwort für zwei Pakete geschrieben",
@@ -4195,6 +4188,13 @@
 {
 "tag": "2026-10-07",
 "zeit": "13:45",
+"typ": "chef",
+"titel": "Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access",
+"satz": ""
+},
+{
+"tag": "2026-10-07",
+"zeit": "13:55",
 "typ": "chef",
 "titel": "Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access",
 "satz": ""
