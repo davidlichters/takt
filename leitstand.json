@@ -1,7 +1,7 @@
 {
  "version": 2,
- "stand": "2026-10-07T22:02:05Z",
- "stand_berlin": "08.10.2026 00:02",
+ "stand": "2026-10-07T22:08:34Z",
+ "stand_berlin": "08.10.2026 00:08",
  "takt_min": 15,
  "quelle": "takt/leitstand_bauen.py auf Davids Mac, ohne Modell",
  "ziele": {
@@ -43,8 +43,8 @@
     },
     {
      "name": "Recherche",
-     "text": "Perplexity hat heute 0 Fragen beantwortet, die letzte um 07.10. 23:54. Die letzten 3 Versuche kamen ohne Antwort zurück.",
-     "ampel": "gelb"
+     "text": "Perplexity hat heute 1 Frage beantwortet, die letzte um 00:03.",
+     "ampel": "gruen"
     },
     {
      "name": "Technik",
@@ -53,7 +53,7 @@
     },
     {
      "name": "Chef-Runde",
-     "text": "Um 07.10. 23:55: Bonnie-Chat seit 3 Tagen still, obwohl David um 23:22/23:24 gerade John und Adam geschrieben hat; neue Zeile …",
+     "text": "Um 00:00: Ereignis, 3-fach Perplexity-Antwort zu Meta/FTC-Regeln fuer Free Shipping ausgewertet: Bearbeitung/Transport …",
      "ampel": "gruen"
     }
    ]
@@ -138,7 +138,7 @@
    "id": "wer",
    "frage": "Wer arbeitet woran?",
    "ampel": "gruen",
-   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 0 Runden heute.",
+   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 1 Runde heute.",
    "saetze": [],
    "zeilen": [
     {
@@ -153,7 +153,7 @@
     },
     {
      "name": "Claude",
-     "text": "0 Runden heute, alle 5 Minuten eine. Zuletzt: Bonnie-Chat seit 3 Tagen still, obwohl David um 23:22/23:24 gerade John und Adam geschrieben …",
+     "text": "1 Runde heute, alle 5 Minuten eine. Zuletzt: Ereignis, 3-fach Perplexity-Antwort zu Meta/FTC-Regeln fuer Free Shipping ausgewertet …",
      "ampel": "gruen"
     },
     {
@@ -374,7 +374,7 @@
      "ampel": "grau",
      "detail": "12 Bilder, 10 Videos, neu seit Montag, 05.10., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
      "quelle": "Erstellzeit der Dateien in creatives/fertig, 05_creatives/ads, 05_creatives/ki/fertig",
-     "stand": "00:02",
+     "stand": "00:08",
      "ziel": null
     },
     {
@@ -434,7 +434,7 @@
      "ampel": "grau",
      "detail": "1 Zeile im Codeblock (Formatbeispiel) nicht gezählt. Steht dort eine echte Aufgabe, gehört sie aus dem Block heraus.",
      "quelle": "timo/OFFEN.md",
-     "stand": "00:02",
+     "stand": "00:08",
      "ziel": null
     },
     {
@@ -563,7 +563,7 @@
    "zeilen": [
     {
      "name": "Wächter, letzter Lauf",
-     "wert": "00:01",
+     "wert": "00:06",
      "ampel": "gruen",
      "detail": null,
      "quelle": "waechter_zustand.json",
@@ -576,13 +576,13 @@
      "name": "Takt-Schleife",
      "schluessel": "takt",
      "ampel": "gruen",
-     "text": "letzte Runde 00:00 (chef), rc=0, Runde laeuft seit 0 Min"
+     "text": "letzte Runde 00:04 (chef), rc=0, Runde laeuft seit 1 Min"
     },
     {
      "name": "Perplexity",
      "schluessel": "perplexity",
      "ampel": "gruen",
-     "text": "Gins laeuft; letzter Lauf 23:58 ohne Antwortdatei: Absenden: Perplexity meldet 1x \"Unable to start session\" (Ko"
+     "text": "letzter Lauf 23:59 erfolgreich, Gins laeuft"
     },
     {
      "name": "Davids Chrome",
@@ -594,7 +594,7 @@
      "name": "Crosspost",
      "schluessel": "crosspost",
      "ampel": "gruen",
-     "text": "laeuft (pid 34390), Herzschlag vor 6 s, postet, letzter Fehler: 2026-10-07T19:39:48.439Z keine Videos in der Antwort: {\"extr"
+     "text": "laeuft (pid 34390), Herzschlag vor 3 s, postet, letzter Fehler: 2026-10-07T19:39:48.439Z keine Videos in der Antwort: {\"extr"
     },
     {
      "name": "Speicher",
@@ -606,7 +606,7 @@
      "name": "GitHub-Push",
      "schluessel": "github",
      "ampel": "gruen",
-     "text": "origin/main 69bdfaa vor 3 Min"
+     "text": "origin/main 2a005d4 vor 1 Min"
     },
     {
      "name": "WhatsApp Web",
@@ -630,7 +630,7 @@
      "name": "Ereignis-Sensor",
      "schluessel": "ereignisse",
      "ampel": "gruen",
-     "text": "letzter Lauf 00:01, 0 offene Ereignisse"
+     "text": "letzter Lauf 00:06, 0 offene Ereignisse"
     },
     {
      "name": "Chrome auf Timos PC",
