@@ -1,13 +1,6 @@
 [
 {
 "tag": "2026-10-05",
-"zeit": "01:05",
-"typ": "chef",
-"titel": "Neues Werbebild mit Rentier gemacht",
-"satz": "Ich habe ein Bild gemacht, damit Kunden sehen, das Geschenk wird jeden Tag benutzt."
-},
-{
-"tag": "2026-10-05",
 "zeit": "01:20",
 "typ": "chef",
 "titel": "Neues Bild mit Hundebett als Geschenk",
@@ -4195,6 +4188,13 @@
 {
 "tag": "2026-10-07",
 "zeit": "16:50",
+"typ": "chef",
+"titel": "Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access",
+"satz": ""
+},
+{
+"tag": "2026-10-07",
+"zeit": "16:55",
 "typ": "chef",
 "titel": "Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access",
 "satz": ""
