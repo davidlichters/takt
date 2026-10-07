@@ -1,13 +1,6 @@
 [
 {
 "tag": "2026-10-05",
-"zeit": "08:48",
-"typ": "chef",
-"titel": "Kaufknopf zeigt immer noch falsch",
-"satz": "Ich habe überprüft: Kaufknopf kaputt, aber das Geld von Kunden kommt nach fünf Tagen."
-},
-{
-"tag": "2026-10-05",
 "zeit": "08:57",
 "typ": "chef",
 "titel": "Brief für Geld zurück fertig",
@@ -4195,6 +4188,13 @@
 {
 "tag": "2026-10-07",
 "zeit": "21:15",
+"typ": "chef",
+"titel": "Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access",
+"satz": ""
+},
+{
+"tag": "2026-10-07",
+"zeit": "21:20",
 "typ": "chef",
 "titel": "Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access",
 "satz": ""
