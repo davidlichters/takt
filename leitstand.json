@@ -1,7 +1,7 @@
 {
  "version": 2,
- "stand": "2026-10-07T21:47:05Z",
- "stand_berlin": "07.10.2026 23:47",
+ "stand": "2026-10-07T22:02:05Z",
+ "stand_berlin": "08.10.2026 00:02",
  "takt_min": 15,
  "quelle": "takt/leitstand_bauen.py auf Davids Mac, ohne Modell",
  "ziele": {
@@ -9,7 +9,7 @@
   "gewinn_tag_usd": 2174,
   "break_even_cpa_usd": 47.01,
   "stunden_je_person": 10,
-  "tag": 7,
+  "tag": 8,
   "tage_gesamt": 92
  },
  "karten": [
@@ -43,8 +43,8 @@
     },
     {
      "name": "Recherche",
-     "text": "Perplexity hat heute 10 Fragen beantwortet, die letzte um 23:45.",
-     "ampel": "gruen"
+     "text": "Perplexity hat heute 0 Fragen beantwortet, die letzte um 07.10. 23:54. Die letzten 3 Versuche kamen ohne Antwort zurück.",
+     "ampel": "gelb"
     },
     {
      "name": "Technik",
@@ -53,7 +53,7 @@
     },
     {
      "name": "Chef-Runde",
-     "text": "Um 23:40: Ereignis, zwei weitere Perplexity-Antworten zur selben Frage ausgewertet, gleiche Entscheidung bestaetigt …",
+     "text": "Um 07.10. 23:55: Bonnie-Chat seit 3 Tagen still, obwohl David um 23:22/23:24 gerade John und Adam geschrieben hat; neue Zeile …",
      "ampel": "gruen"
     }
    ]
@@ -63,7 +63,7 @@
    "id": "auf",
    "frage": "Was hält uns auf?",
    "ampel": "rot",
-   "kurz": "24 Dinge halten uns auf.",
+   "kurz": "6 Dinge halten uns auf.",
    "saetze": [
     "Bei jedem steht, wer es tun muss. Oben steht das, was am meisten Geld kostet."
    ],
@@ -73,11 +73,11 @@
      "prio": 0,
      "block": "eskalation",
      "quelle": "gedaechtnis/OFFEN.md",
-     "titel": "der Text 'FREE US SHIPPING · ORDER BY DEC 4 FOR CHRISTMAS' steht sitewide live, Shopify Admin > …",
-     "wer": "Timo",
-     "tun": "Ankündigungsleiste im Theme ändern",
+     "titel": "Zwei Chef-Runden liefen am 07.10. 23:15 gleichzeitig auf demselben Takt-Slot und haben parallel an …",
+     "wer": "David",
+     "tun": null,
      "bis": "07:30",
-     "vorbei": true,
+     "vorbei": false,
      "stufe": 1,
      "ja": []
     },
@@ -85,35 +85,11 @@
      "prio": 0,
      "block": "eskalation",
      "quelle": "gedaechtnis/OFFEN.md",
-     "titel": "Timo schaut einmal in Shopify Admin > Orders und ins Postfach support@porchnap.com und schreibt in …",
-     "wer": "Timo",
-     "tun": null,
-     "bis": "09:50",
-     "vorbei": true,
-     "stufe": 1,
-     "ja": []
-    },
-    {
-     "prio": 0,
-     "block": "eskalation",
-     "quelle": "gedaechtnis/OFFEN.md",
-     "titel": "unsere eigene Prüfadresse bekommt seit 12:55 auf jeder Seite (Start, Produkt, Richtlinien) HTTP 429 …",
-     "wer": "Timo",
-     "tun": "Öffnet porchnap.com einmal übers Handynetz (nicht WLAN, nicht unser Rechner) und sagt, ob die Seite normal lädt. 1 Minute, 0 USD …",
-     "bis": "13:45",
-     "vorbei": true,
-     "stufe": 1,
-     "ja": []
-    },
-    {
-     "prio": 0,
-     "block": "eskalation",
-     "quelle": "gedaechtnis/OFFEN.md",
-     "titel": "Frist 14:30 fuer den Shopify-Lesezugang ist seit 4 Stunden verstrichen, Zugang fehlt weiter. Timo …",
+     "titel": "Max-Limit von 1@porchnap.com ist wieder frei. In der Claude-App von 2@ auf 1@porchnap.com wechseln …",
      "wer": "David",
      "tun": null,
-     "bis": "18:45",
-     "vorbei": true,
+     "bis": "13:05",
+     "vorbei": false,
      "stufe": 1,
      "ja": []
     },
@@ -121,247 +97,20 @@
      "prio": 0,
      "block": "eskalation",
      "quelle": "gedaechtnis/OFFEN.md",
-     "titel": "Runde 19:54 (Typ chef) endete mit rc=143 (vom System abgebrochen), 2 Fehlrunden in Folge; eigener …",
-     "wer": "David",
-     "tun": "Die Takt-Schleife selbst scheitert wiederholt, nicht nur einzelne Werkzeuge. 1 Minute lesen, 0 USD. Gemessen 20:06 [SICHER …",
-     "bis": "20:45",
-     "vorbei": true,
-     "stufe": 1,
-     "ja": []
-    },
-    {
-     "prio": 0,
-     "block": "eskalation",
-     "quelle": "gedaechtnis/OFFEN.md",
-     "titel": "Shopify-Lesezugang fehlt jetzt seit 6 Std 55 Min (Frist war 14:30, dann 18:45, beide verstrichen) …",
+     "titel": "Bonnie-Text senden, WhatsApp \"Bonnie DS\", Block \"Gewählt\" aus …",
      "wer": "David",
      "tun": null,
-     "bis": "21:25",
-     "vorbei": true,
-     "stufe": 1,
-     "ja": []
-    },
-    {
-     "prio": 0,
-     "block": "eskalation",
-     "quelle": "gedaechtnis/OFFEN.md",
-     "titel": "John schreibt noch 06.10. 05:48 \"How about this one, bro?\" und 06:09 \"This type of product is …",
-     "wer": "Timo",
-     "tun": "John-Absage (Kinderwagen) jetzt senden, Chat live geprüft 02:38 [SICHER]",
      "bis": "07:30",
-     "vorbei": true,
+     "vorbei": false,
      "stufe": 4,
      "ja": [
-      30,
-      30
+      32
      ]
-    },
-    {
-     "prio": 0,
-     "block": "eskalation",
-     "quelle": "gedaechtnis/OFFEN.md",
-     "titel": "Bonnie DS aus ~/timo/entwuerfe/2026-10-07_bonnie_eine_nachricht.md (Block \"Gewählt\", neu 07.10 …",
-     "wer": "Timo",
-     "tun": "Sendet drei fertige Lieferanten-Texte, je der Block zum Senden",
-     "bis": "09:05",
-     "vorbei": true,
-     "stufe": 4,
-     "ja": [
-      30,
-      30
-     ]
-    },
-    {
-     "prio": 0,
-     "block": "eskalation",
-     "quelle": "gedaechtnis/OFFEN.md",
-     "titel": "erst die Bettlieferantin (Chat mit DS im Namen, Versandtag und Zoll), dann John (Supplier), dann …",
-     "wer": "Timo",
-     "tun": "Drei fertige Lieferanten-Texte aus dem Tagesblatt JETZT in WhatsApp senden, Bettlieferantin zuerst. Je Chat den Block aus …",
-     "bis": "10:15",
-     "vorbei": true,
-     "stufe": 4,
-     "ja": []
-    },
-    {
-     "prio": 0,
-     "block": "eskalation",
-     "quelle": "gedaechtnis/OFFEN.md",
-     "titel": "Drei fertige Lieferanten-Texte aus dem Tagesblatt JETZT in WhatsApp senden, Bettlieferantin zuerst …",
-     "wer": "Timo",
-     "tun": null,
-     "bis": "19:15",
-     "vorbei": true,
-     "stufe": 4,
-     "ja": []
-    },
-    {
-     "prio": 0,
-     "block": "eskalation",
-     "quelle": "gedaechtnis/OFFEN.md",
-     "titel": "Shopify Admin > Apps > Kaching Bundles > A/B tests > Stop (nicht löschen). 2 Minuten, 0 USD.",
-     "wer": "Timo",
-     "tun": "Kaching-A/B-Test stoppen",
-     "bis": "07:30",
-     "vorbei": true,
-     "stufe": 5,
-     "ja": [
-      5
-     ]
-    },
-    {
-     "prio": 0,
-     "block": "eskalation",
-     "quelle": "gedaechtnis/OFFEN.md",
-     "titel": "bei 1 Bett stehen zwei Design-Auswahlen übereinander. Shopify Admin > Online Store > Themes > …",
-     "wer": "Timo",
-     "tun": "Produktseite",
-     "bis": "07:30",
-     "vorbei": true,
-     "stufe": 5,
-     "ja": [
-      7
-     ]
-    },
-    {
-     "prio": 0,
-     "block": "eskalation",
-     "quelle": "gedaechtnis/OFFEN.md",
-     "titel": "Produktbeschreibung 'Porchnap Sleigh Bed' sagt 21x 'small pets' (auch in Meta-Beschreibung und …",
-     "wer": "Timo",
-     "tun": null,
-     "bis": "07:30",
-     "vorbei": true,
-     "stufe": 5,
-     "ja": []
-    },
-    {
-     "prio": 0,
-     "block": "eskalation",
-     "quelle": "gedaechtnis/OFFEN.md",
-     "titel": "Kaufknopf zeigt noch den Preis. Shopify Admin > Online Store > Themes > Customize > Produktseite > …",
-     "wer": "Timo",
-     "tun": null,
-     "bis": "07:30",
-     "vorbei": true,
-     "stufe": 5,
-     "ja": [
-      19,
-      19,
-      19,
-      19
-     ]
-    },
-    {
-     "prio": 0,
-     "block": "eskalation",
-     "quelle": "gedaechtnis/OFFEN.md",
-     "titel": "zwei Einträge ans Ende hinzufügen, \"FAQ\" Link /pages/faq, \"Returns\" Link /policies/refund-policy …",
-     "wer": "Timo",
-     "tun": "FAQ und Returns fehlen weiter im Handymenü. Shopify Admin > Online Store > Navigation > Main menu",
-     "bis": "07:30",
-     "vorbei": true,
-     "stufe": 5,
-     "ja": [
-      11
-     ]
-    },
-    {
-     "prio": 0,
-     "block": "eskalation",
-     "quelle": "gedaechtnis/OFFEN.md",
-     "titel": "in Shopify Admin > Apps > Kaching Bundles > Deal vF-m > Custom CSS genau diese eine Zeile einfügen …",
-     "wer": "Timo",
-     "tun": "Kaufkasten-Zoom-Zeile setzen (Ja 6, Ursache steht schon bei 06.10. 18:15)",
-     "bis": "09:10",
-     "vorbei": true,
-     "stufe": 5,
-     "ja": [
-      6,
-      6,
-      7,
-      5,
-      5
-     ]
-    },
-    {
-     "prio": 0,
-     "block": "eskalation",
-     "quelle": "gedaechtnis/OFFEN.md",
-     "titel": "Online Store > Preferences > Title and meta description. Homepage title: Porchnap | Christmas Beds …",
-     "wer": "Timo",
-     "tun": "Ändert direkt nach dem Kaching-Besuch von 09:10, im selben Shopify Admin, Titel und Beschreibung der Startseite in 2 Minuten, 0 …",
-     "bis": "09:25",
-     "vorbei": true,
-     "stufe": 5,
-     "ja": [
-      15,
-      25,
-      28,
-      15
-     ]
-    },
-    {
-     "prio": 0,
-     "block": "eskalation",
-     "quelle": "gedaechtnis/OFFEN.md",
-     "titel": "\"Shop-Spur starten, ja 19, Größenzeile live\". 1 Minute, 0 USD.",
-     "wer": "David",
-     "tun": "Im Shop-Chat senden",
-     "bis": "12:15",
-     "vorbei": true,
-     "stufe": 5,
-     "ja": [
-      19,
-      19,
-      19,
-      19
-     ]
-    },
-    {
-     "prio": 0,
-     "block": "eskalation",
-     "quelle": "gedaechtnis/OFFEN.md",
-     "titel": "Shopify Admin > Settings > Policies > Terms of service (SECTION 3, 4, 5 je einen Satz …",
-     "wer": "Timo",
-     "tun": "Macht Station 4 und 5 aus ~/timo/launch/kurs_umsetzung/02_seiten_und_service/TIMO_ADMIN_2026-10-07.md direkt selbst, ohne auf die …",
-     "bis": "19:00",
-     "vorbei": true,
-     "stufe": 5,
-     "ja": [
-      25,
-      19,
-      25
-     ]
-    },
-    {
-     "prio": 0,
-     "block": "eskalation",
-     "quelle": "gedaechtnis/OFFEN.md",
-     "titel": "Contabo-Widerruf per Mail senden, der fertige Text steht im Tagesblatt JETZT unter David. Empfänger …",
-     "wer": "David",
-     "tun": null,
-     "bis": "12:00",
-     "vorbei": true,
-     "stufe": 6,
-     "ja": []
-    },
-    {
-     "prio": 0,
-     "block": "eskalation",
-     "quelle": "gedaechtnis/OFFEN.md",
-     "titel": "im DICloak-Browser auf dem Mac das Profil Dashboard öffnen (Open, falls Close steht erst Close und …",
-     "wer": "David",
-     "tun": "Perplexity wieder starten",
-     "bis": "14:15",
-     "vorbei": true,
-     "stufe": 6,
-     "ja": []
     },
     {
      "prio": 1.5,
      "block": "ja",
-     "titel": "4 Ja-Fragen warten: ja bonnie zahlweg (bis 05.10. 10:00), ja adam (bis 05.10. 12:00), ja adam2 (bis 05.10. 12:00) und 1 weitere",
+     "titel": "7 Ja-Fragen warten: ja knopf (bis 04.10. 12:00), ja agb (bis 04.10. 12:00), ja moneyback (bis 04.10. 12:00) und 4 weitere",
      "wer": "David oder Timo",
      "tun": "Im Claude-Chat „ja <Nr>“ schreiben, Liste in timo/JA_LISTE.md",
      "quelle": "timo/JA_LISTE.md"
@@ -377,10 +126,10 @@
     {
      "prio": 4,
      "block": "aufgaben",
-     "wer": "Timo 2, David 0, Claude 3",
+     "wer": "Timo 2, David 1, Claude 4",
      "tun": "Die älteste zuerst erledigen oder neu datieren; Liste unten unter Offene Aufgaben",
-     "titel": "5 Aufgaben überfällig",
-     "text": "Älteste: 04.10., Timo, 10 min, im BM3 vor dem Anzeigenstart. Davon nennen Timo 2, David 0, Claude 3."
+     "titel": "7 Aufgaben überfällig",
+     "text": "Älteste: 04.10., Timo, 10 min, im BM3 vor dem Anzeigenstart. Davon nennen Timo 2, David 1, Claude 4."
     }
    ]
   },
@@ -389,12 +138,12 @@
    "id": "wer",
    "frage": "Wer arbeitet woran?",
    "ampel": "gruen",
-   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 221 Runden heute.",
+   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 0 Runden heute.",
    "saetze": [],
    "zeilen": [
     {
      "name": "David",
-     "text": "Nicht gemessen, weil David die Mac-Messung am 03.10. abgeschaltet hat. Auf David warten heute 6 Sachen (Karte 2).",
+     "text": "Nicht gemessen, weil David die Mac-Messung am 03.10. abgeschaltet hat. Auf David warten heute 3 Sachen (Karte 2).",
      "ampel": "grau"
     },
     {
@@ -404,7 +153,7 @@
     },
     {
      "name": "Claude",
-     "text": "221 Runden heute, alle 5 Minuten eine. Zuletzt: Ereignis, zwei weitere Perplexity-Antworten zur selben Frage ausgewertet, gleiche Entscheidung …",
+     "text": "0 Runden heute, alle 5 Minuten eine. Zuletzt: Bonnie-Chat seit 3 Tagen still, obwohl David um 23:22/23:24 gerade John und Adam geschrieben …",
      "ampel": "gruen"
     },
     {
@@ -442,8 +191,8 @@
     },
     {
      "name": "Erledigt heute",
-     "text": "0 in OFFEN.md als erledigt eingetragen, 2 Ja-Schritte erledigt.",
-     "ampel": "gruen"
+     "text": "0 in OFFEN.md als erledigt eingetragen, 0 Ja-Schritte erledigt.",
+     "ampel": "gelb"
     },
     {
      "name": "Neu gebaut heute",
@@ -539,10 +288,10 @@
   {
    "prio": 4,
    "block": "aufgaben",
-   "wer": "Timo 2, David 0, Claude 3",
+   "wer": "Timo 2, David 1, Claude 4",
    "tun": "die älteste zuerst erledigen oder neu datieren; Liste unten unter Offene Aufgaben",
-   "titel": "5 Aufgaben überfällig",
-   "text": "Älteste: 04.10., Timo, 10 min, im BM3 vor dem Anzeigenstart. Davon nennen Timo 2, David 0, Claude 3."
+   "titel": "7 Aufgaben überfällig",
+   "text": "Älteste: 04.10., Timo, 10 min, im BM3 vor dem Anzeigenstart. Davon nennen Timo 2, David 1, Claude 4."
   }
  ],
  "bloecke": [
@@ -610,7 +359,7 @@
      "detail": "letzte Messung 05.10. 01:49, älter als 6 h: damals 0,00 USD",
      "quelle": "Shopify Porchnap list-orders created_at>=2026-10-01: 0 Bestellungen, 01:49; keine Werbeausgaben laut Meta",
      "stand": "05.10. 01:49",
-     "ziel": "200.000 USD bis 31.12., Soll bis gestern 13.044 USD (6 Tage)"
+     "ziel": "200.000 USD bis 31.12., Soll bis gestern 15.218 USD (7 Tage)"
     }
    ]
   },
@@ -625,7 +374,7 @@
      "ampel": "grau",
      "detail": "12 Bilder, 10 Videos, neu seit Montag, 05.10., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
      "quelle": "Erstellzeit der Dateien in creatives/fertig, 05_creatives/ads, 05_creatives/ki/fertig",
-     "stand": "23:47",
+     "stand": "00:02",
      "ziel": null
     },
     {
@@ -665,7 +414,7 @@
     },
     {
      "name": "Nächster Check-in",
-     "wert": "09:00 morgen",
+     "wert": "09:00 heute",
      "ampel": "grau",
      "detail": "Tagesstart 08:00 ist festgelegt (Plan 5). Die Check-in-Zeiten (09:00, 13:00, 18:00, 22:00) sind der Vorschlag aus Plan 2.4, noch nicht festgelegt.",
      "quelle": "LEITSTAND_PLAN.md 2.4 und 5",
@@ -685,22 +434,22 @@
      "ampel": "grau",
      "detail": "1 Zeile im Codeblock (Formatbeispiel) nicht gezählt. Steht dort eine echte Aufgabe, gehört sie aus dem Block heraus.",
      "quelle": "timo/OFFEN.md",
-     "stand": "23:47",
+     "stand": "00:02",
      "ziel": null
     },
     {
      "name": "Überfällig",
-     "wert": "5",
+     "wert": "7",
      "ampel": "rot",
-     "detail": "davon nennen Timo 2, David 0, Claude 3",
+     "detail": "davon nennen Timo 2, David 1, Claude 4",
      "quelle": null,
      "stand": null,
      "ziel": null
     },
     {
      "name": "Heute fällig",
-     "wert": "2",
-     "ampel": "gelb",
+     "wert": "0",
+     "ampel": "grau",
      "detail": null,
      "quelle": null,
      "stand": null,
@@ -713,7 +462,7 @@
      "datum_kurz": "04.10.",
      "wer": "Timo, 10 min, im BM3 vor dem Anzeigenstart",
      "text": "ENTSCHIEDEN 03.10. 23:33 Kursrichter AENDERN (~/takt/kursrichter/urteile/2026-10-03_232719.md): erst Pixel/Datensatz …",
-     "tage_ueberfaellig": 3,
+     "tage_ueberfaellig": 4,
      "ampel": "rot"
     },
     {
@@ -721,7 +470,7 @@
      "datum_kurz": "04.10.",
      "wer": "Timo, 5 min, vor dem Anzeigenstart",
      "text": "ENTSCHIEDEN 03.10. 23:33 Kursrichter AENDERN (~/takt/kursrichter/urteile/2026-10-03_232734.md): Shopify Inbox > Agent …",
-     "tage_ueberfaellig": 3,
+     "tage_ueberfaellig": 4,
      "ampel": "rot"
     },
     {
@@ -729,7 +478,7 @@
      "datum_kurz": "05.10.",
      "wer": "Claude (Mac)",
      "text": "Daily Mentor Academy (David Fogarty): Neubezug am 02.10.2026 auf Timos PC erledigt, 299 Lektionen von Timos Handy in …",
-     "tage_ueberfaellig": 2,
+     "tage_ueberfaellig": 3,
      "ampel": "rot"
     },
     {
@@ -737,7 +486,7 @@
      "datum_kurz": "06.10.",
      "wer": "Claude, 45 min",
      "text": "Bauplan aus /system-verbessern 04.10.: Handy-Sicht-Prüfung ~/takt/handy_sicht.mjs (headless, 390 px: nichts ragt raus …",
-     "tage_ueberfaellig": 1,
+     "tage_ueberfaellig": 2,
      "ampel": "rot"
     },
     {
@@ -745,7 +494,7 @@
      "datum_kurz": "06.10.",
      "wer": "Claude, 30 min",
      "text": "Bauplan aus /system-verbessern 04.10.: Prüfung vor dem Senden, die Antwortenden mit Ja-Frage ohne frisches …",
-     "tage_ueberfaellig": 1,
+     "tage_ueberfaellig": 2,
      "ampel": "rot"
     },
     {
@@ -753,16 +502,16 @@
      "datum_kurz": "07.10.",
      "wer": "Claude, 20 min",
      "text": "Bauplan aus /system-verbessern 04.10.: Leitstand-Kachel \"Was läuft gerade\" (Hintergrundaufgaben mit Startzeit und Ziel) …",
-     "tage_ueberfaellig": 0,
-     "ampel": "gelb"
+     "tage_ueberfaellig": 1,
+     "ampel": "rot"
     },
     {
      "datum": "2026-10-07",
      "datum_kurz": "07.10.",
      "wer": "David, 1 min",
      "text": "Dateien vom Zweitlaptop, die David am 25.09. per WhatsApp geschickt hat: welche waren das, werden sie noch gebraucht? …",
-     "tage_ueberfaellig": 0,
-     "ampel": "gelb"
+     "tage_ueberfaellig": 1,
+     "ampel": "rot"
     },
     {
      "datum": "2026-10-10",
@@ -814,7 +563,7 @@
    "zeilen": [
     {
      "name": "Wächter, letzter Lauf",
-     "wert": "23:45",
+     "wert": "00:01",
      "ampel": "gruen",
      "detail": null,
      "quelle": "waechter_zustand.json",
@@ -827,13 +576,13 @@
      "name": "Takt-Schleife",
      "schluessel": "takt",
      "ampel": "gruen",
-     "text": "letzte Runde 23:44 (chef), rc=0, Runde laeuft seit 0 Min"
+     "text": "letzte Runde 00:00 (chef), rc=0, Runde laeuft seit 0 Min"
     },
     {
      "name": "Perplexity",
      "schluessel": "perplexity",
      "ampel": "gruen",
-     "text": "letzter Lauf 23:40 erfolgreich, Gins laeuft"
+     "text": "Gins laeuft; letzter Lauf 23:58 ohne Antwortdatei: Absenden: Perplexity meldet 1x \"Unable to start session\" (Ko"
     },
     {
      "name": "Davids Chrome",
@@ -845,19 +594,19 @@
      "name": "Crosspost",
      "schluessel": "crosspost",
      "ampel": "gruen",
-     "text": "laeuft (pid 34390), Herzschlag vor 3 s, postet, letzter Fehler: 2026-10-07T19:39:48.439Z keine Videos in der Antwort: {\"extr"
+     "text": "laeuft (pid 34390), Herzschlag vor 6 s, postet, letzter Fehler: 2026-10-07T19:39:48.439Z keine Videos in der Antwort: {\"extr"
     },
     {
      "name": "Speicher",
      "schluessel": "speicher",
      "ampel": "gruen",
-     "text": "46 GB frei"
+     "text": "48 GB frei"
     },
     {
      "name": "GitHub-Push",
      "schluessel": "github",
      "ampel": "gruen",
-     "text": "origin/main be5d938 vor 0 Min"
+     "text": "origin/main 69bdfaa vor 3 Min"
     },
     {
      "name": "WhatsApp Web",
@@ -881,7 +630,7 @@
      "name": "Ereignis-Sensor",
      "schluessel": "ereignisse",
      "ampel": "gruen",
-     "text": "letzter Lauf 23:45, 1 offene Ereignisse, aeltestes 23:45"
+     "text": "letzter Lauf 00:01, 0 offene Ereignisse"
     },
     {
      "name": "Chrome auf Timos PC",
