@@ -1,13 +1,6 @@
 [
 {
 "tag": "2026-10-05",
-"zeit": "02:15",
-"typ": "chef",
-"titel": "Weihnachtsbild für Hundebett ist bereit",
-"satz": "Ich habe das Bild geprüft und es lädt schnell genug und alles ist gut."
-},
-{
-"tag": "2026-10-05",
 "zeit": "02:32",
 "typ": "chef",
 "titel": "Knopf zum Kauf geprüft",
@@ -4195,6 +4188,13 @@
 {
 "tag": "2026-10-07",
 "zeit": "17:15",
+"typ": "chef",
+"titel": "Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access",
+"satz": ""
+},
+{
+"tag": "2026-10-07",
+"zeit": "17:20",
 "typ": "chef",
 "titel": "Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access",
 "satz": ""
