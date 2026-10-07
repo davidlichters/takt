@@ -1,7 +1,7 @@
 {
  "version": 2,
- "stand": "2026-10-07T07:17:05Z",
- "stand_berlin": "07.10.2026 09:17",
+ "stand": "2026-10-07T07:32:05Z",
+ "stand_berlin": "07.10.2026 09:32",
  "takt_min": 15,
  "quelle": "takt/leitstand_bauen.py auf Davids Mac, ohne Modell",
  "ziele": {
@@ -53,8 +53,8 @@
     },
     {
      "name": "Chef-Runde",
-     "text": "Um 09:15: Regel in Laufende Arbeit, keine Runde schreibt die drei Lieferanten-Texte neu, solange in den Chats nichts …",
-     "ampel": "gelb"
+     "text": "Um 09:20: To-Dos-Umfrage filterte Lieferanten- und Ja-Zeilen seit 04.10. aus, 6 Zeilen in ~/gedaechtnis/OFFEN.md …",
+     "ampel": "gruen"
     }
    ]
   },
@@ -97,20 +97,6 @@
      "prio": 0,
      "block": "eskalation",
      "quelle": "gedaechtnis/OFFEN.md",
-     "titel": "John-Absage (Kinderwagen) senden. Im WhatsApp-Chat \"John (Supplier)\" den Block \"Text zum Senden\" …",
-     "wer": "Timo",
-     "tun": null,
-     "bis": "07:30",
-     "vorbei": true,
-     "stufe": 4,
-     "ja": [
-      30
-     ]
-    },
-    {
-     "prio": 0,
-     "block": "eskalation",
-     "quelle": "gedaechtnis/OFFEN.md",
      "titel": "John schreibt noch 06.10. 05:48 \"How about this one, bro?\" und 06:09 \"This type of product is …",
      "wer": "Timo",
      "tun": "John-Absage (Kinderwagen) jetzt senden, Chat live geprüft 02:38 [SICHER]",
@@ -136,6 +122,18 @@
       30,
       30
      ]
+    },
+    {
+     "prio": 0,
+     "block": "eskalation",
+     "quelle": "gedaechtnis/OFFEN.md",
+     "titel": "erst die Bettlieferantin (Chat mit DS im Namen, Versandtag und Zoll), dann John (Supplier), dann …",
+     "wer": "Timo",
+     "tun": "Drei fertige Lieferanten-Texte aus dem Tagesblatt JETZT in WhatsApp senden, Bettlieferantin zuerst. Je Chat den Block aus …",
+     "bis": "10:15",
+     "vorbei": false,
+     "stufe": 4,
+     "ja": []
     },
     {
      "prio": 0,
@@ -211,22 +209,14 @@
      "prio": 0,
      "block": "eskalation",
      "quelle": "gedaechtnis/OFFEN.md",
-     "titel": "\"ja 19, ja 25, ja 28, Größenzeile live, danach alle Aufgaben aus ~/takt/spuren/aufgaben/offen/ live …",
+     "titel": "\"Shop-Spur starten, ja 19, Größenzeile live\". 1 Minute, 0 USD.",
      "wer": "David",
-     "tun": "Eine Nachricht in den Claude-Shop-Chat, wörtlich",
+     "tun": "Im Shop-Chat senden",
      "bis": "07:30",
      "vorbei": true,
      "stufe": 5,
      "ja": [
-      19,
-      25,
-      28,
-      8,
-      25,
-      8,
-      19,
-      8,
-      26
+      19
      ]
     },
     {
@@ -255,7 +245,7 @@
      "wer": "Timo",
      "tun": "Ändert direkt nach dem Kaching-Besuch von 09:10, im selben Shopify Admin, Titel und Beschreibung der Startseite in 2 Minuten, 0 …",
      "bis": "09:25",
-     "vorbei": false,
+     "vorbei": true,
      "stufe": 5,
      "ja": [
       15,
@@ -279,15 +269,13 @@
      "prio": 0,
      "block": "eskalation",
      "quelle": "gedaechtnis/OFFEN.md",
-     "titel": "Contabo-Widerruf per Mail an support@contabo.com senden, Text in …",
+     "titel": "Contabo-Widerruf per Mail senden, der fertige Text steht im Tagesblatt JETZT unter David. Empfänger …",
      "wer": "David",
      "tun": null,
      "bis": "12:00",
      "vorbei": false,
      "stufe": 6,
-     "ja": [
-      35
-     ]
+     "ja": []
     },
     {
      "prio": 1,
@@ -300,7 +288,7 @@
     {
      "prio": 1.5,
      "block": "ja",
-     "titel": "3 Ja-Fragen warten: ja bonnie zahlweg (bis 05.10. 10:00), ja adam (bis 05.10. 12:00), ja adam2 (bis 05.10. 12:00)",
+     "titel": "4 Ja-Fragen warten: ja bonnie zahlweg (bis 05.10. 10:00), ja adam (bis 05.10. 12:00), ja adam2 (bis 05.10. 12:00) und 1 weitere",
      "wer": "David oder Timo",
      "tun": "Im Claude-Chat „ja <Nr>“ schreiben, Liste in timo/JA_LISTE.md",
      "quelle": "timo/JA_LISTE.md"
@@ -327,8 +315,8 @@
    "nr": 3,
    "id": "wer",
    "frage": "Wer arbeitet woran?",
-   "ampel": "gelb",
-   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 94 Runden heute.",
+   "ampel": "gruen",
+   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 95 Runden heute.",
    "saetze": [],
    "zeilen": [
     {
@@ -343,8 +331,8 @@
     },
     {
      "name": "Claude",
-     "text": "94 Runden heute, alle 5 Minuten eine. Zuletzt: Regel in Laufende Arbeit, keine Runde schreibt die drei Lieferanten-Texte neu, solange in den …",
-     "ampel": "gelb"
+     "text": "95 Runden heute, alle 5 Minuten eine. Zuletzt: To-Dos-Umfrage filterte Lieferanten- und Ja-Zeilen seit 04.10. aus, 6 Zeilen in …",
+     "ampel": "gruen"
     },
     {
      "name": "Abteilungs-Chats",
@@ -358,7 +346,7 @@
    "id": "tempo",
    "frage": "Wie schnell geht es gerade?",
    "ampel": "gelb",
-   "kurz": "Letzte Stunde: 12 Runden, 4 davon mit fertigem Ergebnis.",
+   "kurz": "Letzte Stunde: 10 Runden, 3 davon mit fertigem Ergebnis.",
    "saetze": [
     "Den Gewinn heute wissen wir noch nicht, weil uns der Shopify-Zugang fehlt.",
     "Fertig heißt noch nicht live: 8 Ja-Schritte warten auf euer Ja (Karte 2)."
@@ -376,7 +364,7 @@
     },
     {
      "name": "Runden, letzte Stunde",
-     "text": "12 Runden: 4 mit fertigem Ergebnis (Creative, Text oder Klickweg), 5 haben einen Menschen erinnert, 3 nur innen gearbeitet.",
+     "text": "10 Runden: 3 mit fertigem Ergebnis (Creative, Text oder Klickweg), 4 haben einen Menschen erinnert, 3 nur innen gearbeitet.",
      "ampel": "gelb"
     },
     {
@@ -396,9 +384,9 @@
    "id": "soll",
    "frage": "Wie schnell sollte es gehen?",
    "ampel": "gelb",
-   "kurz": "Wir schaffen 1 von 5 Zielen.",
+   "kurz": "Wir schaffen 0 von 5 Zielen.",
    "saetze": [
-    "4 messen wir noch nicht."
+    "1 verfehlen wir gerade. 4 messen wir noch nicht."
    ],
    "zeilen": [
     {
@@ -423,8 +411,8 @@
     },
     {
      "name": "Runden",
-     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 12, davon 3 nur innen.",
-     "ampel": "gruen"
+     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 10, davon 3 nur innen.",
+     "ampel": "rot"
     }
    ]
   },
@@ -570,7 +558,7 @@
      "ampel": "grau",
      "detail": "12 Bilder, 10 Videos, neu seit Montag, 05.10., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
      "quelle": "Erstellzeit der Dateien in creatives/fertig, 05_creatives/ads, 05_creatives/ki/fertig",
-     "stand": "09:17",
+     "stand": "09:32",
      "ziel": null
     },
     {
@@ -630,7 +618,7 @@
      "ampel": "grau",
      "detail": "1 Zeile im Codeblock (Formatbeispiel) nicht gezählt. Steht dort eine echte Aufgabe, gehört sie aus dem Block heraus.",
      "quelle": "timo/OFFEN.md",
-     "stand": "09:17",
+     "stand": "09:32",
      "ziel": null
     },
     {
@@ -759,7 +747,7 @@
    "zeilen": [
     {
      "name": "Wächter, letzter Lauf",
-     "wert": "09:14",
+     "wert": "09:30",
      "ampel": "gruen",
      "detail": null,
      "quelle": "waechter_zustand.json",
@@ -772,7 +760,7 @@
      "name": "Takt-Schleife",
      "schluessel": "takt",
      "ampel": "gruen",
-     "text": "letzte Runde 09:13 (chef), rc=0"
+     "text": "letzte Runde 09:24 (chef), rc=0, Runde laeuft seit 5 Min"
     },
     {
      "name": "Perplexity",
@@ -790,7 +778,7 @@
      "name": "Crosspost",
      "schluessel": "crosspost",
      "ampel": "gruen",
-     "text": "laeuft (pid 34390), Herzschlag vor 1 s, postet, letzter Fehler: 2026-10-06T20:19:12.386Z keine Videos in der Antwort: {\"extr"
+     "text": "laeuft (pid 34390), Herzschlag vor 6 s, postet, letzter Fehler: 2026-10-06T20:19:12.386Z keine Videos in der Antwort: {\"extr"
     },
     {
      "name": "Speicher",
@@ -802,7 +790,7 @@
      "name": "GitHub-Push",
      "schluessel": "github",
      "ampel": "gruen",
-     "text": "origin/main b23ce4f vor 1 Min"
+     "text": "origin/main d2e4d71 vor 4 Min"
     },
     {
      "name": "WhatsApp Web",
@@ -826,7 +814,7 @@
      "name": "Ereignis-Sensor",
      "schluessel": "ereignisse",
      "ampel": "gruen",
-     "text": "letzter Lauf 09:14, 0 offene Ereignisse"
+     "text": "letzter Lauf 09:30, 0 offene Ereignisse"
     },
     {
      "name": "Chrome auf Timos PC",
