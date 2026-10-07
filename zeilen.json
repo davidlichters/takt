@@ -1,13 +1,6 @@
 [
 {
 "tag": "2026-10-04",
-"zeit": "12:10",
-"typ": "chef",
-"titel": "Frage an John zum Vergleich fertig",
-"satz": "Ich habe die Frage an John geschrieben, damit Adams die Preise vergleichen kann."
-},
-{
-"tag": "2026-10-04",
 "zeit": "12:12",
 "typ": "chef",
 "titel": "Neue Werbung mit Schlitten fertig",
@@ -4195,6 +4188,13 @@
 {
 "tag": "2026-10-07",
 "zeit": "10:15",
+"typ": "chef",
+"titel": "Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access",
+"satz": ""
+},
+{
+"tag": "2026-10-07",
+"zeit": "10:20",
 "typ": "chef",
 "titel": "Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access",
 "satz": ""
