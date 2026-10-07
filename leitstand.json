@@ -1,7 +1,7 @@
 {
  "version": 2,
- "stand": "2026-10-07T02:02:05Z",
- "stand_berlin": "07.10.2026 04:02",
+ "stand": "2026-10-07T02:17:05Z",
+ "stand_berlin": "07.10.2026 04:17",
  "takt_min": 15,
  "quelle": "takt/leitstand_bauen.py auf Davids Mac, ohne Modell",
  "ziele": {
@@ -53,8 +53,8 @@
     },
     {
      "name": "Chef-Runde",
-     "text": "Um 03:55: Johns Kinderwagen-Absage neu sendefertig (287 Zeichen, 0 Fragen), weil der alte Text Johns Vorschlag vom …",
-     "ampel": "gruen"
+     "text": "Um 04:10: entsperrt Stufe 1, weil unsere eigenen Abrufe den Shop gegen unsere IP sperren und so jede Kassenmessung …",
+     "ampel": "gelb"
     }
    ]
   },
@@ -63,7 +63,7 @@
    "id": "auf",
    "frage": "Was hält uns auf?",
    "ampel": "rot",
-   "kurz": "19 Dinge halten uns auf.",
+   "kurz": "18 Dinge halten uns auf.",
    "saetze": [
     "Bei jedem steht, wer es tun muss. Oben steht das, was am meisten Geld kostet."
    ],
@@ -100,18 +100,6 @@
      "prio": 0,
      "block": "eskalation",
      "quelle": "gedaechtnis/OFFEN.md",
-     "titel": "Zoll-Frage an Bonnie senden. Im WhatsApp-Chat \"Bonnie DS\" den Block \"Text zum Senden\" aus …",
-     "wer": "Timo",
-     "tun": null,
-     "bis": "07:30",
-     "vorbei": false,
-     "stufe": 4,
-     "ja": []
-    },
-    {
-     "prio": 0,
-     "block": "eskalation",
-     "quelle": "gedaechtnis/OFFEN.md",
      "titel": "John-Absage (Kinderwagen) senden. Im WhatsApp-Chat \"John (Supplier)\" den Block \"Text zum Senden\" …",
      "wer": "Timo",
      "tun": null,
@@ -141,9 +129,9 @@
      "prio": 0,
      "block": "eskalation",
      "quelle": "gedaechtnis/OFFEN.md",
-     "titel": "Bonnie DS aus ~/timo/entwuerfe/2026-10-07_bonnie_nachfassen_frist.md (Block \"Gewählt\"), John aus …",
+     "titel": "Bonnie DS aus ~/timo/entwuerfe/2026-10-07_bonnie_eine_nachricht.md (Block \"Gewählt\", neu 07.10 …",
      "wer": "Timo",
-     "tun": "Sendet vier fertige Lieferanten-Texte, je der Block zum Senden",
+     "tun": "Sendet drei fertige Lieferanten-Texte, je der Block zum Senden",
      "bis": "07:40",
      "vorbei": false,
      "stufe": 4,
@@ -318,8 +306,8 @@
    "nr": 3,
    "id": "wer",
    "frage": "Wer arbeitet woran?",
-   "ampel": "gruen",
-   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 40 Runden heute.",
+   "ampel": "gelb",
+   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 43 Runden heute.",
    "saetze": [],
    "zeilen": [
     {
@@ -334,8 +322,8 @@
     },
     {
      "name": "Claude",
-     "text": "40 Runden heute, alle 5 Minuten eine. Zuletzt: Johns Kinderwagen-Absage neu sendefertig (287 Zeichen, 0 Fragen), weil der alte Text Johns …",
-     "ampel": "gruen"
+     "text": "43 Runden heute, alle 5 Minuten eine. Zuletzt: entsperrt Stufe 1, weil unsere eigenen Abrufe den Shop gegen unsere IP sperren und so jede …",
+     "ampel": "gelb"
     },
     {
      "name": "Abteilungs-Chats",
@@ -349,7 +337,7 @@
    "id": "tempo",
    "frage": "Wie schnell geht es gerade?",
    "ampel": "gelb",
-   "kurz": "Letzte Stunde: 11 Runden, 2 davon mit fertigem Ergebnis.",
+   "kurz": "Letzte Stunde: 11 Runden, 4 davon mit fertigem Ergebnis.",
    "saetze": [
     "Den Gewinn heute wissen wir noch nicht, weil uns der Shopify-Zugang fehlt.",
     "Fertig heißt noch nicht live: 8 Ja-Schritte warten auf euer Ja (Karte 2)."
@@ -367,7 +355,7 @@
     },
     {
      "name": "Runden, letzte Stunde",
-     "text": "11 Runden: 2 mit fertigem Ergebnis (Creative, Text oder Klickweg), 7 haben einen Menschen erinnert, 2 nur innen gearbeitet.",
+     "text": "11 Runden: 4 mit fertigem Ergebnis (Creative, Text oder Klickweg), 4 haben einen Menschen erinnert, 3 nur innen gearbeitet.",
      "ampel": "gelb"
     },
     {
@@ -414,7 +402,7 @@
     },
     {
      "name": "Runden",
-     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 11, davon 2 nur innen.",
+     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 11, davon 3 nur innen.",
      "ampel": "rot"
     }
    ]
@@ -561,7 +549,7 @@
      "ampel": "grau",
      "detail": "12 Bilder, 10 Videos, neu seit Montag, 05.10., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
      "quelle": "Erstellzeit der Dateien in creatives/fertig, 05_creatives/ads, 05_creatives/ki/fertig",
-     "stand": "04:02",
+     "stand": "04:17",
      "ziel": null
     },
     {
@@ -621,7 +609,7 @@
      "ampel": "grau",
      "detail": "1 Zeile im Codeblock (Formatbeispiel) nicht gezählt. Steht dort eine echte Aufgabe, gehört sie aus dem Block heraus.",
      "quelle": "timo/OFFEN.md",
-     "stand": "04:02",
+     "stand": "04:17",
      "ziel": null
     },
     {
@@ -750,7 +738,7 @@
    "zeilen": [
     {
      "name": "Wächter, letzter Lauf",
-     "wert": "04:01",
+     "wert": "04:12",
      "ampel": "gruen",
      "detail": null,
      "quelle": "waechter_zustand.json",
@@ -763,7 +751,7 @@
      "name": "Takt-Schleife",
      "schluessel": "takt",
      "ampel": "gruen",
-     "text": "letzte Runde 03:57 (chef), rc=0, Runde laeuft seit 1 Min"
+     "text": "letzte Runde 04:11 (chef), rc=0"
     },
     {
      "name": "Perplexity",
@@ -781,7 +769,7 @@
      "name": "Crosspost",
      "schluessel": "crosspost",
      "ampel": "gruen",
-     "text": "laeuft (pid 34390), Herzschlag vor 5 s, postet, letzter Fehler: 2026-10-06T20:19:12.386Z keine Videos in der Antwort: {\"extr"
+     "text": "laeuft (pid 34390), Herzschlag vor 8 s, postet, letzter Fehler: 2026-10-06T20:19:12.386Z keine Videos in der Antwort: {\"extr"
     },
     {
      "name": "Speicher",
@@ -793,7 +781,7 @@
      "name": "GitHub-Push",
      "schluessel": "github",
      "ampel": "gruen",
-     "text": "origin/main 64149ba vor 1 Min"
+     "text": "origin/main 11c2297 vor 1 Min"
     },
     {
      "name": "WhatsApp Web",
@@ -817,7 +805,7 @@
      "name": "Ereignis-Sensor",
      "schluessel": "ereignisse",
      "ampel": "gruen",
-     "text": "letzter Lauf 04:01, 0 offene Ereignisse"
+     "text": "letzter Lauf 04:12, 0 offene Ereignisse"
     },
     {
      "name": "Chrome auf Timos PC",
