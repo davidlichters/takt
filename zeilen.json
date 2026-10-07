@@ -1,13 +1,6 @@
 [
 {
 "tag": "2026-10-04",
-"zeit": "09:12",
-"typ": "chef",
-"titel": "Bestellmail-Block wird eingebaut",
-"satz": "Ich habe gemerkt, dass die Bestellmail im Laden fehlte, David baut sie jetzt ein."
-},
-{
-"tag": "2026-10-04",
 "zeit": "09:15",
 "typ": "chef",
 "titel": "Sieben Fragen für Bonnie geschrieben",
@@ -4195,6 +4188,13 @@
 {
 "tag": "2026-10-07",
 "zeit": "05:35",
+"typ": "chef",
+"titel": "Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access",
+"satz": ""
+},
+{
+"tag": "2026-10-07",
+"zeit": "05:40",
 "typ": "chef",
 "titel": "Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access",
 "satz": ""
