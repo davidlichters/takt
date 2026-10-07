@@ -1,13 +1,6 @@
 [
 {
 "tag": "2026-10-04",
-"zeit": "15:03",
-"typ": "chef",
-"titel": "Frage-Helferin neu angemeldet",
-"satz": "Ich habe aufgepasst, dass David die Frage-Helferin anmacht, damit sechs Fragen Antworten bekommen."
-},
-{
-"tag": "2026-10-04",
 "zeit": "15:05",
 "typ": "chef",
 "titel": "Daten überprüfen, damit Geld kommt",
@@ -4195,6 +4188,13 @@
 {
 "tag": "2026-10-07",
 "zeit": "11:49",
+"typ": "chef",
+"titel": "Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access",
+"satz": ""
+},
+{
+"tag": "2026-10-07",
+"zeit": "11:50",
 "typ": "chef",
 "titel": "Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access",
 "satz": ""
