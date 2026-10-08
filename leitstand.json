@@ -1,7 +1,7 @@
 {
  "version": 2,
- "stand": "2026-10-08T02:17:04Z",
- "stand_berlin": "08.10.2026 04:17",
+ "stand": "2026-10-08T02:32:05Z",
+ "stand_berlin": "08.10.2026 04:32",
  "takt_min": 15,
  "quelle": "takt/leitstand_bauen.py auf Davids Mac, ohne Modell",
  "ziele": {
@@ -43,7 +43,7 @@
     },
     {
      "name": "Recherche",
-     "text": "Perplexity hat heute 14 Fragen beantwortet, die letzte um 03:40. Die letzten 2 Versuche kamen ohne Antwort zurück.",
+     "text": "Perplexity hat heute 16 Fragen beantwortet, die letzte um 04:27.",
      "ampel": "gruen"
     },
     {
@@ -53,8 +53,8 @@
     },
     {
      "name": "Chef-Runde",
-     "text": "Um 03:55: Stufen 1, 4, 5 frisch gemessen unveraendert (shopmessung.sh 04:02 gesund, curl Ja 19/25/28/11/15/7 weiter …",
-     "ampel": "rot"
+     "text": "Um 04:15: Bettlieferantin frisch gegengeprueft weiter 4 Tage stumm seit 04.10. 19:26, Entscheidungstag Fr 09.10. 12:00 …",
+     "ampel": "gruen"
     }
    ]
   },
@@ -63,7 +63,7 @@
    "id": "auf",
    "frage": "Was hält uns auf?",
    "ampel": "rot",
-   "kurz": "10 Dinge halten uns auf.",
+   "kurz": "11 Dinge halten uns auf.",
    "saetze": [
     "Bei jedem steht, wer es tun muss. Oben steht das, was am meisten Geld kostet."
    ],
@@ -138,6 +138,21 @@
      "prio": 0,
      "block": "eskalation",
      "quelle": "gedaechtnis/OFFEN.md",
+     "titel": "WhatsApp \"John (Supplier)\" einen Satz senden, Block aus ~/timo/JETZT.md Punkt 2 oder …",
+     "wer": "Timo",
+     "tun": null,
+     "bis": "07:30",
+     "vorbei": false,
+     "stufe": 4,
+     "ja": [
+      30,
+      30
+     ]
+    },
+    {
+     "prio": 0,
+     "block": "eskalation",
+     "quelle": "gedaechtnis/OFFEN.md",
      "titel": "Station 4 (AGB, Ja 25) und Station 5 (Refund policy, Ja 28) stehen seit David ja 06.10. 19:50 …",
      "wer": "Timo",
      "tun": "Die 6 Stationen aus ~/timo/launch/kurs_umsetzung/02_seiten_und_service/TIMO_ADMIN_2026-10-07.md im Shopify Admin abarbeiten, rund …",
@@ -154,7 +169,7 @@
     {
      "prio": 1.5,
      "block": "ja",
-     "titel": "4 Ja-Fragen warten: ja knopf (bis 04.10. 12:00), ja john (bis 05.10. 10:00), ja adam2 (bis 05.10. 12:00) und 1 weitere",
+     "titel": "3 Ja-Fragen warten: ja knopf (bis 04.10. 12:00), ja adam2 (bis 05.10. 12:00), ja contabo (bis 05.10. 18:00)",
      "wer": "David oder Timo",
      "tun": "Im Claude-Chat „ja <Nr>“ schreiben, Liste in timo/JA_LISTE.md",
      "quelle": "timo/JA_LISTE.md"
@@ -189,8 +204,8 @@
    "nr": 3,
    "id": "wer",
    "frage": "Wer arbeitet woran?",
-   "ampel": "rot",
-   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 57 Runden heute.",
+   "ampel": "gruen",
+   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 58 Runden heute.",
    "saetze": [],
    "zeilen": [
     {
@@ -205,8 +220,8 @@
     },
     {
      "name": "Claude",
-     "text": "57 Runden heute, alle 5 Minuten eine. Zuletzt: Stufen 1, 4, 5 frisch gemessen unveraendert (shopmessung.sh 04:02 gesund, curl Ja …",
-     "ampel": "rot"
+     "text": "58 Runden heute, alle 5 Minuten eine. Zuletzt: Bettlieferantin frisch gegengeprueft weiter 4 Tage stumm seit 04.10. 19:26, Entscheidungstag …",
+     "ampel": "gruen"
     },
     {
      "name": "Abteilungs-Chats",
@@ -220,7 +235,7 @@
    "id": "tempo",
    "frage": "Wie schnell geht es gerade?",
    "ampel": "rot",
-   "kurz": "Letzte Stunde: 13 Runden, 0 davon mit fertigem Ergebnis.",
+   "kurz": "Letzte Stunde: 8 Runden, 0 davon mit fertigem Ergebnis.",
    "saetze": [
     "Gewinn heute: 0,00 USD.",
     "Fertig heißt noch nicht live: 8 Ja-Schritte warten auf euer Ja (Karte 2)."
@@ -238,7 +253,7 @@
     },
     {
      "name": "Runden, letzte Stunde",
-     "text": "13 Runden: 0 mit fertigem Ergebnis (Creative, Text oder Klickweg), 1 hat einen Menschen erinnert, 1 nur innen gearbeitet, 11 sind abgestürzt.",
+     "text": "8 Runden: 0 mit fertigem Ergebnis (Creative, Text oder Klickweg), 2 haben einen Menschen erinnert, 1 nur innen gearbeitet, 5 sind abgestürzt.",
      "ampel": "rot"
     },
     {
@@ -285,7 +300,7 @@
     },
     {
      "name": "Runden",
-     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 13, davon 12 nur innen oder abgestürzt.",
+     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 8, davon 6 nur innen oder abgestürzt.",
      "ampel": "rot"
     }
    ]
@@ -432,7 +447,7 @@
      "ampel": "grau",
      "detail": "12 Bilder, 10 Videos, neu seit Montag, 05.10., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
      "quelle": "Erstellzeit der Dateien in creatives/fertig, 05_creatives/ads, 05_creatives/ki/fertig",
-     "stand": "04:17",
+     "stand": "04:32",
      "ziel": null
     },
     {
@@ -492,7 +507,7 @@
      "ampel": "grau",
      "detail": "1 Zeile im Codeblock (Formatbeispiel) nicht gezählt. Steht dort eine echte Aufgabe, gehört sie aus dem Block heraus.",
      "quelle": "timo/OFFEN.md",
-     "stand": "04:17",
+     "stand": "04:32",
      "ziel": null
     },
     {
@@ -621,7 +636,7 @@
    "zeilen": [
     {
      "name": "Wächter, letzter Lauf",
-     "wert": "04:12",
+     "wert": "04:28",
      "ampel": "gruen",
      "detail": null,
      "quelle": "waechter_zustand.json",
@@ -634,13 +649,13 @@
      "name": "Takt-Schleife",
      "schluessel": "takt",
      "ampel": "gruen",
-     "text": "letzte Runde 03:54 (chef), rc=0, Runde laeuft seit 17 Min"
+     "text": "letzte Runde 04:25 (chef), rc=0, Runde laeuft seit 2 Min"
     },
     {
      "name": "Perplexity",
      "schluessel": "perplexity",
      "ampel": "gruen",
-     "text": "Gins laeuft; letzter Lauf 03:52 ohne Antwortdatei: nach 12 Minuten nicht fertig"
+     "text": "letzter Lauf 04:22 erfolgreich, Gins laeuft"
     },
     {
      "name": "Davids Chrome",
@@ -652,7 +667,7 @@
      "name": "Crosspost",
      "schluessel": "crosspost",
      "ampel": "gruen",
-     "text": "laeuft (pid 34390), Herzschlag vor 4 s, postet, letzter Fehler: 2026-10-07T19:39:48.439Z keine Videos in der Antwort: {\"extr"
+     "text": "laeuft (pid 34390), Herzschlag vor 2 s, postet, letzter Fehler: 2026-10-07T19:39:48.439Z keine Videos in der Antwort: {\"extr"
     },
     {
      "name": "Speicher",
@@ -664,13 +679,13 @@
      "name": "GitHub-Push",
      "schluessel": "github",
      "ampel": "gruen",
-     "text": "origin/main c53546d vor 16 Min"
+     "text": "origin/main a1ed799 vor 3 Min"
     },
     {
      "name": "WhatsApp Web",
      "schluessel": "whatsapp",
      "ampel": "gruen",
-     "text": "Chatliste gelesen (apple, 1 Zeilen), 1 von 6 Lieferanten sichtbar, nicht sichtbar: Bonnie DS, John (Supplier), Mr Anh, Vito DS, Joel DS"
+     "text": "ausgesetzt, WhatsApp gerade belegt: /opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/Resourc…"
     },
     {
      "name": "Shopify",
@@ -688,7 +703,7 @@
      "name": "Ereignis-Sensor",
      "schluessel": "ereignisse",
      "ampel": "gruen",
-     "text": "letzter Lauf 04:12, 0 offene Ereignisse"
+     "text": "letzter Lauf 04:28, 1 offene Ereignisse, aeltestes 04:18"
     },
     {
      "name": "Chrome auf Timos PC",
