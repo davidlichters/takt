@@ -1,7 +1,7 @@
 {
  "version": 2,
- "stand": "2026-10-08T04:30:32Z",
- "stand_berlin": "08.10.2026 06:30",
+ "stand": "2026-10-08T04:32:05Z",
+ "stand_berlin": "08.10.2026 06:32",
  "takt_min": 15,
  "quelle": "takt/leitstand_bauen.py auf Davids Mac, ohne Modell",
  "ziele": {
@@ -53,7 +53,7 @@
     },
     {
      "name": "Chef-Runde",
-     "text": "Um 06:15: Alle 6 Leiterstufen frisch gegengeprueft, keine neue Ursache, aber Bonnie-Frist aktualisiert: alle 3 …",
+     "text": "Um 06:26: Ereignis Leitstand-rot behoben, soweit ohne Meta moeglich: 3 von 5 Geldzahlen frisch per Shopify-GraphQL …",
      "ampel": "gruen"
     }
    ]
@@ -231,7 +231,7 @@
    "id": "wer",
    "frage": "Wer arbeitet woran?",
    "ampel": "gruen",
-   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 69 Runden heute.",
+   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 70 Runden heute.",
    "saetze": [],
    "zeilen": [
     {
@@ -246,7 +246,7 @@
     },
     {
      "name": "Claude",
-     "text": "69 Runden heute, alle 5 Minuten eine. Zuletzt: Alle 6 Leiterstufen frisch gegengeprueft, keine neue Ursache, aber Bonnie-Frist aktualisiert …",
+     "text": "70 Runden heute, alle 5 Minuten eine. Zuletzt: Ereignis Leitstand-rot behoben, soweit ohne Meta moeglich: 3 von 5 Geldzahlen frisch per …",
      "ampel": "gruen"
     },
     {
@@ -261,7 +261,7 @@
    "id": "tempo",
    "frage": "Wie schnell geht es gerade?",
    "ampel": "gelb",
-   "kurz": "Letzte Stunde: 5 Runden, 0 davon mit fertigem Ergebnis.",
+   "kurz": "Letzte Stunde: 6 Runden, 1 davon mit fertigem Ergebnis.",
    "saetze": [
     "Gewinn heute: 0,00 USD.",
     "Fertig heißt noch nicht live: 8 Ja-Schritte warten auf euer Ja (Karte 2)."
@@ -279,7 +279,7 @@
     },
     {
      "name": "Runden, letzte Stunde",
-     "text": "5 Runden: 0 mit fertigem Ergebnis (Creative, Text oder Klickweg), 3 haben einen Menschen erinnert, 2 nur innen gearbeitet.",
+     "text": "6 Runden: 1 mit fertigem Ergebnis (Creative, Text oder Klickweg), 3 haben einen Menschen erinnert, 2 nur innen gearbeitet.",
      "ampel": "gelb"
     },
     {
@@ -326,7 +326,7 @@
     },
     {
      "name": "Runden",
-     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 5, davon 2 nur innen.",
+     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 6, davon 2 nur innen.",
      "ampel": "rot"
     }
    ]
@@ -473,7 +473,7 @@
      "ampel": "grau",
      "detail": "12 Bilder, 10 Videos, neu seit Montag, 05.10., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
      "quelle": "Erstellzeit der Dateien in creatives/fertig, 05_creatives/ads, 05_creatives/ki/fertig",
-     "stand": "06:30",
+     "stand": "06:32",
      "ziel": null
     },
     {
@@ -533,7 +533,7 @@
      "ampel": "grau",
      "detail": "1 Zeile im Codeblock (Formatbeispiel) nicht gezählt. Steht dort eine echte Aufgabe, gehört sie aus dem Block heraus.",
      "quelle": "timo/OFFEN.md",
-     "stand": "06:30",
+     "stand": "06:32",
      "ziel": null
     },
     {
