@@ -1,7 +1,7 @@
 {
  "version": 2,
- "stand": "2026-10-08T13:02:05Z",
- "stand_berlin": "08.10.2026 15:02",
+ "stand": "2026-10-08T13:17:04Z",
+ "stand_berlin": "08.10.2026 15:17",
  "takt_min": 15,
  "quelle": "takt/leitstand_bauen.py auf Davids Mac, ohne Modell",
  "ziele": {
@@ -43,7 +43,7 @@
     },
     {
      "name": "Recherche",
-     "text": "Perplexity hat heute 60 Fragen beantwortet, die letzte um 14:51.",
+     "text": "Perplexity hat heute 62 Fragen beantwortet, die letzte um 15:12.",
      "ampel": "gruen"
     },
     {
@@ -53,7 +53,7 @@
     },
     {
      "name": "Chef-Runde",
-     "text": "Um 14:40: Bonnie ist nicht mehr still, wa_chat.mjs zeigt den Entwurf aus entwuerfe/2026-10-07_bonnie_profit.md als …",
+     "text": "Um 14:55: Geldleiter 1 bis 5 komplett im 4-Stunden-Abkuehlen, einzige Ursache ausserhalb davon ist Contabo (Ja 35) …",
      "ampel": "gruen"
     }
    ]
@@ -247,21 +247,6 @@
      "prio": 0,
      "block": "eskalation",
      "quelle": "gedaechtnis/OFFEN.md",
-     "titel": "im eigenen Postfach (iCloud, david.lichters@icloud.com) nachsehen, ob Contabo auf die Kulanz-Mail …",
-     "wer": "David",
-     "tun": null,
-     "bis": "07:30",
-     "vorbei": true,
-     "stufe": 6,
-     "ja": [
-      35,
-      35
-     ]
-    },
-    {
-     "prio": 0,
-     "block": "eskalation",
-     "quelle": "gedaechtnis/OFFEN.md",
      "titel": "im Shop-Chat (Spur 3) einmal nachsehen, warum sie Theme-Aufgaben nicht mehr live schaltet, 5 …",
      "wer": "David",
      "tun": null,
@@ -269,6 +254,21 @@
      "vorbei": true,
      "stufe": 6,
      "ja": []
+    },
+    {
+     "prio": 0,
+     "block": "eskalation",
+     "quelle": "gedaechtnis/OFFEN.md",
+     "titel": "im eigenen Postfach (iCloud, david.lichters@icloud.com) nachsehen, ob Contabo auf die Kulanz-Mail …",
+     "wer": "David",
+     "tun": null,
+     "bis": "15:40",
+     "vorbei": false,
+     "stufe": 6,
+     "ja": [
+      35,
+      35
+     ]
     },
     {
      "prio": 0,
@@ -321,7 +321,7 @@
    "id": "wer",
    "frage": "Wer arbeitet woran?",
    "ampel": "gruen",
-   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 127 Runden heute.",
+   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 128 Runden heute.",
    "saetze": [],
    "zeilen": [
     {
@@ -336,7 +336,7 @@
     },
     {
      "name": "Claude",
-     "text": "127 Runden heute, alle 5 Minuten eine. Zuletzt: Bonnie ist nicht mehr still, wa_chat.mjs zeigt den Entwurf aus …",
+     "text": "128 Runden heute, alle 5 Minuten eine. Zuletzt: Geldleiter 1 bis 5 komplett im 4-Stunden-Abkuehlen, einzige Ursache ausserhalb davon ist …",
      "ampel": "gruen"
     },
     {
@@ -351,7 +351,7 @@
    "id": "tempo",
    "frage": "Wie schnell geht es gerade?",
    "ampel": "gelb",
-   "kurz": "Letzte Stunde: 4 Runden, 3 davon mit fertigem Ergebnis.",
+   "kurz": "Letzte Stunde: 3 Runden, 2 davon mit fertigem Ergebnis.",
    "saetze": [
     "Gewinn heute: 0,00 USD.",
     "Fertig heißt noch nicht live: 7 Ja-Schritte warten auf euer Ja (Karte 2)."
@@ -369,8 +369,8 @@
     },
     {
      "name": "Runden, letzte Stunde",
-     "text": "4 Runden: 3 mit fertigem Ergebnis (Creative, Text oder Klickweg), 0 haben einen Menschen erinnert, 1 nur innen gearbeitet.",
-     "ampel": "gruen"
+     "text": "3 Runden: 2 mit fertigem Ergebnis (Creative, Text oder Klickweg), 1 hat einen Menschen erinnert, 0 nur innen gearbeitet.",
+     "ampel": "gelb"
     },
     {
      "name": "Erledigt heute",
@@ -416,7 +416,7 @@
     },
     {
      "name": "Runden",
-     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 4, davon 1 nur innen.",
+     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 3, davon 0 nur innen.",
      "ampel": "rot"
     }
    ]
@@ -563,7 +563,7 @@
      "ampel": "grau",
      "detail": "12 Bilder, 10 Videos, neu seit Montag, 05.10., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
      "quelle": "Erstellzeit der Dateien in creatives/fertig, 05_creatives/ads, 05_creatives/ki/fertig",
-     "stand": "15:02",
+     "stand": "15:17",
      "ziel": null
     },
     {
@@ -623,7 +623,7 @@
      "ampel": "grau",
      "detail": "1 Zeile im Codeblock (Formatbeispiel) nicht gezählt. Steht dort eine echte Aufgabe, gehört sie aus dem Block heraus.",
      "quelle": "timo/OFFEN.md",
-     "stand": "15:02",
+     "stand": "15:17",
      "ziel": null
     },
     {
@@ -752,7 +752,7 @@
    "zeilen": [
     {
      "name": "Wächter, letzter Lauf",
-     "wert": "14:57",
+     "wert": "15:13",
      "ampel": "gruen",
      "detail": null,
      "quelle": "waechter_zustand.json",
@@ -765,13 +765,13 @@
      "name": "Takt-Schleife",
      "schluessel": "takt",
      "ampel": "gruen",
-     "text": "letzte Runde 14:52 (chef), rc=0, Runde laeuft seit 2 Min"
+     "text": "letzte Runde 15:05 (chef), rc=0, Runde laeuft seit 3 Min"
     },
     {
      "name": "Perplexity",
      "schluessel": "perplexity",
      "ampel": "gruen",
-     "text": "letzter Lauf 14:46 erfolgreich, Gins laeuft"
+     "text": "letzter Lauf 15:01 erfolgreich, Gins laeuft"
     },
     {
      "name": "Davids Chrome",
@@ -783,19 +783,19 @@
      "name": "Crosspost",
      "schluessel": "crosspost",
      "ampel": "gruen",
-     "text": "laeuft (pid 34390), Herzschlag vor 8 s, postet, letzter Fehler: 2026-10-07T19:39:48.439Z keine Videos in der Antwort: {\"extr"
+     "text": "laeuft (pid 34390), Herzschlag vor 4 s, postet, letzter Fehler: 2026-10-07T19:39:48.439Z keine Videos in der Antwort: {\"extr"
     },
     {
      "name": "Speicher",
      "schluessel": "speicher",
      "ampel": "gruen",
-     "text": "31 GB frei"
+     "text": "41 GB frei"
     },
     {
      "name": "GitHub-Push",
      "schluessel": "github",
      "ampel": "gruen",
-     "text": "origin/main 4cc1a81 vor 2 Min"
+     "text": "origin/main e7d8676 vor 2 Min"
     },
     {
      "name": "WhatsApp Web",
@@ -819,7 +819,7 @@
      "name": "Ereignis-Sensor",
      "schluessel": "ereignisse",
      "ampel": "gruen",
-     "text": "letzter Lauf 14:57, 0 offene Ereignisse"
+     "text": "letzter Lauf 15:13, 1 offene Ereignisse, aeltestes 15:10"
     },
     {
      "name": "Chrome auf Timos PC",
