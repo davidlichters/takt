@@ -1,7 +1,7 @@
 {
  "version": 2,
- "stand": "2026-10-08T17:17:05Z",
- "stand_berlin": "08.10.2026 19:17",
+ "stand": "2026-10-08T17:32:05Z",
+ "stand_berlin": "08.10.2026 19:32",
  "takt_min": 15,
  "quelle": "takt/leitstand_bauen.py auf Davids Mac, ohne Modell",
  "ziele": {
@@ -43,7 +43,7 @@
     },
     {
      "name": "Recherche",
-     "text": "Perplexity hat heute 77 Fragen beantwortet, die letzte um 19:03.",
+     "text": "Perplexity hat heute 77 Fragen beantwortet, die letzte um 19:03. Die letzten 2 Versuche kamen ohne Antwort zurück.",
      "ampel": "gruen"
     },
     {
@@ -53,7 +53,7 @@
     },
     {
      "name": "Chef-Runde",
-     "text": "Um 19:05: Bonnie DS antwortete 19:07 nach 4 Tagen Stille mit \"hi\" auf unsere 9-Punkte-Nachricht (Ja 32, heute 14:29 …",
+     "text": "Um 19:18: Ereignis Bonnies 19:16-Antwort (Preisvorlauf 2-3 statt 7 Tage, kein fester Versandtermin) ausgewertet …",
      "ampel": "gruen"
     }
    ]
@@ -63,7 +63,7 @@
    "id": "auf",
    "frage": "Was hält uns auf?",
    "ampel": "rot",
-   "kurz": "24 Dinge halten uns auf.",
+   "kurz": "25 Dinge halten uns auf.",
    "saetze": [
     "Bei jedem steht, wer es tun muss. Oben steht das, was am meisten Geld kostet."
    ],
@@ -322,9 +322,23 @@
      "wer": "David",
      "tun": null,
      "bis": "19:30",
-     "vorbei": false,
+     "vorbei": true,
      "stufe": 6,
      "ja": []
+    },
+    {
+     "prio": 0,
+     "block": "eskalation",
+     "quelle": "gedaechtnis/OFFEN.md",
+     "titel": "dein E-Mail-Postfach nach einer Antwort von support@contabo.de auf deine eigene Kulanz-Mail (07.10 …",
+     "wer": "David",
+     "tun": null,
+     "bis": "19:50",
+     "vorbei": false,
+     "stufe": 6,
+     "ja": [
+      35
+     ]
     },
     {
      "prio": 0,
@@ -377,12 +391,12 @@
    "id": "wer",
    "frage": "Wer arbeitet woran?",
    "ampel": "gruen",
-   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 173 Runden heute.",
+   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 175 Runden heute.",
    "saetze": [],
    "zeilen": [
     {
      "name": "David",
-     "text": "Nicht gemessen, weil David die Mac-Messung am 03.10. abgeschaltet hat. Auf David warten heute 10 Sachen (Karte 2).",
+     "text": "Nicht gemessen, weil David die Mac-Messung am 03.10. abgeschaltet hat. Auf David warten heute 11 Sachen (Karte 2).",
      "ampel": "grau"
     },
     {
@@ -392,7 +406,7 @@
     },
     {
      "name": "Claude",
-     "text": "173 Runden heute, alle 5 Minuten eine. Zuletzt: Bonnie DS antwortete 19:07 nach 4 Tagen Stille mit \"hi\" auf unsere 9-Punkte-Nachricht (Ja 32 …",
+     "text": "175 Runden heute, alle 5 Minuten eine. Zuletzt: Ereignis Bonnies 19:16-Antwort (Preisvorlauf 2-3 statt 7 Tage, kein fester Versandtermin) …",
      "ampel": "gruen"
     },
     {
@@ -406,8 +420,8 @@
    "nr": 4,
    "id": "tempo",
    "frage": "Wie schnell geht es gerade?",
-   "ampel": "rot",
-   "kurz": "Letzte Stunde: 9 Runden, 1 davon mit fertigem Ergebnis.",
+   "ampel": "gelb",
+   "kurz": "Letzte Stunde: 8 Runden, 2 davon mit fertigem Ergebnis.",
    "saetze": [
     "Gewinn heute: 0,00 USD.",
     "Fertig heißt noch nicht live: 6 Ja-Schritte warten auf euer Ja (Karte 2)."
@@ -425,8 +439,8 @@
     },
     {
      "name": "Runden, letzte Stunde",
-     "text": "9 Runden: 1 mit fertigem Ergebnis (Creative, Text oder Klickweg), 2 haben einen Menschen erinnert, 1 nur innen gearbeitet, 5 sind abgestürzt.",
-     "ampel": "rot"
+     "text": "8 Runden: 2 mit fertigem Ergebnis (Creative, Text oder Klickweg), 3 haben einen Menschen erinnert, 1 nur innen gearbeitet, 2 sind abgestürzt.",
+     "ampel": "gelb"
     },
     {
      "name": "Erledigt heute",
@@ -472,7 +486,7 @@
     },
     {
      "name": "Runden",
-     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 9, davon 6 nur innen oder abgestürzt.",
+     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 8, davon 3 nur innen oder abgestürzt.",
      "ampel": "rot"
     }
    ]
@@ -619,7 +633,7 @@
      "ampel": "grau",
      "detail": "12 Bilder, 10 Videos, neu seit Montag, 05.10., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
      "quelle": "Erstellzeit der Dateien in creatives/fertig, 05_creatives/ads, 05_creatives/ki/fertig",
-     "stand": "19:17",
+     "stand": "19:32",
      "ziel": null
     },
     {
@@ -679,7 +693,7 @@
      "ampel": "grau",
      "detail": "1 Zeile im Codeblock (Formatbeispiel) nicht gezählt. Steht dort eine echte Aufgabe, gehört sie aus dem Block heraus.",
      "quelle": "timo/OFFEN.md",
-     "stand": "19:17",
+     "stand": "19:32",
      "ziel": null
     },
     {
@@ -808,7 +822,7 @@
    "zeilen": [
     {
      "name": "Wächter, letzter Lauf",
-     "wert": "19:13",
+     "wert": "19:28",
      "ampel": "gruen",
      "detail": null,
      "quelle": "waechter_zustand.json",
@@ -821,13 +835,13 @@
      "name": "Takt-Schleife",
      "schluessel": "takt",
      "ampel": "gruen",
-     "text": "letzte Runde 19:12 (chef), rc=0"
+     "text": "letzte Runde 19:25 (chef), rc=0"
     },
     {
      "name": "Perplexity",
      "schluessel": "perplexity",
      "ampel": "gruen",
-     "text": "letzter Lauf 18:59 erfolgreich, Gins laeuft"
+     "text": "Gins laeuft; letzter Lauf 19:15 ohne Antwortdatei: nach 12 Minuten nicht fertig"
     },
     {
      "name": "Davids Chrome",
@@ -839,7 +853,7 @@
      "name": "Crosspost",
      "schluessel": "crosspost",
      "ampel": "gruen",
-     "text": "laeuft (pid 34390), Herzschlag vor 0 s, postet, letzter Fehler: 2026-10-07T19:39:48.439Z keine Videos in der Antwort: {\"extr"
+     "text": "laeuft (pid 34390), Herzschlag vor 5 s, postet, letzter Fehler: 2026-10-07T19:39:48.439Z keine Videos in der Antwort: {\"extr"
     },
     {
      "name": "Speicher",
@@ -851,7 +865,7 @@
      "name": "GitHub-Push",
      "schluessel": "github",
      "ampel": "gruen",
-     "text": "origin/main cd53188 vor 1 Min"
+     "text": "origin/main a2650e5 vor 3 Min"
     },
     {
      "name": "WhatsApp Web",
@@ -875,7 +889,7 @@
      "name": "Ereignis-Sensor",
      "schluessel": "ereignisse",
      "ampel": "gruen",
-     "text": "letzter Lauf 19:13, 0 offene Ereignisse"
+     "text": "letzter Lauf 19:28, 0 offene Ereignisse"
     },
     {
      "name": "Chrome auf Timos PC",
