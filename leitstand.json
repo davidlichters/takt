@@ -1,7 +1,7 @@
 {
  "version": 2,
- "stand": "2026-10-08T10:47:05Z",
- "stand_berlin": "08.10.2026 12:47",
+ "stand": "2026-10-08T11:02:05Z",
+ "stand_berlin": "08.10.2026 13:02",
  "takt_min": 15,
  "quelle": "takt/leitstand_bauen.py auf Davids Mac, ohne Modell",
  "ziele": {
@@ -43,7 +43,7 @@
     },
     {
      "name": "Recherche",
-     "text": "Perplexity hat heute 49 Fragen beantwortet, die letzte um 12:27.",
+     "text": "Perplexity hat heute 50 Fragen beantwortet, die letzte um 13:01.",
      "ampel": "gruen"
     },
     {
@@ -53,8 +53,8 @@
     },
     {
      "name": "Chef-Runde",
-     "text": "Um 12:35: shopmessung.sh frisch gelaufen, Shop sauber (69,99 je Design, US Versand 0,00, Warenkorb leer), kein neuer …",
-     "ampel": "gelb"
+     "text": "Um 12:50: Takt ohne Ergebniszeile beendet (rc=1), Protokoll in ~/takt/laeufe.",
+     "ampel": "rot"
     }
    ]
   },
@@ -113,7 +113,7 @@
      "wer": "David",
      "tun": "Liest einmal kurz, wie Chef-Runden heute Morgen den Shop geändert haben, und sagt \"weiter so\" oder \"stopp\", 2 Minuten, 0 USD …",
      "bis": "13:00",
-     "vorbei": false,
+     "vorbei": true,
      "stufe": 1,
      "ja": []
     },
@@ -300,8 +300,8 @@
    "nr": 3,
    "id": "wer",
    "frage": "Wer arbeitet woran?",
-   "ampel": "gelb",
-   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 108 Runden heute.",
+   "ampel": "rot",
+   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 109 Runden heute.",
    "saetze": [],
    "zeilen": [
     {
@@ -316,8 +316,8 @@
     },
     {
      "name": "Claude",
-     "text": "108 Runden heute, alle 5 Minuten eine. Zuletzt: shopmessung.sh frisch gelaufen, Shop sauber (69,99 je Design, US Versand 0,00, Warenkorb …",
-     "ampel": "gelb"
+     "text": "109 Runden heute, alle 5 Minuten eine. Zuletzt: Takt ohne Ergebniszeile beendet (rc=1), Protokoll in ~/takt/laeufe.",
+     "ampel": "rot"
     },
     {
      "name": "Abteilungs-Chats",
@@ -331,7 +331,7 @@
    "id": "tempo",
    "frage": "Wie schnell geht es gerade?",
    "ampel": "rot",
-   "kurz": "Letzte Stunde: 7 Runden, 0 davon mit fertigem Ergebnis.",
+   "kurz": "Letzte Stunde: 5 Runden, 0 davon mit fertigem Ergebnis.",
    "saetze": [
     "Den Gewinn heute wissen wir noch nicht, weil uns der Shopify-Zugang fehlt.",
     "Fertig heißt noch nicht live: 6 Ja-Schritte warten auf euer Ja (Karte 2)."
@@ -349,7 +349,7 @@
     },
     {
      "name": "Runden, letzte Stunde",
-     "text": "7 Runden: 0 mit fertigem Ergebnis (Creative, Text oder Klickweg), 3 haben einen Menschen erinnert, 4 nur innen gearbeitet.",
+     "text": "5 Runden: 0 mit fertigem Ergebnis (Creative, Text oder Klickweg), 1 hat einen Menschen erinnert, 3 nur innen gearbeitet, 1 ist abgestürzt.",
      "ampel": "rot"
     },
     {
@@ -396,7 +396,7 @@
     },
     {
      "name": "Runden",
-     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 7, davon 4 nur innen.",
+     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 5, davon 4 nur innen oder abgestürzt.",
      "ampel": "rot"
     }
    ]
@@ -537,7 +537,7 @@
      "ampel": "grau",
      "detail": "12 Bilder, 10 Videos, neu seit Montag, 05.10., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
      "quelle": "Erstellzeit der Dateien in creatives/fertig, 05_creatives/ads, 05_creatives/ki/fertig",
-     "stand": "12:47",
+     "stand": "13:02",
      "ziel": null
     },
     {
@@ -577,7 +577,7 @@
     },
     {
      "name": "Nächster Check-in",
-     "wert": "13:00 heute",
+     "wert": "18:00 heute",
      "ampel": "grau",
      "detail": "Tagesstart 08:00 ist festgelegt (Plan 5). Die Check-in-Zeiten (09:00, 13:00, 18:00, 22:00) sind der Vorschlag aus Plan 2.4, noch nicht festgelegt.",
      "quelle": "LEITSTAND_PLAN.md 2.4 und 5",
@@ -597,7 +597,7 @@
      "ampel": "grau",
      "detail": "1 Zeile im Codeblock (Formatbeispiel) nicht gezählt. Steht dort eine echte Aufgabe, gehört sie aus dem Block heraus.",
      "quelle": "timo/OFFEN.md",
-     "stand": "12:47",
+     "stand": "13:02",
      "ziel": null
     },
     {
@@ -726,7 +726,7 @@
    "zeilen": [
     {
      "name": "Wächter, letzter Lauf",
-     "wert": "12:42",
+     "wert": "12:58",
      "ampel": "gruen",
      "detail": null,
      "quelle": "waechter_zustand.json",
@@ -739,13 +739,13 @@
      "name": "Takt-Schleife",
      "schluessel": "takt",
      "ampel": "gruen",
-     "text": "letzte Runde 12:35 (chef), rc=0, Runde laeuft seit 7 Min"
+     "text": "letzte Runde 12:55 (chef), rc=1, 1 Fehlrunde in Folge"
     },
     {
      "name": "Perplexity",
      "schluessel": "perplexity",
      "ampel": "gruen",
-     "text": "Gins laeuft; letzter Lauf 12:27 ohne Antwortdatei: nach 12 Minuten nicht fertig"
+     "text": "Gins laeuft; letzter Lauf 12:52 ohne Antwortdatei: Absenden: Perplexity meldet 1x \"Unable to start session\" (Ko"
     },
     {
      "name": "Davids Chrome",
@@ -757,7 +757,7 @@
      "name": "Crosspost",
      "schluessel": "crosspost",
      "ampel": "gruen",
-     "text": "laeuft (pid 34390), Herzschlag vor 4 s, postet, letzter Fehler: 2026-10-07T19:39:48.439Z keine Videos in der Antwort: {\"extr"
+     "text": "laeuft (pid 34390), Herzschlag vor 7 s, postet, letzter Fehler: 2026-10-07T19:39:48.439Z keine Videos in der Antwort: {\"extr"
     },
     {
      "name": "Speicher",
@@ -769,13 +769,13 @@
      "name": "GitHub-Push",
      "schluessel": "github",
      "ampel": "gruen",
-     "text": "origin/main 7665902 vor 7 Min"
+     "text": "origin/main 0b82744 vor 5 Min"
     },
     {
      "name": "WhatsApp Web",
      "schluessel": "whatsapp",
      "ampel": "gruen",
-     "text": "ausgesetzt, WhatsApp gerade belegt: /opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/Resourc…"
+     "text": "Chatliste gelesen (apple, 10 Zeilen), 6 von 6 Lieferanten sichtbar"
     },
     {
      "name": "Shopify",
@@ -793,7 +793,7 @@
      "name": "Ereignis-Sensor",
      "schluessel": "ereignisse",
      "ampel": "gruen",
-     "text": "letzter Lauf 12:42, 0 offene Ereignisse"
+     "text": "letzter Lauf 12:58, 1 offene Ereignisse, aeltestes 12:53"
     },
     {
      "name": "Chrome auf Timos PC",
