@@ -1,7 +1,7 @@
 {
  "version": 2,
- "stand": "2026-10-08T09:47:05Z",
- "stand_berlin": "08.10.2026 11:47",
+ "stand": "2026-10-08T10:02:05Z",
+ "stand_berlin": "08.10.2026 12:02",
  "takt_min": 15,
  "quelle": "takt/leitstand_bauen.py auf Davids Mac, ohne Modell",
  "ziele": {
@@ -43,8 +43,8 @@
     },
     {
      "name": "Recherche",
-     "text": "Perplexity hat heute 44 Fragen beantwortet, die letzte um 11:06. Die letzten 4 Versuche kamen ohne Antwort zurück.",
-     "ampel": "gelb"
+     "text": "Perplexity hat heute 45 Fragen beantwortet, die letzte um 12:01.",
+     "ampel": "gruen"
     },
     {
      "name": "Technik",
@@ -53,8 +53,8 @@
     },
     {
      "name": "Chef-Runde",
-     "text": "Seit 33 min keine Runde. Die letzte (Chef-Runde, 11:14): Ereignis: C95 PN_FRIEND nicht in die Bilder-Kampagne, verstoesst gegen alle vier …",
-     "ampel": "rot"
+     "text": "Um 11:55: Shopify-Sensor-Token hat weiter rund 100 write-Scopes (Preise, Rabatte, Bestellungen, Kundendaten …",
+     "ampel": "gruen"
     }
    ]
   },
@@ -63,7 +63,7 @@
    "id": "auf",
    "frage": "Was hält uns auf?",
    "ampel": "rot",
-   "kurz": "16 Dinge halten uns auf.",
+   "kurz": "17 Dinge halten uns auf.",
    "saetze": [
     "Bei jedem steht, wer es tun muss. Oben steht das, was am meisten Geld kostet."
    ],
@@ -90,6 +90,18 @@
      "tun": "Shopify-App \"Porchnap Sensor\" pruefen, Shopify Admin > Settings > Apps and sales channels > Porchnap Sensor > Permissions, 2 …",
      "bis": "07:30",
      "vorbei": true,
+     "stufe": 1,
+     "ja": []
+    },
+    {
+     "prio": 0,
+     "block": "eskalation",
+     "quelle": "gedaechtnis/OFFEN.md",
+     "titel": "Shopify-App \"Porchnap Sensor\" Rechte stutzen, Shopify Admin > Settings > Apps and sales channels > …",
+     "wer": "Timo",
+     "tun": null,
+     "bis": "12:30",
+     "vorbei": false,
      "stufe": 1,
      "ja": []
     },
@@ -270,8 +282,8 @@
    "nr": 3,
    "id": "wer",
    "frage": "Wer arbeitet woran?",
-   "ampel": "rot",
-   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 100 Runden heute.",
+   "ampel": "gruen",
+   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 103 Runden heute.",
    "saetze": [],
    "zeilen": [
     {
@@ -286,8 +298,8 @@
     },
     {
      "name": "Claude",
-     "text": "100 Runden heute, alle 5 Minuten eine. Zuletzt: Ereignis: C95 PN_FRIEND nicht in die Bilder-Kampagne, verstoesst gegen alle vier …",
-     "ampel": "rot"
+     "text": "103 Runden heute, alle 5 Minuten eine. Zuletzt: Shopify-Sensor-Token hat weiter rund 100 write-Scopes (Preise, Rabatte, Bestellungen …",
+     "ampel": "gruen"
     },
     {
      "name": "Abteilungs-Chats",
@@ -301,7 +313,7 @@
    "id": "tempo",
    "frage": "Wie schnell geht es gerade?",
    "ampel": "gelb",
-   "kurz": "Letzte Stunde: 2 Runden, 0 davon mit fertigem Ergebnis.",
+   "kurz": "Letzte Stunde: 4 Runden, 0 davon mit fertigem Ergebnis.",
    "saetze": [
     "Gewinn heute: 0,00 USD.",
     "Fertig heißt noch nicht live: 6 Ja-Schritte warten auf euer Ja (Karte 2)."
@@ -319,7 +331,7 @@
     },
     {
      "name": "Runden, letzte Stunde",
-     "text": "2 Runden: 0 mit fertigem Ergebnis (Creative, Text oder Klickweg), 1 hat einen Menschen erinnert, 0 nur innen gearbeitet, 1 ist abgestürzt.",
+     "text": "4 Runden: 0 mit fertigem Ergebnis (Creative, Text oder Klickweg), 3 haben einen Menschen erinnert, 1 nur innen gearbeitet.",
      "ampel": "gelb"
     },
     {
@@ -366,7 +378,7 @@
     },
     {
      "name": "Runden",
-     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 2, davon 1 nur innen oder abgestürzt.",
+     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 4, davon 1 nur innen.",
      "ampel": "rot"
     }
    ]
@@ -513,7 +525,7 @@
      "ampel": "grau",
      "detail": "12 Bilder, 10 Videos, neu seit Montag, 05.10., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
      "quelle": "Erstellzeit der Dateien in creatives/fertig, 05_creatives/ads, 05_creatives/ki/fertig",
-     "stand": "11:47",
+     "stand": "12:02",
      "ziel": null
     },
     {
@@ -573,7 +585,7 @@
      "ampel": "grau",
      "detail": "1 Zeile im Codeblock (Formatbeispiel) nicht gezählt. Steht dort eine echte Aufgabe, gehört sie aus dem Block heraus.",
      "quelle": "timo/OFFEN.md",
-     "stand": "11:47",
+     "stand": "12:02",
      "ziel": null
     },
     {
@@ -702,7 +714,7 @@
    "zeilen": [
     {
      "name": "Wächter, letzter Lauf",
-     "wert": "11:46",
+     "wert": "12:01",
      "ampel": "gruen",
      "detail": null,
      "quelle": "waechter_zustand.json",
@@ -715,13 +727,13 @@
      "name": "Takt-Schleife",
      "schluessel": "takt",
      "ampel": "gruen",
-     "text": "letzte Runde 11:31 (chef), rc=0, Runde laeuft seit 11 Min"
+     "text": "letzte Runde 11:59 (chef), rc=0, Runde laeuft seit 1 Min"
     },
     {
      "name": "Perplexity",
      "schluessel": "perplexity",
      "ampel": "gruen",
-     "text": "Gins laeuft; letzter Lauf 11:43 ohne Antwortdatei: Absenden: Perplexity meldet 1x \"Unable to start session\" (Ko"
+     "text": "letzter Lauf 11:57 erfolgreich, Gins laeuft"
     },
     {
      "name": "Davids Chrome",
@@ -733,25 +745,25 @@
      "name": "Crosspost",
      "schluessel": "crosspost",
      "ampel": "gruen",
-     "text": "laeuft (pid 34390), Herzschlag vor 0 s, postet, letzter Fehler: 2026-10-07T19:39:48.439Z keine Videos in der Antwort: {\"extr"
+     "text": "laeuft (pid 34390), Herzschlag vor 11 s, postet, letzter Fehler: 2026-10-07T19:39:48.439Z keine Videos in der Antwort: {\"extr"
     },
     {
      "name": "Speicher",
      "schluessel": "speicher",
      "ampel": "gruen",
-     "text": "37 GB frei"
+     "text": "36 GB frei"
     },
     {
      "name": "GitHub-Push",
      "schluessel": "github",
      "ampel": "gruen",
-     "text": "origin/main c9f42d1 vor 0 Min"
+     "text": "origin/main a300bd2 vor 1 Min"
     },
     {
      "name": "WhatsApp Web",
      "schluessel": "whatsapp",
      "ampel": "gruen",
-     "text": "Chatliste gelesen (apple, 10 Zeilen), 6 von 6 Lieferanten sichtbar"
+     "text": "ausgesetzt, WhatsApp gerade belegt: /opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/Resourc…"
     },
     {
      "name": "Shopify",
@@ -769,7 +781,7 @@
      "name": "Ereignis-Sensor",
      "schluessel": "ereignisse",
      "ampel": "gruen",
-     "text": "letzter Lauf 11:46, 1 offene Ereignisse, aeltestes 11:45"
+     "text": "letzter Lauf 12:01, 0 offene Ereignisse"
     },
     {
      "name": "Chrome auf Timos PC",
