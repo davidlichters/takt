@@ -1,13 +1,6 @@
 [
 {
 "tag": "2026-10-06",
-"zeit": "08:35",
-"typ": "chef",
-"titel": "You've hit your weekly limit · resets Oct 8 at 1pm (Europe/Berlin)",
-"satz": ""
-},
-{
-"tag": "2026-10-06",
 "zeit": "08:40",
 "typ": "recherche",
 "titel": "You've hit your weekly limit · resets Oct 8 at 1pm (Europe/Berlin)",
@@ -4195,6 +4188,13 @@
 {
 "tag": "2026-10-08",
 "zeit": "22:26",
+"typ": "chef",
+"titel": "Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access",
+"satz": ""
+},
+{
+"tag": "2026-10-08",
+"zeit": "22:27",
 "typ": "chef",
 "titel": "Your organization has disabled Claude subscription access for Claude Code · Use an Anthropic API key instead, or ask your admin to enable access",
 "satz": ""
