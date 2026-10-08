@@ -1,6 +1,6 @@
 {
  "version": 2,
- "stand": "2026-10-08T22:55:51Z",
+ "stand": "2026-10-08T22:55:57Z",
  "stand_berlin": "09.10.2026 00:55",
  "takt_min": 15,
  "quelle": "takt/leitstand_bauen.py auf Davids Mac, ohne Modell",
