@@ -1,7 +1,7 @@
 {
  "version": 2,
- "stand": "2026-10-08T04:17:05Z",
- "stand_berlin": "08.10.2026 06:17",
+ "stand": "2026-10-08T04:27:23Z",
+ "stand_berlin": "08.10.2026 06:27",
  "takt_min": 15,
  "quelle": "takt/leitstand_bauen.py auf Davids Mac, ohne Modell",
  "ziele": {
@@ -43,7 +43,7 @@
     },
     {
      "name": "Recherche",
-     "text": "Perplexity hat heute 20 Fragen beantwortet, die letzte um 05:08. Die letzten 5 Versuche kamen ohne Antwort zurück.",
+     "text": "Perplexity hat heute 20 Fragen beantwortet, die letzte um 05:08. Die letzten 6 Versuche kamen ohne Antwort zurück.",
      "ampel": "gelb"
     },
     {
@@ -53,7 +53,7 @@
     },
     {
      "name": "Chef-Runde",
-     "text": "Um 06:05: Reihenfolge fuer den 07:30-Besuch ergaenzt, 6 gleichzeitige Zeilen gebuendelt: zuerst 3 Lieferanten-Texte (4 …",
+     "text": "Um 06:15: Alle 6 Leiterstufen frisch gegengeprueft, keine neue Ursache, aber Bonnie-Frist aktualisiert: alle 3 …",
      "ampel": "gruen"
     }
    ]
@@ -223,7 +223,7 @@
    "id": "wer",
    "frage": "Wer arbeitet woran?",
    "ampel": "gruen",
-   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 68 Runden heute.",
+   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 69 Runden heute.",
    "saetze": [],
    "zeilen": [
     {
@@ -238,7 +238,7 @@
     },
     {
      "name": "Claude",
-     "text": "68 Runden heute, alle 5 Minuten eine. Zuletzt: Reihenfolge fuer den 07:30-Besuch ergaenzt, 6 gleichzeitige Zeilen gebuendelt: zuerst 3 …",
+     "text": "69 Runden heute, alle 5 Minuten eine. Zuletzt: Alle 6 Leiterstufen frisch gegengeprueft, keine neue Ursache, aber Bonnie-Frist aktualisiert …",
      "ampel": "gruen"
     },
     {
@@ -459,7 +459,7 @@
      "ampel": "grau",
      "detail": "12 Bilder, 10 Videos, neu seit Montag, 05.10., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
      "quelle": "Erstellzeit der Dateien in creatives/fertig, 05_creatives/ads, 05_creatives/ki/fertig",
-     "stand": "06:17",
+     "stand": "06:27",
      "ziel": null
     },
     {
@@ -519,7 +519,7 @@
      "ampel": "grau",
      "detail": "1 Zeile im Codeblock (Formatbeispiel) nicht gezählt. Steht dort eine echte Aufgabe, gehört sie aus dem Block heraus.",
      "quelle": "timo/OFFEN.md",
-     "stand": "06:17",
+     "stand": "06:27",
      "ziel": null
     },
     {
@@ -648,7 +648,7 @@
    "zeilen": [
     {
      "name": "Wächter, letzter Lauf",
-     "wert": "06:12",
+     "wert": "06:22",
      "ampel": "gruen",
      "detail": null,
      "quelle": "waechter_zustand.json",
@@ -661,7 +661,7 @@
      "name": "Takt-Schleife",
      "schluessel": "takt",
      "ampel": "gruen",
-     "text": "letzte Runde 06:01 (chef), rc=0, Runde laeuft seit 7 Min"
+     "text": "letzte Runde 06:14 (chef), rc=0, Runde laeuft seit 7 Min"
     },
     {
      "name": "Perplexity",
@@ -679,7 +679,7 @@
      "name": "Crosspost",
      "schluessel": "crosspost",
      "ampel": "gruen",
-     "text": "laeuft (pid 34390), Herzschlag vor 10 s, postet, letzter Fehler: 2026-10-07T19:39:48.439Z keine Videos in der Antwort: {\"extr"
+     "text": "laeuft (pid 34390), Herzschlag vor 6 s, postet, letzter Fehler: 2026-10-07T19:39:48.439Z keine Videos in der Antwort: {\"extr"
     },
     {
      "name": "Speicher",
@@ -691,7 +691,7 @@
      "name": "GitHub-Push",
      "schluessel": "github",
      "ampel": "gruen",
-     "text": "origin/main 51db225 vor 6 Min"
+     "text": "origin/main e476ee4 vor 7 Min"
     },
     {
      "name": "WhatsApp Web",
@@ -715,7 +715,7 @@
      "name": "Ereignis-Sensor",
      "schluessel": "ereignisse",
      "ampel": "gruen",
-     "text": "letzter Lauf 06:12, 0 offene Ereignisse"
+     "text": "letzter Lauf 06:22, 1 offene Ereignisse, aeltestes 06:17"
     },
     {
      "name": "Chrome auf Timos PC",
