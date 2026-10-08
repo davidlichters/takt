@@ -1,7 +1,7 @@
 {
  "version": 2,
- "stand": "2026-10-08T05:02:05Z",
- "stand_berlin": "08.10.2026 07:02",
+ "stand": "2026-10-08T05:17:05Z",
+ "stand_berlin": "08.10.2026 07:17",
  "takt_min": 15,
  "quelle": "takt/leitstand_bauen.py auf Davids Mac, ohne Modell",
  "ziele": {
@@ -43,7 +43,7 @@
     },
     {
      "name": "Recherche",
-     "text": "Perplexity hat heute 23 Fragen beantwortet, die letzte um 06:47.",
+     "text": "Perplexity hat heute 24 Fragen beantwortet, die letzte um 07:03.",
      "ampel": "gruen"
     },
     {
@@ -53,7 +53,7 @@
     },
     {
      "name": "Chef-Runde",
-     "text": "Um 06:45: Contabo-Widerruf (Ja 35) frisch erinnert, 23:11 unveraendert, 2 fertige Briefe warten weiter auf Davids Wahl …",
+     "text": "Um 06:55: Contabo-Luecke geschlossen, JA_LISTE.md Ja 35 nachgezogen (David sandte 23:25 schon eine eigene Kulanz-Mail …",
      "ampel": "gruen"
     }
    ]
@@ -63,7 +63,7 @@
    "id": "auf",
    "frage": "Was hält uns auf?",
    "ampel": "rot",
-   "kurz": "13 Dinge halten uns auf.",
+   "kurz": "14 Dinge halten uns auf.",
    "saetze": [
     "Bei jedem steht, wer es tun muss. Oben steht das, was am meisten Geld kostet."
    ],
@@ -177,7 +177,23 @@
      "vorbei": false,
      "stufe": 5,
      "ja": [
-      5
+      5,
+      25
+     ]
+    },
+    {
+     "prio": 0,
+     "block": "eskalation",
+     "quelle": "gedaechtnis/OFFEN.md",
+     "titel": "im eigenen Postfach (iCloud, david.lichters@icloud.com) nachsehen, ob Contabo auf die Kulanz-Mail …",
+     "wer": "David",
+     "tun": null,
+     "bis": "07:30",
+     "vorbei": false,
+     "stufe": 6,
+     "ja": [
+      35,
+      35
      ]
     },
     {
@@ -195,7 +211,7 @@
     {
      "prio": 1.5,
      "block": "ja",
-     "titel": "3 Ja-Fragen warten: ja knopf (bis 04.10. 12:00), ja adam2 (bis 05.10. 12:00), ja contabo (bis 05.10. 18:00)",
+     "titel": "2 Ja-Fragen warten: ja knopf (bis 04.10. 12:00), ja adam2 (bis 05.10. 12:00)",
      "wer": "David oder Timo",
      "tun": "Im Claude-Chat „ja <Nr>“ schreiben, Liste in timo/JA_LISTE.md",
      "quelle": "timo/JA_LISTE.md"
@@ -231,12 +247,12 @@
    "id": "wer",
    "frage": "Wer arbeitet woran?",
    "ampel": "gruen",
-   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 72 Runden heute.",
+   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 73 Runden heute.",
    "saetze": [],
    "zeilen": [
     {
      "name": "David",
-     "text": "Nicht gemessen, weil David die Mac-Messung am 03.10. abgeschaltet hat. Auf David warten heute 3 Sachen (Karte 2).",
+     "text": "Nicht gemessen, weil David die Mac-Messung am 03.10. abgeschaltet hat. Auf David warten heute 4 Sachen (Karte 2).",
      "ampel": "grau"
     },
     {
@@ -246,7 +262,7 @@
     },
     {
      "name": "Claude",
-     "text": "72 Runden heute, alle 5 Minuten eine. Zuletzt: Contabo-Widerruf (Ja 35) frisch erinnert, 23:11 unveraendert, 2 fertige Briefe warten weiter …",
+     "text": "73 Runden heute, alle 5 Minuten eine. Zuletzt: Contabo-Luecke geschlossen, JA_LISTE.md Ja 35 nachgezogen (David sandte 23:25 schon eine …",
      "ampel": "gruen"
     },
     {
@@ -261,10 +277,10 @@
    "id": "tempo",
    "frage": "Wie schnell geht es gerade?",
    "ampel": "gelb",
-   "kurz": "Letzte Stunde: 5 Runden, 1 davon mit fertigem Ergebnis.",
+   "kurz": "Letzte Stunde: 4 Runden, 1 davon mit fertigem Ergebnis.",
    "saetze": [
     "Gewinn heute: 0,00 USD.",
-    "Fertig heißt noch nicht live: 8 Ja-Schritte warten auf euer Ja (Karte 2)."
+    "Fertig heißt noch nicht live: 7 Ja-Schritte warten auf euer Ja (Karte 2)."
    ],
    "zeilen": [
     {
@@ -279,13 +295,13 @@
     },
     {
      "name": "Runden, letzte Stunde",
-     "text": "5 Runden: 1 mit fertigem Ergebnis (Creative, Text oder Klickweg), 3 haben einen Menschen erinnert, 1 nur innen gearbeitet.",
+     "text": "4 Runden: 1 mit fertigem Ergebnis (Creative, Text oder Klickweg), 2 haben einen Menschen erinnert, 1 nur innen gearbeitet.",
      "ampel": "gelb"
     },
     {
      "name": "Erledigt heute",
-     "text": "0 in OFFEN.md als erledigt eingetragen, 0 Ja-Schritte erledigt.",
-     "ampel": "gelb"
+     "text": "0 in OFFEN.md als erledigt eingetragen, 1 Ja-Schritt erledigt.",
+     "ampel": "gruen"
     },
     {
      "name": "Neu gebaut heute",
@@ -326,7 +342,7 @@
     },
     {
      "name": "Runden",
-     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 5, davon 1 nur innen.",
+     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 4, davon 1 nur innen.",
      "ampel": "rot"
     }
    ]
@@ -473,7 +489,7 @@
      "ampel": "grau",
      "detail": "12 Bilder, 10 Videos, neu seit Montag, 05.10., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
      "quelle": "Erstellzeit der Dateien in creatives/fertig, 05_creatives/ads, 05_creatives/ki/fertig",
-     "stand": "07:02",
+     "stand": "07:17",
      "ziel": null
     },
     {
@@ -533,7 +549,7 @@
      "ampel": "grau",
      "detail": "1 Zeile im Codeblock (Formatbeispiel) nicht gezählt. Steht dort eine echte Aufgabe, gehört sie aus dem Block heraus.",
      "quelle": "timo/OFFEN.md",
-     "stand": "07:02",
+     "stand": "07:17",
      "ziel": null
     },
     {
@@ -662,7 +678,7 @@
    "zeilen": [
     {
      "name": "Wächter, letzter Lauf",
-     "wert": "06:59",
+     "wert": "07:14",
      "ampel": "gruen",
      "detail": null,
      "quelle": "waechter_zustand.json",
@@ -675,13 +691,13 @@
      "name": "Takt-Schleife",
      "schluessel": "takt",
      "ampel": "gruen",
-     "text": "letzte Runde 06:53 (chef), rc=0, Runde laeuft seit 4 Min"
+     "text": "letzte Runde 07:05 (chef), rc=0, Runde laeuft seit 9 Min"
     },
     {
      "name": "Perplexity",
      "schluessel": "perplexity",
      "ampel": "gruen",
-     "text": "letzter Lauf 06:43 erfolgreich, Gins laeuft"
+     "text": "letzter Lauf 06:59 erfolgreich, Gins laeuft"
     },
     {
      "name": "Davids Chrome",
@@ -693,7 +709,7 @@
      "name": "Crosspost",
      "schluessel": "crosspost",
      "ampel": "gruen",
-     "text": "laeuft (pid 34390), Herzschlag vor 5 s, postet, letzter Fehler: 2026-10-07T19:39:48.439Z keine Videos in der Antwort: {\"extr"
+     "text": "laeuft (pid 34390), Herzschlag vor 3 s, postet, letzter Fehler: 2026-10-07T19:39:48.439Z keine Videos in der Antwort: {\"extr"
     },
     {
      "name": "Speicher",
@@ -705,13 +721,13 @@
      "name": "GitHub-Push",
      "schluessel": "github",
      "ampel": "gruen",
-     "text": "origin/main f7de3a1 vor 3 Min"
+     "text": "origin/main fc5f4e0 vor 9 Min"
     },
     {
      "name": "WhatsApp Web",
      "schluessel": "whatsapp",
      "ampel": "gruen",
-     "text": "Chatliste gelesen (apple, 2 Zeilen), 1 von 6 Lieferanten sichtbar, nicht sichtbar: Bonnie DS, Adam DS, Mr Anh, Vito DS, Joel DS"
+     "text": "ausgesetzt, WhatsApp gerade belegt: /opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/Resourc…"
     },
     {
      "name": "Shopify",
@@ -729,7 +745,7 @@
      "name": "Ereignis-Sensor",
      "schluessel": "ereignisse",
      "ampel": "gruen",
-     "text": "letzter Lauf 06:59, 1 offene Ereignisse, aeltestes 06:59"
+     "text": "letzter Lauf 07:14, 1 offene Ereignisse, aeltestes 07:04"
     },
     {
      "name": "Chrome auf Timos PC",
