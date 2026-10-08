@@ -1,7 +1,7 @@
 {
  "version": 2,
- "stand": "2026-10-08T09:32:05Z",
- "stand_berlin": "08.10.2026 11:32",
+ "stand": "2026-10-08T09:47:05Z",
+ "stand_berlin": "08.10.2026 11:47",
  "takt_min": 15,
  "quelle": "takt/leitstand_bauen.py auf Davids Mac, ohne Modell",
  "ziele": {
@@ -43,8 +43,8 @@
     },
     {
      "name": "Recherche",
-     "text": "Perplexity hat heute 44 Fragen beantwortet, die letzte um 11:06. Die letzten 2 Versuche kamen ohne Antwort zurück.",
-     "ampel": "gruen"
+     "text": "Perplexity hat heute 44 Fragen beantwortet, die letzte um 11:06. Die letzten 4 Versuche kamen ohne Antwort zurück.",
+     "ampel": "gelb"
     },
     {
      "name": "Technik",
@@ -53,8 +53,8 @@
     },
     {
      "name": "Chef-Runde",
-     "text": "Um 11:14: Ereignis: C95 PN_FRIEND nicht in die Bilder-Kampagne, verstoesst gegen alle vier Anzeigen-Regeln (small pets …",
-     "ampel": "gruen"
+     "text": "Seit 33 min keine Runde. Die letzte (Chef-Runde, 11:14): Ereignis: C95 PN_FRIEND nicht in die Bilder-Kampagne, verstoesst gegen alle vier …",
+     "ampel": "rot"
     }
    ]
   },
@@ -63,7 +63,7 @@
    "id": "auf",
    "frage": "Was hält uns auf?",
    "ampel": "rot",
-   "kurz": "15 Dinge halten uns auf.",
+   "kurz": "16 Dinge halten uns auf.",
    "saetze": [
     "Bei jedem steht, wer es tun muss. Oben steht das, was am meisten Geld kostet."
    ],
@@ -148,6 +148,18 @@
       30,
       30
      ]
+    },
+    {
+     "prio": 0,
+     "block": "eskalation",
+     "quelle": "gedaechtnis/OFFEN.md",
+     "titel": "WhatsApp \"Adam DS\" Block \"Gewählt\" aus entwuerfe/2026-10-07_adam_eine_nachricht.md, und WhatsApp …",
+     "wer": "Timo",
+     "tun": "Zwei fertige Lieferantentexte senden",
+     "bis": "12:15",
+     "vorbei": false,
+     "stufe": 4,
+     "ja": []
     },
     {
      "prio": 0,
@@ -258,7 +270,7 @@
    "nr": 3,
    "id": "wer",
    "frage": "Wer arbeitet woran?",
-   "ampel": "gruen",
+   "ampel": "rot",
    "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 100 Runden heute.",
    "saetze": [],
    "zeilen": [
@@ -275,7 +287,7 @@
     {
      "name": "Claude",
      "text": "100 Runden heute, alle 5 Minuten eine. Zuletzt: Ereignis: C95 PN_FRIEND nicht in die Bilder-Kampagne, verstoesst gegen alle vier …",
-     "ampel": "gruen"
+     "ampel": "rot"
     },
     {
      "name": "Abteilungs-Chats",
@@ -288,8 +300,8 @@
    "nr": 4,
    "id": "tempo",
    "frage": "Wie schnell geht es gerade?",
-   "ampel": "rot",
-   "kurz": "Letzte Stunde: 3 Runden, 0 davon mit fertigem Ergebnis.",
+   "ampel": "gelb",
+   "kurz": "Letzte Stunde: 2 Runden, 0 davon mit fertigem Ergebnis.",
    "saetze": [
     "Gewinn heute: 0,00 USD.",
     "Fertig heißt noch nicht live: 6 Ja-Schritte warten auf euer Ja (Karte 2)."
@@ -307,8 +319,8 @@
     },
     {
      "name": "Runden, letzte Stunde",
-     "text": "3 Runden: 0 mit fertigem Ergebnis (Creative, Text oder Klickweg), 1 hat einen Menschen erinnert, 1 nur innen gearbeitet, 1 ist abgestürzt.",
-     "ampel": "rot"
+     "text": "2 Runden: 0 mit fertigem Ergebnis (Creative, Text oder Klickweg), 1 hat einen Menschen erinnert, 0 nur innen gearbeitet, 1 ist abgestürzt.",
+     "ampel": "gelb"
     },
     {
      "name": "Erledigt heute",
@@ -354,7 +366,7 @@
     },
     {
      "name": "Runden",
-     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 3, davon 2 nur innen oder abgestürzt.",
+     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 2, davon 1 nur innen oder abgestürzt.",
      "ampel": "rot"
     }
    ]
@@ -501,7 +513,7 @@
      "ampel": "grau",
      "detail": "12 Bilder, 10 Videos, neu seit Montag, 05.10., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
      "quelle": "Erstellzeit der Dateien in creatives/fertig, 05_creatives/ads, 05_creatives/ki/fertig",
-     "stand": "11:32",
+     "stand": "11:47",
      "ziel": null
     },
     {
@@ -561,7 +573,7 @@
      "ampel": "grau",
      "detail": "1 Zeile im Codeblock (Formatbeispiel) nicht gezählt. Steht dort eine echte Aufgabe, gehört sie aus dem Block heraus.",
      "quelle": "timo/OFFEN.md",
-     "stand": "11:32",
+     "stand": "11:47",
      "ziel": null
     },
     {
@@ -690,7 +702,7 @@
    "zeilen": [
     {
      "name": "Wächter, letzter Lauf",
-     "wert": "11:30",
+     "wert": "11:46",
      "ampel": "gruen",
      "detail": null,
      "quelle": "waechter_zustand.json",
@@ -703,13 +715,13 @@
      "name": "Takt-Schleife",
      "schluessel": "takt",
      "ampel": "gruen",
-     "text": "letzte Runde 11:14 (chef), rc=143, 1 Fehlrunde in Folge, Runde laeuft seit 16 Min"
+     "text": "letzte Runde 11:31 (chef), rc=0, Runde laeuft seit 11 Min"
     },
     {
      "name": "Perplexity",
      "schluessel": "perplexity",
      "ampel": "gruen",
-     "text": "Gins laeuft; letzter Lauf 11:06 ohne Antwortdatei: nach 12 Minuten nicht fertig"
+     "text": "Gins laeuft; letzter Lauf 11:43 ohne Antwortdatei: Absenden: Perplexity meldet 1x \"Unable to start session\" (Ko"
     },
     {
      "name": "Davids Chrome",
@@ -721,7 +733,7 @@
      "name": "Crosspost",
      "schluessel": "crosspost",
      "ampel": "gruen",
-     "text": "laeuft (pid 34390), Herzschlag vor 9 s, postet, letzter Fehler: 2026-10-07T19:39:48.439Z keine Videos in der Antwort: {\"extr"
+     "text": "laeuft (pid 34390), Herzschlag vor 0 s, postet, letzter Fehler: 2026-10-07T19:39:48.439Z keine Videos in der Antwort: {\"extr"
     },
     {
      "name": "Speicher",
@@ -733,7 +745,7 @@
      "name": "GitHub-Push",
      "schluessel": "github",
      "ampel": "gruen",
-     "text": "origin/main 8fc606e vor 6 Min"
+     "text": "origin/main c9f42d1 vor 0 Min"
     },
     {
      "name": "WhatsApp Web",
@@ -757,7 +769,7 @@
      "name": "Ereignis-Sensor",
      "schluessel": "ereignisse",
      "ampel": "gruen",
-     "text": "letzter Lauf 11:30, 0 offene Ereignisse"
+     "text": "letzter Lauf 11:46, 1 offene Ereignisse, aeltestes 11:45"
     },
     {
      "name": "Chrome auf Timos PC",
