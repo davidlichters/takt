@@ -1,7 +1,7 @@
 {
  "version": 2,
- "stand": "2026-10-08T01:32:05Z",
- "stand_berlin": "08.10.2026 03:32",
+ "stand": "2026-10-08T01:47:05Z",
+ "stand_berlin": "08.10.2026 03:47",
  "takt_min": 15,
  "quelle": "takt/leitstand_bauen.py auf Davids Mac, ohne Modell",
  "ziele": {
@@ -43,18 +43,18 @@
     },
     {
      "name": "Recherche",
-     "text": "Perplexity hat heute 12 Fragen beantwortet, die letzte um 02:39.",
+     "text": "Perplexity hat heute 14 Fragen beantwortet, die letzte um 03:40.",
      "ampel": "gruen"
     },
     {
      "name": "Technik",
-     "text": "Der Wächter prüft alle 5 Minuten 10 Werkzeuge: 8 gehen, 1 kaputt (Takt-Schleife), 1 warten auf Zugang oder sind aus (Meta). 1 weiteres prüft er noch nicht.",
-     "ampel": "rot"
+     "text": "Der Wächter prüft alle 5 Minuten 10 Werkzeuge: 9 gehen, 1 warten auf Zugang oder sind aus (Meta). 1 weiteres prüft er noch nicht.",
+     "ampel": "gruen"
     },
     {
      "name": "Chef-Runde",
-     "text": "Um 03:30: Takt ohne Ergebniszeile beendet (rc=1), Protokoll in ~/takt/laeufe.",
-     "ampel": "rot"
+     "text": "Um 03:41: Ereignis Adam DS gelesen, kein Preis, nur Ankündigung Versand Deutschland; Fund dabei: Adam lieferte …",
+     "ampel": "gruen"
     }
    ]
   },
@@ -123,6 +123,21 @@
      "prio": 0,
      "block": "eskalation",
      "quelle": "gedaechtnis/OFFEN.md",
+     "titel": "Timo sendet den fertigen Adam-Text aus ~/timo/JETZT.md Punkt 3 (WhatsApp \"Adam DS\", Block \"Gewählt\" …",
+     "wer": "Timo",
+     "tun": null,
+     "bis": "07:30",
+     "vorbei": false,
+     "stufe": 4,
+     "ja": [
+      33,
+      33
+     ]
+    },
+    {
+     "prio": 0,
+     "block": "eskalation",
+     "quelle": "gedaechtnis/OFFEN.md",
      "titel": "Station 4 (AGB, Ja 25) und Station 5 (Refund policy, Ja 28) stehen seit David ja 06.10. 19:50 …",
      "wer": "Timo",
      "tun": "Die 6 Stationen aus ~/timo/launch/kurs_umsetzung/02_seiten_und_service/TIMO_ADMIN_2026-10-07.md im Shopify Admin abarbeiten, rund …",
@@ -137,17 +152,9 @@
      ]
     },
     {
-     "prio": 1,
-     "block": "werkzeuge",
-     "titel": "Takt-Schleife ist kaputt",
-     "text": "40 Fehlrunden in Folge (letzte rc=1). Ursache: 20261008_0330.txt: You've hit your limit on every Platz (alle Plaetze gesperrt, siehe ~/claude-plaetze/gesperrt.json)",
-     "wer": "Claude (Technik)",
-     "tun": "Reparieren. Grund: 40 Fehlrunden in Folge (letzte rc=1). Ursache: 20261008_0330.txt: You've hit …"
-    },
-    {
      "prio": 1.5,
      "block": "ja",
-     "titel": "5 Ja-Fragen warten: ja knopf (bis 04.10. 12:00), ja john (bis 05.10. 10:00), ja adam (bis 05.10. 12:00) und 2 weitere",
+     "titel": "4 Ja-Fragen warten: ja knopf (bis 04.10. 12:00), ja john (bis 05.10. 10:00), ja adam2 (bis 05.10. 12:00) und 1 weitere",
      "wer": "David oder Timo",
      "tun": "Im Claude-Chat „ja <Nr>“ schreiben, Liste in timo/JA_LISTE.md",
      "quelle": "timo/JA_LISTE.md"
@@ -182,8 +189,8 @@
    "nr": 3,
    "id": "wer",
    "frage": "Wer arbeitet woran?",
-   "ampel": "rot",
-   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 50 Runden heute.",
+   "ampel": "gruen",
+   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 55 Runden heute.",
    "saetze": [],
    "zeilen": [
     {
@@ -198,8 +205,8 @@
     },
     {
      "name": "Claude",
-     "text": "50 Runden heute, alle 5 Minuten eine. Zuletzt: Takt ohne Ergebniszeile beendet (rc=1), Protokoll in ~/takt/laeufe.",
-     "ampel": "rot"
+     "text": "55 Runden heute, alle 5 Minuten eine. Zuletzt: Ereignis Adam DS gelesen, kein Preis, nur Ankündigung Versand Deutschland; Fund dabei: Adam …",
+     "ampel": "gruen"
     },
     {
      "name": "Abteilungs-Chats",
@@ -213,7 +220,7 @@
    "id": "tempo",
    "frage": "Wie schnell geht es gerade?",
    "ampel": "rot",
-   "kurz": "Letzte Stunde: 27 Runden, 0 davon mit fertigem Ergebnis.",
+   "kurz": "Letzte Stunde: 29 Runden, 0 davon mit fertigem Ergebnis.",
    "saetze": [
     "Gewinn heute: 0,00 USD.",
     "Fertig heißt noch nicht live: 8 Ja-Schritte warten auf euer Ja (Karte 2)."
@@ -231,7 +238,7 @@
     },
     {
      "name": "Runden, letzte Stunde",
-     "text": "27 Runden: 0 mit fertigem Ergebnis (Creative, Text oder Klickweg), 0 haben einen Menschen erinnert, 0 nur innen gearbeitet, 27 sind abgestürzt.",
+     "text": "29 Runden: 0 mit fertigem Ergebnis (Creative, Text oder Klickweg), 1 hat einen Menschen erinnert, 0 nur innen gearbeitet, 28 sind abgestürzt.",
      "ampel": "rot"
     },
     {
@@ -278,7 +285,7 @@
     },
     {
      "name": "Runden",
-     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 27, davon 27 nur innen oder abgestürzt.",
+     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 29, davon 28 nur innen oder abgestürzt.",
      "ampel": "rot"
     }
    ]
@@ -324,12 +331,6 @@
  ],
  "karten_fehler": null,
  "rot": [
-  {
-   "prio": 1,
-   "block": "werkzeuge",
-   "titel": "Takt-Schleife ist rot",
-   "text": "40 Fehlrunden in Folge (letzte rc=1). Ursache: 20261008_0330.txt: You've hit your limit on every Platz (alle Plaetze gesperrt, siehe ~/claude-plaetze/gesperrt.json)"
-  },
   {
    "prio": 2,
    "block": "geld",
@@ -431,7 +432,7 @@
      "ampel": "grau",
      "detail": "12 Bilder, 10 Videos, neu seit Montag, 05.10., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
      "quelle": "Erstellzeit der Dateien in creatives/fertig, 05_creatives/ads, 05_creatives/ki/fertig",
-     "stand": "03:32",
+     "stand": "03:47",
      "ziel": null
     },
     {
@@ -491,7 +492,7 @@
      "ampel": "grau",
      "detail": "1 Zeile im Codeblock (Formatbeispiel) nicht gezählt. Steht dort eine echte Aufgabe, gehört sie aus dem Block heraus.",
      "quelle": "timo/OFFEN.md",
-     "stand": "03:32",
+     "stand": "03:47",
      "ziel": null
     },
     {
@@ -616,11 +617,11 @@
   {
    "id": "werkzeuge",
    "titel": "Werkzeuge",
-   "ampel": "rot",
+   "ampel": "gelb",
    "zeilen": [
     {
      "name": "Wächter, letzter Lauf",
-     "wert": "03:30",
+     "wert": "03:46",
      "ampel": "gruen",
      "detail": null,
      "quelle": "waechter_zustand.json",
@@ -632,14 +633,14 @@
     {
      "name": "Takt-Schleife",
      "schluessel": "takt",
-     "ampel": "rot",
-     "text": "40 Fehlrunden in Folge (letzte rc=1). Ursache: 20261008_0330.txt: You've hit your limit on every Platz (alle Plaetze gesperrt, siehe ~/claude-plaetze/gesperrt.json)"
+     "ampel": "gruen",
+     "text": "letzte Runde 03:46 (chef), rc=0"
     },
     {
      "name": "Perplexity",
      "schluessel": "perplexity",
      "ampel": "gruen",
-     "text": "letzter Lauf 02:06 erfolgreich, Gins laeuft"
+     "text": "letzter Lauf 03:37 erfolgreich, Gins laeuft"
     },
     {
      "name": "Davids Chrome",
@@ -651,7 +652,7 @@
      "name": "Crosspost",
      "schluessel": "crosspost",
      "ampel": "gruen",
-     "text": "laeuft (pid 34390), Herzschlag vor 11 s, postet, letzter Fehler: 2026-10-07T19:39:48.439Z keine Videos in der Antwort: {\"extr"
+     "text": "laeuft (pid 34390), Herzschlag vor 6 s, postet, letzter Fehler: 2026-10-07T19:39:48.439Z keine Videos in der Antwort: {\"extr"
     },
     {
      "name": "Speicher",
@@ -663,7 +664,7 @@
      "name": "GitHub-Push",
      "schluessel": "github",
      "ampel": "gruen",
-     "text": "keine erfolgreiche Takt-Runde in 2 Stunden, kein Push erwartet"
+     "text": "origin/main 2dde4b3 vor 0 Min"
     },
     {
      "name": "WhatsApp Web",
@@ -687,7 +688,7 @@
      "name": "Ereignis-Sensor",
      "schluessel": "ereignisse",
      "ampel": "gruen",
-     "text": "letzter Lauf 03:30, 0 offene Ereignisse"
+     "text": "letzter Lauf 03:46, 0 offene Ereignisse"
     },
     {
      "name": "Chrome auf Timos PC",
