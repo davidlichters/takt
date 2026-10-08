@@ -1,7 +1,7 @@
 {
  "version": 2,
- "stand": "2026-10-08T07:32:05Z",
- "stand_berlin": "08.10.2026 09:32",
+ "stand": "2026-10-08T07:47:05Z",
+ "stand_berlin": "08.10.2026 09:47",
  "takt_min": 15,
  "quelle": "takt/leitstand_bauen.py auf Davids Mac, ohne Modell",
  "ziele": {
@@ -43,7 +43,7 @@
     },
     {
      "name": "Recherche",
-     "text": "Perplexity hat heute 32 Fragen beantwortet, die letzte um 09:28.",
+     "text": "Perplexity hat heute 34 Fragen beantwortet, die letzte um 09:39.",
      "ampel": "gruen"
     },
     {
@@ -53,7 +53,7 @@
     },
     {
      "name": "Chef-Runde",
-     "text": "Um 09:14: Kaufknopf zeigt bei 2 und 3 Betten nur noch \"Add to cart\" ohne festen Preis, Ja 19 per …",
+     "text": "Um 09:32: Produktseite Sleigh Bed ohne \"small pets\", \"Order by Dec 4\" und \"free US shipping\" in Beschreibung …",
      "ampel": "gruen"
     }
    ]
@@ -259,7 +259,7 @@
    "id": "wer",
    "frage": "Wer arbeitet woran?",
    "ampel": "gruen",
-   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 90 Runden heute.",
+   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 92 Runden heute.",
    "saetze": [],
    "zeilen": [
     {
@@ -274,7 +274,7 @@
     },
     {
      "name": "Claude",
-     "text": "90 Runden heute, alle 5 Minuten eine. Zuletzt: Kaufknopf zeigt bei 2 und 3 Betten nur noch \"Add to cart\" ohne festen Preis, Ja 19 per …",
+     "text": "92 Runden heute, alle 5 Minuten eine. Zuletzt: Produktseite Sleigh Bed ohne \"small pets\", \"Order by Dec 4\" und \"free US shipping\" in …",
      "ampel": "gruen"
     },
     {
@@ -288,8 +288,8 @@
    "nr": 4,
    "id": "tempo",
    "frage": "Wie schnell geht es gerade?",
-   "ampel": "rot",
-   "kurz": "Letzte Stunde: 5 Runden, 1 davon mit fertigem Ergebnis.",
+   "ampel": "gelb",
+   "kurz": "Letzte Stunde: 4 Runden, 2 davon mit fertigem Ergebnis.",
    "saetze": [
     "Gewinn heute: 0,00 USD.",
     "Fertig heißt noch nicht live: 6 Ja-Schritte warten auf euer Ja (Karte 2)."
@@ -307,8 +307,8 @@
     },
     {
      "name": "Runden, letzte Stunde",
-     "text": "5 Runden: 1 mit fertigem Ergebnis (Creative, Text oder Klickweg), 0 haben einen Menschen erinnert, 1 nur innen gearbeitet, 3 sind abgestürzt.",
-     "ampel": "rot"
+     "text": "4 Runden: 2 mit fertigem Ergebnis (Creative, Text oder Klickweg), 1 hat einen Menschen erinnert, 0 nur innen gearbeitet, 1 ist abgestürzt.",
+     "ampel": "gelb"
     },
     {
      "name": "Erledigt heute",
@@ -354,7 +354,7 @@
     },
     {
      "name": "Runden",
-     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 5, davon 4 nur innen oder abgestürzt.",
+     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 4, davon 1 nur innen oder abgestürzt.",
      "ampel": "rot"
     }
    ]
@@ -501,7 +501,7 @@
      "ampel": "grau",
      "detail": "12 Bilder, 10 Videos, neu seit Montag, 05.10., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
      "quelle": "Erstellzeit der Dateien in creatives/fertig, 05_creatives/ads, 05_creatives/ki/fertig",
-     "stand": "09:32",
+     "stand": "09:47",
      "ziel": null
     },
     {
@@ -561,7 +561,7 @@
      "ampel": "grau",
      "detail": "1 Zeile im Codeblock (Formatbeispiel) nicht gezählt. Steht dort eine echte Aufgabe, gehört sie aus dem Block heraus.",
      "quelle": "timo/OFFEN.md",
-     "stand": "09:32",
+     "stand": "09:47",
      "ziel": null
     },
     {
@@ -690,7 +690,7 @@
    "zeilen": [
     {
      "name": "Wächter, letzter Lauf",
-     "wert": "09:30",
+     "wert": "09:46",
      "ampel": "gruen",
      "detail": null,
      "quelle": "waechter_zustand.json",
@@ -703,13 +703,13 @@
      "name": "Takt-Schleife",
      "schluessel": "takt",
      "ampel": "gruen",
-     "text": "letzte Runde 09:21 (chef), rc=0, Runde laeuft seit 6 Min"
+     "text": "letzte Runde 09:44 (chef), rc=0, Runde laeuft seit 1 Min"
     },
     {
      "name": "Perplexity",
      "schluessel": "perplexity",
      "ampel": "gruen",
-     "text": "Gins laeuft; letzter Lauf 09:28 ohne Antwortdatei: Absenden: Perplexity meldet 1x \"Unable to start session\" (Ko"
+     "text": "letzter Lauf 09:34 erfolgreich, Gins laeuft"
     },
     {
      "name": "Davids Chrome",
@@ -721,7 +721,7 @@
      "name": "Crosspost",
      "schluessel": "crosspost",
      "ampel": "gruen",
-     "text": "laeuft (pid 34390), Herzschlag vor 11 s, postet, letzter Fehler: 2026-10-07T19:39:48.439Z keine Videos in der Antwort: {\"extr"
+     "text": "laeuft (pid 34390), Herzschlag vor 6 s, postet, letzter Fehler: 2026-10-07T19:39:48.439Z keine Videos in der Antwort: {\"extr"
     },
     {
      "name": "Speicher",
@@ -733,7 +733,7 @@
      "name": "GitHub-Push",
      "schluessel": "github",
      "ampel": "gruen",
-     "text": "origin/main a692937 vor 6 Min"
+     "text": "origin/main 4d402d7 vor 0 Min"
     },
     {
      "name": "WhatsApp Web",
@@ -757,7 +757,7 @@
      "name": "Ereignis-Sensor",
      "schluessel": "ereignisse",
      "ampel": "gruen",
-     "text": "letzter Lauf 09:30, 1 offene Ereignisse, aeltestes 09:25"
+     "text": "letzter Lauf 09:46, 0 offene Ereignisse"
     },
     {
      "name": "Chrome auf Timos PC",
