@@ -1,7 +1,7 @@
 {
  "version": 2,
- "stand": "2026-10-08T07:17:05Z",
- "stand_berlin": "08.10.2026 09:17",
+ "stand": "2026-10-08T07:32:05Z",
+ "stand_berlin": "08.10.2026 09:32",
  "takt_min": 15,
  "quelle": "takt/leitstand_bauen.py auf Davids Mac, ohne Modell",
  "ziele": {
@@ -43,7 +43,7 @@
     },
     {
      "name": "Recherche",
-     "text": "Perplexity hat heute 30 Fragen beantwortet, die letzte um 09:07.",
+     "text": "Perplexity hat heute 32 Fragen beantwortet, die letzte um 09:28.",
      "ampel": "gruen"
     },
     {
@@ -53,8 +53,8 @@
     },
     {
      "name": "Chef-Runde",
-     "text": "Um 08:55: FAQ und Returns stehen jetzt im Handymenue (Ja 11, seit 03.10. offen), per Shopify-API menuUpdate ohne Theme …",
-     "ampel": "rot"
+     "text": "Um 09:14: Kaufknopf zeigt bei 2 und 3 Betten nur noch \"Add to cart\" ohne festen Preis, Ja 19 per …",
+     "ampel": "gruen"
     }
    ]
   },
@@ -63,7 +63,7 @@
    "id": "auf",
    "frage": "Was hält uns auf?",
    "ampel": "rot",
-   "kurz": "14 Dinge halten uns auf.",
+   "kurz": "15 Dinge halten uns auf.",
    "saetze": [
     "Bei jedem steht, wer es tun muss. Oben steht das, was am meisten Geld kostet."
    ],
@@ -200,6 +200,18 @@
      "prio": 0,
      "block": "eskalation",
      "quelle": "gedaechtnis/OFFEN.md",
+     "titel": "im Shop-Chat (Spur 3) einmal nachsehen, warum sie Theme-Aufgaben nicht mehr live schaltet, 5 …",
+     "wer": "David",
+     "tun": null,
+     "bis": "10:15",
+     "vorbei": false,
+     "stufe": 6,
+     "ja": []
+    },
+    {
+     "prio": 0,
+     "block": "eskalation",
+     "quelle": "gedaechtnis/OFFEN.md",
      "titel": "Am 07:30-Termin stehen jetzt 6 einzelne Zeilen gleichzeitig (Bonnie-Text, Adam-Text, John-Text, 7 …",
      "wer": "Timo",
      "tun": null,
@@ -211,7 +223,7 @@
     {
      "prio": 1.5,
      "block": "ja",
-     "titel": "3 Ja-Fragen warten: ja knopf (bis 04.10. 12:00), ja judgeme (bis 04.10. 12:00), ja adam2 (bis 05.10. 12:00)",
+     "titel": "2 Ja-Fragen warten: ja judgeme (bis 04.10. 12:00), ja adam2 (bis 05.10. 12:00)",
      "wer": "David oder Timo",
      "tun": "Im Claude-Chat „ja <Nr>“ schreiben, Liste in timo/JA_LISTE.md",
      "quelle": "timo/JA_LISTE.md"
@@ -246,13 +258,13 @@
    "nr": 3,
    "id": "wer",
    "frage": "Wer arbeitet woran?",
-   "ampel": "rot",
-   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 89 Runden heute.",
+   "ampel": "gruen",
+   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 90 Runden heute.",
    "saetze": [],
    "zeilen": [
     {
      "name": "David",
-     "text": "Nicht gemessen, weil David die Mac-Messung am 03.10. abgeschaltet hat. Auf David warten heute 4 Sachen (Karte 2).",
+     "text": "Nicht gemessen, weil David die Mac-Messung am 03.10. abgeschaltet hat. Auf David warten heute 5 Sachen (Karte 2).",
      "ampel": "grau"
     },
     {
@@ -262,8 +274,8 @@
     },
     {
      "name": "Claude",
-     "text": "89 Runden heute, alle 5 Minuten eine. Zuletzt: FAQ und Returns stehen jetzt im Handymenue (Ja 11, seit 03.10. offen), per Shopify-API …",
-     "ampel": "rot"
+     "text": "90 Runden heute, alle 5 Minuten eine. Zuletzt: Kaufknopf zeigt bei 2 und 3 Betten nur noch \"Add to cart\" ohne festen Preis, Ja 19 per …",
+     "ampel": "gruen"
     },
     {
      "name": "Abteilungs-Chats",
@@ -277,10 +289,10 @@
    "id": "tempo",
    "frage": "Wie schnell geht es gerade?",
    "ampel": "rot",
-   "kurz": "Letzte Stunde: 7 Runden, 0 davon mit fertigem Ergebnis.",
+   "kurz": "Letzte Stunde: 5 Runden, 1 davon mit fertigem Ergebnis.",
    "saetze": [
     "Gewinn heute: 0,00 USD.",
-    "Fertig heißt noch nicht live: 7 Ja-Schritte warten auf euer Ja (Karte 2)."
+    "Fertig heißt noch nicht live: 6 Ja-Schritte warten auf euer Ja (Karte 2)."
    ],
    "zeilen": [
     {
@@ -295,12 +307,12 @@
     },
     {
      "name": "Runden, letzte Stunde",
-     "text": "7 Runden: 0 mit fertigem Ergebnis (Creative, Text oder Klickweg), 0 haben einen Menschen erinnert, 1 nur innen gearbeitet, 6 sind abgestürzt.",
+     "text": "5 Runden: 1 mit fertigem Ergebnis (Creative, Text oder Klickweg), 0 haben einen Menschen erinnert, 1 nur innen gearbeitet, 3 sind abgestürzt.",
      "ampel": "rot"
     },
     {
      "name": "Erledigt heute",
-     "text": "0 in OFFEN.md als erledigt eingetragen, 2 Ja-Schritte erledigt.",
+     "text": "0 in OFFEN.md als erledigt eingetragen, 3 Ja-Schritte erledigt.",
      "ampel": "gruen"
     },
     {
@@ -342,7 +354,7 @@
     },
     {
      "name": "Runden",
-     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 7, davon 7 nur innen oder abgestürzt.",
+     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 5, davon 4 nur innen oder abgestürzt.",
      "ampel": "rot"
     }
    ]
@@ -489,7 +501,7 @@
      "ampel": "grau",
      "detail": "12 Bilder, 10 Videos, neu seit Montag, 05.10., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
      "quelle": "Erstellzeit der Dateien in creatives/fertig, 05_creatives/ads, 05_creatives/ki/fertig",
-     "stand": "09:17",
+     "stand": "09:32",
      "ziel": null
     },
     {
@@ -549,7 +561,7 @@
      "ampel": "grau",
      "detail": "1 Zeile im Codeblock (Formatbeispiel) nicht gezählt. Steht dort eine echte Aufgabe, gehört sie aus dem Block heraus.",
      "quelle": "timo/OFFEN.md",
-     "stand": "09:17",
+     "stand": "09:32",
      "ziel": null
     },
     {
@@ -678,7 +690,7 @@
    "zeilen": [
     {
      "name": "Wächter, letzter Lauf",
-     "wert": "09:14",
+     "wert": "09:30",
      "ampel": "gruen",
      "detail": null,
      "quelle": "waechter_zustand.json",
@@ -691,13 +703,13 @@
      "name": "Takt-Schleife",
      "schluessel": "takt",
      "ampel": "gruen",
-     "text": "letzte Runde 09:14 (chef), rc=143, 1 Fehlrunde in Folge, Runde laeuft seit 0 Min"
+     "text": "letzte Runde 09:21 (chef), rc=0, Runde laeuft seit 6 Min"
     },
     {
      "name": "Perplexity",
      "schluessel": "perplexity",
      "ampel": "gruen",
-     "text": "letzter Lauf 09:03 erfolgreich, Gins laeuft"
+     "text": "Gins laeuft; letzter Lauf 09:28 ohne Antwortdatei: Absenden: Perplexity meldet 1x \"Unable to start session\" (Ko"
     },
     {
      "name": "Davids Chrome",
@@ -709,7 +721,7 @@
      "name": "Crosspost",
      "schluessel": "crosspost",
      "ampel": "gruen",
-     "text": "laeuft (pid 34390), Herzschlag vor 6 s, postet, letzter Fehler: 2026-10-07T19:39:48.439Z keine Videos in der Antwort: {\"extr"
+     "text": "laeuft (pid 34390), Herzschlag vor 11 s, postet, letzter Fehler: 2026-10-07T19:39:48.439Z keine Videos in der Antwort: {\"extr"
     },
     {
      "name": "Speicher",
@@ -721,7 +733,7 @@
      "name": "GitHub-Push",
      "schluessel": "github",
      "ampel": "gruen",
-     "text": "origin/main 67ee2f2 vor 4 Min"
+     "text": "origin/main a692937 vor 6 Min"
     },
     {
      "name": "WhatsApp Web",
@@ -745,7 +757,7 @@
      "name": "Ereignis-Sensor",
      "schluessel": "ereignisse",
      "ampel": "gruen",
-     "text": "letzter Lauf 09:14, 0 offene Ereignisse"
+     "text": "letzter Lauf 09:30, 1 offene Ereignisse, aeltestes 09:25"
     },
     {
      "name": "Chrome auf Timos PC",
