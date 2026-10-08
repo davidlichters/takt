@@ -1,7 +1,7 @@
 {
  "version": 2,
- "stand": "2026-10-08T04:47:05Z",
- "stand_berlin": "08.10.2026 06:47",
+ "stand": "2026-10-08T05:02:05Z",
+ "stand_berlin": "08.10.2026 07:02",
  "takt_min": 15,
  "quelle": "takt/leitstand_bauen.py auf Davids Mac, ohne Modell",
  "ziele": {
@@ -53,8 +53,8 @@
     },
     {
      "name": "Chef-Runde",
-     "text": "Um 06:35: entsperrt Stufe 6, weil Innen-Sperre frei und Stufen 1-5 gesund oder im 4h-Abkuehlen; Gegenprobe ohne neue …",
-     "ampel": "gelb"
+     "text": "Um 06:45: Contabo-Widerruf (Ja 35) frisch erinnert, 23:11 unveraendert, 2 fertige Briefe warten weiter auf Davids Wahl …",
+     "ampel": "gruen"
     }
    ]
   },
@@ -230,8 +230,8 @@
    "nr": 3,
    "id": "wer",
    "frage": "Wer arbeitet woran?",
-   "ampel": "gelb",
-   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 71 Runden heute.",
+   "ampel": "gruen",
+   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 72 Runden heute.",
    "saetze": [],
    "zeilen": [
     {
@@ -246,8 +246,8 @@
     },
     {
      "name": "Claude",
-     "text": "71 Runden heute, alle 5 Minuten eine. Zuletzt: entsperrt Stufe 6, weil Innen-Sperre frei und Stufen 1-5 gesund oder im 4h-Abkuehlen …",
-     "ampel": "gelb"
+     "text": "72 Runden heute, alle 5 Minuten eine. Zuletzt: Contabo-Widerruf (Ja 35) frisch erinnert, 23:11 unveraendert, 2 fertige Briefe warten weiter …",
+     "ampel": "gruen"
     },
     {
      "name": "Abteilungs-Chats",
@@ -279,7 +279,7 @@
     },
     {
      "name": "Runden, letzte Stunde",
-     "text": "5 Runden: 1 mit fertigem Ergebnis (Creative, Text oder Klickweg), 2 haben einen Menschen erinnert, 2 nur innen gearbeitet.",
+     "text": "5 Runden: 1 mit fertigem Ergebnis (Creative, Text oder Klickweg), 3 haben einen Menschen erinnert, 1 nur innen gearbeitet.",
      "ampel": "gelb"
     },
     {
@@ -326,7 +326,7 @@
     },
     {
      "name": "Runden",
-     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 5, davon 2 nur innen.",
+     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 5, davon 1 nur innen.",
      "ampel": "rot"
     }
    ]
@@ -473,7 +473,7 @@
      "ampel": "grau",
      "detail": "12 Bilder, 10 Videos, neu seit Montag, 05.10., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
      "quelle": "Erstellzeit der Dateien in creatives/fertig, 05_creatives/ads, 05_creatives/ki/fertig",
-     "stand": "06:47",
+     "stand": "07:02",
      "ziel": null
     },
     {
@@ -533,7 +533,7 @@
      "ampel": "grau",
      "detail": "1 Zeile im Codeblock (Formatbeispiel) nicht gezählt. Steht dort eine echte Aufgabe, gehört sie aus dem Block heraus.",
      "quelle": "timo/OFFEN.md",
-     "stand": "06:47",
+     "stand": "07:02",
      "ziel": null
     },
     {
@@ -662,7 +662,7 @@
    "zeilen": [
     {
      "name": "Wächter, letzter Lauf",
-     "wert": "06:43",
+     "wert": "06:59",
      "ampel": "gruen",
      "detail": null,
      "quelle": "waechter_zustand.json",
@@ -675,13 +675,13 @@
      "name": "Takt-Schleife",
      "schluessel": "takt",
      "ampel": "gruen",
-     "text": "letzte Runde 06:40 (chef), rc=0"
+     "text": "letzte Runde 06:53 (chef), rc=0, Runde laeuft seit 4 Min"
     },
     {
      "name": "Perplexity",
      "schluessel": "perplexity",
      "ampel": "gruen",
-     "text": "letzter Lauf 06:39 erfolgreich, Gins laeuft"
+     "text": "letzter Lauf 06:43 erfolgreich, Gins laeuft"
     },
     {
      "name": "Davids Chrome",
@@ -693,7 +693,7 @@
      "name": "Crosspost",
      "schluessel": "crosspost",
      "ampel": "gruen",
-     "text": "laeuft (pid 34390), Herzschlag vor 7 s, postet, letzter Fehler: 2026-10-07T19:39:48.439Z keine Videos in der Antwort: {\"extr"
+     "text": "laeuft (pid 34390), Herzschlag vor 5 s, postet, letzter Fehler: 2026-10-07T19:39:48.439Z keine Videos in der Antwort: {\"extr"
     },
     {
      "name": "Speicher",
@@ -705,13 +705,13 @@
      "name": "GitHub-Push",
      "schluessel": "github",
      "ampel": "gruen",
-     "text": "origin/main 2261a16 vor 3 Min"
+     "text": "origin/main f7de3a1 vor 3 Min"
     },
     {
      "name": "WhatsApp Web",
      "schluessel": "whatsapp",
      "ampel": "gruen",
-     "text": "Chatliste gelesen (apple, 1 Zeilen), 1 von 6 Lieferanten sichtbar, nicht sichtbar: Bonnie DS, John (Supplier), Mr Anh, Vito DS, Joel DS"
+     "text": "Chatliste gelesen (apple, 2 Zeilen), 1 von 6 Lieferanten sichtbar, nicht sichtbar: Bonnie DS, Adam DS, Mr Anh, Vito DS, Joel DS"
     },
     {
      "name": "Shopify",
@@ -729,7 +729,7 @@
      "name": "Ereignis-Sensor",
      "schluessel": "ereignisse",
      "ampel": "gruen",
-     "text": "letzter Lauf 06:43, 0 offene Ereignisse"
+     "text": "letzter Lauf 06:59, 1 offene Ereignisse, aeltestes 06:59"
     },
     {
      "name": "Chrome auf Timos PC",
