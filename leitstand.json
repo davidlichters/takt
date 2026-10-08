@@ -1,7 +1,7 @@
 {
  "version": 2,
- "stand": "2026-10-08T12:12:13Z",
- "stand_berlin": "08.10.2026 14:12",
+ "stand": "2026-10-08T12:17:05Z",
+ "stand_berlin": "08.10.2026 14:17",
  "takt_min": 15,
  "quelle": "takt/leitstand_bauen.py auf Davids Mac, ohne Modell",
  "ziele": {
@@ -43,7 +43,7 @@
     },
     {
      "name": "Recherche",
-     "text": "Perplexity hat heute 53 Fragen beantwortet, die letzte um 14:05. Die letzten 2 Versuche kamen ohne Antwort zurück.",
+     "text": "Perplexity hat heute 55 Fragen beantwortet, die letzte um 14:16.",
      "ampel": "gruen"
     },
     {
@@ -53,7 +53,7 @@
     },
     {
      "name": "Chef-Runde",
-     "text": "Um 13:55: Spur 3 laeuft seit 4 Tagen nicht, 29 Theme-Aufgaben warten (aelteste 97 Std.), letzte echte Veroeffentlichung …",
+     "text": "Um 14:05: Geldzahlen auf dem Leitstand waren seit 06:29 veraltet, jetzt live per Shopify-GraphQL nachgemessen: 0 …",
      "ampel": "gruen"
     }
    ]
@@ -321,7 +321,7 @@
    "id": "wer",
    "frage": "Wer arbeitet woran?",
    "ampel": "gruen",
-   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 123 Runden heute.",
+   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 124 Runden heute.",
    "saetze": [],
    "zeilen": [
     {
@@ -336,7 +336,7 @@
     },
     {
      "name": "Claude",
-     "text": "123 Runden heute, alle 5 Minuten eine. Zuletzt: Spur 3 laeuft seit 4 Tagen nicht, 29 Theme-Aufgaben warten (aelteste 97 Std.), letzte echte …",
+     "text": "124 Runden heute, alle 5 Minuten eine. Zuletzt: Geldzahlen auf dem Leitstand waren seit 06:29 veraltet, jetzt live per Shopify-GraphQL …",
      "ampel": "gruen"
     },
     {
@@ -351,7 +351,7 @@
    "id": "tempo",
    "frage": "Wie schnell geht es gerade?",
    "ampel": "rot",
-   "kurz": "Letzte Stunde: 12 Runden, 0 davon mit fertigem Ergebnis.",
+   "kurz": "Letzte Stunde: 11 Runden, 1 davon mit fertigem Ergebnis.",
    "saetze": [
     "Gewinn heute: 0,00 USD.",
     "Fertig heißt noch nicht live: 6 Ja-Schritte warten auf euer Ja (Karte 2)."
@@ -369,7 +369,7 @@
     },
     {
      "name": "Runden, letzte Stunde",
-     "text": "12 Runden: 0 mit fertigem Ergebnis (Creative, Text oder Klickweg), 1 hat einen Menschen erinnert, 1 nur innen gearbeitet, 10 sind abgestürzt.",
+     "text": "11 Runden: 1 mit fertigem Ergebnis (Creative, Text oder Klickweg), 1 hat einen Menschen erinnert, 1 nur innen gearbeitet, 8 sind abgestürzt.",
      "ampel": "rot"
     },
     {
@@ -416,7 +416,7 @@
     },
     {
      "name": "Runden",
-     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 12, davon 11 nur innen oder abgestürzt.",
+     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 11, davon 9 nur innen oder abgestürzt.",
      "ampel": "rot"
     }
    ]
@@ -563,7 +563,7 @@
      "ampel": "grau",
      "detail": "12 Bilder, 10 Videos, neu seit Montag, 05.10., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
      "quelle": "Erstellzeit der Dateien in creatives/fertig, 05_creatives/ads, 05_creatives/ki/fertig",
-     "stand": "14:12",
+     "stand": "14:17",
      "ziel": null
     },
     {
@@ -623,7 +623,7 @@
      "ampel": "grau",
      "detail": "1 Zeile im Codeblock (Formatbeispiel) nicht gezählt. Steht dort eine echte Aufgabe, gehört sie aus dem Block heraus.",
      "quelle": "timo/OFFEN.md",
-     "stand": "14:12",
+     "stand": "14:17",
      "ziel": null
     },
     {
@@ -752,7 +752,7 @@
    "zeilen": [
     {
      "name": "Wächter, letzter Lauf",
-     "wert": "14:11",
+     "wert": "14:16",
      "ampel": "gruen",
      "detail": null,
      "quelle": "waechter_zustand.json",
@@ -765,13 +765,13 @@
      "name": "Takt-Schleife",
      "schluessel": "takt",
      "ampel": "gruen",
-     "text": "letzte Runde 14:01 (chef), rc=0, Runde laeuft seit 6 Min"
+     "text": "letzte Runde 14:14 (chef), rc=0, Runde laeuft seit 1 Min"
     },
     {
      "name": "Perplexity",
      "schluessel": "perplexity",
      "ampel": "gruen",
-     "text": "Gins laeuft; letzter Lauf 14:07 ohne Antwortdatei: Absenden: Perplexity meldet 1x \"Unable to start session\" (Ko"
+     "text": "letzter Lauf 14:08 erfolgreich, Gins laeuft"
     },
     {
      "name": "Davids Chrome",
@@ -783,19 +783,19 @@
      "name": "Crosspost",
      "schluessel": "crosspost",
      "ampel": "gruen",
-     "text": "laeuft (pid 34390), Herzschlag vor 1 s, postet, letzter Fehler: 2026-10-07T19:39:48.439Z keine Videos in der Antwort: {\"extr"
+     "text": "laeuft (pid 34390), Herzschlag vor 4 s, postet, letzter Fehler: 2026-10-07T19:39:48.439Z keine Videos in der Antwort: {\"extr"
     },
     {
      "name": "Speicher",
      "schluessel": "speicher",
      "ampel": "gruen",
-     "text": "33 GB frei"
+     "text": "31 GB frei"
     },
     {
      "name": "GitHub-Push",
      "schluessel": "github",
      "ampel": "gruen",
-     "text": "origin/main 68eaaeb vor 2 Min"
+     "text": "origin/main 68eaaeb vor 7 Min"
     },
     {
      "name": "WhatsApp Web",
@@ -819,7 +819,7 @@
      "name": "Ereignis-Sensor",
      "schluessel": "ereignisse",
      "ampel": "gruen",
-     "text": "letzter Lauf 14:11, 1 offene Ereignisse, aeltestes 14:09"
+     "text": "letzter Lauf 14:16, 0 offene Ereignisse"
     },
     {
      "name": "Chrome auf Timos PC",
