@@ -1,7 +1,7 @@
 {
  "version": 2,
- "stand": "2026-10-08T16:47:05Z",
- "stand_berlin": "08.10.2026 18:47",
+ "stand": "2026-10-08T17:02:05Z",
+ "stand_berlin": "08.10.2026 19:02",
  "takt_min": 15,
  "quelle": "takt/leitstand_bauen.py auf Davids Mac, ohne Modell",
  "ziele": {
@@ -43,18 +43,18 @@
     },
     {
      "name": "Recherche",
-     "text": "Perplexity hat heute 73 Fragen beantwortet, die letzte um 18:11. Die letzten 2 Versuche kamen ohne Antwort zurück.",
+     "text": "Perplexity hat heute 76 Fragen beantwortet, die letzte um 18:59.",
      "ampel": "gruen"
     },
     {
      "name": "Technik",
-     "text": "Der Wächter prüft alle 5 Minuten 10 Werkzeuge: 8 gehen, 1 kaputt (Takt-Schleife), 1 warten auf Zugang oder sind aus (Meta). 1 weiteres prüft er noch nicht.",
-     "ampel": "rot"
+     "text": "Der Wächter prüft alle 5 Minuten 10 Werkzeuge: 9 gehen, 1 warten auf Zugang oder sind aus (Meta). 1 weiteres prüft er noch nicht.",
+     "ampel": "gruen"
     },
     {
      "name": "Chef-Runde",
-     "text": "Um 18:40: Takt ohne Ergebniszeile beendet (rc=1), Protokoll in ~/takt/laeufe.",
-     "ampel": "rot"
+     "text": "Um 18:55: Spur 3 veroeffentlicht seit 04.10. 13:27 nichts mehr, 29 Theme-Aufgaben warten (aelteste 04.10. 12:52, 102 …",
+     "ampel": "gruen"
     }
    ]
   },
@@ -302,6 +302,18 @@
      "prio": 0,
      "block": "eskalation",
      "quelle": "gedaechtnis/OFFEN.md",
+     "titel": "im Shop-Chat (Spur 3) den einen Satz \"Spur 3 laufen lassen\" schreiben, 2 Minuten, 0 USD. Gemessen …",
+     "wer": "David",
+     "tun": null,
+     "bis": "19:30",
+     "vorbei": false,
+     "stufe": 6,
+     "ja": []
+    },
+    {
+     "prio": 0,
+     "block": "eskalation",
+     "quelle": "gedaechtnis/OFFEN.md",
      "titel": "Am 07:30-Termin stehen jetzt 6 einzelne Zeilen gleichzeitig (Bonnie-Text, Adam-Text, John-Text, 7 …",
      "wer": "Timo",
      "tun": null,
@@ -311,17 +323,9 @@
      "ja": []
     },
     {
-     "prio": 1,
-     "block": "werkzeuge",
-     "titel": "Takt-Schleife ist kaputt",
-     "text": "35 Fehlrunden in Folge (letzte rc=1). Ursache: 20261008_1840.txt: You've hit your limit on every Platz (alle Plaetze gesperrt, siehe ~/claude-plaetze/gesperrt.json)",
-     "wer": "Claude (Technik)",
-     "tun": "Reparieren. Grund: 35 Fehlrunden in Folge (letzte rc=1). Ursache: 20261008_1840.txt: You've hit …"
-    },
-    {
      "prio": 1.5,
      "block": "ja",
-     "titel": "3 Ja-Fragen warten: ja judgeme (bis 04.10. 12:00), ja adam2 (bis 05.10. 12:00), ja winterbett (bis wird erst nach Bestellschluss relevant, kein Handeln vorher)",
+     "titel": "2 Ja-Fragen warten: ja adam2 (bis 05.10. 12:00), ja winterbett (bis wird erst nach Bestellschluss relevant, kein Handeln vorher)",
      "wer": "David oder Timo",
      "tun": "Im Claude-Chat „ja <Nr>“ schreiben, Liste in timo/JA_LISTE.md",
      "quelle": "timo/JA_LISTE.md"
@@ -356,13 +360,13 @@
    "nr": 3,
    "id": "wer",
    "frage": "Wer arbeitet woran?",
-   "ampel": "rot",
-   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 169 Runden heute.",
+   "ampel": "gruen",
+   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 171 Runden heute.",
    "saetze": [],
    "zeilen": [
     {
      "name": "David",
-     "text": "Nicht gemessen, weil David die Mac-Messung am 03.10. abgeschaltet hat. Auf David warten heute 8 Sachen (Karte 2).",
+     "text": "Nicht gemessen, weil David die Mac-Messung am 03.10. abgeschaltet hat. Auf David warten heute 9 Sachen (Karte 2).",
      "ampel": "grau"
     },
     {
@@ -372,8 +376,8 @@
     },
     {
      "name": "Claude",
-     "text": "169 Runden heute, alle 5 Minuten eine. Zuletzt: Takt ohne Ergebniszeile beendet (rc=1), Protokoll in ~/takt/laeufe.",
-     "ampel": "rot"
+     "text": "171 Runden heute, alle 5 Minuten eine. Zuletzt: Spur 3 veroeffentlicht seit 04.10. 13:27 nichts mehr, 29 Theme-Aufgaben warten (aelteste …",
+     "ampel": "gruen"
     },
     {
      "name": "Abteilungs-Chats",
@@ -387,10 +391,10 @@
    "id": "tempo",
    "frage": "Wie schnell geht es gerade?",
    "ampel": "rot",
-   "kurz": "Letzte Stunde: 13 Runden, 0 davon mit fertigem Ergebnis.",
+   "kurz": "Letzte Stunde: 12 Runden, 1 davon mit fertigem Ergebnis.",
    "saetze": [
     "Gewinn heute: 0,00 USD.",
-    "Fertig heißt noch nicht live: 7 Ja-Schritte warten auf euer Ja (Karte 2)."
+    "Fertig heißt noch nicht live: 6 Ja-Schritte warten auf euer Ja (Karte 2)."
    ],
    "zeilen": [
     {
@@ -405,12 +409,12 @@
     },
     {
      "name": "Runden, letzte Stunde",
-     "text": "13 Runden: 0 mit fertigem Ergebnis (Creative, Text oder Klickweg), 0 haben einen Menschen erinnert, 0 nur innen gearbeitet, 13 sind abgestürzt.",
+     "text": "12 Runden: 1 mit fertigem Ergebnis (Creative, Text oder Klickweg), 1 hat einen Menschen erinnert, 0 nur innen gearbeitet, 10 sind abgestürzt.",
      "ampel": "rot"
     },
     {
      "name": "Erledigt heute",
-     "text": "0 in OFFEN.md als erledigt eingetragen, 3 Ja-Schritte erledigt.",
+     "text": "0 in OFFEN.md als erledigt eingetragen, 4 Ja-Schritte erledigt.",
      "ampel": "gruen"
     },
     {
@@ -452,7 +456,7 @@
     },
     {
      "name": "Runden",
-     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 13, davon 13 nur innen oder abgestürzt.",
+     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 12, davon 10 nur innen oder abgestürzt.",
      "ampel": "rot"
     }
    ]
@@ -498,12 +502,6 @@
  ],
  "karten_fehler": null,
  "rot": [
-  {
-   "prio": 1,
-   "block": "werkzeuge",
-   "titel": "Takt-Schleife ist rot",
-   "text": "35 Fehlrunden in Folge (letzte rc=1). Ursache: 20261008_1840.txt: You've hit your limit on every Platz (alle Plaetze gesperrt, siehe ~/claude-plaetze/gesperrt.json)"
-  },
   {
    "prio": 2,
    "block": "geld",
@@ -605,7 +603,7 @@
      "ampel": "grau",
      "detail": "12 Bilder, 10 Videos, neu seit Montag, 05.10., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
      "quelle": "Erstellzeit der Dateien in creatives/fertig, 05_creatives/ads, 05_creatives/ki/fertig",
-     "stand": "18:47",
+     "stand": "19:02",
      "ziel": null
     },
     {
@@ -665,7 +663,7 @@
      "ampel": "grau",
      "detail": "1 Zeile im Codeblock (Formatbeispiel) nicht gezählt. Steht dort eine echte Aufgabe, gehört sie aus dem Block heraus.",
      "quelle": "timo/OFFEN.md",
-     "stand": "18:47",
+     "stand": "19:02",
      "ziel": null
     },
     {
@@ -790,11 +788,11 @@
   {
    "id": "werkzeuge",
    "titel": "Werkzeuge",
-   "ampel": "rot",
+   "ampel": "gelb",
    "zeilen": [
     {
      "name": "Wächter, letzter Lauf",
-     "wert": "18:42",
+     "wert": "18:57",
      "ampel": "gruen",
      "detail": null,
      "quelle": "waechter_zustand.json",
@@ -806,14 +804,14 @@
     {
      "name": "Takt-Schleife",
      "schluessel": "takt",
-     "ampel": "rot",
-     "text": "35 Fehlrunden in Folge (letzte rc=1). Ursache: 20261008_1840.txt: You've hit your limit on every Platz (alle Plaetze gesperrt, siehe ~/claude-plaetze/gesperrt.json)"
+     "ampel": "gruen",
+     "text": "letzte Runde 18:50 (chef), rc=0, Runde laeuft seit 2 Min"
     },
     {
      "name": "Perplexity",
      "schluessel": "perplexity",
      "ampel": "gruen",
-     "text": "Gins laeuft; letzter Lauf 18:24 ohne Antwortdatei: nach 12 Minuten nicht fertig"
+     "text": "letzter Lauf 18:52 erfolgreich, Gins laeuft"
     },
     {
      "name": "Davids Chrome",
@@ -825,7 +823,7 @@
      "name": "Crosspost",
      "schluessel": "crosspost",
      "ampel": "gruen",
-     "text": "laeuft (pid 34390), Herzschlag vor 1 s, postet, letzter Fehler: 2026-10-07T19:39:48.439Z keine Videos in der Antwort: {\"extr"
+     "text": "laeuft (pid 34390), Herzschlag vor 7 s, postet, letzter Fehler: 2026-10-07T19:39:48.439Z keine Videos in der Antwort: {\"extr"
     },
     {
      "name": "Speicher",
@@ -837,13 +835,13 @@
      "name": "GitHub-Push",
      "schluessel": "github",
      "ampel": "gruen",
-     "text": "keine erfolgreiche Takt-Runde in 2 Stunden, kein Push erwartet"
+     "text": "origin/main afb1014 vor 2 Min"
     },
     {
      "name": "WhatsApp Web",
      "schluessel": "whatsapp",
      "ampel": "gruen",
-     "text": "Chatliste gelesen (apple, 10 Zeilen), 6 von 6 Lieferanten sichtbar"
+     "text": "ausgesetzt, WhatsApp gerade belegt: /opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/Resourc…"
     },
     {
      "name": "Shopify",
@@ -861,7 +859,7 @@
      "name": "Ereignis-Sensor",
      "schluessel": "ereignisse",
      "ampel": "gruen",
-     "text": "letzter Lauf 18:42, 0 offene Ereignisse"
+     "text": "letzter Lauf 18:57, 1 offene Ereignisse, aeltestes 18:55"
     },
     {
      "name": "Chrome auf Timos PC",
