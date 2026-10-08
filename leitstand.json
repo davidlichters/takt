@@ -1,7 +1,7 @@
 {
  "version": 2,
- "stand": "2026-10-08T23:07:05Z",
- "stand_berlin": "09.10.2026 01:07",
+ "stand": "2026-10-08T23:17:05Z",
+ "stand_berlin": "09.10.2026 01:17",
  "takt_min": 15,
  "quelle": "takt/leitstand_bauen.py auf Davids Mac, ohne Modell",
  "ziele": {
@@ -43,7 +43,7 @@
     },
     {
      "name": "Recherche",
-     "text": "Perplexity hat heute 8 Fragen beantwortet, die letzte um 01:06.",
+     "text": "Perplexity hat heute 9 Fragen beantwortet, die letzte um 01:11.",
      "ampel": "gruen"
     },
     {
@@ -53,7 +53,7 @@
     },
     {
      "name": "Chef-Runde",
-     "text": "Um 00:50: Ja 37 (Bettlieferantin, Preisvorlauf und Versand annehmen) Frist 20:30 seit ueber 4 Std ueberschritten, neue …",
+     "text": "Um 01:01: Leitstand-Board zeigt jetzt frisch per Shopify-GraphQL gemessene Zahlen (0 Bestellungen seit 01.10., Gewinn 0 …",
      "ampel": "gruen"
     }
    ]
@@ -203,7 +203,7 @@
    "id": "wer",
    "frage": "Wer arbeitet woran?",
    "ampel": "gruen",
-   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 6 Runden heute.",
+   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 7 Runden heute.",
    "saetze": [],
    "zeilen": [
     {
@@ -218,7 +218,7 @@
     },
     {
      "name": "Claude",
-     "text": "6 Runden heute, alle 5 Minuten eine. Zuletzt: Ja 37 (Bettlieferantin, Preisvorlauf und Versand annehmen) Frist 20:30 seit ueber 4 Std …",
+     "text": "7 Runden heute, alle 5 Minuten eine. Zuletzt: Leitstand-Board zeigt jetzt frisch per Shopify-GraphQL gemessene Zahlen (0 Bestellungen seit …",
      "ampel": "gruen"
     },
     {
@@ -233,7 +233,7 @@
    "id": "tempo",
    "frage": "Wie schnell geht es gerade?",
    "ampel": "gelb",
-   "kurz": "Letzte Stunde: 5 Runden, 0 davon mit fertigem Ergebnis.",
+   "kurz": "Letzte Stunde: 5 Runden, 1 davon mit fertigem Ergebnis.",
    "saetze": [
     "Gewinn heute: 0,00 USD.",
     "Fertig heißt noch nicht live: 6 Ja-Schritte warten auf euer Ja (Karte 2)."
@@ -251,7 +251,7 @@
     },
     {
      "name": "Runden, letzte Stunde",
-     "text": "5 Runden: 0 mit fertigem Ergebnis (Creative, Text oder Klickweg), 4 haben einen Menschen erinnert, 1 nur innen gearbeitet.",
+     "text": "5 Runden: 1 mit fertigem Ergebnis (Creative, Text oder Klickweg), 3 haben einen Menschen erinnert, 1 nur innen gearbeitet.",
      "ampel": "gelb"
     },
     {
@@ -445,7 +445,7 @@
      "ampel": "grau",
      "detail": "12 Bilder, 10 Videos, neu seit Montag, 05.10., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
      "quelle": "Erstellzeit der Dateien in creatives/fertig, 05_creatives/ads, 05_creatives/ki/fertig",
-     "stand": "01:07",
+     "stand": "01:17",
      "ziel": null
     },
     {
@@ -505,7 +505,7 @@
      "ampel": "grau",
      "detail": "1 Zeile im Codeblock (Formatbeispiel) nicht gezählt. Steht dort eine echte Aufgabe, gehört sie aus dem Block heraus.",
      "quelle": "timo/OFFEN.md",
-     "stand": "01:07",
+     "stand": "01:17",
      "ziel": null
     },
     {
@@ -634,7 +634,7 @@
    "zeilen": [
     {
      "name": "Wächter, letzter Lauf",
-     "wert": "01:02",
+     "wert": "01:12",
      "ampel": "gruen",
      "detail": null,
      "quelle": "waechter_zustand.json",
@@ -647,13 +647,13 @@
      "name": "Takt-Schleife",
      "schluessel": "takt",
      "ampel": "gruen",
-     "text": "letzte Runde 01:01 (chef), rc=0, Runde laeuft seit 0 Min"
+     "text": "letzte Runde 01:10 (chef), rc=0, Runde laeuft seit 1 Min"
     },
     {
      "name": "Perplexity",
      "schluessel": "perplexity",
      "ampel": "gruen",
-     "text": "letzter Lauf 00:58 erfolgreich, Gins laeuft"
+     "text": "letzter Lauf 01:06 erfolgreich, Gins laeuft"
     },
     {
      "name": "Davids Chrome",
@@ -665,7 +665,7 @@
      "name": "Crosspost",
      "schluessel": "crosspost",
      "ampel": "gruen",
-     "text": "laeuft (pid 34390), Herzschlag vor 9 s, postet, letzter Fehler: 2026-10-07T19:39:48.439Z keine Videos in der Antwort: {\"extr"
+     "text": "laeuft (pid 34390), Herzschlag vor 11 s, postet, letzter Fehler: 2026-10-07T19:39:48.439Z keine Videos in der Antwort: {\"extr"
     },
     {
      "name": "Speicher",
@@ -677,7 +677,7 @@
      "name": "GitHub-Push",
      "schluessel": "github",
      "ampel": "gruen",
-     "text": "origin/main 7e6ef67 vor 1 Min"
+     "text": "origin/main e05d293 vor 0 Min"
     },
     {
      "name": "WhatsApp Web",
@@ -701,7 +701,7 @@
      "name": "Ereignis-Sensor",
      "schluessel": "ereignisse",
      "ampel": "gruen",
-     "text": "letzter Lauf 01:02, 0 offene Ereignisse"
+     "text": "letzter Lauf 01:12, 1 offene Ereignisse, aeltestes 01:12"
     },
     {
      "name": "Chrome auf Timos PC",
