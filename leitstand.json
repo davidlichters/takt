@@ -1,7 +1,7 @@
 {
  "version": 2,
- "stand": "2026-10-09T02:47:47Z",
- "stand_berlin": "09.10.2026 04:47",
+ "stand": "2026-10-09T03:02:05Z",
+ "stand_berlin": "09.10.2026 05:02",
  "takt_min": 15,
  "quelle": "takt/leitstand_bauen.py auf Davids Mac, ohne Modell",
  "ziele": {
@@ -43,18 +43,18 @@
     },
     {
      "name": "Recherche",
-     "text": "Perplexity hat heute 25 Fragen beantwortet, die letzte um 04:32.",
+     "text": "Perplexity hat heute 28 Fragen beantwortet, die letzte um 04:58.",
      "ampel": "gruen"
     },
     {
      "name": "Technik",
-     "text": "Der Wächter prüft alle 5 Minuten 10 Werkzeuge: 8 gehen, 1 kaputt (Takt-Schleife), 1 warten auf Zugang oder sind aus (Meta). 1 weiteres prüft er noch nicht.",
-     "ampel": "rot"
+     "text": "Der Wächter prüft alle 5 Minuten 10 Werkzeuge: 9 gehen, 1 warten auf Zugang oder sind aus (Meta). 1 weiteres prüft er noch nicht.",
+     "ampel": "gruen"
     },
     {
      "name": "Chef-Runde",
-     "text": "Um 04:40: Takt ohne Ergebniszeile beendet (rc=1), Protokoll in ~/takt/laeufe.",
-     "ampel": "rot"
+     "text": "Um 04:45: Startseiten-Beschreibung zeigt live weiter washable/Versand/Dec-4-Frist (Shopify-API shop.description …",
+     "ampel": "gruen"
     }
    ]
   },
@@ -154,6 +154,18 @@
      "prio": 0,
      "block": "eskalation",
      "quelle": "gedaechtnis/OFFEN.md",
+     "titel": "frisch geprüft 04:48 per Shopify Admin GraphQL (shop.description, kein Cloudflare-Problem, direkt …",
+     "wer": "Timo",
+     "tun": "Shopify Admin > Online Store > Preferences, Felder \"Homepage title\" und \"Homepage meta description\" ändern, 3 Minuten, 0 USD …",
+     "bis": "07:30",
+     "vorbei": false,
+     "stufe": 5,
+     "ja": []
+    },
+    {
+     "prio": 0,
+     "block": "eskalation",
+     "quelle": "gedaechtnis/OFFEN.md",
      "titel": "im eigenen Postfach (iCloud, david.lichters@icloud.com) nachsehen, ob Contabo auf die Kulanz-Mail …",
      "wer": "David",
      "tun": null,
@@ -163,14 +175,6 @@
      "ja": [
       35
      ]
-    },
-    {
-     "prio": 1,
-     "block": "werkzeuge",
-     "titel": "Takt-Schleife ist kaputt",
-     "text": "38 Fehlrunden in Folge (letzte rc=1). Ursache: 20261009_0440.txt: You've hit your limit on every Platz (alle Plaetze gesperrt, siehe ~/claude-plaetze/gesperrt.json)",
-     "wer": "Claude (Technik)",
-     "tun": "Reparieren. Grund: 38 Fehlrunden in Folge (letzte rc=1). Ursache: 20261009_0440.txt: You've hit …"
     },
     {
      "prio": 1.5,
@@ -210,8 +214,8 @@
    "nr": 3,
    "id": "wer",
    "frage": "Wer arbeitet woran?",
-   "ampel": "rot",
-   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 49 Runden heute.",
+   "ampel": "gruen",
+   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 50 Runden heute.",
    "saetze": [],
    "zeilen": [
     {
@@ -226,8 +230,8 @@
     },
     {
      "name": "Claude",
-     "text": "49 Runden heute, alle 5 Minuten eine. Zuletzt: Takt ohne Ergebniszeile beendet (rc=1), Protokoll in ~/takt/laeufe.",
-     "ampel": "rot"
+     "text": "50 Runden heute, alle 5 Minuten eine. Zuletzt: Startseiten-Beschreibung zeigt live weiter washable/Versand/Dec-4-Frist (Shopify-API …",
+     "ampel": "gruen"
     },
     {
      "name": "Abteilungs-Chats",
@@ -241,7 +245,7 @@
    "id": "tempo",
    "frage": "Wie schnell geht es gerade?",
    "ampel": "rot",
-   "kurz": "Letzte Stunde: 14 Runden, 0 davon mit fertigem Ergebnis.",
+   "kurz": "Letzte Stunde: 12 Runden, 0 davon mit fertigem Ergebnis.",
    "saetze": [
     "Gewinn heute: 0,00 USD.",
     "Fertig heißt noch nicht live: 7 Ja-Schritte warten auf euer Ja (Karte 2)."
@@ -249,17 +253,17 @@
    "zeilen": [
     {
      "name": "Gewinn heute",
-     "text": "0,00 USD (gemessen 01:07, Shopify GraphQL orders created_at>=2026-10-09, 0 Bestellungen, 01:04).",
+     "text": "0,00 USD (gemessen 04:50, Shopify GraphQL orders created_at>=2026-10-09, 0 Bestellungen, 04:48).",
      "ampel": "gelb"
     },
     {
      "name": "Bestellungen heute",
-     "text": "0 (gemessen 01:07).",
+     "text": "0 (gemessen 04:50).",
      "ampel": "grau"
     },
     {
      "name": "Runden, letzte Stunde",
-     "text": "14 Runden: 0 mit fertigem Ergebnis (Creative, Text oder Klickweg), 0 haben einen Menschen erinnert, 0 nur innen gearbeitet, 14 sind abgestürzt.",
+     "text": "12 Runden: 0 mit fertigem Ergebnis (Creative, Text oder Klickweg), 1 hat einen Menschen erinnert, 0 nur innen gearbeitet, 11 sind abgestürzt.",
      "ampel": "rot"
     },
     {
@@ -306,7 +310,7 @@
     },
     {
      "name": "Runden",
-     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 14, davon 14 nur innen oder abgestürzt.",
+     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 12, davon 11 nur innen oder abgestürzt.",
      "ampel": "rot"
     }
    ]
@@ -352,12 +356,6 @@
  ],
  "karten_fehler": null,
  "rot": [
-  {
-   "prio": 1,
-   "block": "werkzeuge",
-   "titel": "Takt-Schleife ist rot",
-   "text": "38 Fehlrunden in Folge (letzte rc=1). Ursache: 20261009_0440.txt: You've hit your limit on every Platz (alle Plaetze gesperrt, siehe ~/claude-plaetze/gesperrt.json)"
-  },
   {
    "prio": 2,
    "block": "geld",
@@ -424,8 +422,8 @@
      "wert": "0",
      "ampel": "grau",
      "detail": null,
-     "quelle": "Shopify GraphQL orders created_at>=2026-10-09, 01:04",
-     "stand": "01:07",
+     "quelle": "Shopify GraphQL orders created_at>=2026-10-09, 04:48",
+     "stand": "04:50",
      "ziel": null
     },
     {
@@ -433,8 +431,8 @@
      "wert": "0,00 USD",
      "ampel": "gelb",
      "detail": null,
-     "quelle": "Shopify GraphQL orders created_at>=2026-10-09, 0 Bestellungen, 01:04",
-     "stand": "01:07",
+     "quelle": "Shopify GraphQL orders created_at>=2026-10-09, 0 Bestellungen, 04:48",
+     "stand": "04:50",
      "ziel": "2.174 USD"
     },
     {
@@ -442,8 +440,8 @@
      "wert": "0,00 USD",
      "ampel": "rot",
      "detail": null,
-     "quelle": "Shopify GraphQL orders created_at>=2026-10-01, 0 Bestellungen, 01:04",
-     "stand": "01:07",
+     "quelle": "Shopify GraphQL orders created_at>=2026-10-01, 0 Bestellungen, 04:48",
+     "stand": "04:50",
      "ziel": "200.000 USD bis 31.12., Soll bis gestern 17.392 USD (8 Tage)"
     }
    ]
@@ -459,7 +457,7 @@
      "ampel": "grau",
      "detail": "12 Bilder, 10 Videos, neu seit Montag, 05.10., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
      "quelle": "Erstellzeit der Dateien in creatives/fertig, 05_creatives/ads, 05_creatives/ki/fertig",
-     "stand": "04:47",
+     "stand": "05:02",
      "ziel": null
     },
     {
@@ -519,7 +517,7 @@
      "ampel": "grau",
      "detail": "1 Zeile im Codeblock (Formatbeispiel) nicht gezählt. Steht dort eine echte Aufgabe, gehört sie aus dem Block heraus.",
      "quelle": "timo/OFFEN.md",
-     "stand": "04:47",
+     "stand": "05:02",
      "ziel": null
     },
     {
@@ -644,11 +642,11 @@
   {
    "id": "werkzeuge",
    "titel": "Werkzeuge",
-   "ampel": "rot",
+   "ampel": "gelb",
    "zeilen": [
     {
      "name": "Wächter, letzter Lauf",
-     "wert": "04:45",
+     "wert": "05:00",
      "ampel": "gruen",
      "detail": null,
      "quelle": "waechter_zustand.json",
@@ -660,14 +658,14 @@
     {
      "name": "Takt-Schleife",
      "schluessel": "takt",
-     "ampel": "rot",
-     "text": "38 Fehlrunden in Folge (letzte rc=1). Ursache: 20261009_0440.txt: You've hit your limit on every Platz (alle Plaetze gesperrt, siehe ~/claude-plaetze/gesperrt.json)"
+     "ampel": "gruen",
+     "text": "letzte Runde 04:52 (chef), rc=0, Runde laeuft seit 5 Min"
     },
     {
      "name": "Perplexity",
      "schluessel": "perplexity",
      "ampel": "gruen",
-     "text": "Gins laeuft; letzter Lauf 04:32 ohne Antwortdatei: nach 12 Minuten nicht fertig"
+     "text": "letzter Lauf 04:53 erfolgreich, Gins laeuft"
     },
     {
      "name": "Davids Chrome",
@@ -679,7 +677,7 @@
      "name": "Crosspost",
      "schluessel": "crosspost",
      "ampel": "gruen",
-     "text": "laeuft (pid 34390), Herzschlag vor 10 s, postet, letzter Fehler: 2026-10-07T19:39:48.439Z keine Videos in der Antwort: {\"extr"
+     "text": "laeuft (pid 34390), Herzschlag vor 2 s, postet, letzter Fehler: 2026-10-07T19:39:48.439Z keine Videos in der Antwort: {\"extr"
     },
     {
      "name": "Speicher",
@@ -691,7 +689,7 @@
      "name": "GitHub-Push",
      "schluessel": "github",
      "ampel": "gruen",
-     "text": "keine erfolgreiche Takt-Runde in 2 Stunden, kein Push erwartet"
+     "text": "origin/main d3cdccf vor 2 Min"
     },
     {
      "name": "WhatsApp Web",
@@ -715,7 +713,7 @@
      "name": "Ereignis-Sensor",
      "schluessel": "ereignisse",
      "ampel": "gruen",
-     "text": "letzter Lauf 04:45, 0 offene Ereignisse"
+     "text": "letzter Lauf 05:00, 1 offene Ereignisse, aeltestes 04:58"
     },
     {
      "name": "Chrome auf Timos PC",
