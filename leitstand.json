@@ -1,7 +1,7 @@
 {
  "version": 2,
- "stand": "2026-10-09T03:02:05Z",
- "stand_berlin": "09.10.2026 05:02",
+ "stand": "2026-10-09T03:17:05Z",
+ "stand_berlin": "09.10.2026 05:17",
  "takt_min": 15,
  "quelle": "takt/leitstand_bauen.py auf Davids Mac, ohne Modell",
  "ziele": {
@@ -43,7 +43,7 @@
     },
     {
      "name": "Recherche",
-     "text": "Perplexity hat heute 28 Fragen beantwortet, die letzte um 04:58.",
+     "text": "Perplexity hat heute 33 Fragen beantwortet, die letzte um 05:12.",
      "ampel": "gruen"
     },
     {
@@ -53,7 +53,7 @@
     },
     {
      "name": "Chef-Runde",
-     "text": "Um 04:45: Startseiten-Beschreibung zeigt live weiter washable/Versand/Dec-4-Frist (Shopify-API shop.description …",
+     "text": "Um 05:03: Bonnies wiederholte Bitte um Shopify-Mitarbeiterzugang bekommt keine Freigabe, Ereignis …",
      "ampel": "gruen"
     }
    ]
@@ -63,7 +63,7 @@
    "id": "auf",
    "frage": "Was hält uns auf?",
    "ampel": "rot",
-   "kurz": "12 Dinge halten uns auf.",
+   "kurz": "13 Dinge halten uns auf.",
    "saetze": [
     "Bei jedem steht, wer es tun muss. Oben steht das, was am meisten Geld kostet."
    ],
@@ -110,6 +110,18 @@
      "ja": [
       37
      ]
+    },
+    {
+     "prio": 0,
+     "block": "eskalation",
+     "quelle": "gedaechtnis/OFFEN.md",
+     "titel": "bevor du in Shopify Admin > Settings > Users and permissions irgendeine Collaborator-Anfrage von …",
+     "wer": "David",
+     "tun": null,
+     "bis": "07:30",
+     "vorbei": false,
+     "stufe": 4,
+     "ja": []
     },
     {
      "prio": 0,
@@ -215,12 +227,12 @@
    "id": "wer",
    "frage": "Wer arbeitet woran?",
    "ampel": "gruen",
-   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 50 Runden heute.",
+   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 52 Runden heute.",
    "saetze": [],
    "zeilen": [
     {
      "name": "David",
-     "text": "Nicht gemessen, weil David die Mac-Messung am 03.10. abgeschaltet hat. Auf David warten heute 4 Sachen (Karte 2).",
+     "text": "Nicht gemessen, weil David die Mac-Messung am 03.10. abgeschaltet hat. Auf David warten heute 5 Sachen (Karte 2).",
      "ampel": "grau"
     },
     {
@@ -230,7 +242,7 @@
     },
     {
      "name": "Claude",
-     "text": "50 Runden heute, alle 5 Minuten eine. Zuletzt: Startseiten-Beschreibung zeigt live weiter washable/Versand/Dec-4-Frist (Shopify-API …",
+     "text": "52 Runden heute, alle 5 Minuten eine. Zuletzt: Bonnies wiederholte Bitte um Shopify-Mitarbeiterzugang bekommt keine Freigabe, Ereignis …",
      "ampel": "gruen"
     },
     {
@@ -245,7 +257,7 @@
    "id": "tempo",
    "frage": "Wie schnell geht es gerade?",
    "ampel": "rot",
-   "kurz": "Letzte Stunde: 12 Runden, 0 davon mit fertigem Ergebnis.",
+   "kurz": "Letzte Stunde: 11 Runden, 0 davon mit fertigem Ergebnis.",
    "saetze": [
     "Gewinn heute: 0,00 USD.",
     "Fertig heißt noch nicht live: 7 Ja-Schritte warten auf euer Ja (Karte 2)."
@@ -263,7 +275,7 @@
     },
     {
      "name": "Runden, letzte Stunde",
-     "text": "12 Runden: 0 mit fertigem Ergebnis (Creative, Text oder Klickweg), 1 hat einen Menschen erinnert, 0 nur innen gearbeitet, 11 sind abgestürzt.",
+     "text": "11 Runden: 0 mit fertigem Ergebnis (Creative, Text oder Klickweg), 2 haben einen Menschen erinnert, 1 nur innen gearbeitet, 8 sind abgestürzt.",
      "ampel": "rot"
     },
     {
@@ -310,7 +322,7 @@
     },
     {
      "name": "Runden",
-     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 12, davon 11 nur innen oder abgestürzt.",
+     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 11, davon 9 nur innen oder abgestürzt.",
      "ampel": "rot"
     }
    ]
@@ -457,7 +469,7 @@
      "ampel": "grau",
      "detail": "12 Bilder, 10 Videos, neu seit Montag, 05.10., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
      "quelle": "Erstellzeit der Dateien in creatives/fertig, 05_creatives/ads, 05_creatives/ki/fertig",
-     "stand": "05:02",
+     "stand": "05:17",
      "ziel": null
     },
     {
@@ -517,7 +529,7 @@
      "ampel": "grau",
      "detail": "1 Zeile im Codeblock (Formatbeispiel) nicht gezählt. Steht dort eine echte Aufgabe, gehört sie aus dem Block heraus.",
      "quelle": "timo/OFFEN.md",
-     "stand": "05:02",
+     "stand": "05:17",
      "ziel": null
     },
     {
@@ -646,7 +658,7 @@
    "zeilen": [
     {
      "name": "Wächter, letzter Lauf",
-     "wert": "05:00",
+     "wert": "05:16",
      "ampel": "gruen",
      "detail": null,
      "quelle": "waechter_zustand.json",
@@ -659,13 +671,13 @@
      "name": "Takt-Schleife",
      "schluessel": "takt",
      "ampel": "gruen",
-     "text": "letzte Runde 04:52 (chef), rc=0, Runde laeuft seit 5 Min"
+     "text": "letzte Runde 05:09 (chef), rc=0, Runde laeuft seit 6 Min"
     },
     {
      "name": "Perplexity",
      "schluessel": "perplexity",
      "ampel": "gruen",
-     "text": "letzter Lauf 04:53 erfolgreich, Gins laeuft"
+     "text": "Gins laeuft; letzter Lauf 05:12 ohne Antwortdatei: Absenden: Perplexity meldet 1x \"Unable to start session\" (Ko"
     },
     {
      "name": "Davids Chrome",
@@ -677,7 +689,7 @@
      "name": "Crosspost",
      "schluessel": "crosspost",
      "ampel": "gruen",
-     "text": "laeuft (pid 34390), Herzschlag vor 2 s, postet, letzter Fehler: 2026-10-07T19:39:48.439Z keine Videos in der Antwort: {\"extr"
+     "text": "laeuft (pid 34390), Herzschlag vor 7 s, postet, letzter Fehler: 2026-10-07T19:39:48.439Z keine Videos in der Antwort: {\"extr"
     },
     {
      "name": "Speicher",
@@ -689,7 +701,7 @@
      "name": "GitHub-Push",
      "schluessel": "github",
      "ampel": "gruen",
-     "text": "origin/main d3cdccf vor 2 Min"
+     "text": "origin/main 54f0775 vor 5 Min"
     },
     {
      "name": "WhatsApp Web",
@@ -713,7 +725,7 @@
      "name": "Ereignis-Sensor",
      "schluessel": "ereignisse",
      "ampel": "gruen",
-     "text": "letzter Lauf 05:00, 1 offene Ereignisse, aeltestes 04:58"
+     "text": "letzter Lauf 05:16, 1 offene Ereignisse, aeltestes 05:12"
     },
     {
      "name": "Chrome auf Timos PC",
