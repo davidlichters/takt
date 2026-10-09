@@ -1,7 +1,7 @@
 {
  "version": 2,
- "stand": "2026-10-09T04:02:05Z",
- "stand_berlin": "09.10.2026 06:02",
+ "stand": "2026-10-09T04:17:05Z",
+ "stand_berlin": "09.10.2026 06:17",
  "takt_min": 15,
  "quelle": "takt/leitstand_bauen.py auf Davids Mac, ohne Modell",
  "ziele": {
@@ -43,8 +43,8 @@
     },
     {
      "name": "Recherche",
-     "text": "Perplexity hat heute 33 Fragen beantwortet, die letzte um 05:12. Die letzten 4 Versuche kamen ohne Antwort zurück.",
-     "ampel": "gelb"
+     "text": "Perplexity hat heute 36 Fragen beantwortet, die letzte um 06:05.",
+     "ampel": "gruen"
     },
     {
      "name": "Technik",
@@ -53,7 +53,7 @@
     },
     {
      "name": "Chef-Runde",
-     "text": "Um 05:40: Spur 3 laeuft weiter nicht, letzte echte Erinnerung 23:45, jetzt ueber 6 Std her, Zeile erneuert statt nur …",
+     "text": "Um 06:09: Pet Stores USA/Essential als Ja 39 vorbereitet, Kole-Risiko (BBB/Trustpilot-Beschwerden) in Ja 38 ergaenzt …",
      "ampel": "gruen"
     }
    ]
@@ -231,7 +231,7 @@
     {
      "prio": 1.5,
      "block": "ja",
-     "titel": "3 Ja-Fragen warten: ja adam2 (bis 05.10. 12:00), ja winterbett (bis wird erst nach Bestellschluss relevant, kein Handeln vorher), ja kole doggiedesign (bis 10.10. 20:00)",
+     "titel": "4 Ja-Fragen warten: ja adam2 (bis 05.10. 12:00), ja winterbett (bis wird erst nach Bestellschluss relevant, kein Handeln vorher), ja kole doggiedesign (bis 10.10. 20:00) und 1 weitere",
      "wer": "David oder Timo",
      "tun": "Im Claude-Chat „ja <Nr>“ schreiben, Liste in timo/JA_LISTE.md",
      "quelle": "timo/JA_LISTE.md"
@@ -267,7 +267,7 @@
    "id": "wer",
    "frage": "Wer arbeitet woran?",
    "ampel": "gruen",
-   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 57 Runden heute.",
+   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 60 Runden heute.",
    "saetze": [],
    "zeilen": [
     {
@@ -282,7 +282,7 @@
     },
     {
      "name": "Claude",
-     "text": "57 Runden heute, alle 5 Minuten eine. Zuletzt: Spur 3 laeuft weiter nicht, letzte echte Erinnerung 23:45, jetzt ueber 6 Std her, Zeile …",
+     "text": "60 Runden heute, alle 5 Minuten eine. Zuletzt: Pet Stores USA/Essential als Ja 39 vorbereitet, Kole-Risiko (BBB/Trustpilot-Beschwerden) in Ja …",
      "ampel": "gruen"
     },
     {
@@ -297,10 +297,10 @@
    "id": "tempo",
    "frage": "Wie schnell geht es gerade?",
    "ampel": "gelb",
-   "kurz": "Letzte Stunde: 6 Runden, 1 davon mit fertigem Ergebnis.",
+   "kurz": "Letzte Stunde: 7 Runden, 2 davon mit fertigem Ergebnis.",
    "saetze": [
     "Gewinn heute: 0,00 USD.",
-    "Fertig heißt noch nicht live: 7 Ja-Schritte warten auf euer Ja (Karte 2)."
+    "Fertig heißt noch nicht live: 8 Ja-Schritte warten auf euer Ja (Karte 2)."
    ],
    "zeilen": [
     {
@@ -315,7 +315,7 @@
     },
     {
      "name": "Runden, letzte Stunde",
-     "text": "6 Runden: 1 mit fertigem Ergebnis (Creative, Text oder Klickweg), 4 haben einen Menschen erinnert, 1 nur innen gearbeitet.",
+     "text": "7 Runden: 2 mit fertigem Ergebnis (Creative, Text oder Klickweg), 3 haben einen Menschen erinnert, 2 nur innen gearbeitet.",
      "ampel": "gelb"
     },
     {
@@ -362,7 +362,7 @@
     },
     {
      "name": "Runden",
-     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 6, davon 1 nur innen.",
+     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 7, davon 2 nur innen.",
      "ampel": "rot"
     }
    ]
@@ -509,7 +509,7 @@
      "ampel": "grau",
      "detail": "12 Bilder, 10 Videos, neu seit Montag, 05.10., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
      "quelle": "Erstellzeit der Dateien in creatives/fertig, 05_creatives/ads, 05_creatives/ki/fertig",
-     "stand": "06:02",
+     "stand": "06:17",
      "ziel": null
     },
     {
@@ -569,7 +569,7 @@
      "ampel": "grau",
      "detail": "1 Zeile im Codeblock (Formatbeispiel) nicht gezählt. Steht dort eine echte Aufgabe, gehört sie aus dem Block heraus.",
      "quelle": "timo/OFFEN.md",
-     "stand": "06:02",
+     "stand": "06:17",
      "ziel": null
     },
     {
@@ -698,7 +698,7 @@
    "zeilen": [
     {
      "name": "Wächter, letzter Lauf",
-     "wert": "05:58",
+     "wert": "06:13",
      "ampel": "gruen",
      "detail": null,
      "quelle": "waechter_zustand.json",
@@ -711,13 +711,13 @@
      "name": "Takt-Schleife",
      "schluessel": "takt",
      "ampel": "gruen",
-     "text": "letzte Runde 05:48 (chef), rc=0, Runde laeuft seit 7 Min"
+     "text": "letzte Runde 06:09 (chef), rc=0, Runde laeuft seit 4 Min"
     },
     {
      "name": "Perplexity",
      "schluessel": "perplexity",
      "ampel": "gruen",
-     "text": "Gins laeuft; letzter Lauf 05:38 ohne Antwortdatei: nach 12 Minuten nicht fertig"
+     "text": "letzter Lauf 06:02 erfolgreich, Gins laeuft"
     },
     {
      "name": "Davids Chrome",
@@ -741,7 +741,7 @@
      "name": "GitHub-Push",
      "schluessel": "github",
      "ampel": "gruen",
-     "text": "origin/main 83bfff2 vor 7 Min"
+     "text": "origin/main 4bdd676 vor 0 Min"
     },
     {
      "name": "WhatsApp Web",
@@ -765,7 +765,7 @@
      "name": "Ereignis-Sensor",
      "schluessel": "ereignisse",
      "ampel": "gruen",
-     "text": "letzter Lauf 05:57, 0 offene Ereignisse"
+     "text": "letzter Lauf 06:13, 0 offene Ereignisse"
     },
     {
      "name": "Chrome auf Timos PC",
