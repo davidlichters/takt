@@ -1,7 +1,7 @@
 {
  "version": 2,
- "stand": "2026-10-09T18:47:04Z",
- "stand_berlin": "09.10.2026 20:47",
+ "stand": "2026-10-09T19:02:04Z",
+ "stand_berlin": "09.10.2026 21:02",
  "takt_min": 15,
  "quelle": "takt/leitstand_bauen.py auf Davids Mac, ohne Modell",
  "ziele": {
@@ -53,8 +53,8 @@
     },
     {
      "name": "Chef-Runde",
-     "text": "Um 20:40: Spur 3 laeuft seit 5 Tagen nicht, 29 Aufgaben seit 04.10. unveroeffentlicht, neu erinnert (Frist 21:20) in …",
-     "ampel": "gruen"
+     "text": "Um 20:45: Stufen 1/4/6 alle in den letzten 40 Min. eskaliert (Cooldown), 2/3/5 ohne Treffer (kein Anzeigenzugang …",
+     "ampel": "gelb"
     }
    ]
   },
@@ -125,7 +125,7 @@
      "wer": "David",
      "tun": null,
      "bis": "20:50",
-     "vorbei": false,
+     "vorbei": true,
      "stufe": 1,
      "ja": []
     },
@@ -497,8 +497,8 @@
    "nr": 3,
    "id": "wer",
    "frage": "Wer arbeitet woran?",
-   "ampel": "gruen",
-   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 209 Runden heute.",
+   "ampel": "gelb",
+   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 210 Runden heute.",
    "saetze": [],
    "zeilen": [
     {
@@ -513,8 +513,8 @@
     },
     {
      "name": "Claude",
-     "text": "209 Runden heute, alle 5 Minuten eine. Zuletzt: Spur 3 laeuft seit 5 Tagen nicht, 29 Aufgaben seit 04.10. unveroeffentlicht, neu erinnert …",
-     "ampel": "gruen"
+     "text": "210 Runden heute, alle 5 Minuten eine. Zuletzt: Stufen 1/4/6 alle in den letzten 40 Min. eskaliert (Cooldown), 2/3/5 ohne Treffer (kein …",
+     "ampel": "gelb"
     },
     {
      "name": "Abteilungs-Chats",
@@ -528,7 +528,7 @@
    "id": "tempo",
    "frage": "Wie schnell geht es gerade?",
    "ampel": "rot",
-   "kurz": "Letzte Stunde: 9 Runden, 0 davon mit fertigem Ergebnis.",
+   "kurz": "Letzte Stunde: 7 Runden, 0 davon mit fertigem Ergebnis.",
    "saetze": [
     "Den Gewinn heute wissen wir noch nicht, weil uns der Shopify-Zugang fehlt.",
     "Fertig heißt noch nicht live: 8 Ja-Schritte warten auf euer Ja (Karte 2)."
@@ -546,7 +546,7 @@
     },
     {
      "name": "Runden, letzte Stunde",
-     "text": "9 Runden: 0 mit fertigem Ergebnis (Creative, Text oder Klickweg), 3 haben einen Menschen erinnert, 1 nur innen gearbeitet, 5 sind abgestürzt.",
+     "text": "7 Runden: 0 mit fertigem Ergebnis (Creative, Text oder Klickweg), 3 haben einen Menschen erinnert, 2 nur innen gearbeitet, 2 sind abgestürzt.",
      "ampel": "rot"
     },
     {
@@ -593,7 +593,7 @@
     },
     {
      "name": "Runden",
-     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 9, davon 6 nur innen oder abgestürzt.",
+     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 7, davon 4 nur innen oder abgestürzt.",
      "ampel": "rot"
     }
    ]
@@ -740,7 +740,7 @@
      "ampel": "grau",
      "detail": "12 Bilder, 10 Videos, neu seit Montag, 05.10., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
      "quelle": "Erstellzeit der Dateien in creatives/fertig, 05_creatives/ads, 05_creatives/ki/fertig",
-     "stand": "20:47",
+     "stand": "21:02",
      "ziel": null
     },
     {
@@ -800,7 +800,7 @@
      "ampel": "grau",
      "detail": "1 Zeile im Codeblock (Formatbeispiel) nicht gezählt. Steht dort eine echte Aufgabe, gehört sie aus dem Block heraus.",
      "quelle": "timo/OFFEN.md",
-     "stand": "20:47",
+     "stand": "21:02",
      "ziel": null
     },
     {
@@ -929,7 +929,7 @@
    "zeilen": [
     {
      "name": "Wächter, letzter Lauf",
-     "wert": "20:46",
+     "wert": "21:01",
      "ampel": "gruen",
      "detail": null,
      "quelle": "waechter_zustand.json",
@@ -942,7 +942,7 @@
      "name": "Takt-Schleife",
      "schluessel": "takt",
      "ampel": "gruen",
-     "text": "letzte Runde 20:42 (chef), rc=0, Runde laeuft seit 1 Min"
+     "text": "letzte Runde 20:55 (chef), rc=0, Runde laeuft seit 1 Min"
     },
     {
      "name": "Perplexity",
@@ -960,7 +960,7 @@
      "name": "Crosspost",
      "schluessel": "crosspost",
      "ampel": "gruen",
-     "text": "laeuft (pid 34390), Herzschlag vor 7 s, postet, letzter Fehler: 2026-10-07T19:39:48.439Z keine Videos in der Antwort: {\"extr"
+     "text": "laeuft (pid 34390), Herzschlag vor 9 s, postet, letzter Fehler: 2026-10-07T19:39:48.439Z keine Videos in der Antwort: {\"extr"
     },
     {
      "name": "Speicher",
@@ -972,13 +972,13 @@
      "name": "GitHub-Push",
      "schluessel": "github",
      "ampel": "gruen",
-     "text": "origin/main a5542d8 vor 0 Min"
+     "text": "origin/main d33ebf2 vor 1 Min"
     },
     {
      "name": "WhatsApp Web",
      "schluessel": "whatsapp",
      "ampel": "gruen",
-     "text": "Chatliste gelesen (apple, 10 Zeilen), 6 von 6 Lieferanten sichtbar"
+     "text": "ausgesetzt, WhatsApp gerade belegt: /opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/Resourc…"
     },
     {
      "name": "Shopify",
@@ -996,7 +996,7 @@
      "name": "Ereignis-Sensor",
      "schluessel": "ereignisse",
      "ampel": "gruen",
-     "text": "letzter Lauf 20:46, 0 offene Ereignisse"
+     "text": "letzter Lauf 21:01, 0 offene Ereignisse"
     },
     {
      "name": "Chrome auf Timos PC",
