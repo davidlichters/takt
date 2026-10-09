@@ -1,7 +1,7 @@
 {
  "version": 2,
- "stand": "2026-10-09T06:02:04Z",
- "stand_berlin": "09.10.2026 08:02",
+ "stand": "2026-10-09T06:17:05Z",
+ "stand_berlin": "09.10.2026 08:17",
  "takt_min": 15,
  "quelle": "takt/leitstand_bauen.py auf Davids Mac, ohne Modell",
  "ziele": {
@@ -43,8 +43,8 @@
     },
     {
      "name": "Recherche",
-     "text": "Perplexity hat heute 38 Fragen beantwortet, die letzte um 07:38.",
-     "ampel": "gruen"
+     "text": "Perplexity hat heute 38 Fragen beantwortet, die letzte um 07:38. Die letzten 3 Versuche kamen ohne Antwort zurück.",
+     "ampel": "gelb"
     },
     {
      "name": "Technik",
@@ -53,8 +53,8 @@
     },
     {
      "name": "Chef-Runde",
-     "text": "Um 07:35: Bonnie/Adam/John live gegengeprüft (wa_chat.mjs), alle drei unverändert seit letztem Stand, keine neue …",
-     "ampel": "gelb"
+     "text": "Um 08:08: Ereignis Perplexity 05:38 verbraucht, Pet Wholesale USA und CustomCat als 6./7. Fallback-Kandidat zu Ja 38 …",
+     "ampel": "gruen"
     }
    ]
   },
@@ -296,8 +296,8 @@
    "nr": 3,
    "id": "wer",
    "frage": "Wer arbeitet woran?",
-   "ampel": "gelb",
-   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 67 Runden heute.",
+   "ampel": "gruen",
+   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 69 Runden heute.",
    "saetze": [],
    "zeilen": [
     {
@@ -312,8 +312,8 @@
     },
     {
      "name": "Claude",
-     "text": "67 Runden heute, alle 5 Minuten eine. Zuletzt: Bonnie/Adam/John live gegengeprüft (wa_chat.mjs), alle drei unverändert seit letztem Stand …",
-     "ampel": "gelb"
+     "text": "69 Runden heute, alle 5 Minuten eine. Zuletzt: Ereignis Perplexity 05:38 verbraucht, Pet Wholesale USA und CustomCat als 6./7 …",
+     "ampel": "gruen"
     },
     {
      "name": "Abteilungs-Chats",
@@ -539,7 +539,7 @@
      "ampel": "grau",
      "detail": "12 Bilder, 10 Videos, neu seit Montag, 05.10., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
      "quelle": "Erstellzeit der Dateien in creatives/fertig, 05_creatives/ads, 05_creatives/ki/fertig",
-     "stand": "08:02",
+     "stand": "08:17",
      "ziel": null
     },
     {
@@ -599,7 +599,7 @@
      "ampel": "grau",
      "detail": "1 Zeile im Codeblock (Formatbeispiel) nicht gezählt. Steht dort eine echte Aufgabe, gehört sie aus dem Block heraus.",
      "quelle": "timo/OFFEN.md",
-     "stand": "08:02",
+     "stand": "08:17",
      "ziel": null
     },
     {
@@ -728,7 +728,7 @@
    "zeilen": [
     {
      "name": "Wächter, letzter Lauf",
-     "wert": "07:57",
+     "wert": "08:12",
      "ampel": "gruen",
      "detail": null,
      "quelle": "waechter_zustand.json",
@@ -741,13 +741,13 @@
      "name": "Takt-Schleife",
      "schluessel": "takt",
      "ampel": "gruen",
-     "text": "letzte Runde 07:51 (chef), rc=0, Runde laeuft seit 2 Min"
+     "text": "letzte Runde 08:11 (chef), rc=0"
     },
     {
      "name": "Perplexity",
      "schluessel": "perplexity",
      "ampel": "gruen",
-     "text": "Gins laeuft; letzter Lauf 07:38 ohne Antwortdatei: nach 12 Minuten nicht fertig"
+     "text": "Gins laeuft; letzter Lauf 07:51 ohne Antwortdatei: nach 12 Minuten nicht fertig"
     },
     {
      "name": "Davids Chrome",
@@ -759,25 +759,25 @@
      "name": "Crosspost",
      "schluessel": "crosspost",
      "ampel": "gruen",
-     "text": "laeuft (pid 34390), Herzschlag vor 1 s, postet, letzter Fehler: 2026-10-07T19:39:48.439Z keine Videos in der Antwort: {\"extr"
+     "text": "laeuft (pid 34390), Herzschlag vor 4 s, postet, letzter Fehler: 2026-10-07T19:39:48.439Z keine Videos in der Antwort: {\"extr"
     },
     {
      "name": "Speicher",
      "schluessel": "speicher",
      "ampel": "gruen",
-     "text": "30 GB frei"
+     "text": "24 GB frei"
     },
     {
      "name": "GitHub-Push",
      "schluessel": "github",
      "ampel": "gruen",
-     "text": "origin/main 90d75f6 vor 1 Min"
+     "text": "origin/main 85ff640 vor 1 Min"
     },
     {
      "name": "WhatsApp Web",
      "schluessel": "whatsapp",
      "ampel": "gruen",
-     "text": "ausgesetzt, WhatsApp gerade belegt: /opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/Resourc…"
+     "text": "Chatliste gelesen (apple, 11 Zeilen), 6 von 6 Lieferanten sichtbar"
     },
     {
      "name": "Shopify",
@@ -795,7 +795,7 @@
      "name": "Ereignis-Sensor",
      "schluessel": "ereignisse",
      "ampel": "gruen",
-     "text": "letzter Lauf 07:57, 0 offene Ereignisse"
+     "text": "letzter Lauf 08:12, 0 offene Ereignisse"
     },
     {
      "name": "Chrome auf Timos PC",
