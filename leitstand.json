@@ -1,7 +1,7 @@
 {
  "version": 2,
- "stand": "2026-10-09T13:47:05Z",
- "stand_berlin": "09.10.2026 15:47",
+ "stand": "2026-10-09T14:02:05Z",
+ "stand_berlin": "09.10.2026 16:02",
  "takt_min": 15,
  "quelle": "takt/leitstand_bauen.py auf Davids Mac, ohne Modell",
  "ziele": {
@@ -53,8 +53,8 @@
     },
     {
      "name": "Chef-Runde",
-     "text": "Um 15:35: Judge.me Fremdbewertungen (649, Schnitt 4,78) stehen seit ueber 4 Std. unveraendert live trotz eigener Regel …",
-     "ampel": "gruen"
+     "text": "Um 15:55: entsperrt Stufe 1, weil Kasse und Versand live geprueft (shopmessung.sh) und regelkonform sind, kein neuer …",
+     "ampel": "gelb"
     }
    ]
   },
@@ -63,7 +63,7 @@
    "id": "auf",
    "frage": "Was hält uns auf?",
    "ampel": "rot",
-   "kurz": "27 Dinge halten uns auf.",
+   "kurz": "28 Dinge halten uns auf.",
    "saetze": [
     "Bei jedem steht, wer es tun muss. Oben steht das, was am meisten Geld kostet."
    ],
@@ -113,7 +113,7 @@
      "wer": "David",
      "tun": null,
      "bis": "16:00",
-     "vorbei": false,
+     "vorbei": true,
      "stufe": 1,
      "ja": []
     },
@@ -219,6 +219,23 @@
      "ja": [
       37,
       37
+     ]
+    },
+    {
+     "prio": 0,
+     "block": "eskalation",
+     "quelle": "gedaechtnis/OFFEN.md",
+     "titel": "WhatsApp \"Adam DS\" Block \"Gewählt\" aus ~/timo/entwuerfe/2026-10-07_adam_eine_nachricht.md (Ja …",
+     "wer": "Timo",
+     "tun": "Drei fertige Lieferantentexte senden, zusammen 3 Minuten, 0 USD",
+     "bis": "16:30",
+     "vorbei": false,
+     "stufe": 4,
+     "ja": [
+      33,
+      30,
+      37,
+      30
      ]
     },
     {
@@ -413,8 +430,8 @@
    "nr": 3,
    "id": "wer",
    "frage": "Wer arbeitet woran?",
-   "ampel": "gruen",
-   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 154 Runden heute.",
+   "ampel": "gelb",
+   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 156 Runden heute.",
    "saetze": [],
    "zeilen": [
     {
@@ -429,8 +446,8 @@
     },
     {
      "name": "Claude",
-     "text": "154 Runden heute, alle 5 Minuten eine. Zuletzt: Judge.me Fremdbewertungen (649, Schnitt 4,78) stehen seit ueber 4 Std. unveraendert live trotz …",
-     "ampel": "gruen"
+     "text": "156 Runden heute, alle 5 Minuten eine. Zuletzt: entsperrt Stufe 1, weil Kasse und Versand live geprueft (shopmessung.sh) und regelkonform …",
+     "ampel": "gelb"
     },
     {
      "name": "Abteilungs-Chats",
@@ -443,8 +460,8 @@
    "nr": 4,
    "id": "tempo",
    "frage": "Wie schnell geht es gerade?",
-   "ampel": "rot",
-   "kurz": "Letzte Stunde: 9 Runden, 0 davon mit fertigem Ergebnis.",
+   "ampel": "gelb",
+   "kurz": "Letzte Stunde: 8 Runden, 0 davon mit fertigem Ergebnis.",
    "saetze": [
     "Gewinn heute: 0,00 USD.",
     "Fertig heißt noch nicht live: 8 Ja-Schritte warten auf euer Ja (Karte 2)."
@@ -462,8 +479,8 @@
     },
     {
      "name": "Runden, letzte Stunde",
-     "text": "9 Runden: 0 mit fertigem Ergebnis (Creative, Text oder Klickweg), 3 haben einen Menschen erinnert, 1 nur innen gearbeitet, 5 sind abgestürzt.",
-     "ampel": "rot"
+     "text": "8 Runden: 0 mit fertigem Ergebnis (Creative, Text oder Klickweg), 4 haben einen Menschen erinnert, 2 nur innen gearbeitet, 2 sind abgestürzt.",
+     "ampel": "gelb"
     },
     {
      "name": "Erledigt heute",
@@ -509,7 +526,7 @@
     },
     {
      "name": "Runden",
-     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 9, davon 6 nur innen oder abgestürzt.",
+     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 8, davon 4 nur innen oder abgestürzt.",
      "ampel": "rot"
     }
    ]
@@ -656,7 +673,7 @@
      "ampel": "grau",
      "detail": "12 Bilder, 10 Videos, neu seit Montag, 05.10., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
      "quelle": "Erstellzeit der Dateien in creatives/fertig, 05_creatives/ads, 05_creatives/ki/fertig",
-     "stand": "15:47",
+     "stand": "16:02",
      "ziel": null
     },
     {
@@ -716,7 +733,7 @@
      "ampel": "grau",
      "detail": "1 Zeile im Codeblock (Formatbeispiel) nicht gezählt. Steht dort eine echte Aufgabe, gehört sie aus dem Block heraus.",
      "quelle": "timo/OFFEN.md",
-     "stand": "15:47",
+     "stand": "16:02",
      "ziel": null
     },
     {
@@ -845,7 +862,7 @@
    "zeilen": [
     {
      "name": "Wächter, letzter Lauf",
-     "wert": "15:43",
+     "wert": "15:58",
      "ampel": "gruen",
      "detail": null,
      "quelle": "waechter_zustand.json",
@@ -858,7 +875,7 @@
      "name": "Takt-Schleife",
      "schluessel": "takt",
      "ampel": "gruen",
-     "text": "letzte Runde 15:34 (chef), rc=0, Runde laeuft seit 8 Min"
+     "text": "letzte Runde 15:52 (chef), rc=0, Runde laeuft seit 3 Min"
     },
     {
      "name": "Perplexity",
@@ -876,7 +893,7 @@
      "name": "Crosspost",
      "schluessel": "crosspost",
      "ampel": "gruen",
-     "text": "laeuft (pid 34390), Herzschlag vor 6 s, postet, letzter Fehler: 2026-10-07T19:39:48.439Z keine Videos in der Antwort: {\"extr"
+     "text": "laeuft (pid 34390), Herzschlag vor 5 s, postet, letzter Fehler: 2026-10-07T19:39:48.439Z keine Videos in der Antwort: {\"extr"
     },
     {
      "name": "Speicher",
@@ -888,13 +905,13 @@
      "name": "GitHub-Push",
      "schluessel": "github",
      "ampel": "gruen",
-     "text": "origin/main cbbfdd9 vor 7 Min"
+     "text": "origin/main d2841a8 vor 3 Min"
     },
     {
      "name": "WhatsApp Web",
      "schluessel": "whatsapp",
      "ampel": "gruen",
-     "text": "Chatliste gelesen (apple, 11 Zeilen), 6 von 6 Lieferanten sichtbar"
+     "text": "ausgesetzt, WhatsApp gerade belegt: /opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/Resourc…"
     },
     {
      "name": "Shopify",
@@ -912,7 +929,7 @@
      "name": "Ereignis-Sensor",
      "schluessel": "ereignisse",
      "ampel": "gruen",
-     "text": "letzter Lauf 15:43, 0 offene Ereignisse"
+     "text": "letzter Lauf 15:58, 0 offene Ereignisse"
     },
     {
      "name": "Chrome auf Timos PC",
