@@ -1,7 +1,7 @@
 {
  "version": 2,
- "stand": "2026-10-09T14:32:05Z",
- "stand_berlin": "09.10.2026 16:32",
+ "stand": "2026-10-09T14:47:00Z",
+ "stand_berlin": "09.10.2026 16:47",
  "takt_min": 15,
  "quelle": "takt/leitstand_bauen.py auf Davids Mac, ohne Modell",
  "ziele": {
@@ -53,7 +53,7 @@
     },
     {
      "name": "Chef-Runde",
-     "text": "Um 16:30: Takt ohne Ergebniszeile beendet (rc=1), Protokoll in ~/takt/laeufe.",
+     "text": "Um 16:45: Takt ohne Ergebniszeile beendet (rc=1), Protokoll in ~/takt/laeufe.",
      "ampel": "rot"
     }
    ]
@@ -400,7 +400,7 @@
      "wer": "David",
      "tun": null,
      "bis": "16:45",
-     "vorbei": false,
+     "vorbei": true,
      "stufe": 6,
      "ja": [
       35
@@ -410,9 +410,9 @@
      "prio": 1,
      "block": "werkzeuge",
      "titel": "Takt-Schleife ist kaputt",
-     "text": "letzte Runde endete 16:10, vor 19 Min, seitdem keine",
+     "text": "4 Fehlrunden in Folge (letzte rc=1). Ursache: 20261009_1640.txt: You've hit your limit on every Platz (alle Plaetze gesperrt, siehe ~/claude-plaetze/gesperrt.json)",
      "wer": "Claude (Technik)",
-     "tun": "Reparieren. Grund: letzte Runde endete 16:10, vor 19 Min, seitdem keine"
+     "tun": "Reparieren. Grund: 4 Fehlrunden in Folge (letzte rc=1). Ursache: 20261009_1640.txt: You've hit …"
     },
     {
      "prio": 1,
@@ -433,8 +433,8 @@
     {
      "prio": 2,
      "block": "geld",
-     "titel": "3 von 5 Geldzahlen fehlen",
-     "text": "veraltet oder verworfen: Anzeigen aktiv, Ausgaben heute, Gewinn seit 01.10.. Niemand sieht hier, ob Anzeigen laufen und Geld kommt. Abhilfe: keine Aufgabe fuer David oder Timo (David 04.10. 14:20: Meta, BM3, Karte nie erinnern); Claude liest Zahlen, sobald sie da sind. Bis dahin trägt ein Chat gemessene Werte ein: takt/leitstand_bauen.py --eintragen.",
+     "titel": "Keine frische Zahl zu Anzeigen und Geld",
+     "text": "veraltet oder verworfen: Anzeigen aktiv, Ausgaben heute, Bestellungen heute, Gewinn heute, Gewinn seit 01.10.. Niemand sieht hier, ob Anzeigen laufen und Geld kommt. Abhilfe: keine Aufgabe fuer David oder Timo (David 04.10. 14:20: Meta, BM3, Karte nie erinnern); Claude liest Zahlen, sobald sie da sind. Bis dahin trägt ein Chat gemessene Werte ein: takt/leitstand_bauen.py --eintragen.",
      "wer": "Timo",
      "tun": "Einmal den Shopify-Schlüssel (5 min) und den Meta-Zugang (10 min) anlegen, Plan Abschnitt 3"
     },
@@ -453,7 +453,7 @@
    "id": "wer",
    "frage": "Wer arbeitet woran?",
    "ampel": "rot",
-   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 159 Runden heute.",
+   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 162 Runden heute.",
    "saetze": [],
    "zeilen": [
     {
@@ -468,7 +468,7 @@
     },
     {
      "name": "Claude",
-     "text": "159 Runden heute, alle 5 Minuten eine. Zuletzt: Takt ohne Ergebniszeile beendet (rc=1), Protokoll in ~/takt/laeufe.",
+     "text": "162 Runden heute, alle 5 Minuten eine. Zuletzt: Takt ohne Ergebniszeile beendet (rc=1), Protokoll in ~/takt/laeufe.",
      "ampel": "rot"
     },
     {
@@ -482,27 +482,27 @@
    "nr": 4,
    "id": "tempo",
    "frage": "Wie schnell geht es gerade?",
-   "ampel": "gelb",
-   "kurz": "Letzte Stunde: 6 Runden, 0 davon mit fertigem Ergebnis.",
+   "ampel": "rot",
+   "kurz": "Letzte Stunde: 7 Runden, 0 davon mit fertigem Ergebnis.",
    "saetze": [
-    "Gewinn heute: 0,00 USD.",
+    "Den Gewinn heute wissen wir noch nicht, weil uns der Shopify-Zugang fehlt.",
     "Fertig heißt noch nicht live: 8 Ja-Schritte warten auf euer Ja (Karte 2)."
    ],
    "zeilen": [
     {
      "name": "Gewinn heute",
-     "text": "0,00 USD (gemessen 10:37, Shopify GraphQL orders created_at>=2026-10-09, 0 Bestellungen, 10:38).",
-     "ampel": "gelb"
+     "text": "Wissen wir noch nicht, weil uns der Shopify-Zugang fehlt.",
+     "ampel": "grau"
     },
     {
      "name": "Bestellungen heute",
-     "text": "0 (gemessen 10:37).",
+     "text": "Wissen wir noch nicht, weil uns der Shopify-Zugang fehlt.",
      "ampel": "grau"
     },
     {
      "name": "Runden, letzte Stunde",
-     "text": "6 Runden: 0 mit fertigem Ergebnis (Creative, Text oder Klickweg), 3 haben einen Menschen erinnert, 1 nur innen gearbeitet, 2 sind abgestürzt.",
-     "ampel": "gelb"
+     "text": "7 Runden: 0 mit fertigem Ergebnis (Creative, Text oder Klickweg), 1 hat einen Menschen erinnert, 1 nur innen gearbeitet, 5 sind abgestürzt.",
+     "ampel": "rot"
     },
     {
      "name": "Erledigt heute",
@@ -520,16 +520,16 @@
    "nr": 5,
    "id": "soll",
    "frage": "Wie schnell sollte es gehen?",
-   "ampel": "rot",
+   "ampel": "gelb",
    "kurz": "Wir schaffen 0 von 5 Zielen.",
    "saetze": [
-    "2 verfehlen wir gerade. 3 messen wir noch nicht."
+    "1 verfehlen wir gerade. 4 messen wir noch nicht."
    ],
    "zeilen": [
     {
      "name": "Gewinn",
-     "text": "Soll 2.174 USD am Tag. Heute bisher 0,00 USD.",
-     "ampel": "rot"
+     "text": "Soll 2.174 USD am Tag, damit wir bis Weihnachten 200.000 USD haben. Heute: wissen wir noch nicht.",
+     "ampel": "grau"
     },
     {
      "name": "David",
@@ -548,7 +548,7 @@
     },
     {
      "name": "Runden",
-     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 6, davon 3 nur innen oder abgestürzt.",
+     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 7, davon 6 nur innen oder abgestürzt.",
      "ampel": "rot"
     }
    ]
@@ -598,7 +598,7 @@
    "prio": 1,
    "block": "werkzeuge",
    "titel": "Takt-Schleife ist rot",
-   "text": "letzte Runde endete 16:10, vor 19 Min, seitdem keine"
+   "text": "4 Fehlrunden in Folge (letzte rc=1). Ursache: 20261009_1640.txt: You've hit your limit on every Platz (alle Plaetze gesperrt, siehe ~/claude-plaetze/gesperrt.json)"
   },
   {
    "prio": 1,
@@ -609,8 +609,8 @@
   {
    "prio": 2,
    "block": "geld",
-   "titel": "3 von 5 Geldzahlen fehlen",
-   "text": "veraltet oder verworfen: Anzeigen aktiv, Ausgaben heute, Gewinn seit 01.10.. Niemand sieht hier, ob Anzeigen laufen und Geld kommt. Abhilfe: keine Aufgabe fuer David oder Timo (David 04.10. 14:20: Meta, BM3, Karte nie erinnern); Claude liest Zahlen, sobald sie da sind. Bis dahin trägt ein Chat gemessene Werte ein: takt/leitstand_bauen.py --eintragen."
+   "titel": "Keine frische Zahl zu Anzeigen und Geld",
+   "text": "veraltet oder verworfen: Anzeigen aktiv, Ausgaben heute, Bestellungen heute, Gewinn heute, Gewinn seit 01.10.. Niemand sieht hier, ob Anzeigen laufen und Geld kommt. Abhilfe: keine Aufgabe fuer David oder Timo (David 04.10. 14:20: Meta, BM3, Karte nie erinnern); Claude liest Zahlen, sobald sie da sind. Bis dahin trägt ein Chat gemessene Werte ein: takt/leitstand_bauen.py --eintragen."
   },
   {
    "prio": 4,
@@ -659,22 +659,22 @@
   {
    "id": "geld",
    "titel": "Geld",
-   "ampel": "gelb",
+   "ampel": "grau",
    "zeilen": [
     {
      "name": "Bestellungen heute",
-     "wert": "0",
+     "wert": "veraltet",
      "ampel": "grau",
-     "detail": null,
+     "detail": "letzte Messung 10:37, älter als 6 h: damals 0",
      "quelle": "Shopify GraphQL orders created_at>=2026-10-09, 10:38",
      "stand": "10:37",
      "ziel": null
     },
     {
      "name": "Gewinn heute",
-     "wert": "0,00 USD",
-     "ampel": "gelb",
-     "detail": null,
+     "wert": "veraltet",
+     "ampel": "grau",
+     "detail": "letzte Messung 10:37, älter als 6 h: damals 0,00 USD",
      "quelle": "Shopify GraphQL orders created_at>=2026-10-09, 0 Bestellungen, 10:38",
      "stand": "10:37",
      "ziel": "2.174 USD"
@@ -701,7 +701,7 @@
      "ampel": "grau",
      "detail": "12 Bilder, 10 Videos, neu seit Montag, 05.10., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
      "quelle": "Erstellzeit der Dateien in creatives/fertig, 05_creatives/ads, 05_creatives/ki/fertig",
-     "stand": "16:32",
+     "stand": "16:47",
      "ziel": null
     },
     {
@@ -761,7 +761,7 @@
      "ampel": "grau",
      "detail": "1 Zeile im Codeblock (Formatbeispiel) nicht gezählt. Steht dort eine echte Aufgabe, gehört sie aus dem Block heraus.",
      "quelle": "timo/OFFEN.md",
-     "stand": "16:32",
+     "stand": "16:47",
      "ziel": null
     },
     {
@@ -890,7 +890,7 @@
    "zeilen": [
     {
      "name": "Wächter, letzter Lauf",
-     "wert": "16:29",
+     "wert": "16:45",
      "ampel": "gruen",
      "detail": null,
      "quelle": "waechter_zustand.json",
@@ -903,7 +903,7 @@
      "name": "Takt-Schleife",
      "schluessel": "takt",
      "ampel": "rot",
-     "text": "letzte Runde endete 16:10, vor 19 Min, seitdem keine"
+     "text": "4 Fehlrunden in Folge (letzte rc=1). Ursache: 20261009_1640.txt: You've hit your limit on every Platz (alle Plaetze gesperrt, siehe ~/claude-plaetze/gesperrt.json)"
     },
     {
      "name": "Perplexity",
@@ -921,7 +921,7 @@
      "name": "Crosspost",
      "schluessel": "crosspost",
      "ampel": "gruen",
-     "text": "laeuft (pid 34390), Herzschlag vor 0 s, postet, letzter Fehler: 2026-10-07T19:39:48.439Z keine Videos in der Antwort: {\"extr"
+     "text": "laeuft (pid 34390), Herzschlag vor 1 s, postet, letzter Fehler: 2026-10-07T19:39:48.439Z keine Videos in der Antwort: {\"extr"
     },
     {
      "name": "Speicher",
@@ -933,7 +933,7 @@
      "name": "GitHub-Push",
      "schluessel": "github",
      "ampel": "gruen",
-     "text": "origin/main d02c53d vor 24 Min"
+     "text": "origin/main 9f5c586 vor 5 Min"
     },
     {
      "name": "WhatsApp Web",
@@ -957,7 +957,7 @@
      "name": "Ereignis-Sensor",
      "schluessel": "ereignisse",
      "ampel": "gruen",
-     "text": "letzter Lauf 16:29, 0 offene Ereignisse"
+     "text": "letzter Lauf 16:45, 0 offene Ereignisse"
     },
     {
      "name": "Chrome auf Timos PC",
