@@ -1,7 +1,7 @@
 {
  "version": 2,
- "stand": "2026-10-10T05:02:04Z",
- "stand_berlin": "10.10.2026 07:02",
+ "stand": "2026-10-10T05:07:03Z",
+ "stand_berlin": "10.10.2026 07:07",
  "takt_min": 15,
  "quelle": "takt/leitstand_bauen.py auf Davids Mac, ohne Modell",
  "ziele": {
@@ -63,7 +63,7 @@
    "id": "auf",
    "frage": "Was hält uns auf?",
    "ampel": "rot",
-   "kurz": "14 Dinge halten uns auf.",
+   "kurz": "15 Dinge halten uns auf.",
    "saetze": [
     "Bei jedem steht, wer es tun muss. Oben steht das, was am meisten Geld kostet."
    ],
@@ -226,10 +226,18 @@
     {
      "prio": 2,
      "block": "geld",
-     "titel": "Keine frische Zahl zu Anzeigen und Geld",
-     "text": "veraltet oder verworfen: Anzeigen aktiv, Ausgaben heute, Bestellungen heute, Gewinn heute, Gewinn seit 01.10.. Niemand sieht hier, ob Anzeigen laufen und Geld kommt. Abhilfe: keine Aufgabe fuer David oder Timo (David 04.10. 14:20: Meta, BM3, Karte nie erinnern); Claude liest Zahlen, sobald sie da sind. Bis dahin trägt ein Chat gemessene Werte ein: takt/leitstand_bauen.py --eintragen.",
+     "titel": "2 von 5 Geldzahlen fehlen",
+     "text": "veraltet oder verworfen: Anzeigen aktiv, Ausgaben heute. Niemand sieht hier, ob Anzeigen laufen und Geld kommt. Abhilfe: keine Aufgabe fuer David oder Timo (David 04.10. 14:20: Meta, BM3, Karte nie erinnern); Claude liest Zahlen, sobald sie da sind. Bis dahin trägt ein Chat gemessene Werte ein: takt/leitstand_bauen.py --eintragen.",
      "wer": "Timo",
      "tun": "Einmal den Shopify-Schlüssel (5 min) und den Meta-Zugang (10 min) anlegen, Plan Abschnitt 3"
+    },
+    {
+     "prio": 2,
+     "block": "geld",
+     "titel": "Rückstand 19.566 USD gegen Plan",
+     "text": "Gewinn seit 01.10. 0,00 USD, Soll nach 9 Tagen 19.566 USD (2.174 USD je Tag).",
+     "wer": "David und Timo",
+     "tun": "Anzeigen und Kasse nach betrieb/ENTSCHEIDUNGSREGELN.md prüfen"
     },
     {
      "prio": 4,
@@ -276,25 +284,25 @@
    "id": "tempo",
    "frage": "Wie schnell geht es gerade?",
    "ampel": "gelb",
-   "kurz": "Letzte Stunde: 8 Runden, 0 davon mit fertigem Ergebnis.",
+   "kurz": "Letzte Stunde: 7 Runden, 0 davon mit fertigem Ergebnis.",
    "saetze": [
-    "Den Gewinn heute wissen wir noch nicht, weil uns der Shopify-Zugang fehlt.",
+    "Gewinn heute: 0,00 USD.",
     "Fertig heißt noch nicht live: 8 Ja-Schritte warten auf euer Ja (Karte 2)."
    ],
    "zeilen": [
     {
      "name": "Gewinn heute",
-     "text": "Wissen wir noch nicht, weil uns der Shopify-Zugang fehlt.",
-     "ampel": "grau"
+     "text": "0,00 USD (gemessen 07:06, Shopify GraphQL orders 10.10. 07:0x: 0 Bestellungen heute, also 0 Gewinn).",
+     "ampel": "gelb"
     },
     {
      "name": "Bestellungen heute",
-     "text": "Wissen wir noch nicht, weil uns der Shopify-Zugang fehlt.",
+     "text": "0 (gemessen 07:06).",
      "ampel": "grau"
     },
     {
      "name": "Runden, letzte Stunde",
-     "text": "8 Runden: 0 mit fertigem Ergebnis (Creative, Text oder Klickweg), 4 haben einen Menschen erinnert, 2 nur innen gearbeitet, 2 sind abgestürzt.",
+     "text": "7 Runden: 0 mit fertigem Ergebnis (Creative, Text oder Klickweg), 4 haben einen Menschen erinnert, 2 nur innen gearbeitet, 1 ist abgestürzt.",
      "ampel": "gelb"
     },
     {
@@ -313,16 +321,16 @@
    "nr": 5,
    "id": "soll",
    "frage": "Wie schnell sollte es gehen?",
-   "ampel": "gelb",
+   "ampel": "rot",
    "kurz": "Wir schaffen 0 von 5 Zielen.",
    "saetze": [
-    "1 verfehlen wir gerade. 4 messen wir noch nicht."
+    "2 verfehlen wir gerade. 3 messen wir noch nicht."
    ],
    "zeilen": [
     {
      "name": "Gewinn",
-     "text": "Soll 2.174 USD am Tag, damit wir bis Weihnachten 200.000 USD haben. Heute: wissen wir noch nicht.",
-     "ampel": "grau"
+     "text": "Soll 2.174 USD am Tag. Heute bisher 0,00 USD.",
+     "ampel": "rot"
     },
     {
      "name": "David",
@@ -341,7 +349,7 @@
     },
     {
      "name": "Runden",
-     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 8, davon 4 nur innen oder abgestürzt.",
+     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 7, davon 3 nur innen oder abgestürzt.",
      "ampel": "rot"
     }
    ]
@@ -396,8 +404,14 @@
   {
    "prio": 2,
    "block": "geld",
-   "titel": "Keine frische Zahl zu Anzeigen und Geld",
-   "text": "veraltet oder verworfen: Anzeigen aktiv, Ausgaben heute, Bestellungen heute, Gewinn heute, Gewinn seit 01.10.. Niemand sieht hier, ob Anzeigen laufen und Geld kommt. Abhilfe: keine Aufgabe fuer David oder Timo (David 04.10. 14:20: Meta, BM3, Karte nie erinnern); Claude liest Zahlen, sobald sie da sind. Bis dahin trägt ein Chat gemessene Werte ein: takt/leitstand_bauen.py --eintragen."
+   "titel": "2 von 5 Geldzahlen fehlen",
+   "text": "veraltet oder verworfen: Anzeigen aktiv, Ausgaben heute. Niemand sieht hier, ob Anzeigen laufen und Geld kommt. Abhilfe: keine Aufgabe fuer David oder Timo (David 04.10. 14:20: Meta, BM3, Karte nie erinnern); Claude liest Zahlen, sobald sie da sind. Bis dahin trägt ein Chat gemessene Werte ein: takt/leitstand_bauen.py --eintragen."
+  },
+  {
+   "prio": 2,
+   "block": "geld",
+   "titel": "Rückstand 19.566 USD gegen Plan",
+   "text": "Gewinn seit 01.10. 0,00 USD, Soll nach 9 Tagen 19.566 USD (2.174 USD je Tag)."
   },
   {
    "prio": 4,
@@ -446,33 +460,33 @@
   {
    "id": "geld",
    "titel": "Geld",
-   "ampel": "grau",
+   "ampel": "rot",
    "zeilen": [
     {
      "name": "Bestellungen heute",
-     "wert": "veraltet",
+     "wert": "0",
      "ampel": "grau",
-     "detail": "letzte Messung 09.10. 10:37, älter als 6 h: damals 0",
-     "quelle": "Shopify GraphQL orders created_at>=2026-10-09, 10:38",
-     "stand": "09.10. 10:37",
+     "detail": null,
+     "quelle": "Shopify Admin GraphQL orders read_orders, 10.10. 07:0x, neueste Bestellung #1222 vom 19.09., keine seit 01.10.",
+     "stand": "07:06",
      "ziel": null
     },
     {
      "name": "Gewinn heute",
-     "wert": "veraltet",
-     "ampel": "grau",
-     "detail": "letzte Messung 09.10. 10:37, älter als 6 h: damals 0,00 USD",
-     "quelle": "Shopify GraphQL orders created_at>=2026-10-09, 0 Bestellungen, 10:38",
-     "stand": "09.10. 10:37",
+     "wert": "0,00 USD",
+     "ampel": "gelb",
+     "detail": null,
+     "quelle": "Shopify GraphQL orders 10.10. 07:0x: 0 Bestellungen heute, also 0 Gewinn",
+     "stand": "07:06",
      "ziel": "2.174 USD"
     },
     {
      "name": "Gewinn seit 01.10.",
-     "wert": "veraltet",
-     "ampel": "grau",
-     "detail": "letzte Messung 09.10. 04:50, älter als 6 h: damals 0,00 USD",
-     "quelle": "Shopify GraphQL orders created_at>=2026-10-01, 0 Bestellungen, 04:48",
-     "stand": "09.10. 04:50",
+     "wert": "0,00 USD",
+     "ampel": "rot",
+     "detail": null,
+     "quelle": "Shopify GraphQL orders 10.10. 07:0x: letzte 25 Bestellungen alle vor 01.10. (neueste #1222, 19.09.), BESTELLUNGEN.csv nur Testzeile, also 0 seit Start",
+     "stand": "07:06",
      "ziel": "200.000 USD bis 31.12., Soll bis gestern 19.566 USD (9 Tage)"
     }
    ]
@@ -488,7 +502,7 @@
      "ampel": "grau",
      "detail": "12 Bilder, 10 Videos, neu seit Montag, 05.10., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
      "quelle": "Erstellzeit der Dateien in creatives/fertig, 05_creatives/ads, 05_creatives/ki/fertig",
-     "stand": "07:02",
+     "stand": "07:07",
      "ziel": null
     },
     {
@@ -548,7 +562,7 @@
      "ampel": "grau",
      "detail": "1 Zeile im Codeblock (Formatbeispiel) nicht gezählt. Steht dort eine echte Aufgabe, gehört sie aus dem Block heraus.",
      "quelle": "timo/OFFEN.md",
-     "stand": "07:02",
+     "stand": "07:07",
      "ziel": null
     },
     {
@@ -677,7 +691,7 @@
    "zeilen": [
     {
      "name": "Wächter, letzter Lauf",
-     "wert": "07:00",
+     "wert": "07:05",
      "ampel": "gruen",
      "detail": null,
      "quelle": "waechter_zustand.json",
@@ -690,7 +704,7 @@
      "name": "Takt-Schleife",
      "schluessel": "takt",
      "ampel": "gruen",
-     "text": "letzte Runde 06:59 (chef), rc=0, Runde laeuft seit 0 Min"
+     "text": "letzte Runde 06:59 (chef), rc=0, Runde laeuft seit 5 Min"
     },
     {
      "name": "Perplexity",
@@ -708,7 +722,7 @@
      "name": "Crosspost",
      "schluessel": "crosspost",
      "ampel": "gruen",
-     "text": "laeuft (pid 34390), Herzschlag vor 5 s, postet, letzter Fehler: 2026-10-07T19:39:48.439Z keine Videos in der Antwort: {\"extr"
+     "text": "laeuft (pid 34390), Herzschlag vor 9 s, postet, letzter Fehler: 2026-10-07T19:39:48.439Z keine Videos in der Antwort: {\"extr"
     },
     {
      "name": "Speicher",
@@ -720,13 +734,13 @@
      "name": "GitHub-Push",
      "schluessel": "github",
      "ampel": "gruen",
-     "text": "origin/main cfb3fa7 vor 4 Min"
+     "text": "origin/main 9e21885 vor 5 Min"
     },
     {
      "name": "WhatsApp Web",
      "schluessel": "whatsapp",
      "ampel": "gruen",
-     "text": "Chatliste gelesen (apple, 15 Zeilen), 6 von 6 Lieferanten sichtbar"
+     "text": "ausgesetzt, WhatsApp gerade belegt: /opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/Resourc…"
     },
     {
      "name": "Shopify",
@@ -744,7 +758,7 @@
      "name": "Ereignis-Sensor",
      "schluessel": "ereignisse",
      "ampel": "gruen",
-     "text": "letzter Lauf 07:00, 0 offene Ereignisse"
+     "text": "letzter Lauf 07:05, 0 offene Ereignisse"
     },
     {
      "name": "Chrome auf Timos PC",
