@@ -1,7 +1,7 @@
 {
  "version": 2,
- "stand": "2026-10-10T14:32:05Z",
- "stand_berlin": "10.10.2026 16:32",
+ "stand": "2026-10-10T14:47:05Z",
+ "stand_berlin": "10.10.2026 16:47",
  "takt_min": 15,
  "quelle": "takt/leitstand_bauen.py auf Davids Mac, ohne Modell",
  "ziele": {
@@ -48,12 +48,12 @@
     },
     {
      "name": "Technik",
-     "text": "Der Wächter prüft alle 5 Minuten 10 Werkzeuge: 8 gehen, 1 kaputt (Perplexity), 1 warten auf Zugang oder sind aus (Meta). 1 weiteres prüft er noch nicht.",
+     "text": "Der Wächter prüft alle 5 Minuten 10 Werkzeuge: 7 gehen, 2 kaputt (Takt-Schleife, Perplexity), 1 warten auf Zugang oder sind aus (Meta). 1 weiteres prüft er noch nicht.",
      "ampel": "rot"
     },
     {
      "name": "Chef-Runde",
-     "text": "Um 16:30: Takt ohne Ergebniszeile beendet (rc=1), Protokoll in ~/takt/laeufe.",
+     "text": "Um 16:45: Takt ohne Ergebniszeile beendet (rc=1), Protokoll in ~/takt/laeufe.",
      "ampel": "rot"
     }
    ]
@@ -63,7 +63,7 @@
    "id": "auf",
    "frage": "Was hält uns auf?",
    "ampel": "rot",
-   "kurz": "20 Dinge halten uns auf.",
+   "kurz": "21 Dinge halten uns auf.",
    "saetze": [
     "Bei jedem steht, wer es tun muss. Oben steht das, was am meisten Geld kostet."
    ],
@@ -295,6 +295,14 @@
     {
      "prio": 1,
      "block": "werkzeuge",
+     "titel": "Takt-Schleife ist kaputt",
+     "text": "5 Fehlrunden in Folge (letzte rc=1). Ursache: 20261010_1645.txt: You've hit your limit on every Platz (alle Plaetze gesperrt, siehe ~/claude-plaetze/gesperrt.json)",
+     "wer": "Claude (Technik)",
+     "tun": "Reparieren. Grund: 5 Fehlrunden in Folge (letzte rc=1). Ursache: 20261010_1645.txt: You've hit …"
+    },
+    {
+     "prio": 1,
+     "block": "werkzeuge",
      "titel": "Perplexity ist kaputt",
      "text": "6 Laeufe in Folge ohne Antwort, letzter Erfolg 09.10. 10:48; zuletzt: nach 12 Minuten nicht fertig; LIZENZ_NOETIG seit 09.10. 11:49 gesetzt, Recherche-Schlange pausiert",
      "wer": "Claude (Technik)",
@@ -331,7 +339,7 @@
    "id": "wer",
    "frage": "Wer arbeitet woran?",
    "ampel": "rot",
-   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 169 Runden heute.",
+   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 172 Runden heute.",
    "saetze": [],
    "zeilen": [
     {
@@ -346,7 +354,7 @@
     },
     {
      "name": "Claude",
-     "text": "169 Runden heute, alle 5 Minuten eine. Zuletzt: Takt ohne Ergebniszeile beendet (rc=1), Protokoll in ~/takt/laeufe.",
+     "text": "172 Runden heute, alle 5 Minuten eine. Zuletzt: Takt ohne Ergebniszeile beendet (rc=1), Protokoll in ~/takt/laeufe.",
      "ampel": "rot"
     },
     {
@@ -475,6 +483,12 @@
   {
    "prio": 1,
    "block": "werkzeuge",
+   "titel": "Takt-Schleife ist rot",
+   "text": "5 Fehlrunden in Folge (letzte rc=1). Ursache: 20261010_1645.txt: You've hit your limit on every Platz (alle Plaetze gesperrt, siehe ~/claude-plaetze/gesperrt.json)"
+  },
+  {
+   "prio": 1,
+   "block": "werkzeuge",
    "titel": "Perplexity ist rot",
    "text": "6 Laeufe in Folge ohne Antwort, letzter Erfolg 09.10. 10:48; zuletzt: nach 12 Minuten nicht fertig; LIZENZ_NOETIG seit 09.10. 11:49 gesetzt, Recherche-Schlange pausiert"
   },
@@ -573,7 +587,7 @@
      "ampel": "grau",
      "detail": "12 Bilder, 10 Videos, neu seit Montag, 05.10., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
      "quelle": "Erstellzeit der Dateien in creatives/fertig, 05_creatives/ads, 05_creatives/ki/fertig",
-     "stand": "16:32",
+     "stand": "16:47",
      "ziel": null
     },
     {
@@ -633,7 +647,7 @@
      "ampel": "grau",
      "detail": "1 Zeile im Codeblock (Formatbeispiel) nicht gezählt. Steht dort eine echte Aufgabe, gehört sie aus dem Block heraus.",
      "quelle": "timo/OFFEN.md",
-     "stand": "16:32",
+     "stand": "16:47",
      "ziel": null
     },
     {
@@ -762,7 +776,7 @@
    "zeilen": [
     {
      "name": "Wächter, letzter Lauf",
-     "wert": "16:30",
+     "wert": "16:45",
      "ampel": "gruen",
      "detail": null,
      "quelle": "waechter_zustand.json",
@@ -774,8 +788,8 @@
     {
      "name": "Takt-Schleife",
      "schluessel": "takt",
-     "ampel": "gruen",
-     "text": "letzte Runde 16:25 (chef), rc=1, 2 Fehlrunden in Folge, Runde laeuft seit 0 Min"
+     "ampel": "rot",
+     "text": "5 Fehlrunden in Folge (letzte rc=1). Ursache: 20261010_1645.txt: You've hit your limit on every Platz (alle Plaetze gesperrt, siehe ~/claude-plaetze/gesperrt.json)"
     },
     {
      "name": "Perplexity",
@@ -793,7 +807,7 @@
      "name": "Crosspost",
      "schluessel": "crosspost",
      "ampel": "gruen",
-     "text": "laeuft (pid 34390), Herzschlag vor 5 s, postet, letzter Fehler: 2026-10-07T19:39:48.439Z keine Videos in der Antwort: {\"extr"
+     "text": "laeuft (pid 34390), Herzschlag vor 8 s, postet, letzter Fehler: 2026-10-07T19:39:48.439Z keine Videos in der Antwort: {\"extr"
     },
     {
      "name": "Speicher",
@@ -805,7 +819,7 @@
      "name": "GitHub-Push",
      "schluessel": "github",
      "ampel": "gruen",
-     "text": "origin/main ee4e75b vor 4 Min"
+     "text": "origin/main 0692bf8 vor 0 Min"
     },
     {
      "name": "WhatsApp Web",
@@ -829,7 +843,7 @@
      "name": "Ereignis-Sensor",
      "schluessel": "ereignisse",
      "ampel": "gruen",
-     "text": "letzter Lauf 16:30, 0 offene Ereignisse"
+     "text": "letzter Lauf 16:45, 0 offene Ereignisse"
     },
     {
      "name": "Chrome auf Timos PC",
