@@ -1,7 +1,7 @@
 {
  "version": 2,
- "stand": "2026-10-10T05:27:33Z",
- "stand_berlin": "10.10.2026 07:27",
+ "stand": "2026-10-10T05:32:05Z",
+ "stand_berlin": "10.10.2026 07:32",
  "takt_min": 15,
  "quelle": "takt/leitstand_bauen.py auf Davids Mac, ohne Modell",
  "ziele": {
@@ -89,7 +89,7 @@
      "wer": "David",
      "tun": null,
      "bis": "07:30",
-     "vorbei": false,
+     "vorbei": true,
      "stufe": 1,
      "ja": []
     },
@@ -101,7 +101,7 @@
      "wer": "David",
      "tun": null,
      "bis": "07:30",
-     "vorbei": false,
+     "vorbei": true,
      "stufe": 1,
      "ja": []
     },
@@ -113,7 +113,7 @@
      "wer": "Timo",
      "tun": "Drei fertige Lieferantentexte senden, zusammen 3 Minuten, 0 USD",
      "bis": "07:30",
-     "vorbei": false,
+     "vorbei": true,
      "stufe": 4,
      "ja": [
       33,
@@ -130,7 +130,7 @@
      "wer": "Timo",
      "tun": "Drei fertige Lieferantentexte senden, zusammen 3 Minuten, 0 USD",
      "bis": "07:30",
-     "vorbei": false,
+     "vorbei": true,
      "stufe": 4,
      "ja": [
       33,
@@ -161,7 +161,7 @@
      "wer": "David",
      "tun": null,
      "bis": "07:30",
-     "vorbei": false,
+     "vorbei": true,
      "stufe": 6,
      "ja": []
     },
@@ -173,7 +173,7 @@
      "wer": "Timo",
      "tun": "~/timo/JA_LISTE.md steht bei 8 von 8 offenen Zeilen [SICHER, geprüft 10.10. 02:4x], davon hängen 4 Plätze (Nr. 30, 33, 34, 37) an …",
      "bis": "07:30",
-     "vorbei": false,
+     "vorbei": true,
      "stufe": 6,
      "ja": [
       38
@@ -187,7 +187,7 @@
      "wer": "David",
      "tun": null,
      "bis": "07:30",
-     "vorbei": false,
+     "vorbei": true,
      "stufe": 6,
      "ja": [
       37
@@ -201,7 +201,7 @@
      "wer": "David",
      "tun": null,
      "bis": "07:30",
-     "vorbei": false,
+     "vorbei": true,
      "stufe": 6,
      "ja": [
       35
@@ -242,10 +242,10 @@
     {
      "prio": 4,
      "block": "aufgaben",
-     "wer": "Timo 2, David 1, Claude 4",
+     "wer": "Timo 2, David 1, Claude 3",
      "tun": "Die älteste zuerst erledigen oder neu datieren; Liste unten unter Offene Aufgaben",
-     "titel": "7 Aufgaben überfällig",
-     "text": "Älteste: 04.10., Timo, 10 min, im BM3 vor dem Anzeigenstart. Davon nennen Timo 2, David 1, Claude 4."
+     "titel": "6 Aufgaben überfällig",
+     "text": "Älteste: 04.10., Timo, 10 min, im BM3 vor dem Anzeigenstart. Davon nennen Timo 2, David 1, Claude 3."
     }
    ]
   },
@@ -284,7 +284,7 @@
    "id": "tempo",
    "frage": "Wie schnell geht es gerade?",
    "ampel": "gelb",
-   "kurz": "Letzte Stunde: 6 Runden, 1 davon mit fertigem Ergebnis.",
+   "kurz": "Letzte Stunde: 5 Runden, 1 davon mit fertigem Ergebnis.",
    "saetze": [
     "Gewinn heute: 0,00 USD.",
     "Fertig heißt noch nicht live: 8 Ja-Schritte warten auf euer Ja (Karte 2)."
@@ -302,13 +302,13 @@
     },
     {
      "name": "Runden, letzte Stunde",
-     "text": "6 Runden: 1 mit fertigem Ergebnis (Creative, Text oder Klickweg), 3 haben einen Menschen erinnert, 2 nur innen gearbeitet.",
+     "text": "5 Runden: 1 mit fertigem Ergebnis (Creative, Text oder Klickweg), 2 haben einen Menschen erinnert, 2 nur innen gearbeitet.",
      "ampel": "gelb"
     },
     {
      "name": "Erledigt heute",
-     "text": "0 in OFFEN.md als erledigt eingetragen, 0 Ja-Schritte erledigt.",
-     "ampel": "gelb"
+     "text": "1 in OFFEN.md als erledigt eingetragen, 0 Ja-Schritte erledigt.",
+     "ampel": "gruen"
     },
     {
      "name": "Neu gebaut heute",
@@ -349,7 +349,7 @@
     },
     {
      "name": "Runden",
-     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 6, davon 2 nur innen.",
+     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 5, davon 2 nur innen.",
      "ampel": "rot"
     }
    ]
@@ -416,10 +416,10 @@
   {
    "prio": 4,
    "block": "aufgaben",
-   "wer": "Timo 2, David 1, Claude 4",
+   "wer": "Timo 2, David 1, Claude 3",
    "tun": "die älteste zuerst erledigen oder neu datieren; Liste unten unter Offene Aufgaben",
-   "titel": "7 Aufgaben überfällig",
-   "text": "Älteste: 04.10., Timo, 10 min, im BM3 vor dem Anzeigenstart. Davon nennen Timo 2, David 1, Claude 4."
+   "titel": "6 Aufgaben überfällig",
+   "text": "Älteste: 04.10., Timo, 10 min, im BM3 vor dem Anzeigenstart. Davon nennen Timo 2, David 1, Claude 3."
   }
  ],
  "bloecke": [
@@ -502,7 +502,7 @@
      "ampel": "grau",
      "detail": "12 Bilder, 10 Videos, neu seit Montag, 05.10., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
      "quelle": "Erstellzeit der Dateien in creatives/fertig, 05_creatives/ads, 05_creatives/ki/fertig",
-     "stand": "07:27",
+     "stand": "07:32",
      "ziel": null
     },
     {
@@ -562,21 +562,21 @@
      "ampel": "grau",
      "detail": "1 Zeile im Codeblock (Formatbeispiel) nicht gezählt. Steht dort eine echte Aufgabe, gehört sie aus dem Block heraus.",
      "quelle": "timo/OFFEN.md",
-     "stand": "07:27",
+     "stand": "07:32",
      "ziel": null
     },
     {
      "name": "Überfällig",
-     "wert": "7",
+     "wert": "6",
      "ampel": "rot",
-     "detail": "davon nennen Timo 2, David 1, Claude 4",
+     "detail": "davon nennen Timo 2, David 1, Claude 3",
      "quelle": null,
      "stand": null,
      "ziel": null
     },
     {
      "name": "Heute fällig",
-     "wert": "7",
+     "wert": "8",
      "ampel": "gelb",
      "detail": null,
      "quelle": null,
@@ -628,14 +628,6 @@
     {
      "datum": "2026-10-07",
      "datum_kurz": "07.10.",
-     "wer": "Claude, 20 min",
-     "text": "Bauplan aus /system-verbessern 04.10.: Leitstand-Kachel \"Was läuft gerade\" (Hintergrundaufgaben mit Startzeit und Ziel) …",
-     "tage_ueberfaellig": 3,
-     "ampel": "rot"
-    },
-    {
-     "datum": "2026-10-07",
-     "datum_kurz": "07.10.",
      "wer": "David, 1 min",
      "text": "Dateien vom Zweitlaptop, die David am 25.09. per WhatsApp geschickt hat: welche waren das, werden sie noch gebraucht? …",
      "tage_ueberfaellig": 3,
@@ -646,6 +638,14 @@
      "datum_kurz": "10.10.",
      "wer": "Timo, 2 min",
      "text": "Wer ist Inhaber des Shopify-Kontos dyhu8q-n6, auf wen läuft das Auszahlungskonto (Shopify Payments braucht einen …",
+     "tage_ueberfaellig": 0,
+     "ampel": "gelb"
+    },
+    {
+     "datum": "2026-10-10",
+     "datum_kurz": "10.10.",
+     "wer": "Claude, 10 min",
+     "text": "Rest aus der Leitstand-Kachel-Aufgabe vom 07.10.: Kachel \"AGI-Reifegrad\" (6 Punkte wie Kürzel AGI), \"Was läuft gerade\" …",
      "tage_ueberfaellig": 0,
      "ampel": "gelb"
     },
@@ -691,7 +691,7 @@
    "zeilen": [
     {
      "name": "Wächter, letzter Lauf",
-     "wert": "07:26",
+     "wert": "07:31",
      "ampel": "gruen",
      "detail": null,
      "quelle": "waechter_zustand.json",
@@ -704,7 +704,7 @@
      "name": "Takt-Schleife",
      "schluessel": "takt",
      "ampel": "gruen",
-     "text": "letzte Runde 07:14 (chef), rc=0, Runde laeuft seit 11 Min"
+     "text": "letzte Runde 07:14 (chef), rc=0, Runde laeuft seit 16 Min"
     },
     {
      "name": "Perplexity",
@@ -722,7 +722,7 @@
      "name": "Crosspost",
      "schluessel": "crosspost",
      "ampel": "gruen",
-     "text": "laeuft (pid 34390), Herzschlag vor 5 s, postet, letzter Fehler: 2026-10-07T19:39:48.439Z keine Videos in der Antwort: {\"extr"
+     "text": "laeuft (pid 34390), Herzschlag vor 7 s, postet, letzter Fehler: 2026-10-07T19:39:48.439Z keine Videos in der Antwort: {\"extr"
     },
     {
      "name": "Speicher",
@@ -734,7 +734,7 @@
      "name": "GitHub-Push",
      "schluessel": "github",
      "ampel": "gruen",
-     "text": "origin/main 17ce5e7 vor 10 Min"
+     "text": "origin/main 88886d1 vor 2 Min"
     },
     {
      "name": "WhatsApp Web",
@@ -758,7 +758,7 @@
      "name": "Ereignis-Sensor",
      "schluessel": "ereignisse",
      "ampel": "gruen",
-     "text": "letzter Lauf 07:26, 0 offene Ereignisse"
+     "text": "letzter Lauf 07:31, 0 offene Ereignisse"
     },
     {
      "name": "Chrome auf Timos PC",
