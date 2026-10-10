@@ -1,7 +1,7 @@
 {
  "version": 2,
- "stand": "2026-10-10T07:47:02Z",
- "stand_berlin": "10.10.2026 09:47",
+ "stand": "2026-10-10T08:02:00Z",
+ "stand_berlin": "10.10.2026 10:02",
  "takt_min": 15,
  "quelle": "takt/leitstand_bauen.py auf Davids Mac, ohne Modell",
  "ziele": {
@@ -53,7 +53,7 @@
     },
     {
      "name": "Chef-Runde",
-     "text": "Um 09:45: Takt ohne Ergebniszeile beendet (rc=1), Protokoll in ~/takt/laeufe.",
+     "text": "Um 10:00: Takt ohne Ergebniszeile beendet (rc=1), Protokoll in ~/takt/laeufe.",
      "ampel": "rot"
     }
    ]
@@ -240,9 +240,9 @@
      "prio": 1,
      "block": "werkzeuge",
      "titel": "Takt-Schleife ist kaputt",
-     "text": "13 Fehlrunden in Folge (letzte rc=1). Ursache: 20261010_0945.txt: You've hit your limit on every Platz (alle Plaetze gesperrt, siehe ~/claude-plaetze/gesperrt.json)",
+     "text": "15 Fehlrunden in Folge (letzte rc=1). Ursache: 20261010_0955.txt: You've hit your limit on every Platz (alle Plaetze gesperrt, siehe ~/claude-plaetze/gesperrt.json)",
      "wer": "Claude (Technik)",
-     "tun": "Reparieren. Grund: 13 Fehlrunden in Folge (letzte rc=1). Ursache: 20261010_0945.txt: You've hit …"
+     "tun": "Reparieren. Grund: 15 Fehlrunden in Folge (letzte rc=1). Ursache: 20261010_0955.txt: You've hit …"
     },
     {
      "prio": 1,
@@ -291,7 +291,7 @@
    "id": "wer",
    "frage": "Wer arbeitet woran?",
    "ampel": "rot",
-   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 86 Runden heute.",
+   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 89 Runden heute.",
    "saetze": [],
    "zeilen": [
     {
@@ -306,7 +306,7 @@
     },
     {
      "name": "Claude",
-     "text": "86 Runden heute, alle 5 Minuten eine. Zuletzt: Takt ohne Ergebniszeile beendet (rc=1), Protokoll in ~/takt/laeufe.",
+     "text": "89 Runden heute, alle 5 Minuten eine. Zuletzt: Takt ohne Ergebniszeile beendet (rc=1), Protokoll in ~/takt/laeufe.",
      "ampel": "rot"
     },
     {
@@ -436,7 +436,7 @@
    "prio": 1,
    "block": "werkzeuge",
    "titel": "Takt-Schleife ist rot",
-   "text": "13 Fehlrunden in Folge (letzte rc=1). Ursache: 20261010_0945.txt: You've hit your limit on every Platz (alle Plaetze gesperrt, siehe ~/claude-plaetze/gesperrt.json)"
+   "text": "15 Fehlrunden in Folge (letzte rc=1). Ursache: 20261010_0955.txt: You've hit your limit on every Platz (alle Plaetze gesperrt, siehe ~/claude-plaetze/gesperrt.json)"
   },
   {
    "prio": 1,
@@ -545,7 +545,7 @@
      "ampel": "grau",
      "detail": "12 Bilder, 10 Videos, neu seit Montag, 05.10., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
      "quelle": "Erstellzeit der Dateien in creatives/fertig, 05_creatives/ads, 05_creatives/ki/fertig",
-     "stand": "09:47",
+     "stand": "10:02",
      "ziel": null
     },
     {
@@ -605,7 +605,7 @@
      "ampel": "grau",
      "detail": "1 Zeile im Codeblock (Formatbeispiel) nicht gezählt. Steht dort eine echte Aufgabe, gehört sie aus dem Block heraus.",
      "quelle": "timo/OFFEN.md",
-     "stand": "09:47",
+     "stand": "10:02",
      "ziel": null
     },
     {
@@ -734,7 +734,7 @@
    "zeilen": [
     {
      "name": "Wächter, letzter Lauf",
-     "wert": "09:46",
+     "wert": "09:57",
      "ampel": "gruen",
      "detail": null,
      "quelle": "waechter_zustand.json",
@@ -747,7 +747,7 @@
      "name": "Takt-Schleife",
      "schluessel": "takt",
      "ampel": "rot",
-     "text": "13 Fehlrunden in Folge (letzte rc=1). Ursache: 20261010_0945.txt: You've hit your limit on every Platz (alle Plaetze gesperrt, siehe ~/claude-plaetze/gesperrt.json)"
+     "text": "15 Fehlrunden in Folge (letzte rc=1). Ursache: 20261010_0955.txt: You've hit your limit on every Platz (alle Plaetze gesperrt, siehe ~/claude-plaetze/gesperrt.json)"
     },
     {
      "name": "Perplexity",
@@ -777,7 +777,7 @@
      "name": "GitHub-Push",
      "schluessel": "github",
      "ampel": "gruen",
-     "text": "origin/main b6c80b7 vor 1 Min"
+     "text": "origin/main 5558e3a vor 1 Min"
     },
     {
      "name": "WhatsApp Web",
@@ -801,7 +801,7 @@
      "name": "Ereignis-Sensor",
      "schluessel": "ereignisse",
      "ampel": "gruen",
-     "text": "letzter Lauf 09:46, 0 offene Ereignisse"
+     "text": "letzter Lauf 09:57, 0 offene Ereignisse"
     },
     {
      "name": "Chrome auf Timos PC",
