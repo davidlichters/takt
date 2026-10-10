@@ -1,7 +1,7 @@
 {
  "version": 2,
- "stand": "2026-10-10T01:32:05Z",
- "stand_berlin": "10.10.2026 03:32",
+ "stand": "2026-10-10T01:47:05Z",
+ "stand_berlin": "10.10.2026 03:47",
  "takt_min": 15,
  "quelle": "takt/leitstand_bauen.py auf Davids Mac, ohne Modell",
  "ziele": {
@@ -48,12 +48,12 @@
     },
     {
      "name": "Technik",
-     "text": "Der Wächter prüft alle 5 Minuten 10 Werkzeuge: 8 gehen, 1 kaputt (Perplexity), 1 warten auf Zugang oder sind aus (Meta). 1 weiteres prüft er noch nicht.",
+     "text": "Der Wächter prüft alle 5 Minuten 10 Werkzeuge: 7 gehen, 2 kaputt (Takt-Schleife, Perplexity), 1 warten auf Zugang oder sind aus (Meta). 1 weiteres prüft er noch nicht.",
      "ampel": "rot"
     },
     {
      "name": "Chef-Runde",
-     "text": "Um 03:20: Takt ohne Ergebniszeile beendet (rc=1), Protokoll in ~/takt/laeufe.",
+     "text": "Um 03:45: Takt ohne Ergebniszeile beendet (rc=1), Protokoll in ~/takt/laeufe.",
      "ampel": "rot"
     }
    ]
@@ -63,7 +63,7 @@
    "id": "auf",
    "frage": "Was hält uns auf?",
    "ampel": "rot",
-   "kurz": "10 Dinge halten uns auf.",
+   "kurz": "11 Dinge halten uns auf.",
    "saetze": [
     "Bei jedem steht, wer es tun muss. Oben steht das, was am meisten Geld kostet."
    ],
@@ -153,6 +153,14 @@
     {
      "prio": 1,
      "block": "werkzeuge",
+     "titel": "Takt-Schleife ist kaputt",
+     "text": "letzte Runde endete 03:21, vor 21 Min, seitdem keine",
+     "wer": "Claude (Technik)",
+     "tun": "Reparieren. Grund: letzte Runde endete 03:21, vor 21 Min, seitdem keine"
+    },
+    {
+     "prio": 1,
+     "block": "werkzeuge",
      "titel": "Perplexity ist kaputt",
      "text": "6 Laeufe in Folge ohne Antwort, letzter Erfolg 09.10. 10:48; zuletzt: nach 12 Minuten nicht fertig; LIZENZ_NOETIG seit 09.10. 11:49 gesetzt, Recherche-Schlange pausiert",
      "wer": "Claude (Technik)",
@@ -189,7 +197,7 @@
    "id": "wer",
    "frage": "Wer arbeitet woran?",
    "ampel": "rot",
-   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 28 Runden heute.",
+   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 29 Runden heute.",
    "saetze": [],
    "zeilen": [
     {
@@ -204,7 +212,7 @@
     },
     {
      "name": "Claude",
-     "text": "28 Runden heute, alle 5 Minuten eine. Zuletzt: Takt ohne Ergebniszeile beendet (rc=1), Protokoll in ~/takt/laeufe.",
+     "text": "29 Runden heute, alle 5 Minuten eine. Zuletzt: Takt ohne Ergebniszeile beendet (rc=1), Protokoll in ~/takt/laeufe.",
      "ampel": "rot"
     },
     {
@@ -218,8 +226,8 @@
    "nr": 4,
    "id": "tempo",
    "frage": "Wie schnell geht es gerade?",
-   "ampel": "gelb",
-   "kurz": "Letzte Stunde: 5 Runden, 0 davon mit fertigem Ergebnis.",
+   "ampel": "rot",
+   "kurz": "Letzte Stunde: 4 Runden, 0 davon mit fertigem Ergebnis.",
    "saetze": [
     "Den Gewinn heute wissen wir noch nicht, weil uns der Shopify-Zugang fehlt.",
     "Fertig heißt noch nicht live: 8 Ja-Schritte warten auf euer Ja (Karte 2)."
@@ -237,8 +245,8 @@
     },
     {
      "name": "Runden, letzte Stunde",
-     "text": "5 Runden: 0 mit fertigem Ergebnis (Creative, Text oder Klickweg), 3 haben einen Menschen erinnert, 1 nur innen gearbeitet, 1 ist abgestürzt.",
-     "ampel": "gelb"
+     "text": "4 Runden: 0 mit fertigem Ergebnis (Creative, Text oder Klickweg), 1 hat einen Menschen erinnert, 1 nur innen gearbeitet, 2 sind abgestürzt.",
+     "ampel": "rot"
     },
     {
      "name": "Erledigt heute",
@@ -284,7 +292,7 @@
     },
     {
      "name": "Runden",
-     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 5, davon 2 nur innen oder abgestürzt.",
+     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 4, davon 3 nur innen oder abgestürzt.",
      "ampel": "rot"
     }
    ]
@@ -330,6 +338,12 @@
  ],
  "karten_fehler": null,
  "rot": [
+  {
+   "prio": 1,
+   "block": "werkzeuge",
+   "titel": "Takt-Schleife ist rot",
+   "text": "letzte Runde endete 03:21, vor 21 Min, seitdem keine"
+  },
   {
    "prio": 1,
    "block": "werkzeuge",
@@ -431,7 +445,7 @@
      "ampel": "grau",
      "detail": "12 Bilder, 10 Videos, neu seit Montag, 05.10., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
      "quelle": "Erstellzeit der Dateien in creatives/fertig, 05_creatives/ads, 05_creatives/ki/fertig",
-     "stand": "03:32",
+     "stand": "03:47",
      "ziel": null
     },
     {
@@ -491,7 +505,7 @@
      "ampel": "grau",
      "detail": "1 Zeile im Codeblock (Formatbeispiel) nicht gezählt. Steht dort eine echte Aufgabe, gehört sie aus dem Block heraus.",
      "quelle": "timo/OFFEN.md",
-     "stand": "03:32",
+     "stand": "03:47",
      "ziel": null
     },
     {
@@ -620,7 +634,7 @@
    "zeilen": [
     {
      "name": "Wächter, letzter Lauf",
-     "wert": "03:27",
+     "wert": "03:42",
      "ampel": "gruen",
      "detail": null,
      "quelle": "waechter_zustand.json",
@@ -632,8 +646,8 @@
     {
      "name": "Takt-Schleife",
      "schluessel": "takt",
-     "ampel": "gruen",
-     "text": "letzte Runde 03:21 (chef), rc=1, 1 Fehlrunde in Folge"
+     "ampel": "rot",
+     "text": "letzte Runde endete 03:21, vor 21 Min, seitdem keine"
     },
     {
      "name": "Perplexity",
@@ -651,19 +665,19 @@
      "name": "Crosspost",
      "schluessel": "crosspost",
      "ampel": "gruen",
-     "text": "laeuft (pid 34390), Herzschlag vor 6 s, postet, letzter Fehler: 2026-10-07T19:39:48.439Z keine Videos in der Antwort: {\"extr"
+     "text": "laeuft (pid 34390), Herzschlag vor 0 s, postet, letzter Fehler: 2026-10-07T19:39:48.439Z keine Videos in der Antwort: {\"extr"
     },
     {
      "name": "Speicher",
      "schluessel": "speicher",
      "ampel": "gruen",
-     "text": "20 GB frei"
+     "text": "21 GB frei"
     },
     {
      "name": "GitHub-Push",
      "schluessel": "github",
      "ampel": "gruen",
-     "text": "origin/main 9eb35d4 vor 6 Min"
+     "text": "origin/main 9eb35d4 vor 22 Min"
     },
     {
      "name": "WhatsApp Web",
@@ -687,7 +701,7 @@
      "name": "Ereignis-Sensor",
      "schluessel": "ereignisse",
      "ampel": "gruen",
-     "text": "letzter Lauf 03:27, 0 offene Ereignisse"
+     "text": "letzter Lauf 03:42, 0 offene Ereignisse"
     },
     {
      "name": "Chrome auf Timos PC",
