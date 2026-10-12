@@ -1,7 +1,7 @@
 {
  "version": 2,
- "stand": "2026-10-12T21:47:05Z",
- "stand_berlin": "12.10.2026 23:47",
+ "stand": "2026-10-12T22:02:05Z",
+ "stand_berlin": "13.10.2026 00:02",
  "takt_min": 15,
  "quelle": "takt/leitstand_bauen.py auf Davids Mac, ohne Modell",
  "ziele": {
@@ -9,7 +9,7 @@
   "gewinn_tag_usd": 2174,
   "break_even_cpa_usd": 47.01,
   "stunden_je_person": 10,
-  "tag": 12,
+  "tag": 13,
   "tage_gesamt": 92
  },
  "karten": [
@@ -53,7 +53,7 @@
     },
     {
      "name": "Chef-Runde",
-     "text": "Um 23:45: Takt ohne Ergebniszeile beendet (rc=1), Protokoll in ~/takt/laeufe.",
+     "text": "Um 00:00: Takt ohne Ergebniszeile beendet (rc=1), Protokoll in ~/takt/laeufe.",
      "ampel": "rot"
     }
    ]
@@ -63,90 +63,19 @@
    "id": "auf",
    "frage": "Was hält uns auf?",
    "ampel": "rot",
-   "kurz": "12 Dinge halten uns auf.",
+   "kurz": "7 Dinge halten uns auf.",
    "saetze": [
     "Bei jedem steht, wer es tun muss. Oben steht das, was am meisten Geld kostet."
    ],
    "zeilen": [],
    "punkte": [
     {
-     "prio": 0,
-     "block": "eskalation",
-     "quelle": "gedaechtnis/OFFEN.md",
-     "titel": "einmal \"weiter so\" oder \"stopp\" sagen zu Chef-Runden, die direkt per Shopify-Admin-API am lebenden …",
-     "wer": "David",
-     "tun": null,
-     "bis": "19:45",
-     "vorbei": true,
-     "stufe": 1,
-     "ja": []
-    },
-    {
-     "prio": 0,
-     "block": "eskalation",
-     "quelle": "gedaechtnis/OFFEN.md",
-     "titel": "WhatsApp \"Adam DS\" Block \"Gewählt\" aus ~/timo/entwuerfe/2026-10-07_adam_eine_nachricht.md (Ja …",
-     "wer": "Timo",
-     "tun": "Drei fertige Lieferantentexte senden, zusammen 3 Minuten, 0 USD",
-     "bis": "19:50",
-     "vorbei": true,
-     "stufe": 4,
-     "ja": [
-      33,
-      30,
-      37,
-      30
-     ]
-    },
-    {
-     "prio": 0,
-     "block": "eskalation",
-     "quelle": "gedaechtnis/OFFEN.md",
-     "titel": "im Shopify Admin die Abbruch-Warenkorb-Mail einschalten, 2 Minuten, 0 USD. Settings > Checkout …",
-     "wer": "Timo",
-     "tun": null,
-     "bis": "21:05",
-     "vorbei": true,
-     "stufe": 5,
-     "ja": []
-    },
-    {
-     "prio": 0,
-     "block": "eskalation",
-     "quelle": "gedaechtnis/OFFEN.md",
-     "titel": "beide Zeilen liegen seit 09.10. fertig in JA_LISTE.md (6 geprüfte US-Lager-Kandidaten fürs …",
-     "wer": "David",
-     "tun": "Im Claude-Chat \"ja 38\" und \"ja 39\" schreiben, 1 Minute, 0 USD, kein Kauf. Grund",
-     "bis": "20:00",
-     "vorbei": true,
-     "stufe": 6,
-     "ja": [
-      38,
-      39,
-      38
-     ]
-    },
-    {
-     "prio": 0,
-     "block": "eskalation",
-     "quelle": "gedaechtnis/OFFEN.md",
-     "titel": "in deinem iCloud-Postfach (david.lichters@icloud.com) nachsehen, ob Contabo auf deine Kulanz-Mail …",
-     "wer": "David",
-     "tun": null,
-     "bis": "20:20",
-     "vorbei": true,
-     "stufe": 6,
-     "ja": [
-      35
-     ]
-    },
-    {
      "prio": 1,
      "block": "werkzeuge",
      "titel": "Takt-Schleife ist kaputt",
-     "text": "36 Fehlrunden in Folge (letzte rc=1). Ursache: 20261012_2345.txt: You've hit your limit on every Platz (alle Plaetze gesperrt, siehe ~/claude-plaetze/gesperrt.json)",
+     "text": "39 Fehlrunden in Folge (letzte rc=1). Ursache: 20261013_0000.txt: You've hit your limit on every Platz (alle Plaetze gesperrt, siehe ~/claude-plaetze/gesperrt.json)",
      "wer": "Claude (Technik)",
-     "tun": "Reparieren. Grund: 36 Fehlrunden in Folge (letzte rc=1). Ursache: 20261012_2345.txt: You've hit …"
+     "tun": "Reparieren. Grund: 39 Fehlrunden in Folge (letzte rc=1). Ursache: 20261013_0000.txt: You've hit …"
     },
     {
      "prio": 1,
@@ -159,7 +88,7 @@
     {
      "prio": 1.5,
      "block": "ja",
-     "titel": "2 Ja-Fragen warten: ja adam2 (bis 05.10. 12:00), ja winterbett (bis wird erst nach Bestellschluss relevant, kein Handeln vorher)",
+     "titel": "8 Ja-Fragen warten: ja john (bis 05.10. 10:00), ja adam (bis 05.10. 12:00), ja adam2 (bis 05.10. 12:00) und 5 weitere",
      "wer": "David oder Timo",
      "tun": "Im Claude-Chat „ja <Nr>“ schreiben, Liste in timo/JA_LISTE.md",
      "quelle": "timo/JA_LISTE.md"
@@ -167,16 +96,16 @@
     {
      "prio": 2,
      "block": "geld",
-     "titel": "2 von 5 Geldzahlen fehlen",
-     "text": "veraltet oder verworfen: Anzeigen aktiv, Ausgaben heute. Niemand sieht hier, ob Anzeigen laufen und Geld kommt. Abhilfe: keine Aufgabe fuer David oder Timo (David 04.10. 14:20: Meta, BM3, Karte nie erinnern); Claude liest Zahlen, sobald sie da sind. Bis dahin trägt ein Chat gemessene Werte ein: takt/leitstand_bauen.py --eintragen.",
+     "titel": "4 von 5 Geldzahlen fehlen",
+     "text": "veraltet oder verworfen: Anzeigen aktiv, Ausgaben heute, Bestellungen heute, Gewinn heute. Niemand sieht hier, ob Anzeigen laufen und Geld kommt. Abhilfe: keine Aufgabe fuer David oder Timo (David 04.10. 14:20: Meta, BM3, Karte nie erinnern); Claude liest Zahlen, sobald sie da sind. Bis dahin trägt ein Chat gemessene Werte ein: takt/leitstand_bauen.py --eintragen.",
      "wer": "Timo",
      "tun": "Einmal den Shopify-Schlüssel (5 min) und den Meta-Zugang (10 min) anlegen, Plan Abschnitt 3"
     },
     {
      "prio": 2,
      "block": "geld",
-     "titel": "Rückstand 23.914 USD gegen Plan",
-     "text": "Gewinn seit 01.10. 0,00 USD, Soll nach 11 Tagen 23.914 USD (2.174 USD je Tag).",
+     "titel": "Rückstand 26.088 USD gegen Plan",
+     "text": "Gewinn seit 01.10. 0,00 USD, Soll nach 12 Tagen 26.088 USD (2.174 USD je Tag).",
      "wer": "David und Timo",
      "tun": "Anzeigen und Kasse nach betrieb/ENTSCHEIDUNGSREGELN.md prüfen"
     },
@@ -203,12 +132,12 @@
    "id": "wer",
    "frage": "Wer arbeitet woran?",
    "ampel": "rot",
-   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 280 Runden heute.",
+   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 1 Runde heute.",
    "saetze": [],
    "zeilen": [
     {
      "name": "David",
-     "text": "Nicht gemessen, weil David die Mac-Messung am 03.10. abgeschaltet hat. Auf David warten heute 3 Sachen (Karte 2).",
+     "text": "Nicht gemessen, weil David die Mac-Messung am 03.10. abgeschaltet hat.",
      "ampel": "grau"
     },
     {
@@ -218,7 +147,7 @@
     },
     {
      "name": "Claude",
-     "text": "280 Runden heute, alle 5 Minuten eine. Zuletzt: Takt ohne Ergebniszeile beendet (rc=1), Protokoll in ~/takt/laeufe.",
+     "text": "1 Runde heute, alle 5 Minuten eine. Zuletzt: Takt ohne Ergebniszeile beendet (rc=1), Protokoll in ~/takt/laeufe.",
      "ampel": "rot"
     },
     {
@@ -235,18 +164,18 @@
    "ampel": "rot",
    "kurz": "Letzte Stunde: 12 Runden, 0 davon mit fertigem Ergebnis.",
    "saetze": [
-    "Gewinn heute: 0,00 USD.",
+    "Den Gewinn heute wissen wir noch nicht, weil uns der Shopify-Zugang fehlt.",
     "Fertig heißt noch nicht live: 8 Ja-Schritte warten auf euer Ja (Karte 2)."
    ],
    "zeilen": [
     {
      "name": "Gewinn heute",
-     "text": "0,00 USD (gemessen 20:08, Shopify Admin GraphQL (orders), dyhu8q-n6.myshopify.com, 20:08, 0 Bestellungen seit Mitternacht).",
-     "ampel": "gelb"
+     "text": "Wissen wir noch nicht, weil uns der Shopify-Zugang fehlt.",
+     "ampel": "grau"
     },
     {
      "name": "Bestellungen heute",
-     "text": "0 (gemessen 20:08).",
+     "text": "Wissen wir noch nicht, weil uns der Shopify-Zugang fehlt.",
      "ampel": "grau"
     },
     {
@@ -270,16 +199,16 @@
    "nr": 5,
    "id": "soll",
    "frage": "Wie schnell sollte es gehen?",
-   "ampel": "rot",
+   "ampel": "gelb",
    "kurz": "Wir schaffen 0 von 5 Zielen.",
    "saetze": [
-    "2 verfehlen wir gerade. 3 messen wir noch nicht."
+    "1 verfehlen wir gerade. 4 messen wir noch nicht."
    ],
    "zeilen": [
     {
      "name": "Gewinn",
-     "text": "Soll 2.174 USD am Tag. Heute bisher 0,00 USD.",
-     "ampel": "rot"
+     "text": "Soll 2.174 USD am Tag, damit wir bis Weihnachten 200.000 USD haben. Heute: wissen wir noch nicht.",
+     "ampel": "grau"
     },
     {
      "name": "David",
@@ -348,7 +277,7 @@
    "prio": 1,
    "block": "werkzeuge",
    "titel": "Takt-Schleife ist rot",
-   "text": "36 Fehlrunden in Folge (letzte rc=1). Ursache: 20261012_2345.txt: You've hit your limit on every Platz (alle Plaetze gesperrt, siehe ~/claude-plaetze/gesperrt.json)"
+   "text": "39 Fehlrunden in Folge (letzte rc=1). Ursache: 20261013_0000.txt: You've hit your limit on every Platz (alle Plaetze gesperrt, siehe ~/claude-plaetze/gesperrt.json)"
   },
   {
    "prio": 1,
@@ -359,14 +288,14 @@
   {
    "prio": 2,
    "block": "geld",
-   "titel": "2 von 5 Geldzahlen fehlen",
-   "text": "veraltet oder verworfen: Anzeigen aktiv, Ausgaben heute. Niemand sieht hier, ob Anzeigen laufen und Geld kommt. Abhilfe: keine Aufgabe fuer David oder Timo (David 04.10. 14:20: Meta, BM3, Karte nie erinnern); Claude liest Zahlen, sobald sie da sind. Bis dahin trägt ein Chat gemessene Werte ein: takt/leitstand_bauen.py --eintragen."
+   "titel": "4 von 5 Geldzahlen fehlen",
+   "text": "veraltet oder verworfen: Anzeigen aktiv, Ausgaben heute, Bestellungen heute, Gewinn heute. Niemand sieht hier, ob Anzeigen laufen und Geld kommt. Abhilfe: keine Aufgabe fuer David oder Timo (David 04.10. 14:20: Meta, BM3, Karte nie erinnern); Claude liest Zahlen, sobald sie da sind. Bis dahin trägt ein Chat gemessene Werte ein: takt/leitstand_bauen.py --eintragen."
   },
   {
    "prio": 2,
    "block": "geld",
-   "titel": "Rückstand 23.914 USD gegen Plan",
-   "text": "Gewinn seit 01.10. 0,00 USD, Soll nach 11 Tagen 23.914 USD (2.174 USD je Tag)."
+   "titel": "Rückstand 26.088 USD gegen Plan",
+   "text": "Gewinn seit 01.10. 0,00 USD, Soll nach 12 Tagen 26.088 USD (2.174 USD je Tag)."
   },
   {
    "prio": 3,
@@ -425,20 +354,20 @@
    "zeilen": [
     {
      "name": "Bestellungen heute",
-     "wert": "0",
+     "wert": "veraltet",
      "ampel": "grau",
-     "detail": null,
+     "detail": "Messung vom 12.10., nicht von heute: damals 0",
      "quelle": "Shopify Admin GraphQL (orders), dyhu8q-n6.myshopify.com, 20:08",
-     "stand": "20:08",
+     "stand": "12.10. 20:08",
      "ziel": null
     },
     {
      "name": "Gewinn heute",
-     "wert": "0,00 USD",
-     "ampel": "gelb",
-     "detail": null,
+     "wert": "veraltet",
+     "ampel": "grau",
+     "detail": "Messung vom 12.10., nicht von heute: damals 0,00 USD",
      "quelle": "Shopify Admin GraphQL (orders), dyhu8q-n6.myshopify.com, 20:08, 0 Bestellungen seit Mitternacht",
-     "stand": "20:08",
+     "stand": "12.10. 20:08",
      "ziel": "2.174 USD"
     },
     {
@@ -447,8 +376,8 @@
      "ampel": "rot",
      "detail": null,
      "quelle": "Shopify Admin GraphQL (orders), dyhu8q-n6.myshopify.com, 20:08, 0 Bestellungen seit 01.10.",
-     "stand": "20:08",
-     "ziel": "200.000 USD bis 31.12., Soll bis gestern 23.914 USD (11 Tage)"
+     "stand": "12.10. 20:08",
+     "ziel": "200.000 USD bis 31.12., Soll bis gestern 26.088 USD (12 Tage)"
     }
    ]
   },
@@ -463,7 +392,7 @@
      "ampel": "rot",
      "detail": "0 Bilder, 0 Videos, neu seit Montag, 12.10., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
      "quelle": "Erstellzeit der Dateien in creatives/fertig, 05_creatives/ads, 05_creatives/ki/fertig",
-     "stand": "23:47",
+     "stand": "00:02",
      "ziel": null
     },
     {
@@ -503,7 +432,7 @@
     },
     {
      "name": "Nächster Check-in",
-     "wert": "09:00 morgen",
+     "wert": "09:00 heute",
      "ampel": "grau",
      "detail": "Tagesstart 08:00 ist festgelegt (Plan 5). Die Check-in-Zeiten (09:00, 13:00, 18:00, 22:00) sind der Vorschlag aus Plan 2.4, noch nicht festgelegt.",
      "quelle": "LEITSTAND_PLAN.md 2.4 und 5",
@@ -523,7 +452,7 @@
      "ampel": "grau",
      "detail": "1 Zeile im Codeblock (Formatbeispiel) nicht gezählt. Steht dort eine echte Aufgabe, gehört sie aus dem Block heraus.",
      "quelle": "timo/OFFEN.md",
-     "stand": "23:47",
+     "stand": "00:02",
      "ziel": null
     },
     {
@@ -551,7 +480,7 @@
      "datum_kurz": "04.10.",
      "wer": "Timo, 10 min, im BM3 vor dem Anzeigenstart",
      "text": "ENTSCHIEDEN 03.10. 23:33 Kursrichter AENDERN (~/takt/kursrichter/urteile/2026-10-03_232719.md): erst Pixel/Datensatz …",
-     "tage_ueberfaellig": 8,
+     "tage_ueberfaellig": 9,
      "ampel": "rot"
     },
     {
@@ -559,7 +488,7 @@
      "datum_kurz": "04.10.",
      "wer": "Timo, 5 min, vor dem Anzeigenstart",
      "text": "ENTSCHIEDEN 03.10. 23:33 Kursrichter AENDERN (~/takt/kursrichter/urteile/2026-10-03_232734.md): Shopify Inbox > Agent …",
-     "tage_ueberfaellig": 8,
+     "tage_ueberfaellig": 9,
      "ampel": "rot"
     },
     {
@@ -567,7 +496,7 @@
      "datum_kurz": "05.10.",
      "wer": "Claude (Mac)",
      "text": "Daily Mentor Academy (David Fogarty): Neubezug am 02.10.2026 auf Timos PC erledigt, 299 Lektionen von Timos Handy in …",
-     "tage_ueberfaellig": 7,
+     "tage_ueberfaellig": 8,
      "ampel": "rot"
     },
     {
@@ -575,7 +504,7 @@
      "datum_kurz": "06.10.",
      "wer": "Claude, 45 min",
      "text": "Bauplan aus /system-verbessern 04.10.: Handy-Sicht-Prüfung ~/takt/handy_sicht.mjs (headless, 390 px: nichts ragt raus …",
-     "tage_ueberfaellig": 6,
+     "tage_ueberfaellig": 7,
      "ampel": "rot"
     },
     {
@@ -583,7 +512,7 @@
      "datum_kurz": "06.10.",
      "wer": "Claude, 30 min",
      "text": "Bauplan aus /system-verbessern 04.10.: Prüfung vor dem Senden, die Antwortenden mit Ja-Frage ohne frisches …",
-     "tage_ueberfaellig": 6,
+     "tage_ueberfaellig": 7,
      "ampel": "rot"
     },
     {
@@ -591,7 +520,7 @@
      "datum_kurz": "07.10.",
      "wer": "David, 1 min",
      "text": "Dateien vom Zweitlaptop, die David am 25.09. per WhatsApp geschickt hat: welche waren das, werden sie noch gebraucht? …",
-     "tage_ueberfaellig": 5,
+     "tage_ueberfaellig": 6,
      "ampel": "rot"
     },
     {
@@ -599,7 +528,7 @@
      "datum_kurz": "10.10.",
      "wer": "Timo, 2 min",
      "text": "Wer ist Inhaber des Shopify-Kontos dyhu8q-n6, auf wen läuft das Auszahlungskonto (Shopify Payments braucht einen …",
-     "tage_ueberfaellig": 2,
+     "tage_ueberfaellig": 3,
      "ampel": "rot"
     },
     {
@@ -607,7 +536,7 @@
      "datum_kurz": "10.10.",
      "wer": "Claude, 10 min",
      "text": "Rest aus der Leitstand-Kachel-Aufgabe vom 07.10.: Kachel \"AGI-Reifegrad\" (6 Punkte wie Kürzel AGI), \"Was läuft gerade\" …",
-     "tage_ueberfaellig": 2,
+     "tage_ueberfaellig": 3,
      "ampel": "rot"
     },
     {
@@ -615,7 +544,7 @@
      "datum_kurz": "10.10.",
      "wer": "Claude, am ersten Anzeigentag",
      "text": "ENTSCHIEDEN 03.10. 23:33 Kursrichter AENDERN (~/takt/kursrichter/urteile/2026-10-03_232713.md): jetzt nicht bauen; ab …",
-     "tage_ueberfaellig": 2,
+     "tage_ueberfaellig": 3,
      "ampel": "rot"
     },
     {
@@ -623,7 +552,7 @@
      "datum_kurz": "10.10.",
      "wer": "Claude, nach der ersten Bestellung",
      "text": "YouTube-Wissen weiter: 92 Texte liegen in wissen\\youtube\\text, 10 ausgewertet (23.09.), nächstes ist Nr. 11, dann 10 je …",
-     "tage_ueberfaellig": 2,
+     "tage_ueberfaellig": 3,
      "ampel": "rot"
     },
     {
@@ -631,7 +560,7 @@
      "datum_kurz": "10.10.",
      "wer": "Timo, 2 min, nach der ersten Bestellung",
      "text": "claude.exe auf dem PC anmelden (03.10.: claude auth status zeigt loggedIn false). PowerShell auf, claude, /login, im …",
-     "tage_ueberfaellig": 2,
+     "tage_ueberfaellig": 3,
      "ampel": "rot"
     },
     {
@@ -639,7 +568,7 @@
      "datum_kurz": "10.10.",
      "wer": "Claude, 10 min, nach Timos Login",
      "text": "Testrunde betrieb\\runde.ps1 -Name Testrunde fahren",
-     "tage_ueberfaellig": 2,
+     "tage_ueberfaellig": 3,
      "ampel": "rot"
     }
    ],
@@ -652,7 +581,7 @@
    "zeilen": [
     {
      "name": "Wächter, letzter Lauf",
-     "wert": "23:46",
+     "wert": "00:01",
      "ampel": "gruen",
      "detail": null,
      "quelle": "waechter_zustand.json",
@@ -665,7 +594,7 @@
      "name": "Takt-Schleife",
      "schluessel": "takt",
      "ampel": "rot",
-     "text": "36 Fehlrunden in Folge (letzte rc=1). Ursache: 20261012_2345.txt: You've hit your limit on every Platz (alle Plaetze gesperrt, siehe ~/claude-plaetze/gesperrt.json)"
+     "text": "39 Fehlrunden in Folge (letzte rc=1). Ursache: 20261013_0000.txt: You've hit your limit on every Platz (alle Plaetze gesperrt, siehe ~/claude-plaetze/gesperrt.json)"
     },
     {
      "name": "Perplexity",
@@ -683,7 +612,7 @@
      "name": "Crosspost",
      "schluessel": "crosspost",
      "ampel": "gruen",
-     "text": "laeuft (pid 34390), Herzschlag vor 3 s, postet, letzter Fehler: 2026-10-12T20:50:50.893Z keine Videos in der Antwort: {\"log_"
+     "text": "laeuft (pid 34390), Herzschlag vor 6 s, postet, letzter Fehler: 2026-10-12T20:50:50.893Z keine Videos in der Antwort: {\"log_"
     },
     {
      "name": "Speicher",
@@ -719,7 +648,7 @@
      "name": "Ereignis-Sensor",
      "schluessel": "ereignisse",
      "ampel": "gruen",
-     "text": "letzter Lauf 23:46, 0 offene Ereignisse"
+     "text": "letzter Lauf 00:01, 0 offene Ereignisse"
     },
     {
      "name": "Chrome auf Timos PC",
