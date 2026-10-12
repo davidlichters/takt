@@ -1,6 +1,6 @@
 {
  "version": 2,
- "stand": "2026-10-12T18:01:14Z",
+ "stand": "2026-10-12T18:01:57Z",
  "stand_berlin": "12.10.2026 20:01",
  "takt_min": 15,
  "quelle": "takt/leitstand_bauen.py auf Davids Mac, ohne Modell",
@@ -626,7 +626,7 @@
    "zeilen": [
     {
      "name": "Wächter, letzter Lauf",
-     "wert": "19:56",
+     "wert": "20:01",
      "ampel": "gruen",
      "detail": null,
      "quelle": "waechter_zustand.json",
@@ -639,7 +639,7 @@
      "name": "Takt-Schleife",
      "schluessel": "takt",
      "ampel": "gruen",
-     "text": "letzte Runde 19:45 (chef), rc=0, Runde laeuft seit 6 Min"
+     "text": "letzte Runde 19:45 (chef), rc=0, Runde laeuft seit 11 Min"
     },
     {
      "name": "Perplexity",
@@ -657,7 +657,7 @@
      "name": "Crosspost",
      "schluessel": "crosspost",
      "ampel": "gruen",
-     "text": "laeuft (pid 34390), Herzschlag vor 10 s, postet, letzter Fehler: 2026-10-12T04:47:30.721Z The operation was aborted due to ti"
+     "text": "laeuft (pid 34390), Herzschlag vor 6 s, postet, letzter Fehler: 2026-10-12T17:58:08.384Z keine Videos in der Antwort: {\"log_"
     },
     {
      "name": "Speicher",
@@ -669,7 +669,7 @@
      "name": "GitHub-Push",
      "schluessel": "github",
      "ampel": "gruen",
-     "text": "origin/main ac01cdf vor 5 Min"
+     "text": "origin/main ac01cdf vor 10 Min"
     },
     {
      "name": "WhatsApp Web",
@@ -693,7 +693,7 @@
      "name": "Ereignis-Sensor",
      "schluessel": "ereignisse",
      "ampel": "gruen",
-     "text": "letzter Lauf 19:56, 0 offene Ereignisse"
+     "text": "letzter Lauf 20:01, 1 offene Ereignisse, aeltestes 20:01"
     },
     {
      "name": "Chrome auf Timos PC",
