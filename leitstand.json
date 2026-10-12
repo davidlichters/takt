@@ -1,7 +1,7 @@
 {
  "version": 2,
- "stand": "2026-10-12T22:17:05Z",
- "stand_berlin": "13.10.2026 00:17",
+ "stand": "2026-10-12T22:32:05Z",
+ "stand_berlin": "13.10.2026 00:32",
  "takt_min": 15,
  "quelle": "takt/leitstand_bauen.py auf Davids Mac, ohne Modell",
  "ziele": {
@@ -53,7 +53,7 @@
     },
     {
      "name": "Chef-Runde",
-     "text": "Um 00:10: Timo erinnert, 3 fertige Lieferantentexte (Adam, John, Bonnie) seit 4 bis 6 Tagen ungesendet, alle 3 Chats …",
+     "text": "Um 00:25: Contabo (Ja 35) nach 4-Std-Abkuehlen neu erinnert, Widerrufsfrist laeuft morgen (14.10.) ab statt nur Kulanz …",
      "ampel": "gruen"
     }
    ]
@@ -63,7 +63,7 @@
    "id": "auf",
    "frage": "Was hält uns auf?",
    "ampel": "rot",
-   "kurz": "8 Dinge halten uns auf.",
+   "kurz": "9 Dinge halten uns auf.",
    "saetze": [
     "Bei jedem steht, wer es tun muss. Oben steht das, was am meisten Geld kostet."
    ],
@@ -99,6 +99,20 @@
      ]
     },
     {
+     "prio": 0,
+     "block": "eskalation",
+     "quelle": "gedaechtnis/OFFEN.md",
+     "titel": "in deinem iCloud-Postfach (david.lichters@icloud.com) nachsehen, ob Contabo auf deine Kulanz-Mail …",
+     "wer": "David",
+     "tun": null,
+     "bis": "07:30",
+     "vorbei": false,
+     "stufe": 6,
+     "ja": [
+      35
+     ]
+    },
+    {
      "prio": 1,
      "block": "werkzeuge",
      "titel": "Perplexity ist kaputt",
@@ -109,7 +123,7 @@
     {
      "prio": 1.5,
      "block": "ja",
-     "titel": "5 Ja-Fragen warten: ja adam2 (bis 05.10. 12:00), ja contabo (bis 05.10. 18:00), ja winterbett (bis wird erst nach Bestellschluss relevant, kein Handeln vorher) und 2 weitere",
+     "titel": "4 Ja-Fragen warten: ja adam2 (bis 05.10. 12:00), ja winterbett (bis wird erst nach Bestellschluss relevant, kein Handeln vorher), ja kole doggiedesign (bis 10.10. 20:00) und 1 weitere",
      "wer": "David oder Timo",
      "tun": "Im Claude-Chat „ja <Nr>“ schreiben, Liste in timo/JA_LISTE.md",
      "quelle": "timo/JA_LISTE.md"
@@ -153,12 +167,12 @@
    "id": "wer",
    "frage": "Wer arbeitet woran?",
    "ampel": "gruen",
-   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 3 Runden heute.",
+   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 5 Runden heute.",
    "saetze": [],
    "zeilen": [
     {
      "name": "David",
-     "text": "Nicht gemessen, weil David die Mac-Messung am 03.10. abgeschaltet hat. Auf David warten heute 1 Sache (Karte 2).",
+     "text": "Nicht gemessen, weil David die Mac-Messung am 03.10. abgeschaltet hat. Auf David warten heute 2 Sachen (Karte 2).",
      "ampel": "grau"
     },
     {
@@ -168,7 +182,7 @@
     },
     {
      "name": "Claude",
-     "text": "3 Runden heute, alle 5 Minuten eine. Zuletzt: Timo erinnert, 3 fertige Lieferantentexte (Adam, John, Bonnie) seit 4 bis 6 Tagen ungesendet …",
+     "text": "5 Runden heute, alle 5 Minuten eine. Zuletzt: Contabo (Ja 35) nach 4-Std-Abkuehlen neu erinnert, Widerrufsfrist laeuft morgen (14.10.) ab …",
      "ampel": "gruen"
     },
     {
@@ -183,7 +197,7 @@
    "id": "tempo",
    "frage": "Wie schnell geht es gerade?",
    "ampel": "rot",
-   "kurz": "Letzte Stunde: 11 Runden, 0 davon mit fertigem Ergebnis.",
+   "kurz": "Letzte Stunde: 10 Runden, 0 davon mit fertigem Ergebnis.",
    "saetze": [
     "Den Gewinn heute wissen wir noch nicht, weil uns der Shopify-Zugang fehlt.",
     "Fertig heißt noch nicht live: 8 Ja-Schritte warten auf euer Ja (Karte 2)."
@@ -201,7 +215,7 @@
     },
     {
      "name": "Runden, letzte Stunde",
-     "text": "11 Runden: 0 mit fertigem Ergebnis (Creative, Text oder Klickweg), 2 haben einen Menschen erinnert, 0 nur innen gearbeitet, 9 sind abgestürzt.",
+     "text": "10 Runden: 0 mit fertigem Ergebnis (Creative, Text oder Klickweg), 3 haben einen Menschen erinnert, 1 nur innen gearbeitet, 6 sind abgestürzt.",
      "ampel": "rot"
     },
     {
@@ -248,7 +262,7 @@
     },
     {
      "name": "Runden",
-     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 11, davon 9 nur innen oder abgestürzt.",
+     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 10, davon 7 nur innen oder abgestürzt.",
      "ampel": "rot"
     }
    ]
@@ -407,7 +421,7 @@
      "ampel": "rot",
      "detail": "0 Bilder, 0 Videos, neu seit Montag, 12.10., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
      "quelle": "Erstellzeit der Dateien in creatives/fertig, 05_creatives/ads, 05_creatives/ki/fertig",
-     "stand": "00:17",
+     "stand": "00:32",
      "ziel": null
     },
     {
@@ -467,7 +481,7 @@
      "ampel": "grau",
      "detail": "1 Zeile im Codeblock (Formatbeispiel) nicht gezählt. Steht dort eine echte Aufgabe, gehört sie aus dem Block heraus.",
      "quelle": "timo/OFFEN.md",
-     "stand": "00:17",
+     "stand": "00:32",
      "ziel": null
     },
     {
@@ -596,7 +610,7 @@
    "zeilen": [
     {
      "name": "Wächter, letzter Lauf",
-     "wert": "00:12",
+     "wert": "00:27",
      "ampel": "gruen",
      "detail": null,
      "quelle": "waechter_zustand.json",
@@ -609,7 +623,7 @@
      "name": "Takt-Schleife",
      "schluessel": "takt",
      "ampel": "gruen",
-     "text": "letzte Runde 00:09 (chef), rc=0, Runde laeuft seit 2 Min"
+     "text": "letzte Runde 00:23 (chef), rc=0, Runde laeuft seit 2 Min"
     },
     {
      "name": "Perplexity",
@@ -627,7 +641,7 @@
      "name": "Crosspost",
      "schluessel": "crosspost",
      "ampel": "gruen",
-     "text": "laeuft (pid 34390), Herzschlag vor 4 s, postet, letzter Fehler: 2026-10-12T20:50:50.893Z keine Videos in der Antwort: {\"log_"
+     "text": "laeuft (pid 34390), Herzschlag vor 6 s, postet, letzter Fehler: 2026-10-12T20:50:50.893Z keine Videos in der Antwort: {\"log_"
     },
     {
      "name": "Speicher",
@@ -639,13 +653,13 @@
      "name": "GitHub-Push",
      "schluessel": "github",
      "ampel": "gruen",
-     "text": "origin/main 03566cc vor 1 Min"
+     "text": "origin/main f74ad61 vor 2 Min"
     },
     {
      "name": "WhatsApp Web",
      "schluessel": "whatsapp",
      "ampel": "gruen",
-     "text": "ausgesetzt, WhatsApp gerade belegt: /bin/zsh -c source /Users/david/claude-plaetze/11/shell-snapshots/snapshot-zsh-1791843065…"
+     "text": "ausgesetzt, WhatsApp gerade belegt: /opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/Resourc…"
     },
     {
      "name": "Shopify",
@@ -663,7 +677,7 @@
      "name": "Ereignis-Sensor",
      "schluessel": "ereignisse",
      "ampel": "gruen",
-     "text": "letzter Lauf 00:12, 0 offene Ereignisse"
+     "text": "letzter Lauf 00:27, 0 offene Ereignisse"
     },
     {
      "name": "Chrome auf Timos PC",
@@ -691,7 +705,7 @@
      "name": "Shop-Spur-Stau",
      "wert": "läuft",
      "ampel": "grau",
-     "detail": "Shop-Spur-Stau (Chef 10.10. 11:35, Zahl neu geprüft): ~/takt/spuren/aufgaben/offen/ hat weiter 27 echte .md-Aufgaben, älteste weiter vom 04.10. 12:52 (rund 143 Std., fast 6 Tage) …",
+     "detail": "Shop-Spur-Stau (Chef 13.10. 00:15, Zahl neu geprüft): ~/takt/spuren/aufgaben/offen/ hat weiter 26 echte .md-Aufgaben, älteste weiter vom 04.10. 12:52 (rund 203 Std., über 8,5 …",
      "quelle": "betrieb/TAKT.md",
      "stand": null,
      "ziel": "die Warteschlange wieder unter 24 Std. alt ist"
@@ -700,7 +714,7 @@
      "name": "Admin-API-Entscheidung offen",
      "wert": "läuft",
      "ampel": "grau",
-     "detail": "Admin-API-Entscheidung offen (Stufe 1, seit 08.10. 16:13, zuletzt erinnert 10.10. 07:30/11:15, Frist jetzt 11:55): David soll einmal \"weiter so\" oder \"stopp\" sagen zu Chef-Runden …",
+     "detail": "Admin-API-Entscheidung offen (Stufe 1, seit 08.10. 16:13, zuletzt erinnert 13.10. 00:05, Frist verstrichen, über 104 Std. ohne Antwort): David soll einmal \"weiter so\" oder \"stopp\" …",
      "quelle": "betrieb/TAKT.md",
      "stand": null,
      "ziel": "David \"weiter so\" oder \"stopp\" sagt und selbst aufräumt"
