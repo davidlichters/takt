@@ -1,7 +1,7 @@
 {
  "version": 2,
- "stand": "2026-10-12T22:49:53Z",
- "stand_berlin": "13.10.2026 00:49",
+ "stand": "2026-10-12T22:51:37Z",
+ "stand_berlin": "13.10.2026 00:51",
  "takt_min": 15,
  "quelle": "takt/leitstand_bauen.py auf Davids Mac, ohne Modell",
  "ziele": {
@@ -147,8 +147,8 @@
     {
      "prio": 2,
      "block": "geld",
-     "titel": "4 von 5 Geldzahlen fehlen",
-     "text": "veraltet oder verworfen: Anzeigen aktiv, Ausgaben heute, Bestellungen heute, Gewinn heute. Niemand sieht hier, ob Anzeigen laufen und Geld kommt. Abhilfe: keine Aufgabe fuer David oder Timo (David 04.10. 14:20: Meta, BM3, Karte nie erinnern); Claude liest Zahlen, sobald sie da sind. Bis dahin trägt ein Chat gemessene Werte ein: takt/leitstand_bauen.py --eintragen.",
+     "titel": "2 von 5 Geldzahlen fehlen",
+     "text": "veraltet oder verworfen: Anzeigen aktiv, Ausgaben heute. Niemand sieht hier, ob Anzeigen laufen und Geld kommt. Abhilfe: keine Aufgabe fuer David oder Timo (David 04.10. 14:20: Meta, BM3, Karte nie erinnern); Claude liest Zahlen, sobald sie da sind. Bis dahin trägt ein Chat gemessene Werte ein: takt/leitstand_bauen.py --eintragen.",
      "wer": "Timo",
      "tun": "Einmal den Shopify-Schlüssel (5 min) und den Meta-Zugang (10 min) anlegen, Plan Abschnitt 3"
     },
@@ -213,25 +213,25 @@
    "id": "tempo",
    "frage": "Wie schnell geht es gerade?",
    "ampel": "gelb",
-   "kurz": "Letzte Stunde: 8 Runden, 0 davon mit fertigem Ergebnis.",
+   "kurz": "Letzte Stunde: 7 Runden, 0 davon mit fertigem Ergebnis.",
    "saetze": [
-    "Den Gewinn heute wissen wir noch nicht, weil uns der Shopify-Zugang fehlt.",
+    "Gewinn heute: 0,00 USD.",
     "Fertig heißt noch nicht live: 8 Ja-Schritte warten auf euer Ja (Karte 2)."
    ],
    "zeilen": [
     {
      "name": "Gewinn heute",
-     "text": "Wissen wir noch nicht, weil uns der Shopify-Zugang fehlt.",
-     "ampel": "grau"
+     "text": "0,00 USD (gemessen 00:51, Shopify Admin GraphQL (orders heute), Chef 00:5x).",
+     "ampel": "gelb"
     },
     {
      "name": "Bestellungen heute",
-     "text": "Wissen wir noch nicht, weil uns der Shopify-Zugang fehlt.",
+     "text": "0 (gemessen 00:51).",
      "ampel": "grau"
     },
     {
      "name": "Runden, letzte Stunde",
-     "text": "8 Runden: 0 mit fertigem Ergebnis (Creative, Text oder Klickweg), 4 haben einen Menschen erinnert, 1 nur innen gearbeitet, 3 sind abgestürzt.",
+     "text": "7 Runden: 0 mit fertigem Ergebnis (Creative, Text oder Klickweg), 4 haben einen Menschen erinnert, 1 nur innen gearbeitet, 2 sind abgestürzt.",
      "ampel": "gelb"
     },
     {
@@ -250,16 +250,16 @@
    "nr": 5,
    "id": "soll",
    "frage": "Wie schnell sollte es gehen?",
-   "ampel": "gelb",
+   "ampel": "rot",
    "kurz": "Wir schaffen 0 von 5 Zielen.",
    "saetze": [
-    "1 verfehlen wir gerade. 4 messen wir noch nicht."
+    "2 verfehlen wir gerade. 3 messen wir noch nicht."
    ],
    "zeilen": [
     {
      "name": "Gewinn",
-     "text": "Soll 2.174 USD am Tag, damit wir bis Weihnachten 200.000 USD haben. Heute: wissen wir noch nicht.",
-     "ampel": "grau"
+     "text": "Soll 2.174 USD am Tag. Heute bisher 0,00 USD.",
+     "ampel": "rot"
     },
     {
      "name": "David",
@@ -278,7 +278,7 @@
     },
     {
      "name": "Runden",
-     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 8, davon 4 nur innen oder abgestürzt.",
+     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 7, davon 3 nur innen oder abgestürzt.",
      "ampel": "rot"
     }
    ]
@@ -333,8 +333,8 @@
   {
    "prio": 2,
    "block": "geld",
-   "titel": "4 von 5 Geldzahlen fehlen",
-   "text": "veraltet oder verworfen: Anzeigen aktiv, Ausgaben heute, Bestellungen heute, Gewinn heute. Niemand sieht hier, ob Anzeigen laufen und Geld kommt. Abhilfe: keine Aufgabe fuer David oder Timo (David 04.10. 14:20: Meta, BM3, Karte nie erinnern); Claude liest Zahlen, sobald sie da sind. Bis dahin trägt ein Chat gemessene Werte ein: takt/leitstand_bauen.py --eintragen."
+   "titel": "2 von 5 Geldzahlen fehlen",
+   "text": "veraltet oder verworfen: Anzeigen aktiv, Ausgaben heute. Niemand sieht hier, ob Anzeigen laufen und Geld kommt. Abhilfe: keine Aufgabe fuer David oder Timo (David 04.10. 14:20: Meta, BM3, Karte nie erinnern); Claude liest Zahlen, sobald sie da sind. Bis dahin trägt ein Chat gemessene Werte ein: takt/leitstand_bauen.py --eintragen."
   },
   {
    "prio": 2,
@@ -399,20 +399,20 @@
    "zeilen": [
     {
      "name": "Bestellungen heute",
-     "wert": "veraltet",
+     "wert": "0",
      "ampel": "grau",
-     "detail": "Messung vom 12.10., nicht von heute: damals 0",
-     "quelle": "Shopify Admin GraphQL (orders), dyhu8q-n6.myshopify.com, 20:08",
-     "stand": "12.10. 20:08",
+     "detail": null,
+     "quelle": "Shopify Admin GraphQL (orders created_at>=2026-10-13T00:00+02:00), Chef 00:5x",
+     "stand": "00:51",
      "ziel": null
     },
     {
      "name": "Gewinn heute",
-     "wert": "veraltet",
-     "ampel": "grau",
-     "detail": "Messung vom 12.10., nicht von heute: damals 0,00 USD",
-     "quelle": "Shopify Admin GraphQL (orders), dyhu8q-n6.myshopify.com, 20:08, 0 Bestellungen seit Mitternacht",
-     "stand": "12.10. 20:08",
+     "wert": "0,00 USD",
+     "ampel": "gelb",
+     "detail": null,
+     "quelle": "Shopify Admin GraphQL (orders heute), Chef 00:5x",
+     "stand": "00:51",
      "ziel": "2.174 USD"
     },
     {
@@ -420,8 +420,8 @@
      "wert": "0,00 USD",
      "ampel": "rot",
      "detail": null,
-     "quelle": "Shopify Admin GraphQL (orders), dyhu8q-n6.myshopify.com, 20:08, 0 Bestellungen seit 01.10.",
-     "stand": "12.10. 20:08",
+     "quelle": "Shopify Admin GraphQL (orders created_at>=2026-10-01), Chef 00:5x, 0 Bestellungen",
+     "stand": "00:51",
      "ziel": "200.000 USD bis 31.12., Soll bis gestern 26.088 USD (12 Tage)"
     }
    ]
@@ -437,7 +437,7 @@
      "ampel": "rot",
      "detail": "0 Bilder, 0 Videos, neu seit Montag, 12.10., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
      "quelle": "Erstellzeit der Dateien in creatives/fertig, 05_creatives/ads, 05_creatives/ki/fertig",
-     "stand": "00:49",
+     "stand": "00:51",
      "ziel": null
     },
     {
@@ -497,7 +497,7 @@
      "ampel": "grau",
      "detail": "1 Zeile im Codeblock (Formatbeispiel) nicht gezählt. Steht dort eine echte Aufgabe, gehört sie aus dem Block heraus.",
      "quelle": "timo/OFFEN.md",
-     "stand": "00:49",
+     "stand": "00:51",
      "ziel": null
     },
     {
