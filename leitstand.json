@@ -1,7 +1,7 @@
 {
  "version": 2,
- "stand": "2026-10-12T20:02:05Z",
- "stand_berlin": "12.10.2026 22:02",
+ "stand": "2026-10-12T20:17:05Z",
+ "stand_berlin": "12.10.2026 22:17",
  "takt_min": 15,
  "quelle": "takt/leitstand_bauen.py auf Davids Mac, ohne Modell",
  "ziele": {
@@ -53,7 +53,7 @@
     },
     {
      "name": "Chef-Runde",
-     "text": "Um 22:00: Takt ohne Ergebniszeile beendet (rc=1), Protokoll in ~/takt/laeufe.",
+     "text": "Um 22:15: Takt ohne Ergebniszeile beendet (rc=1), Protokoll in ~/takt/laeufe.",
      "ampel": "rot"
     }
    ]
@@ -144,9 +144,9 @@
      "prio": 1,
      "block": "werkzeuge",
      "titel": "Takt-Schleife ist kaputt",
-     "text": "15 Fehlrunden in Folge (letzte rc=1). Ursache: 20261012_2200.txt: You've hit your limit on every Platz (alle Plaetze gesperrt, siehe ~/claude-plaetze/gesperrt.json)",
+     "text": "17 Fehlrunden in Folge (letzte rc=1). Ursache: 20261012_2210.txt: You've hit your limit on every Platz (alle Plaetze gesperrt, siehe ~/claude-plaetze/gesperrt.json)",
      "wer": "Claude (Technik)",
-     "tun": "Reparieren. Grund: 15 Fehlrunden in Folge (letzte rc=1). Ursache: 20261012_2200.txt: You've hit …"
+     "tun": "Reparieren. Grund: 17 Fehlrunden in Folge (letzte rc=1). Ursache: 20261012_2210.txt: You've hit …"
     },
     {
      "prio": 1,
@@ -203,7 +203,7 @@
    "id": "wer",
    "frage": "Wer arbeitet woran?",
    "ampel": "rot",
-   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 259 Runden heute.",
+   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 262 Runden heute.",
    "saetze": [],
    "zeilen": [
     {
@@ -218,7 +218,7 @@
     },
     {
      "name": "Claude",
-     "text": "259 Runden heute, alle 5 Minuten eine. Zuletzt: Takt ohne Ergebniszeile beendet (rc=1), Protokoll in ~/takt/laeufe.",
+     "text": "262 Runden heute, alle 5 Minuten eine. Zuletzt: Takt ohne Ergebniszeile beendet (rc=1), Protokoll in ~/takt/laeufe.",
      "ampel": "rot"
     },
     {
@@ -348,7 +348,7 @@
    "prio": 1,
    "block": "werkzeuge",
    "titel": "Takt-Schleife ist rot",
-   "text": "15 Fehlrunden in Folge (letzte rc=1). Ursache: 20261012_2200.txt: You've hit your limit on every Platz (alle Plaetze gesperrt, siehe ~/claude-plaetze/gesperrt.json)"
+   "text": "17 Fehlrunden in Folge (letzte rc=1). Ursache: 20261012_2210.txt: You've hit your limit on every Platz (alle Plaetze gesperrt, siehe ~/claude-plaetze/gesperrt.json)"
   },
   {
    "prio": 1,
@@ -463,7 +463,7 @@
      "ampel": "rot",
      "detail": "0 Bilder, 0 Videos, neu seit Montag, 12.10., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
      "quelle": "Erstellzeit der Dateien in creatives/fertig, 05_creatives/ads, 05_creatives/ki/fertig",
-     "stand": "22:02",
+     "stand": "22:17",
      "ziel": null
     },
     {
@@ -523,7 +523,7 @@
      "ampel": "grau",
      "detail": "1 Zeile im Codeblock (Formatbeispiel) nicht gezählt. Steht dort eine echte Aufgabe, gehört sie aus dem Block heraus.",
      "quelle": "timo/OFFEN.md",
-     "stand": "22:02",
+     "stand": "22:17",
      "ziel": null
     },
     {
@@ -652,7 +652,7 @@
    "zeilen": [
     {
      "name": "Wächter, letzter Lauf",
-     "wert": "22:01",
+     "wert": "22:12",
      "ampel": "gruen",
      "detail": null,
      "quelle": "waechter_zustand.json",
@@ -665,7 +665,7 @@
      "name": "Takt-Schleife",
      "schluessel": "takt",
      "ampel": "rot",
-     "text": "15 Fehlrunden in Folge (letzte rc=1). Ursache: 20261012_2200.txt: You've hit your limit on every Platz (alle Plaetze gesperrt, siehe ~/claude-plaetze/gesperrt.json)"
+     "text": "17 Fehlrunden in Folge (letzte rc=1). Ursache: 20261012_2210.txt: You've hit your limit on every Platz (alle Plaetze gesperrt, siehe ~/claude-plaetze/gesperrt.json)"
     },
     {
      "name": "Perplexity",
@@ -683,7 +683,7 @@
      "name": "Crosspost",
      "schluessel": "crosspost",
      "ampel": "gruen",
-     "text": "laeuft (pid 34390), Herzschlag vor 3 s, postet, letzter Fehler: 2026-10-12T20:01:29.697Z keine Videos in der Antwort: {\"log_"
+     "text": "laeuft (pid 34390), Herzschlag vor 1 s, postet, letzter Fehler: 2026-10-12T20:09:04.698Z keine Videos in der Antwort: {\"log_"
     },
     {
      "name": "Speicher",
@@ -695,13 +695,13 @@
      "name": "GitHub-Push",
      "schluessel": "github",
      "ampel": "gruen",
-     "text": "origin/main 5609db1 vor 0 Min"
+     "text": "origin/main b13a4b1 vor 1 Min"
     },
     {
      "name": "WhatsApp Web",
      "schluessel": "whatsapp",
      "ampel": "gruen",
-     "text": "Chatliste gelesen (apple, 10 Zeilen), 6 von 6 Lieferanten sichtbar"
+     "text": "ausgesetzt, WhatsApp gerade belegt: /opt/homebrew/bin/node /Users/david/rima/werkzeug/alarm.mjs --stufe 2 --leise --grund eri…"
     },
     {
      "name": "Shopify",
@@ -719,7 +719,7 @@
      "name": "Ereignis-Sensor",
      "schluessel": "ereignisse",
      "ampel": "gruen",
-     "text": "letzter Lauf 22:01, 0 offene Ereignisse"
+     "text": "letzter Lauf 22:12, 0 offene Ereignisse"
     },
     {
      "name": "Chrome auf Timos PC",
