@@ -1,7 +1,7 @@
 {
  "version": 2,
- "stand": "2026-10-12T02:17:05Z",
- "stand_berlin": "12.10.2026 04:17",
+ "stand": "2026-10-12T02:32:05Z",
+ "stand_berlin": "12.10.2026 04:32",
  "takt_min": 15,
  "quelle": "takt/leitstand_bauen.py auf Davids Mac, ohne Modell",
  "ziele": {
@@ -53,7 +53,7 @@
     },
     {
      "name": "Chef-Runde",
-     "text": "Um 04:15: Takt ohne Ergebniszeile beendet (rc=1), Protokoll in ~/takt/laeufe.",
+     "text": "Um 04:30: Takt ohne Ergebniszeile beendet (rc=1), Protokoll in ~/takt/laeufe.",
      "ampel": "rot"
     }
    ]
@@ -73,9 +73,9 @@
      "prio": 1,
      "block": "werkzeuge",
      "titel": "Takt-Schleife ist kaputt",
-     "text": "40 Fehlrunden in Folge (letzte rc=1). Ursache: 20261012_0415.txt: You've hit your limit on every Platz (alle Plaetze gesperrt, siehe ~/claude-plaetze/gesperrt.json)",
+     "text": "40 Fehlrunden in Folge (letzte rc=1). Ursache: 20261012_0425.txt: You've hit your limit on every Platz (alle Plaetze gesperrt, siehe ~/claude-plaetze/gesperrt.json)",
      "wer": "Claude (Technik)",
-     "tun": "Reparieren. Grund: 40 Fehlrunden in Folge (letzte rc=1). Ursache: 20261012_0415.txt: You've hit …"
+     "tun": "Reparieren. Grund: 40 Fehlrunden in Folge (letzte rc=1). Ursache: 20261012_0425.txt: You've hit …"
     },
     {
      "prio": 1,
@@ -124,7 +124,7 @@
    "id": "wer",
    "frage": "Wer arbeitet woran?",
    "ampel": "rot",
-   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 55 Runden heute.",
+   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 58 Runden heute.",
    "saetze": [],
    "zeilen": [
     {
@@ -139,7 +139,7 @@
     },
     {
      "name": "Claude",
-     "text": "55 Runden heute, alle 5 Minuten eine. Zuletzt: Takt ohne Ergebniszeile beendet (rc=1), Protokoll in ~/takt/laeufe.",
+     "text": "58 Runden heute, alle 5 Minuten eine. Zuletzt: Takt ohne Ergebniszeile beendet (rc=1), Protokoll in ~/takt/laeufe.",
      "ampel": "rot"
     },
     {
@@ -269,7 +269,7 @@
    "prio": 1,
    "block": "werkzeuge",
    "titel": "Takt-Schleife ist rot",
-   "text": "40 Fehlrunden in Folge (letzte rc=1). Ursache: 20261012_0415.txt: You've hit your limit on every Platz (alle Plaetze gesperrt, siehe ~/claude-plaetze/gesperrt.json)"
+   "text": "40 Fehlrunden in Folge (letzte rc=1). Ursache: 20261012_0425.txt: You've hit your limit on every Platz (alle Plaetze gesperrt, siehe ~/claude-plaetze/gesperrt.json)"
   },
   {
    "prio": 1,
@@ -378,7 +378,7 @@
      "ampel": "rot",
      "detail": "0 Bilder, 0 Videos, neu seit Montag, 12.10., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
      "quelle": "Erstellzeit der Dateien in creatives/fertig, 05_creatives/ads, 05_creatives/ki/fertig",
-     "stand": "04:17",
+     "stand": "04:32",
      "ziel": null
     },
     {
@@ -438,7 +438,7 @@
      "ampel": "grau",
      "detail": "1 Zeile im Codeblock (Formatbeispiel) nicht gezählt. Steht dort eine echte Aufgabe, gehört sie aus dem Block heraus.",
      "quelle": "timo/OFFEN.md",
-     "stand": "04:17",
+     "stand": "04:32",
      "ziel": null
     },
     {
@@ -567,7 +567,7 @@
    "zeilen": [
     {
      "name": "Wächter, letzter Lauf",
-     "wert": "04:16",
+     "wert": "04:26",
      "ampel": "gruen",
      "detail": null,
      "quelle": "waechter_zustand.json",
@@ -580,7 +580,7 @@
      "name": "Takt-Schleife",
      "schluessel": "takt",
      "ampel": "rot",
-     "text": "40 Fehlrunden in Folge (letzte rc=1). Ursache: 20261012_0415.txt: You've hit your limit on every Platz (alle Plaetze gesperrt, siehe ~/claude-plaetze/gesperrt.json)"
+     "text": "40 Fehlrunden in Folge (letzte rc=1). Ursache: 20261012_0425.txt: You've hit your limit on every Platz (alle Plaetze gesperrt, siehe ~/claude-plaetze/gesperrt.json)"
     },
     {
      "name": "Perplexity",
@@ -598,7 +598,7 @@
      "name": "Crosspost",
      "schluessel": "crosspost",
      "ampel": "gruen",
-     "text": "laeuft (pid 34390), Herzschlag vor 8 s, postet, letzter Fehler: 2026-10-12T02:14:10.116Z The operation was aborted due to ti"
+     "text": "laeuft (pid 34390), Herzschlag vor 9 s, postet, letzter Fehler: 2026-10-12T02:14:10.116Z The operation was aborted due to ti"
     },
     {
      "name": "Speicher",
@@ -634,7 +634,7 @@
      "name": "Ereignis-Sensor",
      "schluessel": "ereignisse",
      "ampel": "gruen",
-     "text": "letzter Lauf 04:16, 0 offene Ereignisse"
+     "text": "letzter Lauf 04:26, 0 offene Ereignisse"
     },
     {
      "name": "Chrome auf Timos PC",
