@@ -1,7 +1,7 @@
 {
  "version": 2,
- "stand": "2026-10-13T04:01:50Z",
- "stand_berlin": "13.10.2026 06:01",
+ "stand": "2026-10-13T04:02:05Z",
+ "stand_berlin": "13.10.2026 06:02",
  "takt_min": 15,
  "quelle": "takt/leitstand_bauen.py auf Davids Mac, ohne Modell",
  "ziele": {
@@ -305,12 +305,12 @@
    "zeilen": [
     {
      "name": "Gewinn heute",
-     "text": "0,00 USD (gemessen 00:51, Shopify Admin GraphQL (orders heute), Chef 00:5x).",
+     "text": "0,00 USD (gemessen 06:01, Shopify Admin GraphQL (orders heute), Chef 05:58, 0 Bestellungen).",
      "ampel": "gelb"
     },
     {
      "name": "Bestellungen heute",
-     "text": "0 (gemessen 00:51).",
+     "text": "0 (gemessen 06:01).",
      "ampel": "grau"
     },
     {
@@ -486,8 +486,8 @@
      "wert": "0",
      "ampel": "grau",
      "detail": null,
-     "quelle": "Shopify Admin GraphQL (orders created_at>=2026-10-13T00:00+02:00), Chef 00:5x",
-     "stand": "00:51",
+     "quelle": "Shopify Admin GraphQL (orders created_at>=2026-10-13T00:00+02:00), Chef 05:58",
+     "stand": "06:01",
      "ziel": null
     },
     {
@@ -495,8 +495,8 @@
      "wert": "0,00 USD",
      "ampel": "gelb",
      "detail": null,
-     "quelle": "Shopify Admin GraphQL (orders heute), Chef 00:5x",
-     "stand": "00:51",
+     "quelle": "Shopify Admin GraphQL (orders heute), Chef 05:58, 0 Bestellungen",
+     "stand": "06:01",
      "ziel": "2.174 USD"
     },
     {
@@ -521,7 +521,7 @@
      "ampel": "rot",
      "detail": "0 Bilder, 0 Videos, neu seit Montag, 12.10., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
      "quelle": "Erstellzeit der Dateien in creatives/fertig, 05_creatives/ads, 05_creatives/ki/fertig",
-     "stand": "06:01",
+     "stand": "06:02",
      "ziel": null
     },
     {
@@ -581,7 +581,7 @@
      "ampel": "grau",
      "detail": "1 Zeile im Codeblock (Formatbeispiel) nicht gezählt. Steht dort eine echte Aufgabe, gehört sie aus dem Block heraus.",
      "quelle": "timo/OFFEN.md",
-     "stand": "06:01",
+     "stand": "06:02",
      "ziel": null
     },
     {
