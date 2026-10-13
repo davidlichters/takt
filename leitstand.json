@@ -1,7 +1,7 @@
 {
  "version": 2,
- "stand": "2026-10-13T09:04:36Z",
- "stand_berlin": "13.10.2026 11:04",
+ "stand": "2026-10-13T09:06:53Z",
+ "stand_berlin": "13.10.2026 11:06",
  "takt_min": 15,
  "quelle": "takt/leitstand_bauen.py auf Davids Mac, ohne Modell",
  "ziele": {
@@ -355,7 +355,7 @@
    "id": "tempo",
    "frage": "Wie schnell geht es gerade?",
    "ampel": "gelb",
-   "kurz": "Letzte Stunde: 6 Runden, 0 davon mit fertigem Ergebnis.",
+   "kurz": "Letzte Stunde: 5 Runden, 0 davon mit fertigem Ergebnis.",
    "saetze": [
     "Gewinn heute: 0,00 USD.",
     "Fertig heißt noch nicht live: 8 Ja-Schritte warten auf euer Ja (Karte 2)."
@@ -363,17 +363,17 @@
    "zeilen": [
     {
      "name": "Gewinn heute",
-     "text": "0,00 USD (gemessen 10:09, Shopify Admin GraphQL (orders heute), Chef 10:1x, 0 Bestellungen).",
+     "text": "0,00 USD (gemessen 11:06, Shopify Admin GraphQL orders (createdAt/totalPriceSet, 25 letzte), Chef 11:0x, neueste #1222 vom 19.09., 0 seit 01.10.).",
      "ampel": "gelb"
     },
     {
      "name": "Bestellungen heute",
-     "text": "0 (gemessen 10:08).",
+     "text": "0 (gemessen 11:06).",
      "ampel": "grau"
     },
     {
      "name": "Runden, letzte Stunde",
-     "text": "6 Runden: 0 mit fertigem Ergebnis (Creative, Text oder Klickweg), 4 haben einen Menschen erinnert, 2 nur innen gearbeitet.",
+     "text": "5 Runden: 0 mit fertigem Ergebnis (Creative, Text oder Klickweg), 4 haben einen Menschen erinnert, 1 nur innen gearbeitet.",
      "ampel": "gelb"
     },
     {
@@ -420,7 +420,7 @@
     },
     {
      "name": "Runden",
-     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 6, davon 2 nur innen.",
+     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 5, davon 1 nur innen.",
      "ampel": "rot"
     }
    ]
@@ -544,8 +544,8 @@
      "wert": "0",
      "ampel": "grau",
      "detail": null,
-     "quelle": "Shopify Admin GraphQL (orders created_at>=2026-10-13), Chef 10:1x",
-     "stand": "10:08",
+     "quelle": "Shopify Admin GraphQL orders (createdAt/totalPriceSet, 25 letzte), Chef 11:0x, neueste #1222 vom 19.09., 0 seit 01.10.",
+     "stand": "11:06",
      "ziel": null
     },
     {
@@ -553,8 +553,8 @@
      "wert": "0,00 USD",
      "ampel": "gelb",
      "detail": null,
-     "quelle": "Shopify Admin GraphQL (orders heute), Chef 10:1x, 0 Bestellungen",
-     "stand": "10:09",
+     "quelle": "Shopify Admin GraphQL orders (createdAt/totalPriceSet, 25 letzte), Chef 11:0x, neueste #1222 vom 19.09., 0 seit 01.10.",
+     "stand": "11:06",
      "ziel": "2.174 USD"
     },
     {
@@ -562,8 +562,8 @@
      "wert": "0,00 USD",
      "ampel": "rot",
      "detail": null,
-     "quelle": "Shopify Admin REST orders.json (created_at_min=2026-10-01, status=any), Chef 06:1x, 0 Bestellungen seit 01.10., Checkouts seit 01.10. nur 2 (beide 07.10., unvollendet, Testmail)",
-     "stand": "06:13",
+     "quelle": "Shopify Admin GraphQL orders (createdAt/totalPriceSet, 25 letzte), Chef 11:0x, neueste #1222 vom 19.09., 0 seit 01.10.",
+     "stand": "11:06",
      "ziel": "200.000 USD bis 31.12., Soll bis gestern 26.088 USD (12 Tage)"
     }
    ]
@@ -579,7 +579,7 @@
      "ampel": "rot",
      "detail": "0 Bilder, 0 Videos, neu seit Montag, 12.10., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
      "quelle": "Erstellzeit der Dateien in creatives/fertig, 05_creatives/ads, 05_creatives/ki/fertig",
-     "stand": "11:04",
+     "stand": "11:06",
      "ziel": null
     },
     {
@@ -639,7 +639,7 @@
      "ampel": "grau",
      "detail": "1 Zeile im Codeblock (Formatbeispiel) nicht gezählt. Steht dort eine echte Aufgabe, gehört sie aus dem Block heraus.",
      "quelle": "timo/OFFEN.md",
-     "stand": "11:04",
+     "stand": "11:06",
      "ziel": null
     },
     {
