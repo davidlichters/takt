@@ -1,7 +1,7 @@
 {
  "version": 2,
- "stand": "2026-10-13T14:47:05Z",
- "stand_berlin": "13.10.2026 16:47",
+ "stand": "2026-10-13T15:02:05Z",
+ "stand_berlin": "13.10.2026 17:02",
  "takt_min": 15,
  "quelle": "takt/leitstand_bauen.py auf Davids Mac, ohne Modell",
  "ziele": {
@@ -53,8 +53,8 @@
     },
     {
      "name": "Chef-Runde",
-     "text": "Um 16:30: Ja 30 John frisch per wa_chat.mjs geprueft (John/Adam/Bonnie unveraendert seit 12:50), Eskalation an Timo …",
-     "ampel": "gruen"
+     "text": "Um 16:45: Takt ohne Ergebniszeile beendet (rc=1), Protokoll in ~/takt/laeufe.",
+     "ampel": "rot"
     }
    ]
   },
@@ -446,8 +446,8 @@
    "nr": 3,
    "id": "wer",
    "frage": "Wer arbeitet woran?",
-   "ampel": "gruen",
-   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 145 Runden heute.",
+   "ampel": "rot",
+   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 146 Runden heute.",
    "saetze": [],
    "zeilen": [
     {
@@ -462,8 +462,8 @@
     },
     {
      "name": "Claude",
-     "text": "145 Runden heute, alle 5 Minuten eine. Zuletzt: Ja 30 John frisch per wa_chat.mjs geprueft (John/Adam/Bonnie unveraendert seit 12:50) …",
-     "ampel": "gruen"
+     "text": "146 Runden heute, alle 5 Minuten eine. Zuletzt: Takt ohne Ergebniszeile beendet (rc=1), Protokoll in ~/takt/laeufe.",
+     "ampel": "rot"
     },
     {
      "name": "Abteilungs-Chats",
@@ -477,7 +477,7 @@
    "id": "tempo",
    "frage": "Wie schnell geht es gerade?",
    "ampel": "gelb",
-   "kurz": "Letzte Stunde: 5 Runden, 0 davon mit fertigem Ergebnis.",
+   "kurz": "Letzte Stunde: 4 Runden, 0 davon mit fertigem Ergebnis.",
    "saetze": [
     "Gewinn heute: 0,00 USD.",
     "Fertig heißt noch nicht live: 8 Ja-Schritte warten auf euer Ja (Karte 2)."
@@ -495,7 +495,7 @@
     },
     {
      "name": "Runden, letzte Stunde",
-     "text": "5 Runden: 0 mit fertigem Ergebnis (Creative, Text oder Klickweg), 3 haben einen Menschen erinnert, 2 nur innen gearbeitet.",
+     "text": "4 Runden: 0 mit fertigem Ergebnis (Creative, Text oder Klickweg), 2 haben einen Menschen erinnert, 1 nur innen gearbeitet, 1 ist abgestürzt.",
      "ampel": "gelb"
     },
     {
@@ -542,7 +542,7 @@
     },
     {
      "name": "Runden",
-     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 5, davon 2 nur innen.",
+     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 4, davon 2 nur innen oder abgestürzt.",
      "ampel": "rot"
     }
    ]
@@ -701,7 +701,7 @@
      "ampel": "rot",
      "detail": "0 Bilder, 0 Videos, neu seit Montag, 12.10., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
      "quelle": "Erstellzeit der Dateien in creatives/fertig, 05_creatives/ads, 05_creatives/ki/fertig",
-     "stand": "16:47",
+     "stand": "17:02",
      "ziel": null
     },
     {
@@ -761,7 +761,7 @@
      "ampel": "grau",
      "detail": "1 Zeile im Codeblock (Formatbeispiel) nicht gezählt. Steht dort eine echte Aufgabe, gehört sie aus dem Block heraus.",
      "quelle": "timo/OFFEN.md",
-     "stand": "16:47",
+     "stand": "17:02",
      "ziel": null
     },
     {
@@ -890,7 +890,7 @@
    "zeilen": [
     {
      "name": "Wächter, letzter Lauf",
-     "wert": "16:44",
+     "wert": "16:59",
      "ampel": "gruen",
      "detail": null,
      "quelle": "waechter_zustand.json",
@@ -903,7 +903,7 @@
      "name": "Takt-Schleife",
      "schluessel": "takt",
      "ampel": "gruen",
-     "text": "letzte Runde 16:40 (chef), rc=0"
+     "text": "letzte Runde 16:48 (chef), rc=1, 1 Fehlrunde in Folge"
     },
     {
      "name": "Perplexity",
@@ -921,7 +921,7 @@
      "name": "Crosspost",
      "schluessel": "crosspost",
      "ampel": "gruen",
-     "text": "laeuft (pid 34390), Herzschlag vor 3 s, postet, letzter Fehler: 2026-10-13T13:59:15.209Z keine Videos in der Antwort: {\"log_"
+     "text": "laeuft (pid 34390), Herzschlag vor 6 s, postet, letzter Fehler: 2026-10-13T13:59:15.209Z keine Videos in der Antwort: {\"log_"
     },
     {
      "name": "Speicher",
@@ -933,7 +933,7 @@
      "name": "GitHub-Push",
      "schluessel": "github",
      "ampel": "gruen",
-     "text": "origin/main 6353200 vor 4 Min"
+     "text": "origin/main 40c2f14 vor 13 Min"
     },
     {
      "name": "WhatsApp Web",
@@ -957,7 +957,7 @@
      "name": "Ereignis-Sensor",
      "schluessel": "ereignisse",
      "ampel": "gruen",
-     "text": "letzter Lauf 16:44, 0 offene Ereignisse"
+     "text": "letzter Lauf 16:59, 0 offene Ereignisse"
     },
     {
      "name": "Chrome auf Timos PC",
