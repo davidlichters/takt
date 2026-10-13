@@ -1,7 +1,7 @@
 {
  "version": 2,
- "stand": "2026-10-13T19:47:06Z",
- "stand_berlin": "13.10.2026 21:47",
+ "stand": "2026-10-13T20:02:05Z",
+ "stand_berlin": "13.10.2026 22:02",
  "takt_min": 15,
  "quelle": "takt/leitstand_bauen.py auf Davids Mac, ohne Modell",
  "ziele": {
@@ -53,7 +53,7 @@
     },
     {
      "name": "Chef-Runde",
-     "text": "Um 21:30: Contabo-Widerrufsfrist (Ja 35) frisch erinnert nach 6 Std Cooldown, David 22:05 in OFFEN.md, letzter Tag vor …",
+     "text": "Um 21:50: 5 Tage falscher Alarm zu Porchnap Sensor widerlegt, Token erneuert sich seit 08./09./12./13.10. automatisch …",
      "ampel": "gruen"
     }
    ]
@@ -202,7 +202,7 @@
      "wer": "Timo",
      "tun": "Shopify-App \"Porchnap Sensor\" neu einrichten, bevor der Schlüssel heute 21:53 abläuft. 5 Minuten, 0 USD. Weg",
      "bis": "21:50",
-     "vorbei": false,
+     "vorbei": true,
      "stufe": 1,
      "ja": []
     },
@@ -214,7 +214,7 @@
      "wer": "David",
      "tun": null,
      "bis": "21:50",
-     "vorbei": false,
+     "vorbei": true,
      "stufe": 1,
      "ja": []
     },
@@ -504,7 +504,7 @@
    "id": "wer",
    "frage": "Wer arbeitet woran?",
    "ampel": "gruen",
-   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 194 Runden heute.",
+   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 196 Runden heute.",
    "saetze": [],
    "zeilen": [
     {
@@ -519,7 +519,7 @@
     },
     {
      "name": "Claude",
-     "text": "194 Runden heute, alle 5 Minuten eine. Zuletzt: Contabo-Widerrufsfrist (Ja 35) frisch erinnert nach 6 Std Cooldown, David 22:05 in OFFEN.md …",
+     "text": "196 Runden heute, alle 5 Minuten eine. Zuletzt: 5 Tage falscher Alarm zu Porchnap Sensor widerlegt, Token erneuert sich seit …",
      "ampel": "gruen"
     },
     {
@@ -534,7 +534,7 @@
    "id": "tempo",
    "frage": "Wie schnell geht es gerade?",
    "ampel": "gelb",
-   "kurz": "Letzte Stunde: 4 Runden, 0 davon mit fertigem Ergebnis.",
+   "kurz": "Letzte Stunde: 5 Runden, 0 davon mit fertigem Ergebnis.",
    "saetze": [
     "Den Gewinn heute wissen wir noch nicht, weil uns der Shopify-Zugang fehlt.",
     "Fertig heißt noch nicht live: 7 Ja-Schritte warten auf euer Ja (Karte 2)."
@@ -552,7 +552,7 @@
     },
     {
      "name": "Runden, letzte Stunde",
-     "text": "4 Runden: 0 mit fertigem Ergebnis (Creative, Text oder Klickweg), 2 haben einen Menschen erinnert, 2 nur innen gearbeitet.",
+     "text": "5 Runden: 0 mit fertigem Ergebnis (Creative, Text oder Klickweg), 3 haben einen Menschen erinnert, 2 nur innen gearbeitet.",
      "ampel": "gelb"
     },
     {
@@ -599,7 +599,7 @@
     },
     {
      "name": "Runden",
-     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 4, davon 2 nur innen.",
+     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 5, davon 2 nur innen.",
      "ampel": "rot"
     }
    ]
@@ -752,7 +752,7 @@
      "ampel": "rot",
      "detail": "0 Bilder, 0 Videos, neu seit Montag, 12.10., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
      "quelle": "Erstellzeit der Dateien in creatives/fertig, 05_creatives/ads, 05_creatives/ki/fertig",
-     "stand": "21:47",
+     "stand": "22:02",
      "ziel": null
     },
     {
@@ -792,7 +792,7 @@
     },
     {
      "name": "Nächster Check-in",
-     "wert": "22:00 heute",
+     "wert": "09:00 morgen",
      "ampel": "grau",
      "detail": "Tagesstart 08:00 ist festgelegt (Plan 5). Die Check-in-Zeiten (09:00, 13:00, 18:00, 22:00) sind der Vorschlag aus Plan 2.4, noch nicht festgelegt.",
      "quelle": "LEITSTAND_PLAN.md 2.4 und 5",
@@ -812,7 +812,7 @@
      "ampel": "grau",
      "detail": "1 Zeile im Codeblock (Formatbeispiel) nicht gezählt. Steht dort eine echte Aufgabe, gehört sie aus dem Block heraus.",
      "quelle": "timo/OFFEN.md",
-     "stand": "21:47",
+     "stand": "22:02",
      "ziel": null
     },
     {
@@ -941,7 +941,7 @@
    "zeilen": [
     {
      "name": "Wächter, letzter Lauf",
-     "wert": "21:47",
+     "wert": "21:57",
      "ampel": "gruen",
      "detail": null,
      "quelle": "waechter_zustand.json",
@@ -954,7 +954,7 @@
      "name": "Takt-Schleife",
      "schluessel": "takt",
      "ampel": "gruen",
-     "text": "letzte Runde 21:35 (chef), rc=0, Runde laeuft seit 6 Min"
+     "text": "letzte Runde 21:48 (chef), rc=0, Runde laeuft seit 7 Min"
     },
     {
      "name": "Perplexity",
@@ -972,19 +972,19 @@
      "name": "Crosspost",
      "schluessel": "crosspost",
      "ampel": "gruen",
-     "text": "laeuft (pid 34390), Herzschlag vor 11 s, postet, letzter Fehler: 2026-10-13T18:49:05.454Z keine Videos in der Antwort: {\"log_"
+     "text": "laeuft (pid 34390), Herzschlag vor 3 s, postet, letzter Fehler: 2026-10-13T18:49:05.454Z keine Videos in der Antwort: {\"log_"
     },
     {
      "name": "Speicher",
      "schluessel": "speicher",
      "ampel": "gruen",
-     "text": "15 GB frei"
+     "text": "14 GB frei"
     },
     {
      "name": "GitHub-Push",
      "schluessel": "github",
      "ampel": "gruen",
-     "text": "origin/main c2b1ef2 vor 6 Min"
+     "text": "origin/main f33a828 vor 6 Min"
     },
     {
      "name": "WhatsApp Web",
@@ -1008,7 +1008,7 @@
      "name": "Ereignis-Sensor",
      "schluessel": "ereignisse",
      "ampel": "gruen",
-     "text": "letzter Lauf 21:47, 0 offene Ereignisse"
+     "text": "letzter Lauf 21:57, 0 offene Ereignisse"
     },
     {
      "name": "Chrome auf Timos PC",
