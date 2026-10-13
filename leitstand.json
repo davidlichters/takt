@@ -1,7 +1,7 @@
 {
  "version": 2,
- "stand": "2026-10-13T14:02:05Z",
- "stand_berlin": "13.10.2026 16:02",
+ "stand": "2026-10-13T14:17:05Z",
+ "stand_berlin": "13.10.2026 16:17",
  "takt_min": 15,
  "quelle": "takt/leitstand_bauen.py auf Davids Mac, ohne Modell",
  "ziele": {
@@ -53,8 +53,8 @@
     },
     {
      "name": "Chef-Runde",
-     "text": "Um 16:00: Takt ohne Ergebniszeile beendet (rc=0), Protokoll in ~/takt/laeufe.",
-     "ampel": "gelb"
+     "text": "Um 16:05: Startmeta washable/Dec4 (Ja 15) frisch per curl HTTP 200 geprueft, 237 Std. ueber der Frist 04.10. 12:00 …",
+     "ampel": "gruen"
     }
    ]
   },
@@ -63,7 +63,7 @@
    "id": "auf",
    "frage": "Was hält uns auf?",
    "ampel": "rot",
-   "kurz": "27 Dinge halten uns auf.",
+   "kurz": "28 Dinge halten uns auf.",
    "saetze": [
     "Bei jedem steht, wer es tun muss. Oben steht das, was am meisten Geld kostet."
    ],
@@ -163,7 +163,7 @@
      "wer": "David",
      "tun": null,
      "bis": "16:15",
-     "vorbei": false,
+     "vorbei": true,
      "stufe": 1,
      "ja": []
     },
@@ -272,6 +272,20 @@
      "vorbei": true,
      "stufe": 5,
      "ja": []
+    },
+    {
+     "prio": 0,
+     "block": "eskalation",
+     "quelle": "gedaechtnis/OFFEN.md",
+     "titel": "Porchnap | Christmas Beds for Small Dogs and Cats. Homepage meta description eintragen: Cozy …",
+     "wer": "Timo",
+     "tun": "Shopify Admin > Online Store > Preferences > Title and meta description. Homepage title eintragen",
+     "bis": "16:45",
+     "vorbei": false,
+     "stufe": 5,
+     "ja": [
+      15
+     ]
     },
     {
      "prio": 0,
@@ -417,8 +431,8 @@
    "nr": 3,
    "id": "wer",
    "frage": "Wer arbeitet woran?",
-   "ampel": "gelb",
-   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 142 Runden heute.",
+   "ampel": "gruen",
+   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 143 Runden heute.",
    "saetze": [],
    "zeilen": [
     {
@@ -433,8 +447,8 @@
     },
     {
      "name": "Claude",
-     "text": "142 Runden heute, alle 5 Minuten eine. Zuletzt: Takt ohne Ergebniszeile beendet (rc=0), Protokoll in ~/takt/laeufe.",
-     "ampel": "gelb"
+     "text": "143 Runden heute, alle 5 Minuten eine. Zuletzt: Startmeta washable/Dec4 (Ja 15) frisch per curl HTTP 200 geprueft, 237 Std. ueber der Frist …",
+     "ampel": "gruen"
     },
     {
      "name": "Abteilungs-Chats",
@@ -448,7 +462,7 @@
    "id": "tempo",
    "frage": "Wie schnell geht es gerade?",
    "ampel": "gelb",
-   "kurz": "Letzte Stunde: 7 Runden, 0 davon mit fertigem Ergebnis.",
+   "kurz": "Letzte Stunde: 6 Runden, 0 davon mit fertigem Ergebnis.",
    "saetze": [
     "Gewinn heute: 0,00 USD.",
     "Fertig heißt noch nicht live: 8 Ja-Schritte warten auf euer Ja (Karte 2)."
@@ -466,7 +480,7 @@
     },
     {
      "name": "Runden, letzte Stunde",
-     "text": "7 Runden: 0 mit fertigem Ergebnis (Creative, Text oder Klickweg), 5 haben einen Menschen erinnert, 2 nur innen gearbeitet.",
+     "text": "6 Runden: 0 mit fertigem Ergebnis (Creative, Text oder Klickweg), 4 haben einen Menschen erinnert, 2 nur innen gearbeitet.",
      "ampel": "gelb"
     },
     {
@@ -513,7 +527,7 @@
     },
     {
      "name": "Runden",
-     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 7, davon 2 nur innen.",
+     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 6, davon 2 nur innen.",
      "ampel": "rot"
     }
    ]
@@ -672,7 +686,7 @@
      "ampel": "rot",
      "detail": "0 Bilder, 0 Videos, neu seit Montag, 12.10., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
      "quelle": "Erstellzeit der Dateien in creatives/fertig, 05_creatives/ads, 05_creatives/ki/fertig",
-     "stand": "16:02",
+     "stand": "16:17",
      "ziel": null
     },
     {
@@ -732,7 +746,7 @@
      "ampel": "grau",
      "detail": "1 Zeile im Codeblock (Formatbeispiel) nicht gezählt. Steht dort eine echte Aufgabe, gehört sie aus dem Block heraus.",
      "quelle": "timo/OFFEN.md",
-     "stand": "16:02",
+     "stand": "16:17",
      "ziel": null
     },
     {
@@ -861,7 +875,7 @@
    "zeilen": [
     {
      "name": "Wächter, letzter Lauf",
-     "wert": "15:57",
+     "wert": "16:12",
      "ampel": "gruen",
      "detail": null,
      "quelle": "waechter_zustand.json",
@@ -874,7 +888,7 @@
      "name": "Takt-Schleife",
      "schluessel": "takt",
      "ampel": "gruen",
-     "text": "letzte Runde 15:56 (chef), rc=0"
+     "text": "letzte Runde 16:10 (chef), rc=0"
     },
     {
      "name": "Perplexity",
@@ -892,7 +906,7 @@
      "name": "Crosspost",
      "schluessel": "crosspost",
      "ampel": "gruen",
-     "text": "laeuft (pid 34390), Herzschlag vor 0 s, postet, letzter Fehler: 2026-10-13T06:04:16.918Z keine Videos in der Antwort: {\"log_"
+     "text": "laeuft (pid 34390), Herzschlag vor 7 s, postet, letzter Fehler: 2026-10-13T13:59:15.209Z keine Videos in der Antwort: {\"log_"
     },
     {
      "name": "Speicher",
@@ -904,7 +918,7 @@
      "name": "GitHub-Push",
      "schluessel": "github",
      "ampel": "gruen",
-     "text": "origin/main 8c01eb9 vor 6 Min"
+     "text": "origin/main e5e4556 vor 2 Min"
     },
     {
      "name": "WhatsApp Web",
@@ -928,7 +942,7 @@
      "name": "Ereignis-Sensor",
      "schluessel": "ereignisse",
      "ampel": "gruen",
-     "text": "letzter Lauf 15:57, 0 offene Ereignisse"
+     "text": "letzter Lauf 16:12, 0 offene Ereignisse"
     },
     {
      "name": "Chrome auf Timos PC",
