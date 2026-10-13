@@ -1,7 +1,7 @@
 {
  "version": 2,
- "stand": "2026-10-13T10:32:05Z",
- "stand_berlin": "13.10.2026 12:32",
+ "stand": "2026-10-13T10:47:05Z",
+ "stand_berlin": "13.10.2026 12:47",
  "takt_min": 15,
  "quelle": "takt/leitstand_bauen.py auf Davids Mac, ohne Modell",
  "ziele": {
@@ -48,12 +48,12 @@
     },
     {
      "name": "Technik",
-     "text": "Der Wächter prüft alle 5 Minuten 10 Werkzeuge: 8 gehen, 1 kaputt (Perplexity), 1 warten auf Zugang oder sind aus (Meta). 1 weiteres prüft er noch nicht.",
+     "text": "Der Wächter prüft alle 5 Minuten 10 Werkzeuge: 7 gehen, 2 kaputt (Takt-Schleife, Perplexity), 1 warten auf Zugang oder sind aus (Meta). 1 weiteres prüft er noch nicht.",
      "ampel": "rot"
     },
     {
      "name": "Chef-Runde",
-     "text": "Um 12:20: Takt ohne Ergebniszeile beendet (rc=1), Protokoll in ~/takt/laeufe.",
+     "text": "Um 12:45: Takt ohne Ergebniszeile beendet (rc=1), Protokoll in ~/takt/laeufe.",
      "ampel": "rot"
     }
    ]
@@ -63,7 +63,7 @@
    "id": "auf",
    "frage": "Was hält uns auf?",
    "ampel": "rot",
-   "kurz": "24 Dinge halten uns auf.",
+   "kurz": "25 Dinge halten uns auf.",
    "saetze": [
     "Bei jedem steht, wer es tun muss. Oben steht das, was am meisten Geld kostet."
    ],
@@ -245,7 +245,7 @@
      "wer": "Timo",
      "tun": null,
      "bis": "12:35",
-     "vorbei": false,
+     "vorbei": true,
      "stufe": 5,
      "ja": []
     },
@@ -326,6 +326,14 @@
     {
      "prio": 1,
      "block": "werkzeuge",
+     "titel": "Takt-Schleife ist kaputt",
+     "text": "letzte Runde endete 12:24, vor 18 Min, seitdem keine",
+     "wer": "Claude (Technik)",
+     "tun": "Reparieren. Grund: letzte Runde endete 12:24, vor 18 Min, seitdem keine"
+    },
+    {
+     "prio": 1,
+     "block": "werkzeuge",
      "titel": "Perplexity ist kaputt",
      "text": "letzter Lauf 22:28: LOGIN FEHLT: nach drei Versuchen ueber die ToolSuite-Kachel nicht angemeldet; LIZENZ_NOETIG seit 09.10. 11:49 gesetzt, Recherche-Schlange pausiert",
      "wer": "Claude (Technik)",
@@ -378,7 +386,7 @@
    "id": "wer",
    "frage": "Wer arbeitet woran?",
    "ampel": "rot",
-   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 107 Runden heute.",
+   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 108 Runden heute.",
    "saetze": [],
    "zeilen": [
     {
@@ -393,7 +401,7 @@
     },
     {
      "name": "Claude",
-     "text": "107 Runden heute, alle 5 Minuten eine. Zuletzt: Takt ohne Ergebniszeile beendet (rc=1), Protokoll in ~/takt/laeufe.",
+     "text": "108 Runden heute, alle 5 Minuten eine. Zuletzt: Takt ohne Ergebniszeile beendet (rc=1), Protokoll in ~/takt/laeufe.",
      "ampel": "rot"
     },
     {
@@ -407,7 +415,7 @@
    "nr": 4,
    "id": "tempo",
    "frage": "Wie schnell geht es gerade?",
-   "ampel": "gelb",
+   "ampel": "rot",
    "kurz": "Letzte Stunde: 5 Runden, 0 davon mit fertigem Ergebnis.",
    "saetze": [
     "Gewinn heute: 0,00 USD.",
@@ -426,8 +434,8 @@
     },
     {
      "name": "Runden, letzte Stunde",
-     "text": "5 Runden: 0 mit fertigem Ergebnis (Creative, Text oder Klickweg), 3 haben einen Menschen erinnert, 1 nur innen gearbeitet, 1 ist abgestürzt.",
-     "ampel": "gelb"
+     "text": "5 Runden: 0 mit fertigem Ergebnis (Creative, Text oder Klickweg), 2 haben einen Menschen erinnert, 1 nur innen gearbeitet, 2 sind abgestürzt.",
+     "ampel": "rot"
     },
     {
      "name": "Erledigt heute",
@@ -473,7 +481,7 @@
     },
     {
      "name": "Runden",
-     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 5, davon 2 nur innen oder abgestürzt.",
+     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 5, davon 3 nur innen oder abgestürzt.",
      "ampel": "rot"
     }
    ]
@@ -519,6 +527,12 @@
  ],
  "karten_fehler": null,
  "rot": [
+  {
+   "prio": 1,
+   "block": "werkzeuge",
+   "titel": "Takt-Schleife ist rot",
+   "text": "letzte Runde endete 12:24, vor 18 Min, seitdem keine"
+  },
   {
    "prio": 1,
    "block": "werkzeuge",
@@ -632,7 +646,7 @@
      "ampel": "rot",
      "detail": "0 Bilder, 0 Videos, neu seit Montag, 12.10., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
      "quelle": "Erstellzeit der Dateien in creatives/fertig, 05_creatives/ads, 05_creatives/ki/fertig",
-     "stand": "12:32",
+     "stand": "12:47",
      "ziel": null
     },
     {
@@ -692,7 +706,7 @@
      "ampel": "grau",
      "detail": "1 Zeile im Codeblock (Formatbeispiel) nicht gezählt. Steht dort eine echte Aufgabe, gehört sie aus dem Block heraus.",
      "quelle": "timo/OFFEN.md",
-     "stand": "12:32",
+     "stand": "12:47",
      "ziel": null
     },
     {
@@ -821,7 +835,7 @@
    "zeilen": [
     {
      "name": "Wächter, letzter Lauf",
-     "wert": "12:28",
+     "wert": "12:43",
      "ampel": "gruen",
      "detail": null,
      "quelle": "waechter_zustand.json",
@@ -833,8 +847,8 @@
     {
      "name": "Takt-Schleife",
      "schluessel": "takt",
-     "ampel": "gruen",
-     "text": "letzte Runde 12:24 (chef), rc=1, 1 Fehlrunde in Folge"
+     "ampel": "rot",
+     "text": "letzte Runde endete 12:24, vor 18 Min, seitdem keine"
     },
     {
      "name": "Perplexity",
@@ -852,7 +866,7 @@
      "name": "Crosspost",
      "schluessel": "crosspost",
      "ampel": "gruen",
-     "text": "laeuft (pid 34390), Herzschlag vor 2 s, postet, letzter Fehler: 2026-10-13T06:04:16.918Z keine Videos in der Antwort: {\"log_"
+     "text": "laeuft (pid 34390), Herzschlag vor 5 s, postet, letzter Fehler: 2026-10-13T06:04:16.918Z keine Videos in der Antwort: {\"log_"
     },
     {
      "name": "Speicher",
@@ -864,7 +878,7 @@
      "name": "GitHub-Push",
      "schluessel": "github",
      "ampel": "gruen",
-     "text": "origin/main 34bc8d1 vor 7 Min"
+     "text": "origin/main 34bc8d1 vor 22 Min"
     },
     {
      "name": "WhatsApp Web",
@@ -888,7 +902,7 @@
      "name": "Ereignis-Sensor",
      "schluessel": "ereignisse",
      "ampel": "gruen",
-     "text": "letzter Lauf 12:28, 0 offene Ereignisse"
+     "text": "letzter Lauf 12:43, 0 offene Ereignisse"
     },
     {
      "name": "Chrome auf Timos PC",
