@@ -1,7 +1,7 @@
 {
  "version": 2,
- "stand": "2026-10-13T12:47:05Z",
- "stand_berlin": "13.10.2026 14:47",
+ "stand": "2026-10-13T13:02:05Z",
+ "stand_berlin": "13.10.2026 15:02",
  "takt_min": 15,
  "quelle": "takt/leitstand_bauen.py auf Davids Mac, ohne Modell",
  "ziele": {
@@ -53,7 +53,7 @@
     },
     {
      "name": "Chef-Runde",
-     "text": "Um 14:45: Takt ohne Ergebniszeile beendet (rc=1), Protokoll in ~/takt/laeufe.",
+     "text": "Um 15:00: Takt ohne Ergebniszeile beendet (rc=1), Protokoll in ~/takt/laeufe.",
      "ampel": "rot"
     }
    ]
@@ -327,9 +327,9 @@
      "prio": 1,
      "block": "werkzeuge",
      "titel": "Takt-Schleife ist kaputt",
-     "text": "25 Fehlrunden in Folge (letzte rc=1). Ursache: 20261013_1440.txt: You've hit your limit on every Platz (alle Plaetze gesperrt, siehe ~/claude-plaetze/gesperrt.json)",
+     "text": "28 Fehlrunden in Folge (letzte rc=1). Ursache: 20261013_1455.txt: You've hit your limit on every Platz (alle Plaetze gesperrt, siehe ~/claude-plaetze/gesperrt.json)",
      "wer": "Claude (Technik)",
-     "tun": "Reparieren. Grund: 25 Fehlrunden in Folge (letzte rc=1). Ursache: 20261013_1440.txt: You've hit …"
+     "tun": "Reparieren. Grund: 28 Fehlrunden in Folge (letzte rc=1). Ursache: 20261013_1455.txt: You've hit …"
     },
     {
      "prio": 1,
@@ -386,7 +386,7 @@
    "id": "wer",
    "frage": "Wer arbeitet woran?",
    "ampel": "rot",
-   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 132 Runden heute.",
+   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 135 Runden heute.",
    "saetze": [],
    "zeilen": [
     {
@@ -401,7 +401,7 @@
     },
     {
      "name": "Claude",
-     "text": "132 Runden heute, alle 5 Minuten eine. Zuletzt: Takt ohne Ergebniszeile beendet (rc=1), Protokoll in ~/takt/laeufe.",
+     "text": "135 Runden heute, alle 5 Minuten eine. Zuletzt: Takt ohne Ergebniszeile beendet (rc=1), Protokoll in ~/takt/laeufe.",
      "ampel": "rot"
     },
     {
@@ -531,7 +531,7 @@
    "prio": 1,
    "block": "werkzeuge",
    "titel": "Takt-Schleife ist rot",
-   "text": "25 Fehlrunden in Folge (letzte rc=1). Ursache: 20261013_1440.txt: You've hit your limit on every Platz (alle Plaetze gesperrt, siehe ~/claude-plaetze/gesperrt.json)"
+   "text": "28 Fehlrunden in Folge (letzte rc=1). Ursache: 20261013_1455.txt: You've hit your limit on every Platz (alle Plaetze gesperrt, siehe ~/claude-plaetze/gesperrt.json)"
   },
   {
    "prio": 1,
@@ -646,7 +646,7 @@
      "ampel": "rot",
      "detail": "0 Bilder, 0 Videos, neu seit Montag, 12.10., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
      "quelle": "Erstellzeit der Dateien in creatives/fertig, 05_creatives/ads, 05_creatives/ki/fertig",
-     "stand": "14:47",
+     "stand": "15:02",
      "ziel": null
     },
     {
@@ -706,7 +706,7 @@
      "ampel": "grau",
      "detail": "1 Zeile im Codeblock (Formatbeispiel) nicht gezählt. Steht dort eine echte Aufgabe, gehört sie aus dem Block heraus.",
      "quelle": "timo/OFFEN.md",
-     "stand": "14:47",
+     "stand": "15:02",
      "ziel": null
     },
     {
@@ -835,7 +835,7 @@
    "zeilen": [
     {
      "name": "Wächter, letzter Lauf",
-     "wert": "14:44",
+     "wert": "14:59",
      "ampel": "gruen",
      "detail": null,
      "quelle": "waechter_zustand.json",
@@ -848,7 +848,7 @@
      "name": "Takt-Schleife",
      "schluessel": "takt",
      "ampel": "rot",
-     "text": "25 Fehlrunden in Folge (letzte rc=1). Ursache: 20261013_1440.txt: You've hit your limit on every Platz (alle Plaetze gesperrt, siehe ~/claude-plaetze/gesperrt.json)"
+     "text": "28 Fehlrunden in Folge (letzte rc=1). Ursache: 20261013_1455.txt: You've hit your limit on every Platz (alle Plaetze gesperrt, siehe ~/claude-plaetze/gesperrt.json)"
     },
     {
      "name": "Perplexity",
@@ -866,7 +866,7 @@
      "name": "Crosspost",
      "schluessel": "crosspost",
      "ampel": "gruen",
-     "text": "laeuft (pid 34390), Herzschlag vor 3 s, postet, letzter Fehler: 2026-10-13T06:04:16.918Z keine Videos in der Antwort: {\"log_"
+     "text": "laeuft (pid 34390), Herzschlag vor 6 s, postet, letzter Fehler: 2026-10-13T06:04:16.918Z keine Videos in der Antwort: {\"log_"
     },
     {
      "name": "Speicher",
@@ -902,7 +902,7 @@
      "name": "Ereignis-Sensor",
      "schluessel": "ereignisse",
      "ampel": "gruen",
-     "text": "letzter Lauf 14:44, 0 offene Ereignisse"
+     "text": "letzter Lauf 14:59, 0 offene Ereignisse"
     },
     {
      "name": "Chrome auf Timos PC",
