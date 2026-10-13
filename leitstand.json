@@ -1,7 +1,7 @@
 {
  "version": 2,
- "stand": "2026-10-13T05:17:00Z",
- "stand_berlin": "13.10.2026 07:17",
+ "stand": "2026-10-13T05:32:05Z",
+ "stand_berlin": "13.10.2026 07:32",
  "takt_min": 15,
  "quelle": "takt/leitstand_bauen.py auf Davids Mac, ohne Modell",
  "ziele": {
@@ -53,8 +53,8 @@
     },
     {
      "name": "Chef-Runde",
-     "text": "Um 07:00: entsperrt, weil alle 6 Leiterstufen schon in den letzten 2 Std. eskaliert sind (06:45 Shopify-Lesezugang …",
-     "ampel": "gelb"
+     "text": "Um 07:15: Takt ohne Ergebniszeile beendet (rc=1), Protokoll in ~/takt/laeufe.",
+     "ampel": "rot"
     }
    ]
   },
@@ -89,7 +89,7 @@
      "wer": "Timo",
      "tun": null,
      "bis": "07:30",
-     "vorbei": false,
+     "vorbei": true,
      "stufe": 1,
      "ja": []
     },
@@ -101,7 +101,7 @@
      "wer": "David",
      "tun": null,
      "bis": "07:30",
-     "vorbei": false,
+     "vorbei": true,
      "stufe": 1,
      "ja": []
     },
@@ -130,7 +130,7 @@
      "wer": "Timo",
      "tun": "3 fertige Lieferantentexte senden, 3 Minuten, 0 USD",
      "bis": "07:30",
-     "vorbei": false,
+     "vorbei": true,
      "stufe": 4,
      "ja": [
       37,
@@ -148,7 +148,7 @@
      "wer": "Timo",
      "tun": "Shopify Admin > Online Store > Preferences > Title and meta description. Homepage title eintragen",
      "bis": "07:30",
-     "vorbei": false,
+     "vorbei": true,
      "stufe": 5,
      "ja": []
     },
@@ -160,7 +160,7 @@
      "wer": "David",
      "tun": null,
      "bis": "07:30",
-     "vorbei": false,
+     "vorbei": true,
      "stufe": 6,
      "ja": [
       35
@@ -174,7 +174,7 @@
      "wer": "David",
      "tun": "Im Claude-Chat \"ja 38\" und \"ja 39\" schreiben, 1 Minute, 0 USD, kein Kauf. Grund",
      "bis": "07:30",
-     "vorbei": false,
+     "vorbei": true,
      "stufe": 6,
      "ja": [
       38,
@@ -190,7 +190,7 @@
      "wer": "David",
      "tun": "Im Claude-Chat \"ja 38\" und \"ja 39\" schreiben, 1 Minute, 0 USD, kein Kauf. Grund",
      "bis": "07:30",
-     "vorbei": false,
+     "vorbei": true,
      "stufe": 6,
      "ja": [
       38,
@@ -206,7 +206,7 @@
      "wer": "David",
      "tun": null,
      "bis": "07:30",
-     "vorbei": false,
+     "vorbei": true,
      "stufe": 6,
      "ja": [
       35
@@ -266,8 +266,8 @@
    "nr": 3,
    "id": "wer",
    "frage": "Wer arbeitet woran?",
-   "ampel": "gelb",
-   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 62 Runden heute.",
+   "ampel": "rot",
+   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 63 Runden heute.",
    "saetze": [],
    "zeilen": [
     {
@@ -282,8 +282,8 @@
     },
     {
      "name": "Claude",
-     "text": "62 Runden heute, alle 5 Minuten eine. Zuletzt: entsperrt, weil alle 6 Leiterstufen schon in den letzten 2 Std. eskaliert sind (06:45 …",
-     "ampel": "gelb"
+     "text": "63 Runden heute, alle 5 Minuten eine. Zuletzt: Takt ohne Ergebniszeile beendet (rc=1), Protokoll in ~/takt/laeufe.",
+     "ampel": "rot"
     },
     {
      "name": "Abteilungs-Chats",
@@ -315,7 +315,7 @@
     },
     {
      "name": "Runden, letzte Stunde",
-     "text": "4 Runden: 1 mit fertigem Ergebnis (Creative, Text oder Klickweg), 1 hat einen Menschen erinnert, 2 nur innen gearbeitet.",
+     "text": "4 Runden: 1 mit fertigem Ergebnis (Creative, Text oder Klickweg), 1 hat einen Menschen erinnert, 1 nur innen gearbeitet, 1 ist abgestürzt.",
      "ampel": "gelb"
     },
     {
@@ -362,7 +362,7 @@
     },
     {
      "name": "Runden",
-     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 4, davon 2 nur innen.",
+     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 4, davon 2 nur innen oder abgestürzt.",
      "ampel": "rot"
     }
    ]
@@ -521,7 +521,7 @@
      "ampel": "rot",
      "detail": "0 Bilder, 0 Videos, neu seit Montag, 12.10., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
      "quelle": "Erstellzeit der Dateien in creatives/fertig, 05_creatives/ads, 05_creatives/ki/fertig",
-     "stand": "07:17",
+     "stand": "07:32",
      "ziel": null
     },
     {
@@ -581,7 +581,7 @@
      "ampel": "grau",
      "detail": "1 Zeile im Codeblock (Formatbeispiel) nicht gezählt. Steht dort eine echte Aufgabe, gehört sie aus dem Block heraus.",
      "quelle": "timo/OFFEN.md",
-     "stand": "07:17",
+     "stand": "07:32",
      "ziel": null
     },
     {
@@ -710,7 +710,7 @@
    "zeilen": [
     {
      "name": "Wächter, letzter Lauf",
-     "wert": "07:14",
+     "wert": "07:30",
      "ampel": "gruen",
      "detail": null,
      "quelle": "waechter_zustand.json",
@@ -723,7 +723,7 @@
      "name": "Takt-Schleife",
      "schluessel": "takt",
      "ampel": "gruen",
-     "text": "letzte Runde 07:12 (chef), rc=0"
+     "text": "letzte Runde 07:19 (chef), rc=1, 1 Fehlrunde in Folge"
     },
     {
      "name": "Perplexity",
@@ -741,7 +741,7 @@
      "name": "Crosspost",
      "schluessel": "crosspost",
      "ampel": "gruen",
-     "text": "laeuft (pid 34390), Herzschlag vor 9 s, postet, letzter Fehler: 2026-10-12T20:50:50.893Z keine Videos in der Antwort: {\"log_"
+     "text": "laeuft (pid 34390), Herzschlag vor 10 s, postet, letzter Fehler: 2026-10-12T20:50:50.893Z keine Videos in der Antwort: {\"log_"
     },
     {
      "name": "Speicher",
@@ -753,7 +753,7 @@
      "name": "GitHub-Push",
      "schluessel": "github",
      "ampel": "gruen",
-     "text": "origin/main 377a528 vor 2 Min"
+     "text": "origin/main 705039c vor 14 Min"
     },
     {
      "name": "WhatsApp Web",
@@ -777,7 +777,7 @@
      "name": "Ereignis-Sensor",
      "schluessel": "ereignisse",
      "ampel": "gruen",
-     "text": "letzter Lauf 07:14, 0 offene Ereignisse"
+     "text": "letzter Lauf 07:30, 0 offene Ereignisse"
     },
     {
      "name": "Chrome auf Timos PC",
