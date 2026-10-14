@@ -1,7 +1,7 @@
 {
  "version": 2,
- "stand": "2026-10-14T14:47:05Z",
- "stand_berlin": "14.10.2026 16:47",
+ "stand": "2026-10-14T15:02:05Z",
+ "stand_berlin": "14.10.2026 17:02",
  "takt_min": 15,
  "quelle": "takt/leitstand_bauen.py auf Davids Mac, ohne Modell",
  "ziele": {
@@ -53,7 +53,7 @@
     },
     {
      "name": "Chef-Runde",
-     "text": "Um 16:25: Takt ohne Ergebniszeile beendet (rc=1), Protokoll in ~/takt/laeufe.",
+     "text": "Seit 37 min keine Runde. Die letzte (Chef-Runde, 16:25): Takt ohne Ergebniszeile beendet (rc=1), Protokoll in ~/takt/laeufe.",
      "ampel": "rot"
     }
    ]
@@ -212,7 +212,7 @@
      "wer": "David",
      "tun": "Timos Claude-Konto (pandamandabuy88@gmail.com) lief seit Tagen unbemerkt im Automatik-Pool des Chef-Takts mit und fraß sein …",
      "bis": "17:00",
-     "vorbei": false,
+     "vorbei": true,
      "stufe": 6,
      "ja": []
     },
@@ -321,7 +321,7 @@
    "id": "tempo",
    "frage": "Wie schnell geht es gerade?",
    "ampel": "rot",
-   "kurz": "Letzte Stunde: 10 Runden, 0 davon mit fertigem Ergebnis.",
+   "kurz": "Letzte Stunde: 7 Runden, 0 davon mit fertigem Ergebnis.",
    "saetze": [
     "Gewinn heute: 0,00 USD.",
     "Fertig heißt noch nicht live: 8 Ja-Schritte warten auf euer Ja (Karte 2)."
@@ -339,7 +339,7 @@
     },
     {
      "name": "Runden, letzte Stunde",
-     "text": "10 Runden: 0 mit fertigem Ergebnis (Creative, Text oder Klickweg), 2 haben einen Menschen erinnert, 1 nur innen gearbeitet, 7 sind abgestürzt.",
+     "text": "7 Runden: 0 mit fertigem Ergebnis (Creative, Text oder Klickweg), 2 haben einen Menschen erinnert, 1 nur innen gearbeitet, 4 sind abgestürzt.",
      "ampel": "rot"
     },
     {
@@ -386,7 +386,7 @@
     },
     {
      "name": "Runden",
-     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 10, davon 8 nur innen oder abgestürzt.",
+     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 7, davon 5 nur innen oder abgestürzt.",
      "ampel": "rot"
     }
    ]
@@ -545,7 +545,7 @@
      "ampel": "rot",
      "detail": "0 Bilder, 0 Videos, neu seit Montag, 12.10., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
      "quelle": "Erstellzeit der Dateien in creatives/fertig, 05_creatives/ads, 05_creatives/ki/fertig",
-     "stand": "16:47",
+     "stand": "17:02",
      "ziel": null
     },
     {
@@ -605,7 +605,7 @@
      "ampel": "grau",
      "detail": "1 Zeile im Codeblock (Formatbeispiel) nicht gezählt. Steht dort eine echte Aufgabe, gehört sie aus dem Block heraus.",
      "quelle": "timo/OFFEN.md",
-     "stand": "16:47",
+     "stand": "17:02",
      "ziel": null
     },
     {
@@ -734,7 +734,7 @@
    "zeilen": [
     {
      "name": "Wächter, letzter Lauf",
-     "wert": "16:44",
+     "wert": "16:59",
      "ampel": "gruen",
      "detail": null,
      "quelle": "waechter_zustand.json",
@@ -765,19 +765,19 @@
      "name": "Crosspost",
      "schluessel": "crosspost",
      "ampel": "gruen",
-     "text": "laeuft (pid 14503), Herzschlag vor 3 s, postet"
+     "text": "laeuft (pid 14503), Herzschlag vor 6 s, postet"
     },
     {
      "name": "Speicher",
      "schluessel": "speicher",
      "ampel": "gruen",
-     "text": "96 GB frei"
+     "text": "98 GB frei"
     },
     {
      "name": "GitHub-Push",
      "schluessel": "github",
      "ampel": "gruen",
-     "text": "origin/main 6065d3d vor 18 Min"
+     "text": "origin/main 6065d3d vor 34 Min"
     },
     {
      "name": "WhatsApp Web",
@@ -801,7 +801,7 @@
      "name": "Ereignis-Sensor",
      "schluessel": "ereignisse",
      "ampel": "gruen",
-     "text": "letzter Lauf 16:44, 0 offene Ereignisse"
+     "text": "letzter Lauf 16:59, 0 offene Ereignisse"
     },
     {
      "name": "Chrome auf Timos PC",
