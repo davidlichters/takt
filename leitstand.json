@@ -1,7 +1,7 @@
 {
  "version": 2,
- "stand": "2026-10-14T21:47:05Z",
- "stand_berlin": "14.10.2026 23:47",
+ "stand": "2026-10-14T22:02:05Z",
+ "stand_berlin": "15.10.2026 00:02",
  "takt_min": 15,
  "quelle": "takt/leitstand_bauen.py auf Davids Mac, ohne Modell",
  "ziele": {
@@ -9,7 +9,7 @@
   "gewinn_tag_usd": 2174,
   "break_even_cpa_usd": 47.01,
   "stunden_je_person": 10,
-  "tag": 14,
+  "tag": 15,
   "tage_gesamt": 92
  },
  "karten": [
@@ -53,7 +53,7 @@
     },
     {
      "name": "Chef-Runde",
-     "text": "Seit 7 h 22 min keine Runde. Die letzte (Chef-Runde, 16:25): Takt ohne Ergebniszeile beendet (rc=1), Protokoll in ~/takt/laeufe.",
+     "text": "Seit 7 h 37 min keine Runde. Die letzte (Chef-Runde, 14.10. 16:25): Takt ohne Ergebniszeile beendet (rc=1), Protokoll in ~/takt/laeufe.",
      "ampel": "rot"
     }
    ]
@@ -63,179 +63,12 @@
    "id": "auf",
    "frage": "Was hält uns auf?",
    "ampel": "rot",
-   "kurz": "16 Dinge halten uns auf.",
+   "kurz": "5 Dinge halten uns auf.",
    "saetze": [
     "Bei jedem steht, wer es tun muss. Oben steht das, was am meisten Geld kostet."
    ],
    "zeilen": [],
    "punkte": [
-    {
-     "prio": 0,
-     "block": "eskalation",
-     "quelle": "gedaechtnis/OFFEN.md",
-     "titel": "die WhatsApp-Umfrage von 07:30/07:32 in \"To-Dos\" hat nach 4 Std. 10 Min. weiter 0 Stimmen auf …",
-     "wer": "David",
-     "tun": null,
-     "bis": "12:20",
-     "vorbei": true,
-     "stufe": 1,
-     "ja": [
-      30
-     ]
-    },
-    {
-     "prio": 0,
-     "block": "eskalation",
-     "quelle": "gedaechtnis/OFFEN.md",
-     "titel": "WhatsApp \"John (Supplier)\" Block \"Gewählt\" aus ~/timo/entwuerfe/2026-10-08_john_bettpreis_frage.md …",
-     "wer": "Timo",
-     "tun": "3 fertige Lieferantentexte senden, zusammen 3 Minuten, 0 USD",
-     "bis": "01:28",
-     "vorbei": true,
-     "stufe": 4,
-     "ja": [
-      30,
-      33,
-      37,
-      30
-     ]
-    },
-    {
-     "prio": 0,
-     "block": "eskalation",
-     "quelle": "gedaechtnis/OFFEN.md",
-     "titel": "WhatsApp \"John (Supplier)\" Block \"Gewählt\" aus ~/timo/entwuerfe/2026-10-08_john_bettpreis_frage.md …",
-     "wer": "David",
-     "tun": "3 fertige Lieferantentexte senden, zusammen 3 Minuten, 0 USD",
-     "bis": "12:30",
-     "vorbei": true,
-     "stufe": 4,
-     "ja": [
-      30,
-      33,
-      37,
-      30
-     ]
-    },
-    {
-     "prio": 0,
-     "block": "eskalation",
-     "quelle": "gedaechtnis/OFFEN.md",
-     "titel": "kein_kanal: Davids Chrome hat kein Fenster offen\"; ~/takt/waechter_zustand.json Werkzeug …",
-     "wer": "David",
-     "tun": "WhatsApp Web selbst ist kaputt, nicht nur \"keine neue Nachricht\". Frisch geprüft 16:1x [SICHER, node werkzeug/wa_chat.mjs \"Bonnie …",
-     "bis": "16:14",
-     "vorbei": true,
-     "stufe": 4,
-     "ja": [
-      30
-     ]
-    },
-    {
-     "prio": 0,
-     "block": "eskalation",
-     "quelle": "gedaechtnis/OFFEN.md",
-     "titel": "Porchnap | Christmas Beds for Small Dogs and Cats. Homepage meta description eintragen: Cozy …",
-     "wer": "Timo",
-     "tun": "Shopify Admin > Online Store > Preferences > Title and meta description. Homepage title eintragen",
-     "bis": "06:13",
-     "vorbei": true,
-     "stufe": 5,
-     "ja": [
-      15
-     ]
-    },
-    {
-     "prio": 0,
-     "block": "eskalation",
-     "quelle": "gedaechtnis/OFFEN.md",
-     "titel": "im Shopify Admin die Abbruch-Warenkorb-Mail einschalten, 2 Minuten, 0 USD. Settings > Checkout …",
-     "wer": "Timo",
-     "tun": null,
-     "bis": "13:20",
-     "vorbei": true,
-     "stufe": 5,
-     "ja": []
-    },
-    {
-     "prio": 0,
-     "block": "eskalation",
-     "quelle": "gedaechtnis/OFFEN.md",
-     "titel": "beide Zeilen liegen seit 09.10. fertig in JA_LISTE.md (sechs geprüfte US-Lager-Kandidaten für das …",
-     "wer": "David",
-     "tun": "Im Claude-Chat \"ja 38\" und \"ja 39\" schreiben, 1 Minute, 0 USD, kein Kauf. Grund unverändert",
-     "bis": "01:40",
-     "vorbei": true,
-     "stufe": 6,
-     "ja": [
-      38,
-      39,
-      38
-     ]
-    },
-    {
-     "prio": 0,
-     "block": "eskalation",
-     "quelle": "gedaechtnis/OFFEN.md",
-     "titel": "beide Zeilen liegen seit 09.10. fertig in JA_LISTE.md (sechs geprüfte US-Lager-Kandidaten fürs …",
-     "wer": "David",
-     "tun": "Im Claude-Chat \"ja 38\" und \"ja 39\" schreiben, 1 Minute, 0 USD, kein Kauf. Grund unverändert",
-     "bis": "12:40",
-     "vorbei": true,
-     "stufe": 6,
-     "ja": [
-      38,
-      39,
-      38
-     ]
-    },
-    {
-     "prio": 0,
-     "block": "eskalation",
-     "quelle": "gedaechtnis/OFFEN.md",
-     "titel": "irgendeine der 8 offenen Ja-Zeilen beantworten (am günstigsten ja 30, ältester Posten, 9,8 Tage …",
-     "wer": "David",
-     "tun": null,
-     "bis": "13:15",
-     "vorbei": true,
-     "stufe": 6,
-     "ja": [
-      30,
-      40
-     ]
-    },
-    {
-     "prio": 0,
-     "block": "eskalation",
-     "quelle": "gedaechtnis/OFFEN.md",
-     "titel": "75 % nach 2 von 7 Tagen, \"ohne das wir was machen\"). Bestätigt [SICHER] …",
-     "wer": "David",
-     "tun": "Timos Claude-Konto (pandamandabuy88@gmail.com) lief seit Tagen unbemerkt im Automatik-Pool des Chef-Takts mit und fraß sein …",
-     "bis": "17:00",
-     "vorbei": true,
-     "stufe": 6,
-     "ja": []
-    },
-    {
-     "prio": 0,
-     "block": "eskalation",
-     "quelle": "gedaechtnis/OFFEN.md",
-     "titel": "\"ja 30\", \"ja 33\", \"ja 37\" (sendet die 3 fertigen Lieferantentexte an John, Adam, Bonnie, je 0 USD) …",
-     "wer": "David",
-     "tun": "8 Minuten am Stück, einmal alles durchklicken, dann steht der Takt nicht mehr im Kreis. (1) Im Claude-Chat der Reihe nach tippen",
-     "bis": "07:30",
-     "vorbei": true,
-     "stufe": null,
-     "ja": [
-      30,
-      33,
-      37,
-      38,
-      39,
-      35,
-      30
-     ]
-    },
     {
      "prio": 1,
      "block": "werkzeuge",
@@ -247,7 +80,7 @@
     {
      "prio": 1.5,
      "block": "ja",
-     "titel": "1 Ja-Frage wartet: ja winterbett (bis wird erst nach Bestellschluss relevant, kein Handeln vorher)",
+     "titel": "8 Ja-Fragen warten: ja john (bis 05.10. 10:00), ja adam (bis 05.10. 12:00), ja contabo (bis 05.10. 18:00) und 5 weitere",
      "wer": "David oder Timo",
      "tun": "Im Claude-Chat „ja <Nr>“ schreiben, Liste in timo/JA_LISTE.md",
      "quelle": "timo/JA_LISTE.md"
@@ -283,12 +116,12 @@
    "id": "wer",
    "frage": "Wer arbeitet woran?",
    "ampel": "rot",
-   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 157 Runden heute.",
+   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 0 Runden heute.",
    "saetze": [],
    "zeilen": [
     {
      "name": "David",
-     "text": "Nicht gemessen, weil David die Mac-Messung am 03.10. abgeschaltet hat. Auf David warten heute 8 Sachen (Karte 2).",
+     "text": "Nicht gemessen, weil David die Mac-Messung am 03.10. abgeschaltet hat.",
      "ampel": "grau"
     },
     {
@@ -298,7 +131,7 @@
     },
     {
      "name": "Claude",
-     "text": "157 Runden heute, alle 5 Minuten eine. Zuletzt: Takt ohne Ergebniszeile beendet (rc=1), Protokoll in ~/takt/laeufe.",
+     "text": "0 Runden heute, alle 5 Minuten eine. Zuletzt: Takt ohne Ergebniszeile beendet (rc=1), Protokoll in ~/takt/laeufe.",
      "ampel": "rot"
     },
     {
@@ -495,28 +328,28 @@
      "name": "Bestellungen heute",
      "wert": "veraltet",
      "ampel": "grau",
-     "detail": "letzte Messung 13:15, älter als 6 h: damals 0",
+     "detail": "letzte Messung 14.10. 13:15, älter als 6 h: damals 0",
      "quelle": "Shopify Admin API orders.json financial_status=paid created_at_min=2026-10-01, 14.10. 13:17",
-     "stand": "13:15",
+     "stand": "14.10. 13:15",
      "ziel": null
     },
     {
      "name": "Gewinn heute",
      "wert": "veraltet",
      "ampel": "grau",
-     "detail": "letzte Messung 13:15, älter als 6 h: damals 0,00 USD",
+     "detail": "letzte Messung 14.10. 13:15, älter als 6 h: damals 0,00 USD",
      "quelle": "0 bezahlte Bestellungen seit 01.10. (Shopify Admin API, 14.10. 13:17), damit 0 Umsatz und 0 Gewinn",
-     "stand": "13:15",
+     "stand": "14.10. 13:15",
      "ziel": "2.174 USD"
     },
     {
      "name": "Gewinn seit 01.10.",
      "wert": "veraltet",
      "ampel": "grau",
-     "detail": "letzte Messung 13:15, älter als 6 h: damals 0,00 USD",
+     "detail": "letzte Messung 14.10. 13:15, älter als 6 h: damals 0,00 USD",
      "quelle": "0 bezahlte Bestellungen seit 01.10. (Shopify Admin API, 14.10. 13:17)",
-     "stand": "13:15",
-     "ziel": "200.000 USD bis 31.12., Soll bis gestern 28.262 USD (13 Tage)"
+     "stand": "14.10. 13:15",
+     "ziel": "200.000 USD bis 31.12., Soll bis gestern 30.436 USD (14 Tage)"
     }
    ]
   },
@@ -531,7 +364,7 @@
      "ampel": "rot",
      "detail": "0 Bilder, 0 Videos, neu seit Montag, 12.10., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
      "quelle": "Erstellzeit der Dateien in creatives/fertig, 05_creatives/ads, 05_creatives/ki/fertig",
-     "stand": "23:47",
+     "stand": "00:02",
      "ziel": null
     },
     {
@@ -571,7 +404,7 @@
     },
     {
      "name": "Nächster Check-in",
-     "wert": "09:00 morgen",
+     "wert": "09:00 heute",
      "ampel": "grau",
      "detail": "Tagesstart 08:00 ist festgelegt (Plan 5). Die Check-in-Zeiten (09:00, 13:00, 18:00, 22:00) sind der Vorschlag aus Plan 2.4, noch nicht festgelegt.",
      "quelle": "LEITSTAND_PLAN.md 2.4 und 5",
@@ -591,7 +424,7 @@
      "ampel": "grau",
      "detail": "1 Zeile im Codeblock (Formatbeispiel) nicht gezählt. Steht dort eine echte Aufgabe, gehört sie aus dem Block heraus.",
      "quelle": "timo/OFFEN.md",
-     "stand": "23:47",
+     "stand": "00:02",
      "ziel": null
     },
     {
@@ -619,7 +452,7 @@
      "datum_kurz": "04.10.",
      "wer": "Timo, 10 min, im BM3 vor dem Anzeigenstart",
      "text": "ENTSCHIEDEN 03.10. 23:33 Kursrichter AENDERN (~/takt/kursrichter/urteile/2026-10-03_232719.md): erst Pixel/Datensatz …",
-     "tage_ueberfaellig": 10,
+     "tage_ueberfaellig": 11,
      "ampel": "rot"
     },
     {
@@ -627,7 +460,7 @@
      "datum_kurz": "04.10.",
      "wer": "Timo, 5 min, vor dem Anzeigenstart",
      "text": "ENTSCHIEDEN 03.10. 23:33 Kursrichter AENDERN (~/takt/kursrichter/urteile/2026-10-03_232734.md): Shopify Inbox > Agent …",
-     "tage_ueberfaellig": 10,
+     "tage_ueberfaellig": 11,
      "ampel": "rot"
     },
     {
@@ -635,7 +468,7 @@
      "datum_kurz": "05.10.",
      "wer": "Claude (Mac)",
      "text": "Daily Mentor Academy (David Fogarty): Neubezug am 02.10.2026 auf Timos PC erledigt, 299 Lektionen von Timos Handy in …",
-     "tage_ueberfaellig": 9,
+     "tage_ueberfaellig": 10,
      "ampel": "rot"
     },
     {
@@ -643,7 +476,7 @@
      "datum_kurz": "06.10.",
      "wer": "Claude, 45 min",
      "text": "Bauplan aus /system-verbessern 04.10.: Handy-Sicht-Prüfung ~/takt/handy_sicht.mjs (headless, 390 px: nichts ragt raus …",
-     "tage_ueberfaellig": 8,
+     "tage_ueberfaellig": 9,
      "ampel": "rot"
     },
     {
@@ -651,7 +484,7 @@
      "datum_kurz": "06.10.",
      "wer": "Claude, 30 min",
      "text": "Bauplan aus /system-verbessern 04.10.: Prüfung vor dem Senden, die Antwortenden mit Ja-Frage ohne frisches …",
-     "tage_ueberfaellig": 8,
+     "tage_ueberfaellig": 9,
      "ampel": "rot"
     },
     {
@@ -659,7 +492,7 @@
      "datum_kurz": "07.10.",
      "wer": "David, 1 min",
      "text": "Dateien vom Zweitlaptop, die David am 25.09. per WhatsApp geschickt hat: welche waren das, werden sie noch gebraucht? …",
-     "tage_ueberfaellig": 7,
+     "tage_ueberfaellig": 8,
      "ampel": "rot"
     },
     {
@@ -667,7 +500,7 @@
      "datum_kurz": "10.10.",
      "wer": "Timo, 2 min",
      "text": "Wer ist Inhaber des Shopify-Kontos dyhu8q-n6, auf wen läuft das Auszahlungskonto (Shopify Payments braucht einen …",
-     "tage_ueberfaellig": 4,
+     "tage_ueberfaellig": 5,
      "ampel": "rot"
     },
     {
@@ -675,7 +508,7 @@
      "datum_kurz": "10.10.",
      "wer": "Claude, 10 min",
      "text": "Rest aus der Leitstand-Kachel-Aufgabe vom 07.10.: Kachel \"AGI-Reifegrad\" (6 Punkte wie Kürzel AGI), \"Was läuft gerade\" …",
-     "tage_ueberfaellig": 4,
+     "tage_ueberfaellig": 5,
      "ampel": "rot"
     },
     {
@@ -683,7 +516,7 @@
      "datum_kurz": "10.10.",
      "wer": "Claude, am ersten Anzeigentag",
      "text": "ENTSCHIEDEN 03.10. 23:33 Kursrichter AENDERN (~/takt/kursrichter/urteile/2026-10-03_232713.md): jetzt nicht bauen; ab …",
-     "tage_ueberfaellig": 4,
+     "tage_ueberfaellig": 5,
      "ampel": "rot"
     },
     {
@@ -691,7 +524,7 @@
      "datum_kurz": "10.10.",
      "wer": "Claude, nach der ersten Bestellung",
      "text": "YouTube-Wissen weiter: 92 Texte liegen in wissen\\youtube\\text, 10 ausgewertet (23.09.), nächstes ist Nr. 11, dann 10 je …",
-     "tage_ueberfaellig": 4,
+     "tage_ueberfaellig": 5,
      "ampel": "rot"
     },
     {
@@ -699,7 +532,7 @@
      "datum_kurz": "10.10.",
      "wer": "Timo, 2 min, nach der ersten Bestellung",
      "text": "claude.exe auf dem PC anmelden (03.10.: claude auth status zeigt loggedIn false). PowerShell auf, claude, /login, im …",
-     "tage_ueberfaellig": 4,
+     "tage_ueberfaellig": 5,
      "ampel": "rot"
     },
     {
@@ -707,7 +540,7 @@
      "datum_kurz": "10.10.",
      "wer": "Claude, 10 min, nach Timos Login",
      "text": "Testrunde betrieb\\runde.ps1 -Name Testrunde fahren",
-     "tage_ueberfaellig": 4,
+     "tage_ueberfaellig": 5,
      "ampel": "rot"
     }
    ],
@@ -720,7 +553,7 @@
    "zeilen": [
     {
      "name": "Wächter, letzter Lauf",
-     "wert": "23:46",
+     "wert": "14.10. 23:57",
      "ampel": "gruen",
      "detail": null,
      "quelle": "waechter_zustand.json",
@@ -751,7 +584,7 @@
      "name": "Crosspost",
      "schluessel": "crosspost",
      "ampel": "gruen",
-     "text": "laeuft (pid 14503), Herzschlag vor 1 s, postet"
+     "text": "laeuft (pid 14503), Herzschlag vor 2 s, postet"
     },
     {
      "name": "Speicher",
@@ -787,7 +620,7 @@
      "name": "Ereignis-Sensor",
      "schluessel": "ereignisse",
      "ampel": "gruen",
-     "text": "letzter Lauf 23:46, 1 offene Ereignisse, aeltestes 19:17"
+     "text": "letzter Lauf 23:57, 1 offene Ereignisse, aeltestes 19:17"
     },
     {
      "name": "Chrome auf Timos PC",
