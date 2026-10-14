@@ -1,7 +1,7 @@
 {
  "version": 2,
- "stand": "2026-10-14T13:32:05Z",
- "stand_berlin": "14.10.2026 15:32",
+ "stand": "2026-10-14T13:47:05Z",
+ "stand_berlin": "14.10.2026 15:47",
  "takt_min": 15,
  "quelle": "takt/leitstand_bauen.py auf Davids Mac, ohne Modell",
  "ziele": {
@@ -43,7 +43,7 @@
     },
     {
      "name": "Recherche",
-     "text": "Perplexity hat heute 0 Fragen beantwortet, die letzte um 09.10. 10:50. Die letzten 24 Versuche kamen ohne Antwort zurück.",
+     "text": "Perplexity hat heute 0 Fragen beantwortet, die letzte um 09.10. 10:50. Die letzten 25 Versuche kamen ohne Antwort zurück.",
      "ampel": "rot"
     },
     {
@@ -53,7 +53,7 @@
     },
     {
      "name": "Chef-Runde",
-     "text": "Um 15:30: Takt ohne Ergebniszeile beendet (rc=1), Protokoll in ~/takt/laeufe.",
+     "text": "Um 15:45: Takt ohne Ergebniszeile beendet (rc=1), Protokoll in ~/takt/laeufe.",
      "ampel": "rot"
     }
    ]
@@ -265,7 +265,7 @@
    "id": "wer",
    "frage": "Wer arbeitet woran?",
    "ampel": "rot",
-   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 144 Runden heute.",
+   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 147 Runden heute.",
    "saetze": [],
    "zeilen": [
     {
@@ -280,7 +280,7 @@
     },
     {
      "name": "Claude",
-     "text": "144 Runden heute, alle 5 Minuten eine. Zuletzt: Takt ohne Ergebniszeile beendet (rc=1), Protokoll in ~/takt/laeufe.",
+     "text": "147 Runden heute, alle 5 Minuten eine. Zuletzt: Takt ohne Ergebniszeile beendet (rc=1), Protokoll in ~/takt/laeufe.",
      "ampel": "rot"
     },
     {
@@ -295,7 +295,7 @@
    "id": "tempo",
    "frage": "Wie schnell geht es gerade?",
    "ampel": "rot",
-   "kurz": "Letzte Stunde: 17 Runden, 0 davon mit fertigem Ergebnis.",
+   "kurz": "Letzte Stunde: 18 Runden, 0 davon mit fertigem Ergebnis.",
    "saetze": [
     "Gewinn heute: 0,00 USD.",
     "Fertig heißt noch nicht live: 8 Ja-Schritte warten auf euer Ja (Karte 2)."
@@ -313,7 +313,7 @@
     },
     {
      "name": "Runden, letzte Stunde",
-     "text": "17 Runden: 0 mit fertigem Ergebnis (Creative, Text oder Klickweg), 0 haben einen Menschen erinnert, 0 nur innen gearbeitet, 17 sind abgestürzt.",
+     "text": "18 Runden: 0 mit fertigem Ergebnis (Creative, Text oder Klickweg), 0 haben einen Menschen erinnert, 0 nur innen gearbeitet, 18 sind abgestürzt.",
      "ampel": "rot"
     },
     {
@@ -360,7 +360,7 @@
     },
     {
      "name": "Runden",
-     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 17, davon 17 nur innen oder abgestürzt.",
+     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 18, davon 18 nur innen oder abgestürzt.",
      "ampel": "rot"
     }
    ]
@@ -519,7 +519,7 @@
      "ampel": "rot",
      "detail": "0 Bilder, 0 Videos, neu seit Montag, 12.10., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
      "quelle": "Erstellzeit der Dateien in creatives/fertig, 05_creatives/ads, 05_creatives/ki/fertig",
-     "stand": "15:32",
+     "stand": "15:47",
      "ziel": null
     },
     {
@@ -579,7 +579,7 @@
      "ampel": "grau",
      "detail": "1 Zeile im Codeblock (Formatbeispiel) nicht gezählt. Steht dort eine echte Aufgabe, gehört sie aus dem Block heraus.",
      "quelle": "timo/OFFEN.md",
-     "stand": "15:32",
+     "stand": "15:47",
      "ziel": null
     },
     {
@@ -708,7 +708,7 @@
    "zeilen": [
     {
      "name": "Wächter, letzter Lauf",
-     "wert": "15:31",
+     "wert": "15:42",
      "ampel": "gruen",
      "detail": null,
      "quelle": "waechter_zustand.json",
@@ -721,13 +721,13 @@
      "name": "Takt-Schleife",
      "schluessel": "takt",
      "ampel": "rot",
-     "text": "30 Fehlrunden in Folge (letzte rc=1). Ursache: 20261014_1530.txt: You've hit your limit on every Platz (alle Plaetze gesperrt, siehe ~/claude-plaetze/gesperrt.json)"
+     "text": "32 Fehlrunden in Folge (letzte rc=1). Ursache: 20261014_1541.txt: You've hit your limit on every Platz (alle Plaetze gesperrt, siehe ~/claude-plaetze/gesperrt.json)"
     },
     {
      "name": "Perplexity",
      "schluessel": "perplexity",
      "ampel": "rot",
-     "text": "Gins Browser laeuft nicht; 24 Laeufe in Folge ohne Antwort, letzter Erfolg 09.10. 10:48; zuletzt: Browser laeuft nicht; KALTSTART_NOETIG gesetzt, Recherche-Schlange pausiert; LIZENZ_NOETIG seit 09.10. 11:49 gesetzt, Recherche-Schlange pausiert"
+     "text": "Gins Browser laeuft nicht; 25 Laeufe in Folge ohne Antwort, letzter Erfolg 09.10. 10:48; zuletzt: Browser laeuft nicht; KALTSTART_NOETIG gesetzt, Recherche-Schlange pausiert; LIZENZ_NOETIG seit 09.10. 11:49 gesetzt, Recherche-Schlange pausiert"
     },
     {
      "name": "Davids Chrome",
@@ -739,13 +739,13 @@
      "name": "Crosspost",
      "schluessel": "crosspost",
      "ampel": "gruen",
-     "text": "laeuft (pid 14503), Herzschlag vor 3 s, postet"
+     "text": "laeuft (pid 14503), Herzschlag vor 5 s, postet"
     },
     {
      "name": "Speicher",
      "schluessel": "speicher",
      "ampel": "gruen",
-     "text": "121 GB frei"
+     "text": "105 GB frei"
     },
     {
      "name": "GitHub-Push",
@@ -775,7 +775,7 @@
      "name": "Ereignis-Sensor",
      "schluessel": "ereignisse",
      "ampel": "gruen",
-     "text": "letzter Lauf 15:31, 0 offene Ereignisse"
+     "text": "letzter Lauf 15:42, 0 offene Ereignisse"
     },
     {
      "name": "Chrome auf Timos PC",
