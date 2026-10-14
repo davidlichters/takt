@@ -1,7 +1,7 @@
 {
  "version": 2,
- "stand": "2026-10-14T12:47:05Z",
- "stand_berlin": "14.10.2026 14:47",
+ "stand": "2026-10-14T13:02:05Z",
+ "stand_berlin": "14.10.2026 15:02",
  "takt_min": 15,
  "quelle": "takt/leitstand_bauen.py auf Davids Mac, ohne Modell",
  "ziele": {
@@ -53,7 +53,7 @@
     },
     {
      "name": "Chef-Runde",
-     "text": "Um 14:45: Takt ohne Ergebniszeile beendet (rc=1), Protokoll in ~/takt/laeufe.",
+     "text": "Um 15:00: Takt ohne Ergebniszeile beendet (rc=1), Protokoll in ~/takt/laeufe.",
      "ampel": "rot"
     }
    ]
@@ -273,7 +273,7 @@
    "id": "wer",
    "frage": "Wer arbeitet woran?",
    "ampel": "rot",
-   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 129 Runden heute.",
+   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 132 Runden heute.",
    "saetze": [],
    "zeilen": [
     {
@@ -288,7 +288,7 @@
     },
     {
      "name": "Claude",
-     "text": "129 Runden heute, alle 5 Minuten eine. Zuletzt: Takt ohne Ergebniszeile beendet (rc=1), Protokoll in ~/takt/laeufe.",
+     "text": "132 Runden heute, alle 5 Minuten eine. Zuletzt: Takt ohne Ergebniszeile beendet (rc=1), Protokoll in ~/takt/laeufe.",
      "ampel": "rot"
     },
     {
@@ -533,7 +533,7 @@
      "ampel": "rot",
      "detail": "0 Bilder, 0 Videos, neu seit Montag, 12.10., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
      "quelle": "Erstellzeit der Dateien in creatives/fertig, 05_creatives/ads, 05_creatives/ki/fertig",
-     "stand": "14:47",
+     "stand": "15:02",
      "ziel": null
     },
     {
@@ -593,7 +593,7 @@
      "ampel": "grau",
      "detail": "1 Zeile im Codeblock (Formatbeispiel) nicht gezählt. Steht dort eine echte Aufgabe, gehört sie aus dem Block heraus.",
      "quelle": "timo/OFFEN.md",
-     "stand": "14:47",
+     "stand": "15:02",
      "ziel": null
     },
     {
@@ -724,7 +724,7 @@
      "name": "Wächter, letzter Lauf",
      "wert": "14:23",
      "ampel": "gelb",
-     "detail": "seit 24 min kein neuer Stand",
+     "detail": "seit 39 min kein neuer Stand",
      "quelle": "waechter_zustand.json",
      "stand": null,
      "ziel": null
