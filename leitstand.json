@@ -1,7 +1,7 @@
 {
  "version": 2,
- "stand": "2026-10-14T20:02:05Z",
- "stand_berlin": "14.10.2026 22:02",
+ "stand": "2026-10-14T20:17:05Z",
+ "stand_berlin": "14.10.2026 22:17",
  "takt_min": 15,
  "quelle": "takt/leitstand_bauen.py auf Davids Mac, ohne Modell",
  "ziele": {
@@ -53,7 +53,7 @@
     },
     {
      "name": "Chef-Runde",
-     "text": "Seit 5 h 37 min keine Runde. Die letzte (Chef-Runde, 16:25): Takt ohne Ergebniszeile beendet (rc=1), Protokoll in ~/takt/laeufe.",
+     "text": "Seit 5 h 52 min keine Runde. Die letzte (Chef-Runde, 16:25): Takt ohne Ergebniszeile beendet (rc=1), Protokoll in ~/takt/laeufe.",
      "ampel": "rot"
     }
    ]
@@ -531,7 +531,7 @@
      "ampel": "rot",
      "detail": "0 Bilder, 0 Videos, neu seit Montag, 12.10., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
      "quelle": "Erstellzeit der Dateien in creatives/fertig, 05_creatives/ads, 05_creatives/ki/fertig",
-     "stand": "22:02",
+     "stand": "22:17",
      "ziel": null
     },
     {
@@ -591,7 +591,7 @@
      "ampel": "grau",
      "detail": "1 Zeile im Codeblock (Formatbeispiel) nicht gezählt. Steht dort eine echte Aufgabe, gehört sie aus dem Block heraus.",
      "quelle": "timo/OFFEN.md",
-     "stand": "22:02",
+     "stand": "22:17",
      "ziel": null
     },
     {
@@ -720,7 +720,7 @@
    "zeilen": [
     {
      "name": "Wächter, letzter Lauf",
-     "wert": "21:59",
+     "wert": "22:14",
      "ampel": "gruen",
      "detail": null,
      "quelle": "waechter_zustand.json",
@@ -739,7 +739,7 @@
      "name": "Perplexity",
      "schluessel": "perplexity",
      "ampel": "rot",
-     "text": "Gins Browser laeuft nicht; 26 Laeufe in Folge ohne Antwort, letzter Erfolg 09.10. 10:48; zuletzt: Browser laeuft nicht; KALTSTART_NOETIG gesetzt, Recherche-Schlange pausiert; LIZENZ_NOETIG seit 09.10. 11:49 gesetzt, Recherche-Schlange pausiert"
+     "text": "Gins Browser laeuft nicht; 27 Laeufe in Folge ohne Antwort, letzter Erfolg 09.10. 10:48; zuletzt: Browser laeuft nicht; KALTSTART_NOETIG gesetzt, Recherche-Schlange pausiert; LIZENZ_NOETIG seit 09.10. 11:49 gesetzt, Recherche-Schlange pausiert"
     },
     {
      "name": "Davids Chrome",
@@ -751,13 +751,13 @@
      "name": "Crosspost",
      "schluessel": "crosspost",
      "ampel": "gruen",
-     "text": "laeuft (pid 14503), Herzschlag vor 11 s, postet"
+     "text": "laeuft (pid 14503), Herzschlag vor 9 s, postet"
     },
     {
      "name": "Speicher",
      "schluessel": "speicher",
      "ampel": "gruen",
-     "text": "94 GB frei"
+     "text": "89 GB frei"
     },
     {
      "name": "GitHub-Push",
@@ -787,7 +787,7 @@
      "name": "Ereignis-Sensor",
      "schluessel": "ereignisse",
      "ampel": "gruen",
-     "text": "letzter Lauf 21:59, 1 offene Ereignisse, aeltestes 19:17"
+     "text": "letzter Lauf 22:14, 1 offene Ereignisse, aeltestes 19:17"
     },
     {
      "name": "Chrome auf Timos PC",
