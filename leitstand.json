@@ -1,7 +1,7 @@
 {
  "version": 2,
- "stand": "2026-10-14T01:32:03Z",
- "stand_berlin": "14.10.2026 03:32",
+ "stand": "2026-10-14T01:47:05Z",
+ "stand_berlin": "14.10.2026 03:47",
  "takt_min": 15,
  "quelle": "takt/leitstand_bauen.py auf Davids Mac, ohne Modell",
  "ziele": {
@@ -53,7 +53,7 @@
     },
     {
      "name": "Chef-Runde",
-     "text": "Um 03:15: Takt ohne Ergebniszeile beendet (rc=1), Protokoll in ~/takt/laeufe.",
+     "text": "Um 03:45: Takt ohne Ergebniszeile beendet (rc=1), Protokoll in ~/takt/laeufe.",
      "ampel": "rot"
     }
    ]
@@ -169,7 +169,7 @@
    "id": "wer",
    "frage": "Wer arbeitet woran?",
    "ampel": "rot",
-   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 27 Runden heute.",
+   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 29 Runden heute.",
    "saetze": [],
    "zeilen": [
     {
@@ -184,7 +184,7 @@
     },
     {
      "name": "Claude",
-     "text": "27 Runden heute, alle 5 Minuten eine. Zuletzt: Takt ohne Ergebniszeile beendet (rc=1), Protokoll in ~/takt/laeufe.",
+     "text": "29 Runden heute, alle 5 Minuten eine. Zuletzt: Takt ohne Ergebniszeile beendet (rc=1), Protokoll in ~/takt/laeufe.",
      "ampel": "rot"
     },
     {
@@ -198,8 +198,8 @@
    "nr": 4,
    "id": "tempo",
    "frage": "Wie schnell geht es gerade?",
-   "ampel": "gelb",
-   "kurz": "Letzte Stunde: 5 Runden, 0 davon mit fertigem Ergebnis.",
+   "ampel": "rot",
+   "kurz": "Letzte Stunde: 6 Runden, 0 davon mit fertigem Ergebnis.",
    "saetze": [
     "Den Gewinn heute wissen wir noch nicht, weil uns der Shopify-Zugang fehlt.",
     "Fertig heißt noch nicht live: 7 Ja-Schritte warten auf euer Ja (Karte 2)."
@@ -217,8 +217,8 @@
     },
     {
      "name": "Runden, letzte Stunde",
-     "text": "5 Runden: 0 mit fertigem Ergebnis (Creative, Text oder Klickweg), 3 haben einen Menschen erinnert, 1 nur innen gearbeitet, 1 ist abgestürzt.",
-     "ampel": "gelb"
+     "text": "6 Runden: 0 mit fertigem Ergebnis (Creative, Text oder Klickweg), 2 haben einen Menschen erinnert, 1 nur innen gearbeitet, 3 sind abgestürzt.",
+     "ampel": "rot"
     },
     {
      "name": "Erledigt heute",
@@ -264,7 +264,7 @@
     },
     {
      "name": "Runden",
-     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 5, davon 2 nur innen oder abgestürzt.",
+     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 6, davon 4 nur innen oder abgestürzt.",
      "ampel": "rot"
     }
    ]
@@ -417,7 +417,7 @@
      "ampel": "rot",
      "detail": "0 Bilder, 0 Videos, neu seit Montag, 12.10., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
      "quelle": "Erstellzeit der Dateien in creatives/fertig, 05_creatives/ads, 05_creatives/ki/fertig",
-     "stand": "03:32",
+     "stand": "03:47",
      "ziel": null
     },
     {
@@ -477,7 +477,7 @@
      "ampel": "grau",
      "detail": "1 Zeile im Codeblock (Formatbeispiel) nicht gezählt. Steht dort eine echte Aufgabe, gehört sie aus dem Block heraus.",
      "quelle": "timo/OFFEN.md",
-     "stand": "03:32",
+     "stand": "03:47",
      "ziel": null
     },
     {
@@ -606,7 +606,7 @@
    "zeilen": [
     {
      "name": "Wächter, letzter Lauf",
-     "wert": "03:31",
+     "wert": "03:41",
      "ampel": "gruen",
      "detail": null,
      "quelle": "waechter_zustand.json",
@@ -619,7 +619,7 @@
      "name": "Takt-Schleife",
      "schluessel": "takt",
      "ampel": "gruen",
-     "text": "letzte Runde 03:19 (chef), rc=1, 1 Fehlrunde in Folge"
+     "text": "letzte Runde 03:40 (chef), rc=1, 2 Fehlrunden in Folge"
     },
     {
      "name": "Perplexity",
@@ -649,7 +649,7 @@
      "name": "GitHub-Push",
      "schluessel": "github",
      "ampel": "gruen",
-     "text": "origin/main 123e4d1 vor 15 Min"
+     "text": "origin/main 11e0e88 vor 1 Min"
     },
     {
      "name": "WhatsApp Web",
@@ -673,7 +673,7 @@
      "name": "Ereignis-Sensor",
      "schluessel": "ereignisse",
      "ampel": "gruen",
-     "text": "letzter Lauf 03:31, 0 offene Ereignisse"
+     "text": "letzter Lauf 03:41, 0 offene Ereignisse"
     },
     {
      "name": "Chrome auf Timos PC",
