@@ -1,7 +1,7 @@
 {
  "version": 2,
- "stand": "2026-10-14T17:02:05Z",
- "stand_berlin": "14.10.2026 19:02",
+ "stand": "2026-10-14T17:17:05Z",
+ "stand_berlin": "14.10.2026 19:17",
  "takt_min": 15,
  "quelle": "takt/leitstand_bauen.py auf Davids Mac, ohne Modell",
  "ziele": {
@@ -53,7 +53,7 @@
     },
     {
      "name": "Chef-Runde",
-     "text": "Seit 2 h 37 min keine Runde. Die letzte (Chef-Runde, 16:25): Takt ohne Ergebniszeile beendet (rc=1), Protokoll in ~/takt/laeufe.",
+     "text": "Seit 2 h 52 min keine Runde. Die letzte (Chef-Runde, 16:25): Takt ohne Ergebniszeile beendet (rc=1), Protokoll in ~/takt/laeufe.",
      "ampel": "rot"
     }
    ]
@@ -63,7 +63,7 @@
    "id": "auf",
    "frage": "Was hält uns auf?",
    "ampel": "rot",
-   "kurz": "17 Dinge halten uns auf.",
+   "kurz": "16 Dinge halten uns auf.",
    "saetze": [
     "Bei jedem steht, wer es tun muss. Oben steht das, was am meisten Geld kostet."
    ],
@@ -255,18 +255,10 @@
     {
      "prio": 2,
      "block": "geld",
-     "titel": "2 von 5 Geldzahlen fehlen",
-     "text": "veraltet oder verworfen: Anzeigen aktiv, Ausgaben heute. Niemand sieht hier, ob Anzeigen laufen und Geld kommt. Abhilfe: keine Aufgabe fuer David oder Timo (David 04.10. 14:20: Meta, BM3, Karte nie erinnern); Claude liest Zahlen, sobald sie da sind. Bis dahin trägt ein Chat gemessene Werte ein: takt/leitstand_bauen.py --eintragen.",
+     "titel": "Keine frische Zahl zu Anzeigen und Geld",
+     "text": "veraltet oder verworfen: Anzeigen aktiv, Ausgaben heute, Bestellungen heute, Gewinn heute, Gewinn seit 01.10.. Niemand sieht hier, ob Anzeigen laufen und Geld kommt. Abhilfe: keine Aufgabe fuer David oder Timo (David 04.10. 14:20: Meta, BM3, Karte nie erinnern); Claude liest Zahlen, sobald sie da sind. Bis dahin trägt ein Chat gemessene Werte ein: takt/leitstand_bauen.py --eintragen.",
      "wer": "Timo",
      "tun": "Einmal den Shopify-Schlüssel (5 min) und den Meta-Zugang (10 min) anlegen, Plan Abschnitt 3"
-    },
-    {
-     "prio": 2,
-     "block": "geld",
-     "titel": "Rückstand 28.262 USD gegen Plan",
-     "text": "Gewinn seit 01.10. 0,00 USD, Soll nach 13 Tagen 28.262 USD (2.174 USD je Tag).",
-     "wer": "David und Timo",
-     "tun": "Anzeigen und Kasse nach betrieb/ENTSCHEIDUNGSREGELN.md prüfen"
     },
     {
      "prio": 3,
@@ -323,18 +315,18 @@
    "ampel": "rot",
    "kurz": "Letzte Stunde: 0 Runden, 0 davon mit fertigem Ergebnis.",
    "saetze": [
-    "Gewinn heute: 0,00 USD.",
+    "Den Gewinn heute wissen wir noch nicht, weil uns der Shopify-Zugang fehlt.",
     "Fertig heißt noch nicht live: 8 Ja-Schritte warten auf euer Ja (Karte 2)."
    ],
    "zeilen": [
     {
      "name": "Gewinn heute",
-     "text": "0,00 USD (gemessen 13:15, 0 bezahlte Bestellungen seit 01.10. (Shopify Admin API, 14.10. 13:17), damit 0 Umsatz und 0 Gewinn).",
-     "ampel": "gelb"
+     "text": "Wissen wir noch nicht, weil uns der Shopify-Zugang fehlt.",
+     "ampel": "grau"
     },
     {
      "name": "Bestellungen heute",
-     "text": "0 (gemessen 13:15).",
+     "text": "Wissen wir noch nicht, weil uns der Shopify-Zugang fehlt.",
      "ampel": "grau"
     },
     {
@@ -358,16 +350,16 @@
    "nr": 5,
    "id": "soll",
    "frage": "Wie schnell sollte es gehen?",
-   "ampel": "rot",
+   "ampel": "gelb",
    "kurz": "Wir schaffen 0 von 5 Zielen.",
    "saetze": [
-    "2 verfehlen wir gerade. 3 messen wir noch nicht."
+    "1 verfehlen wir gerade. 4 messen wir noch nicht."
    ],
    "zeilen": [
     {
      "name": "Gewinn",
-     "text": "Soll 2.174 USD am Tag. Heute bisher 0,00 USD.",
-     "ampel": "rot"
+     "text": "Soll 2.174 USD am Tag, damit wir bis Weihnachten 200.000 USD haben. Heute: wissen wir noch nicht.",
+     "ampel": "grau"
     },
     {
      "name": "David",
@@ -441,14 +433,8 @@
   {
    "prio": 2,
    "block": "geld",
-   "titel": "2 von 5 Geldzahlen fehlen",
-   "text": "veraltet oder verworfen: Anzeigen aktiv, Ausgaben heute. Niemand sieht hier, ob Anzeigen laufen und Geld kommt. Abhilfe: keine Aufgabe fuer David oder Timo (David 04.10. 14:20: Meta, BM3, Karte nie erinnern); Claude liest Zahlen, sobald sie da sind. Bis dahin trägt ein Chat gemessene Werte ein: takt/leitstand_bauen.py --eintragen."
-  },
-  {
-   "prio": 2,
-   "block": "geld",
-   "titel": "Rückstand 28.262 USD gegen Plan",
-   "text": "Gewinn seit 01.10. 0,00 USD, Soll nach 13 Tagen 28.262 USD (2.174 USD je Tag)."
+   "titel": "Keine frische Zahl zu Anzeigen und Geld",
+   "text": "veraltet oder verworfen: Anzeigen aktiv, Ausgaben heute, Bestellungen heute, Gewinn heute, Gewinn seit 01.10.. Niemand sieht hier, ob Anzeigen laufen und Geld kommt. Abhilfe: keine Aufgabe fuer David oder Timo (David 04.10. 14:20: Meta, BM3, Karte nie erinnern); Claude liest Zahlen, sobald sie da sind. Bis dahin trägt ein Chat gemessene Werte ein: takt/leitstand_bauen.py --eintragen."
   },
   {
    "prio": 3,
@@ -503,31 +489,31 @@
   {
    "id": "geld",
    "titel": "Geld",
-   "ampel": "rot",
+   "ampel": "grau",
    "zeilen": [
     {
      "name": "Bestellungen heute",
-     "wert": "0",
+     "wert": "veraltet",
      "ampel": "grau",
-     "detail": null,
+     "detail": "letzte Messung 13:15, älter als 6 h: damals 0",
      "quelle": "Shopify Admin API orders.json financial_status=paid created_at_min=2026-10-01, 14.10. 13:17",
      "stand": "13:15",
      "ziel": null
     },
     {
      "name": "Gewinn heute",
-     "wert": "0,00 USD",
-     "ampel": "gelb",
-     "detail": null,
+     "wert": "veraltet",
+     "ampel": "grau",
+     "detail": "letzte Messung 13:15, älter als 6 h: damals 0,00 USD",
      "quelle": "0 bezahlte Bestellungen seit 01.10. (Shopify Admin API, 14.10. 13:17), damit 0 Umsatz und 0 Gewinn",
      "stand": "13:15",
      "ziel": "2.174 USD"
     },
     {
      "name": "Gewinn seit 01.10.",
-     "wert": "0,00 USD",
-     "ampel": "rot",
-     "detail": null,
+     "wert": "veraltet",
+     "ampel": "grau",
+     "detail": "letzte Messung 13:15, älter als 6 h: damals 0,00 USD",
      "quelle": "0 bezahlte Bestellungen seit 01.10. (Shopify Admin API, 14.10. 13:17)",
      "stand": "13:15",
      "ziel": "200.000 USD bis 31.12., Soll bis gestern 28.262 USD (13 Tage)"
@@ -545,7 +531,7 @@
      "ampel": "rot",
      "detail": "0 Bilder, 0 Videos, neu seit Montag, 12.10., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
      "quelle": "Erstellzeit der Dateien in creatives/fertig, 05_creatives/ads, 05_creatives/ki/fertig",
-     "stand": "19:02",
+     "stand": "19:17",
      "ziel": null
     },
     {
@@ -605,7 +591,7 @@
      "ampel": "grau",
      "detail": "1 Zeile im Codeblock (Formatbeispiel) nicht gezählt. Steht dort eine echte Aufgabe, gehört sie aus dem Block heraus.",
      "quelle": "timo/OFFEN.md",
-     "stand": "19:02",
+     "stand": "19:17",
      "ziel": null
     },
     {
@@ -734,7 +720,7 @@
    "zeilen": [
     {
      "name": "Wächter, letzter Lauf",
-     "wert": "18:58",
+     "wert": "19:14",
      "ampel": "gruen",
      "detail": null,
      "quelle": "waechter_zustand.json",
@@ -765,7 +751,7 @@
      "name": "Crosspost",
      "schluessel": "crosspost",
      "ampel": "gruen",
-     "text": "laeuft (pid 14503), Herzschlag vor 9 s, postet"
+     "text": "laeuft (pid 14503), Herzschlag vor 5 s, postet"
     },
     {
      "name": "Speicher",
@@ -801,7 +787,7 @@
      "name": "Ereignis-Sensor",
      "schluessel": "ereignisse",
      "ampel": "gruen",
-     "text": "letzter Lauf 18:58, 0 offene Ereignisse"
+     "text": "letzter Lauf 19:14, 0 offene Ereignisse"
     },
     {
      "name": "Chrome auf Timos PC",
