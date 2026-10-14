@@ -1,7 +1,7 @@
 {
  "version": 2,
- "stand": "2026-10-14T09:32:05Z",
- "stand_berlin": "14.10.2026 11:32",
+ "stand": "2026-10-14T09:47:05Z",
+ "stand_berlin": "14.10.2026 11:47",
  "takt_min": 15,
  "quelle": "takt/leitstand_bauen.py auf Davids Mac, ohne Modell",
  "ziele": {
@@ -53,8 +53,8 @@
     },
     {
      "name": "Chef-Runde",
-     "text": "Um 11:25: entsperrt Stufe 6, weil Stufe 1 bis 5 frisch geprueft ohne neuen Treffer im Abkuehlen standen; Ursache der 31 …",
-     "ampel": "gelb"
+     "text": "Um 11:35: WhatsApp-Umfrage To-Dos (07:30/07:32) steht nach 4h10 weiter bei 0 Stimmen, neue Erinnerung in …",
+     "ampel": "gruen"
     }
    ]
   },
@@ -63,12 +63,26 @@
    "id": "auf",
    "frage": "Was hält uns auf?",
    "ampel": "rot",
-   "kurz": "9 Dinge halten uns auf.",
+   "kurz": "10 Dinge halten uns auf.",
    "saetze": [
     "Bei jedem steht, wer es tun muss. Oben steht das, was am meisten Geld kostet."
    ],
    "zeilen": [],
    "punkte": [
+    {
+     "prio": 0,
+     "block": "eskalation",
+     "quelle": "gedaechtnis/OFFEN.md",
+     "titel": "die WhatsApp-Umfrage von 07:30/07:32 in \"To-Dos\" hat nach 4 Std. 10 Min. weiter 0 Stimmen auf …",
+     "wer": "David",
+     "tun": null,
+     "bis": "12:20",
+     "vorbei": false,
+     "stufe": 1,
+     "ja": [
+      30
+     ]
+    },
     {
      "prio": 0,
      "block": "eskalation",
@@ -182,13 +196,13 @@
    "nr": 3,
    "id": "wer",
    "frage": "Wer arbeitet woran?",
-   "ampel": "gelb",
-   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 102 Runden heute.",
+   "ampel": "gruen",
+   "kurz": "David: nicht gemessen. Timo: nicht gemessen. Claude: 103 Runden heute.",
    "saetze": [],
    "zeilen": [
     {
      "name": "David",
-     "text": "Nicht gemessen, weil David die Mac-Messung am 03.10. abgeschaltet hat. Auf David warten heute 2 Sachen (Karte 2).",
+     "text": "Nicht gemessen, weil David die Mac-Messung am 03.10. abgeschaltet hat. Auf David warten heute 3 Sachen (Karte 2).",
      "ampel": "grau"
     },
     {
@@ -198,8 +212,8 @@
     },
     {
      "name": "Claude",
-     "text": "102 Runden heute, alle 5 Minuten eine. Zuletzt: entsperrt Stufe 6, weil Stufe 1 bis 5 frisch geprueft ohne neuen Treffer im Abkuehlen standen …",
-     "ampel": "gelb"
+     "text": "103 Runden heute, alle 5 Minuten eine. Zuletzt: WhatsApp-Umfrage To-Dos (07:30/07:32) steht nach 4h10 weiter bei 0 Stimmen, neue Erinnerung in …",
+     "ampel": "gruen"
     },
     {
      "name": "Abteilungs-Chats",
@@ -213,7 +227,7 @@
    "id": "tempo",
    "frage": "Wie schnell geht es gerade?",
    "ampel": "rot",
-   "kurz": "Letzte Stunde: 8 Runden, 1 davon mit fertigem Ergebnis.",
+   "kurz": "Letzte Stunde: 6 Runden, 1 davon mit fertigem Ergebnis.",
    "saetze": [
     "Den Gewinn heute wissen wir noch nicht, weil uns der Shopify-Zugang fehlt.",
     "Fertig heißt noch nicht live: 7 Ja-Schritte warten auf euer Ja (Karte 2)."
@@ -231,7 +245,7 @@
     },
     {
      "name": "Runden, letzte Stunde",
-     "text": "8 Runden: 1 mit fertigem Ergebnis (Creative, Text oder Klickweg), 0 haben einen Menschen erinnert, 1 nur innen gearbeitet, 6 sind abgestürzt.",
+     "text": "6 Runden: 1 mit fertigem Ergebnis (Creative, Text oder Klickweg), 1 hat einen Menschen erinnert, 1 nur innen gearbeitet, 3 sind abgestürzt.",
      "ampel": "rot"
     },
     {
@@ -278,7 +292,7 @@
     },
     {
      "name": "Runden",
-     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 8, davon 7 nur innen oder abgestürzt.",
+     "text": "Soll 12 Runden je Stunde, höchstens 1 von 4 nur innen. Ist 6, davon 4 nur innen oder abgestürzt.",
      "ampel": "rot"
     }
    ]
@@ -431,7 +445,7 @@
      "ampel": "rot",
      "detail": "0 Bilder, 0 Videos, neu seit Montag, 12.10., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
      "quelle": "Erstellzeit der Dateien in creatives/fertig, 05_creatives/ads, 05_creatives/ki/fertig",
-     "stand": "11:32",
+     "stand": "11:47",
      "ziel": null
     },
     {
@@ -491,7 +505,7 @@
      "ampel": "grau",
      "detail": "1 Zeile im Codeblock (Formatbeispiel) nicht gezählt. Steht dort eine echte Aufgabe, gehört sie aus dem Block heraus.",
      "quelle": "timo/OFFEN.md",
-     "stand": "11:32",
+     "stand": "11:47",
      "ziel": null
     },
     {
@@ -620,7 +634,7 @@
    "zeilen": [
     {
      "name": "Wächter, letzter Lauf",
-     "wert": "11:30",
+     "wert": "11:46",
      "ampel": "gruen",
      "detail": null,
      "quelle": "waechter_zustand.json",
@@ -633,7 +647,7 @@
      "name": "Takt-Schleife",
      "schluessel": "takt",
      "ampel": "gruen",
-     "text": "letzte Runde 11:21 (chef), rc=0, Runde laeuft seit 5 Min"
+     "text": "letzte Runde 11:43 (chef), rc=0, Runde laeuft seit 1 Min"
     },
     {
      "name": "Perplexity",
@@ -651,7 +665,7 @@
      "name": "Crosspost",
      "schluessel": "crosspost",
      "ampel": "gruen",
-     "text": "laeuft (pid 34390), Herzschlag vor 11 s, postet, letzter Fehler: 2026-10-13T20:16:52.839Z keine Videos in der Antwort: {\"log_"
+     "text": "laeuft (pid 34390), Herzschlag vor 9 s, postet, letzter Fehler: 2026-10-13T20:16:52.839Z keine Videos in der Antwort: {\"log_"
     },
     {
      "name": "Speicher",
@@ -663,13 +677,13 @@
      "name": "GitHub-Push",
      "schluessel": "github",
      "ampel": "gruen",
-     "text": "origin/main 13137e5 vor 5 Min"
+     "text": "origin/main 11c55e7 vor 1 Min"
     },
     {
      "name": "WhatsApp Web",
      "schluessel": "whatsapp",
      "ampel": "gruen",
-     "text": "ausgesetzt, WhatsApp gerade belegt: /opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/Resourc…"
+     "text": "Chatliste gelesen (apple, 10 Zeilen), 6 von 6 Lieferanten sichtbar"
     },
     {
      "name": "Shopify",
@@ -687,7 +701,7 @@
      "name": "Ereignis-Sensor",
      "schluessel": "ereignisse",
      "ampel": "gruen",
-     "text": "letzter Lauf 11:30, 0 offene Ereignisse"
+     "text": "letzter Lauf 11:46, 0 offene Ereignisse"
     },
     {
      "name": "Chrome auf Timos PC",
@@ -715,7 +729,7 @@
      "name": "Shop-Spur-Stau",
      "wert": "läuft",
      "ampel": "grau",
-     "detail": "Shop-Spur-Stau (Chef 13.10. 06:2x, Datum korrigiert 14.10. 06:3x): ~/takt/spuren/aufgaben/offen/ hat weiter 22 echte Theme-Fälle [SICHER, ls *.md | grep -v '\\.bak$' | wc -l …",
+     "detail": "Shop-Spur-Stau (Chef 13.10. 06:2x, Zahl korrigiert 14.10. 11:4x): ~/takt/spuren/aufgaben/offen/ hat 21 echte Theme-Fälle [SICHER, ls *.md | grep -v '\\.bak' | wc -l, 14.10. 11:4x …",
      "quelle": "betrieb/TAKT.md",
      "stand": null,
      "ziel": "Warteschlange unter 24 Std"
@@ -724,7 +738,7 @@
      "name": "Admin-API-Entscheidung offen",
      "wert": "läuft",
      "ampel": "grau",
-     "detail": "Admin-API-Entscheidung offen (Stufe 1, zuerst gefunden 08.10. 11:4x/12:10, GELERNT.md 2026-10-08 11:4x; Stundenzahl am 14.10. 06:3x korrigiert: die bisherige Zeile sagte …",
+     "detail": "Admin-API-Entscheidung offen (Stufe 1, zuerst gefunden 08.10. 11:4x/12:10, GELERNT.md 2026-10-08 11:4x): David soll einmal \"weiter so\" oder \"stopp\" sagen zu Chef-Runden, die ohne …",
      "quelle": "betrieb/TAKT.md",
      "stand": null,
      "ziel": "David \"weiter so\" oder \"stopp\" sagt"
