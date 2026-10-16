@@ -1,7 +1,7 @@
 {
  "version": 2,
- "stand": "2026-10-16T13:32:05Z",
- "stand_berlin": "16.10.2026 15:32",
+ "stand": "2026-10-16T13:47:05Z",
+ "stand_berlin": "16.10.2026 15:47",
  "takt_min": 15,
  "quelle": "takt/leitstand_bauen.py auf Davids Mac, ohne Modell",
  "ziele": {
@@ -53,7 +53,7 @@
     },
     {
      "name": "Chef-Runde",
-     "text": "Seit 47 h 07 min keine Runde. Die letzte (Chef-Runde, 14.10. 16:25): Takt ohne Ergebniszeile beendet (rc=1), Protokoll in ~/takt/laeufe.",
+     "text": "Seit 47 h 22 min keine Runde. Die letzte (Chef-Runde, 14.10. 16:25): Takt ohne Ergebniszeile beendet (rc=1), Protokoll in ~/takt/laeufe.",
      "ampel": "rot"
     }
    ]
@@ -364,7 +364,7 @@
      "ampel": "rot",
      "detail": "0 Bilder, 0 Videos, neu seit Montag, 12.10., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
      "quelle": "Erstellzeit der Dateien in creatives/fertig, 05_creatives/ads, 05_creatives/ki/fertig",
-     "stand": "15:32",
+     "stand": "15:47",
      "ziel": null
     },
     {
@@ -424,7 +424,7 @@
      "ampel": "grau",
      "detail": "1 Zeile im Codeblock (Formatbeispiel) nicht gezählt. Steht dort eine echte Aufgabe, gehört sie aus dem Block heraus.",
      "quelle": "timo/OFFEN.md",
-     "stand": "15:32",
+     "stand": "15:47",
      "ziel": null
     },
     {
@@ -553,7 +553,7 @@
    "zeilen": [
     {
      "name": "Wächter, letzter Lauf",
-     "wert": "15:27",
+     "wert": "15:42",
      "ampel": "gruen",
      "detail": null,
      "quelle": "waechter_zustand.json",
@@ -620,7 +620,7 @@
      "name": "Ereignis-Sensor",
      "schluessel": "ereignisse",
      "ampel": "gruen",
-     "text": "letzter Lauf 15:27, 1 offene Ereignisse, aeltestes 19:17"
+     "text": "letzter Lauf 15:42, 1 offene Ereignisse, aeltestes 19:17"
     },
     {
      "name": "Chrome auf Timos PC",
