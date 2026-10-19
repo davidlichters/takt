@@ -1,7 +1,7 @@
 {
  "version": 2,
- "stand": "2026-10-19T06:47:05Z",
- "stand_berlin": "19.10.2026 08:47",
+ "stand": "2026-10-19T07:02:05Z",
+ "stand_berlin": "19.10.2026 09:02",
  "takt_min": 15,
  "quelle": "takt/leitstand_bauen.py auf Davids Mac, ohne Modell",
  "ziele": {
@@ -53,7 +53,7 @@
     },
     {
      "name": "Chef-Runde",
-     "text": "Seit 112 h 22 min keine Runde. Die letzte (Chef-Runde, 14.10. 16:25): Takt ohne Ergebniszeile beendet (rc=1), Protokoll in ~/takt/laeufe.",
+     "text": "Seit 112 h 37 min keine Runde. Die letzte (Chef-Runde, 14.10. 16:25): Takt ohne Ergebniszeile beendet (rc=1), Protokoll in ~/takt/laeufe.",
      "ampel": "rot"
     }
    ]
@@ -364,7 +364,7 @@
      "ampel": "rot",
      "detail": "0 Bilder, 0 Videos, neu seit Montag, 19.10., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
      "quelle": "Erstellzeit der Dateien in creatives/fertig, 05_creatives/ads, 05_creatives/ki/fertig",
-     "stand": "08:47",
+     "stand": "09:02",
      "ziel": null
     },
     {
@@ -404,7 +404,7 @@
     },
     {
      "name": "Nächster Check-in",
-     "wert": "09:00 heute",
+     "wert": "13:00 heute",
      "ampel": "grau",
      "detail": "Tagesstart 08:00 ist festgelegt (Plan 5). Die Check-in-Zeiten (09:00, 13:00, 18:00, 22:00) sind der Vorschlag aus Plan 2.4, noch nicht festgelegt.",
      "quelle": "LEITSTAND_PLAN.md 2.4 und 5",
@@ -424,7 +424,7 @@
      "ampel": "grau",
      "detail": "1 Zeile im Codeblock (Formatbeispiel) nicht gezählt. Steht dort eine echte Aufgabe, gehört sie aus dem Block heraus.",
      "quelle": "timo/OFFEN.md",
-     "stand": "08:47",
+     "stand": "09:02",
      "ziel": null
     },
     {
@@ -553,7 +553,7 @@
    "zeilen": [
     {
      "name": "Wächter, letzter Lauf",
-     "wert": "08:44",
+     "wert": "08:59",
      "ampel": "gruen",
      "detail": null,
      "quelle": "waechter_zustand.json",
@@ -584,7 +584,7 @@
      "name": "Crosspost",
      "schluessel": "crosspost",
      "ampel": "gruen",
-     "text": "laeuft (pid 14503), Herzschlag vor 1 s, postet, letzter Fehler: 2026-10-18T14:49:20.212Z The operation was aborted due to ti"
+     "text": "laeuft (pid 14503), Herzschlag vor 9 s, postet, letzter Fehler: 2026-10-18T14:49:20.212Z The operation was aborted due to ti"
     },
     {
      "name": "Speicher",
@@ -620,7 +620,7 @@
      "name": "Ereignis-Sensor",
      "schluessel": "ereignisse",
      "ampel": "gruen",
-     "text": "letzter Lauf 08:44, 2 offene Ereignisse, aeltestes 19:17"
+     "text": "letzter Lauf 08:59, 2 offene Ereignisse, aeltestes 19:17"
     },
     {
      "name": "Chrome auf Timos PC",
