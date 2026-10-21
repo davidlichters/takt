@@ -1,7 +1,7 @@
 {
  "version": 2,
- "stand": "2026-10-21T21:47:05Z",
- "stand_berlin": "21.10.2026 23:47",
+ "stand": "2026-10-21T22:02:05Z",
+ "stand_berlin": "22.10.2026 00:02",
  "takt_min": 15,
  "quelle": "takt/leitstand_bauen.py auf Davids Mac, ohne Modell",
  "ziele": {
@@ -9,7 +9,7 @@
   "gewinn_tag_usd": 2174,
   "break_even_cpa_usd": 47.01,
   "stunden_je_person": 10,
-  "tag": 21,
+  "tag": 22,
   "tage_gesamt": 92
  },
  "karten": [
@@ -53,7 +53,7 @@
     },
     {
      "name": "Chef-Runde",
-     "text": "Seit 175 h 22 min keine Runde. Die letzte (Chef-Runde, 14.10. 16:25): Takt ohne Ergebniszeile beendet (rc=1), Protokoll in ~/takt/laeufe.",
+     "text": "Seit 175 h 37 min keine Runde. Die letzte (Chef-Runde, 14.10. 16:25): Takt ohne Ergebniszeile beendet (rc=1), Protokoll in ~/takt/laeufe.",
      "ampel": "rot"
     }
    ]
@@ -104,10 +104,10 @@
     {
      "prio": 4,
      "block": "aufgaben",
-     "wer": "Timo 7, David 1, Claude 7",
+     "wer": "Timo 8, David 1, Claude 8",
      "tun": "Die älteste zuerst erledigen oder neu datieren; Liste unten unter Offene Aufgaben",
-     "titel": "14 Aufgaben überfällig",
-     "text": "Älteste: 04.10., Timo, 10 min, im BM3 vor dem Anzeigenstart. Davon nennen Timo 7, David 1, Claude 7."
+     "titel": "15 Aufgaben überfällig",
+     "text": "Älteste: 04.10., Timo, 10 min, im BM3 vor dem Anzeigenstart. Davon nennen Timo 8, David 1, Claude 8."
     }
    ]
   },
@@ -126,7 +126,7 @@
     },
     {
      "name": "Timo",
-     "text": "Nicht gemessen, das hat Timo am 03.10. so entschieden. 7 überfällige Aufgaben nennen Timo.",
+     "text": "Nicht gemessen, das hat Timo am 03.10. so entschieden. 8 überfällige Aufgaben nennen Timo.",
      "ampel": "grau"
     },
     {
@@ -278,10 +278,10 @@
   {
    "prio": 4,
    "block": "aufgaben",
-   "wer": "Timo 7, David 1, Claude 7",
+   "wer": "Timo 8, David 1, Claude 8",
    "tun": "die älteste zuerst erledigen oder neu datieren; Liste unten unter Offene Aufgaben",
-   "titel": "14 Aufgaben überfällig",
-   "text": "Älteste: 04.10., Timo, 10 min, im BM3 vor dem Anzeigenstart. Davon nennen Timo 7, David 1, Claude 7."
+   "titel": "15 Aufgaben überfällig",
+   "text": "Älteste: 04.10., Timo, 10 min, im BM3 vor dem Anzeigenstart. Davon nennen Timo 8, David 1, Claude 8."
   }
  ],
  "bloecke": [
@@ -349,7 +349,7 @@
      "detail": "letzte Messung 14.10. 13:15, älter als 6 h: damals 0,00 USD",
      "quelle": "0 bezahlte Bestellungen seit 01.10. (Shopify Admin API, 14.10. 13:17)",
      "stand": "14.10. 13:15",
-     "ziel": "200.000 USD bis 31.12., Soll bis gestern 43.480 USD (20 Tage)"
+     "ziel": "200.000 USD bis 31.12., Soll bis gestern 45.654 USD (21 Tage)"
     }
    ]
   },
@@ -364,7 +364,7 @@
      "ampel": "rot",
      "detail": "0 Bilder, 0 Videos, neu seit Montag, 19.10., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
      "quelle": "Erstellzeit der Dateien in creatives/fertig, 05_creatives/ads, 05_creatives/ki/fertig",
-     "stand": "23:47",
+     "stand": "00:02",
      "ziel": null
     },
     {
@@ -404,7 +404,7 @@
     },
     {
      "name": "Nächster Check-in",
-     "wert": "09:00 morgen",
+     "wert": "09:00 heute",
      "ampel": "grau",
      "detail": "Tagesstart 08:00 ist festgelegt (Plan 5). Die Check-in-Zeiten (09:00, 13:00, 18:00, 22:00) sind der Vorschlag aus Plan 2.4, noch nicht festgelegt.",
      "quelle": "LEITSTAND_PLAN.md 2.4 und 5",
@@ -424,14 +424,14 @@
      "ampel": "grau",
      "detail": "1 Zeile im Codeblock (Formatbeispiel) nicht gezählt. Steht dort eine echte Aufgabe, gehört sie aus dem Block heraus.",
      "quelle": "timo/OFFEN.md",
-     "stand": "23:47",
+     "stand": "00:02",
      "ziel": null
     },
     {
      "name": "Überfällig",
-     "wert": "14",
+     "wert": "15",
      "ampel": "rot",
-     "detail": "davon nennen Timo 7, David 1, Claude 7",
+     "detail": "davon nennen Timo 8, David 1, Claude 8",
      "quelle": null,
      "stand": null,
      "ziel": null
@@ -452,7 +452,7 @@
      "datum_kurz": "04.10.",
      "wer": "Timo, 10 min, im BM3 vor dem Anzeigenstart",
      "text": "ENTSCHIEDEN 03.10. 23:33 Kursrichter AENDERN (~/takt/kursrichter/urteile/2026-10-03_232719.md): erst Pixel/Datensatz …",
-     "tage_ueberfaellig": 17,
+     "tage_ueberfaellig": 18,
      "ampel": "rot"
     },
     {
@@ -460,7 +460,7 @@
      "datum_kurz": "04.10.",
      "wer": "Timo, 5 min, vor dem Anzeigenstart",
      "text": "ENTSCHIEDEN 03.10. 23:33 Kursrichter AENDERN (~/takt/kursrichter/urteile/2026-10-03_232734.md): Shopify Inbox > Agent …",
-     "tage_ueberfaellig": 17,
+     "tage_ueberfaellig": 18,
      "ampel": "rot"
     },
     {
@@ -468,7 +468,7 @@
      "datum_kurz": "05.10.",
      "wer": "Claude (Mac)",
      "text": "Daily Mentor Academy (David Fogarty): Neubezug am 02.10.2026 auf Timos PC erledigt, 299 Lektionen von Timos Handy in …",
-     "tage_ueberfaellig": 16,
+     "tage_ueberfaellig": 17,
      "ampel": "rot"
     },
     {
@@ -476,7 +476,7 @@
      "datum_kurz": "06.10.",
      "wer": "Claude, 45 min",
      "text": "Bauplan aus /system-verbessern 04.10.: Handy-Sicht-Prüfung ~/takt/handy_sicht.mjs (headless, 390 px: nichts ragt raus …",
-     "tage_ueberfaellig": 15,
+     "tage_ueberfaellig": 16,
      "ampel": "rot"
     },
     {
@@ -484,7 +484,7 @@
      "datum_kurz": "06.10.",
      "wer": "Claude, 30 min",
      "text": "Bauplan aus /system-verbessern 04.10.: Prüfung vor dem Senden, die Antwortenden mit Ja-Frage ohne frisches …",
-     "tage_ueberfaellig": 15,
+     "tage_ueberfaellig": 16,
      "ampel": "rot"
     },
     {
@@ -492,7 +492,7 @@
      "datum_kurz": "07.10.",
      "wer": "David, 1 min",
      "text": "Dateien vom Zweitlaptop, die David am 25.09. per WhatsApp geschickt hat: welche waren das, werden sie noch gebraucht? …",
-     "tage_ueberfaellig": 14,
+     "tage_ueberfaellig": 15,
      "ampel": "rot"
     },
     {
@@ -500,7 +500,7 @@
      "datum_kurz": "10.10.",
      "wer": "Timo, 2 min",
      "text": "Wer ist Inhaber des Shopify-Kontos dyhu8q-n6, auf wen läuft das Auszahlungskonto (Shopify Payments braucht einen …",
-     "tage_ueberfaellig": 11,
+     "tage_ueberfaellig": 12,
      "ampel": "rot"
     },
     {
@@ -508,7 +508,7 @@
      "datum_kurz": "10.10.",
      "wer": "Claude, 10 min",
      "text": "Rest aus der Leitstand-Kachel-Aufgabe vom 07.10.: Kachel \"AGI-Reifegrad\" (6 Punkte wie Kürzel AGI), \"Was läuft gerade\" …",
-     "tage_ueberfaellig": 11,
+     "tage_ueberfaellig": 12,
      "ampel": "rot"
     },
     {
@@ -516,7 +516,7 @@
      "datum_kurz": "10.10.",
      "wer": "Claude, am ersten Anzeigentag",
      "text": "ENTSCHIEDEN 03.10. 23:33 Kursrichter AENDERN (~/takt/kursrichter/urteile/2026-10-03_232713.md): jetzt nicht bauen; ab …",
-     "tage_ueberfaellig": 11,
+     "tage_ueberfaellig": 12,
      "ampel": "rot"
     },
     {
@@ -524,7 +524,7 @@
      "datum_kurz": "10.10.",
      "wer": "Claude, nach der ersten Bestellung",
      "text": "YouTube-Wissen weiter: 92 Texte liegen in wissen\\youtube\\text, 10 ausgewertet (23.09.), nächstes ist Nr. 11, dann 10 je …",
-     "tage_ueberfaellig": 11,
+     "tage_ueberfaellig": 12,
      "ampel": "rot"
     },
     {
@@ -532,7 +532,7 @@
      "datum_kurz": "10.10.",
      "wer": "Timo, 2 min, nach der ersten Bestellung",
      "text": "claude.exe auf dem PC anmelden (03.10.: claude auth status zeigt loggedIn false). PowerShell auf, claude, /login, im …",
-     "tage_ueberfaellig": 11,
+     "tage_ueberfaellig": 12,
      "ampel": "rot"
     },
     {
@@ -540,7 +540,7 @@
      "datum_kurz": "10.10.",
      "wer": "Claude, 10 min, nach Timos Login",
      "text": "Testrunde betrieb\\runde.ps1 -Name Testrunde fahren",
-     "tage_ueberfaellig": 11,
+     "tage_ueberfaellig": 12,
      "ampel": "rot"
     }
    ],
@@ -553,7 +553,7 @@
    "zeilen": [
     {
      "name": "Wächter, letzter Lauf",
-     "wert": "23:46",
+     "wert": "00:01",
      "ampel": "gruen",
      "detail": null,
      "quelle": "waechter_zustand.json",
@@ -584,13 +584,13 @@
      "name": "Crosspost",
      "schluessel": "crosspost",
      "ampel": "gruen",
-     "text": "laeuft (pid 14503), Herzschlag vor 2 s, postet, letzter Fehler: 2026-10-21T21:02:49.745Z keine Videos in der Antwort: {\"extr"
+     "text": "laeuft (pid 14503), Herzschlag vor 4 s, postet, letzter Fehler: 2026-10-21T21:02:49.745Z keine Videos in der Antwort: {\"extr"
     },
     {
      "name": "Speicher",
      "schluessel": "speicher",
      "ampel": "gruen",
-     "text": "39 GB frei"
+     "text": "57 GB frei"
     },
     {
      "name": "GitHub-Push",
@@ -620,7 +620,7 @@
      "name": "Ereignis-Sensor",
      "schluessel": "ereignisse",
      "ampel": "gruen",
-     "text": "letzter Lauf 23:46, 2 offene Ereignisse, aeltestes 19:17"
+     "text": "letzter Lauf 00:01, 2 offene Ereignisse, aeltestes 19:17"
     },
     {
      "name": "Chrome auf Timos PC",
