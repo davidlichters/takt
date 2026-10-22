@@ -1,7 +1,7 @@
 {
  "version": 2,
- "stand": "2026-10-21T23:47:05Z",
- "stand_berlin": "22.10.2026 01:47",
+ "stand": "2026-10-22T00:02:05Z",
+ "stand_berlin": "22.10.2026 02:02",
  "takt_min": 15,
  "quelle": "takt/leitstand_bauen.py auf Davids Mac, ohne Modell",
  "ziele": {
@@ -53,7 +53,7 @@
     },
     {
      "name": "Chef-Runde",
-     "text": "Seit 177 h 22 min keine Runde. Die letzte (Chef-Runde, 14.10. 16:25): Takt ohne Ergebniszeile beendet (rc=1), Protokoll in ~/takt/laeufe.",
+     "text": "Seit 177 h 37 min keine Runde. Die letzte (Chef-Runde, 14.10. 16:25): Takt ohne Ergebniszeile beendet (rc=1), Protokoll in ~/takt/laeufe.",
      "ampel": "rot"
     }
    ]
@@ -364,7 +364,7 @@
      "ampel": "rot",
      "detail": "0 Bilder, 0 Videos, neu seit Montag, 19.10., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
      "quelle": "Erstellzeit der Dateien in creatives/fertig, 05_creatives/ads, 05_creatives/ki/fertig",
-     "stand": "01:47",
+     "stand": "02:02",
      "ziel": null
     },
     {
@@ -424,7 +424,7 @@
      "ampel": "grau",
      "detail": "1 Zeile im Codeblock (Formatbeispiel) nicht gezählt. Steht dort eine echte Aufgabe, gehört sie aus dem Block heraus.",
      "quelle": "timo/OFFEN.md",
-     "stand": "01:47",
+     "stand": "02:02",
      "ziel": null
     },
     {
@@ -553,7 +553,7 @@
    "zeilen": [
     {
      "name": "Wächter, letzter Lauf",
-     "wert": "01:44",
+     "wert": "01:59",
      "ampel": "gruen",
      "detail": null,
      "quelle": "waechter_zustand.json",
@@ -584,7 +584,7 @@
      "name": "Crosspost",
      "schluessel": "crosspost",
      "ampel": "gruen",
-     "text": "laeuft (pid 14503), Herzschlag vor 6 s, postet, letzter Fehler: 2026-10-21T22:07:26.054Z The operation was aborted due to ti"
+     "text": "laeuft (pid 14503), Herzschlag vor 4 s, postet, letzter Fehler: 2026-10-21T22:07:26.054Z The operation was aborted due to ti"
     },
     {
      "name": "Speicher",
@@ -620,7 +620,7 @@
      "name": "Ereignis-Sensor",
      "schluessel": "ereignisse",
      "ampel": "gruen",
-     "text": "letzter Lauf 01:44, 2 offene Ereignisse, aeltestes 19:17"
+     "text": "letzter Lauf 01:59, 2 offene Ereignisse, aeltestes 19:17"
     },
     {
      "name": "Chrome auf Timos PC",
