@@ -1,7 +1,7 @@
 {
  "version": 2,
- "stand": "2026-10-25T17:47:12Z",
- "stand_berlin": "25.10.2026 18:47",
+ "stand": "2026-10-25T19:47:05Z",
+ "stand_berlin": "25.10.2026 20:47",
  "takt_min": 15,
  "quelle": "takt/leitstand_bauen.py auf Davids Mac, ohne Modell",
  "ziele": {
@@ -43,17 +43,17 @@
     },
     {
      "name": "Recherche",
-     "text": "Perplexity hat heute 0 Fragen beantwortet, die letzte um 09.10. 10:50. Die letzten 36 Versuche kamen ohne Antwort zurück.",
+     "text": "Perplexity hat heute 0 Fragen beantwortet, die letzte um 09.10. 10:50. Die letzten 37 Versuche kamen ohne Antwort zurück.",
      "ampel": "rot"
     },
     {
      "name": "Technik",
-     "text": "Der Wächter prüft alle 5 Minuten 10 Werkzeuge: 6 gehen, 3 kaputt (Takt-Schleife, Perplexity, WhatsApp Web), 1 warten auf Zugang oder sind aus (Meta). 1 weiteres prüft er noch nicht.",
+     "text": "Der Wächter prüft alle 5 Minuten 10 Werkzeuge: 3 gehen, 6 kaputt (Takt-Schleife, Perplexity, Davids Chrome, Crosspost, WhatsApp Web, Ereignis-Sensor), 1 warten auf Zugang oder sind aus (Meta). 1 weiteres prüft er noch nicht.",
      "ampel": "rot"
     },
     {
      "name": "Chef-Runde",
-     "text": "Seit 266 h 22 min keine Runde. Die letzte (Chef-Runde, 14.10. 16:25): Takt ohne Ergebniszeile beendet (rc=1), Protokoll in ~/takt/laeufe.",
+     "text": "Seit 268 h 22 min keine Runde. Die letzte (Chef-Runde, 14.10. 16:25): Takt ohne Ergebniszeile beendet (rc=1), Protokoll in ~/takt/laeufe.",
      "ampel": "rot"
     }
    ]
@@ -72,10 +72,10 @@
     {
      "prio": 1,
      "block": "werkzeuge",
-     "titel": "3 Werkzeuge rot",
-     "text": "Takt-Schleife, Perplexity, WhatsApp Web",
+     "titel": "6 Werkzeuge rot",
+     "text": "Takt-Schleife, Perplexity, Davids Chrome, Crosspost, WhatsApp Web, Ereignis-Sensor",
      "wer": "Claude (Technik)",
-     "tun": "Reparieren. Grund: Takt-Schleife, Perplexity, WhatsApp Web"
+     "tun": "Reparieren. Grund: Takt-Schleife, Perplexity, Davids Chrome, Crosspost, WhatsApp Web …"
     },
     {
      "prio": 1.5,
@@ -260,8 +260,8 @@
   {
    "prio": 1,
    "block": "werkzeuge",
-   "titel": "3 Werkzeuge rot",
-   "text": "Takt-Schleife, Perplexity, WhatsApp Web"
+   "titel": "6 Werkzeuge rot",
+   "text": "Takt-Schleife, Perplexity, Davids Chrome, Crosspost, WhatsApp Web, Ereignis-Sensor"
   },
   {
    "prio": 2,
@@ -364,7 +364,7 @@
      "ampel": "rot",
      "detail": "0 Bilder, 0 Videos, neu seit Montag, 19.10., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
      "quelle": "Erstellzeit der Dateien in creatives/fertig, 05_creatives/ads, 05_creatives/ki/fertig",
-     "stand": "18:47",
+     "stand": "20:47",
      "ziel": null
     },
     {
@@ -424,7 +424,7 @@
      "ampel": "grau",
      "detail": "1 Zeile im Codeblock (Formatbeispiel) nicht gezählt. Steht dort eine echte Aufgabe, gehört sie aus dem Block heraus.",
      "quelle": "timo/OFFEN.md",
-     "stand": "18:47",
+     "stand": "20:47",
      "ziel": null
     },
     {
@@ -553,7 +553,7 @@
    "zeilen": [
     {
      "name": "Wächter, letzter Lauf",
-     "wert": "18:43",
+     "wert": "20:44",
      "ampel": "gruen",
      "detail": null,
      "quelle": "waechter_zustand.json",
@@ -572,19 +572,19 @@
      "name": "Perplexity",
      "schluessel": "perplexity",
      "ampel": "rot",
-     "text": "Gins Browser laeuft nicht; 36 Laeufe in Folge ohne Antwort, letzter Erfolg 09.10. 10:48; zuletzt: Browser laeuft nicht; KALTSTART_NOETIG gesetzt, Recherche-Schlange pausiert; LIZENZ_NOETIG seit 09.10. 11:49 gesetzt, Recherche-Schlange pausiert"
+     "text": "Gins Browser laeuft nicht; 37 Laeufe in Folge ohne Antwort, letzter Erfolg 09.10. 10:48; zuletzt: Browser laeuft nicht; KALTSTART_NOETIG gesetzt, Recherche-Schlange pausiert; LIZENZ_NOETIG seit 09.10. 11:49 gesetzt, Recherche-Schlange pausiert"
     },
     {
      "name": "Davids Chrome",
      "schluessel": "chrome",
-     "ampel": "gruen",
-     "text": "laeuft seit 14.10. 15:05, Crosspost-Chrome seit 15:05; WhatsApp-Alarme gehen per PID an Davids Chrome"
+     "ampel": "rot",
+     "text": "Davids eigenes Chrome laeuft nicht"
     },
     {
      "name": "Crosspost",
      "schluessel": "crosspost",
-     "ampel": "gruen",
-     "text": "laeuft (pid 14503), Herzschlag vor 4 s, postet, letzter Fehler: 2026-10-25T16:46:30.783Z The operation was aborted due to ti"
+     "ampel": "rot",
+     "text": "launchd-Job com.david.crosspost nicht geladen"
     },
     {
      "name": "Speicher",
@@ -602,7 +602,7 @@
      "name": "WhatsApp Web",
      "schluessel": "whatsapp",
      "ampel": "rot",
-     "text": "WhatsApp-Kanal nicht bereit (kein_tab): In Davids Chrome ist kein WhatsApp-Tab offen; der Sensor oeffnet bewusst keinen."
+     "text": "WhatsApp-Kanal nicht bereit (kein_apple): Davids Chrome antwortet nicht auf Apple Events: Google Chrome is not running (Davids eigenes Chrome laeuft nicht)"
     },
     {
      "name": "Shopify",
@@ -619,8 +619,8 @@
     {
      "name": "Ereignis-Sensor",
      "schluessel": "ereignisse",
-     "ampel": "gruen",
-     "text": "letzter Lauf 18:43, 2 offene Ereignisse, aeltestes 19:17"
+     "ampel": "rot",
+     "text": "steht seit 25.10. 18:52 (vor 112 Min), keine Ereignisse mehr"
     },
     {
      "name": "Chrome auf Timos PC",
