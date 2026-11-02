@@ -1,7 +1,7 @@
 {
  "version": 2,
- "stand": "2026-11-02T21:17:04Z",
- "stand_berlin": "02.11.2026 22:17",
+ "stand": "2026-11-02T21:32:05Z",
+ "stand_berlin": "02.11.2026 22:32",
  "takt_min": 15,
  "quelle": "takt/leitstand_bauen.py auf Davids Mac, ohne Modell",
  "ziele": {
@@ -48,12 +48,12 @@
     },
     {
      "name": "Technik",
-     "text": "Der Wächter prüft alle 5 Minuten 11 Werkzeuge: 7 gehen, 2 kaputt (Takt-Schleife, Perplexity), 2 warten auf Zugang oder sind aus (Curlmoon, Meta). 1 weiteres prüft er noch nicht.",
+     "text": "Der Wächter prüft alle 5 Minuten 11 Werkzeuge: 6 gehen, 3 kaputt (Takt-Schleife, Perplexity, WhatsApp Web), 2 warten auf Zugang oder sind aus (Curlmoon, Meta). 1 weiteres prüft er noch nicht.",
      "ampel": "rot"
     },
     {
      "name": "Chef-Runde",
-     "text": "Seit 461 h 52 min keine Runde. Die letzte (Chef-Runde, 14.10. 16:25): Takt ohne Ergebniszeile beendet (rc=1), Protokoll in ~/takt/laeufe.",
+     "text": "Seit 462 h 07 min keine Runde. Die letzte (Chef-Runde, 14.10. 16:25): Takt ohne Ergebniszeile beendet (rc=1), Protokoll in ~/takt/laeufe.",
      "ampel": "rot"
     }
    ]
@@ -63,7 +63,7 @@
    "id": "auf",
    "frage": "Was hält uns auf?",
    "ampel": "rot",
-   "kurz": "6 Dinge halten uns auf.",
+   "kurz": "5 Dinge halten uns auf.",
    "saetze": [
     "Bei jedem steht, wer es tun muss. Oben steht das, was am meisten Geld kostet."
    ],
@@ -72,18 +72,10 @@
     {
      "prio": 1,
      "block": "werkzeuge",
-     "titel": "Takt-Schleife ist kaputt",
-     "text": "launchd-Job de.david.takt nicht geladen, letzte Runde 14.10. 16:25. Absicht? Dann ~/takt/TAKT_PAUSE anlegen",
+     "titel": "3 Werkzeuge rot",
+     "text": "Takt-Schleife, Perplexity, WhatsApp Web",
      "wer": "Claude (Technik)",
-     "tun": "Reparieren. Grund: launchd-Job de.david.takt nicht geladen, letzte Runde 14.10. 16:25. Absicht? …"
-    },
-    {
-     "prio": 1,
-     "block": "werkzeuge",
-     "titel": "Perplexity ist kaputt",
-     "text": "letzter Lauf 16:21: LOGIN FEHLT: nach drei Versuchen ueber die ToolSuite-Kachel nicht angemeldet; KALTSTART_NOETIG gesetzt, Recherche-Schlange pausiert",
-     "wer": "Claude (Technik)",
-     "tun": "Reparieren. Grund: letzter Lauf 16:21: LOGIN FEHLT: nach drei Versuchen ueber die ToolSuite-Kachel …"
+     "tun": "Reparieren. Grund: Takt-Schleife, Perplexity, WhatsApp Web"
     },
     {
      "prio": 1.5,
@@ -268,14 +260,8 @@
   {
    "prio": 1,
    "block": "werkzeuge",
-   "titel": "Takt-Schleife ist rot",
-   "text": "launchd-Job de.david.takt nicht geladen, letzte Runde 14.10. 16:25. Absicht? Dann ~/takt/TAKT_PAUSE anlegen"
-  },
-  {
-   "prio": 1,
-   "block": "werkzeuge",
-   "titel": "Perplexity ist rot",
-   "text": "letzter Lauf 16:21: LOGIN FEHLT: nach drei Versuchen ueber die ToolSuite-Kachel nicht angemeldet; KALTSTART_NOETIG gesetzt, Recherche-Schlange pausiert"
+   "titel": "3 Werkzeuge rot",
+   "text": "Takt-Schleife, Perplexity, WhatsApp Web"
   },
   {
    "prio": 2,
@@ -378,7 +364,7 @@
      "ampel": "rot",
      "detail": "0 Bilder, 0 Videos, neu seit Montag, 02.11., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
      "quelle": "Erstellzeit der Dateien in creatives/fertig, 05_creatives/ads, 05_creatives/ki/fertig",
-     "stand": "22:17",
+     "stand": "22:32",
      "ziel": null
     },
     {
@@ -438,7 +424,7 @@
      "ampel": "grau",
      "detail": "1 Zeile im Codeblock (Formatbeispiel) nicht gezählt. Steht dort eine echte Aufgabe, gehört sie aus dem Block heraus.",
      "quelle": "timo/OFFEN.md",
-     "stand": "22:17",
+     "stand": "22:32",
      "ziel": null
     },
     {
@@ -567,7 +553,7 @@
    "zeilen": [
     {
      "name": "Wächter, letzter Lauf",
-     "wert": "22:13",
+     "wert": "22:29",
      "ampel": "gruen",
      "detail": null,
      "quelle": "waechter_zustand.json",
@@ -598,7 +584,7 @@
      "name": "Crosspost",
      "schluessel": "crosspost",
      "ampel": "gruen",
-     "text": "laeuft (pid 89301), Herzschlag vor 0 s, postet, letzter Fehler: 2026-11-02T21:11:37.461Z The operation was aborted due to ti"
+     "text": "laeuft (pid 89301), Herzschlag vor 7 s, postet, letzter Fehler: 2026-11-02T21:27:55.753Z The operation was aborted due to ti"
     },
     {
      "name": "Speicher",
@@ -615,8 +601,8 @@
     {
      "name": "WhatsApp Web",
      "schluessel": "whatsapp",
-     "ampel": "gruen",
-     "text": "Chatliste gelesen (apple, 10 Zeilen), 6 von 6 Lieferanten sichtbar"
+     "ampel": "rot",
+     "text": "BLIND, 0 von 6 Lieferanten sichtbar: Suchfeld filtert die Chatliste auf \"To-Dos\"; Chatliste gelesen (apple, 2 Zeilen), nicht sichtbar: Bonnie DS, John (Supplier), Adam DS, Mr Anh, Vito DS, Joel DS"
     },
     {
      "name": "Shopify",
@@ -640,7 +626,7 @@
      "name": "Ereignis-Sensor",
      "schluessel": "ereignisse",
      "ampel": "gruen",
-     "text": "letzter Lauf 22:13, 6 offene Ereignisse, aeltestes 19:17"
+     "text": "letzter Lauf 22:29, 6 offene Ereignisse, aeltestes 19:17"
     },
     {
      "name": "Chrome auf Timos PC",
