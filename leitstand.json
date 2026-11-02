@@ -1,7 +1,7 @@
 {
  "version": 2,
- "stand": "2026-11-02T14:17:05Z",
- "stand_berlin": "02.11.2026 15:17",
+ "stand": "2026-11-02T14:32:05Z",
+ "stand_berlin": "02.11.2026 15:32",
  "takt_min": 15,
  "quelle": "takt/leitstand_bauen.py auf Davids Mac, ohne Modell",
  "ziele": {
@@ -48,12 +48,12 @@
     },
     {
      "name": "Technik",
-     "text": "Der Wächter prüft alle 5 Minuten 10 Werkzeuge: 7 gehen, 2 kaputt (Takt-Schleife, Perplexity), 1 warten auf Zugang oder sind aus (Meta). 1 weiteres prüft er noch nicht.",
+     "text": "Der Wächter prüft alle 5 Minuten 11 Werkzeuge: 7 gehen, 2 kaputt (Takt-Schleife, Perplexity), 2 warten auf Zugang oder sind aus (Curlmoon, Meta). 1 weiteres prüft er noch nicht.",
      "ampel": "rot"
     },
     {
      "name": "Chef-Runde",
-     "text": "Seit 454 h 52 min keine Runde. Die letzte (Chef-Runde, 14.10. 16:25): Takt ohne Ergebniszeile beendet (rc=1), Protokoll in ~/takt/laeufe.",
+     "text": "Seit 455 h 07 min keine Runde. Die letzte (Chef-Runde, 14.10. 16:25): Takt ohne Ergebniszeile beendet (rc=1), Protokoll in ~/takt/laeufe.",
      "ampel": "rot"
     }
    ]
@@ -378,7 +378,7 @@
      "ampel": "rot",
      "detail": "0 Bilder, 0 Videos, neu seit Montag, 02.11., jedes Format einzeln gezählt. Gebaut heißt nicht live.",
      "quelle": "Erstellzeit der Dateien in creatives/fertig, 05_creatives/ads, 05_creatives/ki/fertig",
-     "stand": "15:17",
+     "stand": "15:32",
      "ziel": null
     },
     {
@@ -438,7 +438,7 @@
      "ampel": "grau",
      "detail": "1 Zeile im Codeblock (Formatbeispiel) nicht gezählt. Steht dort eine echte Aufgabe, gehört sie aus dem Block heraus.",
      "quelle": "timo/OFFEN.md",
-     "stand": "15:17",
+     "stand": "15:32",
      "ziel": null
     },
     {
@@ -567,7 +567,7 @@
    "zeilen": [
     {
      "name": "Wächter, letzter Lauf",
-     "wert": "15:16",
+     "wert": "15:32",
      "ampel": "gruen",
      "detail": null,
      "quelle": "waechter_zustand.json",
@@ -598,7 +598,7 @@
      "name": "Crosspost",
      "schluessel": "crosspost",
      "ampel": "gruen",
-     "text": "laeuft (pid 89301), Herzschlag vor 1 s, postet, letzter Fehler: 2026-11-01T22:30:39.969Z The operation was aborted due to ti"
+     "text": "laeuft (pid 89301), Herzschlag vor 6 s, postet, letzter Fehler: 2026-11-01T22:30:39.969Z The operation was aborted due to ti"
     },
     {
      "name": "Speicher",
@@ -625,6 +625,12 @@
      "text": "12 Bestellungen gelesen"
     },
     {
+     "name": "Curlmoon",
+     "schluessel": "curlmoon",
+     "ampel": "grau",
+     "text": "wartet auf Zugang: ~/takt/zugaenge.json nennt keinen Curlmoon-Zugang (curlmoon.client_id und client_secret einer Dev-Dashboard-App mit read_orders im Shop 3dpdrz-7r). Eintragen im eigenen Terminal: python3 ~/takt/zugang_eintragen.py curlmoon"
+    },
+    {
      "name": "Meta",
      "schluessel": "meta",
      "ampel": "grau",
@@ -634,7 +640,7 @@
      "name": "Ereignis-Sensor",
      "schluessel": "ereignisse",
      "ampel": "gruen",
-     "text": "letzter Lauf 15:16, 6 offene Ereignisse, aeltestes 19:17"
+     "text": "letzter Lauf 15:31, 6 offene Ereignisse, aeltestes 19:17"
     },
     {
      "name": "Chrome auf Timos PC",
